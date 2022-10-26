@@ -1,10 +1,12 @@
 <template>
 
-  <Tutorial />
+  <project-intro/>
+
 </template>
 
 <script>
 export default {
-  name: 'IndexPage',
+  name: 'it-back',
 }
 </script>
+
