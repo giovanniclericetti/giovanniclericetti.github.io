@@ -1,6 +1,8 @@
 <template>
 
-  <div class="it-back container mt-5">
+  <div class="it-back">
+
+  <div class="container my-5">
 
   <Project-Intro
 
@@ -38,28 +40,52 @@ Programmazione (HTML, CSS, JS, Arduino)"
 
     <div>
 
-      FOTO1
-
     </div>
 
-    <b-row>
-      <b-col cols="12" md="12" >
+    <b-row class="mt-4">
+      <b-col cols="12" md="12" class=" py-3 px-3">
         <div class="projectbox">
-        <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_cover.png?raw=true">
+        <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_1.png?raw=true">
         </div>
       </b-col>
 
-      <b-col cols="12" md="6" class="pr-md-0">
+      <b-col cols="12" md="12" class=" py-3 px-3">
         <div class="projectbox">
-        <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_cover.png?raw=true">  </div>
+          <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_2.png?raw=true">
+        </div>
       </b-col>
 
-      <b-col cols="12" md="6" class="pl-md-0">
-        <div class="projectbox"> <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_cover.png?raw=true">  </div>
+      <b-col cols="12" md="6" class=" py-3 px-3">
+        <div class="projectbox">
+        <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_3.png?raw=true">  </div>
       </b-col>
+
+      <b-col cols="12" md="6" class=" py-3 px-3">
+        <div class="projectbox">
+          <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_4.png?raw=true">  </div>
+      </b-col>
+
+      <b-col cols="12" md="12" class=" py-3 px-3">
+        <div class="projectbox">
+          <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_5.png?raw=true">
+        </div>
+      </b-col>
+
+      <b-col cols="12" md="12" class="py-3 px-3">
+        <div class="projectbox">
+          <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_6.png?raw=true">
+        </div>
+      </b-col>
+
       </b-row>
 
+
+
   </div>
+
+
+  <G-Footer/> </div>
+
 
 </template>
 
@@ -81,6 +107,20 @@ export default {
   max-height: 600px;
   border-radius: 30px;
   overflow: hidden;
+}
+
+@media (max-width: 768px) {
+
+  .projectbox img {
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .projectbox{
+    border-radius: 20px;
+
+  }
+
 }
 
 </style>

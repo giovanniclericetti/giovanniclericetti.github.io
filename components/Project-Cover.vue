@@ -29,6 +29,11 @@ export default {
   object-fit: contain;
 }
 
+@media (max-width: 768px) {
+
+  .projectcover{
+    border-radius: 20px;
+  }}
 
 
 </style>
