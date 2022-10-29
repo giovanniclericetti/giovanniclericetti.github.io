@@ -1,5 +1,5 @@
 <template>
-
+<div class="mt-5">
   <b-row>
     <b-col cols="12" md="7">
 
@@ -21,6 +21,7 @@
 
     </b-col>
   </b-row>
+</div>
 
 </template>
 

@@ -1,6 +1,6 @@
 <template>
 
-  <div class="projectcover">
+  <div class="projectcover my-4">
 
 <img :src="cover">
 
@@ -19,7 +19,6 @@ export default {
 <style>
 
 .projectcover{
-  background-color: red;
   border-radius: 30px;
   overflow: hidden;
   max-height: 500px;
