@@ -2,11 +2,14 @@
 
   <div class="it-back">
 
-  <div class="container my-5">
+  <div class="container my-4">
+
+    <Project-Header/>
 
   <Project-Intro
 
-
+    title="It-Back"
+  subtitle="Designing a digital experience aimed at reviving those outdated technology products, giving them a new value."
   pill1="Branding"
   pill2="UX-UI"
   pill3="Coding"
@@ -57,12 +60,12 @@ Programmazione (HTML, CSS, JS, Arduino)"
 
       <b-col cols="12" md="6" class=" py-3 px-3">
         <div class="projectbox">
-        <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_3.png?raw=true">  </div>
+        <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_4.png?raw=true">  </div>
       </b-col>
 
       <b-col cols="12" md="6" class=" py-3 px-3">
         <div class="projectbox">
-          <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_4.png?raw=true">  </div>
+          <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_3.png?raw=true">  </div>
       </b-col>
 
       <b-col cols="12" md="12" class=" py-3 px-3">
@@ -78,6 +81,12 @@ Programmazione (HTML, CSS, JS, Arduino)"
       </b-col>
 
       </b-row>
+
+
+  <ProjectNextPrevious
+    previous="Fatti di Dati"
+    next="Disruptive"
+  />
 
 
 

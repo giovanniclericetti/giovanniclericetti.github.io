@@ -3,15 +3,20 @@
   <div class="container-fluid footer justify-content-center p-5">
 
 
-    <b-row class="text-cente mx-4">
-      <b-col cols="auto" class="p-md-0 d-none d-md-block" > <h5> Giovanni Clericetti, 2022 </h5> </b-col>
+    <b-row class="text-cente flex-column-reverse flex-md-row mx-md-5">
+      <b-col cols="md-auto 12" class="p-md-0 d-md-block mt-4 mt-md-0 pt-2 pt-md-0" > <h5 class="text-center"> Giovanni Clericetti, 2022 </h5> </b-col>
       <b-col >  </b-col>
-      <b-col cols="md-auto 12" class="d-md-flex px-md-0">
-        <a href=""><h5 class="pr-md-3 p-md-0">Mail</h5></a>
-        <a href=""><h5 class="px-md-3">Linkedin</h5></a>
-        <a href=""><h5 class="px-md-3">Github</h5></a>
-        <a href=""><h5 class="px-md-3">Telegram</h5></a>
-        <a href=""><h5 class="pl-md-3 p-md-0">Instagram</h5></a>
+      <b-col cols="md-auto 12" class="d-flex px-0 justify-content-center" >
+        <a href="" class="mx-md-3 mx-4"><h5 class=" p-md-0 d-md-block d-none">Mail</h5>
+          <div class=" p-md-0 d-md-none"> <img src="~static/icons/mail.svg" />  </div></a>
+        <a href="" class="mx-md-3 mx-4"><h5 class=" d-md-block d-none">Linkedin</h5>
+          <div class=" p-md-0 d-md-none"> <img src="~static/icons/linkedin.svg" />  </div></a>
+        <a href="" class="mx-md-3 mx-4"><h5 class=" d-md-block d-none">Github</h5>
+          <div class=" p-md-0 d-md-none"> <img src="~static/icons/github.svg" />  </div></a>
+        <a href="" class="mx-md-3 mx-4"><h5 class=" d-md-block d-none">Telegram</h5>
+          <div class=" p-md-0 d-md-none"> <img src="~static/icons/telegram.svg" />  </div></a>
+        <a href="" class="mx-md-3 mx-4"><h5 class=" d-md-block d-none p-md-0">Instagram</h5>
+          <div class=" p-md-0 d-md-none"> <img src="~static/icons/instagram.svg" />  </div></a>
       </b-col>
     </b-row>
 
