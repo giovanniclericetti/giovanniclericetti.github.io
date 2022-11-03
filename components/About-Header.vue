@@ -4,8 +4,8 @@
 
 
     <b-row class="p-0 m-0" align-v="center">
-      <b-col cols="6" class="p-0 gradient">  <a href="index"> <b-icon icon="arrow-left-circle-fill" style="width: 30px; height: 30px;"></b-icon> </a> </b-col>
-      <b-col cols="6" class="p-0 text-right"> <a href="about" > <h5 class="m-0 " > About Me </h5> </a> </b-col>
+      <b-col cols="6" class="p-0 gradient">  <NuxtLink to="/"> <b-icon icon="arrow-left-circle-fill" style="width: 30px; height: 30px;"></b-icon> </NuxtLink> </b-col>
+      <b-col cols="6" class="p-0 text-right"> <NuxtLink to="about"> <h5 class="m-0 " > About Me </h5> </NuxtLink> </b-col>
     </b-row>
 
 
@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: "G-Footer"
+  name: "GFooter"
 }
 </script>
 
