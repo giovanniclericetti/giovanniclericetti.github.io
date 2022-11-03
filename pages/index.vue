@@ -1,6 +1,8 @@
 <template>
+<div class="container my-4">
+  <IndexHeader></IndexHeader>
 
-  <div class="container bg-primary mt-5">
+  <div class=" bg-primary mt-5">
 
     <H2 style="width: 90%"> Hey! My name is <span class="name gradient"> Giovanni </span>, I’m an Italian communication and
       experience designer based in Milan. I graduated in Communication
@@ -10,7 +12,7 @@
     <b-button class="bg-warning"> <a href="about"> <h4> About </h4> </a></b-button>
     <b-button class="bg-warning"> <a href="it-back"> <h4> It-Back </h4> </a></b-button>
 
-  </div>
+  </div></div>
 
 </template>
 
