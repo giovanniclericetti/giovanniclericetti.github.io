@@ -12,7 +12,12 @@
     <b-button class="bg-warning"> <a href="about"> <h4> About </h4> </a></b-button>
     <b-button class="bg-warning"> <a href="it-back"> <h4> It-Back </h4> </a></b-button>
 
-  </div></div>
+  </div>
+
+<PortfolioGrid></PortfolioGrid>
+
+
+</div>
 
 </template>
 

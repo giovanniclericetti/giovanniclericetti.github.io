@@ -24,11 +24,13 @@
 
         <b-row class="bg-danger" style="height: 35%" >
           <b-col cols="" class="bg-white square">
-            ciao
+            BELLA BRO
           </b-col>
 
           <b-col cols="" class="bg-white square">
-            ciao
+            <h4>ottobre</h4>
+            milo, filo mari, sicci
+
           </b-col>
 
           <b-col cols="" class="bg-white square">
