@@ -1,8 +1,13 @@
 <template>
 
-  <div class="column ux-ui branding projectcard">
-    DIV NUOVO
-    <h2> ciao</h2>
+  <div class="column projectcard ">
+
+    <b-row class="bio m-3 bg-secondary">
+
+      <b-col cols="2" class="bg-primary"><b-icon icon="arrow-up-right-circle-fill" style="width: 40px; height: 40px; color:white;"></b-icon></b-col>
+      <b-col cols="10"> <h6>   {{ bio }}  </h6> </b-col>
+
+     </b-row>
   </div>
 
 
@@ -11,7 +16,7 @@
 <script>
 export default {
   name: "Portfolio-Card",
-  props: ['cover'],
+  props: ['bio'],
 }
 </script>
 
@@ -21,15 +26,25 @@ export default {
 .projectcard{
   border: solid 5px pink;
   border-radius: 20px;
-  background-image: url('https://m.media-amazon.com/images/I/71+mhWHnBdL._SL1500_.jpg');
   overflow: hidden;
   background-size: 100%;
   width: 100%;
-  height: 400px;
   background-position: center;
   background-repeat: no-repeat;
   transition: 0.3s ease-in-out;
+  position: relative;
+
 }
+
+.bio{
+  position: absolute;
+  bottom: 0;
+}
+
+.bio h6{
+  color: white;
+}
+
 
 .projectcard:hover{
   background-size: 105%;
