@@ -8,8 +8,12 @@
       <button :class="['btn mx-2', currentCategory === 'branding' && 'active']" @click="currentCategory = 'branding'">
         Branding
       </button>
-      <button class="btn mx-2" onclick="filterSelection('coding')"> Coding</button>
-      <button class="btn mx-2" @click="filterSelection('graphic')"> Graphic</button>
+      <button :class="['btn mx-2', currentCategory === 'coding' && 'active']" @click="currentCategory = 'coding'">
+        Coding
+      </button>
+      <button :class="['btn mx-2', currentCategory === 'graphic' && 'active']" @click="currentCategory = 'graphic'">
+        Graphic
+      </button>
     </div>
 
     <b-row>
@@ -17,31 +21,13 @@
       <b-col cols="12" md="6" lg="4">
 
         <PortfolioCard
-          v-if="!currentCategory || currentCategory === 'ux-ui'"
-          class="column card-large card-it-back" to="it-back"
-          bio="Design-centered digital exhibition on Sergio Marchionne and his reconstruction story."
+          :currentCategory="currentCategory"
+          v-bind="projects.disruptive"
         />
-
-        <PortfolioCard class="column ux-ui card-large card-sourdata"/>
-
-        <div class="column coding">
-          <div class="content">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg" alt="coding"
-                 style="width:100%">
-          </div>
-        </div>
-
 
       </b-col>
 
       <b-col cols="12" md="6" lg="4">
-
-        <div class="column coding">
-          <div class="content bg-image hover-zoom">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg" alt="coding"
-                 style="width:100%">
-          </div>
-        </div>
 
         <div class="column branding graphic ">
           <div class="content">
@@ -52,6 +38,7 @@
       </b-col>
 
       <b-col cols="12" md="6" lg="4">
+
         <div class="column branding">
           <div class="content"> ciao
             <img src="https://m.media-amazon.com/images/I/71+mhWHnBdL._SL1500_.jpg" alt="Car" style="width:100%">
@@ -73,6 +60,7 @@
               alt="Lights" style="width:100%">
           </div>
         </div>
+
       </b-col>
 
 
@@ -87,6 +75,18 @@ export default {
   name: "PortfolioGrid",
   data() {
     return {
+      projects: {
+        disruptive: {
+          title: 'Disruptive',
+          thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg',
+          mobileThumbnail: '/images/cards/sourdata_sm.png',
+          bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
+          category: 'ux-ui',
+          layout: 'large',
+          class: 'column card-large card-it-back',
+          to: "it-back"
+        }
+      },
       currentCategory: false
     }
   },
@@ -100,26 +100,6 @@ export default {
 
 <style scoped>
 
-.card-small {
-  height: 300px;
-}
-
-.card-medium {
-  height: 400px;
-}
-
-.card-large {
-  height: 500px;
-}
-
-.card-it-back {
-  background-image: url("~static/images/cards/itback.png");
-  background-color: red;
-}
-
-.card-sourdata {
-  background-image: url("~static/images/cards/sourdata.png");
-}
 
 /* Create three equal columns that floats next to each other */
 .column {
@@ -177,26 +157,6 @@ export default {
 .btn.active {
   background-color: red;
   color: white;
-}
-
-@media (max-width: 768px) {
-
-  .card-small {
-    height: 300px;
-  }
-
-  .card-medium {
-    height: 300px;
-  }
-
-  .card-large {
-    height: 300px;
-  }
-
-  .card-it-back {
-    background-image: url("~static/images/cards/sourdata_sm.png");
-  }
-
 }
 
 
