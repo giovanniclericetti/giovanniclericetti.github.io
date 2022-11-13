@@ -21,7 +21,13 @@ But now ... come on, I'll let my projects do some of the talking!
 "
     class=""/>
 
-    <About-Box/>
+    <AboutPhoto
+      class="d-md-none"
+      aboutphoto=""
+
+    />
+
+    <About-Box class="d-md-block d-none" />
 
     <About-CV/>
 

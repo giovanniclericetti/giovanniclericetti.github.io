@@ -17,7 +17,7 @@
   link="Project Website"/>
 
     <Project-Cover
-      cover="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_cover.png?raw=true"
+      cover=""
     />
 
     <ProjectDescription
