@@ -10,7 +10,7 @@
     </b-col>
     <b-col cols="12" md="5">
 
-      <h4 class="mt-2 mt-md-0"> Team </h4>
+      <h4 class="mt-4 mt-md-0"> Team </h4>
       <p> {{ team }} </p>
 
       <h4 class="mt-4"> Role </h4>

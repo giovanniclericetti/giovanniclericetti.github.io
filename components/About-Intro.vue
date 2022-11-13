@@ -3,7 +3,8 @@
 
   <div>
 
-    <h1 class="gradient"> {{title}} </h1>
+    <h1 class="gradient d-md-block d-none"> {{title}} </h1>
+    <h1 class="gradient d-md-none d-block"> {{titlesm}} </h1>
     <h3 class="description"> {{description}}</h3>
 
   </div>
@@ -12,7 +13,7 @@
 <script>
 export default {
   name: 'About-Intro',
-  props: [ 'title', 'description']
+  props: [ 'title', 'titlesm', 'description']
 
 
 }

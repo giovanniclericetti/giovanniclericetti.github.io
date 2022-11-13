@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-4 pr-5">
+  <div class="mt-md-4  mt-3 pr-5">
     <h6>{{ category }}</h6>
     <p >{{ text }}</p>
   </div>

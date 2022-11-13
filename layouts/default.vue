@@ -78,8 +78,8 @@ p {
 
 .it-back {
   --color-primary: #EA4A3C;
-  --color-secondary: green;
-  --color-success: #3C83ED;
+  --color-secondary: green; /* Progetto Successivo */
+  --color-success: red; /* Progetto Precedente */
 }
 
 .pills {
@@ -136,10 +136,18 @@ p {
 
 @media (max-width: 768px) {
 
+h1{
+  font-size: 52px;
+}
 
 h2 {
   font-size: 24px;
 }
+
+h3{
+  font-size: 20px;
+}
+
 
   p{
     font-size: 16px;

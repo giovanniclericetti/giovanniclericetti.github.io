@@ -2,14 +2,15 @@
 
   <div class="mt-5">
     <b-row>
+
       <b-col cols="12" md="4">
 
         <h4 class="gradient"> Education </h4>
 
-      <AboutCvElement
-        category="2022 - ongoing"
-        text="Master Degree in Communication Design at Politecnico di Milano"
-      />
+        <AboutCvElement
+          category="2022 - ongoing"
+          text="Master Degree in Communication Design at Politecnico di Milano"
+        />
 
         <AboutCvElement
           category="2019-2022"
@@ -21,7 +22,7 @@
           text="Artistic High School at Fondazione Sacro Cuore in Milan (Architecture)"
         />
 
-        <h4 class="gradient mt-5"> Languages </h4>
+        <h4 class="gradient mt-md-5 mt-4"> Languages </h4>
 
         <AboutCvElement
           category="Italian"
@@ -37,7 +38,7 @@
 
       <b-col cols="12" md="4">
 
-        <h4 class="gradient"> Work Experiences </h4>
+        <h4 class="gradient mt-md-0 mt-4"> Work Experiences </h4>
 
         <AboutCvElement
           category="2020-2022"
@@ -63,7 +64,7 @@
 
       <b-col cols="12" md="4">
 
-        <h4 class="gradient"> Software </h4>
+        <h4 class="gradient mt-md-0 mt-4"> Software </h4>
 
         <AboutCvElement
           category="Adobe CC"
@@ -85,11 +86,14 @@
           text="HTML, CSS, Javascript, Wordpress "
         />
 
-        <h4 class="gradient mt-5"> <b-icon class="mr-2" shift-v="-3" icon="arrow-down-right-circle-fill" style="width: 35px; height: 35px; color: #FF6E60"></b-icon> Download CV </h4>
+        <h4 class="gradient mt-5">
+          <b-icon class="mr-2" shift-v="-3" icon="arrow-down-right-circle-fill"
+                  style="width: 35px; height: 35px; color: #FF6E60"></b-icon>
+          Download CV
+        </h4>
 
 
       </b-col>
-
 
 
     </b-row>
@@ -105,7 +109,6 @@ export default {
 </script>
 
 <style scoped>
-
 
 
 </style>

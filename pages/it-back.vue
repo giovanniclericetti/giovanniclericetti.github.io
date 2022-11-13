@@ -13,7 +13,8 @@
   pill1="Branding"
   pill2="UX-UI"
   pill3="Coding"
-  pill4="Social Media"/>
+    pill4="Social Media"
+  link="Project Website"/>
 
     <Project-Cover
       cover="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_cover.png?raw=true"
@@ -46,35 +47,35 @@ Programmazione (HTML, CSS, JS, Arduino)"
     </div>
 
     <b-row class="mt-4">
-      <b-col cols="12" md="12" class=" py-3 px-3">
+      <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
         <div class="projectbox">
         <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_1.png?raw=true">
         </div>
       </b-col>
 
-      <b-col cols="12" md="12" class=" py-3 px-3">
+      <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
         <div class="projectbox">
           <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_2.png?raw=true">
         </div>
       </b-col>
 
-      <b-col cols="12" md="6" class=" py-3 px-3">
+      <b-col cols="12" md="6" class=" py-md-3  py-2 px-3">
         <div class="projectbox">
         <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_4.png?raw=true">  </div>
       </b-col>
 
-      <b-col cols="12" md="6" class=" py-3 px-3">
+      <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
         <div class="projectbox">
           <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_3.png?raw=true">  </div>
       </b-col>
 
-      <b-col cols="12" md="12" class=" py-3 px-3">
+      <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
         <div class="projectbox">
           <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_5.png?raw=true">
         </div>
       </b-col>
 
-      <b-col cols="12" md="12" class="py-3 px-3">
+      <b-col cols="12" md="12" class="py-md-3 py-2 px-3">
         <div class="projectbox">
           <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_6.png?raw=true">
         </div>
@@ -86,6 +87,8 @@ Programmazione (HTML, CSS, JS, Arduino)"
   <ProjectNextPrevious
     previous="Fatti di Dati"
     next="Disruptive"
+    toprevious="about"
+    tonext="about"
   />
 
 
