@@ -1,18 +1,13 @@
 <template>
-  <div v-if="!currentCategory || currentCategory === category" class="column projectcard">
+  <div v-if="!currentCategory || currentCategory === category" class="projectcard">
     <NuxtLink :to="to">
       <div class="card-background">
         <img :src="thumbnail" class="d-none d-md-block"/>
         <img :src="mobileThumbnail" class="d-md-none"/>
       </div>
-      <b-row class="bio  m-3" align-v="center">
+      <b-row class="bio m-3" align-v="center">
 
-        <!--
-        <b-col cols="0" class="" align-self="center">
-          <b-icon icon="arrow-up-right-circle-fill" style="width: 40px; height: 40px; color:white;"></b-icon>
-        </b-col> -->
-
-        <b-col cols="8" md="10" class="pl-3 pt-1" ><h6> {{ bio }} </h6></b-col>
+        <b-col cols="12" md="10" class="" ><h6> {{ bio }} </h6></b-col>
 
       </b-row>
     </NuxtLink>
@@ -29,7 +24,6 @@ export default {
     mobileThumbnail: String,
     bio: String,
     category: String,
-    layout: String,
     currentCategory: [String, Boolean],
     to: [String],
   },
@@ -46,6 +40,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  margin-bottom: 32px;
 
   .card-background {
     overflow: hidden;
@@ -63,7 +58,7 @@ export default {
   &:hover {
 
     .card-background img {
-      transform: scale(1.05);
+      transform: scale(1.04);
     }
 
   }
@@ -103,6 +98,9 @@ export default {
   .card-large {
     height: 300px;
   }
+
+  .projectcard {
+    margin-bottom: 16px;}
 
 
 }

@@ -1,6 +1,6 @@
 <template>
 
-  <div class="it-back">
+  <div class="it-back ">
 
   <div class="container my-4">
 
@@ -93,7 +93,7 @@ Programmazione (HTML, CSS, JS, Arduino)"
   </div>
 
 
-  <G-Footer/> </div>
+  <PortfolioFooter/> </div>
 
 
 </template>

@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: "G-Footer"
+  name: "ProjectHeader"
 }
 </script>
 

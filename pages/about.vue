@@ -20,7 +20,7 @@
 
   </div>
 
-  <G-Footer class="mt-5"/>
+  <PortfolioFooter class="mt-5"/>
 
 </div>
 

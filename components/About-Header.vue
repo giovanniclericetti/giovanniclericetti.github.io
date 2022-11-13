@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: "GFooter"
+  name: "About-Header"
 }
 </script>
 

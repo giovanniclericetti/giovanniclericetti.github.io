@@ -5,10 +5,10 @@
 <script>
 export default {
   name: "DefaultLayout",
-  head(){
+  head() {
     return {
       link: [
-        {href:'https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap', rel:'stylesheet'}
+        {href: 'https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap', rel: 'stylesheet'}
       ]
     }
   }
@@ -18,61 +18,62 @@ export default {
 
 <style>
 
-body{
+body {
   background-color: #F6F2F2;
 }
 
-h1{
+h1 {
   font-family: "title-bold";
   color: var(--color-primary);
   font-size: 64pt;
   font-weight: 100;
 }
 
-h2{
+h2 {
   font-family: 'DM Sans';
   font-size: 32px;
   font-weight: 400;
 }
 
-h3{
+h3 {
   font-family: 'DM Sans', sans-serif;
   font-size: 24px;
   font-weight: 400;
 }
 
-h4{
+h4 {
   font-family: 'title-bold';
   font-size: 20px;
   font-weight: 400;
   color: var(--color-primary);
 }
 
-h5{
+h5 {
   font-family: 'title-regular';
   font-size: 16px;
   font-weight: 400;
 }
 
-h6{
+h6 {
   font-family: 'title-regular';
   font-size: 14px;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.5);
 }
 
-p{
+p {
   font-family: 'DM Sans', sans-serif;
   font-size: 18px;
   font-weight: 400;
+  margin: 0px;
 }
 
-.gradient{
+.gradient {
   background: -webkit-linear-gradient(45deg, #FFA857, #FF4466);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   width: fit-content;
-  --color-primary:#FF6E60;
+  --color-primary: #FF6E60;
 }
 
 .it-back {
@@ -81,7 +82,7 @@ p{
   --color-success: #3C83ED;
 }
 
-.pills{
+.pills {
   border-radius: 20px;
   background-color: var(--color-primary);
   border: none;
@@ -132,6 +133,21 @@ p{
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/dmsans/v11/rP2Hp2ywxg089UriCZOIHTWEBlw.woff2) format('woff2');
 }
+
+@media (max-width: 768px) {
+
+
+h2 {
+  font-size: 24px;
+}
+
+  p{
+    font-size: 16px;
+  }
+
+}
+
+
 
 
 </style>
