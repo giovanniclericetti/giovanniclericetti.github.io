@@ -25,7 +25,7 @@ But now ... come on, I'll let my projects do some of the talking!
       class="d-md-none"
     />
 
-    <About-Box class="d-md-block d-none" />
+    <About-Box class="d-lg-block d-none" />
 
     <About-CV/>
 

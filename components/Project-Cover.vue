@@ -33,12 +33,12 @@ export default {
 
   .projectcover{
     border-radius: 20px;
-    height: 500px;
+    height: 250px;
   }
 
   .projectcover img{
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
   }
 
 }

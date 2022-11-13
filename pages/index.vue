@@ -7,7 +7,7 @@
 
   <div class=" mt-5">
 
-    <h2 style="width: 90%"> Hey! My name is <span class="name gradient"> Giovanni </span>, I’m an Italian communication and
+    <h2 style="width: 90%"> Hey! My name is <span class="name gradient">Giovanni</span>. I’m an Italian communication and
       experience designer based in Milan. I graduated in Communication
       Design at the Polimi and now I am attending a master's program. </h2>
 
@@ -29,7 +29,7 @@ export default {
 }
 </script>
 
-<style>
+<style >
 
 .name{
   font-family: 'title-bold';

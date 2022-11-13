@@ -1,24 +1,27 @@
 <template>
   <div>
 
-    <div id="" class="text-center my-5">
-      <div :class="['btn', !currentCategory && 'active']" @click="currentCategory = false"> <p>All</p></div>
-      <div :class="['btn', currentCategory === 'ux-ui' && 'active']" @click="currentCategory = 'ux-ui'"><p>UX/UI</p>
-      </div>
-      <div :class="['btn', currentCategory === 'branding' && 'active']" @click="currentCategory = 'branding'">
-        <p>Branding</p>
-      </div>
-      <div :class="['btn', currentCategory === 'coding' && 'active']" @click="currentCategory = 'coding'">
-        <p>Coding</p>
-      </div>
-      <div :class="['btn', currentCategory === 'graphic' && 'active']" @click="currentCategory = 'graphic'">
-        <p>Graphic</p>
+    <div id="" class="container text-center my-5 d-flex justify-content-center">
+
+      <div class="slider p-1 ">
+        <div :class="['btn', !currentCategory && 'active']" @click="currentCategory = false"><p>All</p></div>
+        <div :class="['btn', currentCategory === 'ux-ui' && 'active']" @click="currentCategory = 'ux-ui'"><p>UX/UI</p>
+        </div>
+        <div :class="['btn', currentCategory === 'branding' && 'active']" @click="currentCategory = 'branding'">
+          <p>Branding</p>
+        </div>
+        <div :class="['btn', currentCategory === 'coding' && 'active']" @click="currentCategory = 'coding'">
+          <p>Coding</p>
+        </div>
+        <div :class="['btn', currentCategory === 'graphic' && 'active']" @click="currentCategory = 'graphic'">
+          <p>Graphic</p>
+        </div>
       </div>
     </div>
 
     <b-row class="">
 
-      <b-col cols="12" md="6" lg="4" >
+      <b-col cols="12" md="6" lg="4">
 
         <PortfolioCard
           :currentCategory="currentCategory"
@@ -115,26 +118,50 @@ export default {
 </script>
 
 
-<style scoped>
+<style scoped lang="scss">
 
 
-/* Style the buttons */
+.slider {
+  background-color: #ECE9E9;
+  border-radius: 100px;
+  width: max-content;
+}
+
 .btn {
   border: none;
-  background-color: white;
+  background-color: #ECE9E9;
   cursor: pointer;
+  border-radius: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+
 }
 
 /* Add a grey background color on mouse-over */
 .btn:hover {
-  background-color: pink;
+  background: #F6F2F2;
+  transition: 0.25s ease-out;
 }
 
 /* Add a dark background color to the active button */
 .btn.active {
-  background-color: red;
-  color: white;
-}
+  /*background: -webkit-linear-gradient(45deg, #FFA857, #FF4466);
+  color: white;*/
+  background: white;
 
+/*p{
+  background: -webkit-linear-gradient(45deg, #FFA857, #FF4466);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+}*/
+
+}
+@media (max-width: 768px) {
+.btn {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+}
 
 </style>
