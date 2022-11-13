@@ -23,8 +23,6 @@ But now ... come on, I'll let my projects do some of the talking!
 
     <AboutPhoto
       class="d-md-none"
-      aboutphoto=""
-
     />
 
     <About-Box class="d-md-block d-none" />

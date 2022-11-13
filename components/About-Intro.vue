@@ -22,7 +22,7 @@ export default {
 <style>
 
 .description{
-  max-width: 75%;
+  max-width: 85%;
   line-height: 120%;
 }
 

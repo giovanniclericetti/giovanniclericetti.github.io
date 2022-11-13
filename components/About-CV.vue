@@ -86,10 +86,10 @@
           text="HTML, CSS, Javascript, Wordpress "
         />
 
-        <h4 class="gradient mt-5">
+        <h4 class="gradient mt-5 ">
           <b-icon class="mr-2" shift-v="-3" icon="arrow-down-right-circle-fill"
                   style="width: 35px; height: 35px; color: #FF6E60"></b-icon>
-          Download CV
+          <span class="hover-underline-animation gradient downloadcv"> Download CV </span>
         </h4>
 
 
@@ -109,6 +109,8 @@ export default {
 </script>
 
 <style scoped>
+
+
 
 
 </style>

@@ -4,6 +4,7 @@
 
 <img :src="cover">
 
+
   </div>
 
 </template>
@@ -32,12 +33,12 @@ export default {
 
   .projectcover{
     border-radius: 20px;
-    height: 250px;
+    height: 500px;
   }
 
   .projectcover img{
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
 
 }

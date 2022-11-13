@@ -1,55 +1,63 @@
 <template>
 
-  <div class="mt-5">
+  <div class="mt-5 container">
 
     <b-row align-v="stretch" class="bg-secondary">
-      <b-col cols="5" >
 
-        <div class="bg-primary photo">CIAO</div>
+      <b-col cols="5" class="p-0">
+        PRIMA BLOCCO
+      </b-col>
+
+      <b-col cols="7" class="bg-white">
+
+        <b-row>
+
+          <b-col cols="8" class="bg-primary square">
+            BOVISA
+          </b-col>
+
+          <b-col cols="4" class="bg-danger square">
+            PORTA ROMANA
+          </b-col>
+
+
+        </b-row>
+
+        <b-row>
+
+          <b-col cols="2" class="bg-warning p-0">
+            <div class="socialbox m-2 "> <img src="~static/images/aboutme/mail.svg" /> </div>
+          </b-col>
+
+          <b-col cols="2" class="bg-warning p-0">
+            <div class="socialbox m-2 "> <img src="~static/images/aboutme/linkedin.svg" /> </div>
+          </b-col>
+
+          <b-col cols="2" class="bg-warning p-0">
+            <div class="socialbox m-2 "> <img src="~static/images/aboutme/github.svg" /> </div>
+          </b-col>
+
+          <b-col cols="2" class="bg-warning p-0">
+            <div class="socialbox m-2 "> <img src="~static/images/aboutme/telegram.svg" /> </div>
+          </b-col>
+
+          <b-col cols="2" class="bg-warning p-0">
+            <div class="socialbox m-2 "> <img src="~static/images/aboutme/instagram.svg" /> </div>
+          </b-col>
+
+          <b-col cols="2" class="bg-warning p-0">
+            <div class="socialbox m-2 "> <img src="~static/images/aboutme/github.svg" /> </div>
+          </b-col>
+
+
+
+        </b-row>
 
       </b-col>
 
 
-      <b-col class="photo">
-
-        <b-row class="bg-primary" style="height: 65%; " >
-          <b-col cols="7" class="bg-white square " >
-            ciao
-          </b-col>
-
-          <b-col cols="" class="bg-white square ">
-            ciao
-          </b-col>
-        </b-row>
-
-        <b-row class="bg-danger" style="height: 35%" >
-          <b-col cols="" class="bg-white square">
-            BELLA BRO
-          </b-col>
-
-          <b-col cols="" class="bg-white square">
-            <h4>ottobre</h4>
-            milo, filo mari, sicci
-
-          </b-col>
-
-          <b-col cols="" class="bg-white square">
-            ciao
-          </b-col>
-
-          <b-col cols="" class="bg-white square ">
-            ciao
-          </b-col>
-
-          <b-col cols="" class="bg-white square">
-            ciao
-          </b-col>
-
-        </b-row>
 
 
-
-      </b-col>
     </b-row>
 
   </div>
@@ -62,18 +70,31 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 
-.photo{
+.photo {
   border: 1px solid;
-  height: 400px;
 }
 
-.square{
+.socialbox {
+  border-radius: 20px;
+  overflow: hidden;
 
-  width: 100%;
-  box-sizing: border-box;
-  border-radius: 30px;
 }
+
+.socialbox img {
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  max-width: 100%;
+
+  &:hover {
+
+    transform: scale(1.07);
+
+  }
+
+}
+
 
 </style>
