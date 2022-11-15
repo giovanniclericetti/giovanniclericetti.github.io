@@ -1,6 +1,6 @@
 <template>
 
-  <div class="container-fluid footer justify-content-center p-5">
+  <div class="container-fluid footer justify-content-center pt-5 pb-md-5 pb-2">
 
 
     <b-row class="text-center flex-column-reverse flex-md-row mx-md-5">

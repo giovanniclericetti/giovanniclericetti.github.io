@@ -5,7 +5,7 @@
         <img :src="thumbnail" class="d-none d-md-block"/>
         <img :src="mobileThumbnail" class="d-md-none"/>
       </div>
-      <b-row class="bio m-2" align-v="center">
+      <b-row class="bio mx-1 my-2">
 
         <b-col cols="12" md="10" class="" ><h6> {{ bio }} </h6></b-col>
 

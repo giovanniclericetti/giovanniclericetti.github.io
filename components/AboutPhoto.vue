@@ -1,10 +1,33 @@
 <template>
+<div>
 
-  <div class="aboutmephoto my-4">
+  <div class="aboutmephoto mt-4">
 
     <img src="~static/images/aboutme/aboutme.png" />
 
   </div>
+
+  <div class="mx-2 mt-2">
+    <b-row class="">
+
+      <b-col cols="3" class=" p-0">
+        <div class="socialboxsm m-2 "> <img src="~static/images/aboutme/mail.svg" /> </div>
+      </b-col>
+
+      <b-col cols="3" class=" p-0">
+        <div class="socialboxsm m-2 "> <img src="~static/images/aboutme/linkedin.svg" /> </div>
+      </b-col>
+
+      <b-col cols="3" class=" p-0">
+        <div class="socialboxsm m-2 "> <img src="~static/images/aboutme/telegram.svg" /> </div>
+      </b-col>
+
+      <b-col cols="3" class=" p-0">
+        <div class="socialboxsm m-2 "> <img src="~static/images/aboutme/instagram.svg" /> </div>
+      </b-col>
+
+    </b-row>
+  </div></div>
 
 </template>
 
@@ -24,8 +47,22 @@ export default {
 }
 
 .aboutmephoto img{
-  width: 100%;
+  height: 100%;
   object-fit: cover;
+}
+
+
+.socialboxsm {
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.socialboxsm img {
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  max-width: 100%;
+
 }
 
 </style>

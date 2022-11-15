@@ -1,9 +1,9 @@
 <template>
   <div>
 
-    <div id="" class="container text-center my-5 d-flex justify-content-center">
+    <div id="" class="text-center my-5 d-flex justify-content-center">
 
-      <div class="slider p-1 ">
+      <div class="slider p-1">
         <div :class="['btn', !currentCategory && 'active']" @click="currentCategory = false"><p>All</p></div>
         <div :class="['btn', currentCategory === 'ux-ui' && 'active']" @click="currentCategory = 'ux-ui'"><p>UX/UI</p>
         </div>
@@ -159,9 +159,14 @@ export default {
 }
 @media (max-width: 768px) {
 .btn {
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 9px;
+  padding-right: 9px;
 }
+
+  p{
+    font-size: 14px;
+  }
+
 }
 
 </style>
