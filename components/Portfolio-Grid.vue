@@ -19,9 +19,14 @@
       </div>
     </div>
 
-    <b-row class="">
+    <b-row ref="projectsContainer" class="" :style="{minHeight: containerHeight + 'px'}" >
 
       <b-col cols="12" md="6" lg="4">
+
+        <PortfolioCard
+          :currentCategory="currentCategory"
+          v-bind="projects.previewpretest"
+        />
 
         <PortfolioCard
           :currentCategory="currentCategory"
@@ -51,6 +56,16 @@
           v-bind="projects.itback"
         />
 
+        <PortfolioCard
+          :currentCategory="currentCategory"
+          v-bind="projects.previewpretest"
+        />
+
+        <PortfolioCard
+          :currentCategory="currentCategory"
+          v-bind="projects.itback"
+        />
+
       </b-col>
 
 
@@ -65,6 +80,7 @@ export default {
   name: "PortfolioGrid",
   data() {
     return {
+      containerHeight: 0,
       projects: {
 
         disruptive: {
@@ -72,7 +88,7 @@ export default {
           thumbnail: '/images/cards/disruptive.png',
           mobileThumbnail: '/images/cards/disruptive_sm.png',
           bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
-          category: 'ux-ui',
+          category: ['ux-ui'],
           class: 'column card-large',
           to: "it-back"
         },
@@ -82,7 +98,7 @@ export default {
           thumbnail: '/images/cards/itback.png',
           mobileThumbnail: '/images/cards/itback_sm.png',
           bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
-          category: 'coding',
+          category: ['coding'],
           class: 'column card-large',
           to: "it-back"
         },
@@ -92,7 +108,7 @@ export default {
           thumbnail: '/images/cards/sourdata.png',
           mobileThumbnail: '/images/cards/sourdata_sm.png',
           bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
-          category: 'branding',
+          category: ['branding'],
           class: 'column card-large',
           to: "it-back"
         },
@@ -102,7 +118,7 @@ export default {
           thumbnail: '/images/cards/previewpretest.png',
           mobileThumbnail: '/images/cards/previewpretest_sm.png',
           bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
-          category: 'graphic',
+          category: ['graphic','coding'],
           class: 'column card-medium',
           to: "it-back"
         }
@@ -110,7 +126,11 @@ export default {
       currentCategory: false
     }
   },
-  methods: {}
+  methods: {},
+  mounted() {
+    this.containerHeight = this.$refs.projectsContainer.getBoundingClientRect().height
+    console.log(this.containerHeight)
+  }
 
 }
 

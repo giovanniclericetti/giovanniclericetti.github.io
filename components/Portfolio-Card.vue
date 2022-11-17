@@ -1,18 +1,19 @@
 <template>
-  <div v-if="!currentCategory || currentCategory === category" class="projectcard">
-    <NuxtLink :to="to">
-      <div class="card-background">
-        <img :src="thumbnail" class="d-none d-md-block"/>
-        <img :src="mobileThumbnail" class="d-md-none"/>
-      </div>
-      <b-row class="bio mx-1 my-2">
+  <transition name="fadeHeight">
+    <div v-if="!currentCategory || category.includes(currentCategory)" class="projectcard">
+      <NuxtLink :to="to">
+        <div class="card-background">
+          <img :src="thumbnail" class="d-none d-md-block"/>
+          <img :src="mobileThumbnail" class="d-md-none"/>
+        </div>
+        <b-row class="bio mx-1 my-2">
 
-        <b-col cols="12" md="10" class="" ><h6> {{ bio }} </h6></b-col>
+          <b-col cols="12" md="10" class=""><h6> {{ bio }} </h6></b-col>
 
-      </b-row>
-    </NuxtLink>
-  </div>
-
+        </b-row>
+      </NuxtLink>
+    </div>
+  </transition>
 </template>
 
 <script>
@@ -31,6 +32,22 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
+.fadeHeight-enter-active,
+.fadeHeight-leave-active {
+  transition: max-height 0.3s, opacity 0.3s 0.1s;
+  max-height: 100%;
+  opacity: 1;
+}
+.fadeHeight-leave-active {
+  transition: max-height 0.3s 0.1s, opacity 0.2s ;
+}
+.fadeHeight-enter,
+.fadeHeight-leave-to
+{
+  opacity: 0;
+  max-height: 0px;
+}
 
 .projectcard {
   border-radius: 20px;
@@ -100,7 +117,8 @@ export default {
   }
 
   .projectcard {
-    margin-bottom: 16px;}
+    margin-bottom: 16px;
+  }
 
 
 }
