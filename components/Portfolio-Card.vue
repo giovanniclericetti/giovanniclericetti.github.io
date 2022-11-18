@@ -8,7 +8,7 @@
         </div>
         <b-row class="bio mx-1 my-2">
 
-          <b-col cols="12" md="10" class=""><h6> {{ bio }} </h6></b-col>
+          <b-col cols="12" md="10" class=""><h6 style="color: var(--color-secondary);"> {{ bio }} </h6></b-col>
 
         </b-row>
       </NuxtLink>
@@ -32,6 +32,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
+h6{
+  color: white;
+}
 
 .fadeHeight-enter-active,
 .fadeHeight-leave-active {
@@ -87,7 +91,7 @@ export default {
 }
 
 .bio h6 {
-  color: white;
+
 }
 
 .card-small {

@@ -25,12 +25,17 @@
 
         <PortfolioCard
           :currentCategory="currentCategory"
-          v-bind="projects.previewpretest"
+          v-bind="projects.sourdata"
         />
 
         <PortfolioCard
           :currentCategory="currentCategory"
-          v-bind="projects.sourdata"
+          v-bind="projects.aura"
+        />
+
+        <PortfolioCard
+          :currentCategory="currentCategory"
+          v-bind="projects.fattididati"
         />
 
       </b-col>
@@ -47,23 +52,29 @@
           v-bind="projects.disruptive"
         />
 
+        <PortfolioCard
+          :currentCategory="currentCategory"
+          v-bind="projects.cbct"
+        />
+
+
       </b-col>
 
       <b-col cols="12" md="6" lg="4">
 
         <PortfolioCard
           :currentCategory="currentCategory"
-          v-bind="projects.itback"
-        />
-
-        <PortfolioCard
-          :currentCategory="currentCategory"
-          v-bind="projects.previewpretest"
+          v-bind="projects.bellascusa"
         />
 
         <PortfolioCard
           :currentCategory="currentCategory"
           v-bind="projects.itback"
+        />
+
+        <PortfolioCard
+          :currentCategory="currentCategory"
+          v-bind="projects.hively"
         />
 
       </b-col>
@@ -88,8 +99,8 @@ export default {
           thumbnail: '/images/cards/disruptive.png',
           mobileThumbnail: '/images/cards/disruptive_sm.png',
           bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
-          category: ['ux-ui'],
-          class: 'column card-large',
+          category: ['ux-ui', 'branding', 'graphic'],
+          class: 'column card-large biodark',
           to: "it-back"
         },
 
@@ -98,8 +109,8 @@ export default {
           thumbnail: '/images/cards/itback.png',
           mobileThumbnail: '/images/cards/itback_sm.png',
           bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
-          category: ['coding'],
-          class: 'column card-large',
+          category: ['coding', 'ux-ui', 'branding', 'graphic'],
+          class: 'column card-large biowhite',
           to: "it-back"
         },
 
@@ -108,8 +119,8 @@ export default {
           thumbnail: '/images/cards/sourdata.png',
           mobileThumbnail: '/images/cards/sourdata_sm.png',
           bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
-          category: ['branding'],
-          class: 'column card-large',
+          category: ['coding', 'ux-ui', 'branding', 'graphic'],
+          class: 'column card-large biowhite',
           to: "it-back"
         },
 
@@ -118,10 +129,62 @@ export default {
           thumbnail: '/images/cards/previewpretest.png',
           mobileThumbnail: '/images/cards/previewpretest_sm.png',
           bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
-          category: ['graphic','coding'],
-          class: 'column card-medium',
+          category: ['coding', 'ux-ui', 'branding', 'graphic'],
+          class: 'column card-medium biowhite',
+          to: "it-back"
+        },
+
+        fattididati: {
+          title: 'FattiDiDati',
+          thumbnail: '/images/cards/fattididati.png',
+          mobileThumbnail: '/images/cards/fattididati_sm.png',
+          bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
+          category: ['branding', 'graphic', 'ux-ui'],
+          class: 'column card-medium biodark',
+          to: "it-back"
+        },
+
+        cbct: {
+          title: 'cbct',
+          thumbnail: '/images/cards/cbct.png',
+          mobileThumbnail: '/images/cards/cbct_sm.png',
+          bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
+          category: ['coding'],
+          class: 'column card-small biodark',
+          to: "it-back"
+        },
+
+        hively: {
+          title: 'hively',
+          thumbnail: '/images/cards/hively.png',
+          mobileThumbnail: '/images/cards/hively_sm.png',
+          bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
+          category: ['branding', 'graphic'],
+          class: 'column card-small biowhite',
+          to: "it-back"
+        },
+
+        bellascusa: {
+          title: 'bellascusa',
+          thumbnail: '/images/cards/bellascusa.png',
+          mobileThumbnail: '/images/cards/bellascusa_sm.png',
+          bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
+          category: ['branding', 'graphic'],
+          class: 'column card-small biowhite',
+          to: "it-back"
+        },
+
+        aura: {
+          title: 'aura',
+          thumbnail: '/images/cards/aura.png',
+          mobileThumbnail: '/images/cards/aura_sm.png',
+          bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
+          category: ['branding', 'graphic'],
+          class: 'column card-medium biowhite',
           to: "it-back"
         }
+
+
       },
       currentCategory: false
     }
@@ -168,16 +231,23 @@ export default {
   /*background: -webkit-linear-gradient(45deg, #FFA857, #FF4466);
   color: white;*/
   background: white;
-
-/*p{
-  background: -webkit-linear-gradient(45deg, #FFA857, #FF4466);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  width: fit-content;
-}*/
-
 }
+
+
+.biowhite{
+  --color-secondary: white;
+}
+
+.biodark{
+  --color-secondary: #222222;
+}
+
+h6{
+  --color-secondary: white;
+}
+
 @media (max-width: 768px) {
+
 .btn {
   padding-left: 9px;
   padding-right: 9px;
