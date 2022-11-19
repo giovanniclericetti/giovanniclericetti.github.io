@@ -4,21 +4,22 @@
 
 
     <b-row class="text-center flex-column-reverse flex-md-row mx-md-5">
-      <b-col cols="md-auto 12" class="p-md-0 d-md-block mt-4 mt-md-0 pt-2 pt-md-0" > <h5 class="text-center"> Giovanni Clericetti, 2022 </h5> </b-col>
+      <b-col cols="md-auto 12" class="p-md-0 d-md-block mt-4 mt-md-0 pt-2 pt-md-0" > <h5 class="text-center"> Giovanni Clericetti Portfolio, 2022 </h5> </b-col>
       <b-col >  </b-col>
       <b-col cols="md-auto 12" class="d-flex px-0 justify-content-center" >
-        <a href="" class="mx-md-3 mx-3"><h5 class=" p-md-0 d-md-block d-none hover-underline-animation">Mail</h5>
+        <a href="mailto:giovanni.clericetti@gmail.com" class="mx-md-3 mx-3"><h5 class=" p-md-0 d-md-block d-none hover-underline-animation">Mail</h5>
           <div class=" p-md-0 d-md-none"> <img src="~static/icons/mail.svg" />  </div></a>
         <a href="" class="mx-md-3 mx-3"><h5 class=" d-md-block d-none hover-underline-animation">Linkedin</h5>
           <div class=" p-md-0 d-md-none"> <img src="~static/icons/linkedin.svg" />  </div></a>
-        <a href="" class="mx-md-3 mx-3"><h5 class=" d-md-block d-none hover-underline-animation">Github</h5>
+        <a href="https://github.com/giovanniclericetti" target="_blank" class="mx-md-3 mx-3"><h5 class=" d-md-block d-none hover-underline-animation">Github</h5>
           <div class=" p-md-0 d-md-none"> <img src="~static/icons/github.svg" />  </div></a>
         <a href="" class="mx-md-3 mx-3"><h5 class=" d-md-block d-none hover-underline-animation">Telegram</h5>
           <div class=" p-md-0 d-md-none"> <img src="~static/icons/telegram.svg" />  </div></a>
-        <a href="" class="mx-md-3 mx-3"><h5 class=" d-md-block d-none p-md-0 hover-underline-animation">Instagram</h5>
+        <a href="https://www.instagram.com/giovanniclericetti.png/" target="_blank" class="mx-md-3 mx-3"><h5 class=" d-md-block d-none p-md-0 hover-underline-animation">Instagram</h5>
           <div class=" p-md-0 d-md-none"> <img src="~static/icons/instagram.svg" />  </div></a>
       </b-col>
     </b-row>
+
 
 
   </div>

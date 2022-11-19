@@ -31,7 +31,7 @@
         <b-row class="mt-2">
 
           <b-col cols="2" class=" p-0">
-            <div class="socialbox m-2 "> <img src="~static/images/aboutme/mail.svg" /> </div>
+            <div class="socialbox m-2"> <a href="mailto:giovanni.clericetti@gmail.com"><img src="~static/images/aboutme/mail.svg" /> </a> </div>
           </b-col>
 
           <b-col cols="2" class=" p-0">
@@ -39,7 +39,7 @@
           </b-col>
 
           <b-col cols="2" class=" p-0">
-            <div class="socialbox m-2 "> <img src="~static/images/aboutme/github.svg" /> </div>
+            <div class="socialbox m-2 "> <a href="https://github.com/giovanniclericetti" target="_blank"> <img src="~static/images/aboutme/github.svg" /> </a> </div>
           </b-col>
 
           <b-col cols="2" class=" p-0">
@@ -47,7 +47,7 @@
           </b-col>
 
           <b-col cols="2" class=" p-0">
-            <div class="socialbox m-2 "> <img src="~static/images/aboutme/instagram.svg" /> </div>
+            <div class="socialbox m-2 "> <a href="https://www.instagram.com/giovanniclericetti.png/" target="_blank"> <img src="~static/images/aboutme/instagram.svg" /> </a></div>
           </b-col>
 
           <b-col cols="2" class=" p-0">

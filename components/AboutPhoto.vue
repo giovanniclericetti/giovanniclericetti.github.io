@@ -23,7 +23,7 @@
       </b-col>
 
       <b-col cols="3" class=" p-0">
-        <div class="socialboxsm m-2 "> <img src="~static/images/aboutme/instagram.svg" /> </div>
+        <div class="socialboxsm m-2 "> <a href="https://www.instagram.com/giovanniclericetti.png/" target="_blank"> <img src="~static/images/aboutme/instagram.svg" /> </a> </div>
       </b-col>
 
     </b-row>
