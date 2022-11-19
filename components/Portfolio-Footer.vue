@@ -13,12 +13,13 @@
           <div class=" p-md-0 d-md-none"> <img src="~static/icons/linkedin.svg" />  </div></a>
         <a href="https://github.com/giovanniclericetti" target="_blank" class="mx-md-3 mx-3"><h5 class=" d-md-block d-none hover-underline-animation">Github</h5>
           <div class=" p-md-0 d-md-none"> <img src="~static/icons/github.svg" />  </div></a>
-        <a href="" class="mx-md-3 mx-3"><h5 class=" d-md-block d-none hover-underline-animation">Telegram</h5>
+        <a href="https://t.me/giovanniclericetti" target="_blank" class="mx-md-3 mx-3"><h5 class=" d-md-block d-none hover-underline-animation">Telegram</h5>
           <div class=" p-md-0 d-md-none"> <img src="~static/icons/telegram.svg" />  </div></a>
         <a href="https://www.instagram.com/giovanniclericetti.png/" target="_blank" class="mx-md-3 mx-3"><h5 class=" d-md-block d-none p-md-0 hover-underline-animation">Instagram</h5>
           <div class=" p-md-0 d-md-none"> <img src="~static/icons/instagram.svg" />  </div></a>
       </b-col>
     </b-row>
+
 
 
 

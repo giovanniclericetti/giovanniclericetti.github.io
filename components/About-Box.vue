@@ -43,7 +43,7 @@
           </b-col>
 
           <b-col cols="2" class=" p-0">
-            <div class="socialbox m-2 "> <img src="~static/images/aboutme/telegram.svg" /> </div>
+            <div class="socialbox m-2 "> <a href="https://t.me/giovanniclericetti" target="_blank"> <img src="~static/images/aboutme/telegram.svg" /> </a> </div>
           </b-col>
 
           <b-col cols="2" class=" p-0">
