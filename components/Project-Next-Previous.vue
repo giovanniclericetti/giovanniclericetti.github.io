@@ -62,7 +62,7 @@ a{
   width: 100%;
   transform: scaleX(0);
   height: 2px;
-  bottom: 4px;
+  bottom: 6px;
   left: 0;
   background-color: var(--color-success);
   transform-origin: bottom right;
@@ -87,7 +87,7 @@ a{
   width: 100%;
   transform: scaleX(0);
   height: 2px;
-  bottom: 4px;
+  bottom: 6px;
   left: 0;
   background-color: var(--color-secondary);
   transform-origin: bottom right;

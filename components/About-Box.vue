@@ -28,6 +28,8 @@
 
         </b-row>
 
+
+
         <b-row class="mt-2">
 
           <b-col cols="2" class=" p-0">
@@ -35,7 +37,7 @@
           </b-col>
 
           <b-col cols="2" class=" p-0">
-            <div class="socialbox m-2 "> <img src="~static/images/aboutme/linkedin.svg" /> </div>
+            <div class="socialbox m-2 "><a href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank"> <img src="~static/images/aboutme/linkedin.svg" /> </a> </div>
           </b-col>
 
           <b-col cols="2" class=" p-0">

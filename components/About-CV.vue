@@ -146,14 +146,14 @@
         >
 
           <template #slotcvelement>
-            <p>HTML, CSS, Javascript, Wordpress</p>
+            <p>HTML, CSS, Bootstrap, Javascript, Nuxt, Vue, Wordpress</p>
           </template>
 
         </AboutCvElement>
 
         <h4 class="gradient mt-5 ">
-          <b-icon class="mr-2" shift-v="-3" icon="arrow-down-right-circle-fill"
-                  style="width: 35px; height: 35px; color: #FF6E60"></b-icon>
+          <b-icon class="mr-1" shift-v="-3" icon="arrow-down-right-circle-fill"
+                  style="width: 35px; height: 35px; color:#FF9A5A"></b-icon>
           <span class="hover-underline-animation gradient downloadcv"> Download CV </span>
         </h4>
 

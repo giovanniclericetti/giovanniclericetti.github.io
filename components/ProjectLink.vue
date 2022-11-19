@@ -25,7 +25,7 @@ export default {
 
 .hover-underline-animation:after {
   height: 2px;
-  bottom: 4px;
+  bottom: 6px;
 }
 
 
