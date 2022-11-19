@@ -1,7 +1,6 @@
 <template>
 
-  <div class="container-fluid header p-0 mb-3 ">
-
+  <div class="container-fluid header p-0 mb-3">
 
     <b-row class="p-0 m-0" align-h="between">
       <b-col cols="auto" class="p-0 gradient">  <NuxtLink to="/"> <img src="~static/favicon.svg" style="width: 30px; height: 30px;"/>  </NuxtLink> </b-col>

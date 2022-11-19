@@ -61,8 +61,8 @@ a{
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 3px;
-  bottom: 0;
+  height: 2px;
+  bottom: 4px;
   left: 0;
   background-color: var(--color-success);
   transform-origin: bottom right;
@@ -86,8 +86,8 @@ a{
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 3px;
-  bottom: 0;
+  height: 2px;
+  bottom: 4px;
   left: 0;
   background-color: var(--color-secondary);
   transform-origin: bottom right;

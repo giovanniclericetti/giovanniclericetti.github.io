@@ -26,7 +26,9 @@
         <PortfolioCard
           :currentCategory="currentCategory"
           v-bind="projects.sourdata"
-        />
+        >
+
+        </PortfolioCard>
 
         <PortfolioCard
           :currentCategory="currentCategory"
@@ -42,25 +44,6 @@
 
       <b-col cols="12" md="6" lg="4">
 
-        <PortfolioCard
-          :currentCategory="currentCategory"
-          v-bind="projects.previewpretest"
-        />
-
-        <PortfolioCard
-          :currentCategory="currentCategory"
-          v-bind="projects.disruptive"
-        />
-
-        <PortfolioCard
-          :currentCategory="currentCategory"
-          v-bind="projects.cbct"
-        />
-
-
-      </b-col>
-
-      <b-col cols="12" md="6" lg="4">
 
         <PortfolioCard
           :currentCategory="currentCategory"
@@ -75,6 +58,27 @@
         <PortfolioCard
           :currentCategory="currentCategory"
           v-bind="projects.hively"
+        />
+
+      </b-col>
+
+      <b-col cols="12" md="6" lg="4">
+
+
+
+        <PortfolioCard
+          :currentCategory="currentCategory"
+          v-bind="projects.previewpretest"
+        />
+
+        <PortfolioCard
+          :currentCategory="currentCategory"
+          v-bind="projects.disruptive"
+        />
+
+        <PortfolioCard
+          :currentCategory="currentCategory"
+          v-bind="projects.cbct"
         />
 
       </b-col>

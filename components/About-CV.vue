@@ -7,32 +7,57 @@
 
         <h4 class="gradient"> Education </h4>
 
-        <AboutCvElement
-          category="2022 - ongoing"
-          text="Master Degree in Communication Design at Politecnico di Milano"
-        />
+        <AboutCvElement category="2022 - ongoing">
+
+          <template #slotcvelement>
+            <p>Master Degree in Communication Design at <a class="hover-a-underline-animation" href="https://www.polimi.it/">Politecnico di Milano</a> </p>
+          </template>
+
+        </AboutCvElement>
 
         <AboutCvElement
           category="2019-2022"
-          text="Bachelor Degree in Communication Design at Politecnico di Milano"
-        />
+        >
+
+        <template #slotcvelement>
+          <p>Bachelor Degree in Communication Design at <a class="hover-a-underline-animation" href="https://www.polimi.it/">Politecnico di Milano</a></p>
+        </template>
+
+        </AboutCvElement>
 
         <AboutCvElement
           category="2014-2019"
-          text="Artistic High School at Fondazione Sacro Cuore in Milan (Architecture)"
-        />
+        >
+
+          <template #slotcvelement>
+            <p>Artistic High School at <a class="hover-a-underline-animation" href="https://www.sacrocuore.org/"> Fondazione Sacro Cuore </a> in Milan (Architecture)</p>
+          </template>
+
+        </AboutCvElement>
+
 
         <h4 class="gradient mt-md-5 mt-4"> Languages </h4>
 
         <AboutCvElement
           category="Italian"
-          text="First Language"
-        />
+        >
+
+          <template #slotcvelement>
+            <p>First Language</p>
+          </template>
+
+        </AboutCvElement>
+
 
         <AboutCvElement
           category="English"
-          text="B2 - IELTS Certification"
-        />
+        >
+
+          <template #slotcvelement>
+            <p>B2 - IELTS Certification</p>
+          </template>
+
+        </AboutCvElement>
 
       </b-col>
 
@@ -42,23 +67,43 @@
 
         <AboutCvElement
           category="2020-2022"
-          text="Metadata and content classification activities in collaboration with Mediaset Spa"
-        />
+        >
+
+          <template #slotcvelement>
+            <p>Metadata and content classification activities in collaboration with Mediaset Spa</p>
+          </template>
+
+        </AboutCvElement>
 
         <AboutCvElement
           category="2021, 2022"
-          text="Volunteer at Meeting in Rimini for the realization of exhibitions"
-        />
+        >
+
+          <template #slotcvelement>
+            <p>Volunteer at Meeting in Rimini for the realization of exhibitions</p>
+          </template>
+
+        </AboutCvElement>
 
         <AboutCvElement
           category="2020"
-          text="Museum guide for exhibitions at Palazzo Reale in Milann"
-        />
+        >
+
+          <template #slotcvelement>
+            <p>Museum guide for exhibitions at Palazzo Reale in Milan</p>
+          </template>
+
+        </AboutCvElement>
 
         <AboutCvElement
           category="2018"
-          text="Waiter at Planibel Hotel and Residence in La Thuile"
-        />
+        >
+
+          <template #slotcvelement>
+            <p>Waiter at Planibel Hotel and Residence in La Thuile</p>
+          </template>
+
+        </AboutCvElement>
 
       </b-col>
 
@@ -68,23 +113,43 @@
 
         <AboutCvElement
           category="Adobe CC"
-          text="Illustrator, Photoshop, Premiere Pro,  Lightroom, InDesign, Audition, XD"
-        />
+        >
+
+          <template #slotcvelement>
+            <p>Illustrator, Photoshop, Premiere Pro,  Lightroom, InDesign, Audition, XD</p>
+          </template>
+
+        </AboutCvElement>
 
         <AboutCvElement
           category="Microsoft"
-          text="Word, PowerPoint, Excel"
-        />
+        >
+
+          <template #slotcvelement>
+            <p>Word, PowerPoint, Excel</p>
+          </template>
+
+        </AboutCvElement>
 
         <AboutCvElement
           category="Other Tools"
-          text="Figma, Keynote, Pages, iMovie"
-        />
+        >
+
+          <template #slotcvelement>
+            <p>Figma, Keynote, Pages, iMovie</p>
+          </template>
+
+        </AboutCvElement>
 
         <AboutCvElement
           category="Coding"
-          text="HTML, CSS, Javascript, Wordpress "
-        />
+        >
+
+          <template #slotcvelement>
+            <p>HTML, CSS, Javascript, Wordpress</p>
+          </template>
+
+        </AboutCvElement>
 
         <h4 class="gradient mt-5 ">
           <b-icon class="mr-2" shift-v="-3" icon="arrow-down-right-circle-fill"
@@ -108,8 +173,36 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss">
 
+.hover-a-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+.hover-a-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 2px;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-a-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+a:hover{
+  text-decoration: none;
+  color: black;
+}
 
 
 
