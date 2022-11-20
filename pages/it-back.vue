@@ -13,8 +13,7 @@
   pill1="Branding"
   pill2="UX-UI"
   pill3="Coding"
-    pill4="Social Media"
-  link="Project Website"/>
+    pill4="Social Media"/>
 
     <Project-Cover
       cover="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_cover.png?raw=true"
@@ -44,7 +43,7 @@ Programmazione (HTML, CSS, JS, Arduino)"
 
       <template #link>
         <div class="mt-5">
-        <a href="https://itback.altervista.org/">
+        <a href="https://itback.altervista.org/" target="_blank">
         <ProjectLink textlink="Website" ></ProjectLink></a>
         </div>
       </template>

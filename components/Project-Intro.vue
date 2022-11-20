@@ -17,7 +17,7 @@
 <script>
 export default {
   name: 'Project-Intro',
-  props: ['pill1', 'pill2', 'pill3', 'pill4', 'title', 'subtitle', 'link']
+  props: ['pill1', 'pill2', 'pill3', 'pill4', 'title', 'subtitle']
 
 
 }
