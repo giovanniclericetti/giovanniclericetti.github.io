@@ -56,6 +56,28 @@ Programmazione (HTML, CSS, JS, Arduino)"
 
     <b-row class="mt-4">
       <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
+        <ProjectSingleImage
+
+          img="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_1.png?raw=true"
+
+        />
+      </b-col>
+
+      <b-col cols="6" md="6" class=" py-md-3 py-2 px-3">
+        <ProjectSingleImage
+          img="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_4.png?raw=true"
+        />
+      </b-col>
+
+      <b-col cols="6" md="6" class=" py-md-3 py-2 px-3">
+        <ProjectSingleImage
+          img="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_3.png?raw=true"
+
+        />
+      </b-col>
+
+        <!---
+         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
         <div class="projectbox">
         <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_1.png?raw=true">
         </div>
@@ -88,7 +110,7 @@ Programmazione (HTML, CSS, JS, Arduino)"
           <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_6.png?raw=true">
         </div>
       </b-col>
-
+-->
       </b-row>
 
 
