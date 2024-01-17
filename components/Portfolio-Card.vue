@@ -8,7 +8,16 @@
         </div>
         <b-row class="bio mx-1 my-2">
 
-          <b-col cols="12" md="10" class=""><h6 style="color: var(--color-secondary);"> {{ bio }} </h6></b-col>
+          <b-col cols="12" md="10" class=""><h4 style="color: var(--color-secondary);"> SourData {{  }} </h4></b-col>
+          <b-col cols="12" md="10" class="">
+            <p2 style="color: var(--color-secondary);"> {{ bio }} </p2>
+          </b-col>
+
+          <b-col cols="12" md="10" class="">
+            <b-badge pill class="pillshome mx-0 mr-1 my-3 p-1 px-2"> {{ pill1 }}</b-badge>
+            <b-badge pill class="pillshome mx-0 mr-1 my-3 p-1 px-2"> {{ pill2 }}</b-badge>
+            <b-badge pill class="pillshome mx-0 mr-1 my-3 p-1 px-2"> {{ pill3 }}</b-badge>
+          </b-col>
 
         </b-row>
       </NuxtLink>
@@ -27,6 +36,9 @@ export default {
     category: String,
     currentCategory: [String, Boolean],
     to: [String],
+    pill1: String,
+    pill2: String,
+    pill3: String,
   },
 }
 </script>
@@ -53,8 +65,18 @@ h6{
   max-height: 0px;
 }
 
-.projectcard {
+.pillshome {
   border-radius: 20px;
+  background-color: white;
+  opacity: 0.8;
+  border: none;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 14px;
+  color:var(--color-primary)}
+
+.projectcard {
+  border-radius: 30px;
   overflow: hidden;
   width: 100%;
   background-position: center;
@@ -72,14 +94,14 @@ h6{
       width: 100%;
       height: 100%;
       object-fit: cover;
-      transition: transform 0.3s ease-in-out;
+      transition: transform 0.5s ease-in-out;
     }
   }
 
   &:hover {
 
     .card-background img {
-      transform: scale(1.04);
+      transform: scale(1.06);
     }
 
   }
@@ -88,6 +110,7 @@ h6{
 .bio {
   position: absolute;
   bottom: 0;
+  line-height: 18px;
 }
 
 .bio h6 {
@@ -95,15 +118,20 @@ h6{
 }
 
 .card-small {
-  height: 300px;
+  height: 350px;
 }
 
 .card-medium {
-  height: 400px;
+  height: 450px;
 }
 
 .card-large {
   height: 500px;
+}
+
+
+.card-extralarge {
+  height: 600px;
 }
 
 @media (max-width: 768px) {

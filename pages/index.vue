@@ -4,11 +4,13 @@
 
 <div class="container mt-4">
 
+
+
   <IndexHeader></IndexHeader>
 
-  <div class=" mt-5">
+  <div class="mt-5">
 
-    <h2 style="width: 90%"> Hey! My name is <span class="name gradient">Giovanni</span>. I’m an Italian communication and
+    <h2 style="width: 90%; line-height: 140%" class="py-5"> Hey! My name is <span class="name gradient">Giovanni</span>. I’m an Italian communication and
       experience designer based in Milan. I graduated in Communication
       Design at the Polimi and now I am attending a master's program. </h2>
 
@@ -33,8 +35,8 @@ export default {
 <style >
 
 .name{
-  font-family: 'title-bold';
-  font-size: 35px;
+  font-family: 'title-regular';
+  font-size: 36px;
 }
 
 

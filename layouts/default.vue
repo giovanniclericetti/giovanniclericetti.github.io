@@ -42,15 +42,15 @@ h3 {
 }
 
 h4 {
-  font-family: 'title-bold';
-  font-size: 20px;
+  font-family: 'title-regular';
+  font-size: 24px;
   font-weight: 400;
   color: var(--color-primary);
 }
 
 h5 {
   font-family: 'title-regular';
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -68,6 +68,11 @@ p {
   margin: 0px;
 }
 
+p2 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+}
+
 .gradient {
   background: -webkit-linear-gradient(45deg, #FFA857, #FF4466);
   -webkit-background-clip: text;
@@ -78,6 +83,12 @@ p {
 
 .it-back {
   --color-primary: #EA4A3C;
+  --color-secondary: green; /* Progetto Successivo */
+  --color-success: red; /* Progetto Precedente */
+}
+
+.sourdata {
+  --color-primary: #FF5880;
   --color-secondary: green; /* Progetto Successivo */
   --color-success: red; /* Progetto Precedente */
 }

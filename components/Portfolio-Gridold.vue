@@ -3,7 +3,20 @@
 
     <div id="" class="text-center my-5 d-flex justify-content-center">
 
-
+      <div class="slider p-1">
+        <div :class="['btn', !currentCategory && 'active']" @click="currentCategory = false"><p>All</p></div>
+        <div :class="['btn', currentCategory === 'ux-ui' && 'active']" @click="currentCategory = 'ux-ui'"><p>UX/UI</p>
+        </div>
+        <div :class="['btn', currentCategory === 'branding' && 'active']" @click="currentCategory = 'branding'">
+          <p>Branding</p>
+        </div>
+        <div :class="['btn', currentCategory === 'coding' && 'active']" @click="currentCategory = 'coding'">
+          <p>Coding</p>
+        </div>
+        <div :class="['btn', currentCategory === 'graphic' && 'active']" @click="currentCategory = 'graphic'">
+          <p>Graphic</p>
+        </div>
+      </div>
     </div>
 
     <b-row ref="projectsContainer" class="" :style="{minHeight: containerHeight + 'px'}" >
@@ -13,7 +26,6 @@
         <PortfolioCard
           :currentCategory="currentCategory"
           v-bind="projects.sourdata"
-          class="sourdata"
         >
 
         </PortfolioCard>
@@ -103,23 +115,17 @@ export default {
           bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
           class: 'column card-large biowhite',
-          to: "it-back",
-          pill1: 'ciao',
-          pill2: 'ciao',
-          pill3: 'ciao',
+          to: "it-back"
         },
 
         sourdata: {
           title: 'SourData',
           thumbnail: '/images/cards/sourdata.png',
           mobileThumbnail: '/images/cards/sourdata_sm.png',
-          bio: 'Product-service system  to make money from user’s personal data',
+          bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
-          class: 'column card-extralarge biowhite',
-          to: "it-back",
-          pill1: 'Branding',
-          pill2: 'Coding',
-          pill3: 'UX-UI',
+          class: 'column card-large biowhite',
+          to: "it-back"
         },
 
         previewpretest: {
