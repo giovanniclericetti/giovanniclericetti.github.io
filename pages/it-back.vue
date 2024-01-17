@@ -1,6 +1,6 @@
 <template>
 
-  <div class="it-back ">
+  <div class="it-back">
 
   <div class="container mt-4">
 
@@ -64,7 +64,7 @@ Programmazione (HTML, CSS, JS, Arduino)"
 
       <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
         <Project-Video
-          video="https://www.youtube.com/watch?v=fdGWRq1dVBA&ab_channel=PixarCars" />
+          video="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" />
       </b-col>
 
       <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">

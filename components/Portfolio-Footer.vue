@@ -2,7 +2,6 @@
 
   <div class="container-fluid footer justify-content-center pt-5 pb-md-5 pb-2">
 
-
     <b-row class="text-center flex-column-reverse flex-md-row mx-md-5">
       <b-col cols="md-auto 12" class="p-md-0 d-md-block mt-4 mt-md-0 pt-2 pt-md-0" > <h5 class="text-center"> Giovanni Clericetti Portfolio, 2022 </h5> </b-col>
       <b-col >  </b-col>
@@ -24,8 +23,6 @@
           <div class=" p-md-0 d-md-none"> <img src="~static/icons/instagram.svg" />  </div></a>
       </b-col>
     </b-row>
-
-
 
 
   </div>
