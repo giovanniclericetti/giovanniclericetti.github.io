@@ -1,24 +1,32 @@
 <template>
-  <div class="projectbox">
-    <img :src="img">
+  <div class="projectbox" v-prlx.background="{ speed: 9 }">
+    <img :src="img" alt="Project Image">
   </div>
+
+
+
 </template>
 
 <script>
+import { VuePrlxDirective } from 'vue-prlx';
+
 export default {
   name: "Project-SingleImage",
-  props: ['img']
+  props: ['img'],
+  directives: {
+    prlx: VuePrlxDirective,
+  },
 }
 </script>
 
 <style scoped>
-
 .projectbox img {
-  width: 100%;
-  object-fit: contain;
+  width: 120%;
+
+
 }
 
-.projectbox{
+.projectbox {
   background-color: white;
   max-height: 600px;
   border-radius: 30px;
@@ -26,16 +34,13 @@ export default {
 }
 
 @media (max-width: 768px) {
-
   .projectbox img {
     height: 100%;
     object-fit: contain;
   }
 
-  .projectbox{
+  .projectbox {
     border-radius: 20px;
-
   }
-
 }
 </style>

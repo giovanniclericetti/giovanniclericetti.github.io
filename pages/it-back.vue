@@ -15,9 +15,12 @@
   pill3="Coding"
     pill4="Social Media"/>
 
-    <Project-Cover
-      cover="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_cover.png?raw=true"
-    />
+    <div cols="12" md="12" class=" py-md-3 py-2 ">
+
+      <img class="cover-parallax" style="
+     background-image: url(https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_cover.png?raw=true)"
+           v-prlx.background="{ speed: 0.1 }">
+    </div>
 
     <ProjectDescription
       description="
@@ -57,9 +60,10 @@ Programmazione (HTML, CSS, JS, Arduino)"
     <b-row class="mt-4">
 
       <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-        <ProjectSingleImage
-          img="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_1.png?raw=true"
-        />
+
+        <img class="img-parallax" style="
+     background-image: url(https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_1.png?raw=true)"
+             v-prlx.background="{ speed: 0.1 }">
       </b-col>
 
       <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -68,33 +72,52 @@ Programmazione (HTML, CSS, JS, Arduino)"
       </b-col>
 
       <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-        <div class="projectbox">
-          <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_2.png?raw=true">
-        </div>
+
+        <img class="img-parallax" style="
+     background-image: url(https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_2.png?raw=true)"
+             v-prlx.background="{ speed: 0.1 }">
       </b-col>
 
       <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
-        <ProjectSingleImage
-          img="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_4.png?raw=true"
-        />
+
+        <img class="img-parallax prllx-small" style="
+     background-image: url(https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_4.png?raw=true)"
+             v-prlx.background="{ speed: 0.2 }">
       </b-col>
 
       <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
-        <ProjectSingleImage
-          img="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_3.png?raw=true"
-        />
+
+        <img class="img-parallax prllx-small" style="
+     background-image: url(https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_3.png?raw=true)"
+             v-prlx.background="{ speed: 0.15 }">
       </b-col>
 
       <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-        <div class="projectbox">
-          <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_5.png?raw=true">
-        </div>
+
+        <ProjectDescription2
+
+          title="Taxonomy"
+
+          description="
+Beginning with reflection on the issue of personal data and privacy,
+SourData was born as a company producing devices that monitor the most intimate data,
+the only ones yet ever collected, in exchange for money: Coomy for masturbation,
+Poopy for feces, and We"
+
+        /> </b-col>
+
+      <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
+
+        <img class="img-parallax" style="
+     background-image: url(https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_5.png?raw=true)"
+             v-prlx.background="{ speed: 0.1 }">
       </b-col>
 
       <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-        <div class="projectbox">
-          <img src="https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_6.png?raw=true">
-        </div>
+
+        <img class="img-parallax" style="
+     background-image: url(https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_6.png?raw=true)"
+             v-prlx.background="{ speed: 0.1 }">
       </b-col>
 
       </b-row>

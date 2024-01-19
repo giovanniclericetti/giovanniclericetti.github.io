@@ -122,6 +122,33 @@ p2 {
   transition: transform 0.25s ease-out;
 }
 
+.img-parallax{
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.cover-parallax{
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.prllx-small{
+  height: 400px;
+}
+
+.projectbox {
+  background-color: white;
+  max-height: 600px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
