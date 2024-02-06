@@ -1,26 +1,30 @@
 <template>
-  <div class="container-fluid header p-0 my-5">
+  <div class="container-fluid  my-5">
 
+    <div class="projectcard">
+      <NuxtLink :to="to">
+        <div class="card-background">
+          <img :src="thumbnail" class="d-none d-md-block"/>
+          <img :src="mobileThumbnail" class="d-md-none"/>
+        </div>
+        <b-row class="bio mx-1 my-2">
 
-    <b-row class="p-0 m-0" align-v="center">
-      <b-col cols="6" class="p-0 previous">
-        <NuxtLink :to='toprevious' class="d-flex">
+          <b-col cols="12" md="10" class=""><h4 style="color: var(--color-secondary);"> SourData {{  }} </h4></b-col>
+          <b-col cols="12" md="10" class="">
+            <p2 style="color: var(--color-secondary);"> {{ bio }} </p2>
+          </b-col>
 
-          <b-icon shift-v="2" icon="arrow-left-circle-fill" style="width: 30px; height: 30px;"></b-icon>
-        <h4 class="m-0 p-0 ml-2 hover-underline-animation-success" style="  color: var(--color-success);">
-        {{ previous }} </h4>
+          <b-col cols="12" md="10" class="">
+            <b-badge pill class="pillshome mx-0 mr-1 my-3 p-1 px-2"> {{ pill1 }}</b-badge>
+            <b-badge pill class="pillshome mx-0 mr-1 my-3 p-1 px-2"> {{ pill2 }}</b-badge>
+            <b-badge pill class="pillshome mx-0 mr-1 my-3 p-1 px-2"> {{ pill3 }}</b-badge>
+          </b-col>
 
-        </NuxtLink>
-      </b-col>
-
-      <b-col cols="6" class="p-0 text-right next">
-        <NuxtLink :to='tonext' class="d-flex flex-row-reverse">  <b-icon shift-v="2" icon="arrow-right-circle-fill" style="width: 30px; height: 30px;"></b-icon>
-        <h4 class="m-0 p-0 mr-2 hover-underline-animation-secondary" style="color: var(--color-secondary)" >
-        {{ next }} </h4>   </NuxtLink> </b-col>
-    </b-row>
-
-
+        </b-row>
+      </NuxtLink>
+    </div>
   </div>
+
 </template>
 
 <script>
@@ -29,82 +33,60 @@
 export default {
   name: "ProjectNextPrevious",
   props: {
-    previous: String,
-    next: String,
-    toprevious: String,
-    tonext: String,
+    title: String,
+    thumbnail: String,
+    mobileThumbnail: String,
+    bio: String,
+    category: String,
+    currentCategory: [String, Boolean],
+    to: [String],
+    pill1: String,
+    pill2: String,
+    pill3: String,
   },
 }
+
+
+
+
 
 </script>
 
 <style scoped>
 
-.header{
-  color: var(--color-primary);
-}
+.pillshome {
+  border-radius: 20px;
+  background-color: white;
+  opacity: 0.8;
+  border: none;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 14px;
+  color:var(--color-primary)}
 
-a{
-  text-decoration: none;
-  color: var(--color-primary);
-}
-
-
-.hover-underline-animation-success {
-  display: inline-block;
-  position: relative;
-  color: var(--color-success);
-}
-
-.hover-underline-animation-success:after {
-  content: '';
-  position: absolute;
+.projectcard {
+  border-radius: 30px;
+  overflow: hidden;
   width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 6px;
-  left: 0;
-  background-color: var(--color-success);
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.hover-underline-animation-success:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-
-.hover-underline-animation-secondary {
-  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
-  color: var(--color-secondary);
-}
+  margin-bottom: 32px;}
 
-.hover-underline-animation-secondary:after {
-  content: '';
+.card-background {
+  overflow: hidden;
   position: absolute;
+  inset: 0;
+
+img {
   width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 6px;
-  left: 0;
-  background-color: var(--color-secondary);
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out;
 }
 
-.hover-underline-animation-secondary:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
 
-.next a{
-color: var(--color-secondary);
-}
-
-.previous a{
-  color: var(--color-success);
 }
 
 </style>

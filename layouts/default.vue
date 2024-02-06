@@ -43,7 +43,7 @@ h3 {
 
 h4 {
   font-family: 'title-regular';
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 400;
   color: var(--color-primary);
 }

@@ -41,7 +41,7 @@ team="E. Ceriani, G. Fulghieri, F. Nozza, M. Zagaria"
       role="Brand Identity, Grafica, UX-UI, Presentazione, Storytelling, Editoria, Ricerca Tecnologica,
 Programmazione (HTML, CSS, JS, Arduino)"
       delivery="Final Sythesis Lab, 2021-2022"
-
+class="my-5"
     >
 
       <template #link>
@@ -124,10 +124,14 @@ Poopy for feces, and We"
 
 
   <ProjectNextPrevious
-    previous="Fatti di Dati"
-    next="Disruptive"
-    toprevious="about"
-    tonext="about"
+    title="It-Back"
+    thumbnail= "/images/cards/itback.png"
+    mobileThumbnail = "/images/cards/itback_sm.png"
+    class= "column card-large biowhite"
+    to= "it-back"
+    pill1= " ciao1"
+    pill2= "ghio2 "
+    pill3= "ghio3 "
   />
 
 
@@ -144,7 +148,11 @@ Poopy for feces, and We"
 export default {
   name: 'it-back',
 }
+
+
 </script>
+
+
 
 <style>
 
