@@ -129,9 +129,9 @@ Poopy for feces, and We"
     mobileThumbnail = "/images/cards/itback_sm.png"
     class= "column card-large biowhite"
     to= "it-back"
-    pill1= " ciao1"
-    pill2= "ghio2 "
-    pill3= "ghio3 "
+    pill1= "Branding"
+    pill2= "UX-UI"
+    pill3= "Coding"
   />
 
 
@@ -160,6 +160,8 @@ export default {
   width: 100%;
   object-fit: contain;
 }
+
+
 
 .projectbox{
   background-color: white;

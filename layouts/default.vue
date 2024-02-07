@@ -124,7 +124,7 @@ p2 {
 
 .img-parallax{
   width: 100%;
-  height: 500px;
+  height: 600px;
   background-size: cover;
   border-radius: 30px;
   background-color: white;
