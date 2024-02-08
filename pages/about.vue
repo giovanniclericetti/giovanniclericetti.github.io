@@ -2,7 +2,7 @@
 
 <div class="about">
 
-  <div class="container mt-4">
+  <div class="container mt-4 pb-5">
 
     <About-Header/>
 

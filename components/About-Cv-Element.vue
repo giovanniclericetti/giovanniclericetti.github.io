@@ -1,7 +1,7 @@
 <template>
   <div class="mt-md-4  ml-2 ml-md-0 mt-3 pr-5 cvpar">
-    <h6>{{ category }}</h6>
-    <slot name="slotcvelement"> </slot>
+    <h6 class="mb-1"> {{ category }}</h6>
+    <slot  name="slotcvelement"> </slot>
   </div>
 </template>
 

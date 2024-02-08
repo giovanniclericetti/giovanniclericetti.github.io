@@ -56,7 +56,7 @@ h5 {
 
 h6 {
   font-family: 'title-regular';
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -140,6 +140,10 @@ a{
   background-size: cover;
   border-radius: 30px;
   background-color: white;
+}
+
+.subtitlecv{
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .prllx-small{

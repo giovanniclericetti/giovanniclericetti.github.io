@@ -10,7 +10,8 @@
         <AboutCvElement category="2022 - ongoing">
 
           <template #slotcvelement>
-            <p>Master Degree in Communication Design at <a class="hover-a-underline-animation" href="https://www.polimi.it/">Politecnico di Milano</a> </p>
+            <p>Master Degree in Communication Design at <a class="hover-a-underline-animation"
+                                                           href="https://www.polimi.it/">Politecnico di Milano</a></p>
           </template>
 
         </AboutCvElement>
@@ -19,9 +20,10 @@
           category="2019-2022"
         >
 
-        <template #slotcvelement>
-          <p>Bachelor Degree in Communication Design at <a class="hover-a-underline-animation" href="https://www.polimi.it/">Politecnico di Milano</a></p>
-        </template>
+          <template #slotcvelement>
+            <p>Bachelor Degree in Communication Design at <a class="hover-a-underline-animation"
+                                                             href="https://www.polimi.it/">Politecnico di Milano</a></p>
+          </template>
 
         </AboutCvElement>
 
@@ -30,13 +32,101 @@
         >
 
           <template #slotcvelement>
-            <p>Artistic High School at <a class="hover-a-underline-animation" href="https://www.sacrocuore.org/"> Fondazione Sacro Cuore </a> in Milan (Architecture)</p>
+            <p>Artistic High School at <a class="hover-a-underline-animation" href="https://www.sacrocuore.org/">
+              Fondazione Sacro Cuore </a> in Milan (Architectural Studies)</p>
           </template>
 
         </AboutCvElement>
 
 
-        <h4 class="gradient mt-md-5 mt-4"> Languages </h4>
+        <h4 class="gradient mt-md-5 mt-4"> Social Initiatives </h4>
+
+        <AboutCvElement category="University Politics">
+          <template #slotcvelement>
+            <p>Representative of the Course of Study in Communication Design at Politecnico di Milano</p>
+          </template>
+        </AboutCvElement>
+
+        <AboutCvElement category="University Volunteering">
+          <template #slotcvelement>
+            <p>Sales Clerk at University Bookstore
+              CUSL, Politecnico di Milano</p>
+          </template>
+        </AboutCvElement>
+
+
+        <AboutCvElement category="Volunteering">
+          <template #slotcvelement>
+            <p>Banco Alimentare Volunteer for National Food Collection Day </p>
+          </template>
+        </AboutCvElement>
+
+
+
+
+
+
+      </b-col>
+
+      <b-col cols="12" md="4">
+
+        <h4 class="gradient mt-md-0 mt-4"> Work Experiences </h4>
+
+
+        <AboutCvElement category="2023">
+          <template #slotcvelement>
+            <p>Brand identity and website design</p>
+            <p class="subtitlecv">SKProgetti - Engineering Studio</p>
+          </template>
+        </AboutCvElement>
+
+        <AboutCvElement category="2021-2023">
+          <template #slotcvelement>
+            <p>Realization of Exhibition Spaces</p>
+            <p class="subtitlecv">Meeting di Rimini</p>
+          </template>
+        </AboutCvElement>
+
+        <AboutCvElement category="2020-2023">
+          <template #slotcvelement>
+            <p>Content classification activities</p>
+            <p class="subtitlecv">Mediaset S.p.A.</p>
+          </template>
+        </AboutCvElement>
+
+        <AboutCvElement category="2020-2021">
+          <template #slotcvelement>
+            <p>UX/UI and Graphics design </p>
+            <p class="subtitlecv">Disruptive x Meeting di Rimini</p>
+          </template>
+        </AboutCvElement>
+
+        <AboutCvElement category="2019">
+          <template #slotcvelement>
+            <p>Internship in Architecture Studio</p>
+            <p class="subtitlecv">Studio MEA, Milan</p>
+          </template>
+        </AboutCvElement>
+
+        <AboutCvElement category="2019">
+          <template #slotcvelement>
+            <p>Museum Guide for Exhibitions</p>
+            <p class="subtitlecv">Palazzo Reale, Milan</p>
+          </template>
+        </AboutCvElement>
+
+        <AboutCvElement category="2018">
+          <template #slotcvelement>
+            <p>Waiter</p>
+            <p class="subtitlecv">Planibel Hotel, La Thuile</p>
+          </template>
+        </AboutCvElement>
+
+      </b-col>
+
+      <b-col cols="12" md="4">
+
+        <h4 class="gradient mt-md-0 mt-4"> Languages </h4>
 
         <AboutCvElement
           category="Italian"
@@ -59,64 +149,24 @@
 
         </AboutCvElement>
 
-      </b-col>
-
-      <b-col cols="12" md="4">
-
-        <h4 class="gradient mt-md-0 mt-4"> Work Experiences </h4>
-
         <AboutCvElement
-          category="2020-2022"
+          category="Spanish"
         >
 
           <template #slotcvelement>
-            <p>Metadata and content classification activities in collaboration with Mediaset Spa</p>
+            <p>Scholastic Level</p>
           </template>
 
         </AboutCvElement>
 
-        <AboutCvElement
-          category="2021, 2022"
-        >
-
-          <template #slotcvelement>
-            <p>Volunteer at Meeting in Rimini for the realization of exhibitions</p>
-          </template>
-
-        </AboutCvElement>
-
-        <AboutCvElement
-          category="2020"
-        >
-
-          <template #slotcvelement>
-            <p>Museum guide for exhibitions at Palazzo Reale in Milan</p>
-          </template>
-
-        </AboutCvElement>
-
-        <AboutCvElement
-          category="2018"
-        >
-
-          <template #slotcvelement>
-            <p>Waiter at Planibel Hotel and Residence in La Thuile</p>
-          </template>
-
-        </AboutCvElement>
-
-      </b-col>
-
-      <b-col cols="12" md="4">
-
-        <h4 class="gradient mt-md-0 mt-4"> Software </h4>
+        <h4 class="gradient mt-md-5 mt-4"> Software </h4>
 
         <AboutCvElement
           category="Adobe CC"
         >
 
           <template #slotcvelement>
-            <p>Illustrator, Photoshop, Premiere Pro,  Lightroom, InDesign, Audition, XD</p>
+            <p>Illustrator, Photoshop, Premiere Pro, Lightroom, InDesign, Audition, XD</p>
           </template>
 
         </AboutCvElement>
@@ -151,10 +201,10 @@
 
         </AboutCvElement>
 
-        <h4 class="gradient mt-5 ">
+        <h4 class="gradient mt-5 "> <a href="">
           <b-icon class="mr-1" shift-v="-3" icon="arrow-down-right-circle-fill"
                   style="width: 35px; height: 35px; color:#FF9A5A"></b-icon>
-          <span class="hover-underline-animation gradient downloadcv"> Download CV </span>
+          <span class="hover-underline-animation gradient downloadcv"> Download Resume </span> </a>
         </h4>
 
 
@@ -199,11 +249,10 @@ export default {
   transform-origin: bottom left;
 }
 
-a:hover{
+a:hover {
   text-decoration: none;
   color: black;
 }
-
 
 
 </style>
