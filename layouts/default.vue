@@ -73,6 +73,10 @@ p2 {
   font-size: 14px;
 }
 
+a{
+  color: black;
+}
+
 .gradient {
   background: -webkit-linear-gradient(45deg, #FFA857, #FF4466);
   -webkit-background-clip: text;
@@ -124,7 +128,7 @@ p2 {
 
 .img-parallax{
   width: 100%;
-  height: 600px;
+  height: 500px;
   background-size: cover;
   border-radius: 30px;
   background-color: white;

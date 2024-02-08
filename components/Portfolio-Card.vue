@@ -2,7 +2,8 @@
   <transition name="fadeHeight">
     <div v-if="!currentCategory || category.includes(currentCategory)" class="projectcard">
       <NuxtLink :to="to">
-        <div class="card-background">
+        <div class="card-background"
+             v-prlx.background="{ speed: 0.2 }">
           <img :src="thumbnail" class="d-none d-md-block"/>
           <img :src="mobileThumbnail" class="d-md-none"/>
         </div>

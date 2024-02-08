@@ -63,7 +63,7 @@ class="my-5"
 
         <img class="img-parallax" style="
      background-image: url(https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_1.png?raw=true)"
-             v-prlx.background="{ speed: 0.1 }">
+             v-prlx.background="{ speed: 0.2 }">
       </b-col>
 
       <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -75,7 +75,7 @@ class="my-5"
 
         <img class="img-parallax" style="
      background-image: url(https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_2.png?raw=true)"
-             v-prlx.background="{ speed: 0.1 }">
+             v-prlx.background="{ speed: 0.2 }">
       </b-col>
 
       <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
