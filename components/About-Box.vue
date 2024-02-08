@@ -19,16 +19,26 @@
 
           <div class="" style="padding-left: 0px; padding-bottom: 20px">
 
-            <b-row class=" d-flex no-gutters" style="height:210px">
+            <b-row class=" d-flex no-gutters" style="height:230px">
 
               <b-col cols="8" style="padding-left: 20px; padding-right: 20px;">
-                <div class="bg-danger boxround" style="height: 210px;">
-                  <h1 class="text-white">resumes</h1>
+
+                <div class="boxround bggradient" style="height: 230px;" ref="container" @mousemove="moveImage">
+
+                  <div class=" text-white d-flex justify-content-center align-items-center pt-3" style="height: 40%">
+                    <h4 style="font-size: 32px">My Resume</h4>
+                  </div>
+
+                  <div class="boxcv  justify-content-center d-flex" style="height: 150%; width: 100%;">
+                    <img ref="cvImage" src="~static/images/aboutme/cvbox.png" style="transform: translateZ(0); "/>
+                  </div>
                 </div>
+
+
               </b-col>
 
               <b-col cols="" style="">
-                <div class="bg-white boxround" style="height: 210px;">
+                <div class="bg-white boxround" style="height: 230px;">
 
                   <div class=" zoombvs" style="height: 100%">
 
@@ -111,6 +121,24 @@
 <script>
 export default {
   name: "About-Box",
+  methods: {
+    moveImage(event) {
+      const container = this.$refs.container;
+      const image = this.$refs.cvImage;
+
+      const containerRect = container.getBoundingClientRect();
+      const centerX = containerRect.left + containerRect.width / 2;
+      const centerY = containerRect.top + containerRect.height / 2;
+
+      const offsetX = event.clientX - centerX;
+      const offsetY = event.clientY - centerY;
+
+      const rotateX = offsetY / containerRect.height * 30; // Adjust sensitivity here
+      const rotateY = -offsetX / containerRect.width * 30; // Adjust sensitivity here
+
+      image.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateZ(50px)`;
+    }
+  },
   data() {
     return {
       options: [
@@ -134,7 +162,7 @@ export default {
 <style lang="scss" scoped>
 
 .photobox {
-  height: 210+105+20px;
+  height: 230+105+20px;
   overflow: hidden;
   border-radius: 30px;
 }
@@ -154,7 +182,7 @@ export default {
   border-radius: 30px;
   overflow: hidden;
   margin-left: 20px;
-  width: 170%;
+  width: 130%;
 }
 
 
@@ -201,5 +229,14 @@ export default {
 
   transform: scale(1.03);
 }
+
+.bggradient{
+  background: linear-gradient(114deg, #FFC793 -8.26%, #FF7B93 106.3%);
+}
+
+.boxcv img{
+  transition: transform 0.3s ease-out;
+}
+
 
 </style>
