@@ -4,7 +4,7 @@
 
   <div class="container mt-4">
 
-    <About-Header/>
+    <IndexHeader/>
 
   <Project-Intro
 

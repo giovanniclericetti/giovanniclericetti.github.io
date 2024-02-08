@@ -5,7 +5,7 @@
 
     <b-row class="p-0 m-0" align-h="between">
       <b-col cols="auto" class="p-0 gradient">  <NuxtLink to="/"> <b-icon icon="arrow-left-circle-fill" style="width: 33px; height: 33px; color:#FF9A5A"></b-icon> </NuxtLink> </b-col>
-      <b-col cols="auto" class="p-0 text-right" align-self="center"> <NuxtLink to="about" class="gradient hover-underline-animation" > <h5 class="m-0 gradient" > About Me </h5> </NuxtLink> </b-col>
+      <b-col cols="auto" class="p-0 text-right" align-self="center"> <a href="mailto:giovanni.clericetti@gmail.com" class="gradient hover-underline-animation" > <h5 class="m-0 gradient" > Contact Me </h5> </a> </b-col>
     </b-row>
 
   </div>
