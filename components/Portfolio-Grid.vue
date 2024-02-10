@@ -11,27 +11,17 @@
       <b-col cols="12" md="6" lg="4">
 
         <PortfolioCard
-          :currentCategory="currentCategory"
           v-bind="projects.sourdata"
           class="sourdata"
-        >
-
-        </PortfolioCard>
-
-        <PortfolioCard
-          :currentCategory="currentCategory"
-          v-bind="projects.aura"
         />
 
         <PortfolioCard
-          :currentCategory="currentCategory"
-          v-bind="projects.fattididati"
+          v-bind="projects.aura"
         />
 
       </b-col>
 
       <b-col cols="12" md="6" lg="4">
-
 
         <PortfolioCard
           :currentCategory="currentCategory"
@@ -43,16 +33,9 @@
           v-bind="projects.itback"
         />
 
-        <PortfolioCard
-          :currentCategory="currentCategory"
-          v-bind="projects.hively"
-        />
-
       </b-col>
 
       <b-col cols="12" md="6" lg="4">
-
-
 
         <PortfolioCard
           :currentCategory="currentCategory"
@@ -62,11 +45,6 @@
         <PortfolioCard
           :currentCategory="currentCategory"
           v-bind="projects.disruptive"
-        />
-
-        <PortfolioCard
-          :currentCategory="currentCategory"
-          v-bind="projects.cbct"
         />
 
       </b-col>

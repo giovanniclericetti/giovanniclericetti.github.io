@@ -16,6 +16,15 @@
 
         </AboutCvElement>
 
+        <AboutCvElement category="2023">
+
+          <template #slotcvelement>
+            <p>Erasmus Experience at <a class="hover-a-underline-animation"
+                                                           href="https://cmd-amsterdam.nl/">AUAS Master Digital Design</a>, Amsterdam, Netherlands</p>
+          </template>
+
+        </AboutCvElement>
+
         <AboutCvElement
           category="2019-2022"
         >
@@ -33,7 +42,7 @@
 
           <template #slotcvelement>
             <p>Artistic High School at <a class="hover-a-underline-animation" href="https://www.sacrocuore.org/">
-              Fondazione Sacro Cuore </a> in Milan (Architectural Studies)</p>
+              Fondazione Sacro Cuore </a>, Milan (Architectural Studies)</p>
           </template>
 
         </AboutCvElement>

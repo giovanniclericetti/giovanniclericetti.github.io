@@ -39,6 +39,7 @@ h3 {
   font-family: 'DM Sans', sans-serif;
   font-size: 24px;
   font-weight: 400;
+  line-height: 130%;
 }
 
 h4 {
@@ -71,10 +72,6 @@ p {
 p2 {
   font-family: 'DM Sans', sans-serif;
   font-size: 14px;
-}
-
-a{
-  color: black;
 }
 
 .gradient {

@@ -46,7 +46,7 @@
                     <div class="mx-4 pt-4">
                       <img src="~static/images/aboutme/spotify.svg"/>
                     </div>
-                    <b-row class="mx-4 pb-1 mb-4 d-block" style="bottom:0px; position: absolute">
+                    <b-row class="mx-4 pb-3 mb-4 d-block" style="bottom:0px; position: absolute">
                       <p2 style="color: #3CCC76; font-size: 15px"> Always listening...</p2>
                       <h4 style="font-size: 25px" id="song">{{ randomOption.song }}</h4>
                       <p style="font-size: 18px; line-height: 5px" id="singer">{{ randomOption.singer }}</p>
@@ -68,17 +68,14 @@
 
                 <b-row class="p-0 m-0" style="width: 100%">
 
+                  <b-col class=" p-0" cols="">
+                    <div class="socialbox "><a href="https://t.me/giovanniclericetti" target="_blank"> <img
+                      src="~static/images/aboutme/telegram.svg"/> </a></div>
+                  </b-col>
 
                   <b-col class=" p-0" cols="">
                     <div class="socialbox"><a href="https://www.instagram.com/giovanniclericetti.png/" target="_blank">
                       <img src="~static/images/aboutme/instagram.svg"/> </a></div>
-                  </b-col>
-
-
-
-                  <b-col class=" p-0" cols="">
-                    <div class="socialbox "><a href="https://t.me/giovanniclericetti" target="_blank"> <img
-                      src="~static/images/aboutme/telegram.svg"/> </a></div>
                   </b-col>
 
                   <b-col class="d-flex m-0 p-0 " cols="5" style=" margin-left: 20px">
@@ -212,6 +209,10 @@ export default {
 
   }
 
+}
+
+a{
+  color: black;
 }
 
 .zoombvs{

@@ -1,12 +1,20 @@
 <template>
-  <transition name="fadeHeight">
-    <div v-if="!currentCategory || category.includes(currentCategory)" class="projectcard">
+
+    <div class="bg-primary projectcard" >
+
       <NuxtLink :to="to">
-        <div class="card-background"
-             v-prlx.background="{ speed: 0.2 }">
-          <img :src="thumbnail" class="d-none d-md-block"/>
-          <img :src="mobileThumbnail" class="d-md-none"/>
+
+        <div class="card-background">
+
+        <img class=" img-parallax d-none d-md-block"
+             :style="{ backgroundImage: 'url(' + thumbnail + ')' }"
+             v-prlx.background="{ speed: 0.05 }"/>
+
         </div>
+
+          <img :src="mobileThumbnail" class="d-md-none"/>
+
+
         <b-row class="bio mx-1 my-2">
 
           <b-col cols="12" md="10" class=""><h4 style="color: var(--color-secondary);"> SourData {{  }} </h4></b-col>
@@ -23,7 +31,7 @@
         </b-row>
       </NuxtLink>
     </div>
-  </transition>
+
 </template>
 
 <script>
@@ -50,21 +58,6 @@ h6{
   color: white;
 }
 
-.fadeHeight-enter-active,
-.fadeHeight-leave-active {
-  transition: max-height 0.3s, opacity 0.3s 0.1s;
-  max-height: 100%;
-  opacity: 1;
-}
-.fadeHeight-leave-active {
-  transition: max-height 0.3s 0.1s, opacity 0.2s ;
-}
-.fadeHeight-enter,
-.fadeHeight-leave-to
-{
-  opacity: 0;
-  max-height: 0px;
-}
 
 .pillshome {
   border-radius: 20px;
@@ -78,35 +71,34 @@ h6{
 
 .projectcard {
   border-radius: 30px;
-  overflow: hidden;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
   margin-bottom: 32px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out; /* Applicato qui */
 
   .card-background {
-    overflow: hidden;
     position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     inset: 0;
+    height: 100%;
+    transition: transform 0.5s ease-in-out; /* Aggiunto qui */
 
     img {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      transition: transform 0.5s ease-in-out;
     }
   }
 
-  &:hover {
-
-    .card-background img {
-      transform: scale(1.06);
-    }
-
+  &:hover .card-background {
+    transform: scale(1.03); /* Aggiunto qui */
   }
 }
+
+
+
 
 .bio {
   position: absolute;

@@ -10,7 +10,7 @@
     <h3 style="white-space: pre-line">  {{subtitle}} </h3> </div>
 
     <h4 class="gradient mt-5"> {{subdescription}} </h4>
-    <p class="description"> {{description}}</p>
+    <p class="description mt-3"> {{description}}</p>
 
   </div>
 </template>
