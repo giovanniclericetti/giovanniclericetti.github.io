@@ -111,6 +111,10 @@ h6{
 
 }
 
+.card-extrasmall {
+  height: 300px;
+}
+
 .card-small {
   height: 350px;
 }

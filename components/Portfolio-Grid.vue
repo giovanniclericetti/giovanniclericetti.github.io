@@ -16,17 +16,28 @@
         />
 
         <PortfolioCard
-          v-bind="projects.disruptive"
+          v-bind="projects.previewpretest"
         />
 
         <PortfolioCard
-          v-bind="projects.carachioggia"
+          v-bind="projects.aura"
         />
+
+        <PortfolioCard
+          :currentCategory="currentCategory"
+          v-bind="projects.around"
+        />
+
 
 
       </b-col>
 
       <b-col cols="12" md="6" lg="4">
+
+        <PortfolioCard
+          :currentCategory="currentCategory"
+          v-bind="projects.bottleneck"
+        />
 
         <PortfolioCard
           :currentCategory="currentCategory"
@@ -34,13 +45,12 @@
         />
 
         <PortfolioCard
-          :currentCategory="currentCategory"
-          v-bind="projects.itback"
+          v-bind="projects.disruptive"
         />
 
-        <PortfolioCard
-          v-bind="projects.quattriny"
-        />
+
+
+
 
       </b-col>
 
@@ -48,7 +58,7 @@
 
         <PortfolioCard
           :currentCategory="currentCategory"
-          v-bind="projects.previewpretest"
+          v-bind="projects.itback"
         />
 
         <PortfolioCard
@@ -57,9 +67,10 @@
         />
 
         <PortfolioCard
-          :currentCategory="currentCategory"
-          v-bind="projects.around"
+          v-bind="projects.quattriny"
         />
+
+
 
       </b-col>
 
@@ -183,12 +194,26 @@ export default {
           mobileThumbnail: '/images/cards/bellascusa_sm.png',
           bio: 'Design-centered digital exhibition on Sergio Marchionne',
           category: ['branding', 'graphic'],
-          class: 'column card-small biowhite',
+          class: 'column card-extrasmall biowhite',
           to: "it-back",
           pill1: 'Branding',
           pill2: 'Coding',
           pill3: 'UX-UI',
           projectname: 'ARound'
+        },
+
+        bottleneck: {
+          title: 'bottleneck',
+          thumbnail: '/images/cards/bottleneck.png',
+          mobileThumbnail: '/images/cards/aura_sm.png',
+          bio: 'Design-centered digital exhibition on Sergio Marchionne ',
+          category: ['branding', 'graphic'],
+          class: 'column card-large biowhite',
+          to: "it-back",
+          pill1: 'Branding',
+          pill2: 'Coding',
+          pill3: 'UX-UI',
+          projectname: 'bottleneck'
         },
 
         aura: {
@@ -197,11 +222,12 @@ export default {
           mobileThumbnail: '/images/cards/aura_sm.png',
           bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
           category: ['branding', 'graphic'],
-          class: 'column card-medium biowhite',
+          class: 'column card-extrasmall biowhite',
           to: "it-back",
           pill1: 'Branding',
           pill2: 'Coding',
           pill3: 'UX-UI',
+          projectname: 'Aura Energy'
         }
 
 
