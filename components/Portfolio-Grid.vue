@@ -19,6 +19,11 @@
           v-bind="projects.disruptive"
         />
 
+        <PortfolioCard
+          v-bind="projects.carachioggia"
+        />
+
+
       </b-col>
 
       <b-col cols="12" md="6" lg="4">
@@ -33,6 +38,10 @@
           v-bind="projects.itback"
         />
 
+        <PortfolioCard
+          v-bind="projects.quattriny"
+        />
+
       </b-col>
 
       <b-col cols="12" md="6" lg="4">
@@ -44,7 +53,12 @@
 
         <PortfolioCard
           :currentCategory="currentCategory"
-          v-bind="projects.disruptive"
+          v-bind="projects.carachioggia"
+        />
+
+        <PortfolioCard
+          :currentCategory="currentCategory"
+          v-bind="projects.around"
         />
 
       </b-col>
@@ -135,43 +149,46 @@ export default {
           projectname: 'Referto Mag',
         },
 
-        cbct: {
-          title: 'cbct',
-          thumbnail: '/images/cards/cbct.png',
+        carachioggia: {
+          title: 'carachioggia',
+          thumbnail: '/images/cards/carachioggia.png',
           mobileThumbnail: '/images/cards/cbct_sm.png',
-          bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
+          bio: 'Design-centered digital exhibition on Sergio Marchionne',
           category: ['coding'],
-          class: 'column card-small biodark',
+          class: 'column card-extralarge biowhite',
           to: "it-back",
           pill1: 'Branding',
           pill2: 'Coding',
           pill3: 'UX-UI',
+          projectname: 'Cara Chioggia ti scrivo'
         },
 
-        hively: {
-          title: 'hively',
-          thumbnail: '/images/cards/hively.png',
+        quattriny: {
+          title: 'quattriny',
+          thumbnail: '/images/cards/quattriny.png',
           mobileThumbnail: '/images/cards/hively_sm.png',
-          bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
+          bio: 'Design-centered digital exhibition on Sergio Marchionne',
           category: ['branding', 'graphic'],
           class: 'column card-small biowhite',
           to: "it-back",
           pill1: 'Branding',
           pill2: 'Coding',
           pill3: 'UX-UI',
+          projectname: 'Quattriny'
         },
 
-        bellascusa: {
-          title: 'bellascusa',
-          thumbnail: '/images/cards/bellascusa.png',
+        around: {
+          title: 'around',
+          thumbnail: '/images/cards/around.png',
           mobileThumbnail: '/images/cards/bellascusa_sm.png',
-          bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
+          bio: 'Design-centered digital exhibition on Sergio Marchionne',
           category: ['branding', 'graphic'],
           class: 'column card-small biowhite',
           to: "it-back",
           pill1: 'Branding',
           pill2: 'Coding',
           pill3: 'UX-UI',
+          projectname: 'ARound'
         },
 
         aura: {

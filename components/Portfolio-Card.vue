@@ -1,6 +1,6 @@
 <template>
 
-    <div class="bg-primary projectcard" >
+    <div class=" projectcard" >
 
       <NuxtLink :to="to">
 
@@ -81,20 +81,20 @@ h6{
     position: absolute;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     inset: 0;
     height: 100%;
-    transition: transform 0.5s ease-in-out; /* Aggiunto qui */
+    transform-origin: center;
+    transform: scale(1.01);
+    transition: transform 0.5s ease-in-out;
 
     img {
-      width: 100%;
       height: 100%;
       object-fit: cover;
     }
   }
 
   &:hover .card-background {
-    transform: scale(1.03); /* Aggiunto qui */
+    transform: scale(1.05); /* Aggiunto qui */
   }
 }
 
