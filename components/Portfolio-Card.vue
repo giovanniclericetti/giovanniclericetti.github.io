@@ -17,7 +17,7 @@
 
         <b-row class="bio mx-1 my-2">
 
-          <b-col cols="12" md="10" class=""><h4 style="color: var(--color-secondary);"> SourData {{  }} </h4></b-col>
+          <b-col cols="12" md="10" class=""><h4 style="color: var(--color-secondary);">  {{ projectname }} </h4></b-col>
           <b-col cols="12" md="10" class="">
             <p2 style="color: var(--color-secondary);"> {{ bio }} </p2>
           </b-col>
@@ -48,6 +48,7 @@ export default {
     pill1: String,
     pill2: String,
     pill3: String,
+    projectname: String,
   },
 }
 </script>

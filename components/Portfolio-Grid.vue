@@ -16,7 +16,7 @@
         />
 
         <PortfolioCard
-          v-bind="projects.aura"
+          v-bind="projects.disruptive"
         />
 
       </b-col>
@@ -25,7 +25,7 @@
 
         <PortfolioCard
           :currentCategory="currentCategory"
-          v-bind="projects.bellascusa"
+          v-bind="projects.referto"
         />
 
         <PortfolioCard
@@ -67,20 +67,25 @@ export default {
         disruptive: {
           title: 'Disruptive',
           thumbnail: '/images/cards/disruptive.png',
+          projectname: 'Disruptive',
           mobileThumbnail: '/images/cards/disruptive_sm.png',
           bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
           category: ['ux-ui', 'branding', 'graphic'],
           class: 'column card-large biodark',
-          to: "it-back"
+          to: "it-back",
+          pill1: 'Branding',
+          pill2: 'Coding',
+          pill3: 'UX-UI',
         },
 
         itback: {
           title: 'It-Back',
+          projectname: 'It-Back',
           thumbnail: '/images/cards/itback.png',
           mobileThumbnail: '/images/cards/itback_sm.png',
           bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
-          class: 'column card-large biowhite',
+          class: 'column card-medium biowhite',
           to: "it-back",
           pill1: 'ciao',
           pill2: 'ciao',
@@ -89,6 +94,7 @@ export default {
 
         sourdata: {
           title: 'SourData',
+          projectname: 'SourData',
           thumbnail: '/images/cards/sourdata.png',
           mobileThumbnail: '/images/cards/sourdata_sm.png',
           bio: 'Product-service system  to make money from user’s personal data',
@@ -104,20 +110,29 @@ export default {
           title: 'Preview Pretest',
           thumbnail: '/images/cards/previewpretest.png',
           mobileThumbnail: '/images/cards/previewpretest_sm.png',
-          bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
+          bio: 'Series of events dedicated ' +
+            'to future Polimi students',
+          projectname: 'Preview & Pretest',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
           class: 'column card-medium biowhite',
-          to: "it-back"
+          to: "it-back",
+          pill1: 'Branding',
+          pill2: 'Coding',
+          pill3: 'UX-UI',
         },
 
-        fattididati: {
-          title: 'FattiDiDati',
-          thumbnail: '/images/cards/fattididati.png',
+        referto: {
+          title: 'Referto',
+          thumbnail: '/images/cards/referto.png',
           mobileThumbnail: '/images/cards/fattididati_sm.png',
           bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
           category: ['branding', 'graphic', 'ux-ui'],
-          class: 'column card-medium biodark',
-          to: "it-back"
+          class: 'column card-large biodark',
+          to: "it-back",
+          pill1: 'Branding',
+          pill2: 'Coding',
+          pill3: 'UX-UI',
+          projectname: 'Referto Mag',
         },
 
         cbct: {
@@ -127,7 +142,10 @@ export default {
           bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
           category: ['coding'],
           class: 'column card-small biodark',
-          to: "it-back"
+          to: "it-back",
+          pill1: 'Branding',
+          pill2: 'Coding',
+          pill3: 'UX-UI',
         },
 
         hively: {
@@ -137,7 +155,10 @@ export default {
           bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
           category: ['branding', 'graphic'],
           class: 'column card-small biowhite',
-          to: "it-back"
+          to: "it-back",
+          pill1: 'Branding',
+          pill2: 'Coding',
+          pill3: 'UX-UI',
         },
 
         bellascusa: {
@@ -147,7 +168,10 @@ export default {
           bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
           category: ['branding', 'graphic'],
           class: 'column card-small biowhite',
-          to: "it-back"
+          to: "it-back",
+          pill1: 'Branding',
+          pill2: 'Coding',
+          pill3: 'UX-UI',
         },
 
         aura: {
@@ -157,7 +181,10 @@ export default {
           bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
           category: ['branding', 'graphic'],
           class: 'column card-medium biowhite',
-          to: "it-back"
+          to: "it-back",
+          pill1: 'Branding',
+          pill2: 'Coding',
+          pill3: 'UX-UI',
         }
 
 
@@ -209,6 +236,9 @@ export default {
   background: white;
 }
 
+.biored{
+  --color-secondary: #D92121;
+}
 
 .biowhite{
   --color-secondary: white;
