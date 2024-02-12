@@ -16,7 +16,7 @@
 
   </div>
 
-<PortfolioGrid/>
+<PortfolioGrid class="mb-5"/>
 
 </div>
 

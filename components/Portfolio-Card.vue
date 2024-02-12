@@ -8,7 +8,7 @@
 
         <img class=" img-parallax d-none d-md-block"
              :style="{ backgroundImage: 'url(' + thumbnail + ')' }"
-             v-prlx.background="{ speed: 0.05 }"/>
+             v-prlx.background="{ speed: 0.04 }"/>
 
         </div>
 
@@ -68,7 +68,7 @@ h6{
   font-family: 'DM Sans';
   font-weight: 400;
   font-size: 14px;
-  color:var(--color-primary)}
+  color:var(--color-success)}
 
 .projectcard {
   border-radius: 30px;
@@ -112,7 +112,7 @@ h6{
 }
 
 .card-extrasmall {
-  height: 300px;
+  height: 250px;
 }
 
 .card-small {
@@ -127,9 +127,12 @@ h6{
   height: 500px;
 }
 
-
 .card-extralarge {
-  height: 600px;
+  height: 550px;
+}
+
+.card-extraextralarge {
+  height: 620px;
 }
 
 @media (max-width: 768px) {

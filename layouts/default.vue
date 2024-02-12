@@ -84,14 +84,26 @@ p2 {
 
 .it-back {
   --color-primary: #EA4A3C;
-  --color-secondary: green; /* Progetto Successivo */
-  --color-success: red; /* Progetto Precedente */
+  --color-secondary: green;
+  --color-success: #EA4A3C;
+}
+
+.bottleneck {
+  --color-primary: #D92121;
+  --color-secondary: green;
+  --color-success: #3A6069;
+}
+
+.referto {
+  --color-primary: #D92121;
+  --color-secondary: green;
+  --color-success: #D92121;
 }
 
 .sourdata {
   --color-primary: #FF5880;
-  --color-secondary: green; /* Progetto Successivo */
-  --color-success: red; /* Progetto Precedente */
+  --color-secondary: #3741DC;
+  --color-success: #3741DC;
 }
 
 .pills {

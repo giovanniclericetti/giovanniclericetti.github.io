@@ -42,7 +42,7 @@
 
           <template #slotcvelement>
             <p>Artistic High School at <a class="hover-a-underline-animation" href="https://www.sacrocuore.org/">
-              Fondazione Sacro Cuore </a>, Milan (Architectural Studies)</p>
+              Fondazione Sacro Cuore </a>, Milan </p>
           </template>
 
         </AboutCvElement>
@@ -181,7 +181,7 @@
         </AboutCvElement>
 
         <AboutCvElement
-          category="Microsoft"
+          category="Microsoft & Google"
         >
 
           <template #slotcvelement>

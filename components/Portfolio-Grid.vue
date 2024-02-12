@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <div id="" class="text-center my-5 d-flex justify-content-center">
+    <div id="" class="text-center my-4 d-flex justify-content-center">
 
 
     </div>
@@ -16,7 +16,31 @@
         />
 
         <PortfolioCard
-          v-bind="projects.previewpretest"
+          v-bind="projects.itback"
+        />
+
+
+
+        <PortfolioCard
+          v-bind="projects.quattriny"
+        />
+
+
+
+      </b-col>
+
+
+
+      <b-col cols="12" md="6" lg="4">
+
+        <PortfolioCard
+          v-bind="projects.referto"
+          class="referto"
+        />
+
+        <PortfolioCard
+          class="referto"
+          v-bind="projects.carachioggia"
         />
 
         <PortfolioCard
@@ -30,50 +54,30 @@
 
 
 
+
       </b-col>
 
       <b-col cols="12" md="6" lg="4">
 
         <PortfolioCard
-          :currentCategory="currentCategory"
           v-bind="projects.bottleneck"
+          class="bottleneck"
         />
 
         <PortfolioCard
           :currentCategory="currentCategory"
-          v-bind="projects.referto"
-        />
-
-        <PortfolioCard
           v-bind="projects.disruptive"
         />
 
+        <PortfolioCard
+          v-bind="projects.previewpretest"
+        />
+
 
 
 
 
       </b-col>
-
-      <b-col cols="12" md="6" lg="4">
-
-        <PortfolioCard
-          :currentCategory="currentCategory"
-          v-bind="projects.itback"
-        />
-
-        <PortfolioCard
-          :currentCategory="currentCategory"
-          v-bind="projects.carachioggia"
-        />
-
-        <PortfolioCard
-          v-bind="projects.quattriny"
-        />
-
-
-
-      </b-col>
-
 
     </b-row>
 
@@ -94,9 +98,9 @@ export default {
           thumbnail: '/images/cards/disruptive.png',
           projectname: 'Disruptive',
           mobileThumbnail: '/images/cards/disruptive_sm.png',
-          bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
+          bio: 'Design-centered digital exhibition on Sergio Marchionne',
           category: ['ux-ui', 'branding', 'graphic'],
-          class: 'column card-large biodark',
+          class: 'column card-medium biodark',
           to: "it-back",
           pill1: 'Branding',
           pill2: 'Coding',
@@ -110,7 +114,7 @@ export default {
           mobileThumbnail: '/images/cards/itback_sm.png',
           bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
-          class: 'column card-medium biowhite',
+          class: 'column card-large biowhite',
           to: "it-back",
           pill1: 'ciao',
           pill2: 'ciao',
@@ -124,7 +128,7 @@ export default {
           mobileThumbnail: '/images/cards/sourdata_sm.png',
           bio: 'Product-service system  to make money from user’s personal data',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
-          class: 'column card-extralarge biowhite',
+          class: 'column card-extraextralarge biowhite',
           to: "it-back",
           pill1: 'Branding',
           pill2: 'Coding',
@@ -150,14 +154,14 @@ export default {
           title: 'Referto',
           thumbnail: '/images/cards/referto.png',
           mobileThumbnail: '/images/cards/fattididati_sm.png',
-          bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
+          bio: 'Design-centered digital exhibition on Sergio Marchionne and his story',
           category: ['branding', 'graphic', 'ux-ui'],
           class: 'column card-large biodark',
           to: "it-back",
           pill1: 'Branding',
           pill2: 'Coding',
           pill3: 'UX-UI',
-          projectname: 'Referto Mag',
+          projectname: 'Referto Magazine',
         },
 
         carachioggia: {
@@ -208,19 +212,19 @@ export default {
           mobileThumbnail: '/images/cards/aura_sm.png',
           bio: 'Design-centered digital exhibition on Sergio Marchionne ',
           category: ['branding', 'graphic'],
-          class: 'column card-large biowhite',
+          class: 'column card-extralarge biowhite',
           to: "it-back",
           pill1: 'Branding',
           pill2: 'Coding',
           pill3: 'UX-UI',
-          projectname: 'bottleneck'
+          projectname: 'Bottleneck'
         },
 
         aura: {
           title: 'aura',
           thumbnail: '/images/cards/aura.png',
           mobileThumbnail: '/images/cards/aura_sm.png',
-          bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
+          bio: 'Design-centered digital exhibition on Sergio Marchionne',
           category: ['branding', 'graphic'],
           class: 'column card-extrasmall biowhite',
           to: "it-back",
@@ -263,8 +267,8 @@ export default {
   border-radius: 100px;
   padding-left: 20px;
   padding-right: 20px;
-
 }
+
 
 /* Add a grey background color on mouse-over */
 .btn:hover {
@@ -277,10 +281,6 @@ export default {
   /*background: -webkit-linear-gradient(45deg, #FFA857, #FF4466);
   color: white;*/
   background: white;
-}
-
-.biored{
-  --color-secondary: #D92121;
 }
 
 .biowhite{
