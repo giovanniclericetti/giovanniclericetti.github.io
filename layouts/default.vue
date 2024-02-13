@@ -51,7 +51,7 @@ h4 {
 
 h5 {
   font-family: 'title-regular';
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -82,10 +82,46 @@ p2 {
   --color-primary: #FF6E60;
 }
 
+.sourdata {
+  --color-primary: #FF5880;
+  --color-secondary: #3741DC;
+  --color-success: #3741DC;
+}
+
 .it-back {
   --color-primary: #EA4A3C;
   --color-secondary: green;
   --color-success: #EA4A3C;
+}
+
+.quattriny {
+  --color-primary: #FF9942;
+  --color-success: #FF9942;
+}
+
+.previewpretest {
+  --color-primary: #33D09D;
+  --color-success: #4BC3D7;
+}
+
+.carachioggia {
+  --color-primary: #5E5F3C;
+  --color-success: #5E5F3C;
+}
+
+.aura {
+  --color-primary: #FE5B58;
+  --color-success: #C26CBA;
+}
+
+.around {
+  --color-primary: #5650D8;
+  --color-success: #5650D8;
+}
+
+.disruptive {
+  --color-primary: #3C83ED;
+  --color-success: #70A4E0;
 }
 
 .bottleneck {
@@ -94,16 +130,22 @@ p2 {
   --color-success: #3A6069;
 }
 
+
+
 .referto {
   --color-primary: #D92121;
-  --color-secondary: green;
-  --color-success: #D92121;
+  --color-success: #CB0A00;
 }
 
-.sourdata {
-  --color-primary: #FF5880;
-  --color-secondary: #3741DC;
-  --color-success: #3741DC;
+.imgproject{
+  transform-origin: center;
+  transform: scale(1.01);
+}
+
+
+.imgbox{
+  overflow: hidden;
+  border-radius: 30px;
 }
 
 .pills {
@@ -137,10 +179,23 @@ p2 {
 
 .img-parallax{
   width: 100%;
-  height: 500px;
   background-size: cover;
+  height: 600px;
   border-radius: 30px;
   background-color: white;
+
+}
+
+.h400{
+  height: 400px
+}
+
+.h500 {
+  height: 500px;
+}
+
+.h600 {
+  height: 600px;
 }
 
 .cover-parallax{

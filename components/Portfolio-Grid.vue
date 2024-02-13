@@ -17,12 +17,14 @@
 
         <PortfolioCard
           v-bind="projects.itback"
+          class="it-back"
         />
 
 
 
         <PortfolioCard
           v-bind="projects.quattriny"
+          class="quattriny"
         />
 
 
@@ -39,17 +41,19 @@
         />
 
         <PortfolioCard
-          class="referto"
+          class="carachioggia"
           v-bind="projects.carachioggia"
         />
 
         <PortfolioCard
           v-bind="projects.aura"
+          class="aura"
         />
 
         <PortfolioCard
           :currentCategory="currentCategory"
           v-bind="projects.around"
+          class="around"
         />
 
 
@@ -65,12 +69,13 @@
         />
 
         <PortfolioCard
-          :currentCategory="currentCategory"
+          class="disruptive"
           v-bind="projects.disruptive"
         />
 
         <PortfolioCard
           v-bind="projects.previewpretest"
+          class="previewpretest"
         />
 
 
@@ -98,13 +103,13 @@ export default {
           thumbnail: '/images/cards/disruptive.png',
           projectname: 'Disruptive',
           mobileThumbnail: '/images/cards/disruptive_sm.png',
-          bio: 'Design-centered digital exhibition on Sergio Marchionne',
+          bio: 'Design-centered digital exhibition on Sergio Marchionne and his story',
           category: ['ux-ui', 'branding', 'graphic'],
           class: 'column card-medium biodark',
           to: "it-back",
-          pill1: 'Branding',
-          pill2: 'Coding',
-          pill3: 'UX-UI',
+          pill1: 'UX-UI',
+          pill2: 'Exhibition',
+          pill3: 'Event',
         },
 
         itback: {
@@ -112,13 +117,13 @@ export default {
           projectname: 'It-Back',
           thumbnail: '/images/cards/itback.png',
           mobileThumbnail: '/images/cards/itback_sm.png',
-          bio: 'Design-centered digital exhibition on Sergio Marchionne and his reconstruction story.',
+          bio: 'Digital experience  aimed at reviving outdated technology products',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
           class: 'column card-large biowhite',
           to: "it-back",
-          pill1: 'ciao',
-          pill2: 'ciao',
-          pill3: 'ciao',
+          pill1: 'UX-UI',
+          pill2: 'Visual',
+          pill3: 'Branding',
         },
 
         sourdata: {
@@ -126,41 +131,40 @@ export default {
           projectname: 'SourData',
           thumbnail: '/images/cards/sourdata.png',
           mobileThumbnail: '/images/cards/sourdata_sm.png',
-          bio: 'Product-service system  to make money from user’s personal data',
+          bio: 'Product-service system to make money from user’s personal data',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
           class: 'column card-extraextralarge biowhite',
-          to: "it-back",
-          pill1: 'Branding',
-          pill2: 'Coding',
-          pill3: 'UX-UI',
+          to: "sourdata",
+          pill1: 'Interaction',
+          pill2: 'UX-UI',
+          pill3: 'Branding',
         },
 
         previewpretest: {
           title: 'Preview Pretest',
           thumbnail: '/images/cards/previewpretest.png',
           mobileThumbnail: '/images/cards/previewpretest_sm.png',
-          bio: 'Series of events dedicated ' +
-            'to future Polimi students',
+          bio: 'Series of events dedicated to future Polimi students',
           projectname: 'Preview & Pretest',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
           class: 'column card-medium biowhite',
           to: "it-back",
           pill1: 'Branding',
-          pill2: 'Coding',
-          pill3: 'UX-UI',
+          pill2: 'Event',
+          pill3: 'Visual',
         },
 
         referto: {
           title: 'Referto',
           thumbnail: '/images/cards/referto.png',
           mobileThumbnail: '/images/cards/fattididati_sm.png',
-          bio: 'Design-centered digital exhibition on Sergio Marchionne and his story',
+          bio: 'Indipendent Magazine for social change about lives of health workers',
           category: ['branding', 'graphic', 'ux-ui'],
           class: 'column card-large biodark',
           to: "it-back",
-          pill1: 'Branding',
-          pill2: 'Coding',
-          pill3: 'UX-UI',
+          pill1: 'Editorial',
+          pill2: 'Visual',
+          pill3: 'Branding',
           projectname: 'Referto Magazine',
         },
 
@@ -168,13 +172,13 @@ export default {
           title: 'carachioggia',
           thumbnail: '/images/cards/carachioggia.png',
           mobileThumbnail: '/images/cards/cbct_sm.png',
-          bio: 'Design-centered digital exhibition on Sergio Marchionne',
+          bio: 'Digital experience of letters and stories to relive fishing places in Chioggia ',
           category: ['coding'],
           class: 'column card-extralarge biowhite',
           to: "it-back",
-          pill1: 'Branding',
-          pill2: 'Coding',
-          pill3: 'UX-UI',
+          pill1: 'UX-UI',
+          pill2: 'Visual',
+          pill3: 'Branding',
           projectname: 'Cara Chioggia ti scrivo'
         },
 
@@ -182,13 +186,13 @@ export default {
           title: 'quattriny',
           thumbnail: '/images/cards/quattriny.png',
           mobileThumbnail: '/images/cards/hively_sm.png',
-          bio: 'Design-centered digital exhibition on Sergio Marchionne',
+          bio: 'Ironic fictional-branding of a cash provider payment company',
           category: ['branding', 'graphic'],
           class: 'column card-small biowhite',
           to: "it-back",
           pill1: 'Branding',
-          pill2: 'Coding',
-          pill3: 'UX-UI',
+          pill2: 'Copywriting',
+          pill3: 'Visual',
           projectname: 'Quattriny'
         },
 
@@ -196,13 +200,13 @@ export default {
           title: 'around',
           thumbnail: '/images/cards/around.png',
           mobileThumbnail: '/images/cards/bellascusa_sm.png',
-          bio: 'Design-centered digital exhibition on Sergio Marchionne',
+          bio: 'Research and experimentation project on the use of algorithms in translation',
           category: ['branding', 'graphic'],
           class: 'column card-extrasmall biowhite',
           to: "it-back",
-          pill1: 'Branding',
-          pill2: 'Coding',
-          pill3: 'UX-UI',
+          pill1: 'Visual',
+          pill2: 'AR',
+          pill3: 'Exhibition',
           projectname: 'ARound'
         },
 
@@ -210,13 +214,13 @@ export default {
           title: 'bottleneck',
           thumbnail: '/images/cards/bottleneck.png',
           mobileThumbnail: '/images/cards/aura_sm.png',
-          bio: 'Design-centered digital exhibition on Sergio Marchionne ',
+          bio: 'Digital innovative wellbeing service that categorises and prioritises notifications',
           category: ['branding', 'graphic'],
           class: 'column card-extralarge biowhite',
           to: "it-back",
-          pill1: 'Branding',
-          pill2: 'Coding',
-          pill3: 'UX-UI',
+          pill1: 'UX-UI',
+          pill2: 'Interaction',
+          pill3: 'Branding',
           projectname: 'Bottleneck'
         },
 
@@ -224,13 +228,13 @@ export default {
           title: 'aura',
           thumbnail: '/images/cards/aura.png',
           mobileThumbnail: '/images/cards/aura_sm.png',
-          bio: 'Design-centered digital exhibition on Sergio Marchionne',
+          bio: 'Brand identity for energy company',
           category: ['branding', 'graphic'],
           class: 'column card-extrasmall biowhite',
           to: "it-back",
           pill1: 'Branding',
-          pill2: 'Coding',
-          pill3: 'UX-UI',
+          pill2: 'Visual',
+          pill3: 'UI',
           projectname: 'Aura Energy'
         }
 

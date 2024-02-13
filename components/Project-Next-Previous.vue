@@ -8,7 +8,7 @@
       <div cols="12" md="10" class="">
         <p2 style=""> Next Project {{ bio }} </p2>
       </div>
-      <div cols="12" md="10" class=""><h4 style="color: var(--color-primary);"> SourData {{  }} </h4></div>
+      <div cols="12" md="10" class=""><h4 style="color: var(--color-primary);">  {{ nextproject }} </h4></div>
     </div>
     </div>
 
@@ -63,6 +63,7 @@ export default {
     pill1: String,
     pill2: String,
     pill3: String,
+    nextproject: String,
   },
 }
 

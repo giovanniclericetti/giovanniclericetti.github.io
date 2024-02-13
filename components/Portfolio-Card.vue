@@ -19,7 +19,7 @@
 
           <b-col cols="12" md="10" class=""><h4 style="color: var(--color-secondary);">  {{ projectname }} </h4></b-col>
           <b-col cols="12" md="10" class="">
-            <p2 style="color: var(--color-secondary);"> {{ bio }} </p2>
+            <p2 style="color: var(--color-secondary)"> {{ bio }} </p2>
           </b-col>
 
           <b-col cols="12" md="10" class="">

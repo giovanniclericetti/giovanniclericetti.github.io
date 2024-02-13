@@ -10,9 +10,9 @@
 
   <div class="mt-5">
 
-    <h2 style="width: 90%; line-height: 140%" class="py-5"> Hey! My name is <span class="name gradient">Giovanni</span>. I’m an Italian communication and
-      experience designer based in Milan. I graduated in Communication
-      Design at the Polimi and now I am attending a master's program. </h2>
+    <h2 style="width: 85%; line-height: 140%" class="py-5"> Hi! I'm Giovanni, an italian <span class="name gradient"> communication and
+      experience designer </span> based in Milan. I graduated in Communication
+      Design at the Polimi. Here are some of the projects I have worked on! </h2>
 
   </div>
 
@@ -36,7 +36,7 @@ export default {
 
 .name{
   font-family: 'title-regular';
-  font-size: 36px;
+  font-size: 34px;
 }
 
 

@@ -6,8 +6,8 @@
     <h3 class="subtitle"> {{ subtitle }}</h3>
 
     <div class="d-md-block d-none">
-      <b-badge pill class="pills mx-0 mr-2 my-3 p-2 px-3"> {{ pill1 }}</b-badge>
-      <b-badge pill class="pills mx-0 mr-2 my-3 p-2 px-3"> {{ pill2 }}</b-badge>
+      <b-badge pill class="pills mx-0 mr-2 p-2 px-3"> {{ pill1 }}</b-badge>
+      <b-badge pill class="pills mx-0 mr-2  p-2 px-3"> {{ pill2 }}</b-badge>
       <b-badge pill class="pills mx-0 mr-2 my-3 p-2 px-3"> {{ pill3 }}</b-badge>
       <b-badge pill class="pills mx-0 mr-2 my-3 p-2 px-3"> {{ pill4 }}</b-badge>
     </div>
