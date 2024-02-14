@@ -6,6 +6,9 @@
       :src="video"
       allowfullscreen
     ></b-embed>
+
+
+
   </div>
 </template>
 

@@ -1,12 +1,13 @@
 <template>
 
-  <div class="container-fluid my-5">
+  <div class="container-fluid my-5 py-5">
 
     <div class="d-flex justify-content-center mx-0">
+
     <div class="text-center">
 
       <div cols="12" md="10" class="">
-        <p2 style=""> Next Project {{ bio }} </p2>
+        <p1 style=""> Next Project {{ bio }} </p1>
       </div>
       <div cols="12" md="10" class=""><h4 style="color: var(--color-primary);">  {{ nextproject }} </h4></div>
     </div>
@@ -14,7 +15,7 @@
 
       <div class="d-flex justify-content-center">
 
-    <div class="nextcard">
+    <div class="nextcard bg-warning">
 
       <NuxtLink :to="to">
 
@@ -25,18 +26,29 @@
 
       </NuxtLink>
 
-      <b-row align-v="end" class="my-3" style="position: absolute; bottom: 0px; width: 100%;">
+      <b-row align-v="end" class=" p-0 m-0 pb-1 mb-2" style="position: absolute; bottom: 0px; width: 100%;">
 
-        <b-col cols="" md="" class="text-left pl-3 p-0 gradient">
-<NuxtLink to="/"> <img src="~static/favicon.svg" style="width: 36px; height: 36px;"/> </NuxtLink>       </b-col>
+        <b-col cols="12" md="6" class="text-left ">
+          <NuxtLink to="/" class="">
+<div class="d-flex align-items-center">
+            <b-icon icon="arrow-up-right-circle-fill" style="width: 38px; height: 38px; color:var(--color-warning); opacity: 0.8" />
 
-        <b-col cols="" md="" class="text-right px-3">
+            <p2 class="px-2" style="text-decoration: none; color:var(--color-warning; line-height: 120%; opacity: 0.9">Digital experience  aimed at reviving outdated technology products</p2>
+
+</div>
+
+
+
+          </NuxtLink>     </b-col>
+
+        <b-col cols="12" md="" class="text-right">
           <b-badge pill class="pillshome mx-0 mr-1  p-1 px-2"> {{ pill1 }}</b-badge>
           <b-badge pill class="pillshome mx-0 mr-1  p-1 px-2"> {{ pill2 }}</b-badge>
           <b-badge pill class="pillshome mx-0 mr-0  p-1 px-2"> {{ pill3 }}</b-badge>
         </b-col>
 
       </b-row>
+
     </div>
 
 
@@ -85,6 +97,7 @@ export default {
   font-size: 14px;
   color:var(--color-primary)}
 
+
 .nextcard {
   border-radius: 30px;
   overflow: hidden;
@@ -94,12 +107,39 @@ export default {
   background-size: cover;
   position: relative;
   height: 200px;
-}
+  transition: transform 0.3s ease-in-out;
 
 .card-background {
-  overflow: hidden;
   position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
   inset: 0;
+  height: 100%;
+  transform-origin: center;
+  transform: scale(1.01);
+  transition: transform 0.5s ease-in-out;
+
+&:hover .card-background {
+   transform: scale(1.05); /* Aggiunto qui */
+ }
+}
+
+.card-background img {
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.card-background {
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  inset: 0;
+  height: 100%;
+  transform-origin: center;
+  transform: scale(1.01);
+  transition: transform 0.5s ease-in-out;
 
 img {
   width: 100%;
@@ -107,8 +147,16 @@ img {
   object-fit: cover;
   transition: transform 0.5s ease-in-out;
 }
-
-
 }
+
+&:hover .card-background {
+   transform: scale(1.05); /* Aggiunto qui */
+ }
+}
+
+
+
+
+
 
 </style>

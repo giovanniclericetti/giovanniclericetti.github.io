@@ -43,7 +43,7 @@ The shapes of the Hub recall the imagery of the piggy bank, inside which instead
         <template #link>
           <div class="mt-5">
             <a href="https://itback.altervista.org/" target="_blank">
-              <ProjectLink textlink="Website"></ProjectLink>
+              <ProjectLink textlink="Thesis"></ProjectLink>
             </a>
           </div>
         </template>
@@ -65,29 +65,40 @@ The shapes of the Hub recall the imagery of the piggy bank, inside which instead
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
-          <Project-Video
-            video="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"/>
+          <div style="padding:56.25% 0 0 0;position:relative;" class="projectbox">
+            <iframe src="https://player.vimeo.com/video/728646170?h=c26dc4bb98&title=0&byline=0&portrait=0"
+                    style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+
+          <script src="https://player.vimeo.com/api/player.js"></script>
+
+        </b-col>
+
+        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
+          <div class="imgbox">
+            <img class="img-parallax imgproject h400" style="
+     background-image: url(/images/sourdata/sourdata_4.png)"
+                 v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="4" class=" py-md-3 py-2 px-3">
         <div class="imgbox">
           <img class="img-parallax imgproject h500" style="
      background-image: url(/images/sourdata/sourdata_5.png)"
-               v-prlx.background="{ speed: 0.2 }"></div>
+               v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="8" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/sourdata/sourdata_6.png)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-        <div class="imgbox">
-          <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/sourdata/sourdata_4.png)"
-               v-prlx.background="{ speed: 0.1 }"></div>
+          <div class="imgbox">
+            <img class="img-parallax imgproject h400" style="
+     background-image: url(/images/sourdata/sourdata_9.png)"
+                 v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -111,78 +122,85 @@ Poopy for feces, and We"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
+        <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/sourdata/sourdata_9.png)"
+            <img class="img-parallax imgproject h500" style="
+     background-image: url(/images/sourdata/sourdata_11.png)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
-<!--        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-
-          <Project-Video
-            video="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"/>
+        <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
+          <div class="imgbox">
+            <img class="img-parallax imgproject h500" style="
+     background-image: url(/images/sourdata/sourdata_10.png)"
+                 v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
-                <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
+        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
+          <div style="padding:56.25% 0 0 0;position:relative;" class="projectbox">
+
+            <iframe src="https://player.vimeo.com/video/753126993?h=81c5baeaa7&title=0&byline=0&portrait=0"
+                    style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+
+          <script src="https://player.vimeo.com/api/player.js"></script>
+
+        </b-col>
+
+        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <ProjectDescription2
-
-            title="Taxonomy"
-
+            title="The Experience"
             description="
 Beginning with reflection on the issue of personal data and privacy,
 SourData was born as a company producing devices that monitor the most intimate data,
 the only ones yet ever collected, in exchange for money: Coomy for masturbation,
 Poopy for feces, and We"
+          /> </b-col>
 
-          />
-        </b-col>
-
-        -->
-
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-
+        <b-col cols="12" md="4" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
-     background-image: url(https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_2.png?raw=true)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+     background-image: url(/images/sourdata/sourdata_7.png)"
+                 v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
-        <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
-
-          <div class="imgbox">
-            <img class="img-parallax imgproject prllx-small h500" style="
-     background-image: url(https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_4.png?raw=true)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
-        </b-col>
-
-        <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
-
-          <div class="imgbox">
-            <img class="img-parallax imgproject prllx-small h500" style="
-     background-image: url(https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_3.png?raw=true)"
-                 v-prlx.background="{ speed: 0.15 }"></div>
-        </b-col>
-
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-
+        <b-col cols="12" md="8" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
-     background-image: url(https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_5.png?raw=true)"
+     background-image: url(/images/sourdata/sourdata_8.png)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_6.png?raw=true)"
+            <img class="img-parallax imgproject h600" style="
+     background-image: url(/images/sourdata/sourdata_12.png)"
                  v-prlx.background="{ speed: 0.1 }"></div>
+        </b-col>
+
+
+        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
+          <ProjectDescription2
+            title="Making Of"
+            description="
+Beginning with reflection on the issue of personal data and privacy,
+SourData was born as a company producing devices that monitor the most intimate data,
+the only ones yet ever collected, in exchange for money: Coomy for masturbation,
+Poopy for feces, and We"
+          /> </b-col>
+
+
+        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
+
+          <div style="padding:56.25% 0 0 0;position:relative;" class="projectbox">
+            <iframe src="https://player.vimeo.com/video/728645150?h=1e9d32eb71&title=0&byline=0&portrait=0"
+                    style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+
+          <script src="https://player.vimeo.com/api/player.js"></script>
+
         </b-col>
 
       </b-row>
-
 
       <ProjectNextPrevious
         title="It-Back"

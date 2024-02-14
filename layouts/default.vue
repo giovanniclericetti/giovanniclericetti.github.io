@@ -86,12 +86,14 @@ p2 {
   --color-primary: #FF5880;
   --color-secondary: #3741DC;
   --color-success: #3741DC;
+  --color-warning: white;
 }
 
 .it-back {
   --color-primary: #EA4A3C;
   --color-secondary: green;
   --color-success: #EA4A3C;
+  --color-warning: white;
 }
 
 .quattriny {

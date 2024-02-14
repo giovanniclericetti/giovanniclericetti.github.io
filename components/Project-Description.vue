@@ -3,7 +3,7 @@
   <b-row>
     <b-col cols="12" md="7">
 
-    <h4> Project </h4>
+    <h4> Project Overview </h4>
      <p> {{ description }} </p>
 
 
