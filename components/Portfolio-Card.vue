@@ -10,22 +10,23 @@
              :style="{ backgroundImage: 'url(' + thumbnail + ')' }"
              v-prlx.background="{ speed: 0.04 }"/>
 
+          <img class="img-parallax imgmobile d-md-none"
+               :style="{ backgroundImage: 'url(' + mobileThumbnail + ')' }"
+               v-prlx.background="{ speed: 0.2 }"/>
+
         </div>
-
-          <img :src="mobileThumbnail" class="d-md-none"/>
-
 
         <b-row class="bio mx-1 my-2">
 
-          <b-col cols="12" md="10" class=""><h4 style="color: var(--color-secondary);">  {{ projectname }} </h4></b-col>
-          <b-col cols="12" md="10" class="">
+          <b-col cols="12" md="10" class=""><h4 class="titlemob" style="color: var(--color-secondary);">  {{ projectname }} </h4></b-col>
+          <b-col cols="9" md="10" class="">
             <p2 style="color: var(--color-secondary)"> {{ bio }} </p2>
           </b-col>
 
           <b-col cols="12" md="10" class="">
-            <b-badge pill class="pillshome mx-0 mr-1 my-3 p-1 px-2"> {{ pill1 }}</b-badge>
-            <b-badge pill class="pillshome mx-0 mr-1 my-3 p-1 px-2"> {{ pill2 }}</b-badge>
-            <b-badge pill class="pillshome mx-0 mr-1 my-3 p-1 px-2"> {{ pill3 }}</b-badge>
+            <b-badge pill class="pillshome mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ pill1 }}</b-badge>
+            <b-badge pill class="pillshome mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ pill2 }}</b-badge>
+            <b-badge pill class="pillshome mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ pill3 }}</b-badge>
           </b-col>
 
         </b-row>
@@ -135,22 +136,47 @@ h6{
   height: 620px;
 }
 
+.imgmobile{
+
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
+
 @media (max-width: 768px) {
 
   .card-small {
-    height: 300px;
+    height: 250px;
+  }
+
+  .sourdata {
+      --color-success: #FF5880;
   }
 
   .card-medium {
-    height: 300px;
+    height: 250px;
   }
 
   .card-large {
     height: 300px;
   }
 
+  .card-extralarge {
+    height: 350px;
+  }
+
+  .card-extraextralarge {
+    height: 350px;
+  }
+
   .projectcard {
     margin-bottom: 16px;
+    border-radius: 20px;
+  }
+
+  .titlemob{
+    line-height: 50%;
   }
 
 

@@ -4,13 +4,11 @@
 
 <div class="container mt-4">
 
-
-
   <IndexHeader></IndexHeader>
 
   <div class="mt-5">
 
-    <h2 style="width: 85%; line-height: 140%" class="py-5"> Hi! I'm Giovanni, an italian <span class="name gradient"> communication and
+    <h2 class="titleindex"> Hi! I'm Giovanni, an italian <span class="name gradient"> communication and
       experience designer </span> based in Milan. I graduated in Communication
       Design at the Polimi. Here are some of the projects I have worked on! </h2>
 
@@ -39,11 +37,21 @@ export default {
   font-size: 34px;
 }
 
+.titleindex{
+  width: 85%;
+  line-height: 140%
+}
+
 
 @media (max-width: 768px) {
 
   .name{
   font-size: 30px;}
+
+  .titleindex{
+    width: 90%;
+    line-height: 140%
+  }
 
 }
 

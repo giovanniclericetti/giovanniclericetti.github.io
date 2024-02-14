@@ -204,14 +204,19 @@ Poopy for feces, and We"
 
       <ProjectNextPrevious
         title="It-Back"
-        thumbnail="/images/cards/itback.png"
+        thumbnail="/images/it-back/next.svg
+"
+
+
+
         mobileThumbnail="/images/cards/itback_sm.png"
         class="column card-large biowhite it-back"
         to="it-back"
-        pill1="Branding"
+        pill1="Visual"
         pill2="UX-UI"
         pill3="Coding"
         nextproject="It-Back"
+        bionext="Digital experience  aimed at reviving outdated technology products"
       />
 
 

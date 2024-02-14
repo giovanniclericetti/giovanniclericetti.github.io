@@ -87,6 +87,8 @@ p2 {
   --color-secondary: #3741DC;
   --color-success: #3741DC;
   --color-warning: white;
+
+
 }
 
 .it-back {
@@ -185,9 +187,7 @@ p2 {
   height: 600px;
   border-radius: 30px;
   background-color: white;
-
 }
-
 .h400{
   height: 400px
 }

@@ -6,9 +6,9 @@
 
     </div>
 
-    <b-row ref="projectsContainer" class="" :style="{minHeight: containerHeight + 'px'}" >
+    <b-row ref="projectsContainer" class="d-md-flex d-none" :style="{minHeight: containerHeight + 'px'}" >
 
-      <b-col cols="12" md="6" lg="4">
+      <b-col cols="12" md="12" lg="4">
 
         <PortfolioCard
           v-bind="projects.sourdata"
@@ -33,7 +33,7 @@
 
 
 
-      <b-col cols="12" md="6" lg="4">
+      <b-col cols="12" md="12" lg="4">
 
         <PortfolioCard
           v-bind="projects.referto"
@@ -61,7 +61,7 @@
 
       </b-col>
 
-      <b-col cols="12" md="6" lg="4">
+      <b-col cols="12" md="12" lg="4">
 
         <PortfolioCard
           v-bind="projects.bottleneck"
@@ -78,9 +78,66 @@
           class="previewpretest"
         />
 
+      </b-col>
+
+    </b-row>
 
 
 
+    <b-row ref="projectsContainer" class="d-md-none d-block"  :style="{minHeight: containerHeight + 'px'}">
+
+      <b-col cols="12" md="6">
+
+        <PortfolioCard
+          v-bind="projects.sourdata"
+          class="sourdata"
+        />
+
+        <PortfolioCard
+          v-bind="projects.itback"
+          class="it-back"
+        />
+
+        <PortfolioCard
+          v-bind="projects.quattriny"
+          class="quattriny"
+        />
+
+        <PortfolioCard
+          v-bind="projects.referto"
+          class="referto"
+        />
+
+        <PortfolioCard
+          class="carachioggia"
+          v-bind="projects.carachioggia"
+        />
+
+        <PortfolioCard
+          v-bind="projects.aura"
+          class="aura"
+        />
+
+        <PortfolioCard
+          :currentCategory="currentCategory"
+          v-bind="projects.around"
+          class="around"
+        />
+
+        <PortfolioCard
+          v-bind="projects.bottleneck"
+          class="bottleneck"
+        />
+
+        <PortfolioCard
+          class="disruptive"
+          v-bind="projects.disruptive"
+        />
+
+        <PortfolioCard
+          v-bind="projects.previewpretest"
+          class="previewpretest"
+        />
 
       </b-col>
 
@@ -121,16 +178,16 @@ export default {
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
           class: 'column card-large biowhite',
           to: "it-back",
-          pill1: 'UX-UI',
-          pill2: 'Visual',
-          pill3: 'Branding',
+          pill1: 'Visual',
+          pill2: 'UX-UI',
+          pill3: 'Coding',
         },
 
         sourdata: {
           title: 'SourData',
           projectname: 'SourData',
           thumbnail: '/images/cards/sourdata.png',
-          mobileThumbnail: '/images/cards/sourdata_sm.png',
+          mobileThumbnail: '/images/cards/sourdata_sm.svg',
           bio: 'Product-service system to make money from user’s personal data',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
           class: 'column card-extraextralarge biowhite',

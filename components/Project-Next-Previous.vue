@@ -7,7 +7,7 @@
     <div class="text-center">
 
       <div cols="12" md="10" class="">
-        <p1 style=""> Next Project {{ bio }} </p1>
+        <p1 style=""> Go to Next Project {{ bio }} </p1>
       </div>
       <div cols="12" md="10" class=""><h4 style="color: var(--color-primary);">  {{ nextproject }} </h4></div>
     </div>
@@ -33,7 +33,7 @@
 <div class="d-flex align-items-center">
             <b-icon icon="arrow-up-right-circle-fill" style="width: 38px; height: 38px; color:var(--color-warning); opacity: 0.8" />
 
-            <p2 class="px-2" style="text-decoration: none; color:var(--color-warning; line-height: 120%; opacity: 0.9">Digital experience  aimed at reviving outdated technology products</p2>
+            <p2 class="px-2" style="text-decoration: none; color:var(--color-warning; line-height: 120%; opacity: 0.9"> {{bionext}} </p2>
 
 </div>
 
@@ -76,6 +76,7 @@ export default {
     pill2: String,
     pill3: String,
     nextproject: String,
+    bionext: String,
   },
 }
 
