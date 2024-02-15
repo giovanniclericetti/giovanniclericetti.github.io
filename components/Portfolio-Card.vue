@@ -12,7 +12,7 @@
 
           <img class="img-parallax imgmobile d-md-none"
                :style="{ backgroundImage: 'url(' + mobileThumbnail + ')' }"
-               v-prlx.background="{ speed: 0.2 }"/>
+               />
 
         </div>
 
@@ -146,8 +146,12 @@ h6{
 
 @media (max-width: 768px) {
 
+  .card-extrasmall {
+    height: 200px;
+  }
+
   .card-small {
-    height: 250px;
+    height: 200px;
   }
 
   .sourdata {
@@ -159,26 +163,29 @@ h6{
   }
 
   .card-large {
-    height: 300px;
+    height: 250px;
   }
 
   .card-extralarge {
-    height: 350px;
+    height: 300px;
   }
 
   .card-extraextralarge {
-    height: 350px;
+    height: 300px;
   }
 
   .projectcard {
     margin-bottom: 16px;
-    border-radius: 20px;
+    border-radius: 30px;
   }
 
   .titlemob{
     line-height: 50%;
   }
 
+  .md-biowhite{
+    --color-secondary: white;
+  }
 
 }
 

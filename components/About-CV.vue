@@ -77,7 +77,7 @@
 
       </b-col>
 
-      <b-col cols="12" md="4">
+      <b-col cols="12" md="4" style="">
 
         <h4 class="gradient mt-md-0 mt-4"> Work Experiences </h4>
 
@@ -134,6 +134,7 @@
       </b-col>
 
       <b-col cols="12" md="4">
+
 
         <h4 class="gradient mt-md-0 mt-4"> Languages </h4>
 

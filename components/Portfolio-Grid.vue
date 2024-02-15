@@ -94,13 +94,8 @@
         />
 
         <PortfolioCard
-          v-bind="projects.itback"
-          class="it-back"
-        />
-
-        <PortfolioCard
-          v-bind="projects.quattriny"
-          class="quattriny"
+          v-bind="projects.bottleneck"
+          class="bottleneck"
         />
 
         <PortfolioCard
@@ -109,8 +104,23 @@
         />
 
         <PortfolioCard
+          class="disruptive"
+          v-bind="projects.disruptive"
+        />
+
+        <PortfolioCard
           class="carachioggia"
           v-bind="projects.carachioggia"
+        />
+
+        <PortfolioCard
+          v-bind="projects.previewpretest"
+          class="previewpretest"
+        />
+
+        <PortfolioCard
+          v-bind="projects.itback"
+          class="it-back"
         />
 
         <PortfolioCard
@@ -119,25 +129,17 @@
         />
 
         <PortfolioCard
+          v-bind="projects.quattriny"
+          class="quattriny"
+        />
+
+        <PortfolioCard
           :currentCategory="currentCategory"
           v-bind="projects.around"
           class="around"
         />
 
-        <PortfolioCard
-          v-bind="projects.bottleneck"
-          class="bottleneck"
-        />
 
-        <PortfolioCard
-          class="disruptive"
-          v-bind="projects.disruptive"
-        />
-
-        <PortfolioCard
-          v-bind="projects.previewpretest"
-          class="previewpretest"
-        />
 
       </b-col>
 
@@ -159,7 +161,7 @@ export default {
           title: 'Disruptive',
           thumbnail: '/images/cards/disruptive.png',
           projectname: 'Disruptive',
-          mobileThumbnail: '/images/cards/disruptive_sm.png',
+          mobileThumbnail: '/images/cards/disruptive_sm.svg',
           bio: 'Design-centered digital exhibition on Sergio Marchionne and his story',
           category: ['ux-ui', 'branding', 'graphic'],
           class: 'column card-medium biodark',
@@ -173,7 +175,7 @@ export default {
           title: 'It-Back',
           projectname: 'It-Back',
           thumbnail: '/images/cards/itback.png',
-          mobileThumbnail: '/images/cards/itback_sm.png',
+          mobileThumbnail: '/images/cards/itback_sm.svg',
           bio: 'Digital experience  aimed at reviving outdated technology products',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
           class: 'column card-large biowhite',
@@ -200,7 +202,7 @@ export default {
         previewpretest: {
           title: 'Preview Pretest',
           thumbnail: '/images/cards/previewpretest.png',
-          mobileThumbnail: '/images/cards/previewpretest_sm.png',
+          mobileThumbnail: '/images/cards/preview_sm.svg',
           bio: 'Series of events dedicated to future Polimi students',
           projectname: 'Preview & Pretest',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
@@ -214,10 +216,10 @@ export default {
         referto: {
           title: 'Referto',
           thumbnail: '/images/cards/referto.png',
-          mobileThumbnail: '/images/cards/fattididati_sm.png',
+          mobileThumbnail: '/images/cards/referto_sm.svg',
           bio: 'Indipendent Magazine for social change about lives of health workers',
           category: ['branding', 'graphic', 'ux-ui'],
-          class: 'column card-large biodark',
+          class: 'column card-large biodark md-biowhite',
           to: "it-back",
           pill1: 'Editorial',
           pill2: 'Visual',
@@ -228,7 +230,7 @@ export default {
         carachioggia: {
           title: 'carachioggia',
           thumbnail: '/images/cards/carachioggia.png',
-          mobileThumbnail: '/images/cards/cbct_sm.png',
+          mobileThumbnail: '/images/cards/carachioggia_sm.svg',
           bio: 'Digital experience of letters and stories to relive fishing places in Chioggia ',
           category: ['coding'],
           class: 'column card-extralarge biowhite',
@@ -242,7 +244,7 @@ export default {
         quattriny: {
           title: 'quattriny',
           thumbnail: '/images/cards/quattriny.png',
-          mobileThumbnail: '/images/cards/hively_sm.png',
+          mobileThumbnail: '/images/cards/quattriny_sm.svg',
           bio: 'Ironic fictional-branding of a cash provider payment company',
           category: ['branding', 'graphic'],
           class: 'column card-small biowhite',
@@ -256,7 +258,7 @@ export default {
         around: {
           title: 'around',
           thumbnail: '/images/cards/around.png',
-          mobileThumbnail: '/images/cards/bellascusa_sm.png',
+          mobileThumbnail: '/images/cards/around_sm.svg',
           bio: 'Research and experimentation project on the use of algorithms in translation',
           category: ['branding', 'graphic'],
           class: 'column card-extrasmall biowhite',
@@ -270,7 +272,7 @@ export default {
         bottleneck: {
           title: 'bottleneck',
           thumbnail: '/images/cards/bottleneck.png',
-          mobileThumbnail: '/images/cards/aura_sm.png',
+          mobileThumbnail: '/images/cards/bottleneck_sm.svg',
           bio: 'Digital innovative wellbeing service that categorises and prioritises notifications',
           category: ['branding', 'graphic'],
           class: 'column card-extralarge biowhite',
@@ -283,8 +285,8 @@ export default {
 
         aura: {
           title: 'aura',
-          thumbnail: '/images/cards/aura.png',
-          mobileThumbnail: '/images/cards/aura_sm.png',
+          thumbnail: '/images/cards/aura.svg',
+          mobileThumbnail: '/images/cards/aura_sm.svg',
           bio: 'Brand identity for energy company',
           category: ['branding', 'graphic'],
           class: 'column card-extrasmall biowhite',
@@ -356,6 +358,7 @@ h6{
   --color-secondary: white;
 }
 
+
 @media (max-width: 768px) {
 
 .btn {
@@ -366,6 +369,11 @@ h6{
   p{
     font-size: 14px;
   }
+
+  .md-biowhite{
+    --color-secondary: white;
+  }
+
 
 }
 

@@ -1,7 +1,7 @@
 <template>
-  <div class="mt-md-4  ml-2 ml-md-0 mt-3 pr-5 cvpar">
+  <div class=" ml-md-0 mt-md-3 pr-md-5 cvpar ">
     <h6 class="mb-1"> {{ category }}</h6>
-    <slot  name="slotcvelement"> </slot>
+    <slot style="padding: 0px" name="slotcvelement"> </slot>
   </div>
 </template>
 
@@ -18,7 +18,7 @@ export default {
 @media (max-width: 768px) {
 
   .cvpar{
-    width: 85%;
+    width: 80%;
   }
 
 }
