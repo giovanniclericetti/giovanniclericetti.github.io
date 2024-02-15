@@ -304,8 +304,13 @@
         </b-collapse>
       </b-card>
 
+
+
     </div>
 
+    <h4 class="w-100 mt-5 text-center"> <a href="">
+      <span class="underlinemobile downloadcv" style="color: black"> Download Resume </span> </a>
+    </h4>
 
   </div>
 
@@ -355,7 +360,7 @@ export default {
   text-decoration: underline;
   text-decoration-thickness: 5px;
   text-decoration-color: #DADADA;
-  text-underline-offset: 0px;
+  text-underline-offset: 1px;
   color: black;
 }
 </style>

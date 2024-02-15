@@ -68,9 +68,12 @@ a:hover {
 }
 
 .social {
-    text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-decoration-color: gray;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #C0C0C0;
+  text-underline-offset: 1px;
+  color: black;
+
   }
 
 }

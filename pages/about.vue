@@ -10,7 +10,7 @@
 
     title="Something about me"
     titlesm="Who I am"
-    subtitle="My name is Giovanni! I’m 21 years old and Milan is my city. I'm passionate
+    subtitle="My name is Giovanni! I’m 23 years old and Milan is my city. I'm passionate
     and curious about what I have around me. I like to discover, learn about and
     comprehend aspects of reality and the forms it can take, even in small details."
 
@@ -40,7 +40,7 @@ What do I want to do in the future? Over the years I have experimented with diff
 
   </div>
 
-  <PortfolioFooter class="mt-5"/>
+  <PortfolioFooter class="mt-md-5"/>
 
 </div>
 
