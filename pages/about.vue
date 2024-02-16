@@ -14,7 +14,20 @@
     and curious about what I have around me. I like to discover, learn about and
     comprehend aspects of reality and the forms it can take, even in small details."
 
-    class=""/>
+    class="d-md-block d-none"/>
+
+
+    <div class="mt-4 py-4 d-md-none">
+
+      <h2 class="titleindex">
+
+        My name is <span class="name gradient"> Giovanni</span>. I’m 23 years old and Milan is my city. I'm passionate
+        and curious about what I have around me. I like to discover, learn about and
+        comprehend aspects of reality and the forms it can take, even in small details.
+
+      </h2>
+
+    </div>
 
     <AboutPhoto
       class="d-md-none"
@@ -54,4 +67,15 @@ export default {
 
 <style scoped>
 
+@media (max-width: 768px) {
+
+  .name{
+    font-size: 30px;}
+
+  .titleindex{
+    width: 100%;
+    line-height: 140%
+  }
+
+}
 </style>
