@@ -14,14 +14,18 @@
         pill3="Branding"
         pill4="Speculative"/>
 
-      <div cols="12" md="12" class="my-2 mt-md-0 py-md-3 py-md-2 py-4  ">
+      <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block ">
 
-        <img class="cover-parallax d-none d-md-block" style="
+        <img class="cover-parallax" style="
      background-image: url(/images/sourdata/sourdata_1.png)"
              v-prlx.background="{ speed: 0.1 }">
+      </div>
 
-        <img class="cover-parallax d-block d-md-none" style="
-     background-image: url(/images/sourdata/sourdata-cover-sm.svg)"
+
+      <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
+
+        <img class=""
+     src="/images/sourdata/sourdata-cover-sm.svg"
         >
 
       </div>
@@ -43,11 +47,11 @@ The shapes of the Hub recall the imagery of the piggy bank, inside which instead
         team="E. Ceriani, G. Fulghieri, F. Nozza, M. Zagaria"
         role="Brand Identity, Graphics, UX-UI, Keynote Presentation, Social Media, Editorial, Technology Research, Coding (HTML, CSS, JS, Arduino)"
         delivery="Final Synthesis Lab, 2021-2022"
-        class="my-md-5"
+        class="my-md-3"
       >
 
         <template #link>
-          <div class="mt-5">
+          <div class="mt-md-5 mt-4">
             <a href="https://itback.altervista.org/" target="_blank">
               <ProjectLink textlink="Thesis"></ProjectLink>
             </a>
@@ -245,6 +249,19 @@ export default {
 
 
 <style>
+
+.cover-mobile{
+  width: 100%;
+  height: 300px;
+  background-size: contain;
+  background-position: center;
+  border-radius: 20px;
+  overflow: hidden;
+
+  img{
+    width: 100%;
+  }
+}
 
 .subtitle {
   max-width: 90%;
