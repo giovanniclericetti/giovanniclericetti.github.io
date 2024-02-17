@@ -19,9 +19,8 @@
 
       <NuxtLink :to="to">
 
-        <div class="card-background">
-          <img :src="thumbnail" class="d-none d-md-block"/>
-          <img :src="mobileThumbnail" class="d-md-none"/>
+        <div class="card-background row justify-content-center" >
+          <img :src="thumbnail" class=""/>
         </div>
 
       </NuxtLink>
@@ -41,7 +40,7 @@
 
           </NuxtLink>     </b-col>
 
-        <b-col cols="12" md="" class="text-right">
+        <b-col cols="12" md="" class="text-right d-none d-md-block">
           <b-badge pill class="pillshome mx-0 mr-1  p-1 px-2"> {{ pill1 }}</b-badge>
           <b-badge pill class="pillshome mx-0 mr-1  p-1 px-2"> {{ pill2 }}</b-badge>
           <b-badge pill class="pillshome mx-0 mr-0  p-1 px-2"> {{ pill3 }}</b-badge>
@@ -119,10 +118,6 @@ export default {
   transform-origin: center;
   transform: scale(1.01);
   transition: transform 0.5s ease-in-out;
-
-&:hover .card-background {
-   transform: scale(1.05); /* Aggiunto qui */
- }
 }
 
 .card-background img {
@@ -130,33 +125,21 @@ export default {
   object-fit: cover;
 }
 
-
-
-.card-background {
-  position: absolute;
-  background-position: center;
-  background-repeat: no-repeat;
-  inset: 0;
-  height: 100%;
-  transform-origin: center;
-  transform: scale(1.01);
-  transition: transform 0.5s ease-in-out;
-
-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.5s ease-in-out;
-}
-}
-
 &:hover .card-background {
    transform: scale(1.05); /* Aggiunto qui */
  }
+
 }
 
+@media (max-width: 768px) {
 
+.nextcard {
+  border-radius: 20px;
+  height: 170px;
+  width: 100%;
+}
 
+}
 
 
 
