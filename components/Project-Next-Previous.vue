@@ -9,11 +9,11 @@
       <div cols="12" md="10" class="">
         <p1 style=""> Go to Next Project {{ bio }} </p1>
       </div>
-      <div cols="12" md="10" class=""><h4 style="color: var(--color-primary);">  {{ nextproject }} </h4></div>
+      <div cols="12" md="10" class="d-none d-md-block"><h4 style="color: var(--color-primary);">  {{ nextproject }} </h4></div>
     </div>
     </div>
 
-      <div class="d-flex justify-content-center">
+      <div class="d-flex justify-content-center mt-2 mt-md-0">
 
     <div class="nextcard bg-warning">
 
@@ -66,7 +66,6 @@ export default {
   props: {
     title: String,
     thumbnail: String,
-    mobileThumbnail: String,
     bio: String,
     category: String,
     currentCategory: [String, Boolean],

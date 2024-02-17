@@ -16,7 +16,7 @@
 
       <div cols="12" md="12" class="my-2 mt-md-0 py-md-3 py-md-2 py-4  ">
 
-        <img class="cover-parallax d-none d-m" style="
+        <img class="cover-parallax d-none d-md-block" style="
      background-image: url(/images/sourdata/sourdata_1.png)"
              v-prlx.background="{ speed: 0.1 }">
 

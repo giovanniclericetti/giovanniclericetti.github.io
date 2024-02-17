@@ -159,7 +159,6 @@ p2 {
   font-family: 'DM Sans';
   font-weight: 400;
   font-size: 16px;
-
 }
 
 .hover-underline-animation {
@@ -261,6 +260,10 @@ h3{
   font-size: 20px;
 }
 
+  h4 {;
+    font-size: 20px;
+  }
+
 
   p{
     font-size: 16px;
@@ -277,11 +280,9 @@ height: 300px;
   }
 
   .img-parallax{
-    width: 100%;
     background-size: cover;
     height: 230px;
     border-radius: 20px;
-    background-color: white;
     background-position: center;
 
   }
@@ -306,6 +307,17 @@ height: 300px;
     max-height: 600px;
     border-radius: 20px;
   }
+
+  .pills {
+    border-radius: 20px;
+    background-color: var(--color-primary);
+    border: none;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+
 
 
 }
