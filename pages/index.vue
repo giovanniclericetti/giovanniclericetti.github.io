@@ -6,7 +6,7 @@
 
   <IndexHeader></IndexHeader>
 
-  <div class="mt-5">
+  <div class="mt-5 py-md-5 py-2">
 
     <h2 class="titleindex"> Hi! I'm Giovanni, an italian <span class="name gradient"> communication and
       experience designer </span> based in Milan. I graduated in Communication

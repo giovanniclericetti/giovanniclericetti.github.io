@@ -131,7 +131,7 @@ export default {
       const offsetY = event.clientY - centerY;
 
       const rotateX = offsetY / containerRect.height * 30; // Adjust sensitivity here
-      const rotateY = -offsetX / containerRect.width * 30; // Adjust sensitivity here
+      const rotateY = -offsetX / containerRect.width * 35; // Adjust sensitivity here
 
       image.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateZ(50px)`;
     }

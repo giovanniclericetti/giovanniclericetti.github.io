@@ -220,7 +220,7 @@ export default {
           bio: 'Indipendent Magazine for social change about lives of health workers',
           category: ['branding', 'graphic', 'ux-ui'],
           class: 'column card-large biodark md-biowhite',
-          to: "it-back",
+          to: "referto",
           pill1: 'Editorial',
           pill2: 'Visual',
           pill3: 'Branding',
@@ -294,7 +294,7 @@ export default {
           pill1: 'Branding',
           pill2: 'Visual',
           pill3: 'UI',
-          projectname: 'Aura Energy'
+          projectname: 'Aura Energy',
         }
 
 

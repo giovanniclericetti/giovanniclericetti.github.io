@@ -290,7 +290,7 @@
 
             </AboutCvElement>
 
-            <AboutCvElement
+            <AboutCvElement class="mt-3"
               category="Coding"
             >
 

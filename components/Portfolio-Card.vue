@@ -26,7 +26,7 @@
           <b-col cols="12" md="10" class="">
             <b-badge pill class="pillshome mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ pill1 }}</b-badge>
             <b-badge pill class="pillshome mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ pill2 }}</b-badge>
-            <b-badge pill class="pillshome mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ pill3 }}</b-badge>
+            <b-badge pill class="pillshome terzapill mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ pill3 }}</b-badge>
           </b-col>
 
         </b-row>
@@ -134,6 +134,10 @@ h6{
 
 .card-extraextralarge {
   height: 620px;
+}
+
+.terzapill{
+  visibility: visible;
 }
 
 .imgmobile{
