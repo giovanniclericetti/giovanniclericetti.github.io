@@ -252,6 +252,7 @@ h1{
   font-size: 52px;
 }
 
+
 h2 {
   font-size: 24px;
 }
@@ -264,6 +265,48 @@ h3{
   p{
     font-size: 16px;
   }
+
+  .cover-parallax{
+    width: 100%;
+height: 300px;
+    background-size: cover;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+  }
+
+  .img-parallax{
+    width: 100%;
+    background-size: cover;
+    height: 230px;
+    border-radius: 20px;
+    background-color: white;
+    background-position: center;
+
+  }
+
+  .h400{
+    height: 150px;
+  }
+
+  .h500 {
+    height: 260px;
+  }
+
+  .h600 {
+    height: 250px;
+  }
+
+  .imgbox{
+    border-radius: 20px;
+  }
+
+  .projectbox {
+    max-height: 600px;
+    border-radius: 20px;
+  }
+
 
 }
 

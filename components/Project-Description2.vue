@@ -1,5 +1,5 @@
 <template>
-<div class="my-4" style="width: 70%">
+<div class="my-4 testiproject">
 
 
     <h4> {{title}} </h4>
@@ -20,5 +20,18 @@ export default {
 </script>
 
 <style scoped>
+
+
+.testiproject{
+  width: 70%
+}
+
+@media (max-width: 768px) {
+
+.testiproject{
+    width: 100%;
+  }
+
+}
 
 </style>

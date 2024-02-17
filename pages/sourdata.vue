@@ -14,10 +14,16 @@
         pill3="Branding"
         pill4="Speculative"/>
 
-      <div cols="12" md="12" class=" py-md-3 py-2 ">
+      <div cols="12" md="12" class="my-2 mt-md-0 py-md-3 py-md-2 py-4  ">
 
-        <img class="cover-parallax" style="
-     background-image: url(/images/sourdata/sourdata_1.png)"             v-prlx.background="{ speed: 0.1 }">
+        <img class="cover-parallax d-none d-m" style="
+     background-image: url(/images/sourdata/sourdata_1.png)"
+             v-prlx.background="{ speed: 0.1 }">
+
+        <img class="cover-parallax d-block d-md-none" style="
+     background-image: url(/images/sourdata/sourdata-cover-sm.svg)"
+        >
+
       </div>
 
       <ProjectDescription
@@ -37,7 +43,7 @@ The shapes of the Hub recall the imagery of the piggy bank, inside which instead
         team="E. Ceriani, G. Fulghieri, F. Nozza, M. Zagaria"
         role="Brand Identity, Graphics, UX-UI, Keynote Presentation, Social Media, Editorial, Technology Research, Coding (HTML, CSS, JS, Arduino)"
         delivery="Final Synthesis Lab, 2021-2022"
-        class="my-5"
+        class="my-md-5"
       >
 
         <template #link>
@@ -80,7 +86,7 @@ The shapes of the Hub recall the imagery of the piggy bank, inside which instead
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
-        <b-col cols="12" md="4" class=" py-md-3 py-2 px-3">
+        <b-col cols="12" md="4" class="d-none d-md-block py-md-3 py-2 px-3">
         <div class="imgbox">
           <img class="img-parallax imgproject h500" style="
      background-image: url(/images/sourdata/sourdata_5.png)"
@@ -94,7 +100,7 @@ The shapes of the Hub recall the imagery of the piggy bank, inside which instead
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
+        <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400" style="
      background-image: url(/images/sourdata/sourdata_9.png)"
