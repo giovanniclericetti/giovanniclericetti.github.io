@@ -17,7 +17,7 @@
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block ">
 
         <img class="cover-parallax" style="
-     background-image: url(/images/sourdata/sourdata_1.png)"
+     background-image: url(/images/bottleneck/bottleneck_cover.svg)"
              v-prlx.background="{ speed: 0.1 }">
       </div>
 
@@ -25,35 +25,24 @@
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
         <img class=""
-     src="/images/sourdata/sourdata-cover-sm.svg"
+     src="/images/bottleneck/bottleneck-cover-sm.svg"
         >
 
       </div>
 
       <ProjectDescription
         description="
-Beginning with the reflection on the issue of personal data and privacy,
-SourData was born as a company producing devices that monitor the most intimate data,
-the only service that collects data in exchange for money: Coomy for masturbation,
-Poopy for feces, and Weezy for breath. The data collected is stored on an SD card,
-which is later inserted inside the Hub, to allow it to be shared and obtain remuneration.
-The shapes of the Hub recall the imagery of the piggy bank, inside which instead of inserting
- the usual coins, data is inserted, personified by the SD. In addition to brand identity design,
- the SourData experience was developed in every aspect, from pre-experience to final data sharing.
- Posters, social content, user instructions, presentation reels, website, data  dashboards, brochures,
- and related products were created. All collection devices were physically made, while Coomy and the
- Hub are functioning and programmed to monitor and share data on the online server. The project was
- discussed in detail in the undergraduate paper."
+The project starts from the problem of notification overload in individuals working symbiotically with digital technology leading increasingly to a blurring of boundaries between the personal and work spheres. Bottleneck was created to address this need through a digital service designed to assist users in managing daily notifications on multiple devices during work activities. This service is available as a desktop and mobile application, which manages notifications through three main tabs: a dashboard with an innovative way to categorize notifications into primary on the foreground dashboard and secondary on the background dashboard, an interaction page with an AI model to observe how user data is collected, and a new search tab to explore discussions on various channels. Notification prioritization is made possible by artificial intelligence-driven summarization and prioritization, promoting a more balanced digital life and an inclusive approach to the use of communication tools."
         team="S. Bonfanti, A. Burchiani, T. Prinetti"
         role="Brand Identity, Visual, UX-UI, Branding, Coding"
-        delivery="Final Synthesis Lab, 2021-2022"
+        delivery="Interaction Design Lab, 2021-2022"
         class="my-md-3"
       >
 
         <template #link>
           <div class="mt-md-5 mt-4">
-            <a href="https://itback.altervista.org/" target="_blank">
-              <ProjectLink textlink="Thesis"></ProjectLink>
+            <a href="https://bottleneckai.vercel.app/" target="_blank">
+              <ProjectLink textlink="Bottleneck Website"></ProjectLink>
             </a>
           </div>
         </template>
@@ -69,53 +58,67 @@ The shapes of the Hub recall the imagery of the piggy bank, inside which instead
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/sourdata/sourdata_2.png)"
+     background-image: url(/images/bottleneck/bottleneck1.svg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <div style="padding:56.25% 0 0 0;position:relative;" class="projectbox">
-            <iframe src="https://player.vimeo.com/video/728646170?h=c26dc4bb98&title=0&byline=0&portrait=0"
+            <iframe src="https://player.vimeo.com/video/838849711?h=3e45c03c7b&title=0&byline=0&portrait=0"
                     style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
 
           <script src="https://player.vimeo.com/api/player.js"></script>
 
         </b-col>
 
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-          <div class="imgbox">
-            <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/sourdata/sourdata_4.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
-        </b-col>
+        <b-col cols="12" md="12">
 
-        <b-col cols="12" md="4" class="d-none d-md-block py-md-3 py-2 px-3">
-        <div class="imgbox">
-          <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/sourdata/sourdata_5.png)"
-               v-prlx.background="{ speed: 0.1 }"></div>
-        </b-col>
+        <ProjectDescription2
+
+          title="Research & Taxonomy"
+
+          description="
+Beginning with reflection on the issue of personal data and privacy,
+SourData was born as a company producing devices that monitor the most intimate data,
+the only ones yet ever collected, in exchange for money: Coomy for masturbation,
+Poopy for feces, and We"
+
+        /> </b-col>
 
         <b-col cols="12" md="8" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/sourdata/sourdata_6.png)"
+     background-image: url(/images/bottleneck/bottleneck2.svg)"
+                 v-prlx.background="{ speed: 0.1 }"></div>
+        </b-col>
+
+        <b-col cols="12" md="4" class="d-none d-md-block py-md-3 py-2 px-3">
+          <div class="imgbox">
+            <img class="img-parallax imgproject h500" style="
+     background-image: url(/images/bottleneck/bottleneck3.svg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/sourdata/sourdata_9.png)"
+            <img class="img-parallax imgproject h500" style="
+     background-image: url(/images/bottleneck/bottleneck5.svg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
+        <b-col cols="12" md="12" class="d-md-block py-md-3 py-2 px-3">
+          <div class="imgbox">
+            <img class="img-parallax imgproject h500" style="
+     background-image: url(/images/bottleneck/bottleneck6.jpg)"
+                 v-prlx.background="{ speed: 0.1 }"></div>
+        </b-col>
+
+        <b-col cols="12" md="12">
 
           <ProjectDescription2
 
-            title="Prototyping & Developement"
+            title="Features and Tabs"
 
             description="
 Beginning with reflection on the issue of personal data and privacy,
@@ -126,89 +129,72 @@ Poopy for feces, and We"
           /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-          <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/sourdata/sourdata_3.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+
+          <div style="overflow: hidden" class="bot-video p-0 m-0 projectbox d-flex justify-content-center align-items-center">
+            <video autoplay loop muted style="width: 100%;">
+              <source src="/images/bottleneck/feature1.mp4" type="video/mp4">
+            </video>
+          </div>
+
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
-          <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/sourdata/sourdata_11.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+
+          <div style="overflow: hidden" class=" p-0 m-0 projectbox d-flex ref-video justify-content-center align-items-center">
+            <video autoplay loop muted style="width: 100%;">
+              <source src="/images/bottleneck/feature2.mp4" type="video/mp4">
+            </video>
+          </div>
+
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
-          <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/sourdata/sourdata_10.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
-        </b-col>
 
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-
-          <div style="padding:56.25% 0 0 0;position:relative;" class="projectbox">
-
-            <iframe src="https://player.vimeo.com/video/753126993?h=81c5baeaa7&title=0&byline=0&portrait=0"
-                    style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
-
-          <script src="https://player.vimeo.com/api/player.js"></script>
+          <div style="overflow: hidden" class=" p-0 m-0 projectbox d-flex ref-video justify-content-center align-items-center">
+            <video autoplay loop muted style="width: 100%;">
+              <source src="/images/bottleneck/feature3.mp4" type="video/mp4">
+            </video>
+          </div>
 
         </b-col>
 
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-          <ProjectDescription2
-            title="The Experience"
-            description="
+        <b-col>
+        <ProjectDescription2
+
+          title="Design System & Card Anatomy"
+
+          description="
 Beginning with reflection on the issue of personal data and privacy,
 SourData was born as a company producing devices that monitor the most intimate data,
 the only ones yet ever collected, in exchange for money: Coomy for masturbation,
 Poopy for feces, and We"
-          /> </b-col>
 
-        <b-col cols="12" md="4" class=" py-md-3 py-2 px-3">
+        /> </b-col>
+
+        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
+
+          <div style="overflow: hidden" class="bot-video p-0 m-0 projectbox d-flex justify-content-center align-items-center">
+            <video id="myVideo" autoplay loop muted style="width: 100%;">
+              <source src="/images/bottleneck/designsystem.mp4" type="video/mp4">
+            </video>
+          </div>
+
+        </b-col>
+
+        <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3">
+          <div class="imgbox">
+            <img class="img-parallax imgproject " style="
+     background-image: url(/images/bottleneck/bottleneck4.svg)"
+                 v-prlx.background="{ speed: 0.1 }"></div>
+        </b-col>
+
+        <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/sourdata/sourdata_7.png)"
+     background-image: url(/images/bottleneck/bottleneck10.svg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
-        <b-col cols="12" md="8" class=" py-md-3 py-2 px-3">
-          <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/sourdata/sourdata_8.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
-        </b-col>
-
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-          <div class="imgbox">
-            <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/sourdata/sourdata_12.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
-        </b-col>
-
-
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-          <ProjectDescription2
-            title="Making Of"
-            description="
-Beginning with reflection on the issue of personal data and privacy,
-SourData was born as a company producing devices that monitor the most intimate data,
-the only ones yet ever collected, in exchange for money: Coomy for masturbation,
-Poopy for feces, and We"
-          /> </b-col>
-
-
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-
-          <div style="padding:56.25% 0 0 0;position:relative;" class="projectbox">
-            <iframe src="https://player.vimeo.com/video/728645150?h=1e9d32eb71&title=0&byline=0&portrait=0"
-                    style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
-
-          <script src="https://player.vimeo.com/api/player.js"></script>
-
-        </b-col>
 
       </b-row>
 
@@ -253,6 +239,11 @@ export default {
 .subtitle{
   width: 80%;
 }
+
+.bot-video{
+  max-height: 830px;
+}
+
 
 .cover-mobile{
   width: 100%;

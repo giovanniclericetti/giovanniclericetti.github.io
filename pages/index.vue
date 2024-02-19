@@ -2,7 +2,7 @@
 
   <div>
 
-<div class="container mt-4">
+<div class="container mt-4 index">
 
   <IndexHeader></IndexHeader>
 
@@ -41,6 +41,11 @@ export default {
 .titleindex{
   width: 85%;
   line-height: 140%
+}
+
+
+.index {
+  --color-primary: #FF4466;
 }
 
 

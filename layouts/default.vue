@@ -22,6 +22,12 @@ body {
   background-color: #F6F2F2;
 }
 
+::selection {
+  background-color: var(--color-primary);
+  color: #ffffff;
+
+}
+
 h1 {
   font-family: "title-bold";
   color: var(--color-primary);

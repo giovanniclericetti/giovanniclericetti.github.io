@@ -37,7 +37,7 @@
           <div class="boxcvmobile bggradient" style="height: 130px;" >
 
             <div class=" text-white d-flex justify-content-center align-items-center pt-3" style="height: 50%">
-              <h4 style="font-size: 24px">My Resume</h4>
+              <h4 style="font-size: 24px; color: white">My Resume</h4>
             </div>
 
             <div class=" justify-content-center d-flex" style="height: 200%; width: 100%;">

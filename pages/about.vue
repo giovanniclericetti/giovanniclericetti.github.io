@@ -67,6 +67,10 @@ export default {
 
 <style scoped>
 
+.about {
+  --color-primary: #FF6A68;
+}
+
 @media (max-width: 768px) {
 
   .name{

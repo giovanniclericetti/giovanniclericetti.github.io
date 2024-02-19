@@ -25,8 +25,8 @@
 
                 <div class="boxround bggradient" style="height: 230px;" ref="container" @mousemove="moveImage">
 
-                  <div class=" text-white d-flex justify-content-center align-items-center pt-3" style="height: 40%">
-                    <h4 style="font-size: 32px">My Resume</h4>
+                  <div class="  d-flex justify-content-center align-items-center pt-3" style="height: 40%">
+                    <h4 style="font-size: 32px; color: white">My Resume</h4>
                   </div>
 
                   <div class="boxcv  justify-content-center d-flex" style="height: 150%; width: 100%;">
@@ -48,7 +48,7 @@
                     </div>
                     <b-row class="mx-4 pb-3 mb-4 d-block" style="bottom:0px; position: absolute">
                       <p2 style="color: #3CCC76; font-size: 15px"> Always listening...</p2>
-                      <h4 style="font-size: 25px" id="song">{{ randomOption.song }}</h4>
+                      <h4 style="font-size: 25px; color: black" id="song">{{ randomOption.song }}</h4>
                       <p style="font-size: 18px; line-height: 5px" id="singer">{{ randomOption.singer }}</p>
                     </b-row>
                   </a>

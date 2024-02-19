@@ -67,33 +67,17 @@ that makes those who use them unique and special."
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
         <div class="imgbox">
-          <img class="img-parallax imgproject h450" style="
-     background-image: url(/images/it-back/it-back_7.png)"
+          <img class="img-parallax imgproject h400" style="
+     background-image: url(/images/it-back/it-back_6.svg)"
                v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
-<!--        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-
-          <Project-Video
-            video="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"/>
+        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
+          <div class="imgbox">
+            <img class="img-parallax imgproject h500" style="
+     background-image: url(/images/bottleneck/bottleneck2.svg)"
+                 v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
-
-                <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-
-          <ProjectDescription2
-
-            title="Taxonomy"
-
-            description="
-Beginning with reflection on the issue of personal data and privacy,
-SourData was born as a company producing devices that monitor the most intimate data,
-the only ones yet ever collected, in exchange for money: Coomy for masturbation,
-Poopy for feces, and We"
-
-          />
-        </b-col>
-
-        -->
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
@@ -122,7 +106,7 @@ Poopy for feces, and We"
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
+            <img class="img-parallax imgproject h600" style="
      background-image: url(https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_5.png?raw=true)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
