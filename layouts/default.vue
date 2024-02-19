@@ -129,7 +129,7 @@ p2 {
 }
 
 .bottleneck {
-  --color-primary: #D92121;
+  --color-primary: #3C646A;
   --color-secondary: green;
   --color-success: #3A6069;
 }

@@ -34,7 +34,7 @@ social change to chronicle the lives of health workers"
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
         <img class=""
-     src="/images/sourdata/sourdata-cover-sm.svg"
+     src="/images/referto/referto_sm.svg"
         >
 
       </div>
@@ -63,9 +63,9 @@ Referto is a clinical document written by a doctor, sealing their perspective on
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
-        <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
+        <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
         <div class="imgbox">
-          <img class="img-parallax imgproject" style="height: 630px;
+          <img class="img-parallax imgproject ref-3" style="
      background-image: url(/images/referto/referto3.svg)"
                v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
@@ -90,22 +90,22 @@ Referto is a clinical document written by a doctor, sealing their perspective on
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
-        <b-col cols="12" md="4" class=" py-md-3 py-2 px-3">
+        <b-col cols="12" md="4" class=" py-md-3 py-2 px-3 d-none d-md-block">
           <div class="imgbox pb-0 mb-4">
-            <img class="img-parallax imgproject " style="height: 250px;
+            <img class=" img-parallax imgproject " style="height: 250px;
      background-image: url(/images/referto/referto15.svg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="pt-2">
-            <div class="imgbox ">
-              <img class="img-parallax imgproject " style="height: 250px;
+            <div class="imgbox  d-none d-md-block">
+              <img class="img-parallax imgproject" style="height: 250px;
      background-image: url(/images/referto/referto16.svg)"
                    v-prlx.background="{ speed: 0.1 }"></div>
           </div>         </b-col>
 
           <b-col cols="12" md="8" class=" py-md-3 py-2 px-3">
 
-            <div style="height: 530px; overflow: hidden" class="p-0 m-0 projectbox d-flex justify-content-center align-items-center">
+            <div style="overflow: hidden" class="p-0 m-0 projectbox d-flex ref-video justify-content-center align-items-center">
               <video autoplay loop muted style="width: 100%;">
                 <source src="/images/referto/referto_gif.mp4" type="video/mp4">
                 Il tuo browser non supporta il tag video.
@@ -138,16 +138,16 @@ Poopy for feces, and We"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
-        <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
+        <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
      background-image: url(/images/referto/referto7.svg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
-        <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
+        <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400" style="
+            <img class="img-parallax imgproject h400 ref-pc" style="
      background-image: url(/images/referto/referto11.svg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
@@ -180,7 +180,7 @@ Poopy for feces, and We"
 
         </b-col>
 
-        <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
+        <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/referto/referto13.svg)"
@@ -242,6 +242,14 @@ export default {
   }
 }
 
+.ref-3{
+  height: 630px;
+}
+
+.ref-video{
+  height: 530px;
+}
+
 .quartapill {
   visibility: hidden;
 }
@@ -255,6 +263,18 @@ export default {
 
   .subtitle {
     max-width: 90%;
+  }
+
+  .ref-pc{
+    height: 270px;
+  }
+
+  .ref-video{
+    height: 270px;
+  }
+
+  .ref-3{
+    height: 400px;
   }
 }
 

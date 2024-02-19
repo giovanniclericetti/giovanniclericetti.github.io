@@ -276,7 +276,7 @@ export default {
           bio: 'Digital innovative wellbeing service that categorises and prioritises notifications',
           category: ['branding', 'graphic'],
           class: 'column card-extralarge biowhite',
-          to: "it-back",
+          to: "bottleneck",
           pill1: 'UX-UI',
           pill2: 'Interaction',
           pill3: 'Branding',

@@ -1,18 +1,18 @@
 <template>
 
-  <div class="sourdata">
+  <div class="bottleneck">
 
     <div class="container mt-4">
 
       <ProjectHeader/>
 
       <Project-Intro
-        title="SourData"
-        subtitle="Product-service system that generates income by collecting and selling users' most personal and private data, prompting them to consider how much privacy is left."
-        pill1="Interaction"
-        pill2="UX-UI"
+        title="Bottleneck"
+        subtitle="Digital service that counteracts digital overload with a desktop and mobile app that categorizes, prioritizes, and displays notifications in innovative ways."
+        pill1="UX-UI"
+        pill2="Interaction"
         pill3="Branding"
-        pill4="Speculative"/>
+        pill4="Coding"/>
 
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block ">
 
@@ -44,8 +44,8 @@ The shapes of the Hub recall the imagery of the piggy bank, inside which instead
  and related products were created. All collection devices were physically made, while Coomy and the
  Hub are functioning and programmed to monitor and share data on the online server. The project was
  discussed in detail in the undergraduate paper."
-        team="E. Ceriani, G. Fulghieri, F. Nozza, M. Zagaria"
-        role="Brand Identity, Graphics, UX-UI, Keynote Presentation, Social Media, Editorial, Technology Research, Coding (HTML, CSS, JS, Arduino)"
+        team="S. Bonfanti, A. Burchiani, T. Prinetti"
+        role="Brand Identity, Visual, UX-UI, Branding, Coding"
         delivery="Final Synthesis Lab, 2021-2022"
         class="my-md-3"
       >
@@ -251,7 +251,7 @@ export default {
 <style>
 
 .subtitle{
-  width: 90%;
+  width: 80%;
 }
 
 .cover-mobile{
@@ -265,6 +265,7 @@ export default {
   img{
     width: 100%;
   }
+
 }
 
 .subtitle {
