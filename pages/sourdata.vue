@@ -53,7 +53,7 @@ The shapes of the Hub recall the imagery of the piggy bank, inside which instead
         <template #link>
           <div class="mt-md-5 mt-4">
             <a href="https://itback.altervista.org/" target="_blank">
-              <ProjectLink textlink="Thesis"></ProjectLink>
+              <ProjectLink textlink="Instagram Profile"></ProjectLink>
             </a>
           </div>
         </template>

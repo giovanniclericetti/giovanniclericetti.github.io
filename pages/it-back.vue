@@ -60,78 +60,81 @@ that makes those who use them unique and special."
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_1.png?raw=true)"
+            <img class="img-parallax imgproject h600" style="
+     background-image: url(/images/it-back/itback1.svg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
         <div class="imgbox">
-          <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/it-back/it-back_6.svg)"
+          <img class="img-parallax imgproject h600" style="
+     background-image: url(/images/it-back/itback2.svg)"
                v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
+            <img class="img-parallax imgproject h400" style="
+     background-image: url(/images/it-back/itback3.svg)"
+                 v-prlx.background="{ speed: 0.1 }"></div>
+        </b-col>
+
+        <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
+
+          <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/bottleneck/bottleneck2.svg)"
+     background-image: url(/images/it-back/itback4.svg)"
+                 v-prlx.background="{ speed: 0.2 }"></div>
+        </b-col>
+
+        <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
+          <div class="imgbox">
+            <img class="img-parallax imgproject h500" style="
+     background-image: url(/images/it-back/itback5.svg)"
+                 v-prlx.background="{ speed: 0.2 }"></div>
+        </b-col>
+
+        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
+          <div class="imgbox">
+            <img class="img-parallax imgproject h500 small-dis" style="
+     background-image: url(/images/it-back/itback6.svg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-
-          <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_2.png?raw=true)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
-        </b-col>
-
-        <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
-
-          <div class="imgbox">
-            <img class="img-parallax imgproject prllx-small h500" style="
-     background-image: url(https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_4.png?raw=true)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
-        </b-col>
-
-        <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
-
-          <div class="imgbox">
-            <img class="img-parallax imgproject prllx-small h500" style="
-     background-image: url(https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_3.png?raw=true)"
-                 v-prlx.background="{ speed: 0.15 }"></div>
-        </b-col>
-
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
-     background-image: url(https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_5.png?raw=true)"
+     background-image: url(/images/it-back/itback8.svg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_6.png?raw=true)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+            <img class="img-parallax imgproject h400" style="
+     background-image: url(/images/it-back/itback7.svg)"
+                 v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
+
+
 
       </b-row>
 
 
       <ProjectNextPrevious
         title="It-Back"
-        thumbnail="/images/cards/itback.png"
+        thumbnail="/images/it-back/next.svg
+"
+
+
+
         mobileThumbnail="/images/cards/itback_sm.png"
         class="column card-large biowhite it-back"
         to="it-back"
-        pill1="Branding"
+        pill1="Visual"
         pill2="UX-UI"
         pill3="Coding"
         nextproject="It-Back"
+        bionext="Digital experience  aimed at reviving outdated technology products"
       />
 
 
@@ -154,5 +157,21 @@ export default {
 
 
 <style>
+
+@media (max-width: 768px) {
+
+  .subtitle {
+    max-width: 90%;
+  }
+
+  .small-dis{
+    height: 200px;
+  }
+
+
+
+}
+
+
 
 </style>

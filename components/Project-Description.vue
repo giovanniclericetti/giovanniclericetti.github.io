@@ -8,11 +8,12 @@
 
 
     </b-col>
-    <b-col cols="12" md="5">
+
+    <b-col cols="12" md="5" style="">
 
 
       <h4 class="mt-4 mt-md-0"> Team </h4>
-      <p> {{ team }} </p>
+      <p v-html="formatTeam(team)"></p>
 
       <h4 class="mt-4"> Role </h4>
       <p> {{ role }} </p>
@@ -32,7 +33,11 @@
 <script>
 export default {
   name: "Project-Description",
-  props: ['description', 'team', 'role', 'delivery']
+  props: ['description', 'team', 'role', 'delivery'],
+  methods: {
+    formatTeam(team) {
+      return team.replace(/\n/g, '<br>')
+    }}
 }
 </script>
 

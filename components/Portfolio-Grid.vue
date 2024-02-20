@@ -50,12 +50,6 @@
           class="aura"
         />
 
-        <PortfolioCard
-          :currentCategory="currentCategory"
-          v-bind="projects.around"
-          class="around"
-        />
-
 
 
 
@@ -133,12 +127,6 @@
           class="quattriny"
         />
 
-        <PortfolioCard
-          :currentCategory="currentCategory"
-          v-bind="projects.around"
-          class="around"
-        />
-
 
 
       </b-col>
@@ -165,7 +153,7 @@ export default {
           bio: 'Design-centered digital exhibition on Sergio Marchionne and his story',
           category: ['ux-ui', 'branding', 'graphic'],
           class: 'column card-medium biodark',
-          to: "it-back",
+          to: "disruptive",
           pill1: 'UX-UI',
           pill2: 'Exhibition',
           pill3: 'Event',
@@ -207,9 +195,9 @@ export default {
           projectname: 'Preview & Pretest',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
           class: 'column card-medium biowhite',
-          to: "it-back",
+          to: "previewpretest",
           pill1: 'Branding',
-          pill2: 'Event',
+          pill2: 'Social',
           pill3: 'Visual',
         },
 

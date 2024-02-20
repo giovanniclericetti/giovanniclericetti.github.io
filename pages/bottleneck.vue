@@ -140,9 +140,9 @@ Poopy for feces, and We"
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
 
-          <div style="overflow: hidden" class=" p-0 m-0 projectbox d-flex ref-video justify-content-center align-items-center">
+          <div style="overflow: hidden" class=" p-0 m-0 projectbox d-flex  justify-content-center align-items-center">
             <video autoplay loop muted style="width: 100%;">
-              <source src="/images/bottleneck/feature2.mp4" type="video/mp4">
+              <source src="/images/bottleneck/feature3.mp4" type="video/mp4">
             </video>
           </div>
 
@@ -150,13 +150,15 @@ Poopy for feces, and We"
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
 
-          <div style="overflow: hidden" class=" p-0 m-0 projectbox d-flex ref-video justify-content-center align-items-center">
+          <div style="overflow: hidden" class=" p-0 m-0 projectbox d-flex  justify-content-center align-items-center">
             <video autoplay loop muted style="width: 100%;">
-              <source src="/images/bottleneck/feature3.mp4" type="video/mp4">
+              <source src="/images/bottleneck/feature2.mp4" type="video/mp4">
             </video>
           </div>
 
         </b-col>
+
+
 
         <b-col>
         <ProjectDescription2
