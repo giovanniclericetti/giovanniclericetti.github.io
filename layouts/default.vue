@@ -120,7 +120,7 @@ p2 {
 }
 
 .aura {
-  --color-primary: #FE5B58;
+  --color-primary: #FF7673;
   --color-success: #C26CBA;
 }
 

@@ -278,7 +278,7 @@ export default {
           bio: 'Brand identity for energy company',
           category: ['branding', 'graphic'],
           class: 'column card-extrasmall biowhite',
-          to: "it-back",
+          to: "aura",
           pill1: 'Branding',
           pill2: 'Visual',
           pill3: 'UI',
