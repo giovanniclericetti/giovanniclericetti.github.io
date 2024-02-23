@@ -105,8 +105,8 @@ p2 {
 }
 
 .quattriny {
-  --color-primary: #FF9942;
-  --color-success: #FF9942;
+  --color-primary: #F7A716;
+  --color-success: #F7A716;
 }
 
 .previewpretest {
