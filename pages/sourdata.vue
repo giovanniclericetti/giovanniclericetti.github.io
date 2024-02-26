@@ -12,7 +12,19 @@
         pill1="Interaction"
         pill2="UX-UI"
         pill3="Branding"
-        pill4="Speculative"/>
+        pill4="Speculative"
+      style="
+
+.subtitle{
+  width: 90%;
+}
+
+"
+
+
+
+
+      />
 
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block ">
 
@@ -213,20 +225,17 @@ Poopy for feces, and We"
       </b-row>
 
       <ProjectNextPrevious
-        title="It-Back"
-        thumbnail="/images/it-back/next.svg
+        title="Bottleneck"
+        thumbnail="/images/bottleneck/next.svg
 "
-
-
-
         mobileThumbnail="/images/cards/itback_sm.png"
-        class="column card-large biowhite it-back"
-        to="it-back"
-        pill1="Visual"
-        pill2="UX-UI"
-        pill3="Coding"
-        nextproject="It-Back"
-        bionext="Digital experience  aimed at reviving outdated technology products"
+        class="column card-large biowhite bottleneck"
+        to="bottleneck"
+        pill1="UX-UI"
+        pill2="Interaction"
+        pill3="Branding"
+        nextproject="Bottleneck"
+        bionext="Digital wellbeing service for categorisation notifications"
       />
 
 
@@ -250,8 +259,8 @@ export default {
 
 <style>
 
-.subtitle{
-  width: 90%;
+.sourdata .subtitle {
+  max-width: 90%;
 }
 
 .cover-mobile{

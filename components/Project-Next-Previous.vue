@@ -30,9 +30,9 @@
         <b-col cols="12" md="6" class="text-left ">
           <NuxtLink to="/" class="">
 <div class="d-flex align-items-center">
-            <b-icon icon="arrow-up-right-circle-fill" style="width: 38px; height: 38px; color:var(--color-warning); opacity: 0.8" />
+            <b-icon icon="arrow-up-right-circle-fill" style="width: 38px; height: 38px; color: white; opacity: 0.8" />
 
-            <p2 class="px-2" style="text-decoration: none; color:var(--color-warning; line-height: 120%; opacity: 0.9"> {{bionext}} </p2>
+            <p2 class="px-2" style="text-decoration: none; color: white; line-height: 120%; opacity: 0.9"> {{bionext}} </p2>
 
 </div>
 

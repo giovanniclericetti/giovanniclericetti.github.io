@@ -25,7 +25,6 @@ body {
 ::selection {
   background-color: var(--color-primary);
   color: #ffffff;
-
 }
 
 h1 {
@@ -203,6 +202,10 @@ p2 {
 
 .h600 {
   height: 600px;
+}
+
+.h700 {
+  height: 700px;
 }
 
 .cover-parallax{

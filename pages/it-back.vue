@@ -12,7 +12,9 @@
         pill1="UX-UI"
         pill2="Visual"
         pill3="Branding"
-        pill4="Coding"/>
+        pill4="Coding"
+
+      />
 
       <div cols="12" md="12" class=" py-md-3 py-2 ">
 
@@ -121,20 +123,14 @@ that makes those who use them unique and special."
 
 
       <ProjectNextPrevious
-        title="It-Back"
-        thumbnail="/images/it-back/next.svg
-"
-
-
-
-        mobileThumbnail="/images/cards/itback_sm.png"
-        class="column card-large biowhite it-back"
-        to="it-back"
-        pill1="Visual"
-        pill2="UX-UI"
-        pill3="Coding"
-        nextproject="It-Back"
-        bionext="Digital experience  aimed at reviving outdated technology products"
+        thumbnail="/images/previewpretest/next.svg"
+        class="column card-large biowhite previewpretest"
+        to="previewpretest"
+        pill1="Branding"
+        pill2="Social"
+        pill3="Visual"
+        nextproject="Preview & Pretest"
+        bionext="Series of event dedicated to future students of Politecnico di Milano"
       />
 
 
@@ -157,6 +153,10 @@ export default {
 
 
 <style>
+
+.it-back .subtitle {
+  max-width: 60%;
+}
 
 @media (max-width: 768px) {
 

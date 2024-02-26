@@ -201,20 +201,15 @@ Poopy for feces, and We"
       </b-row>
 
       <ProjectNextPrevious
-        title="It-Back"
-        thumbnail="/images/it-back/next.svg
+        thumbnail="/images/referto/next.svg
 "
-
-
-
-        mobileThumbnail="/images/cards/itback_sm.png"
-        class="column card-large biowhite it-back"
-        to="it-back"
-        pill1="Visual"
-        pill2="UX-UI"
-        pill3="Coding"
-        nextproject="It-Back"
-        bionext="Digital experience  aimed at reviving outdated technology products"
+        class="column card-large biowhite referto"
+        to="referto"
+        pill1="Editorial"
+        pill2="Visual"
+        pill3="Branding"
+        nextproject="Referto Magazine"
+        bionext="Indipendent magazine for social change about lives of health workers"
       />
 
 
@@ -238,7 +233,7 @@ export default {
 
 <style>
 
-.subtitle{
+.bottleneck .subtitle{
   width: 80%;
 }
 
@@ -261,9 +256,5 @@ export default {
 
 }
 
-.subtitle {
-  max-width: 90%;
-  line-height: 120%;
-}
 
 </style>

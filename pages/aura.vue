@@ -289,20 +289,14 @@ dire che spazio studiato per avere video e robe digitale che erano state progett
       </b-row>
 
       <ProjectNextPrevious
-        title="SourData"
-        thumbnail="/images/it-back/next.svg
-"
-
-
-
-        mobileThumbnail="/images/cards/sourdata_sm.png"
+        thumbnail="/images/sourdata/next.svg"
         class="column card-large biowhite sourdata"
         to="it-back"
-        pill1="Visual"
-        pill2="UX-UI"
-        pill3="Coding"
-        nextproject="It-Back"
-        bionext="Digital experience  aimed at reviving outdated technology products"
+        pill1="Interaction"
+        pill2="Branding"
+        pill3="UX-UI"
+        nextproject="SourData"
+        bionext="Product-service system to make money from user's personal data"
       />
 
 
@@ -348,7 +342,7 @@ export default {
   visibility: hidden;
 }
 
-.subtitle {
+.aura .subtitle {
   max-width: 55%;
   line-height: 120%;
 }

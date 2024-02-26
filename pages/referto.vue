@@ -12,7 +12,9 @@
 social change to chronicle the lives of health workers"
         pill1="Editorial"
         pill2="Visual"
-        pill3="Branding"/>
+        pill3="Branding"
+
+      />
 
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block "
       >
@@ -161,7 +163,7 @@ Poopy for feces, and We"
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <ProjectDescription2
-            title="Sviluppo Digitale"
+            title="Sviluppo Transmediale"
             description="
 Beginning with reflection on the issue of personal data and privacy,
 SourData was born as a company producing devices that monitor the most intimate data,
@@ -192,20 +194,16 @@ Poopy for feces, and We"
       </b-row>
 
       <ProjectNextPrevious
-        title="SourData"
-        thumbnail="/images/it-back/next.svg
+        title="Cara Chioggia"
+        thumbnail="/images/carachioggia/next.svg
 "
-
-
-
-        mobileThumbnail="/images/cards/sourdata_sm.png"
-        class="column card-large biowhite sourdata"
-        to="it-back"
-        pill1="Visual"
-        pill2="UX-UI"
-        pill3="Coding"
-        nextproject="It-Back"
-        bionext="Digital experience  aimed at reviving outdated technology products"
+        class="column card-large biowhite carachioggia"
+        to="carachioggia"
+        pill1="UX-UI"
+        pill2="Visual"
+        pill3="Branding"
+        nextproject="Cara Chioggia ti scrivo"
+        bionext="Digital experience of letters to relive fishing places in Chioggia"
       />
 
 
@@ -242,6 +240,10 @@ export default {
   }
 }
 
+.referto .subtitle{
+  width: 55%;
+}
+
 .ref-3{
   height: 630px;
 }
@@ -252,11 +254,6 @@ export default {
 
 .quartapill {
   visibility: hidden;
-}
-
-.subtitle {
-  max-width: 55%;
-  line-height: 120%;
 }
 
 @media (max-width: 768px) {

@@ -194,20 +194,14 @@ Poopy for feces, and We"
       </b-row>
 
       <ProjectNextPrevious
-        title="SourData"
-        thumbnail="/images/it-back/next.svg
-"
-
-
-
-        mobileThumbnail="/images/cards/sourdata_sm.png"
-        class="column card-large biowhite sourdata"
-        to="it-back"
-        pill1="Visual"
-        pill2="UX-UI"
-        pill3="Coding"
-        nextproject="It-Back"
-        bionext="Digital experience  aimed at reviving outdated technology products"
+        thumbnail="/images/quattriny/next.svg"
+        class="column card-large biowhite quattriny"
+        to="quattriny"
+        pill1="Branding"
+        pill2="Copywriting"
+        pill3="Visual"
+        nextproject="Quattriny"
+        bionext="Ironic fiction-branding of a cash provider payment company"
       />
 
 
@@ -248,7 +242,7 @@ export default {
 
 
 
-.subtitle {
+.previewpretest .subtitle {
   max-width: 55%;
   line-height: 120%;
 }

@@ -165,14 +165,10 @@ dire che spazio studiato per avere video e robe digitale che erano state progett
       </b-row>
 
       <ProjectNextPrevious
-        title="SourData"
         thumbnail="/images/it-back/next.svg
 "
 
-
-
-        mobileThumbnail="/images/cards/sourdata_sm.png"
-        class="column card-large biowhite sourdata"
+        class="column card-large biowhite it-back"
         to="it-back"
         pill1="Visual"
         pill2="UX-UI"
@@ -222,7 +218,7 @@ export default {
   visibility: hidden;
 }
 
-.subtitle {
+.disruptive .subtitle {
   max-width: 55%;
   line-height: 120%;
 }

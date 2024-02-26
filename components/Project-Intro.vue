@@ -9,14 +9,12 @@
       <b-badge pill class="pills mx-0 mr-2 p-2 px-3"> {{ pill1 }}</b-badge>
       <b-badge pill class="pills mx-0 mr-2  p-2 px-3"> {{ pill2 }}</b-badge>
       <b-badge pill class="pills mx-0 mr-2 my-3 p-2 px-3"> {{ pill3 }}</b-badge>
-      <b-badge pill class="quartapill pills mx-0 mr-2 my-3 p-2 px-3"> {{ pill4 }}</b-badge>
     </div>
 
     <div class="d-block d-md-none">
       <b-badge pill class="pillsmob mx-0 mr-1 my-2  p-1 px-2"> {{ pill1 }}</b-badge>
       <b-badge pill class="pillsmob mx-0 mr-1 my-2  p-1 px-2"> {{ pill2 }}</b-badge>
       <b-badge pill class="pillsmob mx-0 mr-1 my-2  p-1 px-2"> {{ pill3 }}</b-badge>
-      <b-badge pill class="quartapill pillsmob mx-0 mr-1 my-2  p-1 px-2"> {{ pill4 }}</b-badge>
     </div>
 
   </div>
@@ -35,10 +33,6 @@ export default {
 
 .subtitle {
   line-height: 120%;
-}
-
-.quartapill {
-  visibility: visible;
 }
 
 .pillsmob {
