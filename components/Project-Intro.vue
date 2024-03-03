@@ -2,7 +2,7 @@
 
   <div>
 
-    <h1> {{ title }} </h1>
+    <h1 class="titoloprog"> {{ title }} </h1>
     <h3 class="subtitle"> {{ subtitle }}</h3>
 
     <div class="d-md-block d-none">
@@ -49,6 +49,11 @@ export default {
   .subtitle {
     max-width: 100vw;
     line-height: 120%;
+  }
+
+  .titoloprog{
+    line-height: 50px;
+    padding-top: 5px;
   }
 }
 

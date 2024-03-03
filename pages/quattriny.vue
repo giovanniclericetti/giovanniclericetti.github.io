@@ -55,14 +55,6 @@ that makes those who use them unique and special."
         class="my-5"
       >
 
-        <template #link>
-          <div class="mt-5">
-            <a href="https://itback.altervista.org/" target="_blank">
-              <ProjectLink textlink="Website"></ProjectLink>
-            </a>
-          </div>
-        </template>
-
       </ProjectDescription>
 
       <div>

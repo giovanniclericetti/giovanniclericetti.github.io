@@ -58,7 +58,7 @@ The shapes of the Hub recall the imagery of the piggy bank, inside which instead
  discussed in detail in the undergraduate paper."
         team="E. Ceriani, G. Fulghieri, F. Nozza, M. Zagaria"
         role="Brand Identity, Graphics, UX-UI, Keynote Presentation, Social Media, Editorial, Technology Research, Coding (HTML, CSS, JS, Arduino)"
-        delivery="Final Synthesis Lab, 2021-2022"
+        delivery="Final Synthesis Bachelor Lab, 2021-2022"
         class="my-md-3"
       >
 

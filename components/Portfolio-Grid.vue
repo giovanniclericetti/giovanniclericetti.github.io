@@ -222,7 +222,7 @@ export default {
           bio: 'Digital experience of letters and stories to relive fishing places in Chioggia ',
           category: ['coding'],
           class: 'column card-extralarge biowhite',
-          to: "it-back",
+          to: "carachioggia",
           pill1: 'UX-UI',
           pill2: 'Visual',
           pill3: 'Branding',

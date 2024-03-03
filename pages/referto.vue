@@ -128,8 +128,7 @@ Referto is a clinical document written by a doctor, sealing their perspective on
             description="
 Beginning with reflection on the issue of personal data and privacy,
 SourData was born as a company producing devices that monitor the most intimate data,
-the only ones yet ever collected, in exchange for money: Coomy for masturbation,
-Poopy for feces, and We"
+the only ones yet ever collected, in exchange"
 
           /> </b-col>
 
@@ -167,8 +166,7 @@ Poopy for feces, and We"
             description="
 Beginning with reflection on the issue of personal data and privacy,
 SourData was born as a company producing devices that monitor the most intimate data,
-the only ones yet ever collected, in exchange for money: Coomy for masturbation,
-Poopy for feces, and We"
+the only ones yet ever collected, in exchange"
           /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
