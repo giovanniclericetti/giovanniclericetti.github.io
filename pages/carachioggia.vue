@@ -74,7 +74,7 @@ that makes those who use them unique and special."
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600 small-quattriny" style="
-     background-image: url(/images/carachioggia/carachioggia2.svg)"
+     background-image: url(/images/carachioggia/carachioggia2.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
@@ -125,21 +125,21 @@ Poopy for feces, and We"
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600 small-quattriny" style="
-     background-image: url(/images/carachioggia/carachioggia6.svg)"
+     background-image: url(/images/carachioggia/carachioggia6.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500 small-quattriny" style="
-     background-image: url(/images/carachioggia/carachioggia7.svg)"
+     background-image: url(/images/carachioggia/carachioggia7.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600 small-quattriny" style="
-     background-image: url(/images/carachioggia/carachioggia8.svg)"
+     background-image: url(/images/carachioggia/carachioggia8.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
@@ -159,42 +159,42 @@ Poopy for feces, and We"
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500 small-quattriny" style="
-     background-image: url(/images/carachioggia/carachioggia9.svg)"
+     background-image: url(/images/carachioggia/carachioggia9.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600 small-quattriny" style="
-     background-image: url(/images/carachioggia/carachioggia10.svg)"
+     background-image: url(/images/carachioggia/carachioggia10.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400 " style="height: 350px;
-     background-image: url(/images/carachioggia/carachioggia11.svg)"
+     background-image: url(/images/carachioggia/carachioggia11.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500 " style="
-     background-image: url(/images/carachioggia/carachioggia12.svg)"
+     background-image: url(/images/carachioggia/carachioggia12.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400 " style="
-     background-image: url(/images/carachioggia/carachioggia13.svg)"
+     background-image: url(/images/carachioggia/carachioggia13.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400 " style="
-     background-image: url(/images/carachioggia/carachioggia14.svg)"
+     background-image: url(/images/carachioggia/carachioggia14.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
@@ -214,21 +214,21 @@ Poopy for feces, and We"
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500 " style="
-     background-image: url(/images/carachioggia/carachioggia15.svg)"
+     background-image: url(/images/carachioggia/carachioggia15.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600 " style="
-     background-image: url(/images/carachioggia/carachioggia17.svg)"
+     background-image: url(/images/carachioggia/carachioggia17.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600 " style="
-     background-image: url(/images/carachioggia/carachioggia18.svg)"
+     background-image: url(/images/carachioggia/carachioggia18.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
