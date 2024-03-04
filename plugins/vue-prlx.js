@@ -13,5 +13,3 @@ Vue.use(VueLazyload, {
   attempt: 1
 });
 Vue.use(VueProgressiveImage);
-
-
