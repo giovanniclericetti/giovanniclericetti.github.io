@@ -21,7 +21,7 @@
 
         <img class="cover-parallax" style="
 
-     background-image: url(/images/carachioggia/carachioggia_cover.svg)"
+     background-image: url(/images/carachioggia/carachioggia_cover.jpg)"
 
              v-prlx.background="{ speed: 0.1 }">
       </div>
@@ -63,13 +63,21 @@ that makes those who use them unique and special."
 
       <b-row class="mt-4">
 
+        <b-col cols="12" md="5" class=" py-md-3 py-2 px-3">
+          <div class="imgbox">
+            <img class="img-parallax imgproject h400 small-quattriny" style="
+     background-image: url(/images/carachioggia/carachioggia1b.svg)"
+                 v-prlx.background="{ speed: 0.2 }"></div>
+        </b-col>
 
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
+        <b-col cols="12" md="7" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400 small-quattriny" style="
      background-image: url(/images/carachioggia/carachioggia1.svg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
+
+
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
@@ -84,26 +92,11 @@ that makes those who use them unique and special."
           title="Experience Platform"
 
           description="
-Beginning with reflection on the issue of personal data and privacy,
-SourData was born as a company producing devices that monitor the most intimate data,
-the only ones yet ever collected, in exchange for money: Coomy for ,
-Poopy for feces, and We"
+Qui è utile un paragrafo che spiega bene come funziona la piattaforma, le lettere, le storie,
+tutto quello che c'è da sapere su come funziona il sito web.Qui è utile un paragrafo che spiega bene come funziona la piattaforma, le lettere, le storie,
+tutto quello che c'è da sapere su come funziona il sito web."
 
         /> </b-col>
-
-        <b-col cols="12" md="3" class=" py-md-3 py-2 px-3">
-          <div class="imgbox">
-            <img class="img-parallax imgproject h500 small-quattriny" style="
-     background-image: url(/images/carachioggia/carachioggia4.svg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
-        </b-col>
-
-        <b-col cols="12" md="9" class=" py-md-3 py-2 px-3">
-          <div class="imgbox">
-            <img class="img-parallax imgproject h500 small-quattriny" style="
-     background-image: url(/images/carachioggia/carachioggia3.svg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
-        </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
@@ -146,13 +139,12 @@ Poopy for feces, and We"
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <ProjectDescription2
 
-            title="Research and Content"
+            title="Research and Content Production"
 
             description="
-Beginning with reflection on the issue of personal data and privacy,
-SourData was born as a company producing devices that monitor the most intimate data,
-the only ones yet ever collected, in exchange for money: Coomy for ,
-Poopy for feces, and We"
+Qui è utile un paragrafo che spiega bene come è andata la ricerca e la produzione dei contenuti,
+tutto quello che c'è da sapere su come funziona il sito web. Qui è utile un paragrafo che spiega bene come funziona la piattaforma, le lettere, le storie,
+tutto."
 
           /> </b-col>
 
@@ -204,10 +196,9 @@ Poopy for feces, and We"
             title="Complementary Artifacts"
 
             description="
-Beginning with reflection on the issue of personal data and privacy,
-SourData was born as a company producing devices that monitor the most intimate data,
-the only ones yet ever collected, in exchange for money: Coomy for ,
-Poopy for feces, and We"
+Qui è utile un paragrafo che spiega bene quali sono e come funzionano gli artefatti secondari che vanno a completare l'esprerienza,
+tutto quello che c'è da sapere su come funziona il sito web. Qui è utile un paragrafo che spiega bene come funziona la piattaforma, le lettere, le storie,
+tutto. Arricchire l'esperienza con questi."
 
           /> </b-col>
 
