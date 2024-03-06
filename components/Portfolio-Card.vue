@@ -43,8 +43,6 @@ export default {
     thumbnail: String,
     mobileThumbnail: String,
     bio: String,
-    category: String,
-    currentCategory: [String, Boolean],
     to: [String],
     pill1: String,
     pill2: String,
