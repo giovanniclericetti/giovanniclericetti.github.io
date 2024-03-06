@@ -19,7 +19,7 @@
         <img class="cover-parallax" style="
 
 
-     background-image: url(/images/aura/aura_cover.svg)"
+     background-image: url(/images/aura/aura_cover.jpg)"
              v-prlx.background="{ speed: 0.1 }">
       </div>
 
@@ -27,7 +27,7 @@
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
         <img class=""
-     src="/images/aura/aura_sm.svg"
+     src="/images/aura/aura_sm.jpg"
         >
 
       </div>
@@ -55,7 +55,7 @@ Aura is a fictional, cutting-edge energy company that harnesses energy from the 
 
           <div class="imgbox">
             <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/aura/aura0.svg)"
+     background-image: url(/images/aura/aura0.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
@@ -73,7 +73,7 @@ dire che spazio studiato per avere video e robe digitale che erano state progett
 
           <div class=" imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura1.svg)"
+     background-image: url(/images/aura/aura1.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
 
@@ -95,27 +95,27 @@ dire che spazio studiato per avere video e robe digitale che erano state progett
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura7.svg)"
+     background-image: url(/images/aura/aura7.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura8.svg)"
+     background-image: url(/images/aura/aura8.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura17.svg)"
+     background-image: url(/images/aura/aura17.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura18.svg)"
+     background-image: url(/images/aura/aura18.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-md-0 md-4 pt-2">
             <img class="img-parallax imgproject" style="height: 450px;
-     background-image: url(/images/aura/aura19.svg)"
+     background-image: url(/images/aura/aura19.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
         </b-col>
@@ -159,7 +159,7 @@ dire che spazio studiato per avere video e robe digitale che erano state progett
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura15.svg)"
+     background-image: url(/images/aura/aura15.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
@@ -169,7 +169,7 @@ dire che spazio studiato per avere video e robe digitale che erano state progett
 
           <div class="imgbox pb-0 mb-0 pt-2">
             <img class="img-parallax imgproject" style="height: 330px;
-     background-image: url(/images/aura/aura20.svg)"
+     background-image: url(/images/aura/aura20.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
 
@@ -230,12 +230,12 @@ dire che spazio studiato per avere video e robe digitale che erano state progett
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura7.svg)"
+     background-image: url(/images/aura/aura7.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura8.svg)"
+     background-image: url(/images/aura/aura8.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
@@ -245,12 +245,12 @@ dire che spazio studiato per avere video e robe digitale che erano state progett
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura15.svg)"
+     background-image: url(/images/aura/aura15.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura17.svg)"
+     background-image: url(/images/aura/aura17.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
@@ -260,17 +260,17 @@ dire che spazio studiato per avere video e robe digitale che erano state progett
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura18.svg)"
+     background-image: url(/images/aura/aura18.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style=";
-     background-image: url(/images/aura/aura20.svg)"
+     background-image: url(/images/aura/aura20.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="height: 350px;
-     background-image: url(/images/aura/aura19.svg)"
+     background-image: url(/images/aura/aura19.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
         </b-col>

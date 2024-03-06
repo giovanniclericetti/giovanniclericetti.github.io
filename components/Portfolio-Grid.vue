@@ -147,7 +147,7 @@ export default {
 
         disruptive: {
           title: 'Disruptive',
-          thumbnail: '/images/cards/disruptive.png',
+          thumbnail: '/images/cards/disruptive.jpg',
           projectname: 'Disruptive',
           mobileThumbnail: '/images/cards/disruptive_sm.svg',
           bio: 'Design-centered digital exhibition on Sergio Marchionne and his story',
@@ -162,7 +162,7 @@ export default {
         itback: {
           title: 'It-Back',
           projectname: 'It-Back',
-          thumbnail: '/images/cards/itback.png',
+          thumbnail: '/images/cards/itback.jpg',
           mobileThumbnail: '/images/cards/itback_sm.svg',
           bio: 'Digital experience  aimed at reviving outdated technology products',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
@@ -176,7 +176,7 @@ export default {
         sourdata: {
           title: 'SourData',
           projectname: 'SourData',
-          thumbnail: '/images/cards/sourdata.png',
+          thumbnail: '/images/cards/sourdata.jpg',
           mobileThumbnail: '/images/cards/sourdata_sm.svg',
           bio: 'Product-service system to make money from user’s personal data',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
@@ -189,7 +189,7 @@ export default {
 
         previewpretest: {
           title: 'Preview Pretest',
-          thumbnail: '/images/cards/previewpretest.png',
+          thumbnail: '/images/cards/previewpretest.jpg',
           mobileThumbnail: '/images/cards/preview_sm.svg',
           bio: 'Series of events dedicated to future Polimi students',
           projectname: 'Preview & Pretest',
@@ -203,7 +203,7 @@ export default {
 
         referto: {
           title: 'Referto',
-          thumbnail: '/images/cards/referto.png',
+          thumbnail: '/images/cards/referto.jpg',
           mobileThumbnail: '/images/cards/referto_sm.svg',
           bio: 'Indipendent Magazine for social change about lives of health workers',
           category: ['branding', 'graphic', 'ux-ui'],
@@ -217,7 +217,7 @@ export default {
 
         carachioggia: {
           title: 'carachioggia',
-          thumbnail: '/images/cards/carachioggia.png',
+          thumbnail: '/images/cards/carachioggia.jpg',
           mobileThumbnail: '/images/cards/carachioggia_sm.svg',
           bio: 'Digital experience of letters and stories to relive fishing places in Chioggia ',
           category: ['coding'],
@@ -231,7 +231,7 @@ export default {
 
         quattriny: {
           title: 'quattriny',
-          thumbnail: '/images/cards/quattriny.png',
+          thumbnail: '/images/cards/quattriny.jpg',
           mobileThumbnail: '/images/cards/quattriny_sm.svg',
           bio: 'Ironic fictional-branding of a cash provider payment company',
           category: ['branding', 'graphic'],
@@ -245,7 +245,7 @@ export default {
 
         around: {
           title: 'around',
-          thumbnail: '/images/cards/around.png',
+          thumbnail: '/images/cards/around.jpg',
           mobileThumbnail: '/images/cards/around_sm.svg',
           bio: 'Research and experimentation project on the use of algorithms in translation',
           category: ['branding', 'graphic'],
@@ -259,7 +259,7 @@ export default {
 
         bottleneck: {
           title: 'bottleneck',
-          thumbnail: '/images/cards/bottleneck.png',
+          thumbnail: '/images/cards/bottleneck.jpg',
           mobileThumbnail: '/images/cards/bottleneck_sm.svg',
           bio: 'Digital innovative wellbeing service that categorises and prioritises notifications',
           category: ['branding', 'graphic'],
@@ -273,7 +273,7 @@ export default {
 
         aura: {
           title: 'aura',
-          thumbnail: '/images/cards/aura.svg',
+          thumbnail: '/images/cards/aura.jpg',
           mobileThumbnail: '/images/cards/aura_sm.svg',
           bio: 'Brand identity for energy company',
           category: ['branding', 'graphic'],

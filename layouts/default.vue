@@ -147,6 +147,11 @@ p2 {
 }
 
 .imgproject{
+  width: 100%;
+  background-size: cover;
+  height: 600px;
+  border-radius: 30px;
+  background-color: white;
   transform-origin: center;
   transform: scale(1.01);
 }
@@ -185,13 +190,7 @@ p2 {
   transition: transform 0.25s ease-out;
 }
 
-.img-parallax{
-  width: 100%;
-  background-size: cover;
-  height: 600px;
-  border-radius: 30px;
-  background-color: white;
-}
+
 .h400{
   height: 400px
 }
@@ -214,6 +213,15 @@ p2 {
   background-size: cover;
   border-radius: 30px;
   background-color: white;
+}
+
+.cover-mobile {
+  width: 100%;
+  height: 300px;
+  background-size: contain;
+  background-position: 50%;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .subtitlecv{
@@ -288,13 +296,16 @@ height: 300px;
     background-position: center;
   }
 
-  .img-parallax{
-    background-size: cover;
-    height: 230px;
+
+  .imgproject{
+    background-size: cover; /* QUI PER IMG*/
     border-radius: 20px;
     background-position: center;
-
+    background-repeat: no-repeat;
+    width: 100%;
   }
+
+
 
   .h400{
     height: 150px;

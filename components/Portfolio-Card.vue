@@ -6,11 +6,11 @@
 
         <div class="card-background">
 
-        <img class=" img-parallax d-none d-md-block"
+        <img class=" imgproject d-none d-md-block"
              :style="{ backgroundImage: 'url(' + thumbnail + ')' }"
              v-prlx.background="{ speed: 0.04 }"/>
 
-          <img class="img-parallax imgmobile d-md-none"
+          <img class="imgproject imgmobile d-md-none"
                :style="{ backgroundImage: 'url(' + mobileThumbnail + ')' }"
                />
 

@@ -14,7 +14,7 @@
         pill3="Branding"
       />
 
-      <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block "
+      <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block respowidth"
       >
 
         <img class="cover-parallax" style="
@@ -28,7 +28,7 @@
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
         <img class=""
-             src="/images/quattriny/quattriny_sm.svg"
+             src="/images/carachioggia/carachioggia_sm.svg"
         >
 
       </div>
@@ -62,8 +62,8 @@ that makes those who use them unique and special."
       <b-row class="mt-4">
 
         <b-col cols="12" md="5" class=" py-md-3 py-2 px-3">
-          <div class="imgbox">
-            <img class="img-parallax imgproject h400 small-quattriny" style="
+          <div class="imgbox bg-primary">
+            <img class="imgproject h400 " style="
      background-image: url(/images/carachioggia/carachioggia1b.svg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
@@ -106,9 +106,9 @@ tutto quello che c'è da sapere su come funziona il sito web."
 
         </b-col>
 
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-          <div class="imgbox">
-            <img class="img-parallax imgproject h400 small-quattriny" style="
+        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3 ">
+          <div class="imgbox ">
+            <img class=" img-parallax imgproject h400 " style="
      background-image: url(/images/carachioggia/carachioggia5.svg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
@@ -279,8 +279,12 @@ export default {
 
 
 
+
+
 }
 
 
 
 </style>
+
+
