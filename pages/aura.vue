@@ -34,9 +34,7 @@
 
       <ProjectDescription
         description="
-Aura is a fictional, cutting-edge energy company that harnesses energy from the heat emitted by people's bodies. The brand name, Aura, is inspired by the concept of an atmosphere or aura that surrounds individuals, just like heat. The brand's payoff, 'be your energy', emphasizes the importance of the individual as the source of their own energy. The visual identity of Aura is based on the concept of thermovision, from which the primary colors are extracted to create a fluid gradient, the brand's signature element. In addition to the brand, various materials and applications were also designed, including the Brandbook, Brand Identity Reel, outdoor promotion campaign, physical and digital brand applications, and the Aura Box, which allows users to monitor the heat they produce using a Home Pad.
-
-"
+Aura is a fictional, cutting-edge energy company that harnesses energy from the heat given off by people's bodies. The brand name, Aura, is inspired by the concept of an atmosphere or aura that surrounds people, just like heat. The brand claim 'be your energy' emphasises the importance of the individual as the source of their own energy. Aura's visual identity is based on the concept of thermovision, from which the primary colours are extracted to create a fluid gradient, the brand's signature element."
         team="B. Cabras, A. Checola, E. Ceriani, F. Nozza"
         role="Art Direction, Brand Identity, Visual, Editorial, UX-UI"
         delivery="Visual Communication Lab, 2021"
@@ -53,7 +51,7 @@ Aura is a fictional, cutting-edge energy company that harnesses energy from the 
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
-          <div class="imgbox">
+          <div class="imgbox d-md-block d-none">
             <img class="img-parallax imgproject h400" style="
      background-image: url(/images/aura/aura0.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
@@ -65,11 +63,9 @@ Aura is a fictional, cutting-edge energy company that harnesses energy from the 
           <ProjectDescription2
 
             title="Brand Guideline Cards"
-            class="my-md-5 py-md-3"
+            class="my-md-3 py-md-3 mb-md-4 w-100 pr-md-2"
             description="
-dire che spazio studiato per avere video e robe digitale che erano state progettate prima solo digitali per cobas19"
-
-          />
+For the presentation, some brand guidelines cards have been created showing the different components of the branding activity."          />
 
           <div class=" imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
@@ -85,7 +81,7 @@ dire che spazio studiato per avere video e robe digitale che erano state progett
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura13.svg)"
+     background-image: url(/images/aura/aura13.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
@@ -113,10 +109,17 @@ dire che spazio studiato per avere video e robe digitale che erano state progett
      background-image: url(/images/aura/aura18.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
-          <div class="imgbox pb-0 mb-md-0 md-4 pt-2">
-            <img class="img-parallax imgproject" style="height: 450px;
+          <div class="imgbox pb-0 md-4 pt-2">
+            <img class="img-parallax imgproject auracard" style="height: 450px;
      background-image: url(/images/aura/aura19.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
+
+          <ProjectDescription2
+
+            title="Brand Applications"
+            class="mt-md-5 pt-md-3 w-100 pr-md-2"
+            description="
+Once the guidelines had been defined, the brand was applied to test its scalability. A manifest communication campaign, a slide site, a starter pack box for new customers, the UI for the Aura home device application, stationery and more were then designed."          />
 
         </b-col>
 
@@ -175,108 +178,121 @@ dire che spazio studiato per avere video e robe digitale che erano state progett
 
 
 
+
         </b-col>
 
+
+
+
+
+
+
+
+
+
+
+
+
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3 d-md-none d-block">
+
+          <div class="imgbox pb-0 mb-4 pt-2">
+            <img class="img-parallax imgproject auracard" style="height: 400px;
+     background-image: url(/images/aura/sm-aura1.jpg)"
+                 v-prlx.background="{ speed: 0.1 }"></div>
 
           <ProjectDescription2
 
             title="Brand Guideline Cards"
-            class="my-md-5 py-md-3"
+            class="pt-2 w-75"
             description="
-dire che spazio studiato per avere video e robe digitale che erano state progettate prima solo digitali per cobas19"
+For the presentation, some brand guidelines cards have been created showing the different components of the branding activity."          />
 
-          />
 
-          <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura3.svg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura4.svg)"
+     background-image: url(/images/aura/sm-aura2b.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura12.svg)"
+     background-image: url(/images/aura/sm-aura3.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura11.svg)"
+     background-image: url(/images/aura/sm-aura4.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura13.svg)"
+     background-image: url(/images/aura/sm-aura5.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura5.svg)"
+     background-image: url(/images/aura/sm-aura6.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura14.svg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
-
-          <div class="imgbox pb-0 mb-md-0 md-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura6.svg)"
+     background-image: url(/images/aura/sm7-aura.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura7.jpg)"
+     background-image: url(/images/aura/sm-aura8.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura8.jpg)"
+     background-image: url(/images/aura/sm-aura9.jpg)"
+                 v-prlx.background="{ speed: 0.1 }"></div>
+
+          <ProjectDescription2
+
+            title="Brand Applications"
+            class="pt-2 w-100"
+            description="Once the guidelines had been defined, the brand was applied to test its scalability. A manifest communication campaign, a slide site, a starter pack box for new customers, the UI for the Aura home device application, stationery and more were then designed."          />
+
+
+
+
+          <div class="imgbox pb-0 mb-4 pt-2">
+            <img class="img-parallax imgproject auracard" style="
+     background-image: url(/images/aura/sm-aura10.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura16.svg)"
+     background-image: url(/images/aura/sm-aura11.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura15.jpg)"
+     background-image: url(/images/aura/sm-aura12.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura17.jpg)"
+     background-image: url(/images/aura/sm-aura13.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura9.svg)"
+     background-image: url(/images/aura/sm-aura14.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
-          <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura18.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
-
-          <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style=";
-     background-image: url(/images/aura/aura20.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
-
-          <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="height: 350px;
-     background-image: url(/images/aura/aura19.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
 
         </b-col>
 
-        <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3 ">
-        <div class="imgbox">
+
+
+        <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3 d-md-block d-none">
+
+
+          <div class="imgbox">
           <img class="img-parallax imgproject" style="
      background-image: url(/images/aura/aura21.png)"
                v-prlx.background="{ speed: 0.1 }"></div>
@@ -349,7 +365,7 @@ export default {
 
 @media (max-width: 768px) {
 
-  .subtitle {
+  .aura .subtitle {
     max-width: 90%;
   }
 
