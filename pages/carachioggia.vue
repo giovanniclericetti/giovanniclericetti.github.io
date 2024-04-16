@@ -61,10 +61,11 @@ that makes those who use them unique and special."
 
       <b-row class="mt-4">
 
-        <b-col cols="12" md="5" class=" py-md-3 py-2 px-3">
+        <b-col cols="12" md="5" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox bg-primary">
             <img class="imgproject h400 " style="
-     background-image: url(/images/carachioggia/carachioggia1b.svg)"
+     background-image: url(/images/carachioggia/carachioggia1b.svg);
+"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
@@ -79,7 +80,7 @@ that makes those who use them unique and special."
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h600 small-quattriny" style="
+            <img class="img-parallax imgproject h600 small-quattriny" id="cc-fotopc" style="
      background-image: url(/images/carachioggia/carachioggia2.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
@@ -108,7 +109,7 @@ tutto quello che c'è da sapere su come funziona il sito web."
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3 ">
           <div class="imgbox ">
-            <img class=" img-parallax imgproject h400 " style="
+            <img class="small-chioggia img-parallax imgproject h400 " style="
      background-image: url(/images/carachioggia/carachioggia5.svg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
@@ -116,7 +117,7 @@ tutto quello che c'è da sapere su come funziona il sito web."
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600 small-quattriny" style="
-     background-image: url(/images/carachioggia/carachioggia6.jpg)"
+     background-image: url(/images/carachioggia/carachioggia6.jpg);"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
@@ -148,19 +149,19 @@ tutto."
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500 small-quattriny" style="
+            <img class="small-chioggia img-parallax imgproject h500 small-quattriny" style="
      background-image: url(/images/carachioggia/carachioggia9.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h600 small-quattriny" style="
+            <img class="small-chioggia img-parallax imgproject h600 small-quattriny" style="
      background-image: url(/images/carachioggia/carachioggia10.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
+        <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400 " style="height: 350px;
      background-image: url(/images/carachioggia/carachioggia11.jpg)"
@@ -169,7 +170,7 @@ tutto."
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500 " style="
+            <img class="small-chioggia img-parallax imgproject h500 " style="
      background-image: url(/images/carachioggia/carachioggia12.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
@@ -263,15 +264,27 @@ export default {
   max-width: 90%;
 }
 
+
+
 @media (max-width: 768px) {
 
   .subtitle {
     max-width: 90%;
   }
 
+  #cc-fotopc{
+    height: 300px;
+  }
+
   .small-quattriny{
     height: 200px;
   }
+
+  .small-chioggia {
+    background-size: contain;
+    background-color: #F8E7D6;
+  }
+
 
   .extrasmall-quattriny{
     height: 180px;

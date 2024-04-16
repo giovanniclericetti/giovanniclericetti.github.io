@@ -79,10 +79,8 @@ The project starts from the problem of notification overload in individuals work
           title="Research & Taxonomy"
 
           description="
-Beginning with reflection on the issue of personal data and privacy,
-SourData was born as a company producing devices that monitor the most intimate data,
-the only ones yet ever collected, in exchange for money: Coomy for masturbation,
-Poopy for feces, and We"
+Ba testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossimo lo farò eginning with reflection on the issue of personal data and privacy, testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossimo lo farò"
+
 
         /> </b-col>
 
@@ -121,10 +119,7 @@ Poopy for feces, and We"
             title="Features and Tabs"
 
             description="
-Beginning with reflection on the issue of personal data and privacy,
-SourData was born as a company producing devices that monitor the most intimate data,
-the only ones yet ever collected, in exchange for money: Coomy for masturbation,
-Poopy for feces, and We"
+Ba testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossimo lo farò eginning with reflection on the issue of personal data and privacy, testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossimo lo farò"
 
           /> </b-col>
 
@@ -166,9 +161,7 @@ Poopy for feces, and We"
           title="Design System & Card Anatomy"
 
           description="
-Beginning with reflection on the issue of personal data and privacy,
-SourData was born as a company producing devices that monitor the most intimate data,
-the only ones yet ever collected, in exchange"
+Ba testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossimo lo farò eginning with reflection on the issue of personal data and privacy, testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossimo lo farò"
 
 
         /> </b-col>

@@ -91,10 +91,8 @@ In such an important parenthesis in the life of an undergraduate or high school 
             title="Preview"
 
             description="
-Beginning with reflection on the issue of personal data and privacy,
-SourData was born as a company producing devices that monitor the most intimate data,
-the only ones yet ever collected, in exchange for money: Coomy for masturbation,
-Poopy for feces, and We"
+Ba testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossimo lo farò eginning with reflection on the issue of personal data and privacy, testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossimo lo farò"
+
 
           /> </b-col>
 
@@ -128,10 +126,8 @@ Poopy for feces, and We"
             title="Pretest"
 
             description="
-Beginning with reflection on the issue of personal data and privacy,
-SourData was born as a company producing devices that monitor the most intimate data,
-the only ones yet ever collected, in exchange for money: Coomy for masturbation,
-Poopy for feces, and We"
+Ba testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossimo lo farò eginning with reflection on the issue of personal data and privacy, testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossimo lo farò"
+
 
           /> </b-col>
 

@@ -36,8 +36,8 @@
       <b-col cols="12" md="12" lg="4">
 
         <PortfolioCard
-          v-bind="projects.referto"
-          class="referto"
+          v-bind="projects.disruptive"
+          class="disruptive"
         />
 
         <PortfolioCard
@@ -63,8 +63,8 @@
         />
 
         <PortfolioCard
-          class="disruptive"
-          v-bind="projects.disruptive"
+          class="referto"
+          v-bind="projects.referto"
         />
 
         <PortfolioCard

@@ -49,7 +49,7 @@ h3 {
 
 h4 {
   font-family: 'title-regular';
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
   color: var(--color-primary);
 }
@@ -318,6 +318,8 @@ height: 300px;
   .h600 {
     height: 250px;
   }
+
+
 
   .imgbox{
     border-radius: 20px;

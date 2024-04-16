@@ -40,11 +40,23 @@
 
       <ProjectDescription
         description="
-Disruptive experience was born as an exhibition for a digital medium, thus giving the opportunity to go beyond the traditional physical way of making exhibitions and set up a design-centered project. Visual and digital design became the narrative tool to bring an immersive experience to life. Through illustrations, video interviews and original multimedia content, Disruptive is a new way to explore, be fascinated and approach the challenge of rebuilding that lies ahead. Subsequently, the exhibition was then also transposed to the physical space at the 2021 Rimini Meeting, in a dedicated environment inside the Fair. Disruptive starts from the figure of Sergio Marchionne to provoke anyone who cares about the restart of our country through the opportunity of a confrontation with a person who has come out of the pre-established schemes and has risked himself by finding many supports and many objections."        team="A. Bocchio, G. Bonadei, M. Bruno, M. Pari, <br> F. Pozzi, T. Prinetti, A. Silvano, D. Zoppi"
+Disruptive experience was born as an exhibition for a digital medium, giving the opportunity to go beyond the traditional physical way of making exhibitions and to create a design-centred project. The exhibition takes as its starting point the figure of Sergio Marchionne, in order to provoke everyone who is interested in the new beginning of our country, by offering the possibility of a confrontation with a person who has broken out of the pre-established patterns and who has risked himself by finding many supporters and many objections.
+
+Visual and digital design became the narrative tool to bring an immersive experience to life. Through illustrations, video interviews and original multimedia content, Disruptive is a new way to explore, be fascinated and approach the challenge of rebuilding that lies ahead.
+"
+        team="A. Bocchio, G. Bonadei, M. Bruno, M. Pari, <br> F. Pozzi, T. Prinetti, A. Silvano, D. Zoppi"
         role="Brand Identity, UX-UI, Keynote Presentation"
         delivery="Exhibition for Meeting di Rimini, 2021"
         class="my-md-3"
       >
+
+        <template #link>
+          <div class="mt-md-4 mt-4">
+            <a href="https://disruptive.meetingrimini.org/en/" target="_blank">
+              <ProjectLink textlink="Visit the Website"></ProjectLink>
+            </a>
+          </div>
+        </template>
 
       </ProjectDescription>
 
@@ -57,35 +69,35 @@ Disruptive experience was born as an exhibition for a digital medium, thus givin
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/disruptive/disruptive1.svg)"
+     background-image: url(/images/disruptive/disruptive1.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3">
         <div class="imgbox">
           <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/disruptive/disruptive2.svg)"
+     background-image: url(/images/disruptive/disruptive2.jpg)"
                v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/disruptive/disruptive3.svg)"
+     background-image: url(/images/disruptive/disruptive3.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400 small-dis" style="
-     background-image: url(/images/disruptive/disruptive4.svg)"
+     background-image: url(/images/disruptive/disruptive4.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400 small-dis" style="
-     background-image: url(/images/disruptive/disruptive5.svg)"
+     background-image: url(/images/disruptive/disruptive5.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
@@ -96,23 +108,22 @@ Disruptive experience was born as an exhibition for a digital medium, thus givin
             title="Content and Sections"
 
             description="
-Beginning with reflection on the issue of personal data and privacy,
-SourData was born as a company producing devices that monitor the most intimate data,
-the only ones yet ever collected, in exchange"
+After a careful analysis of the digital exhibition sector, a card-based navigation with an Instagram-story style of interaction was chosen. The platform is divided into three macro sections, each containing cards with the main content of text, infographics, illustrations, photos or videos, with the possibility of going deeper with a long read.
+"
 
           /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/disruptive/disruptive6.png)"
+     background-image: url(/images/disruptive/disruptive6.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/disruptive/disruptive7.svg)"
+     background-image: url(/images/disruptive/disruptive7.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
@@ -123,28 +134,26 @@ the only ones yet ever collected, in exchange"
             title="Exhibition"
 
             description="
-dire che spazio studiato per avere video e robe digitale che erano state progettate prima solo digitali per cobas19"
-
-          /> </b-col>
+The exhibition was then brought into the physical space of the 2021 Rimini Meeting. The challenge was to create a new space for content that was originally designed for digital platforms only, due to COVID-19 restrictions. The physical space was designed to complement the digital approach of the online exhibition, hosting videos and digital presentations."          /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/disruptive/disruptive8.svg)"
+     background-image: url(/images/disruptive/disruptive8.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="7" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/disruptive/disruptive10-1.svg)"
+     background-image: url(/images/disruptive/disruptive10.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="5" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/disruptive/disruptive9.svg)"
+     background-image: url(/images/disruptive/disruptive9.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
@@ -224,11 +233,15 @@ export default {
 
 @media (max-width: 768px) {
 
-  .subtitle {
-    max-width: 90%;
+  .disruptive .subtitle {
+    max-width: 85%;
   }
 
-  .small-dis{
+  .imgproject .small-dis{
+    height: 300px;
+  }
+
+  .h400.small-dis{
     height: 300px;
   }
 
