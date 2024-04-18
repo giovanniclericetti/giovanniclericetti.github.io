@@ -44,21 +44,20 @@
       <ProjectDescription
         description="
 
-In such an important parenthesis in the life of an undergraduate or high school student as that of choosing a university, Preview & Pretest are a concrete help in approaching this new world. Preview is an event in which students' projects are shown to wannabe students in order to help them understand which academic course is right for them. Pretest, on the other hand, is a three-day study event in preparation for the Design and Architecture admission test, which helps students through lectures, presentations, handouts, simulations and accompanied study. In addition to improving organization and management, a brand identity system has been developed that has consistently remained recognizable while evolving over time to fit the current context. Testing and previewing the system through the years has resulted in the creation of a range of materials, including handouts, signage, website content, social media content, t-shirts, presentations and brand guidelines.
-
+In such an important stage of a student's life as choosing a university, Preview & Pretest is a concrete help in approaching this new world. The work consists, on the one hand, of managing all the organisational aspects of these events and, on the other hand, of developing a brand identity system that has remained consistently recognisable while evolving over time to adapt to the current context, so much so that even today this brand continues to exist year after year.
 "
         team="C. Ghio, T. Prinetti, A. Silvano, D. Zoppi"
         role="Event Organization, Social Media, Brand Identity Evolution, Visual, UX-UI, Coding (HTML, CSS, JS, Wordpress)"
         delivery="Exhibition for Meeting di Rimini, 2021"
         class="my-md-3">
 
-      <template #link>
-        <div class="mt-md-5 mt-4">
-          <a href="https://itback.altervista.org/" target="_blank">
-            <ProjectLink textlink="Instagram Profile"></ProjectLink>
-          </a>
-        </div>
-      </template>
+        <template #link>
+          <div class="mt-md-4 mt-4">
+            <a href="https://itback.altervista.org/" target="_blank">
+              <ProjectLink textlink="Instagram Profile"></ProjectLink>
+            </a>
+          </div>
+        </template>
 
       >
 
@@ -73,14 +72,14 @@ In such an important parenthesis in the life of an undergraduate or high school 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/previewpretest/preview1.svg)"
+     background-image: url(/images/previewpretest/preview1.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/previewpretest/preview3.svg)"
+     background-image: url(/images/previewpretest/preview3.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
@@ -91,29 +90,28 @@ In such an important parenthesis in the life of an undergraduate or high school 
             title="Preview"
 
             description="
-Ba testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossimo lo farò eginning with reflection on the issue of personal data and privacy, testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossimo lo farò"
-
+Preview is an event where students' projects are shown to prospective students to help them understand which academic course is right for them. It mainly takes place on a single day, but all communications and the showcase website are created to accompany it."
 
           /> </b-col>
 
         <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3">
         <div class="imgbox">
           <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/previewpretest/preview2.svg)"
+     background-image: url(/images/previewpretest/preview2.jpg)"
                v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400 small-dis" style="
-     background-image: url(/images/previewpretest/preview4.svg)"
+     background-image: url(/images/previewpretest/preview4.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400 small-dis" style="
-     background-image: url(/images/previewpretest/preview5.svg)"
+     background-image: url(/images/previewpretest/preview5.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
@@ -126,57 +124,56 @@ Ba testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossi
             title="Pretest"
 
             description="
-Ba testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossimo lo farò eginning with reflection on the issue of personal data and privacy, testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossimo lo farò"
-
+Pretest is a three-day study event in preparation for the Design and Architecture entrance exam, which helps students by explaining topics in lectures, preparing presentations, designing handouts, creating simulations and providing guided study time."
 
           /> </b-col>
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/previewpretest/pretest6.svg)"
+     background-image: url(/images/previewpretest/pretest6.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/previewpretest/pretest7.svg)"
+     background-image: url(/images/previewpretest/pretest7.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="7" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400 small-dis " style="
-     background-image: url(/images/previewpretest/pretest8.svg)"
+     background-image: url(/images/previewpretest/pretest8.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="5" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/previewpretest/pretest9.svg)"
+     background-image: url(/images/previewpretest/pretest9.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="5" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/previewpretest/pretest10.svg)"
+     background-image: url(/images/previewpretest/pretest10.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="7" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400 small-dis" style="
-     background-image: url(/images/previewpretest/pretest11.svg)"
+     background-image: url(/images/previewpretest/pretest11.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/previewpretest/pretest12.svg)"
+     background-image: url(/images/previewpretest/pretest12.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
@@ -245,7 +242,7 @@ export default {
 
 @media (max-width: 768px) {
 
-  .subtitle {
+  .previewpretest .subtitle {
     max-width: 90%;
   }
 

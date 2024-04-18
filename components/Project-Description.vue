@@ -6,6 +6,9 @@
     <h4> Project Overview </h4>
      <p> {{ description }} </p>
 
+      <slot name="link2">
+      </slot>
+
 
     </b-col>
 
