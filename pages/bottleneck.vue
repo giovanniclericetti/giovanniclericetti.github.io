@@ -32,15 +32,14 @@
 
       <ProjectDescription
         description="
-The project starts from the problem of notification overload in individuals working symbiotically with digital technology leading increasingly to a blurring of boundaries between the personal and work spheres. Bottleneck was created to address this need through a digital service designed to assist users in managing daily notifications on multiple devices during work activities. This service is available as a desktop and mobile application, which manages notifications through three main tabs: a dashboard with an innovative way to categorize notifications into primary on the foreground dashboard and secondary on the background dashboard, an interaction page with an AI model to observe how user data is collected, and a new search tab to explore discussions on various channels. Notification prioritization is made possible by artificial intelligence-driven summarization and prioritization, promoting a more balanced digital life and an inclusive approach to the use of communication tools."
-        team="S. Bonfanti, A. Burchiani, T. Prinetti"
+The project is based on the problem of notification overload for people working symbiotically with digital technology, which is increasingly blurring the boundaries between the personal and professional spheres. Bottleneck was created to address this need through a digital service designed to help users manage daily notifications across multiple devices during work activities. Notification prioritisation is enabled by artificial intelligence-powered summarisation and prioritisation, promoting a more balanced digital life and an inclusive approach to using communication tools."        team="S. Bonfanti, A. Burchiani, T. Prinetti"
         role="Brand Identity, Visual, UX-UI, Branding, Coding"
         delivery="Interaction Design Lab, 2021-2022"
         class="my-md-3"
       >
 
         <template #link>
-          <div class="mt-md-5 mt-4">
+          <div class="mt-md-4 mt-4 pt-md-1">
             <a href="https://bottleneckai.vercel.app/" target="_blank">
               <ProjectLink textlink="Bottleneck Website"></ProjectLink>
             </a>
@@ -58,7 +57,7 @@ The project starts from the problem of notification overload in individuals work
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/bottleneck/bottleneck1.svg)"
+     background-image: url(/images/bottleneck/bottleneck1.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
@@ -79,29 +78,29 @@ The project starts from the problem of notification overload in individuals work
           title="Research & Taxonomy"
 
           description="
-Ba testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossimo lo farò eginning with reflection on the issue of personal data and privacy, testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossimo lo farò"
-
+The project began with careful research into how notifications are perceived in today's world. A taxonomy of notifications for different applications and different parameters of urgency was created to understand which features would be most useful to design in order to understand the information architecture and sections of the platform.
+"
 
         /> </b-col>
 
         <b-col cols="12" md="8" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/bottleneck/bottleneck2.svg)"
+     background-image: url(/images/bottleneck/bottleneck2.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="4" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/bottleneck/bottleneck3.svg)"
+     background-image: url(/images/bottleneck/bottleneck3.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/bottleneck/bottleneck5.svg)"
+     background-image: url(/images/bottleneck/bottleneck5.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
@@ -119,8 +118,7 @@ Ba testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossi
             title="Features and Tabs"
 
             description="
-Ba testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossimo lo farò eginning with reflection on the issue of personal data and privacy, testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossimo lo farò"
-
+Available as a desktop and mobile application, the service manages notifications through three main tabs: a dashboard with an innovative way to categorise notifications as primary in the foreground dashboard and secondary in the background dashboard, an interaction page with an AI model to observe how user data is collected, and a new search tab to explore discussions on different channels. "
           /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -161,8 +159,7 @@ Ba testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossi
           title="Design System & Card Anatomy"
 
           description="
-Ba testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossimo lo farò eginning with reflection on the issue of personal data and privacy, testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossimo lo farò"
-
+A complete design system for the Bottleneck brand was created for the platform, which could remain consistent across the different tabs and easily switch between work and private mode. The dashboard consists of several cards with the same structure, but articulated in different components that change according to the content. "
 
         /> </b-col>
 
@@ -176,19 +173,28 @@ Ba testo da scrivere ancora perchè non so cosa metterci, ma in un futuro prossi
 
         </b-col>
 
-        <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3">
+        <b-col cols="12" md="12" class="d-block d-md-none  py-md-3 py-2 px-3">
+          <div class="imgbox">
+            <img class="img-parallax imgproject " style="height: 250px;
+     background-image: url(/images/bottleneck/bottleneck4.jpg)"
+                 v-prlx.background="{ speed: 0.1 }"></div>
+        </b-col>
+
+        <b-col cols="12" md="12" class="d-none d-md-block d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject " style="
-     background-image: url(/images/bottleneck/bottleneck4.svg)"
+     background-image: url(/images/bottleneck/bottleneck4.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/bottleneck/bottleneck10.svg)"
+     background-image: url(/images/bottleneck/bottleneck10.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
+
+
 
 
       </b-row>
@@ -244,6 +250,14 @@ export default {
   overflow: hidden;
 
   img{
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .bottleneck .subtitle{
     width: 100%;
   }
 

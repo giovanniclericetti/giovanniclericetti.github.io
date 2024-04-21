@@ -43,8 +43,7 @@ social change to chronicle the lives of health workers"
 
       <ProjectDescription
         description="
-Referto is a clinical document written by a doctor, sealing their perspective on the patient and the illness on paper. Similarly, REFERTO Magazine is the narrative of healthcare at its most genuine, human, and emotional, delivered directly from the hands of those who dedicate themselves daily to safeguarding our health. For this project, the first issue of the magazine focusing on Soccorso (First Aid)  has been created, with plans for subsequent issues covering Hospitalization, Surgery, and Prognosis, each with its own unique cover design. The design of this indie magazine for social change evolved starting from the research phase, involving the collection of photographic material, source research, interview production, and article writing. The Referto brand was established, with choices made regarding colors, paper, and typography, tailored to the content being conveyed. The magazine comprises 260 pages, bound with swiss binding and a foldout flap. All content is categorized into five chapters, each containing the four sections of interviews, articles, reports, and diaries to effectively convey the content."
-        team="S. Bonfanti, A. Burchiani, E. Ceriani, T. Prinetti"
+Referto is a clinical document written by a doctor, putting his or her perspective on the patient and the disease on paper. Similarly, REFERTO magazine is the story of healthcare at its most genuine, human and emotional, delivered directly from the hands of those who dedicate themselves every day to protecting our health. For this project, the first issue of the magazine has been created, focusing on Soccorso (First Aid), with subsequent issues planned on Hospitalisation, Surgery and Prognosis, each with its own unique cover design. The design of this indie magazine for social change evolved from the research phase, which included collecting photographic material, researching sources, producing interviews and writing articles. The REFERTO brand was established, with choices of colour, paper and typography tailored to the content being communicated. "        team="S. Bonfanti, A. Burchiani, E. Ceriani, T. Prinetti"
         role="Brand Identity, Visual, Editorial Layout"
         delivery="Editorial Design Lab, 2023"
         class="my-md-3"
@@ -61,47 +60,47 @@ Referto is a clinical document written by a doctor, sealing their perspective on
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/referto/referto1.svg)"
+     background-image: url(/images/referto/referto1.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
         <div class="imgbox">
           <img class="img-parallax imgproject ref-3" style="
-     background-image: url(/images/referto/referto3.svg)"
+     background-image: url(/images/referto/referto3.jpg)"
                v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox pb-0 mb-4">
             <img class="img-parallax imgproject h400" style="height: 350px;
-     background-image: url(/images/referto/referto4.svg)"
+     background-image: url(/images/referto/referto4.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="pt-2">
           <div class="imgbox ">
             <img class="img-parallax imgproject h600" style="height: 250px;
-     background-image: url(/images/referto/referto5.svg)"
+     background-image: url(/images/referto/referto5.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
           </div>         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/referto/referto2.svg)"
+     background-image: url(/images/referto/referto2.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="4" class=" py-md-3 py-2 px-3 d-none d-md-block">
           <div class="imgbox pb-0 mb-4">
             <img class=" img-parallax imgproject " style="height: 250px;
-     background-image: url(/images/referto/referto15.svg)"
+     background-image: url(/images/referto/referto15.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
 
           <div class="pt-2">
             <div class="imgbox  d-none d-md-block">
               <img class="img-parallax imgproject" style="height: 250px;
-     background-image: url(/images/referto/referto16.svg)"
+     background-image: url(/images/referto/referto16.jpg)"
                    v-prlx.background="{ speed: 0.1 }"></div>
           </div>         </b-col>
 
@@ -126,47 +125,43 @@ Referto is a clinical document written by a doctor, sealing their perspective on
             title="Content and Sections"
 
             description="
-Beginning with reflection on the issue of personal data and privacy,
-SourData was born as a company producing devices that monitor the most intimate data,
-the only ones yet ever collected, in exchange"
+The magazine has 260 pages and is bound in Swiss binding with a fold-out flap. All content is divided into five chapters: '1. The Call', '2. The Wait', '3. The Survey', '4. The Rescue' and '5. The Transport'. Each contains the four sections of interviews, articles, reports and diaries to effectively convey the content. There is also a photo insert in the center of the mag. "
 
           /> </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="height: 630px;
-     background-image: url(/images/referto/referto6.svg)"
+     background-image: url(/images/referto/referto6.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/referto/referto7.svg)"
+     background-image: url(/images/referto/referto7.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400 ref-pc" style="
-     background-image: url(/images/referto/referto11.svg)"
+     background-image: url(/images/referto/referto11.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/referto/referto12.svg)"
+     background-image: url(/images/referto/referto12.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <ProjectDescription2
-            title="Sviluppo Transmediale"
+            title="Transmedia Translation"
             description="
-Beginning with reflection on the issue of personal data and privacy,
-SourData was born as a company producing devices that monitor the most intimate data,
-the only ones yet ever collected, in exchange"
+The magazine also has a transmedia development in its platform, where readers can actively contribute to REFERTO through its online platform to tell stories related to the topics covered."
           /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -183,7 +178,7 @@ the only ones yet ever collected, in exchange"
         <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/referto/referto13.svg)"
+     background-image: url(/images/referto/referto13.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
@@ -239,7 +234,7 @@ export default {
 }
 
 .referto .subtitle{
-  width: 55%;
+  max-width: 55%;
 }
 
 .ref-3{
@@ -256,8 +251,8 @@ export default {
 
 @media (max-width: 768px) {
 
-  .subtitle {
-    max-width: 90%;
+  .referto .subtitle   {
+    max-width: 100%;
   }
 
   .ref-pc{
