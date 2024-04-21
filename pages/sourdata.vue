@@ -44,18 +44,7 @@
 
       <ProjectDescription
         description="
-Beginning with the reflection on the issue of personal data and privacy,
-SourData was born as a company producing devices that monitor the most intimate data,
-the only service that collects data in exchange for money: Coomy for masturbation,
-Poopy for feces, and Weezy for breath. The data collected is stored on an SD card,
-which is later inserted inside the Hub, to allow it to be shared and obtain remuneration.
-The shapes of the Hub recall the imagery of the piggy bank, inside which instead of inserting
- the usual coins, data is inserted, personified by the SD. In addition to brand identity design,
- the SourData experience was developed in every aspect, from pre-experience to final data sharing.
- Posters, social content, user instructions, presentation reels, website, data  dashboards, brochures,
- and related products were created. All collection devices were physically made, while Coomy and the
- Hub are functioning and programmed to monitor and share data on the online server. The project was
- discussed in detail in the undergraduate paper."
+SourData was born from a reflection on personal data and privacy, as a company that produces devices that monitor the most intimate data, the only service that collects data for money through a family of products: Coomy for masturbation, Poopy for faeces and Weezy for breath. The data collected is stored on an SD card, which is later inserted into the Hub to share and receive payment. The shape of the Hub is reminiscent of a piggy bank, but instead of the usual coins, you put in data, personified by the SD card. The project was also explored and discussed in detail in the bachelor thesis."
         team="E. Ceriani, G. Fulghieri, F. Nozza, M. Zagaria"
         role="Brand Identity, Graphics, UX-UI, Keynote Presentation, Social Media, Editorial, Technology Research, Coding (HTML, CSS, JS, Arduino)"
         delivery="Final Synthesis Bachelor Lab, 2021-2022"
@@ -63,7 +52,7 @@ The shapes of the Hub recall the imagery of the piggy bank, inside which instead
       >
 
         <template #link>
-          <div class="mt-md-5 mt-4">
+          <div class="mt-md-4 pt-1 mt-4">
             <a href="https://itback.altervista.org/" target="_blank">
               <ProjectLink textlink="Instagram Profile"></ProjectLink>
             </a>
@@ -102,12 +91,24 @@ The shapes of the Hub recall the imagery of the piggy bank, inside which instead
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
+        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
+
+          <ProjectDescription2
+
+            title="Brand System "
+
+            description="
+SourData was developed in every aspect, from the creation of the most general branding system down to the detail of the screens. The first artefact was the posters to launch the project and make it clear what data we were talking about. This was followed by the social content, user manual, presentation slides, showcase website and presentation brochures. To complete the experience, related products were also created for each device. "
+
+          /> </b-col>
+
         <b-col cols="12" md="4" class="d-none d-md-block py-md-3 py-2 px-3">
         <div class="imgbox">
           <img class="img-parallax imgproject h500" style="
      background-image: url(/images/sourdata/sourdata_5.png)"
                v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
+
 
         <b-col cols="12" md="8" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
@@ -124,17 +125,10 @@ The shapes of the Hub recall the imagery of the piggy bank, inside which instead
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-
           <ProjectDescription2
-
-            title="Prototyping & Developement"
-
+            title="The Experience"
             description="
-Beginning with reflection on the issue of personal data and privacy,
-SourData was born as a company producing devices that monitor the most intimate data,
-the only ones yet ever collected, in exchange for money: Coomy for masturbation,
-Poopy for feces, and We"
-
+The core of SourData experience is the gesture, each gesture carrying meaning and mephora, from the shape of the Hub like a piggy bank to the gesture of clicking a button to agree to send data. Once the user has made contact and accepted SourData's terms and conditions, the box containing the Hub and the device arrives at the user's home. Once opened, the device needs to be put on and used. The data is collected on the SD card, which is removed and inserted into the Hub. Clicking the button sends the data to the digital platform where it can be viewed and you can receive your reward. "
           /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -169,15 +163,7 @@ Poopy for feces, and We"
 
         </b-col>
 
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-          <ProjectDescription2
-            title="The Experience"
-            description="
-Beginning with reflection on the issue of personal data and privacy,
-SourData was born as a company producing devices that monitor the most intimate data,
-the only ones yet ever collected, in exchange for money: Coomy for masturbation,
-Poopy for feces, and We"
-          /> </b-col>
+
 
         <b-col cols="12" md="4" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
@@ -205,10 +191,7 @@ Poopy for feces, and We"
           <ProjectDescription2
             title="Making Of"
             description="
-Beginning with reflection on the issue of personal data and privacy,
-SourData was born as a company producing devices that monitor the most intimate data,
-the only ones yet ever collected, in exchange for money: Coomy for masturbation,
-Poopy for feces, and We"
+All the collection devices were physically realised through 3D printing after being designed in their shapes. Coomy and the Hub are also functional and programmed using an Arduino to actually monitor the data and share it on the online server. "
           /> </b-col>
 
 
