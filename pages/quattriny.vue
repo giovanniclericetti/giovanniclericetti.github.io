@@ -68,14 +68,14 @@ that makes those who use them unique and special."
 
           <div class="imgbox">
             <img class="img-parallax imgproject h600 small-quattriny" style="
-     background-image: url(/images/quattriny/quattriny1.svg)"
+     background-image: url(/images/quattriny/quattriny1.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
         <div class="imgbox">
           <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/quattriny/quattriny2.svg)"
+     background-image: url(/images/quattriny/quattriny2.jpg)"
                v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
@@ -107,14 +107,14 @@ Poopy for feces, and We"
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500 extrasmall-quattriny" style="
-     background-image: url(/images/quattriny/quattriny3.svg)"
+     background-image: url(/images/quattriny/quattriny3.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/quattriny/quattriny4.svg)"
+     background-image: url(/images/quattriny/quattriny4.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
@@ -131,32 +131,28 @@ Poopy for feces, and We"
         <b-col cols="12" md="4" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject " style="height: 410px;
-     background-image: url(/images/quattriny/quattriny5.svg)"
+     background-image: url(/images/quattriny/quattriny5.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/quattriny/quattriny6.svg)"
+     background-image: url(/images/quattriny/quattriny6.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
-          <div style="padding:54% 0 0 0;position:relative;" class="projectbox ">
-
-            <iframe class="" src="https://player.vimeo.com/video/916666621?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                    style="position:absolute;top:0;left:0;height:100%; min-width: 100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
-
-          <script src="https://player.vimeo.com/api/player.js"></script>
+          <div style="padding:53.97% 0 0 0;position:relative;" class="projectbox">
+            <iframe src="https://player.vimeo.com/video/916666621?h=0059ae9a19&autoplay=1&loop=1&title=0&byline=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
         </b-col>
 
         <b-col cols="12" md="12" class="d-md-block d-none py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h700" style="
-     background-image: url(/images/quattriny/quattriny7.svg)"
+     background-image: url(/images/quattriny/quattriny7.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
 
