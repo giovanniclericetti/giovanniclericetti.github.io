@@ -70,7 +70,7 @@ SourData was born from a reflection on personal data and privacy, as a company t
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/sourdata/sourdata_2.png)"
+     background-image: url(/images/sourdata/sourdata_2.jpg)"
                  v-prlx.background="{ speed: 0.1 }"></div>
         </b-col>
 
