@@ -6,6 +6,20 @@
 
     <About-Header/>
 
+    <div class="mt-5 py-md-5 py-2">
+
+      <h2 class="titleindex">
+
+        My name is <span class="name gradient"> Giovanni</span>.
+        I'm 23 years old and I come from Milan. <br>
+        I'm passionate and curious about discovering,
+        learning and understanding aspects of reality and the forms it can take.
+
+
+      </h2>
+
+    </div>
+
     <About-Intro
 
     title="Something about me"
@@ -14,7 +28,7 @@
     and curious about what I have around me. I like to discover, learn about and
     comprehend aspects of reality and the forms it can take, even in small details."
 
-    class="d-md-block d-none"/>
+    class=" d-none"/>
 
 
     <div class="mt-4 py-4 d-md-none">
@@ -66,6 +80,10 @@ export default {
 </script>
 
 <style scoped>
+
+.about .titleindex {
+  width: 95%;
+}
 
 .about {
   --color-primary: #FF6A68;
