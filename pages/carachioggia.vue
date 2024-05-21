@@ -35,18 +35,7 @@
 
       <ProjectDescription
         description="
-It is precisely from the comeback of outdated, vintage products
-IT-BACK was born, characterized by a minimal, modern and decidedly colorful style,
-coupled with equally direct and lively communication.
-The experience starts with the Instagram profile, where the user
-is intrigued by social content that shows some products in their details
-without ever explicitly revealing what they are about, but only hinting that
-they are great technological innovations. It continues with the website, where this
-path of curiosity and recognition continues, growing the hype. The slide scrolling of
-the site helps make this step-by-step journey more immersive. Moving on, one will discover
-that these products, presented as extremely innovative, are instead now disused because they are obsolete.
-But the experience does not stop there, as they are reevaluated since they carry with them a new meaning
-that makes those who use them unique and special."
+Cara Chioggia Ti Scrivo responds to the creation of an innovative hybrid artifact for communicating the territory linked to places of fishing and local tradition. This hybrid model is applied to the historical village of Chioggia in the Venetian lagoon, an emblematic case in which the living community of fishermen builds its living dimension on the territory. The narrative is simple, immersive and emotional, told through the eyes, stories and testimonies of the fishermen and characters who live in this space. A great deal of research and content production work has been carried out, leading to the creation of the platform's architecture, the project's design system, the communication, a narrative podcast and many other complementary artifacts on site."
         team="A. Catania, G. Fulghieri, L. Tassetto"
         role="Brand Identity, UX-UI, Art Direction, Keynote Presentation, Social Media, Coding (Wordpress)"
         delivery="Final Synthesis Master Lab, 2023"
@@ -91,9 +80,7 @@ that makes those who use them unique and special."
           title="Experience Platform"
 
           description="
-Qui è utile un paragrafo che spiega bene come funziona la piattaforma, le lettere, le storie,
-tutto quello che c'è da sapere su come funziona il sito web.Qui è utile un paragrafo che spiega bene come funziona la piattaforma, le lettere, le storie,
-tutto quello che c'è da sapere su come funziona il sito web."
+The new perspective on the village of Chioggia is centered on the online platform. By selecting the path of a letter on the illustrated map, one can then listen to the stories of territorial connections between local figures and with fishing sites by scrolling and exploring the site."
 
         /> </b-col>
 
@@ -141,9 +128,7 @@ tutto quello che c'è da sapere su come funziona il sito web."
             title="Research and Content Production"
 
             description="
-Qui è utile un paragrafo che spiega bene come è andata la ricerca e la produzione dei contenuti,
-tutto quello che c'è da sapere su come funziona il sito web. Qui è utile un paragrafo che spiega bene come funziona la piattaforma, le lettere, le storie,
-tutto."
+All the content has been developed through meticulous research into the territories and the people who inhabit them, using online sources as well as observations and interviews in Chioggia itself. This material was then transformed into letters exchanged between the characters, studying the exchanges between the characters, the places they pass through, the titles, the texts and the images. Finally, it was decided to create an illustrative apparatus to summarize the territory in a manner consistent with the narrative flow."
 
           /> </b-col>
 
@@ -195,9 +180,7 @@ tutto."
             title="Complementary Artifacts"
 
             description="
-Qui è utile un paragrafo che spiega bene quali sono e come funzionano gli artefatti secondari che vanno a completare l'esprerienza,
-tutto quello che c'è da sapere su come funziona il sito web. Qui è utile un paragrafo che spiega bene come funziona la piattaforma, le lettere, le storie,
-tutto. Arricchire l'esperienza con questi."
+Supporting artifacts have been designed to complete the experience. The communication campaign illustrates the aim of the project, which is to take a fresh look at the 'places of all time' and rediscover them through the stories of the people who live there. A system of physical installations in the places of the narrative has also been designed, allowing new letters to be sent to add stories to the platform."
 
           /> </b-col>
 

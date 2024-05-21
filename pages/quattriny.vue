@@ -37,18 +37,7 @@
 
       <ProjectDescription
         description="
-It is precisely from the comeback of outdated, vintage products
-IT-BACK was born, characterized by a minimal, modern and decidedly colorful style,
-coupled with equally direct and lively communication.
-The experience starts with the Instagram profile, where the user
-is intrigued by social content that shows some products in their details
-without ever explicitly revealing what they are about, but only hinting that
-they are great technological innovations. It continues with the website, where this
-path of curiosity and recognition continues, growing the hype. The slide scrolling of
-the site helps make this step-by-step journey more immersive. Moving on, one will discover
-that these products, presented as extremely innovative, are instead now disused because they are obsolete.
-But the experience does not stop there, as they are reevaluated since they carry with them a new meaning
-that makes those who use them unique and special."
+The core of the project is the ironic and friendly tone with which Quattriny brand communicates, ironically highlighting the contradiction of cash today. The project consists of promoting a fictitious company that embodies cash as a service through the creation of the brand, the launch campaign and other digital and physical artifacts. Quattriny comes from the colloquial word 'quattrini'. In Italian, this term is used to refer to money, especially cash. The corporate image and narrative are based on the aesthetics of banknotes in color, shape and text."
         team="F. Nozza, D. Zoppi"
         role="Brand Identity, UX-UI, Art Direction, Keynote Presentation, Social Media, Coding (Wordpress)"
         delivery="Art Direction and Copywriting Lab, 2023"
@@ -94,13 +83,10 @@ that makes those who use them unique and special."
 
           <ProjectDescription2
 
-            title="Brand Application"
+            title="Launch Campaign"
 
             description="
-Beginning with reflection on the issue of personal data and privacy,
-SourData was born as a company producing devices that monitor the most intimate data,
-the only ones yet ever collected, in exchange for money: Coomy for ,
-Poopy for feces, and We"
+The ironic tone of voice is evident in the launch campaign. The phrases on the posters use puns to ironise Italian stereotypes about cash, showing its sarcastic 'convenience' talking about green colour, clean recycling and no more pins or taxes. "
 
           /> </b-col>
 
@@ -134,6 +120,17 @@ Poopy for feces, and We"
      background-image: url(/images/quattriny/quattriny5.jpg)"
                  v-prlx.background="{ speed: 0.2 }"></div>
         </b-col>
+
+        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
+
+          <ProjectDescription2
+
+            title="Brand Application"
+
+            description="
+Quattriny's identity is also structured in other applications. There is the website, which shows all the highlights of the service and where you can buy physical money in exchange for digital money, and branded gadgets, again related to the world of cash.
+"
+          /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
