@@ -147,9 +147,9 @@ export default {
 
         disruptive: {
           title: 'Disruptive',
-          thumbnail: '/images/cards/disruptive.jpg',
+          thumbnail: '/images/covers/cards/disruptive-card.jpg',
           projectname: 'Disruptive',
-          mobileThumbnail: '/images/cards/disruptive_sm.svg',
+          mobileThumbnail: '/images/covers/cards-sm/disruptive_sm.jpg',
           bio: 'Design-centered digital exhibition on Sergio Marchionne and his story',
           category: ['ux-ui', 'branding', 'graphic'],
           class: 'column card-medium biodark',
@@ -162,8 +162,8 @@ export default {
         itback: {
           title: 'It-Back',
           projectname: 'It-Back',
-          thumbnail: '/images/cards/itback.jpg',
-          mobileThumbnail: '/images/cards/itback_sm.svg',
+          thumbnail: '/images/covers/cards/itback-card.jpg',
+          mobileThumbnail: '/images/covers/cards-sm/itback_sm.jpg',
           bio: 'Digital experience  aimed at reviving outdated technology products',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
           class: 'column card-large biowhite',
@@ -176,8 +176,8 @@ export default {
         sourdata: {
           title: 'SourData',
           projectname: 'SourData',
-          thumbnail: '/images/cards/sourdata.jpg',
-          mobileThumbnail: '/images/cards/sourdata_sm.svg',
+          thumbnail: '/images/covers/cards/sourdata-card.jpg',
+          mobileThumbnail: '/images/covers/cards-sm/sourdata_sm.jpg',
           bio: 'Product-service system to make money from user’s personal data',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
           class: 'column card-extraextralarge biowhite',
@@ -189,8 +189,8 @@ export default {
 
         previewpretest: {
           title: 'Preview Pretest',
-          thumbnail: '/images/cards/previewpretest.jpg',
-          mobileThumbnail: '/images/cards/preview_sm.svg',
+          thumbnail: '/images/covers/cards/preview-card.jpg',
+          mobileThumbnail: '/images/covers/cards-sm/preview_sm.jpg',
           bio: 'Series of events dedicated to future Polimi students',
           projectname: 'Preview & Pretest',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
@@ -203,8 +203,8 @@ export default {
 
         referto: {
           title: 'Referto',
-          thumbnail: '/images/cards/referto.jpg',
-          mobileThumbnail: '/images/cards/referto_sm.svg',
+          thumbnail: '/images/covers/cards/referto-card.jpg',
+          mobileThumbnail: '/images/covers/cards-sm/referto_sm.jpg',
           bio: 'Indipendent Magazine for social change about lives of health workers',
           category: ['branding', 'graphic', 'ux-ui'],
           class: 'column card-large biodark md-biowhite',
@@ -217,8 +217,8 @@ export default {
 
         carachioggia: {
           title: 'carachioggia',
-          thumbnail: '/images/cards/carachioggia.jpg',
-          mobileThumbnail: '/images/cards/carachioggia_sm.svg',
+          thumbnail: '/images/covers/cards/carachioggia-card.jpg',
+          mobileThumbnail: '/images/covers/cards-sm/carachioggia_sm.jpg',
           bio: 'Digital experience of letters and stories to relive fishing places in Chioggia ',
           category: ['coding'],
           class: 'column card-extralarge biowhite',
@@ -231,8 +231,8 @@ export default {
 
         quattriny: {
           title: 'quattriny',
-          thumbnail: '/images/cards/quattriny.jpg',
-          mobileThumbnail: '/images/cards/quattriny_sm.svg',
+          thumbnail: '/images/covers/cards/quattriny-card.jpg',
+          mobileThumbnail: '/images/covers/cards-sm/quattriny_sm.jpg',
           bio: 'Ironic fictional-branding of a cash provider payment company',
           category: ['branding', 'graphic'],
           class: 'column card-small biowhite',
@@ -243,24 +243,10 @@ export default {
           projectname: 'Quattriny'
         },
 
-        around: {
-          title: 'around',
-          thumbnail: '/images/cards/around.jpg',
-          mobileThumbnail: '/images/cards/around_sm.svg',
-          bio: 'Research and experimentation project on the use of algorithms in translation',
-          category: ['branding', 'graphic'],
-          class: 'column card-extrasmall biowhite',
-          to: "it-back",
-          pill1: 'Visual',
-          pill2: 'AR',
-          pill3: 'Exhibition',
-          projectname: 'ARound'
-        },
-
         bottleneck: {
           title: 'bottleneck',
-          thumbnail: '/images/cards/bottleneck.jpg',
-          mobileThumbnail: '/images/cards/bottleneck_sm.svg',
+          thumbnail: '/images/covers/cards/bottleneck-card.jpg',
+          mobileThumbnail: '/images/covers/cards-sm/bottleneck_sm.jpg',
           bio: 'Digital innovative wellbeing service that categorises and prioritises notifications',
           category: ['branding', 'graphic'],
           class: 'column card-extralarge biowhite',
@@ -273,8 +259,8 @@ export default {
 
         aura: {
           title: 'aura',
-          thumbnail: '/images/cards/aura.jpg',
-          mobileThumbnail: '/images/cards/aura_sm.svg',
+          thumbnail: '/images/covers/cards/aura-card.jpg',
+          mobileThumbnail: '/images/covers/cards-sm/aura_sm.jpg',
           bio: 'Brand identity for energy company',
           category: ['branding', 'graphic'],
           class: 'column card-small biowhite',

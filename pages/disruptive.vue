@@ -21,7 +21,7 @@
         <img class="cover-parallax" style="
 
 
-     background-image: url(/images/disruptive/disruptive_cover.svg)"
+     background-image: url(/images/covers/hero/disruptive.jpg)"
 
 
 
@@ -33,7 +33,7 @@
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
         <img class=""
-     src="/images/disruptive/disruptive_sm.svg"
+     src="/images/covers/sm/disruptive_sm.jpg"
         >
 
       </div>
@@ -173,7 +173,7 @@ The exhibition was then brought into the physical space of the 2021 Rimini Meeti
       </b-row>
 
       <ProjectNextPrevious
-        thumbnail="/images/it-back/next.svg
+        thumbnail="/images/covers/next/it-next.jpg
 "
 
         class="column card-large biowhite it-back"

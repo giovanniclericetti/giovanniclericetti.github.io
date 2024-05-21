@@ -17,7 +17,7 @@
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block ">
 
         <img class="cover-parallax" style="
-     background-image: url(/images/bottleneck/bottleneck_cover.svg)"
+     background-image: url(/images//covers/hero/bottleneck.jpg)"
              v-prlx.background="{ speed: 0.1 }">
       </div>
 
@@ -25,7 +25,7 @@
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
         <img class=""
-     src="/images/bottleneck/bottleneck-cover-sm.svg"
+     src="/images/covers/sm//bottleneck_sm.jpg"
         >
 
       </div>
@@ -200,7 +200,7 @@ A complete design system for the Bottleneck brand was created for the platform, 
       </b-row>
 
       <ProjectNextPrevious
-        thumbnail="/images/referto/next.svg
+        thumbnail="/images/covers/next/rf-next.jpg
 "
         class="column card-large biowhite referto"
         to="referto"

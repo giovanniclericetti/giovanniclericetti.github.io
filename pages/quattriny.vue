@@ -21,7 +21,7 @@
 
         <img class="cover-parallax" style="
 
-     background-image: url(/images/quattriny/quattriny_cover.svg)"
+     background-image: url(/images/covers/hero/quattriny_cover.jpg)"
 
              v-prlx.background="{ speed: 0.1 }">
       </div>
@@ -30,7 +30,7 @@
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
         <img class=""
-             src="/images/quattriny/quattriny_sm.svg"
+             src="/images/covers/sm/quattriny_sm.jpg"
         >
 
       </div>
@@ -164,7 +164,7 @@ Quattriny's identity is also structured in other applications. There is the webs
 
       <ProjectNextPrevious
         title="Bottleneck"
-        thumbnail="/images/bottleneck/next.svg
+        thumbnail="/images/covers/next/bn-next.jpg
 "
         mobileThumbnail="/images/cards/itback_sm.png"
         class="column card-large biowhite bottleneck"

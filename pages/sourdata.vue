@@ -30,7 +30,7 @@
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block ">
 
         <img class="cover-parallax" style="
-     background-image: url(/images/sourdata/sourdata_1.png)"
+     background-image: url(/images/covers/hero/sourdata.jpg)"
              v-prlx.background="{ speed: 0.1 }">
       </div>
 
@@ -38,7 +38,7 @@
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
         <img class=""
-     src="/images/sourdata/sourdata-cover-sm.svg"
+     src="/images/covers/sm/sourdata_sm.jpg"
         >
 
       </div>
@@ -210,7 +210,7 @@ All the collection devices were physically realised through 3D printing after be
 
       <ProjectNextPrevious
         title="Bottleneck"
-        thumbnail="/images/bottleneck/next.svg
+        thumbnail="/images/covers/next/bn-next.jpg
 "
         mobileThumbnail="/images/cards/itback_sm.png"
         class="column card-large biowhite bottleneck"

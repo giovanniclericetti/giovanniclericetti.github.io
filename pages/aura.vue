@@ -19,7 +19,7 @@
         <img class="cover-parallax" style="
 
 
-     background-image: url(/images/aura/aura_cover.jpg)"
+     background-image: url(/images/covers/hero/aura_cover.jpg)"
              v-prlx.background="{ speed: 0.1 }">
       </div>
 
@@ -27,7 +27,7 @@
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
         <img class=""
-     src="/images/aura/aura_sm.jpg"
+     src="/images/covers/sm/aura_sm.jpg"
         >
 
       </div>
@@ -305,7 +305,7 @@ For the presentation, some brand guidelines cards have been created showing the 
       </b-row>
 
       <ProjectNextPrevious
-        thumbnail="/images/sourdata/next.svg"
+        thumbnail="/images/covers/next/sd-next.svg"
         class="column card-large biowhite sourdata"
         to="it-back"
         pill1="Interaction"

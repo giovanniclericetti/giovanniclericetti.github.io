@@ -24,7 +24,7 @@
         <img class="cover-parallax" style="
 
 
-     background-image: url(/images/previewpretest/preview_cover.svg)"
+     background-image: url(/images/covers/hero/preview_cover.jpg)"
 
 
 
@@ -36,7 +36,7 @@
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
         <img class=""
-     src="/images/previewpretest/preview_sm.svg"
+     src="/images/covers/sm/preview_sm.jpg"
         >
 
       </div>
@@ -187,7 +187,7 @@ Pretest is a three-day study event in preparation for the Design and Architectur
       </b-row>
 
       <ProjectNextPrevious
-        thumbnail="/images/quattriny/next.svg"
+        thumbnail="/images/covers/next/qu-next.jpg"
         class="column card-large biowhite quattriny"
         to="quattriny"
         pill1="Branding"

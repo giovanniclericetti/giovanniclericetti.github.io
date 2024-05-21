@@ -16,11 +16,19 @@
 
       />
 
-      <div cols="12" md="12" class=" py-md-3 py-2 ">
+      <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block ">
 
         <img class="cover-parallax" style="
-     background-image: url(https://github.com/giovanniclericetti/giovanniclericetti.github.io/blob/master/static/images/it-back/it-back_cover.png?raw=true)"
+     background-image: url(/images//covers/hero/itback.jpg)"
              v-prlx.background="{ speed: 0.1 }">
+      </div>
+
+      <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
+
+        <img class=""
+             src="/images/covers/sm/itback_sm.jpg"
+        >
+
       </div>
 
       <ProjectDescription
@@ -144,7 +152,7 @@ The objects presented on the web platform are four, like the sections of the sit
 
 
       <ProjectNextPrevious
-        thumbnail="/images/previewpretest/next.svg"
+        thumbnail="/images/covers/next/pr-next.jpg"
         class="column card-large biowhite previewpretest"
         to="previewpretest"
         pill1="Branding"
@@ -178,6 +186,21 @@ export default {
 .it-back .subtitle {
   max-width: 60%;
 }
+
+.cover-mobile{
+  width: 100%;
+  height: 300px;
+  background-size: contain;
+  background-position: center;
+  border-radius: 20px;
+  overflow: hidden;
+
+img{
+  height: 100%;
+
+}
+}
+
 
 @media (max-width: 768px) {
 

@@ -19,7 +19,7 @@
 
         <img class="cover-parallax" style="
 
-     background-image: url(/images/carachioggia/carachioggia_cover.jpg)"
+     background-image: url(/images/covers/hero/carachioggia.jpg)"
 
              v-prlx.background="{ speed: 0.1 }">
       </div>
@@ -28,7 +28,7 @@
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
         <img class=""
-             src="/images/carachioggia/carachioggia_sm.svg"
+             src="/images/covers/sm/carachioggia_sm.jpg"
         >
 
       </div>
@@ -210,9 +210,8 @@ Supporting artifacts have been designed to complete the experience. The communic
 
       <ProjectNextPrevious
         title="Bottleneck"
-        thumbnail="/images/bottleneck/next.svg
+        thumbnail="/images/covers/next/bn-next.jpg
 "
-        mobileThumbnail="/images/cards/itback_sm.png"
         class="column card-large biowhite bottleneck"
         to="bottleneck"
         pill1="UX-UI"

@@ -24,7 +24,7 @@ social change to chronicle the lives of health workers"
         <img class="cover-parallax" style="
 
 
-     background-image: url(/images/referto/referto_cover.svg)"
+     background-image: url(/images/covers/hero/referto.jpg)"
 
 
 
@@ -36,7 +36,7 @@ social change to chronicle the lives of health workers"
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
         <img class=""
-     src="/images/referto/referto_sm.svg"
+     src="/images/covers/sm/referto_sm.jpg"
         >
 
       </div>
@@ -188,7 +188,7 @@ The magazine also has a transmedia development in its platform, where readers ca
 
       <ProjectNextPrevious
         title="Cara Chioggia"
-        thumbnail="/images/carachioggia/next.svg
+        thumbnail="/images/covers/next/cc-next.jpg
 "
         class="column card-large biowhite carachioggia"
         to="carachioggia"
