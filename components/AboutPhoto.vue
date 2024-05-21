@@ -9,15 +9,15 @@
 
 
 
-  <div class=" mt-2">
+  <div class=" mt-3">
     <b-row class="p-0 m-0 " >
 
       <b-col cols="3" class=" p-0">
-        <div class="socialboxsm mr-2 "> <a href="https://t.me/giovanniclericetti" target="_blank"> <img src="~static/images/aboutme/telegram.svg" /> </a> </div>
+        <div class="socialboxsm mr-3 "> <a href="https://t.me/giovanniclericetti" target="_blank"> <img src="~static/images/aboutme/telegram.svg" /> </a> </div>
       </b-col>
 
       <b-col cols="3" class=" p-0">
-        <div class="socialboxsm mr-2">  <a href="https://www.instagram.com/giovanniclericetti.png/" target="_blank"> <img src="~static/images/aboutme/instagram.svg" /> </a> </div>
+        <div class="socialboxsm mr-3">  <a href="https://www.instagram.com/giovanniclericetti.png/" target="_blank"> <img src="~static/images/aboutme/instagram.svg" /> </a> </div>
       </b-col>
 
 
@@ -29,7 +29,7 @@
     </b-row>
   </div>
 
-  <div class=" mt-2">
+  <div class=" mt-3">
     <b-row class="p-0 m-0" >
 
       <b-col cols="8" class=" p-0">
@@ -50,7 +50,7 @@
       </b-col>
 
       <b-col cols="4" class="p-0" style="height: 130px;">
-        <div class="ml-2 d-flex justify-content-center align-items-center bg-white pt-2" style="text-align: center; height: 130px; overflow: hidden; border-radius: 20px;"> <a href="https://t.me/giovanniclericetti" target="_blank" > <img style="width: 85%" src="~static/images/aboutme/letswork.svg" /> </a> </div>
+        <div class="ml-3 d-flex justify-content-center align-items-center bg-white pt-2" style="text-align: center; height: 130px; overflow: hidden; border-radius: 20px;"> <a href="https://t.me/giovanniclericetti" target="_blank" > <img style="width: 85%" src="~static/images/aboutme/letswork.svg" /> </a> </div>
       </b-col>
 
     </b-row>

@@ -48,12 +48,12 @@ In such an important stage of a student's life as choosing a university, Preview
 "
         team="C. Ghio, T. Prinetti, A. Silvano, D. Zoppi"
         role="Event Organization, Social Media, Brand Identity Evolution, Visual, UX-UI, Coding (HTML, CSS, JS, Wordpress)"
-        delivery="Exhibition for Meeting di Rimini, 2021"
+        delivery="Extracurricular Project for Polimi, 2020-2022"
         class="my-md-3">
 
         <template #link>
           <div class="mt-md-4 mt-4">
-            <a href="https://itback.altervista.org/" target="_blank">
+            <a href="https://www.instagram.com/previewpretest.la" target="_blank">
               <ProjectLink textlink="Instagram Profile"></ProjectLink>
             </a>
           </div>

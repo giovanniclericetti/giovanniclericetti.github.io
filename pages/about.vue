@@ -20,29 +20,6 @@
 
     </div>
 
-    <About-Intro
-
-    title="Something about me"
-    titlesm="Who I am"
-    subtitle="My name is Giovanni! I’m 23 years old and Milan is my city. I'm passionate
-    and curious about what I have around me. I like to discover, learn about and
-    comprehend aspects of reality and the forms it can take, even in small details."
-
-    class=" d-none"/>
-
-
-    <div class="mt-4 py-4 d-md-none">
-
-      <h2 class="titleindex">
-
-        My name is <span class="name gradient"> Giovanni</span>. I’m 23 years old and Milan is my city. I'm passionate
-        and curious about what I have around me. I like to discover, learn about and
-        comprehend aspects of reality and the forms it can take, even in small details.
-
-      </h2>
-
-    </div>
-
     <AboutPhoto
       class="d-md-none"
     />
