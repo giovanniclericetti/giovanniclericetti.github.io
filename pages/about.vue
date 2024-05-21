@@ -51,11 +51,11 @@
 
     <About-Intro
 
-subdescription="My Short Story" description="Sono nato il 22 gennaio 2001, ma sono sempre stato in classe coi 2000 fin da quando son bambino. My first important approach to the world of design happened in high school, attending the Art School at the Sacred Heart Foundation in Milan. These years were fundamental for me, because they allowed me to train my eye in the taste for the aesthetically beautiful and to mature a personal critical gaze. What made me choose to take the path of Communication Design at the Polytechnic, was realizing more and more how important it was for me the way a project is presented and communicated.
+subdescription="My Short Story" description="My first real taste of the design world came in high school when I had the pleasure of attending the Artistic School at Fondazione Sacro Cuore in Milan. These years were extremely important for me, as they allowed me to develop an eye for aesthetic beauty and to cultivate a personal critical perspective. What led me to pursue Communication Design at the Politecnico was my growing realization of the importance of how a project is presented and communicated.
 
-During these years in Bovisa, I surprised myself by being attracted to the way of design that I learned, developed and made my own, to the point that I now apply it in everything. I can't do without it for a moment now; how many times have I found myself branding vacations, producing t-shirts, layout graphics, curating instagram pages, programming sites just for pleasure and fun with my friends.
+During my tenure at the university in Bovisa, I was surprised by my own attraction to the design style that I had learned, developed, and made my own, to the point that I now apply it to everything. It is an essential part of my everyday way of living. On numerous occasions, I have engaged in the creative process of branding holidays, designing t-shirts, creating graphics, developing personalized stickers, curating Instagram pages, and programming websites, all for the purpose of fun and enjoyment with my friends..
 
-What do I want to do in the future? Over the years I have experimented with different fields different fields of the design world, but I think the one that fascinates me the most is a digital approach to design and related to user experience. But now ... come on, I'll let my projects do some of the talking!
+What do I want to do in the future? Over the years, I have explored various fields within the design world. However I believe the area that fascinates me the most is digital and interactive design, particularly related to user experience.
 "
 
       class=""/>
