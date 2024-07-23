@@ -16,7 +16,7 @@
 
         </AboutCvElement>
 
-        <AboutCvElement category="2023">
+        <AboutCvElement category="2024">
 
           <template #slotcvelement>
             <p>Erasmus Experience at <a class="hover-a-underline-animation"
