@@ -22,21 +22,17 @@
             <b-row class=" d-flex no-gutters" style="height:230px">
 
               <b-col cols="8" style="padding-left: 20px; padding-right: 20px;">
-
-                <div class="boxround bggradient" style="height: 230px;" ref="container" @mousemove="moveImage">
-
-                  <div class="  d-flex justify-content-center align-items-center pt-3" style="height: 40%">
-                    <h4 style="font-size: 32px; color: white">My Resume</h4>
+                <a href="documents/giovanniclericetti.pdf" target="_blank" style="text-decoration: none;">
+                  <div class="boxround bggradient" style="height: 230px;" ref="container" @mousemove="moveImage">
+                    <div class="d-flex justify-content-center align-items-center pt-3" style="height: 40%">
+                      <h4 style="font-size: 32px; color: white">My Resume</h4>
+                    </div>
+                    <div class="boxcv justify-content-center d-flex" style="height: 150%; width: 100%;">
+                      <img ref="cvImage" src="~static/images/aboutme/cvbox.png" style="transform: translateZ(0);" />
+                    </div>
                   </div>
-
-                  <div class="boxcv  justify-content-center d-flex" style="height: 150%; width: 100%;">
-                    <img ref="cvImage" src="~static/images/aboutme/cvbox.png" style="transform: translateZ(0); "/>
-                  </div>
-                </div>
-
-
+                </a>
               </b-col>
-
               <b-col cols="" style="">
                 <div class="bg-white boxround" style="height: 230px;">
 
@@ -139,10 +135,10 @@ export default {
   data() {
     return {
       options: [
-        { song: "Dove si balla", singer: "Dargen D'Amico", href: "https://open.spotify.com/intl-it/track/654Jxp6rUFgPckixlIusRJ?si=cbc47ddaecec473b" },
-        { song: "Rockstar", singer: "Sfera Ebbasta", href: "https://open.spotify.com/intl-it/track/2O7jON0xYyTaSkWj9wZXCJ?si=7db632e0c36c44b5" },
-        { song: "Mi Sento Vivo", singer: "Gianni Bismark", href: "link3" },
-        { song: "Viceversa", singer: "Francesco Gabbani", href: "https://open.spotify.com/intl-it/track/2O7jON0xYyTaSkWj9wZXCJ?si=7db632e0c36c44b5" }
+        { song: "Dove si balla", singer: "Dargen D'Amico", href: "https://open.spotify.com/intl-it/track/3FVa0R2evbgjVOd3bejudr?si=2cd9eded04694ba2" },
+        { song: "Rockstar", singer: "Sfera Ebbasta", href: "https://open.spotify.com/intl-it/track/3js3wKPw8VxBWtcXtwyUnA?si=59de8edffe524d5b" },
+        { song: "Mi Sento Vivo", singer: "Gianni Bismark", href: "https://open.spotify.com/intl-it/track/1c1OvbTdYjo1MJ3DhYn8P5?si=8c955201e1d4472f" },
+        { song: "Vetri Neri", singer: "Capo Plaza, Anna", href: "https://open.spotify.com/intl-it/track/1K9qAxGT4cWUicf2OezSen?si=9902d4f64016412b" }
       ]
     };
   },

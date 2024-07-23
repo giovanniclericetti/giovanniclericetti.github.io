@@ -48,6 +48,10 @@
         </AboutCvElement>
 
 
+
+
+
+
         <h4 class="gradient mt-md-5 mt-4"> Social Initiatives </h4>
 
         <AboutCvElement category="University Politics">
@@ -131,12 +135,7 @@
           </template>
         </AboutCvElement>
 
-      </b-col>
-
-      <b-col cols="12" md="4">
-
-
-        <h4 class="gradient mt-md-0 mt-4"> Languages </h4>
+        <h4 class="gradient mt-md-5 mt-4"> Languages </h4>
 
         <AboutCvElement
           category="Italian"
@@ -169,6 +168,39 @@
 
         </AboutCvElement>
 
+      </b-col>
+
+      <b-col cols="12" md="4">
+
+
+
+        <h4 class="gradient "> Exhibition & Awards </h4>
+
+        <AboutCvElement category="2023, La Stecca 3 (Milan) ">
+          <template #slotcvelement>
+            <p>Belonging / Not Belonging - Indie magazine for Social Change  </p>
+            <p class="subtitlecv">Project: Referto Magazine</p>
+          </template>
+        </AboutCvElement>
+
+        <AboutCvElement category="2022, FuoriSalone Milan Design Week">
+          <template #slotcvelement>
+            <p> DesignXDesigner - Politecnico Design Student Exhibition </p>
+            <p class="subtitlecv">Project: SourData</p>
+          </template>
+        </AboutCvElement>
+
+        <AboutCvElement category="2022, ATS Insubria">
+          <template #slotcvelement>
+            <p> Selection for the communication campaign to
+              raise awareness </p>
+            <p class="subtitlecv">Project: Bella Scusa</p>
+          </template>
+        </AboutCvElement>
+
+
+
+
         <h4 class="gradient mt-md-5 mt-4"> Software </h4>
 
         <AboutCvElement
@@ -196,7 +228,7 @@
         >
 
           <template #slotcvelement>
-            <p>Figma, Keynote, Pages, iMovie</p>
+            <p>Figma, Figma Slides, Keynote, <br> Pages, Miro, Blender, iMovie</p>
           </template>
 
         </AboutCvElement>
@@ -211,7 +243,10 @@
 
         </AboutCvElement>
 
-        <h4 class="gradient mt-5 "> <a href="">
+        <h4 class="gradient mt-5 ">   <a href="documents/giovanniclericetti.pdf" target="_blank" style="text-decoration: none;">
+
+
+
           <b-icon class="mr-1" shift-v="-3" icon="arrow-down-right-circle-fill"
                   style="width: 35px; height: 35px; color:#FF9A5A"></b-icon>
           <span class="hover-underline-animation gradient downloadcv"> Download Resume </span> </a>
