@@ -5,7 +5,7 @@
     <b-row class="">
 
       <b-col cols="5" style="padding-left: 0px; padding-right: 0px">
-        <div class="bg-primary photobox">
+        <div class=" photobox" style="background-color: #EF344D">
 
           <img src="~static/images/aboutme/aboutme.png"/>
 

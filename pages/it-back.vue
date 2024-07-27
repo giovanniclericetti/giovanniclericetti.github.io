@@ -32,9 +32,7 @@
       </div>
 
       <ProjectDescription
-        description="
-IT-BACK was born from the comeback of obsolete, vintage products, characterised by a minimalist, modern and decidedly colourful style, coupled with an equally direct and lively communication. The focus of the project is on the user's experience throughout the entire journey.
-he experience starts with the Instagram profile, where the user is fascinated by social content that shows some products in detail, without ever explicitly revealing what they are, but only suggesting that they are great technological innovations.
+        description="IT-BACK was born from the comeback of obsolete, vintage products, characterized by a minimalist, modern and colorful style, coupled with an equally direct and lively communication. The focus of the project is on the user's experience throughout the entire journey. The experience starts with the Instagram profile, where the user is fascinated by social content that shows some of the products in detail, without ever explicitly revealing what they are, but only suggesting that they are great technological innovations.
 "
         team="B. Barzaghi, E. Ceriani, B. Duina, F. Nozza, E. Peverelli"
         role="Brand Identity, UX-UI, Art Direction, Keynote Presentation, Social Media, Coding (Wordpress)"
@@ -87,8 +85,7 @@ he experience starts with the Instagram profile, where the user is fascinated by
             title="Platform User Experience"
 
             description="
-The experience continues with the website, where this path of curiosity and recognition is continued and the hype grows. The site's scrolling slides help to make this step-by-step journey even more immersive. As the journey continues, the visitor discovers that these products, presented as highly innovative, are in fact being phased out as they become obsolete. But the experience does not stop there, as they are reassessed as they take on a new meaning that makes those who use them unique and special."
-
+It continues with the website, where this path of curiosity and recognition of the obejcts continues and the hype grows. The site's scrolling slides help to make this step-by-step journey even more immersive. As the journey continues, the visitor discovers that these products, presented as highly innovative, are in fact being phased out as they become obsolete. But the experience does not stop there, as they are reassessed as they take on a new meaning that makes those who use them unique and special."
           /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">

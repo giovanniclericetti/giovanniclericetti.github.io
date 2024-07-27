@@ -60,6 +60,57 @@
 
             </AboutCvElement>
 
+
+
+          </b-card-body>
+        </b-collapse>
+      </b-card>
+
+    </div>
+
+
+    <div class="accordion lineacc pt-4" role="tablist">
+      <b-card no-body class="cardaccordion">
+        <b-card-header class="p-0 cardaccordion pb-3" >
+          <b-row block v-b-toggle.accordion-2 class="text-left d-flex cardaccordion justify-spa" >
+            <b-col cols="auto" class=""> <h4 class="gradient"> Exhibition & Awards </h4> </b-col>
+            <b-col class="text-right mr-2 ">
+
+              <b-icon :icon="accordion2.isCollapsed ? 'chevron-down' : 'chevron-up'"
+                      variant="thick"
+                      font-scale="2"
+                      style="color: #FF4466"
+                      @click="toggleAccordion('accordion2')" />
+            </b-col>
+          </b-row>
+        </b-card-header>
+
+        <b-collapse id="accordion-2" class="cardaccordion pb-4" accordion="">
+          <b-card-body >
+
+            <AboutCvElement category="2023, La Stecca 3 (Milan) " class="mt-3">
+              <template #slotcvelement>
+                <p>Belonging / Not Belonging - Indie magazine for Social Change  </p>
+                <p class="subtitlecv">Project: Referto Magazine</p>
+              </template>
+            </AboutCvElement>
+
+            <AboutCvElement category="2022, FuoriSalone Milan Design Week" class="mt-3">
+              <template #slotcvelement>
+                <p> DesignXDesigner - Politecnico Design Student Exhibition </p>
+                <p class="subtitlecv">Project: SourData</p>
+              </template>
+            </AboutCvElement>
+
+            <AboutCvElement category="2022, ATS Insubria" class="mt-3">
+              <template #slotcvelement>
+                <p> Selection for the communication campaign to
+                  raise awareness </p>
+                <p class="subtitlecv">Project: Bella Scusa</p>
+              </template>
+            </AboutCvElement>
+
+
           </b-card-body>
         </b-collapse>
       </b-card>
@@ -91,6 +142,8 @@
                 <p class="subtitlecv">SKProgetti - Engineering Studio</p>
               </template>
             </AboutCvElement>
+
+
 
             <AboutCvElement category="2021-2023" class="mt-3">
               <template #slotcvelement>
@@ -308,7 +361,7 @@
 
     </div>
 
-    <h4 class="w-100 mt-5 text-center"> <a href="">
+    <h4 class="w-100 mt-5 text-center"> <a href="documents/giovanniclericetti.pdf" target="_blank">
       <span class="underlinemobile downloadcv" style="color: black"> Download Resume </span> </a>
     </h4>
 

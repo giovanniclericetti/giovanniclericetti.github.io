@@ -305,14 +305,14 @@ For the presentation, some brand guidelines cards have been created showing the 
       </b-row>
 
       <ProjectNextPrevious
-        thumbnail="/images/covers/next/sd-next.svg"
-        class="column card-large biowhite sourdata"
+        thumbnail="/images/covers/next/it-next.jpg"
+        class="column card-large biowhite it-back"
         to="it-back"
-        pill1="Interaction"
-        pill2="Branding"
-        pill3="UX-UI"
-        nextproject="SourData"
-        bionext="Product-service system to make money from user's personal data"
+        pill1="Visual"
+        pill2="UX-UI"
+        pill3="Coding"
+        nextproject="It-Back"
+        bionext="Digital experience aimed at reviving outdated technology products"
       />
 
 

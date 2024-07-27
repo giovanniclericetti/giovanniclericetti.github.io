@@ -43,7 +43,9 @@ social change to chronicle the lives of health workers"
 
       <ProjectDescription
         description="
-Referto is a clinical document written by a doctor, putting his or her perspective on the patient and the disease on paper. Similarly, REFERTO magazine is the story of healthcare at its most genuine, human and emotional, delivered directly from the hands of those who dedicate themselves every day to protecting our health. For this project, the first issue of the magazine has been created, focusing on Soccorso (First Aid), with subsequent issues planned on Hospitalisation, Surgery and Prognosis, each with its own unique cover design. The design of this indie magazine for social change evolved from the research phase, which included collecting photographic material, researching sources, producing interviews and writing articles. The REFERTO brand was established, with choices of colour, paper and typography tailored to the content being communicated. "        team="S. Bonfanti, A. Burchiani, E. Ceriani, T. Prinetti"
+According to the vocabulary, Referto is a clinical document written by a doctor, putting his or her perspective on the patient and the disease on paper. Similarly, REFERTO magazine is the story of healthcare at its most genuine, human and emotional state, delivered directly from the hands of those who dedicate themselves to protecting our health every day. For this project, the first issue of the magazine has been created, focusing on Soccorso (First Aid), with subsequent issues planned on Hospitalisation, Surgery and Prognosis, each with its own unique cover design. The design of this indie magazine for social change evolved from the research phase, which included collecting photographic material, researching sources, producing interviews and writing articles. The REFERTO brand was established, with choices of color, paper and typography tailored to the content being communicated.
+
+"        team="S. Bonfanti, A. Burchiani, E. Ceriani, T. Prinetti"
         role="Brand Identity, Visual, Editorial Layout"
         delivery="Editorial Design Lab, 2023"
         class="my-md-3"

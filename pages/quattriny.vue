@@ -128,8 +128,7 @@ The ironic tone of voice is evident in the launch campaign. The phrases on the p
             title="Brand Application"
 
             description="
-Quattriny's identity is also structured in other applications. There is the website, which shows all the highlights of the service and where you can buy physical money in exchange for digital money, and branded gadgets, again related to the world of cash.
-"
+Quattriny's identity is also structured in other applications. There is the website, which shows all the highlights of the service and where users can buy physical money in exchange for digital money, and branded gadgets, again related to the world of cash."
           /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -163,17 +162,14 @@ Quattriny's identity is also structured in other applications. There is the webs
 
 
       <ProjectNextPrevious
-        title="Bottleneck"
-        thumbnail="/images/covers/next/bn-next.jpg
-"
-        mobileThumbnail="/images/cards/itback_sm.png"
-        class="column card-large biowhite bottleneck"
-        to="bottleneck"
-        pill1="UX-UI"
-        pill2="Interaction"
-        pill3="Branding"
-        nextproject="Bottleneck"
-        bionext="Digital wellbeing service for categorisation notifications"
+        thumbnail="/images/covers/next/sd-next.jpg"
+        class="column card-large biowhite sourdata"
+        to="sourdata"
+        pill1="Interaction"
+        pill2="Branding"
+        pill3="UX-UI"
+        nextproject="SourData"
+        bionext="Product-service system to make money from user's personal data"
       />
 
 

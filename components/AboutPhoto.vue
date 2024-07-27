@@ -72,7 +72,7 @@ export default {
 <style scoped>
 
 .aboutmephoto{
-  border-radius: 20px;
+  border-radius: 25px;
   overflow: hidden;
   height: 350px;
 }
@@ -88,14 +88,14 @@ export default {
 
 
 .socialboxsm {
-  border-radius: 20px;
+  border-radius: 25px;
   overflow: hidden;
 }
 
 .boxcvmobile{
   object-fit: contain;
   overflow: hidden;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 
 .socialboxsm img {

@@ -128,8 +128,7 @@ The new perspective on the village of Chioggia is centered on the online platfor
             title="Research and Content Production"
 
             description="
-All the content has been developed through meticulous research into the territories and the people who inhabit them, using online sources as well as observations and interviews in Chioggia itself. This material was then transformed into letters exchanged between the characters, studying the exchanges between the characters, the places they pass through, the titles, the texts and the images. Finally, it was decided to create an illustrative apparatus to summarize the territory in a manner consistent with the narrative flow."
-
+All the content has been developed through meticulous research into the territories and the people who inhabit them, using online sources as well as observations and interviews in Chioggia itself. This material was subsequently transformed into a series of letters exchanged between the characters, exploring their correspondence, the places they traverse, the titles, the texts, and the accompanying images. Finally, it was decided to create an illustrative apparatus to summarize the territory in a manner consistent with the narrative flow."
           /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -180,8 +179,7 @@ All the content has been developed through meticulous research into the territor
             title="Complementary Artifacts"
 
             description="
-Supporting artifacts have been designed to complete the experience. The communication campaign illustrates the aim of the project, which is to take a fresh look at the 'places of all time' and rediscover them through the stories of the people who live there. A system of physical installations in the places of the narrative has also been designed, allowing new letters to be sent to add stories to the platform."
-
+Supporting artifacts have been designed to complete the experience. The communication campaign illustrates the aim of the project, which is to take a fresh look at the 'places of everyday life’ and rediscover them through the stories of the people who live there. A system of physical installations in the places of the narrative has also been designed, allowing new letters to be sent to add stories to the platform."
           /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -209,16 +207,16 @@ Supporting artifacts have been designed to complete the experience. The communic
 
 
       <ProjectNextPrevious
-        title="Bottleneck"
-        thumbnail="/images/covers/next/bn-next.jpg
+        title="Aura"
+        thumbnail="/images/covers/next/au-next.jpg
 "
-        class="column card-large biowhite bottleneck"
-        to="bottleneck"
-        pill1="UX-UI"
-        pill2="Interaction"
-        pill3="Branding"
-        nextproject="Bottleneck"
-        bionext="Digital wellbeing service for categorisation notifications"
+        class="column card-large biowhite aura"
+        to="aura"
+        pill1="Branding"
+        pill2="Visual"
+        pill3="UI"
+        nextproject="Aura Energy"
+        bionext="Brand identity for energy company"
       />
 
 
