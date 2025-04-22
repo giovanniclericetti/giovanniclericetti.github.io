@@ -8,7 +8,7 @@
 
   <div class="mt-5 py-md-5 py-2">
 
-    <h2 class="titleindex"> Ciao! Hey! I'm Giovanni, an Italian <span class="name gradient"> communication and
+    <h2 class="titleindex"> Hey! I'm Giovanni, an Italian <span class="name gradient"> communication and
       experience designer </span> based in Milan. I graduated in Communication
       Design at Polimi. Here are some of the projects I have worked on! </h2>
 

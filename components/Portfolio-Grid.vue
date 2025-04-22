@@ -16,16 +16,17 @@
         />
 
         <PortfolioCard
-          v-bind="projects.itback"
-          class="it-back"
+          class="carachioggia"
+          v-bind="projects.carachioggia"
         />
-
 
 
         <PortfolioCard
-          v-bind="projects.quattriny"
-          class="quattriny"
+          class="disruptive"
+          v-bind="projects.disruptive"
         />
+
+
 
 
 
@@ -36,13 +37,18 @@
       <b-col cols="12" md="12" lg="4">
 
         <PortfolioCard
-          v-bind="projects.disruptive"
-          class="disruptive"
+          v-bind="projects.avi"
+          class="avi"
         />
 
         <PortfolioCard
-          class="carachioggia"
-          v-bind="projects.carachioggia"
+          v-bind="projects.previewpretest"
+          class="previewpretest"
+        />
+
+        <PortfolioCard
+          v-bind="projects.quattriny"
+          class="quattriny"
         />
 
         <PortfolioCard
@@ -53,24 +59,41 @@
 
 
 
+
       </b-col>
 
+
+
       <b-col cols="12" md="12" lg="4">
+
+        <PortfolioCard
+          v-bind="projects.referto"
+          class="referto"
+        />
 
         <PortfolioCard
           v-bind="projects.bottleneck"
           class="bottleneck"
         />
 
-        <PortfolioCard
-          class="referto"
-          v-bind="projects.referto"
-        />
+
+
+
 
         <PortfolioCard
-          v-bind="projects.previewpretest"
-          class="previewpretest"
+          v-bind="projects.itback"
+          class="it-back"
         />
+
+
+
+
+
+
+
+
+
+
 
       </b-col>
 
@@ -144,6 +167,20 @@ export default {
     return {
       containerHeight: 0,
       projects: {
+
+        avi: {
+          title: 'Audiovisual Identity',
+          projectname: 'Audiovisual Identity',
+          thumbnail: '/images/covers/cards/avi-card.jpg',
+          mobileThumbnail: '/images/covers/cards-sm/itback_sm.jpg',
+          bio: 'Digital experience  aimed at reviving outdated technology products',
+          category: ['coding', 'ux-ui', 'branding', 'graphic'],
+          class: 'column card-medium biowhite',
+          to: "avi",
+          pill1: 'Thesis',
+          pill2: 'Branding',
+          pill3: 'UX-UI',
+        },
 
         disruptive: {
           title: 'Disruptive',

@@ -96,6 +96,12 @@ p2 {
 
 }
 
+.avi {
+  --color-primary: #00AFFA;
+  --color-success: #00AFFA
+;
+}
+
 .it-back {
   --color-primary: #EA4A3C;
   --color-secondary: green;
@@ -117,6 +123,7 @@ p2 {
   --color-primary: #5E5F3C;
   --color-success: #5E5F3C;
 }
+
 
 .aura {
   --color-primary: #FF7673;

@@ -7,7 +7,7 @@
 
         <h4 class="gradient"> Education </h4>
 
-        <AboutCvElement category="2022 - ongoing">
+        <AboutCvElement category="2022-2025">
 
           <template #slotcvelement>
             <p>Master Degree in Communication Design at <a class="hover-a-underline-animation"
@@ -86,10 +86,24 @@
         <h4 class="gradient mt-md-0 mt-4"> Work Experiences </h4>
 
 
-        <AboutCvElement category="2023">
+        <AboutCvElement category="2024-ongoing">
           <template #slotcvelement>
-            <p>Brand identity and website design</p>
-            <p class="subtitlecv">SKProgetti - Engineering Studio</p>
+            <p>Visual and Brand Design Consultant</p>
+            <p class="subtitlecv">AC Milan</p>
+          </template>
+        </AboutCvElement>
+
+        <AboutCvElement category="2025">
+          <template #slotcvelement>
+            <p>Academic Tutor</p>
+            <p class="subtitlecv"> Video Identity Master of Poli.Design</p>
+          </template>
+        </AboutCvElement>
+
+        <AboutCvElement category="2020-ongoing">
+          <template #slotcvelement>
+            <p>Content classification activities</p>
+            <p class="subtitlecv">Mediaset S.p.A.</p>
           </template>
         </AboutCvElement>
 
@@ -97,13 +111,6 @@
           <template #slotcvelement>
             <p>Realization of Exhibition Spaces</p>
             <p class="subtitlecv">Meeting di Rimini</p>
-          </template>
-        </AboutCvElement>
-
-        <AboutCvElement category="2020-2023">
-          <template #slotcvelement>
-            <p>Content classification activities</p>
-            <p class="subtitlecv">Mediaset S.p.A.</p>
           </template>
         </AboutCvElement>
 
@@ -116,22 +123,8 @@
 
         <AboutCvElement category="2019">
           <template #slotcvelement>
-            <p>Internship in Architecture Studio</p>
-            <p class="subtitlecv">Studio MEA, Milan</p>
-          </template>
-        </AboutCvElement>
-
-        <AboutCvElement category="2019">
-          <template #slotcvelement>
             <p>Museum Guide for Exhibitions</p>
             <p class="subtitlecv">Palazzo Reale, Milan</p>
-          </template>
-        </AboutCvElement>
-
-        <AboutCvElement category="2018">
-          <template #slotcvelement>
-            <p>Waiter</p>
-            <p class="subtitlecv">Planibel Hotel, La Thuile</p>
           </template>
         </AboutCvElement>
 

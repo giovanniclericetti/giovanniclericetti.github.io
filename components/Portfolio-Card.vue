@@ -58,7 +58,6 @@ h6{
   color: white;
 }
 
-
 .pillshome {
   border-radius: 20px;
   background-color: white;
