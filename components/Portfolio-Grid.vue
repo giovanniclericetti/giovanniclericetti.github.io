@@ -37,36 +37,6 @@
       <b-col cols="12" md="12" lg="4">
 
         <PortfolioCard
-          v-bind="projects.avi"
-          class="avi"
-        />
-
-        <PortfolioCard
-          v-bind="projects.previewpretest"
-          class="previewpretest"
-        />
-
-        <PortfolioCard
-          v-bind="projects.quattriny"
-          class="quattriny"
-        />
-
-        <PortfolioCard
-          v-bind="projects.aura"
-          class="aura"
-        />
-
-
-
-
-
-      </b-col>
-
-
-
-      <b-col cols="12" md="12" lg="4">
-
-        <PortfolioCard
           v-bind="projects.referto"
           class="referto"
         />
@@ -90,6 +60,34 @@
 
 
 
+
+
+
+
+
+      </b-col>
+
+      <b-col cols="12" md="12" lg="4">
+
+        <PortfolioCard
+          v-bind="projects.avi"
+          class="avi"
+        />
+
+        <PortfolioCard
+          v-bind="projects.previewpretest"
+          class="previewpretest"
+        />
+
+        <PortfolioCard
+          v-bind="projects.quattriny"
+          class="quattriny"
+        />
+
+        <PortfolioCard
+          v-bind="projects.aura"
+          class="aura"
+        />
 
 
 
