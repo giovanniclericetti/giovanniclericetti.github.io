@@ -45,7 +45,7 @@
       <div class="text-center m-4 p-3">
         <p>This material is confidential. <br>Get in touch to learn more.</p>
         <a href="mailto:giovanni.clericetti@gmail.com" class="m-3 custom-outline-btn px-4 py-2 rounded-pill d-inline-block text-decoration-none">
-          <p> Contact me    </p>
+          <p class="text-decoration-none"> Contact me </p>
         </a>
       </div>
 
