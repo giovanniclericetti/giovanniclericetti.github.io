@@ -10,11 +10,10 @@
 
       <Project-Intro
         title="AC Milan"
-        subtitle="Editorial project of an indie independent magazine for
-social change to chronicle the lives of health workers"
-        pill1="Editorial"
-        pill2="Visual"
-        pill3="Branding"
+        subtitle="Production of sponsorship presentations and visual assets for Club’s visual language"
+        pill1="Visual"
+        pill2="Branding"
+        pill3="Sport Production"
 
       />
 
@@ -38,7 +37,7 @@ social change to chronicle the lives of health workers"
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
         <img class=""
-     src="/images/covers/sm/referto_sm.jpg"
+     src="/images/covers/sm/acm_sm.svg"
         >
 
       </div>
@@ -50,17 +49,37 @@ social change to chronicle the lives of health workers"
         </a>
       </div>
 
-      <ProjectDescription
-        description="
-According to the vocabulary, Referto is a clinical document written by a doctor, putting his or her perspective on the patient and the disease on paper. Similarly, REFERTO magazine is the story of healthcare at its most genuine, human and emotional state, delivered directly from the hands of those who dedicate themselves to protecting our health every day. For this project, the first issue of the magazine has been created, focusing on Soccorso (First Aid), with subsequent issues planned on Hospitalisation, Surgery and Prognosis, each with its own unique cover design. The design of this indie magazine for social change evolved from the research phase, which included collecting photographic material, researching sources, producing interviews and writing articles. The REFERTO brand was established, with choices of color, paper and typography tailored to the content being communicated.
+      <b-row>
+        <b-col cols="12" md="7">
 
-"        team="S. Bonfanti, A. Burchiani, E. Ceriani, T. Prinetti"
-        role="Brand Identity, Visual, Editorial Layout"
-        delivery="Editorial Design Lab, 2023"
-        class="my-md-3"
-      >
+          <h4> Project Overview </h4>
+          <p> Design and development of graphic assets adapted to AC Milan’s visual identity across various sports-related areas: from creating visual identities for internal projects and defining the seasonal visual language, to supporting events, and up to sports production during matches at San Siro Stadium. The work focused particularly on producing presentations for partnerships and graphics tailored to sponsored events, in close collaboration with marketing, sales, and strategy teams. All activities were carried out under strict confidentiality. </p>
 
-      </ProjectDescription>
+          <slot name="link2">
+          </slot>
+
+
+        </b-col>
+
+        <b-col cols="12" md="5" class="pl-5">
+
+
+          <h4 class="mt-4 mt-md-0"> Tools </h4>
+          <p> Keynote, PowerPoint, Figma, Figma Slide, Photoshop, Illustrator, Midjourney, Grok, OpenAI, Asana </p>
+
+          <div class="mt-md-5 mt-4">
+            <a href="          https://www.linkedin.com/posts/activity-7207066977016754177-HIoz?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGmc5MBRFlV2ZhxOY7sTc3zelk5nsUZlMk
+" target="_blank">
+              <ProjectLink textlink="ACM Brand Design Reel 23/24"></ProjectLink>
+            </a>
+          </div>
+
+
+
+        </b-col>
+      </b-row>
+
+
 
 
 
@@ -105,11 +124,13 @@ export default {
 
 .cover-mobile{
   width: 100%;
-  height: 300px;
+  height: auto !important;
   background-size: contain;
-  background-position: center;
+  background-position: center center;
   border-radius: 20px;
   overflow: hidden;
+
+
 
   img{
     width: 100%;
@@ -139,7 +160,7 @@ export default {
 }
 
 .acmilan .subtitle{
-  max-width: 55%;
+  max-width: 45%;
 }
 
 .ref-3{

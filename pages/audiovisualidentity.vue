@@ -2,7 +2,15 @@
 
   <div class="avi">
 
-
+    <b-progress
+      :value="progress"
+      :max="100"
+      :height="barHeight"
+      :style="computedStyle"
+      class="fixed-top custom-bar"
+      :striped="striped"
+      :animated="animated"
+    ></b-progress>
 
     <div class="container mt-4">
 
@@ -223,13 +231,51 @@ The magazine has 260 pages and is bound in Swiss binding with a fold-out flap. A
 <script>
 export default {
   name: 'audiovisual-identity',
-}
-
-
+  data() {
+    return {
+      progress: 0,
+      barHeight: '4px',                  // Altezza della barra
+      bgColor: 'rgba(0, 175, 250, 0)',  // Sfondo della barra (rosso con opacità 20%)
+      barColor: '#e0071b',              // Colore della barra
+      borderRadius: '0px',               // Bordo arrotondato della barra
+      striped: false,                    // Strisce sulla barra (true/false)
+      animated: false,                   // Animazione sulle strisce
+    };
+  },
+  computed: {
+    computedStyle() {
+      return {
+        backgroundColor: this.bgColor,
+        borderRadius: this.borderRadius,
+      };
+    },
+  },
+  mounted() {
+    window.addEventListener('scroll', this.updateProgress, { passive: true });
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.updateProgress);
+  },
+  methods: {
+    updateProgress() {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      this.progress = (scrollTop / docHeight) * 100;
+    },
+  },
+};
 </script>
 
 
 <style>
+
+.fixed-top {
+  z-index: 1031;
+}
+
+.progress-bar {
+  background-color: rgba(0, 175, 250) !important;
+}
 
 .cover-mobile{
   width: 100%;

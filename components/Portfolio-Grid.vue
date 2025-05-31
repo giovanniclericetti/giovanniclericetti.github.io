@@ -179,7 +179,7 @@ export default {
           to: "acmilan",
           pill1: 'Visual',
           pill2: 'Branding',
-          pill3: 'Experience',
+          pill3: 'Sport Prod',
         },
 
         disruptive: {
