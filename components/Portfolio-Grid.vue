@@ -8,6 +8,32 @@
 
     <b-row ref="projectsContainer" class="d-md-flex d-none" :style="{minHeight: containerHeight + 'px'}" >
 
+
+      <b-col cols="12" md="12" lg="4">
+
+        <PortfolioCard
+          v-bind="projects.milan"
+          class="referto"
+        />
+
+        <PortfolioCard
+          class="disruptive"
+          v-bind="projects.disruptive"
+        />
+
+
+        <PortfolioCard
+          v-bind="projects.previewpretest"
+          class="previewpretest"
+        />
+
+        <PortfolioCard
+          v-bind="projects.quattriny"
+          class="quattriny"
+        />
+
+      </b-col>
+
       <b-col cols="12" md="12" lg="4">
 
         <PortfolioCard
@@ -20,50 +46,10 @@
           v-bind="projects.carachioggia"
         />
 
-
-        <PortfolioCard
-          class="disruptive"
-          v-bind="projects.disruptive"
-        />
-
-
-
-
-
-      </b-col>
-
-
-
-      <b-col cols="12" md="12" lg="4">
-
-        <PortfolioCard
-          v-bind="projects.referto"
-          class="referto"
-        />
-
-        <PortfolioCard
-          v-bind="projects.bottleneck"
-          class="bottleneck"
-        />
-
-
-
-
-
         <PortfolioCard
           v-bind="projects.itback"
           class="it-back"
         />
-
-
-
-
-
-
-
-
-
-
 
       </b-col>
 
@@ -75,25 +61,27 @@
         />
 
         <PortfolioCard
-          v-bind="projects.previewpretest"
-          class="previewpretest"
+          v-bind="projects.bottleneck"
+          class="bottleneck"
         />
 
+
         <PortfolioCard
-          v-bind="projects.quattriny"
-          class="quattriny"
+          v-bind="projects.referto"
+          class="referto"
         />
+
+
+
 
         <PortfolioCard
           v-bind="projects.aura"
           class="aura"
         />
 
-
-
-
-
       </b-col>
+
+
 
     </b-row>
 
@@ -174,10 +162,24 @@ export default {
           bio: 'Digital experience  aimed at reviving outdated technology products',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
           class: 'column card-medium biowhite',
-          to: "avi",
+          to: "audiovisualidentity",
           pill1: 'Thesis',
           pill2: 'Branding',
           pill3: 'UX-UI',
+        },
+
+        milan: {
+          title: 'AC Milan',
+          projectname: 'AC Milan',
+          thumbnail: '/images/covers/cards/milan-card.jpg',
+          mobileThumbnail: '/images/covers/cards-sm/itback_sm.jpg',
+          bio: 'Digital experience  aimed at reviving outdated technology products',
+          category: ['confidential', 'visual', 'branding', 'graphic'],
+          class: 'column card-large biowhite',
+          to: "acmilan",
+          pill1: 'Visual',
+          pill2: 'Branding',
+          pill3: 'Experience',
         },
 
         disruptive: {

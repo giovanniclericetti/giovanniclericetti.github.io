@@ -28,7 +28,7 @@ body {
 }
 
 h1 {
-  font-family: "title-bold";
+  font-family: "title-regular";
   color: var(--color-primary);
   font-size: 64pt;
   font-weight: 100;
@@ -96,10 +96,15 @@ p2 {
 
 }
 
+.acmilan {
+  --color-primary: #e0071b;
+  --color-success: #e0071b;
+}
+
+
 .avi {
   --color-primary: #00AFFA;
   --color-success: #00AFFA
-;
 }
 
 .it-back {
@@ -197,6 +202,10 @@ p2 {
   transition: transform 0.25s ease-out;
 }
 
+
+.h350{
+  height: 350px
+}
 
 .h400{
   height: 400px
