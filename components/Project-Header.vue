@@ -30,5 +30,10 @@ a{
   color: var(--color-primary);
 }
 
+a:hover {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
 
 </style>

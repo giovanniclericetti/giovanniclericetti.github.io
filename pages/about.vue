@@ -11,7 +11,7 @@
       <h2 class="titleindex">
 
         My name is <span class="name gradient"> Giovanni</span>.
-        I'm 23 years old and I come from Milan. <br>
+        I'm {{ age }} years old and I come from Milan. <br>
         I'm passionate and curious about discovering,
         learning and understanding aspects of reality and the forms it can take.
 
@@ -51,8 +51,14 @@ What do I want to do in the future? Over the years, I have explored various fiel
 </template>
 
 <script>
-export default {
-  name: "About-Me",
+  export default {
+    name: "About-Me",
+    computed: {
+      age() {
+        const currentYear = new Date().getFullYear();
+        return currentYear - 2001;
+      }
+    }
 }
 </script>
 

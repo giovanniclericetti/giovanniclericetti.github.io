@@ -10,7 +10,7 @@
 
       <Project-Intro
         title="AC Milan"
-        subtitle="Production of sponsorship presentations and visual assets for Club’s visual language"
+        subtitle="Production of sponsorship presentations and visual graphics for Club’s visual language"
         pill1="Visual"
         pill2="Branding"
         pill3="Sport Production"
@@ -44,10 +44,13 @@
 
       <div class="text-center m-4 p-3">
         <p>This material is confidential. <br>Get in touch to learn more.</p>
+
+
         <a href="mailto:giovanni.clericetti@gmail.com" class="m-3 custom-outline-btn px-4 py-2 rounded-pill d-inline-block text-decoration-none">
           <p class="text-decoration-none"> Contact me </p>
         </a>
-      </div>
+
+        </div>
 
       <b-row>
         <b-col cols="12" md="7">
@@ -65,7 +68,7 @@
 
 
           <h4 class="mt-4 mt-md-0"> Tools </h4>
-          <p> Keynote, PowerPoint, Figma, Figma Slide, Photoshop, Illustrator, Midjourney, Grok, OpenAI, Asana </p>
+          <p> Keynote, PowerPoint, Figma, Figma Slide, Photoshop, Illustrator, Midjourney, OpenAI, Asana </p>
 
           <div class="mt-md-5 mt-4">
             <a href="          https://www.linkedin.com/posts/activity-7207066977016754177-HIoz?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGmc5MBRFlV2ZhxOY7sTc3zelk5nsUZlMk

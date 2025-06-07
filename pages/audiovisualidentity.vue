@@ -18,8 +18,7 @@
 
       <Project-Intro
         title="Audiovisual Identity"
-        subtitle="Editorial project of an indie independent magazine for
-social change to chronicle the lives of health workers"
+        subtitle="Master’s thesis project exploring audiovisual identity and design strategies in the television industry"
         pill1="Editorial"
         pill2="Visual"
         pill3="Branding"
@@ -51,17 +50,41 @@ social change to chronicle the lives of health workers"
 
       </div>
 
-      <ProjectDescription
-        description="
-According to the vocabulary, Referto is a clinical document written by a doctor, putting his or her perspective on the patient and the disease on paper. Similarly, REFERTO magazine is the story of healthcare at its most genuine, human and emotional state, delivered directly from the hands of those who dedicate themselves to protecting our health every day. For this project, the first issue of the magazine has been created, focusing on Soccorso (First Aid), with subsequent issues planned on Hospitalisation, Surgery and Prognosis, each with its own unique cover design. The design of this indie magazine for social change evolved from the research phase, which included collecting photographic material, researching sources, producing interviews and writing articles. The REFERTO brand was established, with choices of color, paper and typography tailored to the content being communicated.
 
-"        team="S. Bonfanti, A. Burchiani, E. Ceriani, T. Prinetti"
-        role="Brand Identity, Visual, Editorial Layout"
-        delivery="Editorial Design Lab, 2023"
-        class="my-md-3"
-      >
+      <b-row class="mt-md-4">
 
-      </ProjectDescription>
+        <b-col cols="12" md="7">
+
+          <h4> Project Overview </h4>
+          <p>
+
+            Audiovisual Identity is my Master's thesis project in Communication Design at Politecnico di Milano. The work consists of three main project outputs: an editorial paper, an open-source digital platform and a presentation designed both for the final discussion and for teaching purposes. In the current context, in which the television landscape is increasingly saturated and fragmented, videography asserts itself as a strategic language for the construction of recognisable brands. The audiovisual identity thus becomes a powerful tool to strengthen the recognisability and communicative coherence of programmes, channels and platforms. Through a path of theoretical and design research, this thesis analyses the historical and stylistic evolution of videography in Italy, investigating the role of graphic elements, animations and visual codes in defining the identity of audiovisual contents. Interviews with industry professionals (Mirko Pajè, Andrea Chinese, Roberto Bagatti, Umberto Tolino and Florencia Picco) offered crucial insights, confirming the centrality of videography in television branding processes.
+
+
+          </p>
+
+          <slot name="link2">
+          </slot>
+
+
+        </b-col>
+
+        <b-col cols="12" md="5" class="pl-5">
+
+
+          <h4 class="mt-4 mt-md-0"> Supervisor </h4>
+          <p> Francesco Ermanno Guida </p>
+
+          <h4 class="mt-4 "> Role </h4>
+          <p> Research Writing, Brand Identity, Visual, UX-UI, Keynote Presentation, Editorial, Coding </p>
+
+          <h4 class="mt-4 "> Delivery </h4>
+          <p> Research-Based Design Project </p>
+
+
+
+        </b-col>
+      </b-row>
 
       <div>
 
@@ -80,11 +103,11 @@ According to the vocabulary, Referto is a clinical document written by a doctor,
 
         <ProjectDescription2
 
-          title="Ricerca e Impaginato"
+          title="Editorial Design"
 
           description="
-The magazine has 260 pages and is bound in Swiss binding with a fold-out flap. All content is divided into five chapters: '1. The Call', '2. The Wait', '3. The Survey', '4. The Rescue' and '5. The Transport'. Each contains the four sections of interviews, articles, reports and diaries to effectively convey the content. There is also a photo insert in the center of the mag. "
-
+The thesis was conceived as an editorial project capable of synthesising the results of the research in an accessible, visually curated form consistent with the theme addressed. A visual identity was designed for the project, based on shades of blue and white, to enhance the contents and highlight the television brands analysed.
+"
         /> </b-col>
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
@@ -132,12 +155,11 @@ The magazine has 260 pages and is bound in Swiss binding with a fold-out flap. A
 
           <ProjectDescription2
 
-            title="Piattaforma Web"
+            title="Web Platform"
 
             description="
-The magazine has 260 pages and is bound in Swiss binding with a fold-out flap. All content is divided into five chapters: '1. The Call', '2. The Wait', '3. The Survey', '4. The Rescue' and '5. The Transport'. Each contains the four sections of interviews, articles, reports and diaries to effectively convey the content. There is also a photo insert in the center of the mag. "
-
-          /> </b-col>
+Complementing the thesis was Audiovisual Identity Hub, an open-source digital platform designed as a dynamic space to explore videography and television design. The project is not configured as a simple archive, but as an interactive environment in which theory and practice, research and visual testimonies can dialogue. The site is made up of five types of pages, each dedicated to a specific aspect, but an integral part of a single narrative: the introductory landing page, the documentation section, the gallery with the taxonomy of case studies, the detailed pages of the individual case studies and, finally, an About page that reveals the concept and intent of the project.
+         " /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
@@ -189,9 +211,8 @@ The magazine has 260 pages and is bound in Swiss binding with a fold-out flap. A
             title="Presentation"
 
             description="
-The magazine has 260 pages and is bound in Swiss binding with a fold-out flap. All content is divided into five chapters: '1. The Call', '2. The Wait', '3. The Survey', '4. The Rescue' and '5. The Transport'. Each contains the four sections of interviews, articles, reports and diaries to effectively convey the content. There is also a photo insert in the center of the mag. "
-
-          /> </b-col>
+The last project step involved the creation of a presentation for the graduation speech, which was later adapted as teaching material. The presentation is designed to be a useful tool for lecturers and researchers: a deck of slides and topic sheets that can be reused in the classroom, in laboratories or in training contexts such as the master's course in which I was an assistant.
+         " /> </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
