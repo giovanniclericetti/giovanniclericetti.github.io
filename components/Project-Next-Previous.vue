@@ -15,7 +15,7 @@
 
       <div class="d-flex justify-content-center mt-2 mt-md-0">
 
-    <div class="nextcard bg-warning">
+    <div class="nextcard">
 
       <NuxtLink :to="to">
 

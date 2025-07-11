@@ -10,7 +10,7 @@
 
       <Project-Intro
         title="AC Milan"
-        subtitle="Production of sponsorship presentations and visual graphics for Club’s visual language"
+        subtitle="Production of sponsorship presentations and graphic assets for Club’s visual language"
         pill1="Visual"
         pill2="Branding"
         pill3="Sport Production"
@@ -92,17 +92,16 @@
 
 
       <ProjectNextPrevious
-        title="AC Milan"
-        thumbnail="/images/covers/next/cc-next.jpg
-"
-        class="column card-large biowhite carachioggia"
-        to="acmilan"
-        pill1="UX-UI"
-        pill2="Visual"
+        thumbnail="/images/covers/next/avi-next.svg"
+        class="column card-large biowhite avi"
+        to="audiovisualidentity"
+        pill1="Thesis"
+        pill2="Editorial"
         pill3="Branding"
-        nextproject="Cara Chioggia ti scrivo"
-        bionext="Digital experience of letters to relive fishing places in Chioggia"
+        nextproject="Audiovisual Identity"
+        bionext="Research thesis focused on design and branding in the TV industry"
       />
+
 
 
     </div>
@@ -116,7 +115,9 @@
 
 <script>
 export default {
-  name: 'audiovisual-identity',
+  name: 'ac-milan',
+
+
 }
 
 

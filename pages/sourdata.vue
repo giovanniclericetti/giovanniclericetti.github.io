@@ -2,6 +2,16 @@
 
   <div class="sourdata">
 
+    <b-progress
+      :value="progress"
+      :max="100"
+      :height="barHeight"
+      :style="computedStyle"
+      class="fixed-top custom-bar"
+      :striped="striped"
+      :animated="animated"
+    ></b-progress>
+
     <div class="container mt-4">
 
       <ProjectHeader/>
@@ -234,14 +244,48 @@ All the collection devices were physically were made through 3D printing after b
 
 <script>
 export default {
-  name: 'it-back',
-}
+  name: 'sour-data',
+  data() {
+    return {
+      progress: 0,
+      barHeight: '4px',                  // Altezza della barra
+      bgColor: 'rgba(0, 175, 250, 0)',  // Sfondo della barra (rosso con opacità 20%)
+      barColor: '#FF5881',              // Colore della barra
+      borderRadius: '0px',               // Bordo arrotondato della barra
+    };
+  },
+  computed: {
+    computedStyle() {
+      return {
+        backgroundColor: this.bgColor,
+        borderRadius: this.borderRadius,
+      };
+    },
+  },
+  mounted() {
+    window.addEventListener('scroll', this.updateProgress, { passive: true });
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.updateProgress);
+  },
+  methods: {
+    updateProgress() {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      this.progress = (scrollTop / docHeight) * 100;
+    },
+  },
+};
 
 
 </script>
 
 
 <style>
+
+.sourdata .progress-bar {
+  background-color: #FF5881 !important;
+}
 
 .sourdata .subtitle {
   max-width: 90%;

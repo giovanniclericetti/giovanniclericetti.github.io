@@ -164,8 +164,8 @@ export default {
           class: 'column card-medium biowhite',
           to: "audiovisualidentity",
           pill1: 'Thesis',
-          pill2: 'Branding',
-          pill3: 'UX-UI',
+          pill2: 'Editorial',
+          pill3: 'Branding',
         },
 
         milan: {

@@ -19,8 +19,8 @@
       <Project-Intro
         title="Audiovisual Identity"
         subtitle="Master’s thesis project exploring audiovisual identity and design strategies in the television industry"
-        pill1="Editorial"
-        pill2="Visual"
+        pill1="Thesis"
+        pill2="Editorial"
         pill3="Branding"
 
       />
@@ -227,16 +227,14 @@ The last project step involved the creation of a presentation for the graduation
       </b-row>
 
       <ProjectNextPrevious
-        title="Cara Chioggia"
-        thumbnail="/images/covers/next/cc-next.jpg
-"
-        class="column card-large biowhite carachioggia"
-        to="carachioggia"
-        pill1="UX-UI"
-        pill2="Visual"
-        pill3="Branding"
-        nextproject="Cara Chioggia ti scrivo"
-        bionext="Digital experience of letters to relive fishing places in Chioggia"
+        thumbnail="/images/covers/next/sd-next.jpg"
+        class="column card-large biowhite sourdata"
+        to="sourdata"
+        pill1="Interaction"
+        pill2="Branding"
+        pill3="UX-UI"
+        nextproject="SourData"
+        bionext="Product-service system to make money from user's personal data"
       />
 
 
@@ -294,7 +292,7 @@ export default {
   z-index: 1031;
 }
 
-.progress-bar {
+.avi .progress-bar {
   background-color: rgba(0, 175, 250) !important;
 }
 
