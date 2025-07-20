@@ -32,7 +32,6 @@ subdescription="My Short Story" description="My first real taste of the design w
 
 During my tenure at the university in Bovisa, I was surprised by my own attraction to the design style that I had learned, developed, and made my own, to the point that I now apply it to everything. It is an essential part of my everyday way of living. On numerous occasions, I have engaged in the creative process of designing t-shirts, creating graphics, developing personalized stickers, curating Instagram pages, branding holiday trips and programming websites, all for the purpose of fun and enjoyment with my friends.
 
-What do I want to do in the future? Over the years, I have explored various fields within the design world. However I believe the area that fascinates me the most is digital and interactive design, particularly related to user experience.
 "
 
       class=""/>
