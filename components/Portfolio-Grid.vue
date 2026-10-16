@@ -6,14 +6,14 @@
 
     </div>
 
-    <b-row ref="projectsContainer" class="d-md-flex d-none" :style="{minHeight: containerHeight + 'px'}" >
+    <b-row class="d-md-flex d-none" >
 
 
       <b-col cols="12" md="12" lg="4">
 
         <PortfolioCard
           v-bind="projects.milan"
-          class="referto"
+          class="acmilan"
         />
 
         <PortfolioCard
@@ -25,30 +25,6 @@
         <PortfolioCard
           v-bind="projects.previewpretest"
           class="previewpretest"
-        />
-
-        <PortfolioCard
-          v-bind="projects.quattriny"
-          class="quattriny"
-        />
-
-      </b-col>
-
-      <b-col cols="12" md="12" lg="4">
-
-        <PortfolioCard
-          v-bind="projects.sourdata"
-          class="sourdata"
-        />
-
-        <PortfolioCard
-          class="carachioggia"
-          v-bind="projects.carachioggia"
-        />
-
-        <PortfolioCard
-          v-bind="projects.itback"
-          class="it-back"
         />
 
       </b-col>
@@ -65,6 +41,25 @@
           class="bottleneck"
         />
 
+        <PortfolioCard
+          class="carachioggia"
+          v-bind="projects.carachioggia"
+        />
+
+      </b-col>
+
+      <b-col cols="12" md="12" lg="4">
+
+        <PortfolioCard
+          v-bind="projects.sourdata"
+          class="sourdata"
+        />
+
+        <PortfolioCard
+          v-bind="projects.avi"
+          class="avi"
+        />
+
 
         <PortfolioCard
           v-bind="projects.referto"
@@ -74,11 +69,6 @@
 
 
 
-        <PortfolioCard
-          v-bind="projects.aura"
-          class="aura"
-        />
-
       </b-col>
 
 
@@ -87,13 +77,28 @@
 
 
 
-    <b-row ref="projectsContainer" class="d-md-none d-block"  :style="{minHeight: containerHeight + 'px'}">
+    <b-row class="d-md-none d-block" >
 
       <b-col cols="12" md="6">
 
         <PortfolioCard
+          v-bind="projects.milan"
+          class="acmilan"
+        />
+
+        <PortfolioCard
+          v-bind="projects.avi"
+          class="avi"
+        />
+
+        <PortfolioCard
           v-bind="projects.sourdata"
           class="sourdata"
+        />
+
+        <PortfolioCard
+          v-bind="projects.avi"
+          class="avi"
         />
 
         <PortfolioCard
@@ -119,21 +124,6 @@
         <PortfolioCard
           v-bind="projects.previewpretest"
           class="previewpretest"
-        />
-
-        <PortfolioCard
-          v-bind="projects.itback"
-          class="it-back"
-        />
-
-        <PortfolioCard
-          v-bind="projects.aura"
-          class="aura"
-        />
-
-        <PortfolioCard
-          v-bind="projects.quattriny"
-          class="quattriny"
         />
 
 
@@ -151,14 +141,13 @@ export default {
   name: "PortfolioGrid",
   data() {
     return {
-      containerHeight: 0,
       projects: {
 
         avi: {
           title: 'Audiovisual Identity',
           projectname: 'Audiovisual Identity',
-          thumbnail: '/images/covers/cards/avi-card.jpg',
-          mobileThumbnail: '/images/covers/cards-sm/itback_sm.jpg',
+          thumbnail: '/images/covers/cards/avi-card-v2.jpg',
+          mobileThumbnail: '/images/covers/cards-sm/avi_sm.jpg',
           bio: 'Research thesis focused on brand strategy and design in the TV industry',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
           class: 'column card-medium biowhite',
@@ -171,8 +160,8 @@ export default {
         milan: {
           title: 'AC Milan',
           projectname: 'AC Milan',
-          thumbnail: '/images/covers/cards/milan-card.jpg',
-          mobileThumbnail: '/images/covers/cards-sm/itback_sm.jpg',
+          thumbnail: '/images/covers/cards/milan-card-v2.jpg',
+          mobileThumbnail: '/images/covers/cards-sm/milan_sm.jpg',
           bio: 'Production of presentations and visual assets for the Club and its partners',
           category: ['confidential', 'visual', 'branding', 'graphic'],
           class: 'column card-large biowhite',
@@ -196,19 +185,6 @@ export default {
           pill3: 'Event',
         },
 
-        itback: {
-          title: 'It-Back',
-          projectname: 'It-Back',
-          thumbnail: '/images/covers/cards/itback-card.jpg',
-          mobileThumbnail: '/images/covers/cards-sm/itback_sm.jpg',
-          bio: 'Digital experience  aimed at reviving outdated technology products',
-          category: ['coding', 'ux-ui', 'branding', 'graphic'],
-          class: 'column card-large biowhite',
-          to: "it-back",
-          pill1: 'Visual',
-          pill2: 'UX-UI',
-          pill3: 'Coding',
-        },
 
         sourdata: {
           title: 'SourData',
@@ -266,19 +242,6 @@ export default {
           projectname: 'Cara Chioggia ti scrivo'
         },
 
-        quattriny: {
-          title: 'quattriny',
-          thumbnail: '/images/covers/cards/quattriny-card.jpg',
-          mobileThumbnail: '/images/covers/cards-sm/quattriny_sm.jpg',
-          bio: 'Ironic fictional-branding of a cash provider payment company',
-          category: ['branding', 'graphic'],
-          class: 'column card-small biowhite',
-          to: "quattriny",
-          pill1: 'Branding',
-          pill2: 'Copywriting',
-          pill3: 'Visual',
-          projectname: 'Quattriny'
-        },
 
         bottleneck: {
           title: 'bottleneck',
@@ -294,19 +257,6 @@ export default {
           projectname: 'Bottleneck'
         },
 
-        aura: {
-          title: 'aura',
-          thumbnail: '/images/covers/cards/aura-card.jpg',
-          mobileThumbnail: '/images/covers/cards-sm/aura_sm.jpg',
-          bio: 'Brand identity for energy company',
-          category: ['branding', 'graphic'],
-          class: 'column card-small biowhite',
-          to: "aura",
-          pill1: 'Branding',
-          pill2: 'Visual',
-          pill3: 'UI',
-          projectname: 'Aura Energy',
-        }
 
 
       },
@@ -314,10 +264,6 @@ export default {
     }
   },
   methods: {},
-  mounted() {
-    this.containerHeight = this.$refs.projectsContainer.getBoundingClientRect().height
-    console.log(this.containerHeight)
-  }
 
 }
 
