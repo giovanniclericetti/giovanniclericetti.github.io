@@ -29,7 +29,7 @@ social change to chronicle the lives of health workers"
 
 
 
-             v-prlx.background="{ speed: 0.1 }">
+             v-parallax>
       </div>
 
 
@@ -63,47 +63,47 @@ According to the vocabulary, Referto is a clinical document written by a doctor,
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
      background-image: url(/images/referto/referto1.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
         <div class="imgbox">
           <img class="img-parallax imgproject ref-3" style="
      background-image: url(/images/referto/referto3.jpg)"
-               v-prlx.background="{ speed: 0.1 }"></div>
+               v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox pb-0 mb-4">
             <img class="img-parallax imgproject h400" style="height: 350px;
      background-image: url(/images/referto/referto4.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="pt-2">
           <div class="imgbox ">
             <img class="img-parallax imgproject h600" style="height: 250px;
      background-image: url(/images/referto/referto5.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
           </div>         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/referto/referto2.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="4" class=" py-md-3 py-2 px-3 d-none d-md-block">
           <div class="imgbox pb-0 mb-4">
             <img class=" img-parallax imgproject " style="height: 250px;
      background-image: url(/images/referto/referto15.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="pt-2">
             <div class="imgbox  d-none d-md-block">
               <img class="img-parallax imgproject" style="height: 250px;
      background-image: url(/images/referto/referto16.jpg)"
-                   v-prlx.background="{ speed: 0.1 }"></div>
+                   v-parallax></div>
           </div>         </b-col>
 
           <b-col cols="12" md="8" class=" py-md-3 py-2 px-3">
@@ -135,28 +135,28 @@ The magazine has 260 pages and is bound in Swiss binding with a fold-out flap. A
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="height: 630px;
      background-image: url(/images/referto/referto6.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
      background-image: url(/images/referto/referto7.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400 ref-pc" style="
      background-image: url(/images/referto/referto11.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400" style="
      background-image: url(/images/referto/referto12.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -181,7 +181,7 @@ The magazine also has a transmedia development in its platform, where readers ca
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/referto/referto13.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
 

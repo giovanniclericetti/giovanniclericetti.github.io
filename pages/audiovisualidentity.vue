@@ -28,7 +28,7 @@
 
 
 
-             v-prlx.background="{ speed: 0.1 }">
+             v-parallax>
       </div>
 
 
@@ -86,7 +86,7 @@
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
      background-image: url(/images/avi/avi4.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -104,41 +104,41 @@ The thesis was conceived as an editorial project capable of synthesising the res
           <div class="imgbox">
             <img class="img-parallax imgproject h350 ref-pc" style="
      background-image: url(/images/avi/avi2.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h350" style="
      background-image: url(/images/avi/avi3.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
      background-image: url(/images/avi/avi7.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400 ref-pc" style="
      background-image: url(/images/avi/avi5.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400" style="
      background-image: url(/images/avi/avi6.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400" style="height: 430px;
      background-image: url(/images/avi/avi13.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -155,42 +155,42 @@ Complementing the thesis was Audiovisual Identity Hub, an open-source digital pl
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
      background-image: url(/images/avi/avi8.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400" style="
      background-image: url(/images/avi/avi9.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400" style="
      background-image: url(/images/avi/avi10.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
      background-image: url(/images/avi/avi15.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400" style="
      background-image: url(/images/avi/avi12.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400" style="
      background-image: url(/images/avi/avi16.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
 
@@ -208,7 +208,7 @@ The last project step involved the creation of a presentation for the graduation
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="height: 630px;
      background-image: url(/images/avi/avi14.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
 

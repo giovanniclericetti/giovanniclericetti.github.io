@@ -1,5 +1,5 @@
 <template>
-  <div class="projectbox" v-prlx.background="{ speed: 9 }">
+  <div class="projectbox">
     <img :src="img" alt="Project Image">
   </div>
 
@@ -8,14 +8,11 @@
 </template>
 
 <script>
-import { VuePrlxDirective } from 'vue-prlx';
+
 
 export default {
   name: "Project-SingleImage",
   props: ['img'],
-  directives: {
-    prlx: VuePrlxDirective,
-  },
 }
 </script>
 

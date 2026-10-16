@@ -31,7 +31,7 @@
 
         <img class="cover-parallax" style="
      background-image: url(/images/covers/hero/sourdata.jpg)"
-             v-prlx.background="{ speed: 0.1 }">
+             v-parallax>
       </div>
 
 
@@ -72,7 +72,7 @@ SourData was born from a reflection on personal data and privacy, as a company t
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
      background-image: url(/images/sourdata/sourdata_2.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -89,7 +89,7 @@ SourData was born from a reflection on personal data and privacy, as a company t
           <div class="imgbox">
             <img class="img-parallax imgproject h400" style="
      background-image: url(/images/sourdata/sourdata_4.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -107,7 +107,7 @@ SourData was developed in every aspect, from the creation of the most general br
         <div class="imgbox">
           <img class="img-parallax imgproject h500" style="
      background-image: url(/images/sourdata/sourdata_5.png)"
-               v-prlx.background="{ speed: 0.1 }"></div>
+               v-parallax></div>
         </b-col>
 
 
@@ -115,14 +115,14 @@ SourData was developed in every aspect, from the creation of the most general br
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/sourdata/sourdata_6.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400" style="
      background-image: url(/images/sourdata/sourdata_9.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -136,21 +136,21 @@ The core of the SourData experience are the gestures, each one  carrying meaning
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/sourdata/sourdata_3.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/sourdata/sourdata_11.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/sourdata/sourdata_10.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -170,21 +170,21 @@ The core of the SourData experience are the gestures, each one  carrying meaning
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/sourdata/sourdata_7.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="8" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/sourdata/sourdata_8.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
      background-image: url(/images/sourdata/sourdata_12.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
 

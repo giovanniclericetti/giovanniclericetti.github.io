@@ -20,7 +20,7 @@
 
         <img class="cover-parallax" style="
      background-image: url(/images//covers/hero/itback.jpg)"
-             v-prlx.background="{ speed: 0.1 }">
+             v-parallax>
       </div>
 
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
@@ -60,14 +60,14 @@
           <div class="imgbox">
             <img class="img-parallax imgproject h500 small-dis" style="
      background-image: url(/images/it-back/itback6.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3 d-block d-md-none">
           <div class="imgbox">
             <img class="img-parallax imgproject h500 small-dis" style="
      background-image: url(/images/it-back/itback6-sm.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -75,7 +75,7 @@
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
      background-image: url(/images/it-back/itback1.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -92,7 +92,7 @@ It continues with the website, where this path of curiosity and recognition of t
         <div class="imgbox">
           <img class="img-parallax imgproject h600" style="
      background-image: url(/images/it-back/itback2.jpg)"
-               v-prlx.background="{ speed: 0.2 }"></div>
+               v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -109,7 +109,7 @@ The objects presented on the web platform are four, like the sections of the sit
           <div class="imgbox">
             <img class="img-parallax imgproject h400" style="
      background-image: url(/images/it-back/itback3.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
 
@@ -119,28 +119,28 @@ The objects presented on the web platform are four, like the sections of the sit
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/it-back/itback4.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/it-back/itback5.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
      background-image: url(/images/it-back/itback8.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400" style="
      background-image: url(/images/it-back/itback7.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
 

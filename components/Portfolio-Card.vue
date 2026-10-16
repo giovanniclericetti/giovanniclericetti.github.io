@@ -16,6 +16,8 @@
 
         </div>
 
+        <WorkInProgress v-if="workInProgress"/>
+
         <b-row class="bio mx-1 my-2">
 
           <b-col cols="12" md="10" class=""><h4 class="titlemob" style="color: var(--color-secondary);">  {{ projectname }} </h4></b-col>
@@ -39,6 +41,7 @@
 export default {
   name: "PortfolioCard",
   props: {
+    workInProgress: Boolean,
     title: String,
     thumbnail: String,
     mobileThumbnail: String,
@@ -66,7 +69,7 @@ h6{
   font-family: 'DM Sans';
   font-weight: 400;
   font-size: 14px;
-  color:var(--color-success)}
+  color:var(--color-primary)}
 
 .projectcard {
   border-radius: 30px;
@@ -153,10 +156,6 @@ h6{
 
   .card-small {
     height: 200px;
-  }
-
-  .sourdata {
-      --color-success: #FF5880;
   }
 
   .card-medium {

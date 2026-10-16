@@ -17,14 +17,14 @@
         />
 
         <PortfolioCard
-          class="disruptive"
-          v-bind="projects.disruptive"
+          class="acmilan3"
+          v-bind="projects.milan3"
         />
 
 
         <PortfolioCard
-          v-bind="projects.previewpretest"
-          class="previewpretest"
+          v-bind="projects.carachioggia"
+          class="carachioggia"
         />
 
       </b-col>
@@ -32,18 +32,23 @@
       <b-col cols="12" md="12" lg="4">
 
         <PortfolioCard
-          v-bind="projects.avi"
-          class="avi"
+          v-bind="projects.milan2"
+          class="acmilan2"
         />
 
         <PortfolioCard
-          v-bind="projects.bottleneck"
-          class="bottleneck"
+          v-bind="projects.disruptive"
+          class="disruptive"
         />
 
         <PortfolioCard
-          class="carachioggia"
-          v-bind="projects.carachioggia"
+          v-bind="projects.referto"
+          class="referto"
+        />
+
+        <PortfolioCard
+          class="previewpretest"
+          v-bind="projects.previewpretest"
         />
 
       </b-col>
@@ -62,8 +67,8 @@
 
 
         <PortfolioCard
-          v-bind="projects.referto"
-          class="referto"
+          v-bind="projects.bottleneck"
+          class="bottleneck"
         />
 
 
@@ -87,8 +92,8 @@
         />
 
         <PortfolioCard
-          v-bind="projects.avi"
-          class="avi"
+          v-bind="projects.milan2"
+          class="acmilan2"
         />
 
         <PortfolioCard
@@ -112,18 +117,23 @@
         />
 
         <PortfolioCard
+          v-bind="projects.milan3"
+          class="acmilan3"
+        />
+
+        <PortfolioCard
           class="disruptive"
           v-bind="projects.disruptive"
         />
 
         <PortfolioCard
-          class="carachioggia"
-          v-bind="projects.carachioggia"
+          class="previewpretest"
+          v-bind="projects.previewpretest"
         />
 
         <PortfolioCard
-          v-bind="projects.previewpretest"
-          class="previewpretest"
+          v-bind="projects.carachioggia"
+          class="carachioggia"
         />
 
 
@@ -142,6 +152,36 @@ export default {
   data() {
     return {
       projects: {
+
+        milan3: {
+          title: 'AC Milan 3',
+          projectname: 'AC Milan 3',
+          thumbnail: '/images/covers/cards/referto-card.jpg',
+          mobileThumbnail: '/images/covers/cards-sm/referto_sm.jpg',
+          bio: 'Work in progress',
+          class: 'column card-large biodark md-biowhite',
+          to: "acmilan3",
+          workInProgress: true,
+          pill1: 'Visual',
+          pill2: 'Branding',
+          pill3: 'Sport Prod',
+        },
+
+
+        milan2: {
+          title: 'AC Milan 2',
+          projectname: 'AC Milan 2',
+          thumbnail: '/images/covers/cards/avi-card-v2.jpg',
+          mobileThumbnail: '/images/covers/cards-sm/avi_sm.jpg',
+          bio: 'Work in progress',
+          class: 'column card-medium biowhite',
+          to: "acmilan2",
+          workInProgress: true,
+          pill1: 'Visual',
+          pill2: 'Branding',
+          pill3: 'Sport Prod',
+        },
+
 
         avi: {
           title: 'Audiovisual Identity',

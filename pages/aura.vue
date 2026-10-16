@@ -20,7 +20,7 @@
 
 
      background-image: url(/images/covers/hero/aura_cover.jpg)"
-             v-prlx.background="{ speed: 0.1 }">
+             v-parallax>
       </div>
 
 
@@ -54,7 +54,7 @@ Aura is a fictional, cutting-edge energy company that harnesses energy from the 
           <div class="imgbox d-md-block d-none">
             <img class="img-parallax imgproject h400" style="
      background-image: url(/images/aura/aura0.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
 
@@ -70,49 +70,49 @@ For the presentation, some brand guidelines cards have been created showing the 
           <div class=" imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/aura1.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
 
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/aura11.svg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/aura13.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/aura14.svg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/aura7.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/aura8.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/aura17.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/aura18.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 md-4 pt-2">
             <img class="img-parallax imgproject auracard" style="height: 450px;
      background-image: url(/images/aura/aura19.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <ProjectDescription2
 
@@ -128,52 +128,52 @@ Once the guidelines had been defined, the brand was applied to test its scalabil
           <div class="imgbox pb-0 mb-4 pt-2 pt-md-0">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/aura2.svg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/aura3.svg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/aura12.svg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/aura4.svg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/aura5.svg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/aura6.svg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/aura16.svg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/aura15.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/aura9.svg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-0 pt-2">
             <img class="img-parallax imgproject" style="height: 330px;
      background-image: url(/images/aura/aura20.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
 
 
@@ -198,7 +198,7 @@ Once the guidelines had been defined, the brand was applied to test its scalabil
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="height: 400px;
      background-image: url(/images/aura/sm-aura1.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <ProjectDescription2
 
@@ -213,42 +213,42 @@ For the presentation, some brand guidelines cards have been created showing the 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/sm-aura2b.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/sm-aura3.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/sm-aura4.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/sm-aura5.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/sm-aura6.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/sm7-aura.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/sm-aura8.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/sm-aura9.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <ProjectDescription2
 
@@ -262,27 +262,27 @@ For the presentation, some brand guidelines cards have been created showing the 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/sm-aura10.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/sm-aura11.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/sm-aura12.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/sm-aura13.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
             <img class="img-parallax imgproject auracard" style="
      background-image: url(/images/aura/sm-aura14.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
 
 
         </b-col>
@@ -295,7 +295,7 @@ For the presentation, some brand guidelines cards have been created showing the 
           <div class="imgbox">
           <img class="img-parallax imgproject" style="
      background-image: url(/images/aura/aura21.png)"
-               v-prlx.background="{ speed: 0.1 }"></div>
+               v-parallax></div>
         </b-col>
 
 
