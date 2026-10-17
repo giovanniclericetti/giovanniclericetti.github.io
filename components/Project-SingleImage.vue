@@ -1,6 +1,6 @@
 <template>
   <div class="projectbox">
-    <img :src="img" alt="Project Image">
+    <img :src="img" alt="Project Image" loading="lazy" decoding="async">
   </div>
 
 
@@ -32,7 +32,8 @@ export default {
 
 @media (max-width: 768px) {
   .projectbox img {
-    height: 100%;
+    width: 100%;
+    height: auto;
     object-fit: contain;
   }
 

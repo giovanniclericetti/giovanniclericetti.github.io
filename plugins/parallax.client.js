@@ -11,13 +11,19 @@ function schedule() {
   if (!frame) frame = window.requestAnimationFrame(render)
 }
 
+function scheduleScroll() {
+  if (!motionQuery.matches && window.innerWidth >= 768) schedule()
+}
+
 function render() {
   frame = 0
   const viewport = window.innerHeight
   const enabled = !motionQuery.matches && window.innerWidth >= 768
   entries.forEach((entry, el) => {
     const { width, height, top } = el.getBoundingClientRect()
-    if (!width || !height || !entry.image.naturalWidth) return
+    if (!width || !height) return
+    loadImage(el)
+    if (!entry.image.naturalWidth) return
 
     const travel = enabled ? TRAVEL : 0
     // Reserve enough image above and below the frame even for wide photographs.
@@ -40,6 +46,7 @@ function render() {
 
 function loadImage(el) {
   const entry = entries.get(el)
+  if (!el.getClientRects().length) return
   const background = window.getComputedStyle(el).backgroundImage
   if (entry.background === background) return
   entry.background = background
@@ -56,7 +63,7 @@ Vue.directive('parallax', {
     if (!entries.size) {
       motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)')
       motionQuery.addEventListener('change', schedule)
-      window.addEventListener('scroll', schedule, { passive: true })
+      window.addEventListener('scroll', scheduleScroll, { passive: true })
       window.addEventListener('resize', schedule)
       resizeObserver = new ResizeObserver(schedule)
     }
@@ -84,7 +91,7 @@ Vue.directive('parallax', {
     if (!entries.size) {
       resizeObserver.disconnect()
       motionQuery.removeEventListener('change', schedule)
-      window.removeEventListener('scroll', schedule)
+      window.removeEventListener('scroll', scheduleScroll)
       window.removeEventListener('resize', schedule)
       window.cancelAnimationFrame(frame)
       frame = 0

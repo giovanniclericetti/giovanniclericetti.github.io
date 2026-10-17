@@ -29,6 +29,7 @@ export default {
   },
   methods: {
     updateProgress() {
+      if (window.innerWidth < 992) return
       const height = document.documentElement.scrollHeight - window.innerHeight
       this.progress = height > 0
         ? Math.min(1, Math.max(0, window.scrollY / height))
@@ -55,6 +56,12 @@ export default {
   background-color: var(--color-primary, #FF5881);
   transform-origin: left;
   transition: transform 0.6s ease;
+}
+
+@media (max-width: 991.98px) {
+  .project-scroll-progress {
+    display: none;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

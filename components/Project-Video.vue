@@ -2,6 +2,7 @@
   <div class="projectbox">
     <b-embed
       type="iframe"
+      loading="lazy"
       aspect="16by9"
       :src="video"
       allowfullscreen

@@ -6,7 +6,7 @@
 
     </div>
 
-    <b-row class="d-md-flex d-none" >
+    <b-row class="d-lg-flex d-none" >
 
 
       <b-col cols="12" md="12" lg="4">
@@ -82,56 +82,76 @@
 
 
 
-    <b-row class="d-md-none d-block" >
+    <b-row class="d-lg-none d-block" >
 
-      <b-col cols="12" md="6">
+      <b-col cols="12" class="compact-project-grid">
 
-        <PortfolioCard
+        <PortfolioCard mobile-layout
           v-bind="projects.milan"
           class="acmilan"
         />
 
-        <PortfolioCard
+        <PortfolioCard mobile-layout
           v-bind="projects.milan2"
           class="acmilan2"
         />
 
-        <PortfolioCard
+        <PortfolioCard mobile-layout
           v-bind="projects.sourdata"
-          class="sourdata"
+          class="sourdata d-md-none"
         />
 
-        <PortfolioCard
+        <PortfolioCard mobile-layout
+          v-bind="projects.milan3"
+          class="acmilan3 d-none d-md-block"
+        />
+
+        <PortfolioCard mobile-layout
           v-bind="projects.avi"
           class="avi"
         />
 
-        <PortfolioCard
+        <PortfolioCard mobile-layout
           v-bind="projects.bottleneck"
           class="bottleneck"
         />
 
-        <PortfolioCard
+        <PortfolioCard mobile-layout
           v-bind="projects.referto"
-          class="referto"
+          class="referto d-md-none"
         />
 
-        <PortfolioCard
+        <PortfolioCard mobile-layout
+          v-bind="projects.disruptive"
+          class="disruptive d-none d-md-block"
+        />
+
+        <PortfolioCard mobile-layout
           v-bind="projects.milan3"
-          class="acmilan3"
+          class="acmilan3 d-md-none"
         />
 
-        <PortfolioCard
-          class="disruptive"
+        <PortfolioCard mobile-layout
+          v-bind="projects.sourdata"
+          class="sourdata d-none d-md-block"
+        />
+
+        <PortfolioCard mobile-layout
+          class="disruptive d-md-none"
           v-bind="projects.disruptive"
         />
 
-        <PortfolioCard
+        <PortfolioCard mobile-layout
+          v-bind="projects.referto"
+          class="referto d-none d-md-block"
+        />
+
+        <PortfolioCard mobile-layout
           class="previewpretest"
           v-bind="projects.previewpretest"
         />
 
-        <PortfolioCard
+        <PortfolioCard mobile-layout
           v-bind="projects.carachioggia"
           class="carachioggia"
         />
@@ -313,6 +333,20 @@ export default {
 
 <style scoped lang="scss">
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .compact-project-grid {
+    column-count: 2;
+    column-gap: 30px;
+  }
+
+  .compact-project-grid > .projectcard {
+    min-width: 0;
+    break-inside: avoid;
+    margin-bottom: 30px;
+  }
+}
+
+
 
 .slider {
   background-color: #ECE9E9;
@@ -356,7 +390,7 @@ h6{
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
 
 .btn {
   padding-left: 9px;
@@ -367,8 +401,10 @@ h6{
     font-size: 14px;
   }
 
-  .md-biowhite{
-    --color-secondary: white;
+  @media (max-width: 767.98px) {
+    .md-biowhite{
+      --color-secondary: white;
+    }
   }
 
 

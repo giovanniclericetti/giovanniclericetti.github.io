@@ -2,16 +2,16 @@
 
     <div class=" projectcard" >
 
-      <NuxtLink :to="to">
+      <NuxtLink :to="to" class="projectcard-link">
 
         <div class="card-background">
 
-        <img class=" imgproject d-none d-md-block"
+        <img v-if="!mobileLayout" class="imgproject" alt="" aria-hidden="true"
              :style="{ backgroundImage: 'url(' + thumbnail + ')' }"
-             v-prlx.background="{ speed: 0.04 }"/>
+             v-prlx.background="{ speed: 0.04, mobileMaxWidth: 992, disabled: parallaxDisabled }"/>
 
-          <img class="imgproject imgmobile d-md-none"
-               :style="{ backgroundImage: 'url(' + mobileThumbnail + ')' }"
+          <img v-else class="imgproject imgmobile" alt="" aria-hidden="true"
+               :style="{ '--card-mobile-cover': 'url(' + mobileThumbnail + ')', '--card-desktop-cover': 'url(' + thumbnail + ')' }"
                />
 
         </div>
@@ -25,7 +25,7 @@
             <p2 style="color: var(--color-secondary)"> {{ bio }} </p2>
           </b-col>
 
-          <b-col cols="12" md="10" class="">
+          <b-col cols="12" md="10" class="card-tags">
             <b-badge pill class="pillshome mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ pill1 }}</b-badge>
             <b-badge pill class="pillshome mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ pill2 }}</b-badge>
             <b-badge pill class="pillshome terzapill mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ pill3 }}</b-badge>
@@ -40,7 +40,25 @@
 <script>
 export default {
   name: "PortfolioCard",
+  data() {
+    return { parallaxDisabled: true }
+  },
+  mounted() {
+    if (this.mobileLayout) return
+    this.parallaxQuery = window.matchMedia('(min-width: 992px) and (prefers-reduced-motion: no-preference)')
+    this.updateParallax()
+    this.parallaxQuery.addEventListener('change', this.updateParallax)
+  },
+  beforeDestroy() {
+    if (this.parallaxQuery) this.parallaxQuery.removeEventListener('change', this.updateParallax)
+  },
+  methods: {
+    updateParallax() {
+      this.parallaxDisabled = !this.parallaxQuery.matches
+    },
+  },
   props: {
+    mobileLayout: Boolean,
     workInProgress: Boolean,
     title: String,
     thumbnail: String,
@@ -94,8 +112,10 @@ h6{
     }
   }
 
+  @media (hover: hover) and (pointer: fine) {
   &:hover .card-background {
     transform: scale(1.05); /* Aggiunto qui */
+  }
   }
 }
 
@@ -141,6 +161,7 @@ h6{
 }
 
 .imgmobile{
+  background-image: var(--card-mobile-cover);
 
   background-position: center;
   background-repeat: no-repeat;
@@ -148,46 +169,65 @@ h6{
 
 }
 
-@media (max-width: 768px) {
-
-  .card-extrasmall {
-    height: 200px;
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .imgmobile {
+    background-image: var(--card-desktop-cover);
+    background-position: center top;
   }
+}
 
-  .card-small {
-    height: 200px;
-  }
-
-  .card-medium {
-    height: 250px;
-  }
-
-  .card-large {
-    height: 250px;
-  }
-
-  .card-extralarge {
+@media (max-width: 767.98px) {
+  .projectcard {
     height: 300px;
   }
 
-  .card-extraextralarge {
-    height: 300px;
+  .card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 0;
+    /* One badge line: 14px text + .5rem padding + 1rem margins. */
+    max-height: calc(14px + 1.5rem);
+    overflow: hidden;
   }
 
+  .card-tags .pillshome {
+    flex: 0 0 auto;
+    line-height: 1;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 991.98px) {
   .projectcard {
     margin-bottom: 16px;
     border-radius: 30px;
   }
 
   .titlemob{
-    line-height: 50%;
+    line-height: 1.2;
   }
 
-  .md-biowhite{
-    --color-secondary: white;
+  @media (max-width: 767.98px) {
+    .md-biowhite{
+      --color-secondary: white;
+    }
   }
 
 }
 
 
+
+.projectcard-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.projectcard-link:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: -4px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .projectcard, .projectcard .card-background { transition: none; }
+  .projectcard:hover .card-background { transform: scale(1.01); }
+}
 </style>

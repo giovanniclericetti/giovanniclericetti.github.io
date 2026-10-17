@@ -109,7 +109,7 @@ According to the vocabulary, Referto is a clinical document written by a doctor,
           <b-col cols="12" md="8" class=" py-md-3 py-2 px-3">
 
             <div style="overflow: hidden" class="p-0 m-0 projectbox d-flex ref-video justify-content-center align-items-center">
-              <video autoplay loop muted style="width: 100%;">
+              <video playsinline autoplay loop muted style="width: 100%;">
                 <source src="/images/referto/referto_gif.mp4" type="video/mp4">
                 Il tuo browser non supporta il tag video.
               </video>
@@ -170,7 +170,7 @@ The magazine also has a transmedia development in its platform, where readers ca
 
           <div style="padding:56.25% 0 0 0;position:relative;" class="projectbox">
 
-            <iframe src="https://player.vimeo.com/video/892686972?h=af631d4405&title=0&byline=0&portrait=0"
+            <iframe loading="lazy" src="https://player.vimeo.com/video/892686972?h=af631d4405&title=0&byline=0&portrait=0"
                     style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
 
           <script src="https://player.vimeo.com/api/player.js"></script>

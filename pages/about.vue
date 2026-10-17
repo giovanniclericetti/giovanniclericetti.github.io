@@ -6,12 +6,12 @@
 
     <About-Header/>
 
-    <div class="mt-5 py-md-5 py-2">
+    <div class="mt-5 py-lg-5 py-2">
 
       <h2 class="titleindex">
 
         My name is <span class="name gradient"> Giovanni</span>.
-        I'm {{ age }} years old and I come from Milan. <br>
+        I'm {{ age }} years old and I come from Milan.
         I'm passionate and curious about discovering,
         learning and understanding aspects of reality and the forms it can take.
 
@@ -23,6 +23,8 @@
     <AboutPhoto
       class="d-md-none"
     />
+
+    <AboutTablet class="d-none d-md-block d-lg-none" />
 
     <About-Box class="d-lg-block d-none" />
 
@@ -36,8 +38,8 @@ During my tenure at the university in Bovisa, I was surprised by my own attracti
 
       class=""/>
 
-    <About-CV class="d-none d-md-block"/>
-    <About-CV-Accordion class="d-md-none d-block"/>
+    <About-CV class="d-none d-lg-block"/>
+    <About-CV-Accordion class="d-lg-none d-block"/>
 
 
 
@@ -69,6 +71,16 @@ During my tenure at the university in Bovisa, I was surprised by my own attracti
 
 .about {
   --color-primary: #FF6A68;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .about .titleindex {
+    width: 91.666667%;
+    font-size: 24px;
+    line-height: 140%;
+  }
+
+  .name { font-size: 30px; }
 }
 
 @media (max-width: 768px) {

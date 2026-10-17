@@ -59,7 +59,7 @@
 
         </b-col>
 
-        <b-col cols="12" md="5" class="pl-5">
+        <b-col cols="12" md="5" class="pl-md-5">
 
 
           <h4 class="mt-4 mt-md-0"> Supervisor </h4>

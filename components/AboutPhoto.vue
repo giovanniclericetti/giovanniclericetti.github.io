@@ -23,7 +23,7 @@
 
 
       <b-col cols="" class=" p-0">
-        <div class="socialboxsm bg-white justify-content-center d-flex align-items-center" style="height: 100%"> <a style="width: 75%" href="https://t.me/giovanniclericetti" target="_blank"> <img src="~static/images/aboutme/checklinkedin.svg"/> </a> </div>
+        <div class="socialboxsm bg-white justify-content-center d-flex align-items-center" style="height: 100%"> <a style="width: 75%" href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank"> <img src="~static/images/aboutme/checklinkedin.svg"/> </a> </div>
       </b-col>
 
     </b-row>
@@ -34,7 +34,7 @@
 
       <b-col cols="8" class=" p-0">
 
-          <div class="boxcvmobile bggradient" style="height: 130px;" >
+          <a href="/documents/giovanniclericetti.pdf" target="_blank" rel="noopener" class="boxcvmobile bggradient d-block" style="height: 130px; text-decoration: none;" >
 
             <div class=" text-white d-flex justify-content-center align-items-center pt-3" style="height: 50%">
               <h4 style="font-size: 24px; color: white">My Resume</h4>
@@ -45,12 +45,12 @@
               <img ref="cvImage" src="~static/images/aboutme/cvbox.png" />
 
             </div>
-          </div>
+          </a>
 
       </b-col>
 
       <b-col cols="4" class="p-0" style="height: 130px;">
-        <div class="ml-3 d-flex justify-content-center align-items-center bg-white pt-2" style="text-align: center; height: 130px; overflow: hidden; border-radius: 20px;"> <a href="https://t.me/giovanniclericetti" target="_blank" > <img style="width: 85%" src="~static/images/aboutme/letswork.svg" /> </a> </div>
+        <div class="ml-3 d-flex justify-content-center align-items-center bg-white pt-2" style="text-align: center; height: 130px; overflow: hidden; border-radius: 25px;"> <a href="https://t.me/giovanniclericetti" target="_blank" > <img style="width: 85%" src="~static/images/aboutme/letswork.svg" /> </a> </div>
       </b-col>
 
     </b-row>
@@ -65,7 +65,7 @@
 <script>
 export default {
   name: "AboutPhoto",
-  props: "aboutphoto",
+  props: ["aboutphoto"],
 }
 </script>
 
@@ -78,6 +78,7 @@ export default {
 }
 
 .aboutmephoto img{
+  width: 100%;
   height: 100%;
   object-fit: cover;
 }
