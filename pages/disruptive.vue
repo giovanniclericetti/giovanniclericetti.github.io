@@ -26,7 +26,7 @@
 
 
 
-             v-prlx.background="{ speed: 0.1 }">
+             v-parallax>
       </div>
 
 
@@ -70,35 +70,35 @@ Visual and digital design became the narrative tool to bring an immersive experi
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
      background-image: url(/images/disruptive/disruptive1.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3">
         <div class="imgbox">
           <img class="img-parallax imgproject h400" style="
      background-image: url(/images/disruptive/disruptive2.jpg)"
-               v-prlx.background="{ speed: 0.1 }"></div>
+               v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/disruptive/disruptive3.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400 small-dis" style="
      background-image: url(/images/disruptive/disruptive4.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400 small-dis" style="
      background-image: url(/images/disruptive/disruptive5.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -117,14 +117,14 @@ After a careful analysis of the digital exhibition sector, a card-based navigati
           <div class="imgbox">
             <img class="img-parallax imgproject h400" style="
      background-image: url(/images/disruptive/disruptive6.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
      background-image: url(/images/disruptive/disruptive7.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -140,27 +140,27 @@ The exhibition was then brought into the physical space of the 2021 Rimini Meeti
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
      background-image: url(/images/disruptive/disruptive8.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="7" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/disruptive/disruptive10.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="5" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/disruptive/disruptive9.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <div style="padding:56.25% 0 0 0;position:relative;" class="projectbox">
-            <iframe src="https://player.vimeo.com/video/578387348?h=d40c4360c5&title=0&byline=0&portrait=0"
+            <iframe loading="lazy" src="https://player.vimeo.com/video/578387348?h=d40c4360c5&title=0&byline=0&portrait=0"
                     style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
 
           <script src="https://player.vimeo.com/api/player.js"></script>

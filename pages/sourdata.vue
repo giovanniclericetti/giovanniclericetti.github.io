@@ -2,16 +2,6 @@
 
   <div class="sourdata">
 
-    <b-progress
-      :value="progress"
-      :max="100"
-      :height="barHeight"
-      :style="computedStyle"
-      class="fixed-top custom-bar"
-      :striped="striped"
-      :animated="animated"
-    ></b-progress>
-
     <div class="container mt-4">
 
       <ProjectHeader/>
@@ -41,7 +31,7 @@
 
         <img class="cover-parallax" style="
      background-image: url(/images/covers/hero/sourdata.jpg)"
-             v-prlx.background="{ speed: 0.1 }">
+             v-parallax>
       </div>
 
 
@@ -82,13 +72,13 @@ SourData was born from a reflection on personal data and privacy, as a company t
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
      background-image: url(/images/sourdata/sourdata_2.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <div style="padding:56.25% 0 0 0;position:relative;" class="projectbox">
-            <iframe src="https://player.vimeo.com/video/728646170?h=c26dc4bb98&title=0&byline=0&portrait=0"
+            <iframe loading="lazy" src="https://player.vimeo.com/video/728646170?h=c26dc4bb98&title=0&byline=0&portrait=0"
                     style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
 
           <script src="https://player.vimeo.com/api/player.js"></script>
@@ -99,7 +89,7 @@ SourData was born from a reflection on personal data and privacy, as a company t
           <div class="imgbox">
             <img class="img-parallax imgproject h400" style="
      background-image: url(/images/sourdata/sourdata_4.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -117,7 +107,7 @@ SourData was developed in every aspect, from the creation of the most general br
         <div class="imgbox">
           <img class="img-parallax imgproject h500" style="
      background-image: url(/images/sourdata/sourdata_5.png)"
-               v-prlx.background="{ speed: 0.1 }"></div>
+               v-parallax></div>
         </b-col>
 
 
@@ -125,14 +115,14 @@ SourData was developed in every aspect, from the creation of the most general br
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/sourdata/sourdata_6.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400" style="
      background-image: url(/images/sourdata/sourdata_9.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -146,28 +136,28 @@ The core of the SourData experience are the gestures, each one  carrying meaning
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/sourdata/sourdata_3.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/sourdata/sourdata_11.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/sourdata/sourdata_10.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <div style="padding:56.25% 0 0 0;position:relative;" class="projectbox">
 
-            <iframe src="https://player.vimeo.com/video/753126993?h=81c5baeaa7&title=0&byline=0&portrait=0"
+            <iframe loading="lazy" src="https://player.vimeo.com/video/753126993?h=81c5baeaa7&title=0&byline=0&portrait=0"
                     style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
 
           <script src="https://player.vimeo.com/api/player.js"></script>
@@ -180,21 +170,21 @@ The core of the SourData experience are the gestures, each one  carrying meaning
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/sourdata/sourdata_7.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="8" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/sourdata/sourdata_8.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
      background-image: url(/images/sourdata/sourdata_12.png)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
 
@@ -209,7 +199,7 @@ All the collection devices were physically were made through 3D printing after b
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <div style="padding:56.25% 0 0 0;position:relative;" class="projectbox">
-            <iframe src="https://player.vimeo.com/video/728645150?h=1e9d32eb71&title=0&byline=0&portrait=0"
+            <iframe loading="lazy" src="https://player.vimeo.com/video/728645150?h=1e9d32eb71&title=0&byline=0&portrait=0"
                     style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
 
           <script src="https://player.vimeo.com/api/player.js"></script>
@@ -245,36 +235,7 @@ All the collection devices were physically were made through 3D printing after b
 <script>
 export default {
   name: 'sour-data',
-  data() {
-    return {
-      progress: 0,
-      barHeight: '4px',                  // Altezza della barra
-      bgColor: 'rgba(0, 175, 250, 0)',  // Sfondo della barra (rosso con opacità 20%)
-      barColor: '#FF5881',              // Colore della barra
-      borderRadius: '0px',               // Bordo arrotondato della barra
-    };
-  },
-  computed: {
-    computedStyle() {
-      return {
-        backgroundColor: this.bgColor,
-        borderRadius: this.borderRadius,
-      };
-    },
-  },
-  mounted() {
-    window.addEventListener('scroll', this.updateProgress, { passive: true });
-  },
-  beforeDestroy() {
-    window.removeEventListener('scroll', this.updateProgress);
-  },
-  methods: {
-    updateProgress() {
-      const scrollTop = window.scrollY;
-      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-      this.progress = (scrollTop / docHeight) * 100;
-    },
-  },
+
 };
 
 
@@ -283,9 +244,6 @@ export default {
 
 <style>
 
-.sourdata .progress-bar {
-  background-color: #FF5881 !important;
-}
 
 .sourdata .subtitle {
   max-width: 90%;

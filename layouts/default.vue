@@ -101,6 +101,14 @@ p2 {
   --color-success: #e0071b;
 }
 
+.acmilan2 {
+  --color-primary: #e0071b;
+}
+
+.acmilan3 {
+  --color-primary: #e0071b;
+}
+
 
 .avi {
   --color-primary: #00AFFA;

@@ -30,7 +30,7 @@
 
 
 
-             v-prlx.background="{ speed: 0.1 }">
+             v-parallax>
       </div>
 
 

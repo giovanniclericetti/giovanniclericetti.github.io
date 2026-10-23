@@ -1,23 +1,20 @@
 <template>
 
-  <div class="container-fluid footer justify-content-center pt-5 pb-md-5 ">
+  <div class="container-fluid footer justify-content-center pt-5 pb-lg-5 ">
 
-    <b-row class="text-center flex-column-reverse flex-md-row mx-md-5 mt-md-3">
+    <b-row class="text-center flex-column-reverse flex-lg-row mx-lg-5 mt-lg-3">
 
-      <b-col cols="md-auto 12" class="p-md-0 d-md-block mt-4 mt-md-0 pt-2 pt-md-0" > <h5 class="text-center copyright"> @ Giovanni Clericetti Portfolio, 2024 </h5> </b-col>
+      <b-col cols="12" lg="auto" class="p-lg-0 d-lg-block mt-4 mt-lg-0 pt-2 pt-lg-0" > <h5 class="text-center copyright"> Designed &amp; Coded by Giovanni Clericetti, 2026 </h5> </b-col>
       <b-col >  </b-col>
-      <b-col cols="md-auto 12" class="d-flex px-0 justify-content-center" >
+      <b-col cols="12" lg="auto" class="d-flex flex-wrap px-0 justify-content-center" >
 
-        <a href="mailto:giovanni.clericetti@gmail.com" class="mx-md-3 mx-3"><h5 class=" p-md-0 d-md-block social hover-underline-animation">Mail</h5>
+        <a href="mailto:giovanni.clericetti@gmail.com" class="mx-lg-3 mx-3"><h5 class=" p-lg-0 d-lg-block social hover-underline-animation">Mail</h5>
          </a>
 
-        <a href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank" class="mx-md-3 mx-3"><h5 class="social d-md-block  hover-underline-animation">Linkedin</h5>
+        <a href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank" class="mx-lg-3 mx-3"><h5 class="social d-lg-block  hover-underline-animation">Linkedin</h5>
           </a>
 
-        <a href="https://t.me/giovanniclericetti" target="_blank" class="mx-md-3 mx-3"><h5 class=" d-md-block social hover-underline-animation">Telegram</h5>
-          </a>
-
-        <a href="https://www.instagram.com/giovanniclericetti.png/" target="_blank" class="mx-md-3 mx-3 d-md-block d-none"><h5 class="social  p-md-0 hover-underline-animation">Instagram</h5>
+        <a href="https://www.instagram.com/giovanniclericetti.png/" target="_blank" class="mx-lg-3 mx-3"><h5 class="social  p-lg-0 hover-underline-animation">Instagram</h5>
           </a>
 
       </b-col>
@@ -60,7 +57,9 @@ a:hover {
   color: #000;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
+.footer a { min-height: 44px; display: inline-flex; align-items: center; }
+
 .copyright{
   opacity: 0.5;
   font-size: 16px;

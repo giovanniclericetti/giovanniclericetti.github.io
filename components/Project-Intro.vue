@@ -44,7 +44,7 @@ export default {
   font-size: 14px;
   color:white}
 
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
 
   .subtitle {
     max-width: 100vw;
@@ -52,7 +52,9 @@ export default {
   }
 
   .titoloprog{
-    line-height: 50px;
+    font-size: clamp(36px, 10vw, 52px);
+    line-height: 1.05;
+    overflow-wrap: anywhere;
     padding-top: 5px;
   }
 }

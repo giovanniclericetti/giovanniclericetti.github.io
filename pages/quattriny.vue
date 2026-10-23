@@ -23,7 +23,7 @@
 
      background-image: url(/images/covers/hero/quattriny_cover.jpg)"
 
-             v-prlx.background="{ speed: 0.1 }">
+             v-parallax>
       </div>
 
 
@@ -58,20 +58,20 @@ The core of the project is the ironic and friendly tone with which Quattriny bra
           <div class="imgbox">
             <img class="img-parallax imgproject h600 small-quattriny" style="
      background-image: url(/images/quattriny/quattriny1.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
         <div class="imgbox">
           <img class="img-parallax imgproject h400" style="
      background-image: url(/images/quattriny/quattriny2.jpg)"
-               v-prlx.background="{ speed: 0.2 }"></div>
+               v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <div style="padding:56.25% 0 0 0;position:relative;" class="projectbox">
-            <iframe src="https://player.vimeo.com/video/844620983?h=5c4fbc5cc3&title=0&byline=0&portrait=0"
+            <iframe loading="lazy" src="https://player.vimeo.com/video/844620983?h=5c4fbc5cc3&title=0&byline=0&portrait=0"
                     style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
 
           <script src="https://player.vimeo.com/api/player.js"></script>
@@ -94,20 +94,20 @@ The ironic tone of voice is evident in the launch campaign. The phrases on the p
           <div class="imgbox">
             <img class="img-parallax imgproject h500 extrasmall-quattriny" style="
      background-image: url(/images/quattriny/quattriny3.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
      background-image: url(/images/quattriny/quattriny4.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="8" class="d-md-block d-none py-md-3 py-2 px-3">
 
           <div style="overflow: hidden" class="p-0 m-0 projectbox d-flex justify-content-center align-items-center">
-            <video autoplay loop muted style="width: 100%;">
+            <video playsinline autoplay loop muted style="width: 100%;">
               <source src="/images/quattriny/quattrinymockup.mp4" type="video/mp4">
               Il tuo browser non supporta il tag video.
             </video>
@@ -118,7 +118,7 @@ The ironic tone of voice is evident in the launch campaign. The phrases on the p
           <div class="imgbox">
             <img class="img-parallax imgproject " style="height: 410px;
      background-image: url(/images/quattriny/quattriny5.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -135,13 +135,13 @@ Quattriny's identity is also structured in other applications. There is the webs
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
      background-image: url(/images/quattriny/quattriny6.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <div style="padding:53.97% 0 0 0;position:relative;" class="projectbox">
-            <iframe src="https://player.vimeo.com/video/916666621?h=0059ae9a19&autoplay=1&loop=1&title=0&byline=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            <iframe loading="lazy" src="https://player.vimeo.com/video/916666621?h=0059ae9a19&autoplay=1&loop=1&title=0&byline=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
         </b-col>
 
@@ -149,7 +149,7 @@ Quattriny's identity is also structured in other applications. There is the webs
           <div class="imgbox">
             <img class="img-parallax imgproject h700" style="
      background-image: url(/images/quattriny/quattriny7.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
 

@@ -21,7 +21,7 @@
 
      background-image: url(/images/covers/hero/carachioggia.jpg)"
 
-             v-prlx.background="{ speed: 0.1 }">
+             v-parallax>
       </div>
 
 
@@ -55,14 +55,14 @@ Cara Chioggia Ti Scrivo responds to the creation of an innovative hybrid artifac
             <img class="imgproject h400 " style="
      background-image: url(/images/carachioggia/carachioggia1b.svg);
 "
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="7" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400 small-quattriny" style="
      background-image: url(/images/carachioggia/carachioggia1.svg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
 
@@ -71,7 +71,7 @@ Cara Chioggia Ti Scrivo responds to the creation of an innovative hybrid artifac
           <div class="imgbox">
             <img class="img-parallax imgproject h600 small-quattriny" id="cc-fotopc" style="
      background-image: url(/images/carachioggia/carachioggia2.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -87,7 +87,7 @@ The new perspective on the village of Chioggia is centered on the online platfor
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <div style="padding:56.25% 0 0 0;position:relative;" class="projectbox">
-            <iframe src="https://player.vimeo.com/video/902889846?h=3c0d8ace14&title=0&byline=0&portrait=0"
+            <iframe loading="lazy" src="https://player.vimeo.com/video/902889846?h=3c0d8ace14&title=0&byline=0&portrait=0"
                     style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
 
           <script src="https://player.vimeo.com/api/player.js"></script>
@@ -98,28 +98,28 @@ The new perspective on the village of Chioggia is centered on the online platfor
           <div class="imgbox ">
             <img class="small-chioggia img-parallax imgproject h400 " style="
      background-image: url(/images/carachioggia/carachioggia5.svg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600 small-quattriny" style="
      background-image: url(/images/carachioggia/carachioggia6.jpg);"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500 small-quattriny" style="
      background-image: url(/images/carachioggia/carachioggia7.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600 small-quattriny" style="
      background-image: url(/images/carachioggia/carachioggia8.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -135,42 +135,42 @@ All the content has been developed through meticulous research into the territor
           <div class="imgbox">
             <img class="small-chioggia img-parallax imgproject h500 small-quattriny" style="
      background-image: url(/images/carachioggia/carachioggia9.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="small-chioggia img-parallax imgproject h600 small-quattriny" style="
      background-image: url(/images/carachioggia/carachioggia10.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400 " style="height: 350px;
      background-image: url(/images/carachioggia/carachioggia11.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="small-chioggia img-parallax imgproject h500 " style="
      background-image: url(/images/carachioggia/carachioggia12.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400 " style="
      background-image: url(/images/carachioggia/carachioggia13.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h400 " style="
      background-image: url(/images/carachioggia/carachioggia14.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -186,21 +186,21 @@ Supporting artifacts have been designed to complete the experience. The communic
           <div class="imgbox">
             <img class="img-parallax imgproject h500 " style="
      background-image: url(/images/carachioggia/carachioggia15.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600 " style="
      background-image: url(/images/carachioggia/carachioggia17.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h600 " style="
      background-image: url(/images/carachioggia/carachioggia18.jpg)"
-                 v-prlx.background="{ speed: 0.2 }"></div>
+                 v-parallax></div>
         </b-col>
 
       </b-row>

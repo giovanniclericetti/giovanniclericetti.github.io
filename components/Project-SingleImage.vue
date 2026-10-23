@@ -1,6 +1,6 @@
 <template>
-  <div class="projectbox" v-prlx.background="{ speed: 9 }">
-    <img :src="img" alt="Project Image">
+  <div class="projectbox">
+    <img :src="img" alt="Project Image" loading="lazy" decoding="async">
   </div>
 
 
@@ -8,14 +8,11 @@
 </template>
 
 <script>
-import { VuePrlxDirective } from 'vue-prlx';
+
 
 export default {
   name: "Project-SingleImage",
   props: ['img'],
-  directives: {
-    prlx: VuePrlxDirective,
-  },
 }
 </script>
 
@@ -35,7 +32,8 @@ export default {
 
 @media (max-width: 768px) {
   .projectbox img {
-    height: 100%;
+    width: 100%;
+    height: auto;
     object-fit: contain;
   }
 

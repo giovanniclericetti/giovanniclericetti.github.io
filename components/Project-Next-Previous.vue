@@ -17,10 +17,10 @@
 
     <div class="nextcard">
 
-      <NuxtLink :to="to">
+      <NuxtLink :to="to" :aria-label="nextproject">
 
         <div class="card-background row justify-content-center" >
-          <img :src="thumbnail" class=""/>
+          <img :src="thumbnail" alt="" loading="lazy" decoding="async"/>
         </div>
 
       </NuxtLink>
@@ -28,9 +28,9 @@
       <b-row align-v="end" class=" p-0 m-0 pb-1 mb-2" style="position: absolute; bottom: 0px; width: 100%;">
 
         <b-col cols="12" md="6" class="text-left ">
-          <NuxtLink to="/" class="">
+          <NuxtLink :to="to" class="">
 <div class="d-flex align-items-center">
-            <b-icon icon="arrow-up-right-circle-fill" style="width: 38px; height: 38px; color: white; opacity: 0.8" />
+            <b-icon icon="arrow-up-right-circle-fill" style="flex-shrink: 0; width: 38px; height: 38px; color: white; opacity: 0.8" />
 
             <p2 class="px-2" style="text-decoration: none; color: white; line-height: 120%; opacity: 0.9"> {{bionext}} </p2>
 

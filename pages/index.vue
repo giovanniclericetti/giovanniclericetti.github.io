@@ -6,7 +6,7 @@
 
   <IndexHeader></IndexHeader>
 
-  <div class="mt-5 py-md-5 py-2">
+  <div class="mt-5 py-lg-5 py-2">
 
     <h2 class="titleindex"> Hey! I'm Giovanni, an Italian <span class="name gradient"> visual and
       experience designer </span> based in Milan. After graduating in Communication Design at <a class="hover-a-underline-animation"
@@ -82,6 +82,17 @@ a:hover {
   color: black;
 }
 
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .index .titleindex {
+    width: 90%;
+    font-size: 24px;
+  }
+
+  .index .name {
+    font-size: 30px;
+  }
+}
 
 @media (max-width: 768px) {
 

@@ -18,7 +18,7 @@
 
         <img class="cover-parallax" style="
      background-image: url(/images//covers/hero/bottleneck.jpg)"
-             v-prlx.background="{ speed: 0.1 }">
+             v-parallax>
       </div>
 
 
@@ -58,13 +58,13 @@ The project is based on the problem of notification overload for people working 
           <div class="imgbox">
             <img class="img-parallax imgproject h600" style="
      background-image: url(/images/bottleneck/bottleneck1.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <div style="padding:56.25% 0 0 0;position:relative;" class="projectbox">
-            <iframe src="https://player.vimeo.com/video/838849711?h=3e45c03c7b&title=0&byline=0&portrait=0"
+            <iframe loading="lazy" src="https://player.vimeo.com/video/838849711?h=3e45c03c7b&title=0&byline=0&portrait=0"
                     style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
 
           <script src="https://player.vimeo.com/api/player.js"></script>
@@ -87,28 +87,28 @@ The project began with careful research into how notifications are perceived in 
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/bottleneck/bottleneck2.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="4" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/bottleneck/bottleneck3.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/bottleneck/bottleneck5.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/bottleneck/bottleneck6.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12">
@@ -124,7 +124,7 @@ Available as a desktop and mobile application, the service manages notifications
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <div style="overflow: hidden" class="bot-video p-0 m-0 projectbox d-flex justify-content-center align-items-center">
-            <video autoplay loop muted style="width: 100%;">
+            <video playsinline autoplay loop muted style="width: 100%;">
               <source src="/images/bottleneck/feature1.mp4" type="video/mp4">
             </video>
           </div>
@@ -134,7 +134,7 @@ Available as a desktop and mobile application, the service manages notifications
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
 
           <div style="overflow: hidden" class=" p-0 m-0 projectbox d-flex  justify-content-center align-items-center">
-            <video autoplay loop muted style="width: 100%;">
+            <video playsinline autoplay loop muted style="width: 100%;">
               <source src="/images/bottleneck/feature3.mp4" type="video/mp4">
             </video>
           </div>
@@ -144,7 +144,7 @@ Available as a desktop and mobile application, the service manages notifications
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
 
           <div style="overflow: hidden" class=" p-0 m-0 projectbox d-flex  justify-content-center align-items-center">
-            <video autoplay loop muted style="width: 100%;">
+            <video playsinline autoplay loop muted style="width: 100%;">
               <source src="/images/bottleneck/feature2.mp4" type="video/mp4">
             </video>
           </div>
@@ -166,7 +166,7 @@ A complete design system for the Bottleneck brand was created for the platform, 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <div style="overflow: hidden" class="bot-video p-0 m-0 projectbox d-flex justify-content-center align-items-center">
-            <video id="myVideo" autoplay loop muted style="width: 100%;">
+            <video id="myVideo" playsinline autoplay loop muted style="width: 100%;">
               <source src="/images/bottleneck/designsystem.mp4" type="video/mp4">
             </video>
           </div>
@@ -177,21 +177,21 @@ A complete design system for the Bottleneck brand was created for the platform, 
           <div class="imgbox">
             <img class="img-parallax imgproject " style="height: 250px;
      background-image: url(/images/bottleneck/bottleneck4.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject " style="
      background-image: url(/images/bottleneck/bottleneck4.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
             <img class="img-parallax imgproject h500" style="
      background-image: url(/images/bottleneck/bottleneck10.jpg)"
-                 v-prlx.background="{ speed: 0.1 }"></div>
+                 v-parallax></div>
         </b-col>
 
 

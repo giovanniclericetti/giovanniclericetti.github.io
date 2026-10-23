@@ -1,8 +1,5 @@
-// plugins/vue-prlx.js
+import Vue from 'vue'
+import VuePrlx from 'vue-prlx'
 
-import Vue from 'vue';
-import VuePrlx from 'vue-prlx';
-
-
-Vue.use(VuePrlx);
-
+// Preserve the original parallax used by the homepage cards.
+Vue.use(VuePrlx)

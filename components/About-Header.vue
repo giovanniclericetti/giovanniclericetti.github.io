@@ -31,4 +31,8 @@ a{
 }
 
 
+
+@media (max-width: 991.98px), (pointer: coarse) {
+  a { display: inline-flex; min-width: 44px; min-height: 44px; align-items: center; }
+}
 </style>

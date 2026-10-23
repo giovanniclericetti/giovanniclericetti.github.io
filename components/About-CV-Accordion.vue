@@ -5,20 +5,19 @@
     <div class="accordion lineacc pt-4" role="tablist">
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
-          <b-row block v-b-toggle.accordion-1 class="text-left d-flex cardaccordion justify-spa" >
+          <b-row tag="button" type="button" v-b-toggle.accordion-1 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
             <b-col class=""> <h4 class="gradient"> Education </h4> </b-col>
             <b-col class="text-right mr-2 ">
 
-              <b-icon :icon="accordion1.isCollapsed ? 'chevron-down' : 'chevron-up'"
+              <b-icon :icon="!opened.accordion1 ? 'chevron-down' : 'chevron-up'"
                       variant="thick"
                       font-scale="2"
-                      style="color: #FF4466"
-                      @click="toggleAccordion('accordion1')" />
+                      style="color: #FF4466" />
             </b-col>
           </b-row>
         </b-card-header>
 
-        <b-collapse id="accordion-1" class="cardaccordion pb-4" accordion="">
+        <b-collapse v-model="opened.accordion1" id="accordion-1" class="cardaccordion pb-4" accordion="">
           <b-card-body >
 
             <AboutCvElement category="2022 - ongoing" class="mt-0">
@@ -72,20 +71,19 @@
     <div class="accordion lineacc pt-4" role="tablist">
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
-          <b-row block v-b-toggle.accordion-2 class="text-left d-flex cardaccordion justify-spa" >
+          <b-row tag="button" type="button" v-b-toggle.accordion-2 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
             <b-col cols="auto" class=""> <h4 class="gradient"> Exhibition & Awards </h4> </b-col>
             <b-col class="text-right mr-2 ">
 
-              <b-icon :icon="accordion2.isCollapsed ? 'chevron-down' : 'chevron-up'"
+              <b-icon :icon="!opened.accordion2 ? 'chevron-down' : 'chevron-up'"
                       variant="thick"
                       font-scale="2"
-                      style="color: #FF4466"
-                      @click="toggleAccordion('accordion2')" />
+                      style="color: #FF4466" />
             </b-col>
           </b-row>
         </b-card-header>
 
-        <b-collapse id="accordion-2" class="cardaccordion pb-4" accordion="">
+        <b-collapse v-model="opened.accordion2" id="accordion-2" class="cardaccordion pb-4" accordion="">
           <b-card-body >
 
             <AboutCvElement category="2023, La Stecca 3 (Milan) " class="mt-3">
@@ -120,20 +118,19 @@
     <div class="accordion lineacc pt-4" role="tablist">
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
-          <b-row block v-b-toggle.accordion-2 class="text-left d-flex cardaccordion justify-spa" >
+          <b-row tag="button" type="button" v-b-toggle.accordion-6 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
             <b-col cols="auto" class=""> <h4 class="gradient"> Work Experience </h4> </b-col>
             <b-col class="text-right mr-2 ">
 
-              <b-icon :icon="accordion2.isCollapsed ? 'chevron-down' : 'chevron-up'"
+              <b-icon :icon="!opened.accordion6 ? 'chevron-down' : 'chevron-up'"
                       variant="thick"
                       font-scale="2"
-                      style="color: #FF4466"
-                      @click="toggleAccordion('accordion2')" />
+                      style="color: #FF4466" />
             </b-col>
           </b-row>
         </b-card-header>
 
-        <b-collapse id="accordion-2" class="cardaccordion pb-4" accordion="">
+        <b-collapse v-model="opened.accordion6" id="accordion-6" class="cardaccordion pb-4" accordion="">
           <b-card-body >
 
             <AboutCvElement category="2023" class="mt-0">
@@ -196,20 +193,19 @@
     <div class="accordion lineacc pt-4" role="tablist">
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
-          <b-row block v-b-toggle.accordion-3 class="text-left d-flex cardaccordion justify-spa" >
+          <b-row tag="button" type="button" v-b-toggle.accordion-3 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
             <b-col cols="auto" class=""> <h4 class="gradient"> Social Initiatives </h4> </b-col>
             <b-col class="text-right mr-2 ">
 
-              <b-icon :icon="accordion3.isCollapsed ? 'chevron-down' : 'chevron-up'"
+              <b-icon :icon="!opened.accordion3 ? 'chevron-down' : 'chevron-up'"
                       variant="thick"
                       font-scale="2"
-                      style="color: #FF4466"
-                      @click="toggleAccordion('accordion3')" />
+                      style="color: #FF4466" />
             </b-col>
           </b-row>
         </b-card-header>
 
-        <b-collapse id="accordion-3" class="cardaccordion pb-4" accordion="">
+        <b-collapse v-model="opened.accordion3" id="accordion-3" class="cardaccordion pb-4" accordion="">
           <b-card-body >
 
             <AboutCvElement category="University Politics" class="mt-0">
@@ -241,20 +237,19 @@
     <div class="accordion lineacc pt-4" role="tablist">
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
-          <b-row block v-b-toggle.accordion-4 class="text-left d-flex cardaccordion justify-spa" >
+          <b-row tag="button" type="button" v-b-toggle.accordion-4 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
             <b-col cols="auto" class=""> <h4 class="gradient"> Languages </h4> </b-col>
             <b-col class="text-right mr-2 ">
 
-              <b-icon :icon="accordion4.isCollapsed ? 'chevron-down' : 'chevron-up'"
+              <b-icon :icon="!opened.accordion4 ? 'chevron-down' : 'chevron-up'"
                       variant="thick"
                       font-scale="2"
-                      style="color: #FF4466"
-                      @click="toggleAccordion('accordion4')" />
+                      style="color: #FF4466" />
             </b-col>
           </b-row>
         </b-card-header>
 
-        <b-collapse id="accordion-4" class="cardaccordion pb-4" accordion="">
+        <b-collapse v-model="opened.accordion4" id="accordion-4" class="cardaccordion pb-4" accordion="">
           <b-card-body >
 
             <AboutCvElement class="mt-0"
@@ -297,20 +292,19 @@
     <div class="accordion lineacc lineaccsott  pt-4" role="tablist">
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
-          <b-row block v-b-toggle.accordion-5 class="text-left d-flex cardaccordion justify-spa" >
+          <b-row tag="button" type="button" v-b-toggle.accordion-5 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
             <b-col cols="auto" class=""> <h4 class="gradient"> Software </h4> </b-col>
             <b-col class="text-right mr-2 ">
 
-              <b-icon :icon="accordion5.isCollapsed ? 'chevron-down' : 'chevron-up'"
+              <b-icon :icon="!opened.accordion5 ? 'chevron-down' : 'chevron-up'"
                       variant="thick"
                       font-scale="2"
-                      style="color: #FF4466"
-                      @click="toggleAccordion('accordion5')" />
+                      style="color: #FF4466" />
             </b-col>
           </b-row>
         </b-card-header>
 
-        <b-collapse id="accordion-5" class="cardaccordion pb-4" accordion="">
+        <b-collapse v-model="opened.accordion5" id="accordion-5" class="cardaccordion pb-4" accordion="">
           <b-card-body >
 
             <AboutCvElement class="mt-0"
@@ -375,22 +369,20 @@ export default {
   props: ['team', 'text'],
   data() {
     return {
-      accordion1: { isCollapsed: true },
-      accordion2: { isCollapsed: true },
-      accordion3: { isCollapsed: true },
-      accordion4: { isCollapsed: true },
-      accordion5: { isCollapsed: true },
-    };
-  },
-  methods: {
-    toggleAccordion(accordion) {
-      this[accordion].isCollapsed = !this[accordion].isCollapsed; // Inverti lo stato specifico dell'accordion
+      opened: {
+        accordion1: false,
+        accordion2: false,
+        accordion3: false,
+        accordion4: false,
+        accordion5: false,
+        accordion6: false,
+      },
     }
-  }
+  },
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .cardaccordion{
   background-color: #F6F2F2;
   border-style: hidden;
@@ -416,4 +408,19 @@ export default {
   text-underline-offset: 1px;
   color: black;
 }
+
+.accordion-trigger {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 44px;
+  border: 0;
+  flex-wrap: nowrap;
+  align-items: center;
+  cursor: pointer;
+}
+.accordion-trigger > :first-child { flex: 1; min-width: 0; padding-left: 0; }
+.accordion-trigger > :last-child { flex: 0 0 auto; }
+.accordion-trigger h4 { text-align: left; margin-bottom: 0; }
+.accordion-trigger:focus-visible { outline: 2px solid #FF4466; outline-offset: 4px; }
 </style>

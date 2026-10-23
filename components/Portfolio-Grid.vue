@@ -6,30 +6,49 @@
 
     </div>
 
-    <b-row ref="projectsContainer" class="d-md-flex d-none" :style="{minHeight: containerHeight + 'px'}" >
+    <b-row class="d-lg-flex d-none" >
 
 
       <b-col cols="12" md="12" lg="4">
 
         <PortfolioCard
           v-bind="projects.milan"
+          class="acmilan"
+        />
+
+        <PortfolioCard
+          class="acmilan3"
+          v-bind="projects.milan3"
+        />
+
+
+        <PortfolioCard
+          v-bind="projects.carachioggia"
+          class="carachioggia"
+        />
+
+      </b-col>
+
+      <b-col cols="12" md="12" lg="4">
+
+        <PortfolioCard
+          v-bind="projects.milan2"
+          class="acmilan2"
+        />
+
+        <PortfolioCard
+          v-bind="projects.disruptive"
+          class="disruptive"
+        />
+
+        <PortfolioCard
+          v-bind="projects.referto"
           class="referto"
         />
 
         <PortfolioCard
-          class="disruptive"
-          v-bind="projects.disruptive"
-        />
-
-
-        <PortfolioCard
-          v-bind="projects.previewpretest"
           class="previewpretest"
-        />
-
-        <PortfolioCard
-          v-bind="projects.quattriny"
-          class="quattriny"
+          v-bind="projects.previewpretest"
         />
 
       </b-col>
@@ -42,23 +61,10 @@
         />
 
         <PortfolioCard
-          class="carachioggia"
-          v-bind="projects.carachioggia"
-        />
-
-        <PortfolioCard
-          v-bind="projects.itback"
-          class="it-back"
-        />
-
-      </b-col>
-
-      <b-col cols="12" md="12" lg="4">
-
-        <PortfolioCard
           v-bind="projects.avi"
           class="avi"
         />
+
 
         <PortfolioCard
           v-bind="projects.bottleneck"
@@ -66,18 +72,7 @@
         />
 
 
-        <PortfolioCard
-          v-bind="projects.referto"
-          class="referto"
-        />
 
-
-
-
-        <PortfolioCard
-          v-bind="projects.aura"
-          class="aura"
-        />
 
       </b-col>
 
@@ -87,53 +82,78 @@
 
 
 
-    <b-row ref="projectsContainer" class="d-md-none d-block"  :style="{minHeight: containerHeight + 'px'}">
+    <b-row class="d-lg-none d-block" >
 
-      <b-col cols="12" md="6">
+      <b-col cols="12" class="compact-project-grid">
 
-        <PortfolioCard
-          v-bind="projects.sourdata"
-          class="sourdata"
+        <PortfolioCard mobile-layout
+          v-bind="projects.milan"
+          class="acmilan"
         />
 
-        <PortfolioCard
+        <PortfolioCard mobile-layout
+          v-bind="projects.milan2"
+          class="acmilan2"
+        />
+
+        <PortfolioCard mobile-layout
+          v-bind="projects.sourdata"
+          class="sourdata d-md-none"
+        />
+
+        <PortfolioCard mobile-layout
+          v-bind="projects.milan3"
+          class="acmilan3 d-none d-md-block"
+        />
+
+        <PortfolioCard mobile-layout
+          v-bind="projects.avi"
+          class="avi"
+        />
+
+        <PortfolioCard mobile-layout
           v-bind="projects.bottleneck"
           class="bottleneck"
         />
 
-        <PortfolioCard
+        <PortfolioCard mobile-layout
           v-bind="projects.referto"
-          class="referto"
+          class="referto d-md-none"
         />
 
-        <PortfolioCard
-          class="disruptive"
+        <PortfolioCard mobile-layout
+          v-bind="projects.disruptive"
+          class="disruptive d-none d-md-block"
+        />
+
+        <PortfolioCard mobile-layout
+          v-bind="projects.milan3"
+          class="acmilan3 d-md-none"
+        />
+
+        <PortfolioCard mobile-layout
+          v-bind="projects.sourdata"
+          class="sourdata d-none d-md-block"
+        />
+
+        <PortfolioCard mobile-layout
+          class="disruptive d-md-none"
           v-bind="projects.disruptive"
         />
 
-        <PortfolioCard
-          class="carachioggia"
-          v-bind="projects.carachioggia"
+        <PortfolioCard mobile-layout
+          v-bind="projects.referto"
+          class="referto d-none d-md-block"
         />
 
-        <PortfolioCard
-          v-bind="projects.previewpretest"
+        <PortfolioCard mobile-layout
           class="previewpretest"
+          v-bind="projects.previewpretest"
         />
 
-        <PortfolioCard
-          v-bind="projects.itback"
-          class="it-back"
-        />
-
-        <PortfolioCard
-          v-bind="projects.aura"
-          class="aura"
-        />
-
-        <PortfolioCard
-          v-bind="projects.quattriny"
-          class="quattriny"
+        <PortfolioCard mobile-layout
+          v-bind="projects.carachioggia"
+          class="carachioggia"
         />
 
 
@@ -151,14 +171,43 @@ export default {
   name: "PortfolioGrid",
   data() {
     return {
-      containerHeight: 0,
       projects: {
+
+        milan3: {
+          title: 'AC Milan 3',
+          projectname: 'AC Milan 3',
+          thumbnail: '/images/covers/cards/referto-card.jpg',
+          mobileThumbnail: '/images/covers/cards-sm/referto_sm.jpg',
+          bio: 'Work in progress',
+          class: 'column card-large biodark md-biowhite',
+          to: "acmilan3",
+          workInProgress: true,
+          pill1: 'Visual',
+          pill2: 'Branding',
+          pill3: 'Sport Prod',
+        },
+
+
+        milan2: {
+          title: 'AC Milan 2',
+          projectname: 'AC Milan 2',
+          thumbnail: '/images/covers/cards/avi-card-v2.jpg',
+          mobileThumbnail: '/images/covers/cards-sm/avi_sm.jpg',
+          bio: 'Work in progress',
+          class: 'column card-medium biowhite',
+          to: "acmilan2",
+          workInProgress: true,
+          pill1: 'Visual',
+          pill2: 'Branding',
+          pill3: 'Sport Prod',
+        },
+
 
         avi: {
           title: 'Audiovisual Identity',
           projectname: 'Audiovisual Identity',
-          thumbnail: '/images/covers/cards/avi-card.jpg',
-          mobileThumbnail: '/images/covers/cards-sm/itback_sm.jpg',
+          thumbnail: '/images/covers/cards/avi-card-v2.jpg',
+          mobileThumbnail: '/images/covers/cards-sm/avi_sm.jpg',
           bio: 'Research thesis focused on brand strategy and design in the TV industry',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
           class: 'column card-medium biowhite',
@@ -171,8 +220,8 @@ export default {
         milan: {
           title: 'AC Milan',
           projectname: 'AC Milan',
-          thumbnail: '/images/covers/cards/milan-card.jpg',
-          mobileThumbnail: '/images/covers/cards-sm/itback_sm.jpg',
+          thumbnail: '/images/covers/cards/milan-card-v2.jpg',
+          mobileThumbnail: '/images/covers/cards-sm/milan_sm.jpg',
           bio: 'Production of presentations and visual assets for the Club and its partners',
           category: ['confidential', 'visual', 'branding', 'graphic'],
           class: 'column card-large biowhite',
@@ -196,19 +245,6 @@ export default {
           pill3: 'Event',
         },
 
-        itback: {
-          title: 'It-Back',
-          projectname: 'It-Back',
-          thumbnail: '/images/covers/cards/itback-card.jpg',
-          mobileThumbnail: '/images/covers/cards-sm/itback_sm.jpg',
-          bio: 'Digital experience  aimed at reviving outdated technology products',
-          category: ['coding', 'ux-ui', 'branding', 'graphic'],
-          class: 'column card-large biowhite',
-          to: "it-back",
-          pill1: 'Visual',
-          pill2: 'UX-UI',
-          pill3: 'Coding',
-        },
 
         sourdata: {
           title: 'SourData',
@@ -266,19 +302,6 @@ export default {
           projectname: 'Cara Chioggia ti scrivo'
         },
 
-        quattriny: {
-          title: 'quattriny',
-          thumbnail: '/images/covers/cards/quattriny-card.jpg',
-          mobileThumbnail: '/images/covers/cards-sm/quattriny_sm.jpg',
-          bio: 'Ironic fictional-branding of a cash provider payment company',
-          category: ['branding', 'graphic'],
-          class: 'column card-small biowhite',
-          to: "quattriny",
-          pill1: 'Branding',
-          pill2: 'Copywriting',
-          pill3: 'Visual',
-          projectname: 'Quattriny'
-        },
 
         bottleneck: {
           title: 'bottleneck',
@@ -294,19 +317,6 @@ export default {
           projectname: 'Bottleneck'
         },
 
-        aura: {
-          title: 'aura',
-          thumbnail: '/images/covers/cards/aura-card.jpg',
-          mobileThumbnail: '/images/covers/cards-sm/aura_sm.jpg',
-          bio: 'Brand identity for energy company',
-          category: ['branding', 'graphic'],
-          class: 'column card-small biowhite',
-          to: "aura",
-          pill1: 'Branding',
-          pill2: 'Visual',
-          pill3: 'UI',
-          projectname: 'Aura Energy',
-        }
 
 
       },
@@ -314,10 +324,6 @@ export default {
     }
   },
   methods: {},
-  mounted() {
-    this.containerHeight = this.$refs.projectsContainer.getBoundingClientRect().height
-    console.log(this.containerHeight)
-  }
 
 }
 
@@ -326,6 +332,20 @@ export default {
 
 
 <style scoped lang="scss">
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .compact-project-grid {
+    column-count: 2;
+    column-gap: 30px;
+  }
+
+  .compact-project-grid > .projectcard {
+    min-width: 0;
+    break-inside: avoid;
+    margin-bottom: 30px;
+  }
+}
+
 
 
 .slider {
@@ -370,7 +390,7 @@ h6{
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
 
 .btn {
   padding-left: 9px;
@@ -381,8 +401,10 @@ h6{
     font-size: 14px;
   }
 
-  .md-biowhite{
-    --color-secondary: white;
+  @media (max-width: 767.98px) {
+    .md-biowhite{
+      --color-secondary: white;
+    }
   }
 
 
