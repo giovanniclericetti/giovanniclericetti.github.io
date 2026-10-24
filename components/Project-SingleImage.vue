@@ -1,6 +1,6 @@
 <template>
   <div class="projectbox">
-    <img :src="img" alt="Project Image" loading="lazy" decoding="async">
+    <PortfolioImage :src="img" alt="Project Image" loading="lazy" decoding="async" sizes="(max-width: 768px) calc(100vw - 30px), (min-width: 1200px) 1332px, (min-width: 992px) 1116px, 828px" />
   </div>
 
 
@@ -19,6 +19,7 @@ export default {
 <style scoped>
 .projectbox img {
   width: 120%;
+  height: auto;
 
 
 }

@@ -1,0 +1,158 @@
+{
+  "/acmilan3": [
+    {
+      "src": "/images/covers/hero/referto.jpg",
+      "media": "(min-width: 768px)",
+      "sizes": "(min-width: 1200px) 1110px, (min-width: 992px) 930px, 690px"
+    },
+    {
+      "src": "/images/covers/sm/referto_sm.jpg",
+      "media": "(max-width: 767px)",
+      "sizes": "(min-width: 576px) 510px, calc(100vw - 30px)"
+    }
+  ],
+  "/acmilan2": [
+    {
+      "src": "/images/covers/hero/avi.jpg",
+      "media": "(min-width: 768px)",
+      "sizes": "(min-width: 1200px) 1110px, (min-width: 992px) 930px, 690px"
+    },
+    {
+      "src": "/images/covers/sm/referto_sm.jpg",
+      "media": "(max-width: 767px)",
+      "sizes": "(min-width: 576px) 510px, calc(100vw - 30px)"
+    }
+  ],
+  "/carachioggia": [
+    {
+      "src": "/images/covers/hero/carachioggia.jpg",
+      "media": "(min-width: 768px)",
+      "sizes": "(min-width: 1200px) 1110px, (min-width: 992px) 930px, 690px"
+    },
+    {
+      "src": "/images/covers/sm/carachioggia_sm.jpg",
+      "media": "(max-width: 767px)",
+      "sizes": "(min-width: 576px) 510px, calc(100vw - 30px)"
+    }
+  ],
+  "/sourdata": [
+    {
+      "src": "/images/covers/hero/sourdata.jpg",
+      "media": "(min-width: 768px)",
+      "sizes": "(min-width: 1200px) 1110px, (min-width: 992px) 930px, 690px"
+    },
+    {
+      "src": "/images/covers/sm/sourdata_sm.jpg",
+      "media": "(max-width: 767px)",
+      "sizes": "(min-width: 576px) 510px, calc(100vw - 30px)"
+    }
+  ],
+  "/it-back": [
+    {
+      "src": "/images/covers/hero/itback.jpg",
+      "media": "(min-width: 768px)",
+      "sizes": "(min-width: 1200px) 1110px, (min-width: 992px) 930px, 690px"
+    },
+    {
+      "src": "/images/covers/sm/itback_sm.jpg",
+      "media": "(max-width: 767px)",
+      "sizes": "(min-width: 576px) 510px, calc(100vw - 30px)"
+    }
+  ],
+  "/aura": [
+    {
+      "src": "/images/covers/hero/aura_cover.jpg",
+      "media": "(min-width: 768px)",
+      "sizes": "(min-width: 1200px) 1110px, (min-width: 992px) 930px, 690px"
+    },
+    {
+      "src": "/images/covers/sm/aura_sm.jpg",
+      "media": "(max-width: 767px)",
+      "sizes": "(min-width: 576px) 510px, calc(100vw - 30px)"
+    }
+  ],
+  "/acmilan": [
+    {
+      "src": "/images/covers/hero/acm.svg",
+      "media": "(min-width: 768px)",
+      "sizes": "(min-width: 1200px) 1110px, (min-width: 992px) 930px, 690px"
+    },
+    {
+      "src": "/images/covers/sm/acm_sm.svg",
+      "media": "(max-width: 767px)",
+      "sizes": "(min-width: 576px) 510px, calc(100vw - 30px)"
+    }
+  ],
+  "/disruptive": [
+    {
+      "src": "/images/covers/hero/disruptive.jpg",
+      "media": "(min-width: 768px)",
+      "sizes": "(min-width: 1200px) 1110px, (min-width: 992px) 930px, 690px"
+    },
+    {
+      "src": "/images/covers/sm/disruptive_sm.jpg",
+      "media": "(max-width: 767px)",
+      "sizes": "(min-width: 576px) 510px, calc(100vw - 30px)"
+    }
+  ],
+  "/audiovisualidentity": [
+    {
+      "src": "/images/covers/hero/avi.jpg",
+      "media": "(min-width: 768px)",
+      "sizes": "(min-width: 1200px) 1110px, (min-width: 992px) 930px, 690px"
+    },
+    {
+      "src": "/images/covers/sm/referto_sm.jpg",
+      "media": "(max-width: 767px)",
+      "sizes": "(min-width: 576px) 510px, calc(100vw - 30px)"
+    }
+  ],
+  "/referto": [
+    {
+      "src": "/images/covers/hero/referto.jpg",
+      "media": "(min-width: 768px)",
+      "sizes": "(min-width: 1200px) 1110px, (min-width: 992px) 930px, 690px"
+    },
+    {
+      "src": "/images/covers/sm/referto_sm.jpg",
+      "media": "(max-width: 767px)",
+      "sizes": "(min-width: 576px) 510px, calc(100vw - 30px)"
+    }
+  ],
+  "/quattriny": [
+    {
+      "src": "/images/covers/hero/quattriny_cover.jpg",
+      "media": "(min-width: 768px)",
+      "sizes": "(min-width: 1200px) 1110px, (min-width: 992px) 930px, 690px"
+    },
+    {
+      "src": "/images/covers/sm/quattriny_sm.jpg",
+      "media": "(max-width: 767px)",
+      "sizes": "(min-width: 576px) 510px, calc(100vw - 30px)"
+    }
+  ],
+  "/bottleneck": [
+    {
+      "src": "/images/covers/hero/bottleneck.jpg",
+      "media": "(min-width: 768px)",
+      "sizes": "(min-width: 1200px) 1110px, (min-width: 992px) 930px, 690px"
+    },
+    {
+      "src": "/images/covers/sm//bottleneck_sm.jpg",
+      "media": "(max-width: 767px)",
+      "sizes": "(min-width: 576px) 510px, calc(100vw - 30px)"
+    }
+  ],
+  "/previewpretest": [
+    {
+      "src": "/images/covers/hero/preview_cover.jpg",
+      "media": "(min-width: 768px)",
+      "sizes": "(min-width: 1200px) 1110px, (min-width: 992px) 930px, 690px"
+    },
+    {
+      "src": "/images/covers/sm/preview_sm.jpg",
+      "media": "(max-width: 767px)",
+      "sizes": "(min-width: 576px) 510px, calc(100vw - 30px)"
+    }
+  ]
+}

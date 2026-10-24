@@ -17,19 +17,17 @@
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block respowidth"
       >
 
-        <img class="cover-parallax" style="
+        <img v-responsive-background="'/images/covers/hero/carachioggia.jpg'" data-image-src="/images/covers/hero/carachioggia.jpg" class="cover-parallax"
 
-     background-image: url(/images/covers/hero/carachioggia.jpg)"
-
-             v-parallax>
+             data-parallax-image v-parallax>
       </div>
 
 
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
-        <img class=""
+        <PortfolioImage class=""
              src="/images/covers/sm/carachioggia_sm.jpg"
-        >
+ loading="lazy" fetchpriority="high" style="height: auto;" />
 
       </div>
 
@@ -52,26 +50,22 @@ Cara Chioggia Ti Scrivo responds to the creation of an innovative hybrid artifac
 
         <b-col cols="12" md="5" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox bg-primary">
-            <img class="imgproject h400 " style="
-     background-image: url(/images/carachioggia/carachioggia1b.svg);
-"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/carachioggia/carachioggia1b.svg'" data-image-src="/images/carachioggia/carachioggia1b.svg" class="imgproject h400 "
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="7" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400 small-quattriny" style="
-     background-image: url(/images/carachioggia/carachioggia1.svg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/carachioggia/carachioggia1.svg'" data-image-src="/images/carachioggia/carachioggia1.svg" class="img-parallax imgproject h400 small-quattriny"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
 
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h600 small-quattriny" id="cc-fotopc" style="
-     background-image: url(/images/carachioggia/carachioggia2.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/carachioggia/carachioggia2.jpg'" data-image-src="/images/carachioggia/carachioggia2.jpg" class="img-parallax imgproject h600 small-quattriny" id="cc-fotopc"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -96,30 +90,26 @@ The new perspective on the village of Chioggia is centered on the online platfor
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3 ">
           <div class="imgbox ">
-            <img class="small-chioggia img-parallax imgproject h400 " style="
-     background-image: url(/images/carachioggia/carachioggia5.svg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/carachioggia/carachioggia5.svg'" data-image-src="/images/carachioggia/carachioggia5.svg" class="small-chioggia img-parallax imgproject h400 "
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h600 small-quattriny" style="
-     background-image: url(/images/carachioggia/carachioggia6.jpg);"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/carachioggia/carachioggia6.jpg'" data-image-src="/images/carachioggia/carachioggia6.jpg" class="img-parallax imgproject h600 small-quattriny"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500 small-quattriny" style="
-     background-image: url(/images/carachioggia/carachioggia7.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/carachioggia/carachioggia7.jpg'" data-image-src="/images/carachioggia/carachioggia7.jpg" class="img-parallax imgproject h500 small-quattriny"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h600 small-quattriny" style="
-     background-image: url(/images/carachioggia/carachioggia8.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/carachioggia/carachioggia8.jpg'" data-image-src="/images/carachioggia/carachioggia8.jpg" class="img-parallax imgproject h600 small-quattriny"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -133,44 +123,39 @@ All the content has been developed through meticulous research into the territor
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="small-chioggia img-parallax imgproject h500 small-quattriny" style="
-     background-image: url(/images/carachioggia/carachioggia9.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/carachioggia/carachioggia9.jpg'" data-image-src="/images/carachioggia/carachioggia9.jpg" class="small-chioggia img-parallax imgproject h500 small-quattriny"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="small-chioggia img-parallax imgproject h600 small-quattriny" style="
-     background-image: url(/images/carachioggia/carachioggia10.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/carachioggia/carachioggia10.jpg'" data-image-src="/images/carachioggia/carachioggia10.jpg" class="small-chioggia img-parallax imgproject h600 small-quattriny"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400 " style="height: 350px;
-     background-image: url(/images/carachioggia/carachioggia11.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/carachioggia/carachioggia11.jpg'" data-image-src="/images/carachioggia/carachioggia11.jpg" class="img-parallax imgproject h400 " style="height: 350px;
+     "
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="small-chioggia img-parallax imgproject h500 " style="
-     background-image: url(/images/carachioggia/carachioggia12.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/carachioggia/carachioggia12.jpg'" data-image-src="/images/carachioggia/carachioggia12.jpg" class="small-chioggia img-parallax imgproject h500 "
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400 " style="
-     background-image: url(/images/carachioggia/carachioggia13.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/carachioggia/carachioggia13.jpg'" data-image-src="/images/carachioggia/carachioggia13.jpg" class="img-parallax imgproject h400 "
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400 " style="
-     background-image: url(/images/carachioggia/carachioggia14.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/carachioggia/carachioggia14.jpg'" data-image-src="/images/carachioggia/carachioggia14.jpg" class="img-parallax imgproject h400 "
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -184,39 +169,34 @@ Supporting artifacts have been designed to complete the experience. The communic
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500 " style="
-     background-image: url(/images/carachioggia/carachioggia15.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/carachioggia/carachioggia15.jpg'" data-image-src="/images/carachioggia/carachioggia15.jpg" class="img-parallax imgproject h500 "
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h600 " style="
-     background-image: url(/images/carachioggia/carachioggia17.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/carachioggia/carachioggia17.jpg'" data-image-src="/images/carachioggia/carachioggia17.jpg" class="img-parallax imgproject h600 "
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h600 " style="
-     background-image: url(/images/carachioggia/carachioggia18.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/carachioggia/carachioggia18.jpg'" data-image-src="/images/carachioggia/carachioggia18.jpg" class="img-parallax imgproject h600 "
+                 data-parallax-image v-parallax></div>
         </b-col>
 
       </b-row>
 
 
       <ProjectNextPrevious
-        title="Aura"
-        thumbnail="/images/covers/next/au-next.jpg
-"
-        class="column card-large biowhite aura"
-        to="aura"
-        pill1="Branding"
-        pill2="Visual"
-        pill3="UI"
-        nextproject="Aura Energy"
-        bionext="Brand identity for energy company"
+        thumbnail="/images/covers/next/avi-next.svg"
+        class="column card-large biowhite avi"
+        to="/audiovisualidentity"
+        pill1="Thesis"
+        pill2="Editorial"
+        pill3="Branding"
+        nextproject="Audiovisual Identity"
+        bionext="Research thesis focused on design and branding in the TV industry"
       />
 
 

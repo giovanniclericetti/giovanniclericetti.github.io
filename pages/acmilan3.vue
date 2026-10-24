@@ -21,24 +21,21 @@ social change to chronicle the lives of health workers"
 
 
 
-        <img class="cover-parallax" style="
-
-
-     background-image: url(/images/covers/hero/referto.jpg)"
+        <img v-responsive-background="'/images/covers/hero/referto.jpg'" data-image-src="/images/covers/hero/referto.jpg" class="cover-parallax"
 
 
 
 
-             v-parallax>
+             data-parallax-image v-parallax>
         <WorkInProgress/>
       </div>
 
 
       <div cols="12" class="position-relative pt-0 my-4 cover-mobile d-block d-md-none" >
 
-        <img class=""
+        <PortfolioImage class=""
      src="/images/covers/sm/referto_sm.jpg"
-        >
+ loading="lazy" fetchpriority="high" style="height: auto;" />
         <WorkInProgress/>
 
       </div>
@@ -63,49 +60,46 @@ According to the vocabulary, Referto is a clinical document written by a doctor,
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/referto/referto1.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/referto/referto1.jpg'" data-image-src="/images/referto/referto1.jpg" class="img-parallax imgproject h600"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
         <div class="imgbox">
-          <img class="img-parallax imgproject ref-3" style="
-     background-image: url(/images/referto/referto3.jpg)"
-               v-parallax></div>
+          <img v-responsive-background="'/images/referto/referto3.jpg'" data-image-src="/images/referto/referto3.jpg" class="img-parallax imgproject ref-3"
+               data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox pb-0 mb-4">
-            <img class="img-parallax imgproject h400" style="height: 350px;
-     background-image: url(/images/referto/referto4.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/referto/referto4.jpg'" data-image-src="/images/referto/referto4.jpg" class="img-parallax imgproject h400" style="height: 350px;
+     "
+                 data-parallax-image v-parallax></div>
 
           <div class="pt-2">
           <div class="imgbox ">
-            <img class="img-parallax imgproject h600" style="height: 250px;
-     background-image: url(/images/referto/referto5.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/referto/referto5.jpg'" data-image-src="/images/referto/referto5.jpg" class="img-parallax imgproject h600" style="height: 250px;
+     "
+                 data-parallax-image v-parallax></div>
           </div>         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/referto/referto2.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/referto/referto2.jpg'" data-image-src="/images/referto/referto2.jpg" class="img-parallax imgproject h500"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="4" class=" py-md-3 py-2 px-3 d-none d-md-block">
           <div class="imgbox pb-0 mb-4">
-            <img class=" img-parallax imgproject " style="height: 250px;
-     background-image: url(/images/referto/referto15.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/referto/referto15.jpg'" data-image-src="/images/referto/referto15.jpg" class=" img-parallax imgproject " style="height: 250px;
+     "
+                 data-parallax-image v-parallax></div>
 
           <div class="pt-2">
             <div class="imgbox  d-none d-md-block">
-              <img class="img-parallax imgproject" style="height: 250px;
-     background-image: url(/images/referto/referto16.jpg)"
-                   v-parallax></div>
+              <img v-responsive-background="'/images/referto/referto16.jpg'" data-image-src="/images/referto/referto16.jpg" class="img-parallax imgproject" style="height: 250px;
+     "
+                   data-parallax-image v-parallax></div>
           </div>         </b-col>
 
           <b-col cols="12" md="8" class=" py-md-3 py-2 px-3">
@@ -135,30 +129,27 @@ The magazine has 260 pages and is bound in Swiss binding with a fold-out flap. A
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h600" style="height: 630px;
-     background-image: url(/images/referto/referto6.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/referto/referto6.jpg'" data-image-src="/images/referto/referto6.jpg" class="img-parallax imgproject h600" style="height: 630px;
+     "
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/referto/referto7.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/referto/referto7.jpg'" data-image-src="/images/referto/referto7.jpg" class="img-parallax imgproject h600"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400 ref-pc" style="
-     background-image: url(/images/referto/referto11.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/referto/referto11.jpg'" data-image-src="/images/referto/referto11.jpg" class="img-parallax imgproject h400 ref-pc"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/referto/referto12.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/referto/referto12.jpg'" data-image-src="/images/referto/referto12.jpg" class="img-parallax imgproject h400"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -180,9 +171,8 @@ The magazine also has a transmedia development in its platform, where readers ca
 
         <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/referto/referto13.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/referto/referto13.jpg'" data-image-src="/images/referto/referto13.jpg" class="img-parallax imgproject h500"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
 
@@ -190,16 +180,14 @@ The magazine also has a transmedia development in its platform, where readers ca
       </b-row>
 
       <ProjectNextPrevious
-        title="Cara Chioggia"
-        thumbnail="/images/covers/next/cc-next.jpg
-"
-        class="column card-large biowhite carachioggia"
-        to="carachioggia"
-        pill1="UX-UI"
-        pill2="Visual"
+        thumbnail="/images/covers/next/avi-next.svg"
+        class="column card-large biowhite avi"
+        to="/audiovisualidentity"
+        pill1="Thesis"
+        pill2="Editorial"
         pill3="Branding"
-        nextproject="Cara Chioggia ti scrivo"
-        bionext="Digital experience of letters to relive fishing places in Chioggia"
+        nextproject="Audiovisual Identity"
+        bionext="Research thesis focused on design and branding in the TV industry"
       />
 
 

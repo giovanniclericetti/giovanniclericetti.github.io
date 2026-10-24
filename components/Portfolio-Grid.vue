@@ -278,7 +278,7 @@ export default {
           title: 'Referto',
           thumbnail: '/images/covers/cards/referto-card.jpg',
           mobileThumbnail: '/images/covers/cards-sm/referto_sm.jpg',
-          bio: 'Indipendent Magazine for social change about lives of health workers',
+          bio: 'Independent Magazine for social change about lives of health workers',
           category: ['branding', 'graphic', 'ux-ui'],
           class: 'column card-large biodark md-biowhite',
           to: "referto",

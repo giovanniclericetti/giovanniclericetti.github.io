@@ -1,0 +1,74 @@
+[
+  {
+    "capture": "index-390.json",
+    "before": 25,
+    "after": 25,
+    "differences": []
+  },
+  {
+    "capture": "about-1440.json",
+    "before": 28,
+    "after": 28,
+    "differences": []
+  },
+  {
+    "capture": "carachioggia-1440.json",
+    "before": 19,
+    "after": 19,
+    "differences": []
+  },
+  {
+    "capture": "audiovisualidentity-390.json",
+    "before": 17,
+    "after": 17,
+    "differences": []
+  },
+  {
+    "capture": "index-820.json",
+    "before": 25,
+    "after": 25,
+    "differences": []
+  },
+  {
+    "capture": "audiovisualidentity-1440.json",
+    "before": 17,
+    "after": 17,
+    "differences": []
+  },
+  {
+    "capture": "audiovisualidentity-820.json",
+    "before": 17,
+    "after": 17,
+    "differences": []
+  },
+  {
+    "capture": "index-1440.json",
+    "before": 25,
+    "after": 25,
+    "differences": []
+  },
+  {
+    "capture": "carachioggia-390.json",
+    "before": 19,
+    "after": 19,
+    "differences": []
+  },
+  {
+    "capture": "about-820.json",
+    "before": 28,
+    "after": 28,
+    "differences": []
+  },
+  {
+    "capture": "carachioggia-820.json",
+    "before": 19,
+    "after": 19,
+    "differences": []
+  },
+  {
+    "capture": "about-390.json",
+    "before": 28,
+    "after": 28,
+    "differences": []
+  }
+]

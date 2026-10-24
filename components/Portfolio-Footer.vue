@@ -8,13 +8,13 @@
       <b-col >  </b-col>
       <b-col cols="12" lg="auto" class="d-flex flex-wrap px-0 justify-content-center" >
 
-        <a href="mailto:giovanni.clericetti@gmail.com" class="mx-lg-3 mx-3"><h5 class=" p-lg-0 d-lg-block social hover-underline-animation">Mail</h5>
+        <a href="mailto:giovanni.clericetti@gmail.com" class="mx-lg-3 mx-3"><h5 class="social hover-underline-animation">Mail</h5>
          </a>
 
-        <a href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank" class="mx-lg-3 mx-3"><h5 class="social d-lg-block  hover-underline-animation">Linkedin</h5>
+        <a href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank" class="mx-lg-3 mx-3"><h5 class="social hover-underline-animation">Linkedin</h5>
           </a>
 
-        <a href="https://www.instagram.com/giovanniclericetti.png/" target="_blank" class="mx-lg-3 mx-3"><h5 class="social  p-lg-0 hover-underline-animation">Instagram</h5>
+        <a href="https://www.instagram.com/giovanniclericetti.png/" target="_blank" class="mx-lg-3 mx-3"><h5 class="social hover-underline-animation">Instagram</h5>
           </a>
 
       </b-col>
@@ -45,12 +45,20 @@ background-color: #ECE9E9;
 
 }
 
-h5{}
+h5 {
+  margin-bottom: 0;
+}
+
+.social {
+  display: block;
+}
 
 a {
   text-decoration: none;
   color: #000;
   position: relative;
+  display: inline-flex;
+  align-items: center;
 }
 
 a:hover {
@@ -58,7 +66,7 @@ a:hover {
 }
 
 @media (max-width: 991.98px) {
-.footer a { min-height: 44px; display: inline-flex; align-items: center; }
+.footer a { min-height: 44px; }
 
 .copyright{
   opacity: 0.5;

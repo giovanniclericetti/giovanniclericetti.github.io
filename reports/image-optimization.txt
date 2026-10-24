@@ -1,0 +1,155 @@
+OTTIMIZZAZIONE IMMAGINI — 24 OTTOBRE 2026
+
+Risultato
+Ottimizzazione applicata senza cambiare testi, struttura delle pagine, ritagli,
+animazioni o interazioni. Confronto della geometria delle immagini su 12 casi
+(home, About, Audiovisual Identity e Cara Chioggia a 390, 820 e 1440 px):
+nessuna differenza superiore a 0,1 px tra le build di produzione prima/dopo.
+Il confronto fotografico allegato mostra prima a sinistra, dopo a destra;
+il titolo musicale casuale di About può cambiare a ogni caricamento.
+
+Analisi e qualità
+- 260 asset analizzati: 180 JPG, 23 PNG e 57 SVG.
+- 203 raster gestiti nel manifest; 811 file derivati WebP distinti (821 riferimenti).
+- Originali mai sovrascritti. Verificati SHA-256 di tutti i 259 asset in
+  static/images rispetto allo snapshot iniziale; verificati anche i 260 hash
+  dell'inventario e la decodifica di tutti i derivati.
+- WebP lossless, nessuna ricompressione lossy, nessun crop, niente upscale.
+  Le varianti responsive sono ridimensionate una sola volta.
+- 24 derivati a risoluzione nativa confrontati pixel per pixel: pixel visibili
+  e trasparenza identici. I valori RGB sotto alpha zero possono essere eliminati
+  dal formato senza alcuna differenza visiva.
+- Quando WebP pesa più dell'originale viene selezionato il file originale.
+- SVG lasciati intatti. AVIF non necessario per la scelta conservativa lossless.
+
+Miglioramenti misurati
+Il totale dei raster a dimensione nativa passa da 49.691.389 a 39.945.036 byte:
+-19,6%. Questo dato riguarda l'inventario, non il peso di una singola pagina.
+
+Traffico immagini iniziale in Chrome, cache nuova, DPR 2, altezza 900 px,
+nessuno scroll, medesimi server statici locali e risorse esterne bloccate:
+  /about, viewport 390px: 13.50 MB -> 0.99 MB (92.6% in meno).
+  /about, viewport 1440px: 13.54 MB -> 2.26 MB (83.3% in meno).
+  /audiovisualidentity, viewport 390px: 1.77 MB -> 0.12 MB (92.9% in meno).
+  /audiovisualidentity, viewport 1440px: 4.23 MB -> 0.56 MB (86.8% in meno).
+I risultati misurano byte trasferiti, non un punteggio Lighthouse o tempi
+su rete reale. Le immagini della galleria vengono scaricate avvicinandosi
+alla viewport, quindi il peso iniziale non coincide con quello dopo lo scroll.
+
+Implementazione
+- Installato @nuxt/image 0.7.1, compatibile con Nuxt 2, e Sharp 0.34.5.
+- NuxtImg nelle schede finali; PortfolioImage estende NuxtImg mantenendo un
+  unico elemento img, dimensioni/aspect ratio, srcset con larghezze effettive,
+  sizes adattati ai componenti, loading lazy e decoding async.
+- Le anteprime Next Project mantengono la risoluzione nativa: il loro ritaglio
+  dipende dalle dimensioni intrinseche nel CSS esistente. Sono comunque
+  gestite da NuxtImg, con selezione del file più leggero e lazy loading.
+- Gli sfondi conservano gli elementi e le direttive parallax originali.
+  IntersectionObserver li carica con anticipo di 350px; ResizeObserver sceglie
+  varianti in base al contenitore, al ritaglio cover e al devicePixelRatio.
+  Le proporzioni originali guidano ancora il calcolo del parallax.
+- Preload responsive con media query e priorità alta per le immagini iniziali;
+  gli sfondi effettivamente visibili hanno fetchPriority alta.
+- Fallback al formato originale in caso di errore di decodifica; noscript per
+  mantenere gli sfondi anche senza JavaScript.
+- Generazione locale deterministica dei derivati e manifest, cache per hash,
+  deduplicazione dei file identici e scrittura dei derivati tramite rename.
+  Le immagini originali non vengono mai scritte dallo script.
+
+Build e deployment
+- npm run generate completato con Node 24.22.1, la stessa major richiesta
+  da package.json; comprende compilazione client/server e 15 route statiche.
+- I derivati sono file statici in dist/optimized. Nessuna dipendenza runtime
+  da IPX, funzioni server o API immagini Vercel, anche nella navigazione client.
+- Vercel: installCommand npm ci, buildCommand npm run generate, output dist;
+  cache immutable per i derivati con nomi basati sull'hash dell'originale.
+  Il package-lock include i pacchetti Sharp per Linux.
+- Non è stato effettuato un deployment remoto.
+- npm run dev, npm run build e npm run generate eseguono automaticamente
+  la preparazione delle immagini. Per uso diretto della CLI Nuxt eseguire
+  prima npm run images:optimize.
+- Verifica ripetibile dei file: npm run images:verify.
+
+Verifiche browser
+- 15 pagine a 390 e 1440 px, DPR 2, scroll completo: 30 verifiche superate,
+  nessun errore JavaScript, HTTP o immagine mancante. Risultati dettagliati
+  in image-browser-check.json.
+- 12 confronti geometrici e controllo visivo, includendo il tablet:
+  image-layout-check.json e image-layout-comparison.png.
+- Hover homepage: scala 1.01 -> 1.05; parallax cambia posizione allo scroll;
+  inclinazione del CV e navigazione AC Milan -> AC Milan 2 funzionanti.
+- Fallback senza JavaScript verificato nella pagina Audiovisual Identity.
+
+Limiti e problemi rimasti
+- Alcuni SVG restano pesanti, in particolare carachioggia5.svg (~3,39 MB)
+  e aura9.svg (~0,91 MB), caricati solo in prossimità della viewport.
+  Non sono stati rasterizzati per preservare contenuto vettoriale e resa.
+- Diversi SVG da 9–16 MB non risultano referenziati nei componenti/pagine;
+  sono conservati come richiesto e identificati nell'inventario.
+- Originali e derivati convivono: la cartella dist occupa circa 314 MiB.
+  Lo spazio di deployment non equivale al traffico scaricato dal visitatore.
+- Restano gli avvisi preesistenti sui bundle JavaScript grandi e Browserslist
+  non aggiornato. Non sono stati modificati componenti o dipendenze estranei
+  all'ottimizzazione immagini per correggerli.
+- Validazione effettuata in Chrome locale, non su un deployment Vercel remoto
+  né su tutti i browser/dispositivi fisici. Contenuti esterni (video/font remoti)
+  esclusi dai test di rete per misurare il portfolio in modo ripetibile.
+
+File modificati o aggiunti per questo intervento
+  .gitignore
+  components/About-Box.vue
+  components/AboutPhoto.vue
+  components/AboutTablet.vue
+  components/AboutWorkExperience.vue
+  components/Portfolio-Card.vue
+  components/PortfolioImage.vue
+  components/Project-Cover.vue
+  components/Project-Next-Previous.vue
+  components/Project-SingleImage.vue
+  layouts/default.vue
+  nuxt.config.js
+  package-lock.json
+  package.json
+  pages/acmilan.vue
+  pages/acmilan2.vue
+  pages/acmilan3.vue
+  pages/audiovisualidentity.vue
+  pages/aura.vue
+  pages/bottleneck.vue
+  pages/carachioggia.vue
+  pages/disruptive.vue
+  pages/it-back.vue
+  pages/previewpretest.vue
+  pages/quattriny.vue
+  pages/referto.vue
+  pages/sourdata.vue
+  plugins/parallax.client.js
+  plugins/responsive-background.js
+  providers/portfolio.js
+  scripts/image-fallbacks.cjs
+  scripts/optimize-images.cjs
+  scripts/verify-images.cjs
+  utils/hero-images.json
+  utils/image-head.js
+  utils/portfolio-images.js
+  vercel.json
+  yarn.lock
+
+Artefatti di verifica
+  reports/image-audit.json
+  reports/image-browser-check.json
+  reports/image-layout-check.json
+  reports/image-layout-comparison.png
+  reports/image-transfer-comparison.json
+  reports/image-optimization.txt
+  generated/image-manifest.json, generated/background-routes.json e cache:
+    generati automaticamente e ignorati da Git.
+  static/optimized/: derivati generati automaticamente e ignorati da Git.
+
+Documentazione consultata
+Nuxt Image per Nuxt 2:
+https://v0.image.nuxtjs.org/getting-started/installation
+Provider personalizzati:
+https://v0.image.nuxtjs.org/advanced/custom-provider
+Generazione statica:
+https://v0.image.nuxtjs.org/getting-started/static

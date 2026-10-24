@@ -22,15 +22,12 @@
 
 
 
-        <img class="cover-parallax" style="
-
-
-     background-image: url(/images/covers/hero/acm.svg)"
+        <img v-responsive-background="'/images/covers/hero/acm.svg'" data-image-src="/images/covers/hero/acm.svg" class="cover-parallax"
 
 
 
 
-             v-parallax>
+             data-parallax-image v-parallax>
       </div>
 
 
@@ -68,7 +65,7 @@
 
 
           <h4 class="mt-4 mt-md-0"> Tools </h4>
-          <p> Keynote, PowerPoint, Figma, Figma Slide, Photoshop, Illustrator, Midjourney, OpenAI, Asana </p>
+          <p> Keynote, PowerPoint, Figma, Figma Slides, Photoshop, Illustrator, Midjourney, OpenAI, Asana </p>
 
           <div class="mt-md-5 mt-4">
             <a href="          https://www.linkedin.com/posts/activity-7207066977016754177-HIoz?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGmc5MBRFlV2ZhxOY7sTc3zelk5nsUZlMk
@@ -92,14 +89,14 @@
 
 
       <ProjectNextPrevious
-        thumbnail="/images/covers/next/avi-next.svg"
-        class="column card-large biowhite avi"
-        to="audiovisualidentity"
-        pill1="Thesis"
-        pill2="Editorial"
-        pill3="Branding"
-        nextproject="Audiovisual Identity"
-        bionext="Research thesis focused on design and branding in the TV industry"
+        thumbnail="/images/covers/cards/avi-card-v2.jpg"
+        class="column card-large biowhite acmilan2"
+        to="/acmilan2"
+        pill1="Visual"
+        pill2="Branding"
+        pill3="Sport Prod"
+        nextproject="AC Milan 2"
+        bionext="Work in progress"
       />
 
 

@@ -20,24 +20,21 @@
 
 
 
-        <img class="cover-parallax" style="
-
-
-     background-image: url(/images/covers/hero/avi.jpg)"
+        <img v-responsive-background="'/images/covers/hero/avi.jpg'" data-image-src="/images/covers/hero/avi.jpg" class="cover-parallax"
 
 
 
 
-             v-parallax>
+             data-parallax-image v-parallax>
         <WorkInProgress/>
       </div>
 
 
       <div cols="12" class="position-relative pt-0 my-4 cover-mobile d-block d-md-none" >
 
-        <img class=""
+        <PortfolioImage class=""
      src="/images/covers/sm/referto_sm.jpg"
-        >
+ loading="lazy" fetchpriority="high" style="height: auto;" />
         <WorkInProgress/>
 
       </div>
@@ -86,9 +83,8 @@
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/avi/avi4.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/avi/avi4.jpg'" data-image-src="/images/avi/avi4.jpg" class="img-parallax imgproject h600"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -104,43 +100,38 @@ The thesis was conceived as an editorial project capable of synthesising the res
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h350 ref-pc" style="
-     background-image: url(/images/avi/avi2.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/avi/avi2.jpg'" data-image-src="/images/avi/avi2.jpg" class="img-parallax imgproject h350 ref-pc"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h350" style="
-     background-image: url(/images/avi/avi3.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/avi/avi3.jpg'" data-image-src="/images/avi/avi3.jpg" class="img-parallax imgproject h350"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/avi/avi7.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/avi/avi7.jpg'" data-image-src="/images/avi/avi7.jpg" class="img-parallax imgproject h600"
+                 data-parallax-image v-parallax></div>
         </b-col>
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400 ref-pc" style="
-     background-image: url(/images/avi/avi5.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/avi/avi5.jpg'" data-image-src="/images/avi/avi5.jpg" class="img-parallax imgproject h400 ref-pc"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/avi/avi6.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/avi/avi6.jpg'" data-image-src="/images/avi/avi6.jpg" class="img-parallax imgproject h400"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400" style="height: 430px;
-     background-image: url(/images/avi/avi13.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/avi/avi13.jpg'" data-image-src="/images/avi/avi13.jpg" class="img-parallax imgproject h400" style="height: 430px;
+     "
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -155,44 +146,38 @@ Complementing the thesis was Audiovisual Identity Hub, an open-source digital pl
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/avi/avi8.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/avi/avi8.jpg'" data-image-src="/images/avi/avi8.jpg" class="img-parallax imgproject h600"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/avi/avi9.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/avi/avi9.jpg'" data-image-src="/images/avi/avi9.jpg" class="img-parallax imgproject h400"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/avi/avi10.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/avi/avi10.jpg'" data-image-src="/images/avi/avi10.jpg" class="img-parallax imgproject h400"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/avi/avi15.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/avi/avi15.jpg'" data-image-src="/images/avi/avi15.jpg" class="img-parallax imgproject h600"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/avi/avi12.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/avi/avi12.jpg'" data-image-src="/images/avi/avi12.jpg" class="img-parallax imgproject h400"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/avi/avi16.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/avi/avi16.jpg'" data-image-src="/images/avi/avi16.jpg" class="img-parallax imgproject h400"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
 
@@ -208,9 +193,9 @@ The last project step involved the creation of a presentation for the graduation
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h600" style="height: 630px;
-     background-image: url(/images/avi/avi14.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/avi/avi14.jpg'" data-image-src="/images/avi/avi14.jpg" class="img-parallax imgproject h600" style="height: 630px;
+     "
+                 data-parallax-image v-parallax></div>
         </b-col>
 
 
@@ -219,14 +204,14 @@ The last project step involved the creation of a presentation for the graduation
       </b-row>
 
       <ProjectNextPrevious
-        thumbnail="/images/covers/next/sd-next.jpg"
-        class="column card-large biowhite sourdata"
-        to="sourdata"
-        pill1="Interaction"
-        pill2="Branding"
-        pill3="UX-UI"
-        nextproject="SourData"
-        bionext="Product-service system to make money from user's personal data"
+        thumbnail="/images/covers/next/avi-next.svg"
+        class="column card-large biowhite avi"
+        to="/audiovisualidentity"
+        pill1="Thesis"
+        pill2="Editorial"
+        pill3="Branding"
+        nextproject="Audiovisual Identity"
+        bionext="Research thesis focused on design and branding in the TV industry"
       />
 
 

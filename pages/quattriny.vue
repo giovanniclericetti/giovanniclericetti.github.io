@@ -19,19 +19,17 @@
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block "
       >
 
-        <img class="cover-parallax" style="
+        <img v-responsive-background="'/images/covers/hero/quattriny_cover.jpg'" data-image-src="/images/covers/hero/quattriny_cover.jpg" class="cover-parallax"
 
-     background-image: url(/images/covers/hero/quattriny_cover.jpg)"
-
-             v-parallax>
+             data-parallax-image v-parallax>
       </div>
 
 
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
-        <img class=""
+        <PortfolioImage class=""
              src="/images/covers/sm/quattriny_sm.jpg"
-        >
+ loading="lazy" fetchpriority="high" style="height: auto;" />
 
       </div>
 
@@ -56,16 +54,14 @@ The core of the project is the ironic and friendly tone with which Quattriny bra
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <div class="imgbox">
-            <img class="img-parallax imgproject h600 small-quattriny" style="
-     background-image: url(/images/quattriny/quattriny1.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/quattriny/quattriny1.jpg'" data-image-src="/images/quattriny/quattriny1.jpg" class="img-parallax imgproject h600 small-quattriny"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
         <div class="imgbox">
-          <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/quattriny/quattriny2.jpg)"
-               v-parallax></div>
+          <img v-responsive-background="'/images/quattriny/quattriny2.jpg'" data-image-src="/images/quattriny/quattriny2.jpg" class="img-parallax imgproject h400"
+               data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -92,16 +88,14 @@ The ironic tone of voice is evident in the launch campaign. The phrases on the p
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500 extrasmall-quattriny" style="
-     background-image: url(/images/quattriny/quattriny3.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/quattriny/quattriny3.jpg'" data-image-src="/images/quattriny/quattriny3.jpg" class="img-parallax imgproject h500 extrasmall-quattriny"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/quattriny/quattriny4.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/quattriny/quattriny4.jpg'" data-image-src="/images/quattriny/quattriny4.jpg" class="img-parallax imgproject h600"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="8" class="d-md-block d-none py-md-3 py-2 px-3">
@@ -116,9 +110,9 @@ The ironic tone of voice is evident in the launch campaign. The phrases on the p
 
         <b-col cols="12" md="4" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject " style="height: 410px;
-     background-image: url(/images/quattriny/quattriny5.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/quattriny/quattriny5.jpg'" data-image-src="/images/quattriny/quattriny5.jpg" class="img-parallax imgproject " style="height: 410px;
+     "
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -133,9 +127,8 @@ Quattriny's identity is also structured in other applications. There is the webs
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/quattriny/quattriny6.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/quattriny/quattriny6.jpg'" data-image-src="/images/quattriny/quattriny6.jpg" class="img-parallax imgproject h600"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -147,9 +140,8 @@ Quattriny's identity is also structured in other applications. There is the webs
 
         <b-col cols="12" md="12" class="d-md-block d-none py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h700" style="
-     background-image: url(/images/quattriny/quattriny7.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/quattriny/quattriny7.jpg'" data-image-src="/images/quattriny/quattriny7.jpg" class="img-parallax imgproject h700"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
 

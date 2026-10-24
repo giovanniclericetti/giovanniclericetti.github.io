@@ -16,19 +16,16 @@
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block "
       >
 
-        <img class="cover-parallax" style="
-
-
-     background-image: url(/images/covers/hero/aura_cover.jpg)"
-             v-parallax>
+        <img v-responsive-background="'/images/covers/hero/aura_cover.jpg'" data-image-src="/images/covers/hero/aura_cover.jpg" class="cover-parallax"
+             data-parallax-image v-parallax>
       </div>
 
 
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
-        <img class=""
+        <PortfolioImage class=""
      src="/images/covers/sm/aura_sm.jpg"
-        >
+ loading="lazy" fetchpriority="high" style="height: auto;" />
 
       </div>
 
@@ -52,9 +49,8 @@ Aura is a fictional, cutting-edge energy company that harnesses energy from the 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <div class="imgbox d-md-block d-none">
-            <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/aura/aura0.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/aura0.jpg'" data-image-src="/images/aura/aura0.jpg" class="img-parallax imgproject h400"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
 
@@ -68,51 +64,43 @@ Aura is a fictional, cutting-edge energy company that harnesses energy from the 
 For the presentation, some brand guidelines cards have been created showing the different components of the branding activity."          />
 
           <div class=" imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura1.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/aura1.jpg'" data-image-src="/images/aura/aura1.jpg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
 
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura11.svg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/aura11.svg'" data-image-src="/images/aura/aura11.svg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura13.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/aura13.jpg'" data-image-src="/images/aura/aura13.jpg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura14.svg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/aura14.svg'" data-image-src="/images/aura/aura14.svg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura7.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/aura7.jpg'" data-image-src="/images/aura/aura7.jpg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura8.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/aura8.jpg'" data-image-src="/images/aura/aura8.jpg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura17.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/aura17.jpg'" data-image-src="/images/aura/aura17.jpg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura18.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/aura18.jpg'" data-image-src="/images/aura/aura18.jpg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 md-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="height: 450px;
-     background-image: url(/images/aura/aura19.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/aura19.jpg'" data-image-src="/images/aura/aura19.jpg" class="img-parallax imgproject auracard" style="height: 450px;
+     "
+                 data-parallax-image v-parallax></div>
 
           <ProjectDescription2
 
@@ -126,54 +114,45 @@ Once the guidelines had been defined, the brand was applied to test its scalabil
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-md-2 py-3 px-3 d-none">
 
           <div class="imgbox pb-0 mb-4 pt-2 pt-md-0">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura2.svg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/aura2.svg'" data-image-src="/images/aura/aura2.svg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura3.svg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/aura3.svg'" data-image-src="/images/aura/aura3.svg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura12.svg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/aura12.svg'" data-image-src="/images/aura/aura12.svg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura4.svg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/aura4.svg'" data-image-src="/images/aura/aura4.svg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura5.svg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/aura5.svg'" data-image-src="/images/aura/aura5.svg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura6.svg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/aura6.svg'" data-image-src="/images/aura/aura6.svg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura16.svg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/aura16.svg'" data-image-src="/images/aura/aura16.svg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura15.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/aura15.jpg'" data-image-src="/images/aura/aura15.jpg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/aura9.svg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/aura9.svg'" data-image-src="/images/aura/aura9.svg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-0 pt-2">
-            <img class="img-parallax imgproject" style="height: 330px;
-     background-image: url(/images/aura/aura20.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/aura20.jpg'" data-image-src="/images/aura/aura20.jpg" class="img-parallax imgproject" style="height: 330px;
+     "
+                 data-parallax-image v-parallax></div>
 
 
 
@@ -196,9 +175,9 @@ Once the guidelines had been defined, the brand was applied to test its scalabil
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3 d-md-none d-block">
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="height: 400px;
-     background-image: url(/images/aura/sm-aura1.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/sm-aura1.jpg'" data-image-src="/images/aura/sm-aura1.jpg" class="img-parallax imgproject auracard" style="height: 400px;
+     "
+                 data-parallax-image v-parallax></div>
 
           <ProjectDescription2
 
@@ -211,44 +190,36 @@ For the presentation, some brand guidelines cards have been created showing the 
 
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/sm-aura2b.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/sm-aura2b.jpg'" data-image-src="/images/aura/sm-aura2b.jpg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/sm-aura3.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/sm-aura3.jpg'" data-image-src="/images/aura/sm-aura3.jpg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/sm-aura4.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/sm-aura4.jpg'" data-image-src="/images/aura/sm-aura4.jpg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/sm-aura5.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/sm-aura5.jpg'" data-image-src="/images/aura/sm-aura5.jpg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/sm-aura6.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/sm-aura6.jpg'" data-image-src="/images/aura/sm-aura6.jpg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/sm7-aura.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/sm7-aura.jpg'" data-image-src="/images/aura/sm7-aura.jpg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/sm-aura8.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/sm-aura8.jpg'" data-image-src="/images/aura/sm-aura8.jpg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/sm-aura9.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/sm-aura9.jpg'" data-image-src="/images/aura/sm-aura9.jpg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <ProjectDescription2
 
@@ -260,29 +231,24 @@ For the presentation, some brand guidelines cards have been created showing the 
 
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/sm-aura10.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/sm-aura10.jpg'" data-image-src="/images/aura/sm-aura10.jpg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/sm-aura11.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/sm-aura11.jpg'" data-image-src="/images/aura/sm-aura11.jpg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/sm-aura12.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/sm-aura12.jpg'" data-image-src="/images/aura/sm-aura12.jpg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/sm-aura13.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/sm-aura13.jpg'" data-image-src="/images/aura/sm-aura13.jpg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
           <div class="imgbox pb-0 mb-4 pt-2">
-            <img class="img-parallax imgproject auracard" style="
-     background-image: url(/images/aura/sm-aura14.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/aura/sm-aura14.jpg'" data-image-src="/images/aura/sm-aura14.jpg" class="img-parallax imgproject auracard"
+                 data-parallax-image v-parallax></div>
 
 
         </b-col>
@@ -293,9 +259,8 @@ For the presentation, some brand guidelines cards have been created showing the 
 
 
           <div class="imgbox">
-          <img class="img-parallax imgproject" style="
-     background-image: url(/images/aura/aura21.png)"
-               v-parallax></div>
+          <img v-responsive-background="'/images/aura/aura21.png'" data-image-src="/images/aura/aura21.png" class="img-parallax imgproject"
+               data-parallax-image v-parallax></div>
         </b-col>
 
 

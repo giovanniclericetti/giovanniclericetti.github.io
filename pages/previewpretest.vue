@@ -21,23 +21,20 @@
 
 
 
-        <img class="cover-parallax" style="
-
-
-     background-image: url(/images/covers/hero/preview_cover.jpg)"
+        <img v-responsive-background="'/images/covers/hero/preview_cover.jpg'" data-image-src="/images/covers/hero/preview_cover.jpg" class="cover-parallax"
 
 
 
 
-             v-parallax>
+             data-parallax-image v-parallax>
       </div>
 
 
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
-        <img class=""
+        <PortfolioImage class=""
      src="/images/covers/sm/preview_sm.jpg"
-        >
+ loading="lazy" fetchpriority="high" style="height: auto;" />
 
       </div>
 
@@ -71,16 +68,14 @@ In such an important stage of a student's life as choosing a university, Preview
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/previewpretest/preview1.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/previewpretest/preview1.jpg'" data-image-src="/images/previewpretest/preview1.jpg" class="img-parallax imgproject h400"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/previewpretest/preview3.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/previewpretest/preview3.jpg'" data-image-src="/images/previewpretest/preview3.jpg" class="img-parallax imgproject h500"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -96,23 +91,20 @@ Preview is an event where students' projects are shown to prospective students t
 
         <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3">
         <div class="imgbox">
-          <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/previewpretest/preview2.jpg)"
-               v-parallax></div>
+          <img v-responsive-background="'/images/previewpretest/preview2.jpg'" data-image-src="/images/previewpretest/preview2.jpg" class="img-parallax imgproject h600"
+               data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400 small-dis" style="
-     background-image: url(/images/previewpretest/preview4.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/previewpretest/preview4.jpg'" data-image-src="/images/previewpretest/preview4.jpg" class="img-parallax imgproject h400 small-dis"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400 small-dis" style="
-     background-image: url(/images/previewpretest/preview5.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/previewpretest/preview5.jpg'" data-image-src="/images/previewpretest/preview5.jpg" class="img-parallax imgproject h400 small-dis"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
 
@@ -130,51 +122,44 @@ Pretest is a three-day study event in preparation for the Design and Architectur
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/previewpretest/pretest6.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/previewpretest/pretest6.jpg'" data-image-src="/images/previewpretest/pretest6.jpg" class="img-parallax imgproject h500"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/previewpretest/pretest7.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/previewpretest/pretest7.jpg'" data-image-src="/images/previewpretest/pretest7.jpg" class="img-parallax imgproject h500"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="7" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400 small-dis " style="
-     background-image: url(/images/previewpretest/pretest8.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/previewpretest/pretest8.jpg'" data-image-src="/images/previewpretest/pretest8.jpg" class="img-parallax imgproject h400 small-dis "
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="5" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/previewpretest/pretest9.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/previewpretest/pretest9.jpg'" data-image-src="/images/previewpretest/pretest9.jpg" class="img-parallax imgproject h400"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="5" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/previewpretest/pretest10.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/previewpretest/pretest10.jpg'" data-image-src="/images/previewpretest/pretest10.jpg" class="img-parallax imgproject h400"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="7" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400 small-dis" style="
-     background-image: url(/images/previewpretest/pretest11.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/previewpretest/pretest11.jpg'" data-image-src="/images/previewpretest/pretest11.jpg" class="img-parallax imgproject h400 small-dis"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/previewpretest/pretest12.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/previewpretest/pretest12.jpg'" data-image-src="/images/previewpretest/pretest12.jpg" class="img-parallax imgproject h500"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
 
@@ -187,14 +172,14 @@ Pretest is a three-day study event in preparation for the Design and Architectur
       </b-row>
 
       <ProjectNextPrevious
-        thumbnail="/images/covers/next/qu-next.jpg"
-        class="column card-large biowhite quattriny"
-        to="quattriny"
-        pill1="Branding"
-        pill2="Copywriting"
-        pill3="Visual"
-        nextproject="Quattriny"
-        bionext="Ironic fiction-branding of a cash provider payment company"
+        thumbnail="/images/covers/next/avi-next.svg"
+        class="column card-large biowhite avi"
+        to="/audiovisualidentity"
+        pill1="Thesis"
+        pill2="Editorial"
+        pill3="Branding"
+        nextproject="Audiovisual Identity"
+        bionext="Research thesis focused on design and branding in the TV industry"
       />
 
 

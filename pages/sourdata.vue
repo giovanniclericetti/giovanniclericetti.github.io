@@ -29,23 +29,22 @@
 
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block ">
 
-        <img class="cover-parallax" style="
-     background-image: url(/images/covers/hero/sourdata.jpg)"
-             v-parallax>
+        <img v-responsive-background="'/images/covers/hero/sourdata.jpg'" data-image-src="/images/covers/hero/sourdata.jpg" class="cover-parallax"
+             data-parallax-image v-parallax>
       </div>
 
 
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
-        <img class=""
+        <PortfolioImage class=""
      src="/images/covers/sm/sourdata_sm.jpg"
-        >
+ loading="lazy" fetchpriority="high" style="height: auto;" />
 
       </div>
 
       <ProjectDescription
         description="
-SourData was born from a reflection on personal data and privacy, as a company that produces devices that monitor the most intimate data, the only service that collects data for money through a family of products: Coomy for masturbation, Poopy for feces and Weezy for breath. The data collected is stored on an SD card, which is later inserted into the Hub to share and receive payment. The shape of the Hub is reminiscent of a piggy bank, but instead of the usual coins, the users inserts in data, personified by the SD card. The project was also explored and discussed in detail in the bachelor thesis."
+SourData was born from a reflection on personal data and privacy, as a company that produces devices that monitor the most intimate data, the only service that collects data for money through a family of products: Coomy for masturbation, Poopy for feces and Weezy for breath. The data collected is stored on an SD card, which is later inserted into the Hub to share and receive payment. The shape of the Hub is reminiscent of a piggy bank, but instead of the usual coins, the user inserts data, personified by the SD card. The project was also explored and discussed in detail in the bachelor thesis."
         team="E. Ceriani, G. Fulghieri, F. Nozza, M. Zagaria"
         role="Brand Identity, Graphics, UX-UI, Keynote Presentation, Social Media, Editorial, Technology Research, Coding (HTML, CSS, JS, Arduino)"
         delivery="Final Synthesis Bachelor Lab, 2021-2022"
@@ -70,9 +69,8 @@ SourData was born from a reflection on personal data and privacy, as a company t
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/sourdata/sourdata_2.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/sourdata/sourdata_2.jpg'" data-image-src="/images/sourdata/sourdata_2.jpg" class="img-parallax imgproject h600"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -87,9 +85,8 @@ SourData was born from a reflection on personal data and privacy, as a company t
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/sourdata/sourdata_4.png)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/sourdata/sourdata_4.png'" data-image-src="/images/sourdata/sourdata_4.png" class="img-parallax imgproject h400"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -105,24 +102,21 @@ SourData was developed in every aspect, from the creation of the most general br
 
         <b-col cols="12" md="4" class="d-none d-md-block py-md-3 py-2 px-3">
         <div class="imgbox">
-          <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/sourdata/sourdata_5.png)"
-               v-parallax></div>
+          <img v-responsive-background="'/images/sourdata/sourdata_5.png'" data-image-src="/images/sourdata/sourdata_5.png" class="img-parallax imgproject h500"
+               data-parallax-image v-parallax></div>
         </b-col>
 
 
         <b-col cols="12" md="8" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/sourdata/sourdata_6.png)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/sourdata/sourdata_6.png'" data-image-src="/images/sourdata/sourdata_6.png" class="img-parallax imgproject h500"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/sourdata/sourdata_9.png)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/sourdata/sourdata_9.png'" data-image-src="/images/sourdata/sourdata_9.png" class="img-parallax imgproject h400"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -134,23 +128,20 @@ The core of the SourData experience are the gestures, each one  carrying meaning
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/sourdata/sourdata_3.png)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/sourdata/sourdata_3.png'" data-image-src="/images/sourdata/sourdata_3.png" class="img-parallax imgproject h500"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/sourdata/sourdata_11.png)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/sourdata/sourdata_11.png'" data-image-src="/images/sourdata/sourdata_11.png" class="img-parallax imgproject h500"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/sourdata/sourdata_10.png)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/sourdata/sourdata_10.png'" data-image-src="/images/sourdata/sourdata_10.png" class="img-parallax imgproject h500"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -168,23 +159,20 @@ The core of the SourData experience are the gestures, each one  carrying meaning
 
         <b-col cols="12" md="4" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/sourdata/sourdata_7.png)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/sourdata/sourdata_7.png'" data-image-src="/images/sourdata/sourdata_7.png" class="img-parallax imgproject h500"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="8" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/sourdata/sourdata_8.png)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/sourdata/sourdata_8.png'" data-image-src="/images/sourdata/sourdata_8.png" class="img-parallax imgproject h500"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/sourdata/sourdata_12.png)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/sourdata/sourdata_12.png'" data-image-src="/images/sourdata/sourdata_12.png" class="img-parallax imgproject h600"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
 
@@ -192,7 +180,7 @@ The core of the SourData experience are the gestures, each one  carrying meaning
           <ProjectDescription2
             title="Making Of"
             description="
-All the collection devices were physically were made through 3D printing after being designed in their shapes. Coomy and the Hub are also functional and programmed using an Arduino to actually monitor the data and share it on the online server. "
+All the collection devices were physically made through 3D printing after being designed in their shapes. Coomy and the Hub are also functional and programmed using an Arduino to actually monitor the data and share it on the online server. "
           /> </b-col>
 
 
@@ -209,17 +197,14 @@ All the collection devices were physically were made through 3D printing after b
       </b-row>
 
       <ProjectNextPrevious
-        title="Bottleneck"
-        thumbnail="/images/covers/next/bn-next.jpg
-"
-        mobileThumbnail="/images/cards/itback_sm.png"
-        class="column card-large biowhite bottleneck"
-        to="bottleneck"
-        pill1="UX-UI"
-        pill2="Interaction"
-        pill3="Branding"
-        nextproject="Bottleneck"
-        bionext="Digital wellbeing service for categorisation notifications"
+        thumbnail="/images/covers/cards/milan-card-v2.jpg"
+        class="column card-large biowhite acmilan"
+        to="/acmilan"
+        pill1="Visual"
+        pill2="Branding"
+        pill3="Sport Prod"
+        nextproject="AC Milan"
+        bionext="Production of presentations and visual assets for the Club and its partners"
       />
 
 

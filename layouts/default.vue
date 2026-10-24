@@ -3,11 +3,15 @@
 </template>
 
 <script>
+import { imagePreloads, imageFallback } from '~/utils/image-head'
 export default {
   name: "DefaultLayout",
   head() {
     return {
+      noscript: [{ hid: 'image-fallback', innerHTML: imageFallback(this.$route.path) }],
+      __dangerouslyDisableSanitizersByTagID: { 'image-fallback': ['innerHTML'] },
       link: [
+        ...imagePreloads(this.$route.path),
         {href: 'https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap', rel: 'stylesheet'}
       ]
     }
@@ -249,6 +253,7 @@ p2 {
 }
 
 .subtitlecv{
+  font-size: 16px;
   color: rgba(0, 0, 0, 0.5);
 }
 

@@ -7,11 +7,11 @@
         <div class="card-background">
 
         <img v-if="!mobileLayout" class="imgproject" alt="" aria-hidden="true"
-             :style="{ backgroundImage: 'url(' + thumbnail + ')' }"
+             v-responsive-background="{ src: thumbnail }" :data-image-src="thumbnail"
              v-prlx.background="{ speed: 0.04, mobileMaxWidth: 992, disabled: parallaxDisabled }"/>
 
           <img v-else class="imgproject imgmobile" alt="" aria-hidden="true"
-               :style="{ '--card-mobile-cover': 'url(' + mobileThumbnail + ')', '--card-desktop-cover': 'url(' + thumbnail + ')' }"
+               v-responsive-background="{ src: thumbnail, mobile: mobileThumbnail }" :data-image-src="thumbnail" :data-mobile-image-src="mobileThumbnail"
                />
 
         </div>
@@ -161,7 +161,7 @@ h6{
 }
 
 .imgmobile{
-  background-image: var(--card-mobile-cover);
+
 
   background-position: center;
   background-repeat: no-repeat;
@@ -171,7 +171,7 @@ h6{
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .imgmobile {
-    background-image: var(--card-desktop-cover);
+
     background-position: center top;
   }
 }

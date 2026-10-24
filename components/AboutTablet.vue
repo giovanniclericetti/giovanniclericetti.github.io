@@ -1,8 +1,8 @@
 <template>
   <div class="about-tablet">
     <div class="about-tablet-grid">
-      <div v-parallax class="tile portrait">
-        <img class="sr-only" src="~/static/images/aboutme/aboutme.png" alt="Giovanni Clericetti">
+      <div v-responsive-background="'/images/aboutme/aboutme.png'" data-image-src="/images/aboutme/aboutme.png" data-parallax-image v-parallax class="tile portrait">
+        <span class="sr-only">Giovanni Clericetti</span>
       </div>
 
       <a class="tile social instagram" href="https://www.instagram.com/giovanniclericetti.png/" target="_blank" rel="noopener" aria-label="Instagram">
@@ -15,7 +15,7 @@
 
       <a class="tile resume" href="/documents/giovanniclericetti.pdf" target="_blank" rel="noopener">
         <h4>My Resume</h4>
-        <img src="~/static/images/aboutme/cvbox.png" alt="">
+        <PortfolioImage src="/images/aboutme/cvbox.png" alt="" sizes="273px" />
       </a>
 
       <a class="tile linkedin" href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank" rel="noopener" aria-label="Check my LinkedIn">
@@ -48,7 +48,7 @@ export default {
 }
 
 .portrait {
-  background-image: url('~static/images/aboutme/aboutme.png');
+
   background-size: cover;
   background-position: center;
   grid-column: 1 / 11;

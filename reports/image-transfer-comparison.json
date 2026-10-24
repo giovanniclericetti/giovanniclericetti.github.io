@@ -1,0 +1,362 @@
+[
+  {
+    "version": "original",
+    "route": "about",
+    "width": 390,
+    "bytes": 13502550,
+    "requests": 8,
+    "images": [
+      {
+        "url": "http://127.0.0.1:3101/_nuxt/img/telegram.94dfad3.svg",
+        "bytes": 1357
+      },
+      {
+        "url": "http://127.0.0.1:3101/_nuxt/img/instagram.5fa8265.svg",
+        "bytes": 6293
+      },
+      {
+        "url": "http://127.0.0.1:3101/_nuxt/img/aboutme.5d6d040.png",
+        "bytes": 12850913
+      },
+      {
+        "url": "http://127.0.0.1:3101/_nuxt/img/checklinkedin.95b440b.svg",
+        "bytes": 7479
+      },
+      {
+        "url": "http://127.0.0.1:3101/_nuxt/img/cvbox.7088e2a.png",
+        "bytes": 363611
+      },
+      {
+        "url": "http://127.0.0.1:3101/_nuxt/img/letswork.06a71cf.svg",
+        "bytes": 5594
+      },
+      {
+        "url": "http://127.0.0.1:3101/_nuxt/img/spotify.0fa539d.svg",
+        "bytes": 252984
+      },
+      {
+        "url": "http://127.0.0.1:3101/favicon.png",
+        "bytes": 14319
+      }
+    ]
+  },
+  {
+    "version": "original",
+    "route": "about",
+    "width": 1440,
+    "bytes": 13544096,
+    "requests": 13,
+    "images": [
+      {
+        "url": "http://127.0.0.1:3101/_nuxt/img/telegram.94dfad3.svg",
+        "bytes": 1357
+      },
+      {
+        "url": "http://127.0.0.1:3101/_nuxt/img/instagram.5fa8265.svg",
+        "bytes": 6293
+      },
+      {
+        "url": "http://127.0.0.1:3101/_nuxt/img/aboutme.5d6d040.png",
+        "bytes": 12850913
+      },
+      {
+        "url": "http://127.0.0.1:3101/_nuxt/img/letswork.06a71cf.svg",
+        "bytes": 5594
+      },
+      {
+        "url": "http://127.0.0.1:3101/_nuxt/img/cvbox.7088e2a.png",
+        "bytes": 363611
+      },
+      {
+        "url": "http://127.0.0.1:3101/_nuxt/img/checklinkedin.95b440b.svg",
+        "bytes": 7479
+      },
+      {
+        "url": "http://127.0.0.1:3101/_nuxt/img/spotify.0fa539d.svg",
+        "bytes": 252984
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/aboutme/milan.png",
+        "bytes": 12475
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/aboutme/polimi.png",
+        "bytes": 6883
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/aboutme/meeting.png",
+        "bytes": 8668
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/aboutme/mediaset.png",
+        "bytes": 9629
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/aboutme/itca.png",
+        "bytes": 3891
+      },
+      {
+        "url": "http://127.0.0.1:3101/favicon.png",
+        "bytes": 14319
+      }
+    ]
+  },
+  {
+    "version": "original",
+    "route": "audiovisualidentity",
+    "width": 390,
+    "bytes": 1770812,
+    "requests": 8,
+    "images": [
+      {
+        "url": "http://127.0.0.1:3101/images/covers/sm/referto_sm.jpg",
+        "bytes": 110546
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/avi/avi4.jpg",
+        "bytes": 298037
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/avi/avi2.jpg",
+        "bytes": 288526
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/avi/avi7.jpg",
+        "bytes": 324651
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/avi/avi5.jpg",
+        "bytes": 200663
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/avi/avi8.jpg",
+        "bytes": 265483
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/avi/avi15.jpg",
+        "bytes": 268587
+      },
+      {
+        "url": "http://127.0.0.1:3101/favicon.png",
+        "bytes": 14319
+      }
+    ]
+  },
+  {
+    "version": "original",
+    "route": "audiovisualidentity",
+    "width": 1440,
+    "bytes": 4225395,
+    "requests": 17,
+    "images": [
+      {
+        "url": "http://127.0.0.1:3101/images/covers/sm/referto_sm.jpg",
+        "bytes": 110546
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/avi/avi4.jpg",
+        "bytes": 298037
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/covers/hero/avi.jpg",
+        "bytes": 243991
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/avi/avi2.jpg",
+        "bytes": 288526
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/avi/avi3.jpg",
+        "bytes": 229013
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/avi/avi7.jpg",
+        "bytes": 324651
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/avi/avi5.jpg",
+        "bytes": 200663
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/avi/avi6.jpg",
+        "bytes": 193372
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/avi/avi13.jpg",
+        "bytes": 547043
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/avi/avi8.jpg",
+        "bytes": 265483
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/avi/avi9.jpg",
+        "bytes": 200317
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/avi/avi15.jpg",
+        "bytes": 268587
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/avi/avi10.jpg",
+        "bytes": 177162
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/avi/avi12.jpg",
+        "bytes": 117221
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/avi/avi16.jpg",
+        "bytes": 155579
+      },
+      {
+        "url": "http://127.0.0.1:3101/images/avi/avi14.jpg",
+        "bytes": 590885
+      },
+      {
+        "url": "http://127.0.0.1:3101/favicon.png",
+        "bytes": 14319
+      }
+    ]
+  },
+  {
+    "version": "optimized",
+    "route": "about",
+    "width": 390,
+    "bytes": 994188,
+    "requests": 8,
+    "images": [
+      {
+        "url": "http://127.0.0.1:3100/_nuxt/img/instagram.5fa8265.svg",
+        "bytes": 6293
+      },
+      {
+        "url": "http://127.0.0.1:3100/_nuxt/img/telegram.94dfad3.svg",
+        "bytes": 1357
+      },
+      {
+        "url": "http://127.0.0.1:3100/_nuxt/img/checklinkedin.95b440b.svg",
+        "bytes": 7479
+      },
+      {
+        "url": "http://127.0.0.1:3100/_nuxt/img/spotify.0fa539d.svg",
+        "bytes": 252984
+      },
+      {
+        "url": "http://127.0.0.1:3100/_nuxt/img/letswork.06a71cf.svg",
+        "bytes": 5594
+      },
+      {
+        "url": "http://127.0.0.1:3100/optimized/2f75f15c31af2473-768.webp",
+        "bytes": 627814
+      },
+      {
+        "url": "http://127.0.0.1:3100/optimized/17b4730a2dd984b0-480.webp",
+        "bytes": 78348
+      },
+      {
+        "url": "http://127.0.0.1:3100/favicon.png",
+        "bytes": 14319
+      }
+    ]
+  },
+  {
+    "version": "optimized",
+    "route": "about",
+    "width": 1440,
+    "bytes": 2264546,
+    "requests": 13,
+    "images": [
+      {
+        "url": "http://127.0.0.1:3100/_nuxt/img/telegram.94dfad3.svg",
+        "bytes": 1357
+      },
+      {
+        "url": "http://127.0.0.1:3100/_nuxt/img/instagram.5fa8265.svg",
+        "bytes": 6293
+      },
+      {
+        "url": "http://127.0.0.1:3100/_nuxt/img/letswork.06a71cf.svg",
+        "bytes": 5594
+      },
+      {
+        "url": "http://127.0.0.1:3100/_nuxt/img/spotify.0fa539d.svg",
+        "bytes": 252984
+      },
+      {
+        "url": "http://127.0.0.1:3100/_nuxt/img/checklinkedin.95b440b.svg",
+        "bytes": 7479
+      },
+      {
+        "url": "http://127.0.0.1:3100/optimized/17b4730a2dd984b0-640.webp",
+        "bytes": 120416
+      },
+      {
+        "url": "http://127.0.0.1:3100/optimized/b6cf92f56dcfa40e-94.webp",
+        "bytes": 8218
+      },
+      {
+        "url": "http://127.0.0.1:3100/optimized/e129b21826b57d27-94.webp",
+        "bytes": 6404
+      },
+      {
+        "url": "http://127.0.0.1:3100/optimized/23f59ae8cda83065-94.webp",
+        "bytes": 4102
+      },
+      {
+        "url": "http://127.0.0.1:3100/optimized/6dfc3398e0bc2937-94.webp",
+        "bytes": 5958
+      },
+      {
+        "url": "http://127.0.0.1:3100/optimized/0356fab5e0fa6646-94.webp",
+        "bytes": 2276
+      },
+      {
+        "url": "http://127.0.0.1:3100/optimized/2f75f15c31af2473-1280.webp",
+        "bytes": 1829146
+      },
+      {
+        "url": "http://127.0.0.1:3100/favicon.png",
+        "bytes": 14319
+      }
+    ]
+  },
+  {
+    "version": "optimized",
+    "route": "audiovisualidentity",
+    "width": 390,
+    "bytes": 124865,
+    "requests": 2,
+    "images": [
+      {
+        "url": "http://127.0.0.1:3100/images/covers/sm/referto_sm.jpg",
+        "bytes": 110546
+      },
+      {
+        "url": "http://127.0.0.1:3100/favicon.png",
+        "bytes": 14319
+      }
+    ]
+  },
+  {
+    "version": "optimized",
+    "route": "audiovisualidentity",
+    "width": 1440,
+    "bytes": 556347,
+    "requests": 3,
+    "images": [
+      {
+        "url": "http://127.0.0.1:3100/images/covers/hero/avi.jpg",
+        "bytes": 243991
+      },
+      {
+        "url": "http://127.0.0.1:3100/favicon.png",
+        "bytes": 14319
+      },
+      {
+        "url": "http://127.0.0.1:3100/images/avi/avi4.jpg",
+        "bytes": 298037
+      }
+    ]
+  }
+]

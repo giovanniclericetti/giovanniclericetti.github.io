@@ -22,6 +22,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '~/plugins/responsive-background.js',
     { src: '~/plugins/parallax.client.js', mode: 'client' },
     { src: '~/plugins/vue-prlx.js', mode: 'client' },
   ],
@@ -31,6 +32,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxt/image',
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
   ],
@@ -40,6 +42,11 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
   ],
+
+  image: {
+    provider: 'portfolio',
+    providers: { portfolio: { provider: '~/providers/portfolio.js' } },
+  },
 
   bootstrapVue: {
     icons: true

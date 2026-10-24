@@ -3,7 +3,7 @@
 
   <div class="aboutmephoto">
 
-    <img src="~static/images/aboutme/aboutme.png" />
+    <PortfolioImage src="/images/aboutme/aboutme.png"  sizes="(min-width: 576px) 510px, calc(100vw - 30px)" />
 
   </div>
 
@@ -42,7 +42,7 @@
 
             <div class=" justify-content-center d-flex" style="height: 200%; width: 100%;">
 
-              <img ref="cvImage" src="~static/images/aboutme/cvbox.png" />
+              <PortfolioImage ref="cvImage" style="height: 100%; width: auto;" src="/images/aboutme/cvbox.png"  sizes="203px" />
 
             </div>
           </a>

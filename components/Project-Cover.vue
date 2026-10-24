@@ -2,7 +2,7 @@
 
   <div class="projectcover my-4">
 
-<img :src="cover">
+<PortfolioImage :src="cover" sizes="(min-width: 1200px) 1110px, 100vw" />
 
   </div>
 
@@ -25,6 +25,7 @@ export default {
 
 .projectcover img{
   width: 100%;
+  height: auto;
   object-fit: contain;
 }
 

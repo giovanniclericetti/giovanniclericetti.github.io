@@ -2,8 +2,8 @@
   <div class="container">
     <b-row>
       <b-col cols="5" style="padding-left: 0px; padding-right: 0px">
-        <div v-parallax class="photobox" style="background-color: #EF344D">
-          <img class="sr-only" src="~static/images/aboutme/aboutme.png" alt="Giovanni Clericetti"/>
+        <div v-responsive-background="'/images/aboutme/aboutme.png'" data-image-src="/images/aboutme/aboutme.png" data-parallax-image v-parallax class="photobox" style="background-color: #EF344D">
+          <span class="sr-only">Giovanni Clericetti</span>
         </div>
       </b-col>
       <b-col cols="7" style="padding-left: 0px; padding-right: 0px">
@@ -17,7 +17,7 @@
                       <h4 style="font-size: 32px; color: white">My Resume</h4>
                     </div>
                     <div class="boxcv justify-content-center d-flex" style="height: 150%; width: 100%;">
-                      <img ref="cvImage" src="~static/images/aboutme/cvbox.png" style="transform: translateZ(0);" />
+                      <PortfolioImage ref="cvImage" src="/images/aboutme/cvbox.png" style="transform: translateZ(0); height: 100%; width: auto;"  sizes="269px" />
                     </div>
                   </div>
                 </a>
@@ -70,7 +70,7 @@ export default {
   methods: {
     moveImage(event) {
       const container = this.$refs.container;
-      const image = this.$refs.cvImage;
+      const image = this.$refs.cvImage.$el;
 
       const containerRect = container.getBoundingClientRect();
       const centerX = containerRect.left + containerRect.width / 2;
@@ -107,7 +107,7 @@ export default {
 
 <style lang="scss" scoped>
 .photobox {
-  background-image: url('~static/images/aboutme/aboutme.png');
+
   background-size: cover;
   background-position: center;
   height: 230+105+20px;

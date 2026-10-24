@@ -18,16 +18,15 @@
 
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block ">
 
-        <img class="cover-parallax" style="
-     background-image: url(/images//covers/hero/itback.jpg)"
-             v-parallax>
+        <img v-responsive-background="'/images/covers/hero/itback.jpg'" data-image-src="/images/covers/hero/itback.jpg" class="cover-parallax"
+             data-parallax-image v-parallax>
       </div>
 
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
-        <img class=""
+        <PortfolioImage class=""
              src="/images/covers/sm/itback_sm.jpg"
-        >
+ loading="lazy" fetchpriority="high" style="height: auto;" />
 
       </div>
 
@@ -58,24 +57,21 @@
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3 d-md-block d-none">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500 small-dis" style="
-     background-image: url(/images/it-back/itback6.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/it-back/itback6.jpg'" data-image-src="/images/it-back/itback6.jpg" class="img-parallax imgproject h500 small-dis"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3 d-block d-md-none">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500 small-dis" style="
-     background-image: url(/images/it-back/itback6-sm.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/it-back/itback6-sm.jpg'" data-image-src="/images/it-back/itback6-sm.jpg" class="img-parallax imgproject h500 small-dis"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <div class="imgbox">
-            <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/it-back/itback1.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/it-back/itback1.jpg'" data-image-src="/images/it-back/itback1.jpg" class="img-parallax imgproject h600"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -90,9 +86,8 @@ It continues with the website, where this path of curiosity and recognition of t
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
         <div class="imgbox">
-          <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/it-back/itback2.jpg)"
-               v-parallax></div>
+          <img v-responsive-background="'/images/it-back/itback2.jpg'" data-image-src="/images/it-back/itback2.jpg" class="img-parallax imgproject h600"
+               data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -107,9 +102,8 @@ The objects presented on the web platform are four, like the sections of the sit
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/it-back/itback3.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/it-back/itback3.jpg'" data-image-src="/images/it-back/itback3.jpg" class="img-parallax imgproject h400"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
 
@@ -117,30 +111,26 @@ The objects presented on the web platform are four, like the sections of the sit
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
 
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/it-back/itback4.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/it-back/itback4.jpg'" data-image-src="/images/it-back/itback4.jpg" class="img-parallax imgproject h500"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/it-back/itback5.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/it-back/itback5.jpg'" data-image-src="/images/it-back/itback5.jpg" class="img-parallax imgproject h500"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/it-back/itback8.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/it-back/itback8.jpg'" data-image-src="/images/it-back/itback8.jpg" class="img-parallax imgproject h600"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h400" style="
-     background-image: url(/images/it-back/itback7.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/it-back/itback7.jpg'" data-image-src="/images/it-back/itback7.jpg" class="img-parallax imgproject h400"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
 

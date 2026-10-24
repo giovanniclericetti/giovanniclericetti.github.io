@@ -1,14 +1,25 @@
 <template>
   <div class="work-experience">
     <article v-for="experience in experiences" :key="experience.company" class="work-experience-item">
-      <img
-        :src="`/images/aboutme/${experience.logo}.png`"
-        alt=""
-        width="48"
-        height="48"
-        loading="lazy"
-        class="work-experience-logo"
+      <component
+        :is="experience.url ? 'a' : 'span'"
+        :href="experience.url"
+        :target="experience.url ? '_blank' : undefined"
+        :rel="experience.url ? 'noopener noreferrer' : undefined"
+        :aria-label="experience.url ? experience.company : undefined"
+        class="work-experience-logo-container"
+        :class="{ 'work-experience-logo-outlined': experience.logo === 'polimi' }"
       >
+        <PortfolioImage
+          :src="`/images/aboutme/${experience.logo}.png`"
+          alt=""
+          width="48"
+          height="48"
+          loading="lazy"
+          class="work-experience-logo"
+          sizes="48px"
+        />
+      </component>
       <AboutCvElement
         :category="`${experience.company}, ${experience.period}`"
         class="work-experience-content mt-0"
@@ -32,6 +43,7 @@ export default {
           company: 'AC Milan',
           period: '2024-ongoing',
           logo: 'milan',
+          url: 'https://www.acmilan.com/it',
           role: 'Visual and Brand Design Consultant',
           description: 'Design and development of graphic assets adapted from ACM’s visual identity across various sports-related areas: from creating visual identities for internal projects and defining the seasonal visual language, to supporting events, and up to sport production and live direction during matches at San Siro Stadium. Main focus on producing presentations for partnerships and graphics tailored to sponsor events, in close collaboration with marketing, sales, and strategy teams. Work performed under strict confidentiality.',
         },
@@ -39,6 +51,7 @@ export default {
           company: 'IT Carlo Acutis',
           period: '2026',
           logo: 'itca',
+          url: 'https://itcarloacutis.it/',
           role: 'Graphic Design Lab Teacher',
           description: 'Teaching the fundamentals of graphic design and visual communication to high school students. Responsible for planning lessons, developing practical projects, guiding students through the creative process, and providing feedback and design revisions.',
         },
@@ -46,6 +59,7 @@ export default {
           company: 'Poli.Design Master',
           period: '2025',
           logo: 'polimi',
+          url: 'https://www.polidesign.net/it/formazione/communication-design/corso--video-identity/',
           role: 'Teaching Assistant and Academic Tutor',
           description: 'University Assistant and Academic Tutor for the Advanced Course “Video Identity: Dynamic Communication Systems for the Entertainment Industry” at POLI.design, in collaboration with Mediaset. Role awarded following thesis research on Audiovisual Identity.',
         },
@@ -83,19 +97,57 @@ export default {
 }
 
 .work-experience-item + .work-experience-item {
-  margin-top: 16px;
+  margin-top: 28px;
 }
 
-.work-experience-logo {
+.work-experience-logo-container {
   align-self: center;
   display: block;
   width: 48px;
   height: 48px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.work-experience-logo-container:hover {
+  text-decoration: none;
+}
+
+.work-experience-logo-outlined {
+  box-shadow: 0 0 0 1pt #666;
+}
+
+.work-experience-logo-container:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+.work-experience-logo {
+  display: block;
+  width: 48px;
+  height: 48px;
   object-fit: contain;
+  transition: transform 0.3s ease-in-out;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .work-experience-logo-container:hover .work-experience-logo {
+    transform: scale(1.05);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .work-experience-logo {
+    transition: none;
+  }
+
+  .work-experience-logo-container:hover .work-experience-logo {
+    transform: none;
+  }
 }
 
 .work-experience-description {
-  font-size: 16px;
   grid-column: 1 / -1;
 }
 
@@ -116,6 +168,7 @@ export default {
     gap: 12px;
   }
 
+  .work-experience-logo-container,
   .work-experience-logo {
     width: 40px;
     height: 40px;

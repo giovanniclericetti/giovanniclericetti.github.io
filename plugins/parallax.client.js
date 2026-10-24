@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import { imageInfo } from '~/utils/portfolio-images'
 
 // Every image travels 64px while crossing the viewport, regardless of its crop.
 const TRAVEL = 64
@@ -25,14 +26,18 @@ function render() {
     loadImage(el)
     if (!entry.image.naturalWidth) return
 
+    // Use the original aspect ratio, unaffected by rounding in resized files.
+    const original = imageInfo(el.dataset.imageSrc)
+    const naturalWidth = original ? original.width : entry.image.naturalWidth
+    const naturalHeight = original ? original.height : entry.image.naturalHeight
     const travel = enabled ? TRAVEL : 0
     // Reserve enough image above and below the frame even for wide photographs.
     const scale = Math.max(
-      width / entry.image.naturalWidth,
-      (height + travel) / entry.image.naturalHeight
+      width / naturalWidth,
+      (height + travel) / naturalHeight
     )
-    const imageWidth = entry.image.naturalWidth * scale
-    const imageHeight = entry.image.naturalHeight * scale
+    const imageWidth = naturalWidth * scale
+    const imageHeight = naturalHeight * scale
     const progress = Math.max(
       0,
       Math.min(1, (viewport - top) / (viewport + height))
@@ -67,6 +72,7 @@ Vue.directive('parallax', {
       window.addEventListener('resize', schedule)
       resizeObserver = new ResizeObserver(schedule)
     }
+    el.addEventListener('portfolio:image-ready', schedule)
     entries.set(el, {
       image: new Image(),
       original: {
@@ -84,6 +90,7 @@ Vue.directive('parallax', {
   unbind(el) {
     const entry = entries.get(el)
     if (!entry) return
+    el.removeEventListener('portfolio:image-ready', schedule)
     entry.image.onload = null
     Object.assign(el.style, entry.original)
     resizeObserver.unobserve(el)

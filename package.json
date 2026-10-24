@@ -13,7 +13,12 @@
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint:prettier": "prettier --check .",
     "lint": "npm run lint:js && npm run lint:prettier",
-    "lintfix": "prettier --write --list-different . && npm run lint:js -- --fix"
+    "lintfix": "prettier --write --list-different . && npm run lint:js -- --fix",
+    "images:optimize": "node scripts/optimize-images.cjs",
+    "predev": "npm run images:optimize",
+    "prebuild": "npm run images:optimize",
+    "pregenerate": "npm run images:optimize",
+    "images:verify": "node scripts/verify-images.cjs"
   },
   "dependencies": {
     "bootstrap": "^4.6.1",
@@ -32,6 +37,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.3",
+    "@nuxt/image": "0.7.1",
     "@nuxtjs/eslint-config": "^8.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
     "eslint": "^8.4.1",
@@ -39,6 +45,7 @@
     "eslint-plugin-nuxt": "^3.1.0",
     "eslint-plugin-vue": "^8.2.0",
     "prettier": "^2.5.1",
+    "sharp": "0.34.5",
     "vercel": "^33.5.3"
   }
 }

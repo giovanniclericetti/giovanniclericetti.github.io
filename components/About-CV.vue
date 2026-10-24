@@ -17,7 +17,7 @@
 
         <AboutCvElement category="Presentazioni">
           <template #slotcvelement>
-            <p>Keynote, Figma Slide, PowerPoint, Slides.com</p>
+            <p>Keynote, Figma Slides, PowerPoint, Slides.com</p>
           </template>
         </AboutCvElement>
 
@@ -52,8 +52,8 @@
 
         <AboutCvElement category="2022-2025">
           <template #slotcvelement>
-            <p>Laurea Magistrale in Design della Comunicazione</p>
-            <p class="subtitlecv"><a class="hover-a-underline-animation" href="https://www.polimi.it/">Politecnico di Milano</a>, Scuola del Design (110/110)</p>
+            <p>Master’s Degree in Communication Design</p>
+            <p class="subtitlecv"><a class="hover-a-underline-animation" href="https://www.polimi.it/">Politecnico di Milano</a>, School of Design (110/110)</p>
           </template>
         </AboutCvElement>
 
@@ -66,15 +66,15 @@
 
         <AboutCvElement category="2019-2022">
           <template #slotcvelement>
-            <p>Laurea Triennale in Design della Comunicazione</p>
-            <p class="subtitlecv"><a class="hover-a-underline-animation" href="https://www.polimi.it/">Politecnico di Milano</a>, Scuola del Design (110/110)</p>
+            <p>Bachelor’s Degree in Communication Design</p>
+            <p class="subtitlecv"><a class="hover-a-underline-animation" href="https://www.polimi.it/">Politecnico di Milano</a>, School of Design (110/110)</p>
           </template>
         </AboutCvElement>
 
         <AboutCvElement category="2014-2019">
           <template #slotcvelement>
-            <p>Liceo Artistico (indirizzo Architettura)</p>
-            <p class="subtitlecv"><a class="hover-a-underline-animation" href="https://www.sacrocuore.org/">Fondazione Sacro Cuore</a>, Milano</p>
+            <p>Art High School Diploma (Architecture)</p>
+            <p class="subtitlecv"><a class="hover-a-underline-animation" href="https://www.sacrocuore.org/">Fondazione Sacro Cuore</a>, Milan</p>
           </template>
         </AboutCvElement>
 
@@ -82,44 +82,52 @@
 
         <AboutCvElement category="2023, Polimi Design School">
           <template #slotcvelement>
-            <p>Belonging / Not Belonging - Indie Magazine for<br>social change in spazio espositivo La Stecca 3</p>
-            <p class="subtitlecv">Presentazione del progetto Referto Magazine</p>
+            <p>Belonging / Not Belonging - Indie Magazine for<br>social change at La Stecca 3 exhibition space</p>
+            <p class="subtitlecv">Presentation of the <NuxtLink class="hover-a-underline-animation" to="/referto">Referto Magazine</NuxtLink> project</p>
           </template>
         </AboutCvElement>
 
         <AboutCvElement category="2022, FuoriSalone Milan Design Week">
           <template #slotcvelement>
-            <p>DesignXDesigner - Polimi Design Student<br>Exhibition al Fuorisalone</p>
-            <p class="subtitlecv">Presentation of SourData project</p>
+            <p>DesignXDesigner - Polimi Design Student<br>Exhibition at Fuorisalone</p>
+            <p class="subtitlecv">Presentation of the <NuxtLink class="hover-a-underline-animation" to="/sourdata">SourData</NuxtLink> project</p>
           </template>
         </AboutCvElement>
 
         <AboutCvElement category="2022, ATS Insubria Workshop">
           <template #slotcvelement>
             <p>ATS Insubria Social OOH Campaign</p>
-            <p class="subtitlecv">Selezione del progetto BellaScusa per la campagna di comunicazione di ATS Insubria contro il gioco d’azzardo patologico.</p>
+            <p class="subtitlecv">BellaScusa was selected for ATS Insubria’s communication campaign against problem gambling.</p>
           </template>
         </AboutCvElement>
 
         <h4 class="gradient mt-md-5 mt-4"> Social Initiatives </h4>
 
-        <AboutCvElement category="University Politics">
+        <AboutCvElement category="University Politics (2021-2023)">
           <template #slotcvelement>
-            <p>Representative of the Course of Study<br>in Communication Design at Politecnico di Milano</p>
+            <p>Student Representative</p>
+            <p class="subtitlecv">Communication Design Programme Council (CCS), Politecnico di Milano</p>
           </template>
         </AboutCvElement>
 
-        <AboutCvElement category="University Volunteering">
+        <AboutCvElement category="Volunteering (2021-2024)">
           <template #slotcvelement>
-            <p>Sales Clerk at University Bookstore
-              CUSL,<br>Politecnico di Milano</p>
+            <p>Meeting di Rimini - Exhibition Spaces</p>
+            <p class="subtitlecv">Collaboration on graphics, panels and exhibition areas</p>
           </template>
         </AboutCvElement>
 
-
-        <AboutCvElement category="Volunteering">
+        <AboutCvElement category="Volunteering (2019-2021)">
           <template #slotcvelement>
-            <p>Banco Alimentare Volunteer for<br>National Food Collection Day </p>
+            <p>Sales Clerk at the University Bookstore</p>
+            <p class="subtitlecv">CUSL, Politecnico di Milano</p>
+          </template>
+        </AboutCvElement>
+
+        <AboutCvElement category="Volunteering (every year)">
+          <template #slotcvelement>
+            <p>Banco Alimentare and Banco Farmaceutico</p>
+            <p class="subtitlecv">Collection of food and medicines for people in need.</p>
           </template>
         </AboutCvElement>
 
@@ -179,7 +187,7 @@ export default {
   width: 100%;
   transform: scaleX(0);
   height: 2px;
-  bottom: 2px;
+  bottom: 1.5px;
   left: 0;
   background-color: black;
   transform-origin: bottom right;

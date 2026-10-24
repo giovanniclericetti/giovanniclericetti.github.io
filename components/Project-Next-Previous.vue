@@ -20,7 +20,8 @@
       <NuxtLink :to="to" :aria-label="nextproject">
 
         <div class="card-background row justify-content-center" >
-          <img :src="thumbnail" alt="" loading="lazy" decoding="async"/>
+          <!-- Keep native dimensions: the existing crop depends on intrinsic image size. -->
+          <NuxtImg :src="thumbnail" alt="" loading="lazy" decoding="async" />
         </div>
 
       </NuxtLink>

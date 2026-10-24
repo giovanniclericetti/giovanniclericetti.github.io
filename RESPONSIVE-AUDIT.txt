@@ -1,0 +1,93 @@
+RESPONSIVE AUDIT — 17 ottobre 2026
+
+Stato: correzioni sul codice applicate; validazione visiva nel browser ancora da eseguire.
+Anteprima: http://localhost:3000
+
+ARCHITETTURA
+La home usa due b-row Bootstrap, entrambe renderizzate, selezionate con display CSS.
+Le card condividono lo stesso oggetto projects. L'ordine mobile differisce da quello
+per colonne desktop: mantenere le due composizioni è una scelta ragionevole per
+questa correzione conservativa. Restano 20 componenti card (10 per composizione).
+Il numero di elementi immagine delle card scende da 40 a 20 grazie al prop
+mobileLayout. Non è stato introdotto rendering condizionale dipendente dalla
+larghezza del browser, evitando divergenze tra HTML server e hydration.
+La composizione mobile ora resta attiva fino a 991.98 px; da 992 px rimangono
+le tre colonne desktop esistenti. Ordine, immagini e altezze mobile preservati.
+
+PROBLEMI E CORREZIONI
+Alta: ID accordion-2 duplicato in About. Work Experience ora ha ID e stato propri.
+Le frecce riflettono v-model; il pulsante intero funziona anche con tastiera.
+Media: l'overlay Next Project rimandava alla home. Ora usa la destinazione della card.
+Media: foto e riquadri About assenti tra 768 e 991 px. AboutPhoto copre quella fascia.
+Media: card con interlinea 50%, inadatta ai titoli su più righe. Impostata a 1.2.
+Media: titolo progetto fisso su mobile. Dimensione fluida e a capo di emergenza.
+Media: header con bersagli piccoli. Area minima 44 px su mobile/tablet e touch.
+Media: colonne footer con prop Bootstrap non valido. Corretti cols e md.
+Media: riquadro My Resume mobile senza link. Collegato al PDF già presente.
+Media: immagine LinkedIn mobile collegata a Telegram. Ripristinato il link LinkedIn.
+Media: colonna informazioni Audiovisual Identity con padding desktop su mobile.
+Il padding aggiuntivo ora parte da md.
+Performance: iframe off-screen con loading=lazy; immagini condivise selezionate
+con lazy loading e decoding asincrono. I video locali mantengono autoplay/muted/loop
+con playsinline per la riproduzione in pagina sui dispositivi mobili.
+Performance: parallax delle card disabilitato sotto 992 px e con reduced-motion;
+hover zoom limitato a puntatori precisi con hover. Parallax dei progetti non
+precarica tramite Image gli elementi nascosti e non ricalcola a ogni scroll mobile.
+
+FILE E MOTIVAZIONI
+components/Portfolio-Grid.vue: breakpoint e selezione immagine della composizione mobile.
+components/Portfolio-Card.vue: una sola immagine per card, link a piena area,
+  interlinea leggibile, hover/touch e preferenze di movimento.
+components/About-CV-Accordion.vue: ID univoci, stato coerente, pulsanti accessibili,
+  CSS circoscritto al componente.
+components/AboutPhoto.vue: props Vue valido, foto dimensionata nel contenitore,
+  link LinkedIn e riquadro Resume funzionanti.
+pages/about.vue: foto mobile visibile anche nella fascia tablet.
+components/Project-Next-Previous.vue: link corretto, lazy loading, icona non compressa.
+components/Project-Intro.vue: titolo fluido e protezione delle parole lunghe su mobile.
+components/Index-Header.vue, About-Header.vue, Project-Header.vue: aree touch minime.
+components/Portfolio-Footer.vue: colonne Bootstrap valide e area touch dei link.
+components/Project-SingleImage.vue: lazy loading; immagine al 100% su mobile,
+  evitando il taglio imposto dal 120% desktop.
+components/Project-Video.vue: iframe differito.
+pages/audiovisualidentity.vue: allineamento mobile della colonna informazioni.
+pages/bottleneck.vue, quattriny.vue, referto.vue: iframe lazy e video playsinline.
+pages/carachioggia.vue, disruptive.vue, sourdata.vue: iframe lazy.
+plugins/parallax.client.js: evita preparazione di immagini nascoste e lavoro sullo scroll mobile.
+
+CONTROLLI ESEGUITI
+- Compilazione di sviluppo Nuxt client/server riuscita.
+- 15 route: HTTP 200 (incluse le pagine escluse, in sola lettura).
+- Nessun ID duplicato nell'HTML delle 15 route.
+- 34 URL multimediali locali estratti dall'HTML: tutti HTTP 200.
+- 192 riferimenti locali esaminati sul filesystem. Un riferimento preesistente
+  a /images/cards/itback_sm.png non esiste, ma è passato a un attributo non usato
+  da ProjectNextPrevious in sourdata.vue; non risulta una richiesta immagine attiva.
+- ESLint sui 21 file modificati: 0 errori, 253 avvisi (prevalentemente stile/naming).
+- Nessun errore di template nuovo rispetto al backup. Restano messaggi preesistenti
+  sui tag script Vimeo collocati nei template di sei pagine.
+- acmilan.vue, acmilan2.vue, acmilan3.vue identici byte per byte alla copia iniziale.
+  I componenti condivisi aggiornati sono naturalmente utilizzati anche da queste route.
+- Nessuna dipendenza aggiunta; contenuti testuali e file immagine non modificati.
+
+VIEWPORT E LIMITI
+Nessun viewport verificato nel browser: 320, 375, 390, 430, 768, 1024, 1440,
+1920 px e larghezze intermedie rimangono da testare visivamente.
+Il controllo browser ha restituito Browser is not available; il fallback nativo
+è stato interrotto dal sistema e infine ha restituito noWindowsAvailable.
+I controlli HTTP e sul codice NON dimostrano assenza di overflow, sovrapposizioni,
+layout shift, problemi touch o regressioni visive desktop.
+Non misurati Lighthouse/Core Web Vitals, throughput su rete mobile, né riproduzione
+Vimeo o autoplay su hardware iOS/Android reale.
+Le immagini di sfondo visibili non hanno ancora un sistema generale di lazy loading;
+non è stata introdotta una nuova pipeline di compressione o conversione degli asset.
+Audiovisual Identity usa già referto_sm.jpg come cover mobile: lasciata invariata
+per rispettare il vincolo di non cambiare le immagini senza chiarire l'intenzione.
+I due alberi della griglia restano nel DOM, scelta conservativa per preservare
+la composizione ed evitare un refactor strutturale non convalidato nel browser.
+Non è quindi possibile certificare l'audit responsive completo in questa sessione.
+
+BACKUP
+Il progetto non contiene una directory .git utilizzabile.
+Copia precedente alle modifiche: /tmp/portfolio-responsive-before
+Risultati HTTP: /tmp/portfolio-responsive-http.json

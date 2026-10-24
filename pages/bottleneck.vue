@@ -16,17 +16,16 @@
 
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block ">
 
-        <img class="cover-parallax" style="
-     background-image: url(/images//covers/hero/bottleneck.jpg)"
-             v-parallax>
+        <img v-responsive-background="'/images/covers/hero/bottleneck.jpg'" data-image-src="/images/covers/hero/bottleneck.jpg" class="cover-parallax"
+             data-parallax-image v-parallax>
       </div>
 
 
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
-        <img class=""
+        <PortfolioImage class=""
      src="/images/covers/sm//bottleneck_sm.jpg"
-        >
+ loading="lazy" fetchpriority="high" style="height: auto;" />
 
       </div>
 
@@ -56,9 +55,8 @@ The project is based on the problem of notification overload for people working 
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h600" style="
-     background-image: url(/images/bottleneck/bottleneck1.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/bottleneck/bottleneck1.jpg'" data-image-src="/images/bottleneck/bottleneck1.jpg" class="img-parallax imgproject h600"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -85,30 +83,26 @@ The project began with careful research into how notifications are perceived in 
 
         <b-col cols="12" md="8" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/bottleneck/bottleneck2.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/bottleneck/bottleneck2.jpg'" data-image-src="/images/bottleneck/bottleneck2.jpg" class="img-parallax imgproject h500"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="4" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/bottleneck/bottleneck3.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/bottleneck/bottleneck3.jpg'" data-image-src="/images/bottleneck/bottleneck3.jpg" class="img-parallax imgproject h500"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/bottleneck/bottleneck5.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/bottleneck/bottleneck5.jpg'" data-image-src="/images/bottleneck/bottleneck5.jpg" class="img-parallax imgproject h500"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/bottleneck/bottleneck6.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/bottleneck/bottleneck6.jpg'" data-image-src="/images/bottleneck/bottleneck6.jpg" class="img-parallax imgproject h500"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12">
@@ -175,23 +169,21 @@ A complete design system for the Bottleneck brand was created for the platform, 
 
         <b-col cols="12" md="12" class="d-block d-md-none  py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject " style="height: 250px;
-     background-image: url(/images/bottleneck/bottleneck4.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/bottleneck/bottleneck4.jpg'" data-image-src="/images/bottleneck/bottleneck4.jpg" class="img-parallax imgproject " style="height: 250px;
+     "
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject " style="
-     background-image: url(/images/bottleneck/bottleneck4.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/bottleneck/bottleneck4.jpg'" data-image-src="/images/bottleneck/bottleneck4.jpg" class="img-parallax imgproject "
+                 data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img class="img-parallax imgproject h500" style="
-     background-image: url(/images/bottleneck/bottleneck10.jpg)"
-                 v-parallax></div>
+            <img v-responsive-background="'/images/bottleneck/bottleneck10.jpg'" data-image-src="/images/bottleneck/bottleneck10.jpg" class="img-parallax imgproject h500"
+                 data-parallax-image v-parallax></div>
         </b-col>
 
 
@@ -200,15 +192,14 @@ A complete design system for the Bottleneck brand was created for the platform, 
       </b-row>
 
       <ProjectNextPrevious
-        thumbnail="/images/covers/next/rf-next.jpg
-"
-        class="column card-large biowhite referto"
-        to="referto"
-        pill1="Editorial"
-        pill2="Visual"
-        pill3="Branding"
-        nextproject="Referto Magazine"
-        bionext="Indipendent magazine for social change about lives of health workers"
+        thumbnail="/images/covers/next/pr-next.jpg"
+        class="column card-large biowhite previewpretest"
+        to="/previewpretest"
+        pill1="Branding"
+        pill2="Social"
+        pill3="Visual"
+        nextproject="Preview & Pretest"
+        bionext="Series of event dedicated to future students of Politecnico di Milano"
       />
 
 
