@@ -18,7 +18,7 @@ export default {
 @media (max-width: 768px) {
 
   .cvpar{
-    width: 80%;
+    width: 100%;
   }
 
 }

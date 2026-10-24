@@ -1,8 +1,8 @@
 <template>
-  <div class="about-tablet mt-4">
+  <div class="about-tablet">
     <div class="about-tablet-grid">
-      <div class="tile portrait">
-        <img src="~/static/images/aboutme/aboutme.png" alt="Giovanni Clericetti">
+      <div v-parallax class="tile portrait">
+        <img class="sr-only" src="~/static/images/aboutme/aboutme.png" alt="Giovanni Clericetti">
       </div>
 
       <a class="tile social instagram" href="https://www.instagram.com/giovanniclericetti.png/" target="_blank" rel="noopener" aria-label="Instagram">
@@ -48,17 +48,12 @@ export default {
 }
 
 .portrait {
+  background-image: url('~static/images/aboutme/aboutme.png');
+  background-size: cover;
+  background-position: center;
   grid-column: 1 / 11;
   grid-row: 1 / 3;
   position: relative;
-}
-
-.portrait img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
 }
 
 .social {

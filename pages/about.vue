@@ -6,7 +6,8 @@
 
     <About-Header/>
 
-    <div class="mt-5 py-lg-5 py-2">
+    <div class="about-sections">
+    <div>
 
       <h2 class="titleindex">
 
@@ -36,10 +37,11 @@ During my tenure at the university in Bovisa, I was surprised by my own attracti
 
 "
 
-      class=""/>
+      class="about-story"/>
 
-    <About-CV class="d-none d-lg-block"/>
-    <About-CV-Accordion class="d-lg-none d-block"/>
+    <About-CV class="about-cv-desktop d-none d-lg-block"/>
+    <About-CV-Accordion class="about-cv-mobile d-lg-none d-block"/>
+    </div>
 
 
 
@@ -54,6 +56,35 @@ During my tenure at the university in Bovisa, I was surprised by my own attracti
 <script>
   export default {
     name: "About-Me",
+    mounted() {
+      if (!('IntersectionObserver' in window) ||
+          window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+      const targets = this.$el.querySelectorAll([
+        '.about-story',
+        '.about-cv-desktop > .row > div > h4',
+        '.about-cv-desktop > .row > div > .cvpar',
+        '.about-cv-desktop .work-experience-item',
+        '.about-cv-mobile > .accordion',
+        '.about-cv-mobile > h4'
+      ].join(', '));
+
+      this.revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(({ target, isIntersecting }) => {
+          if (!isIntersecting) return;
+          target.classList.add('is-revealed');
+          this.revealObserver.unobserve(target);
+        });
+      }, { threshold: 0, rootMargin: '0px 0px -40px 0px' });
+
+      targets.forEach((target) => {
+        target.classList.add('about-reveal');
+        this.revealObserver.observe(target);
+      });
+    },
+    beforeDestroy() {
+      if (this.revealObserver) this.revealObserver.disconnect();
+    },
     computed: {
       age() {
         const currentYear = new Date().getFullYear();
@@ -67,10 +98,25 @@ During my tenure at the university in Bovisa, I was surprised by my own attracti
 
 .about .titleindex {
   width: 95%;
+  margin-bottom: 0;
 }
 
 .about {
   --color-primary: #FF6A68;
+}
+
+.about-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-top: 48px;
+}
+
+@media (min-width: 992px) {
+  .about-sections {
+    gap: 80px;
+    margin-top: 96px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -93,5 +139,27 @@ During my tenure at the university in Bovisa, I was surprised by my own attracti
     line-height: 140%
   }
 
+}
+</style>
+
+<style>
+.about .about-reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 850ms ease, transform 850ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.about .about-reveal.is-revealed,
+.about .about-reveal:focus-within {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about .about-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }
 </style>

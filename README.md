@@ -1,5 +1,19 @@
 # giovanniclericetti
 
+## Publish updates
+
+This folder tracks `master` in `giovanniclericetti/giovanniclericetti.github.io`.
+Vercel's `portfolio` project is connected to the repository and deploys pushes automatically.
+
+```bash
+npm run generate
+git add <changed-files>
+git commit -m "Describe the update"
+git push origin master
+```
+
+Live site: https://portfolio-giovanniclericetti.vercel.app
+
 ## Build Setup
 
 ```bash

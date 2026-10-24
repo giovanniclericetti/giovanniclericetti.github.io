@@ -1,7 +1,7 @@
 <template>
 <div>
 
-  <div class="aboutmephoto mt-4">
+  <div class="aboutmephoto">
 
     <img src="~static/images/aboutme/aboutme.png" />
 

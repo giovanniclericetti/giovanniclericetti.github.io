@@ -1,242 +1,149 @@
 <template>
-
-  <div class="mt-5">
+  <div>
     <b-row>
+      <b-col cols="12" lg="7">
+        <h4 class="gradient"> Work Experiences </h4>
 
-      <b-col cols="12" md="4">
 
+        <AboutWorkExperience />
+
+        <h4 class="gradient mt-md-5 mt-4"> Software and Skills </h4>
+
+        <AboutCvElement category="Design Tools">
+          <template #slotcvelement>
+            <p>Figma, Illustrator, Photoshop, InDesign,<br>Lightroom, Premiere Pro, iMovie, Audition</p>
+          </template>
+        </AboutCvElement>
+
+        <AboutCvElement category="Presentazioni">
+          <template #slotcvelement>
+            <p>Keynote, Figma Slide, PowerPoint, Slides.com</p>
+          </template>
+        </AboutCvElement>
+
+        <AboutCvElement category="AI Tools">
+          <template #slotcvelement>
+            <p>ChatGPT, Claude, EnvatoLab, Nanobanana,<br>Midjourney, Gemini, Photoshop AI</p>
+          </template>
+        </AboutCvElement>
+
+        <AboutCvElement category="Gestione Impianti Digitali">
+          <template #slotcvelement>
+            <p>FluidNEXT, MagicINFO</p>
+          </template>
+        </AboutCvElement>
+
+        <AboutCvElement category="Other Tools">
+          <template #slotcvelement>
+            <p>Miro, Word, Excel, Teams, GettyImages</p>
+          </template>
+        </AboutCvElement>
+
+        <AboutCvElement category="Coding &amp; Website">
+          <template #slotcvelement>
+            <p>HTML, CSS, Javascript, Nuxt, Figma Site,<br>Vue, Bootstrap, Wordpress, Framer</p>
+          </template>
+        </AboutCvElement>
+
+      </b-col>
+
+      <b-col cols="12" lg="5">
         <h4 class="gradient"> Education </h4>
 
         <AboutCvElement category="2022-2025">
-
           <template #slotcvelement>
-            <p>Master Degree in Communication Design at <a class="hover-a-underline-animation"
-                                                           href="https://www.polimi.it/">Politecnico di Milano</a></p>
+            <p>Laurea Magistrale in Design della Comunicazione</p>
+            <p class="subtitlecv"><a class="hover-a-underline-animation" href="https://www.polimi.it/">Politecnico di Milano</a>, Scuola del Design (110/110)</p>
           </template>
-
         </AboutCvElement>
 
         <AboutCvElement category="2024">
-
           <template #slotcvelement>
-            <p>Erasmus Experience at <a class="hover-a-underline-animation"
-                                                           href="https://cmd-amsterdam.nl/">AUAS Master Digital Design</a>, Amsterdam, Netherlands</p>
+            <p>Erasmus Exchange - Master Digital Design</p>
+            <p class="subtitlecv"><a class="hover-a-underline-animation" href="https://cmd-amsterdam.nl/">Hogeschool van Amsterdam</a>, Amsterdam, NL</p>
           </template>
-
         </AboutCvElement>
 
-        <AboutCvElement
-          category="2019-2022"
-        >
-
+        <AboutCvElement category="2019-2022">
           <template #slotcvelement>
-            <p>Bachelor Degree in Communication Design at <a class="hover-a-underline-animation"
-                                                             href="https://www.polimi.it/">Politecnico di Milano</a></p>
+            <p>Laurea Triennale in Design della Comunicazione</p>
+            <p class="subtitlecv"><a class="hover-a-underline-animation" href="https://www.polimi.it/">Politecnico di Milano</a>, Scuola del Design (110/110)</p>
           </template>
-
         </AboutCvElement>
 
-        <AboutCvElement
-          category="2014-2019"
-        >
-
+        <AboutCvElement category="2014-2019">
           <template #slotcvelement>
-            <p>Artistic High School at <a class="hover-a-underline-animation" href="https://www.sacrocuore.org/">
-              Fondazione Sacro Cuore </a>, Milan </p>
+            <p>Liceo Artistico (indirizzo Architettura)</p>
+            <p class="subtitlecv"><a class="hover-a-underline-animation" href="https://www.sacrocuore.org/">Fondazione Sacro Cuore</a>, Milano</p>
           </template>
-
         </AboutCvElement>
 
+        <h4 class="gradient mt-md-5 mt-4"> Exhibitions and Project Awards </h4>
 
+        <AboutCvElement category="2023, Polimi Design School">
+          <template #slotcvelement>
+            <p>Belonging / Not Belonging - Indie Magazine for<br>social change in spazio espositivo La Stecca 3</p>
+            <p class="subtitlecv">Presentazione del progetto Referto Magazine</p>
+          </template>
+        </AboutCvElement>
 
+        <AboutCvElement category="2022, FuoriSalone Milan Design Week">
+          <template #slotcvelement>
+            <p>DesignXDesigner - Polimi Design Student<br>Exhibition al Fuorisalone</p>
+            <p class="subtitlecv">Presentation of SourData project</p>
+          </template>
+        </AboutCvElement>
 
-
+        <AboutCvElement category="2022, ATS Insubria Workshop">
+          <template #slotcvelement>
+            <p>ATS Insubria Social OOH Campaign</p>
+            <p class="subtitlecv">Selezione del progetto BellaScusa per la campagna di comunicazione di ATS Insubria contro il gioco d’azzardo patologico.</p>
+          </template>
+        </AboutCvElement>
 
         <h4 class="gradient mt-md-5 mt-4"> Social Initiatives </h4>
 
         <AboutCvElement category="University Politics">
           <template #slotcvelement>
-            <p>Representative of the Course of Study in Communication Design at Politecnico di Milano</p>
+            <p>Representative of the Course of Study<br>in Communication Design at Politecnico di Milano</p>
           </template>
         </AboutCvElement>
 
         <AboutCvElement category="University Volunteering">
           <template #slotcvelement>
             <p>Sales Clerk at University Bookstore
-              CUSL, Politecnico di Milano</p>
+              CUSL,<br>Politecnico di Milano</p>
           </template>
         </AboutCvElement>
 
 
         <AboutCvElement category="Volunteering">
           <template #slotcvelement>
-            <p>Banco Alimentare Volunteer for National Food Collection Day </p>
-          </template>
-        </AboutCvElement>
-
-
-
-
-
-
-      </b-col>
-
-      <b-col cols="12" md="4" style="">
-
-        <h4 class="gradient mt-md-0 mt-4"> Work Experiences </h4>
-
-
-        <AboutCvElement category="2024-ongoing">
-          <template #slotcvelement>
-            <p>Visual and Brand Design Consultant</p>
-            <p class="subtitlecv">AC Milan</p>
-          </template>
-        </AboutCvElement>
-
-        <AboutCvElement category="2025">
-          <template #slotcvelement>
-            <p>Academic Tutor</p>
-            <p class="subtitlecv"> Video Identity Master of Poli.Design</p>
-          </template>
-        </AboutCvElement>
-
-        <AboutCvElement category="2020-ongoing">
-          <template #slotcvelement>
-            <p>Content classification activities</p>
-            <p class="subtitlecv">Mediaset S.p.A.</p>
-          </template>
-        </AboutCvElement>
-
-        <AboutCvElement category="2021-2023">
-          <template #slotcvelement>
-            <p>Realization of Exhibition Spaces</p>
-            <p class="subtitlecv">Meeting di Rimini</p>
-          </template>
-        </AboutCvElement>
-
-        <AboutCvElement category="2020-2021">
-          <template #slotcvelement>
-            <p>UX/UI and Graphics design </p>
-            <p class="subtitlecv">Disruptive x Meeting di Rimini</p>
-          </template>
-        </AboutCvElement>
-
-        <AboutCvElement category="2019">
-          <template #slotcvelement>
-            <p>Museum Guide for Exhibitions</p>
-            <p class="subtitlecv">Palazzo Reale, Milan</p>
+            <p>Banco Alimentare Volunteer for<br>National Food Collection Day </p>
           </template>
         </AboutCvElement>
 
         <h4 class="gradient mt-md-5 mt-4"> Languages </h4>
 
-        <AboutCvElement
-          category="Italian"
-        >
-
+        <AboutCvElement category="Italiano">
           <template #slotcvelement>
-            <p>First Language</p>
+            <p>Madrelingua</p>
           </template>
-
         </AboutCvElement>
 
-
-        <AboutCvElement
-          category="English"
-        >
-
+        <AboutCvElement category="Inglese">
           <template #slotcvelement>
             <p>B2 - IELTS Certification</p>
           </template>
-
         </AboutCvElement>
 
-        <AboutCvElement
-          category="Spanish"
-        >
-
+        <AboutCvElement category="Spagnolo">
           <template #slotcvelement>
-            <p>Scholastic Level</p>
-          </template>
-
-        </AboutCvElement>
-
-      </b-col>
-
-      <b-col cols="12" md="4">
-
-
-
-        <h4 class="gradient "> Exhibition & Awards </h4>
-
-        <AboutCvElement category="2023, La Stecca 3 (Milan) ">
-          <template #slotcvelement>
-            <p>Belonging / Not Belonging - Indie magazine for Social Change  </p>
-            <p class="subtitlecv">Project: Referto Magazine</p>
+            <p>Livello Base</p>
           </template>
         </AboutCvElement>
 
-        <AboutCvElement category="2022, FuoriSalone Milan Design Week">
-          <template #slotcvelement>
-            <p> DesignXDesigner - Politecnico Design Student Exhibition </p>
-            <p class="subtitlecv">Project: SourData</p>
-          </template>
-        </AboutCvElement>
-
-        <AboutCvElement category="2022, ATS Insubria">
-          <template #slotcvelement>
-            <p> Selection for the communication campaign to
-              raise awareness </p>
-            <p class="subtitlecv">Project: Bella Scusa</p>
-          </template>
-        </AboutCvElement>
-
-
-
-
-        <h4 class="gradient mt-md-5 mt-4"> Software </h4>
-
-        <AboutCvElement
-          category="Adobe CC"
-        >
-
-          <template #slotcvelement>
-            <p>Illustrator, Photoshop, Premiere Pro, Lightroom, InDesign, Audition, XD</p>
-          </template>
-
-        </AboutCvElement>
-
-        <AboutCvElement
-          category="Microsoft & Google"
-        >
-
-          <template #slotcvelement>
-            <p>Word, PowerPoint, Excel</p>
-          </template>
-
-        </AboutCvElement>
-
-        <AboutCvElement
-          category="Other Tools"
-        >
-
-          <template #slotcvelement>
-            <p>Figma, Figma Slides, Keynote, <br> Pages, Miro, Blender, iMovie</p>
-          </template>
-
-        </AboutCvElement>
-
-        <AboutCvElement
-          category="Coding"
-        >
-
-          <template #slotcvelement>
-            <p>HTML, CSS, Bootstrap, Javascript, Nuxt, Vue, Wordpress</p>
-          </template>
-
-        </AboutCvElement>
-
-        <h4 class="gradient mt-5 ">   <a href="documents/giovanniclericetti.pdf" target="_blank" style="text-decoration: none;">
+    <h4 class="gradient mt-5 ">   <a href="documents/giovanniclericetti.pdf" target="_blank" style="text-decoration: none;">
 
 
 
@@ -244,14 +151,11 @@
                   style="width: 35px; height: 35px; color:#FF9A5A"></b-icon>
           <span class="hover-underline-animation gradient downloadcv"> Download Resume </span> </a>
         </h4>
-
-
       </b-col>
-
-
     </b-row>
-  </div>
 
+
+  </div>
 </template>
 
 <script>

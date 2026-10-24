@@ -252,6 +252,15 @@ p2 {
   color: rgba(0, 0, 0, 0.5);
 }
 
+.subtitlecv a,
+.subtitlecv a:hover {
+  color: inherit;
+}
+
+.subtitlecv .hover-a-underline-animation:after {
+  background-color: currentColor;
+}
+
 .prllx-small{
   height: 400px;
 }
