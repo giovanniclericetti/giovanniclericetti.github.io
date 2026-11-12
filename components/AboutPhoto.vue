@@ -50,7 +50,7 @@
       </b-col>
 
       <b-col cols="4" class="p-0" style="height: 130px;">
-        <div class="ml-3 d-flex justify-content-center align-items-center bg-white pt-2" style="text-align: center; height: 130px; overflow: hidden; border-radius: 25px;"> <a href="https://t.me/giovanniclericetti" target="_blank" > <img style="width: 85%" src="~static/images/aboutme/letswork.svg" /> </a> </div>
+        <div class="ml-3 d-flex justify-content-center align-items-center bg-white pt-2" style="text-align: center; height: 130px; overflow: hidden; border-radius: 20px;"> <a href="https://t.me/giovanniclericetti" target="_blank" > <img style="width: 85%" src="~static/images/aboutme/letswork.svg" /> </a> </div>
       </b-col>
 
     </b-row>
@@ -72,7 +72,7 @@ export default {
 <style scoped>
 
 .aboutmephoto{
-  border-radius: 25px;
+  border-radius: 20px;
   overflow: hidden;
   height: 350px;
 }
@@ -89,14 +89,14 @@ export default {
 
 
 .socialboxsm {
-  border-radius: 25px;
+  border-radius: 20px;
   overflow: hidden;
 }
 
 .boxcvmobile{
   object-fit: contain;
   overflow: hidden;
-  border-radius: 25px;
+  border-radius: 20px;
 }
 
 .socialboxsm img {

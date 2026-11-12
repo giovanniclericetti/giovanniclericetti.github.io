@@ -18,7 +18,7 @@ export default {
 <style>
 
 .projectcover{
-  border-radius: 30px;
+  border-radius: 20px;
   overflow: hidden;
   max-height: 500px;
 }

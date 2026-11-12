@@ -9,11 +9,11 @@
       <ProjectHeader/>
 
       <Project-Intro
-        title="AC Milan"
-        subtitle="Production of sponsorship presentations and graphic assets for Club’s visual language"
-        pill1="Visual"
-        pill2="Branding"
-        pill3="Sport Production"
+        title="ACM Commercial Decks"
+        subtitle="Design and production of sponsorship presentations and supporting visual assets for AC Milan's commercial activities, in collaboration with marketing, sales, and strategy teams."
+        pill1="Work"
+        pill2="Commercial"
+        pill3="Presentation"
 
       />
 
@@ -22,20 +22,18 @@
 
 
 
-        <img v-responsive-background="'/images/covers/hero/acm.svg'" data-image-src="/images/covers/hero/acm.svg" class="cover-parallax"
+        <div role="img" aria-label="AC Milan commercial presentation design" v-responsive-background="'/images/covers/hero/acm.svg'" data-image-src="/images/covers/hero/acm.svg" class="cover-parallax"
 
 
 
 
-             data-parallax-image v-parallax>
+             data-parallax-image v-parallax></div>
       </div>
 
 
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
-        <img class=""
-     src="/images/covers/sm/acm_sm.svg"
-        >
+        <PortfolioImage src="/images/covers/sm/acm_sm.svg" alt="AC Milan commercial presentation design" loading="eager" fetchpriority="high" />
 
       </div>
 
@@ -53,7 +51,7 @@
         <b-col cols="12" md="7">
 
           <h4> Project Overview </h4>
-          <p> Design and development of graphic assets adapted to AC Milan’s visual identity across various sports-related areas: from creating visual identities for internal projects and defining the seasonal visual language, to supporting events, and up to sports production during matches at San Siro Stadium. The work focused particularly on producing presentations for partnerships and graphics tailored to sponsored events, in close collaboration with marketing, sales, and strategy teams. All activities were carried out under strict confidentiality. </p>
+          <p>Design and production of partnership presentations and supporting graphic assets, translating AC Milan’s visual identity into materials for the Club’s commercial activities. The work was developed in close collaboration with marketing, sales, and strategy teams, adapting visual communication to different partners and presentation formats. All activities were carried out under strict confidentiality.</p>
 
           <slot name="link2">
           </slot>
@@ -69,7 +67,7 @@
 
           <div class="mt-md-5 mt-4">
             <a href="          https://www.linkedin.com/posts/activity-7207066977016754177-HIoz?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGmc5MBRFlV2ZhxOY7sTc3zelk5nsUZlMk
-" target="_blank">
+" target="_blank" rel="noopener noreferrer">
               <ProjectLink textlink="ACM Brand Design Reel 23/24"></ProjectLink>
             </a>
           </div>
@@ -89,14 +87,14 @@
 
 
       <ProjectNextPrevious
-        thumbnail="/images/covers/cards/avi-card-v2.jpg"
+        thumbnail="/images/acm-partner-visibility/acm2-next.png"
         class="column card-large biowhite acmilan2"
-        to="/acmilan2"
-        pill1="Visual"
-        pill2="Branding"
-        pill3="Sport Prod"
-        nextproject="AC Milan 2"
-        bionext="Work in progress"
+        to="/acm-partner-visibility"
+        pill1="Work"
+        pill2="Brand"
+        pill3="Commercial"
+        nextproject="ACM Partner Visibility"
+        bionext="Visual branding and visibility for the Club's commercial partners."
       />
 
 
@@ -113,6 +111,12 @@
 <script>
 export default {
   name: 'ac-milan',
+  head() {
+    return {
+      title: 'ACM Commercial Decks — Giovanni Clericetti',
+      meta: [{ hid: 'description', name: 'description', content: 'Design of commercial presentations and visual assets for AC Milan and its partners.' }],
+    }
+  },
 
 
 }
@@ -121,7 +125,16 @@ export default {
 </script>
 
 
-<style>
+<style scoped>
+.acmilan ::v-deep .project-pills {
+  white-space: nowrap;
+}
+@media (max-width: 575.98px) {
+  .acmilan ::v-deep .pillsmob {
+    font-size: 12px;
+  }
+}
+
 
 .cover-mobile{
   width: 100%;
@@ -160,8 +173,9 @@ export default {
   outline: none;
 }
 
-.acmilan .subtitle{
-  max-width: 45%;
+.acmilan ::v-deep .subtitle{
+  max-width: 85%;
+  text-wrap: balance;
 }
 
 .ref-3{
@@ -178,7 +192,7 @@ export default {
 
 @media (max-width: 768px) {
 
-  .acmilan .subtitle   {
+  .acmilan ::v-deep .subtitle   {
     max-width: 100%;
   }
 

@@ -20,6 +20,7 @@ function update(el) {
   const info = imageInfo(src)
   const travel =
     el.hasAttribute('data-parallax-image') &&
+    el.dataset.parallaxMode !== 'frame' &&
     window.innerWidth >= 768 &&
     !window.matchMedia('(prefers-reduced-motion: reduce)').matches
       ? 64
@@ -28,7 +29,7 @@ function update(el) {
     ? Math.max(width, ((height + travel) * info.width) / info.height) *
       (window.devicePixelRatio || 1)
     : width
-  const url = imageVariant(src, required * 1.06).url
+  const url = imageVariant(src, options.fullResolution ? undefined : required * 1.06).url
   if (entry.url === url) return
   entry.url = url
   const image = new Image()

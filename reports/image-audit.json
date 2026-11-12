@@ -1,23 +1,11 @@
 [
   {
-    "src": "/images/sourdata/sourdata-cover-sm.svg",
-    "bytes": 15743604,
-    "sha256": "ef976b646ea353e630e9d3ff76f51b7fd2bc9e3542dfc1ff857f8c8a75903fb9"
-  },
-  {
-    "src": "/images/carachioggia/carachioggia_sm.svg",
-    "bytes": 15543709,
-    "sha256": "ba32cdbbe2af5179e7228bc96f25c693804e12783d5963d2dcc837f0f08f4bd3"
-  },
-  {
-    "src": "/images/aura/pesant/aura20.svg",
-    "bytes": 14636988,
-    "sha256": "5396566d51244de00e65bf9899dd9ac2e2c5b181248bec1edc03a00afb487f49"
-  },
-  {
-    "src": "/images/aura/pesant/aura1.svg",
-    "bytes": 13968219,
-    "sha256": "880b389b13d82d7eda40f17f6e84aa73b32567b2251374bb27d283b5705cf3a2"
+    "src": "/images/acm-events-matchday/2265568254 1.png",
+    "bytes": 15182249,
+    "width": 4096,
+    "height": 2659,
+    "format": "png",
+    "sha256": "daae36b481dbf4ee7006555a3b6b64238b9fec84ad762ce71a704d4218dd55c8"
   },
   {
     "src": "/images/aboutme/aboutme.png",
@@ -28,60 +16,172 @@
     "sha256": "2f75f15c31af247360f2b49608abd0505c95364da3ccb8dc19cac73fcc49e579"
   },
   {
-    "src": "/images/aura/pesant/aura19.svg",
-    "bytes": 12746044,
-    "width": 1300,
-    "height": 1122,
-    "format": "svg",
-    "sha256": "8afc0f3d0754159e8c8b3f824d2da9f4a31ce87ff55ffc1f9f52b236016baa0c"
+    "src": "/images/acm-events-matchday/SA1_7651_GXEBjTuv_20261101123550 3.png",
+    "bytes": 8321943,
+    "width": 2468,
+    "height": 1646,
+    "format": "png",
+    "sha256": "f56000afca332d7ff52c1834131840075a048b0f7ad2ae2ca673b0d67eaa37cb"
   },
   {
-    "src": "/images/aura/pesant/aura0.svg",
-    "bytes": 11122529,
-    "width": 1840,
-    "height": 656,
-    "format": "svg",
-    "sha256": "34455be937694da97d22bef47acc4c377ca028107d6d6de804c62e649972b796"
+    "src": "/images/acm-events-matchday/ANLA9173_ee359df5-348b-4611-98aa-78fd4e3a7c79_20260525121411 3.png",
+    "bytes": 7413006,
+    "width": 2431,
+    "height": 1621,
+    "format": "png",
+    "sha256": "c7fa1acf1753328f7300dde125a99ebf75e17be4d175f631aa3abdc27761b7f8"
   },
   {
-    "src": "/images/aura/pesant/aura7.svg",
-    "bytes": 10187794,
-    "width": 1300,
-    "height": 800,
-    "format": "svg",
-    "sha256": "e373bb8c4c28b6c7968c07575902547cc4a0d6780b3a38a5d628198869cf4c37"
+    "src": "/images/acm-events-matchday/MM4_2041_Wbw6dYom_20260522100547 2.png",
+    "bytes": 6563743,
+    "width": 2097,
+    "height": 1674,
+    "format": "png",
+    "sha256": "bbe5efb5e31386b639b130c42e9788d69891da5804a22dde54545a1440a22a27"
   },
   {
-    "src": "/images/aura/pesant/aura8.svg",
-    "bytes": 9567709,
-    "width": 1300,
-    "height": 800,
-    "format": "svg",
-    "sha256": "9f552896ebdd83c1d1b88d6d540832c47b33eee1e7c47450765546c23e07efb9"
+    "src": "/images/acm-events-matchday/ANLA9131_de0c2bb8-f572-4bbc-94ea-a80ca99e705f_20260525121404 3.png",
+    "bytes": 6496604,
+    "width": 2271,
+    "height": 1514,
+    "format": "png",
+    "sha256": "9df76c3af448059aa4fb78cda0b33527865835f825c20a5672a9e695231a7c27"
   },
   {
-    "src": "/images/aura/pesant/aura15.svg",
-    "bytes": 9534888,
-    "width": 1300,
-    "height": 800,
-    "format": "svg",
-    "sha256": "8f917d709907198d65d1b92093ba330f5ff96b85507a5fb7449aae815c3c6042"
+    "src": "/images/acm-events-matchday/SRC_3968_wts7OfYI_20251214112648 3.png",
+    "bytes": 5912317,
+    "width": 2217,
+    "height": 1479,
+    "format": "png",
+    "sha256": "533e45c791513e91654b0e9d1a41f8b73af644e3b97c336000a8b0d6452fff98"
   },
   {
-    "src": "/images/aura/pesant/aura18.svg",
-    "bytes": 9391464,
-    "width": 1300,
-    "height": 800,
-    "format": "svg",
-    "sha256": "1bb24d581472fbf138f6738277e7f450fe1817770e124d5f84ebffacec6c151e"
+    "src": "/images/acm-events-matchday/GCR33756_N5DDzeUa_20261102114055 3.png",
+    "bytes": 5889368,
+    "width": 2346,
+    "height": 1564,
+    "format": "png",
+    "sha256": "d6d24dd1d1689ed239ac86bdd58787e6f5848c771de23d5b4dd68da0b1c22920"
   },
   {
-    "src": "/images/quattriny/next.svg",
-    "bytes": 3637426,
-    "width": 650,
-    "height": 200,
-    "format": "svg",
-    "sha256": "a68329949de193a726ee1c8bdde2e8666f6387b770a576ade773ec49cb5dc16e"
+    "src": "/images/acm-events-matchday/SA1_4663_VxJtEMSd_20261019095155 2.png",
+    "bytes": 5851795,
+    "width": 2235,
+    "height": 1490,
+    "format": "png",
+    "sha256": "828e2a9102b22a432a1d6f01dcd3749ebd3dbcfcedaf9d25bb58e158eda1f413"
+  },
+  {
+    "src": "/images/acm-events-matchday/SRC_3770_XsFjWIcN_20251214112707 3.png",
+    "bytes": 5379842,
+    "width": 2308,
+    "height": 1539,
+    "format": "png",
+    "sha256": "26bfdb2bf1a8c07a9a39413710efa62af152dd4d604262106bd0e48b35e32ac0"
+  },
+  {
+    "src": "/images/acm-events-matchday/SA2_0013_ZP3h6MqK_20260714105640 2.png",
+    "bytes": 5328576,
+    "width": 1920,
+    "height": 1280,
+    "format": "png",
+    "sha256": "24132d9eb7328d4bb83f1a65e6607877448ec362a70661f18b81e3a209fe3958"
+  },
+  {
+    "src": "/images/acm-events-matchday/GCR33836_K5K03rLd_20261102114032 3.png",
+    "bytes": 5291159,
+    "width": 2248,
+    "height": 1499,
+    "format": "png",
+    "sha256": "9ff3f6b98f6c8e4a5f73c94ee53086fac45647d8fb1849ffdb367b2d48fafd62"
+  },
+  {
+    "src": "/images/acm-events-matchday/FS8_5480_Bf7DMWoV 2.png",
+    "bytes": 5275443,
+    "width": 2140,
+    "height": 1426,
+    "format": "png",
+    "sha256": "a9c0d04be3a79742b4cf6ac93e993ef74d0244c50d97f14795c4d69939de7871"
+  },
+  {
+    "src": "/images/acm-events-matchday/GCR24765_0PQcufMC_20261102113848 2.png",
+    "bytes": 4971624,
+    "width": 1994,
+    "height": 1329,
+    "format": "png",
+    "sha256": "d1ed3e94b74f281e545d23049a13d464537e2524ecb72f1ab52756f4ead7934d"
+  },
+  {
+    "src": "/images/acm-events-matchday/MM4_2032_BA0C394l_20260522100607 2.png",
+    "bytes": 4862941,
+    "width": 2153,
+    "height": 1514,
+    "format": "png",
+    "sha256": "d204be8f26d4d97c199e65d18be802a1bb98d4e918c738f71606b02b1dee1bdb"
+  },
+  {
+    "src": "/images/acm-events-matchday/MM3_1888_6ASwckrp_20260829052529 3.png",
+    "bytes": 4743636,
+    "width": 1970,
+    "height": 1314,
+    "format": "png",
+    "sha256": "8ef53ed3dabeca8dc92c75fa1d6acfd142369af64044c8ca5f536e7778d5dc5e"
+  },
+  {
+    "src": "/images/acm-events-matchday/FR3_3197_JEHvr5s2 3.png",
+    "bytes": 4678446,
+    "width": 2044,
+    "height": 1362,
+    "format": "png",
+    "sha256": "3c81c8988fe407663d1c42b3c0d076bb12c2af0681e8758a2642a2c591d1b6c4"
+  },
+  {
+    "src": "/images/acm-events-matchday/GCR34093_gKctbQWP_20261102113919 3.png",
+    "bytes": 4661164,
+    "width": 1977,
+    "height": 1318,
+    "format": "png",
+    "sha256": "2fa885725875c8d08e7cf96cb3793b8c30db8bbac15e18e8d1a11d68007a3db4"
+  },
+  {
+    "src": "/images/acm-events-matchday/MM1_1219_iHKGKyhq_20251215105709 2.png",
+    "bytes": 4430612,
+    "width": 1987,
+    "height": 1325,
+    "format": "png",
+    "sha256": "c7ddd3808ea7999161825857af59e335975c2ffc767430a7ce8bd3d38ef6547c"
+  },
+  {
+    "src": "/images/acm-events-matchday/MM3_5117_0a36dvTx_20261019071035 2.png",
+    "bytes": 4408673,
+    "width": 1967,
+    "height": 1312,
+    "format": "png",
+    "sha256": "a942bf7ac27e1574f771f3820df48075dac3f4ff57041f93e113fb31849497fb"
+  },
+  {
+    "src": "/images/acm-events-matchday/SA1_8305_1iBhF4js_20260714110000 3.png",
+    "bytes": 4135163,
+    "width": 1978,
+    "height": 1319,
+    "format": "png",
+    "sha256": "7bd74efc4dc28a14f824243daeaa7d86e4a9da5846ddc20f273f80ece348085f"
+  },
+  {
+    "src": "/images/acm-events-matchday/VL_L8956_rFaGwTjP 1.png",
+    "bytes": 3619363,
+    "width": 1695,
+    "height": 1277,
+    "format": "png",
+    "sha256": "cc4b91d2c2f4154b052802baa672e79e5d08dbdce3365424ce140da9d78cedd5"
+  },
+  {
+    "src": "/images/acm-events-matchday/MM3_1320_IDAj5sQn_20261101095721 3.png",
+    "bytes": 3397228,
+    "width": 1324,
+    "height": 1459,
+    "format": "png",
+    "sha256": "503972364d460a706107461feaf7224003e643d1872063cbfddadf578b44eb0e"
   },
   {
     "src": "/images/carachioggia/carachioggia5.svg",
@@ -92,92 +192,236 @@
     "sha256": "75e194bb9696fda6d09e5e79686b2e2c0fdab682f2180c2b37722b5a421eda1c"
   },
   {
-    "src": "/images/aura/pesant/aura17.svg",
-    "bytes": 2959893,
-    "width": 1300,
-    "height": 800,
-    "format": "svg",
-    "sha256": "06aab9cf12ff3f74966621923705c4e241944fa170ee21adb76713538ae91794"
-  },
-  {
-    "src": "/images/aura/pesant/aura6.jpg",
-    "bytes": 1214488,
-    "width": 2600,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "97d9254c008e2ea0e69ccad245e89fa59f1d3ac52fc9c9c0cbc9faae30401f6d"
-  },
-  {
-    "src": "/images/aura/pesant/aura9.jpg",
-    "bytes": 1194931,
-    "width": 2600,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "9c4a8cdaabe27163a98dfaa10b51d9657418b16d07b59ec1616fec0b75df0873"
-  },
-  {
-    "src": "/images/aura/aura21.png",
-    "bytes": 966757,
-    "width": 2240,
-    "height": 1681,
+    "src": "/images/acm-events-matchday/FR3_3362_eSsy4dY7.png",
+    "bytes": 3371812,
+    "width": 1594,
+    "height": 1334,
     "format": "png",
-    "sha256": "3a0c4e773c6f6ef037c8c5cd8d3bd3569613294b7ea3f8c10034e2eda058a03f"
+    "sha256": "11e444e04d6a6ca7b7350c1c37e8a0144818d93fb7204d57a05d6cf4673a6e02"
   },
   {
-    "src": "/images/it-back/next.svg",
-    "bytes": 925484,
-    "width": 650,
-    "height": 200,
-    "format": "svg",
-    "sha256": "46b1c53586715334c9ff3a800cda359dc4e4f274a57b1f38f1e758c6933cf073"
+    "src": "/images/acm-events-matchday/SA2_9674_MReuHTb9_20260427101930 2.png",
+    "bytes": 3153909,
+    "width": 1973,
+    "height": 1315,
+    "format": "png",
+    "sha256": "5b8e36350dbf9c8c1d92da07b98d6908c22685f0607f0a6f06f9c8efb72b8e1f"
   },
   {
-    "src": "/images/aura/aura9.svg",
-    "bytes": 905413,
-    "width": 1300,
-    "height": 800,
-    "format": "svg",
-    "sha256": "7c6e1723662cf567f63177b657add8ec2289eb6dd9de2081cf78a4c2fd507f2f"
+    "src": "/images/acm-events-matchday/DSC00778 2.png",
+    "bytes": 3032702,
+    "width": 1098,
+    "height": 1647,
+    "format": "png",
+    "sha256": "71d597301206c1d1de3847e74b2d484272374ba1c1d5397452f12acc31385fea"
   },
   {
-    "src": "/images/aura/pesant/aura14.jpg",
-    "bytes": 768865,
-    "width": 2600,
-    "height": 1600,
+    "src": "/images/acm-events-matchday/ANLA8907_d5a56d55-e9df-48f2-9f05-cf74fb75cd8f_20260525120430 3.png",
+    "bytes": 3032476,
+    "width": 1491,
+    "height": 994,
+    "format": "png",
+    "sha256": "7a1c0301ddce89bde1532816eb516ee12f90e801008716776b3878fd4e689709"
+  },
+  {
+    "src": "/images/acm-events-matchday/FS3_4829_F0QJd8l6.png",
+    "bytes": 2637490,
+    "width": 951,
+    "height": 1428,
+    "format": "png",
+    "sha256": "148fbe267dae81c383b817410cc9c31da3bbd83fe2bd9f2175846753c76ffe18"
+  },
+  {
+    "src": "/images/acm-events-matchday/SA1_0756_P8o4lNmh_20260525092006 3.png",
+    "bytes": 2560398,
+    "width": 1490,
+    "height": 993,
+    "format": "png",
+    "sha256": "43739953777abacb12af035d7d78c7dacd6b46faaebfff4c3ba619e2d25911b1"
+  },
+  {
+    "src": "/images/acm-events-matchday/0T3A1455_QutsUzwU 3.png",
+    "bytes": 2477136,
+    "width": 1429,
+    "height": 952,
+    "format": "png",
+    "sha256": "e05ad563fe992e8301b5ca2775792ca9f9da2dc4a0b167e7445d015c4037f247"
+  },
+  {
+    "src": "/images/acm-partner-visibility/a621ac585fb8718a.jpg",
+    "bytes": 1878921,
+    "width": 1907,
+    "height": 1080,
     "format": "jpeg",
-    "sha256": "039d600bcbc4bfac82c2dac3c1dc0f8ef987fc2d918d5e1421bce0b396afaf18"
+    "sha256": "cf8b3045f5a6936e1fccc309f87c76e0624cce30d47554dc65f04aed06d47360"
   },
   {
-    "src": "/images/aura/pesant/aura3.jpg",
-    "bytes": 765586,
-    "width": 2600,
-    "height": 1600,
+    "src": "/images/acm-events-matchday/image 634.png",
+    "bytes": 1660200,
+    "width": 1445,
+    "height": 1380,
+    "format": "png",
+    "sha256": "d3c9785410a8328b0ae401a4826769261efeed16cbad8f22f283903cdb2abcc0"
+  },
+  {
+    "src": "/images/acm-partner-visibility/53359ec6ea87445f.jpg",
+    "bytes": 1536688,
+    "width": 1417,
+    "height": 1080,
     "format": "jpeg",
-    "sha256": "31dea14f995306753a00581ba9da84410131b77ee8922731696a2683f27af101"
+    "sha256": "1597428fee591796de3805c9aa0245c9c3be4ba74268340a9cde5a58bf3671dc"
   },
   {
-    "src": "/images/aura/pesant/aura5.jpg",
-    "bytes": 746082,
-    "width": 2600,
-    "height": 1600,
+    "src": "/images/acm-partner-visibility/c8497b1ed5ca8189.jpg",
+    "bytes": 1427992,
+    "width": 1937,
+    "height": 1080,
     "format": "jpeg",
-    "sha256": "2760df87c0796c4536d4b99829dab6eaec5e3891b48ce47403e740616d7141fd"
+    "sha256": "3b9f5000306b9cc80142bff3d1d564cdac4c480fd68758bc21185ace6aebe5e0"
   },
   {
-    "src": "/images/covers/cards/milan-card.jpg",
-    "bytes": 673205,
+    "src": "/images/acm-partner-visibility/9cba1f1538066c0b.jpg",
+    "bytes": 1295812,
+    "width": 2285,
+    "height": 1080,
+    "format": "jpeg",
+    "sha256": "cd575cbad3d235e3dd411038b3ccd144a18a6a4606401a6c222798528493bb4d"
+  },
+  {
+    "src": "/images/acm-partner-visibility/23ce4f53b22f9848.jpg",
+    "bytes": 1201740,
+    "width": 2290,
+    "height": 1080,
+    "format": "jpeg",
+    "sha256": "ba65c13168ca970149bd711568d3a668917ab65f4b407777dd2ab622cc748c37"
+  },
+  {
+    "src": "/images/covers/ACM2/acm2-coverpage.png",
+    "bytes": 1141388,
+    "width": 1139,
+    "height": 440,
+    "format": "png",
+    "sha256": "9d3325330553433f1b7cf130123b07e611d369ba0c95321a35a42f3b32a9a390"
+  },
+  {
+    "src": "/images/acm-partner-visibility/d9ad496ad4c0eb47.jpg",
+    "bytes": 1123478,
+    "width": 2397,
+    "height": 1080,
+    "format": "jpeg",
+    "sha256": "4930dd3a703007d919760870c3e6d9888c834ccabde8db01240a9310a7f2c39a"
+  },
+  {
+    "src": "/images/acm-partner-visibility/ca033d25409fb367.jpg",
+    "bytes": 1099745,
+    "width": 1593,
+    "height": 1080,
+    "format": "jpeg",
+    "sha256": "977d135062d197f7c982c8afa698e1d50ea1bc5f241d86746a3a5d3f0fdf058f"
+  },
+  {
+    "src": "/images/acm-partner-visibility/f9c5929b3b67765f.jpg",
+    "bytes": 1077448,
+    "width": 1201,
+    "height": 1080,
+    "format": "jpeg",
+    "sha256": "3b78c09257026c6fbdf89d04973ed042258606d4aff32f407e1af3b811758623"
+  },
+  {
+    "src": "/images/acm-partner-visibility/b8b5291a81b57bbd.jpg",
+    "bytes": 1077178,
+    "width": 2397,
+    "height": 1080,
+    "format": "jpeg",
+    "sha256": "cd9badce17ab2ceb7bb334ff5ff5979d4a8177af0115ec44913b5e4c360ba674"
+  },
+  {
+    "src": "/images/acm-partner-visibility/e9704d636e30733f.jpg",
+    "bytes": 1063013,
+    "width": 1885,
+    "height": 1080,
+    "format": "jpeg",
+    "sha256": "7904a8e7cc0e41ab6e47cec2d4930e2d33ca96e667bf7a05e56d331e65c76521"
+  },
+  {
+    "src": "/images/acm-partner-visibility/acm3.png",
+    "bytes": 1041429,
+    "width": 647,
+    "height": 1109,
+    "format": "png",
+    "sha256": "b3c8d5bc7d764a89bcae50f4dbf653347e83810a482112c962bb252c16c88dfa"
+  },
+  {
+    "src": "/images/acm-partner-visibility/68c1649453b74a41.jpg",
+    "bytes": 990930,
+    "width": 1472,
+    "height": 1080,
+    "format": "jpeg",
+    "sha256": "5f50d595b6de383b820a3c4cea93a512430bd76d89e6d6c765888fb87db31f1d"
+  },
+  {
+    "src": "/images/acm-partner-visibility/8d07e439fa08eb27.jpg",
+    "bytes": 913509,
+    "width": 1827,
+    "height": 1080,
+    "format": "jpeg",
+    "sha256": "017bf87f34c92f18c11993512844a61fa584ab27d4105869848995e891944136"
+  },
+  {
+    "src": "/images/acm-partner-visibility/c1a270e6455dd652.jpg",
+    "bytes": 875029,
+    "width": 1924,
+    "height": 1080,
+    "format": "jpeg",
+    "sha256": "c625c88d35a27610ea087c0dc20d46f0d563a1dbc88857ac9e00a6e170476103"
+  },
+  {
+    "src": "/images/covers/cards/carachioggia-card.jpg",
+    "bytes": 867338,
     "width": 1100,
-    "height": 1888,
+    "height": 2150,
     "format": "jpeg",
-    "sha256": "db173196688f1e550dee9347bb8d4b8083b24dd48070b1dbf45dbfd9cb7540c7"
+    "sha256": "6af3077624e1c06120666231ba2a476ace5a73d0902d633ce4ac5f4fd65fc876"
   },
   {
-    "src": "/images/aura/pesant/aura13.jpg",
-    "bytes": 671836,
-    "width": 2600,
-    "height": 1600,
+    "src": "/images/acm-partner-visibility/5445b3632a86b159.jpg",
+    "bytes": 862435,
+    "width": 1761,
+    "height": 1080,
     "format": "jpeg",
-    "sha256": "e5aa7a55b8071e61beca5301888bc1fcbce6855950b8500b91c058a6322c077a"
+    "sha256": "7377fdcdbab9b4afb156a7aead2d279ec2acefc0fadf919dd7a0722b125c8b19"
+  },
+  {
+    "src": "/images/acm-partner-visibility/5cea1f75d1d9ee93.jpg",
+    "bytes": 754853,
+    "width": 1826,
+    "height": 1080,
+    "format": "jpeg",
+    "sha256": "0094bdcdfd5738c829cae7b910dbbf29ce03f0a30388de1f43c8f52ab3572942"
+  },
+  {
+    "src": "/images/acm-partner-visibility/0eda9cf12926c906.jpg",
+    "bytes": 753613,
+    "width": 1417,
+    "height": 1080,
+    "format": "jpeg",
+    "sha256": "d08c397ba03f039e573fa6f7275989dd71a50229f11a5826f537111995ad9668"
+  },
+  {
+    "src": "/images/acm-partner-visibility/4ad57687a0455563.jpg",
+    "bytes": 749396,
+    "width": 1440,
+    "height": 1080,
+    "format": "jpeg",
+    "sha256": "46d2a05c9bc48c47c5169143f68bbf2088a1673e9d27b715bd2761e6fc4b4051"
+  },
+  {
+    "src": "/images/acm-partner-visibility/38d50002ac667b21.jpg",
+    "bytes": 714712,
+    "width": 1930,
+    "height": 1080,
+    "format": "jpeg",
+    "sha256": "92ea2a972f1acff63d60c0de7a454d7e0d42ede1c3e969aa3635342734f74ff3"
   },
   {
     "src": "/images/sourdata/sourdata_3.png",
@@ -188,12 +432,20 @@
     "sha256": "efb9832598f84ad2291749f1358b11ce10618af3980153956ce4ec9aca0d46ab"
   },
   {
-    "src": "/images/aura/pesant/aura2.jpg",
-    "bytes": 623864,
-    "width": 2600,
-    "height": 1600,
+    "src": "/images/acm-partner-visibility/milan-card.png",
+    "bytes": 623533,
+    "width": 647,
+    "height": 1109,
+    "format": "png",
+    "sha256": "0c805be3a45bdef0edc6686331de6b438c6fee83b736f842a6e6134573a44f32"
+  },
+  {
+    "src": "/images/acm-partner-visibility/b124a2fd1b9b811b.jpg",
+    "bytes": 593367,
+    "width": 1407,
+    "height": 1080,
     "format": "jpeg",
-    "sha256": "37f64ce6c8f494109816c7f982adc761708fd4da493f2d24cabf258837cb78e2"
+    "sha256": "cbd0c987fdd90744bb7166692ec9ea67944f391a5ef1698e4be6333db6d64de1"
   },
   {
     "src": "/images/avi/avi14.jpg",
@@ -204,6 +456,14 @@
     "sha256": "d01f5034ea2a15f205a3730452d3a33b59299e9974014336d22322573deddb27"
   },
   {
+    "src": "/images/covers/ACM2/acm2-card.png",
+    "bytes": 573444,
+    "width": 550,
+    "height": 944,
+    "format": "png",
+    "sha256": "90d097c322fba29069c0e93d8b37a7b89fb28b2411edcdfc4c06a3af8c081a0d"
+  },
+  {
     "src": "/images/avi/avi13.jpg",
     "bytes": 546743,
     "width": 4350,
@@ -212,44 +472,20 @@
     "sha256": "69821a06cc392f3cb9d29f030416f5cc4b710c69ef46235c5abc55506718df3d"
   },
   {
-    "src": "/images/aura/pesant/aura12.jpg",
-    "bytes": 499525,
-    "width": 2600,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "15299329d0fa41a32163cef5231877df5148b53ce0c782b67a5406085b8dc1ca"
-  },
-  {
-    "src": "/images/aura/pesant/aura4.jpg",
-    "bytes": 474427,
-    "width": 2600,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "f4cff88e33064a90e3ca6651ace6752f6f2b738da48675aa6506210a9b152bf7"
-  },
-  {
-    "src": "/images/aura/pesant/aura11.jpg",
-    "bytes": 470934,
-    "width": 2600,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "a36847b3de050935915605e118ad362ec0ed820638935dddfc9720729d0d70e4"
-  },
-  {
-    "src": "/images/covers/cards/avi-card.jpg",
-    "bytes": 439991,
-    "width": 1100,
-    "height": 1922,
-    "format": "jpeg",
-    "sha256": "02fced6054d9847c7e605e0e200168562ddd8b2100b0d7278f00e3f90194cc05"
-  },
-  {
-    "src": "/images/sourdata/sourdata12.png",
-    "bytes": 433041,
-    "width": 2240,
-    "height": 1400,
+    "src": "/images/acm-partner-visibility/acm2-card.png",
+    "bytes": 527529,
+    "width": 647,
+    "height": 1109,
     "format": "png",
-    "sha256": "58dabf54463064a9b8ae6822921de2cf4a2017d0e02d56e7e6b488c1b8d8b411"
+    "sha256": "f8950f9a8f777be64b2dad9808cb84c296af9a84aa04d08a7f7f626527078fb9"
+  },
+  {
+    "src": "/images/acm-partner-visibility/9d3325330553433f.jpg",
+    "bytes": 439604,
+    "width": 1139,
+    "height": 440,
+    "format": "jpeg",
+    "sha256": "5541064fd3aefc06e38e2da1e3aa9e37abf6f8ff9056fabc5a0aa4845c35debf"
   },
   {
     "src": "/images/sourdata/sourdata_12.png",
@@ -258,22 +494,6 @@
     "height": 1400,
     "format": "png",
     "sha256": "58dabf54463064a9b8ae6822921de2cf4a2017d0e02d56e7e6b488c1b8d8b411"
-  },
-  {
-    "src": "/images/sourdata/sourdata_1.png",
-    "bytes": 426623,
-    "width": 2240,
-    "height": 900,
-    "format": "png",
-    "sha256": "626f6d5a4b8e97c6f097d0d071e00f0a2878f85b9ed36efa8ca9bd03c08e4e63"
-  },
-  {
-    "src": "/images/quattriny/quattriny7.jpg",
-    "bytes": 410881,
-    "width": 3008,
-    "height": 2181,
-    "format": "jpeg",
-    "sha256": "d1c83b35fec948f31c6d34be1eceb049d4d279b76f56392b4a4df859aaeda60a"
   },
   {
     "src": "/images/referto/referto6.jpg",
@@ -292,14 +512,6 @@
     "sha256": "68750238a42b43c183900d82fdcc6574a378ca7ce628427f7c1ee81b8eae68c0"
   },
   {
-    "src": "/images/covers/preview_acm.svg",
-    "bytes": 370064,
-    "width": 402,
-    "height": 250,
-    "format": "svg",
-    "sha256": "587a18de66e9e1e9b5e5bbd50bd03b612120815a473f5019dd1e7b176ac4eb7d"
-  },
-  {
     "src": "/images/covers/sm/acm_sm.svg",
     "bytes": 369769,
     "width": 565,
@@ -316,22 +528,6 @@
     "sha256": "6ec61ff520d1aa8f10979e455aaca4f718688120c79acc420dfb8ebdeafc773d"
   },
   {
-    "src": "/images/quattriny/quattriny4.jpg",
-    "bytes": 364693,
-    "width": 2240,
-    "height": 1100,
-    "format": "jpeg",
-    "sha256": "52a7c34397bdd769afc462219e7028f81fc0d37bb2107814acef03277808e5c2"
-  },
-  {
-    "src": "/images/carachioggia/carachioggia_sm.jpg",
-    "bytes": 364625,
-    "width": 770,
-    "height": 600,
-    "format": "jpeg",
-    "sha256": "8e8b875ac1f035ba743369bbf91bbca277ec74e668c35fb3701e622986efaa96"
-  },
-  {
     "src": "/images/aboutme/cvbox.png",
     "bytes": 363311,
     "width": 1504,
@@ -340,12 +536,36 @@
     "sha256": "17b4730a2dd984b0f7f439dd61a3ee2f4925034e5d6b99e48709d6049b45e8d3"
   },
   {
+    "src": "/images/aboutme/ribbon/4.png",
+    "bytes": 350128,
+    "width": 525,
+    "height": 394,
+    "format": "png",
+    "sha256": "f08ddd60481d2096c2b8f365798a780e97c79d92036e3f5bd7368c355c8dc15e"
+  },
+  {
+    "src": "/images/aboutme/ribbon/3.png",
+    "bytes": 342378,
+    "width": 525,
+    "height": 394,
+    "format": "png",
+    "sha256": "f2475824ae1eb919a9b89f3c166c8043b68645a19f43b86a563e370898a36f4c"
+  },
+  {
     "src": "/images/covers/cards/disruptive-card.jpg",
     "bytes": 341176,
     "width": 1100,
     "height": 1922,
     "format": "jpeg",
     "sha256": "58ebc73da720dd8a34ff13bf12847e8a0c7f90070b486752bd370f2b261679d4"
+  },
+  {
+    "src": "/images/acm-partner-visibility/773ea7ae3821c062.jpg",
+    "bytes": 336328,
+    "width": 1472,
+    "height": 1080,
+    "format": "jpeg",
+    "sha256": "8113d22273db0fac4df836bad3e617b894084cfeebef6bf4af7b88f01f7e978d"
   },
   {
     "src": "/images/previewpretest/pretest12.jpg",
@@ -372,6 +592,22 @@
     "sha256": "caad7abca33002f23d6500a41864a5d25d45e0189139efd1e18c349f6dc74b91"
   },
   {
+    "src": "/images/aboutme/ribbon/5.png",
+    "bytes": 322691,
+    "width": 525,
+    "height": 394,
+    "format": "png",
+    "sha256": "a9912931ca4144b0dcee88b85ebf0f9d827197d991cfd62e2b5cee4a41e5cf96"
+  },
+  {
+    "src": "/images/aboutme/ribbon/2.png",
+    "bytes": 316433,
+    "width": 525,
+    "height": 394,
+    "format": "png",
+    "sha256": "209125f35e85bed0f47dc5f2496af78b5c8a6daf1d396c106425f77cd45d0abb"
+  },
+  {
     "src": "/images/covers/hero/preview_cover.jpg",
     "bytes": 316388,
     "width": 2240,
@@ -396,28 +632,12 @@
     "sha256": "b9c576ac9e72a0741cd75dde415d30ae6682126ce9c6bdcdb41d3ec61f3578ac"
   },
   {
-    "src": "/images/aura/pesant/aura16.jpg",
-    "bytes": 303900,
-    "width": 2600,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "cb3e1194e5ac5365249cba205b68a69a707bda8e9242d5e50203e77bcb0b86e6"
-  },
-  {
     "src": "/images/carachioggia/carachioggia13.jpg",
     "bytes": 302248,
     "width": 1740,
     "height": 1100,
     "format": "jpeg",
     "sha256": "fc9b5d0d9e4c091ec3d2fdd9ee03a91e883c65c9f825ef6f845a9ccfbd3156a5"
-  },
-  {
-    "src": "/images/quattriny/quattriny1.jpg",
-    "bytes": 301547,
-    "width": 2240,
-    "height": 1234,
-    "format": "jpeg",
-    "sha256": "cb4b6866081390371266242e37cef18a119cdb5c87556b9e0c8921ed6e88f4e9"
   },
   {
     "src": "/images/avi/avi4.jpg",
@@ -436,28 +656,12 @@
     "sha256": "119564103ca4f65fefc32a5652ee38aedc4c6d3b980d9011449b658f6b77a4d8"
   },
   {
-    "src": "/images/it-back/itback8.jpg",
-    "bytes": 283710,
-    "width": 2240,
-    "height": 1583,
-    "format": "jpeg",
-    "sha256": "c3ca97983090d5a922234c85152eb01b47a6087b3b31add7e537c4b53a96b376"
-  },
-  {
     "src": "/images/sourdata/sourdata_10.png",
     "bytes": 282381,
     "width": 1090,
     "height": 1100,
     "format": "png",
     "sha256": "b724abf8c0d1b61ea269f5f63b4d0145064903b3a05224c845f57e6cf82f0bc0"
-  },
-  {
-    "src": "/images/aura/aura1.jpg",
-    "bytes": 280693,
-    "width": 2600,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "a2c70b534da1bd9ffb0213099acf1bf934afd671fe19f3af12f3726021946cab"
   },
   {
     "src": "/images/referto/referto13.jpg",
@@ -524,20 +728,20 @@
     "sha256": "981c54f0949a82f693b1feb6ed5d24ca325c9a8b4144771d4449c75dd6b9c6b0"
   },
   {
-    "src": "/images/aura/sm-aura14.jpg",
-    "bytes": 253603,
-    "width": 2348,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "bde7ed11e95574627ebd77e9b83fe984dc4c9c1b25d1a7ef4708282e6ca482ea"
-  },
-  {
     "src": "/images/aboutme/spotify.svg",
     "bytes": 252684,
     "width": 68,
     "height": 68,
     "format": "svg",
     "sha256": "1a17e7e81a9860c09c311be0e0075dfe3513a1082a37da38ebb2d091198639bb"
+  },
+  {
+    "src": "/images/covers/ACM2/acm2_sm.png",
+    "bytes": 246850,
+    "width": 565,
+    "height": 300,
+    "format": "png",
+    "sha256": "e11e80e31e6e9b12e9c43075a2204de4fba54eed6be97969789435340d71ac0d"
   },
   {
     "src": "/images/covers/cards/milan-card-v2.jpg",
@@ -548,20 +752,20 @@
     "sha256": "674057997993ffda7f3da7d1d688860ccf4c22a783aca200b240ddf24be4fe03"
   },
   {
-    "src": "/images/aura/sm-aura1.jpg",
-    "bytes": 244043,
-    "width": 2348,
-    "height": 2276,
-    "format": "jpeg",
-    "sha256": "ea08b500b07c38749fd82fa6fc8b2388b5b24b1ba3161307af4f2464f1a342fc"
-  },
-  {
     "src": "/images/covers/hero/avi.jpg",
     "bytes": 243691,
     "width": 2240,
     "height": 926,
     "format": "jpeg",
     "sha256": "aa25abb52ab5814e4145c53367ba6c13f8b4ff2dbc0fdff8378e2ad0d71420b5"
+  },
+  {
+    "src": "/images/aboutme/ribbon/1.png",
+    "bytes": 241958,
+    "width": 525,
+    "height": 394,
+    "format": "png",
+    "sha256": "6c019b111940cd7e94c87c8a8ffd51c0e4d19d725c9d99ff19e91fd53a5c9ff1"
   },
   {
     "src": "/images/carachioggia/carachioggia18.jpg",
@@ -620,28 +824,12 @@
     "sha256": "c52981e30ec83e167467d88b613f001fefdd2a25dccddacb79b686cdec3a7e12"
   },
   {
-    "src": "/images/aura/aura7.jpg",
-    "bytes": 213320,
-    "width": 2600,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "352762769364e2f057401c467c399b7762aa6f4844ed7795c49cd87aba853973"
-  },
-  {
-    "src": "/images/aura/aura0.jpg",
-    "bytes": 212708,
-    "width": 3680,
-    "height": 1312,
-    "format": "jpeg",
-    "sha256": "dd4828342b44218288fbbdd8b18cde8e55ee661bec6d3e728c448564a481da5e"
-  },
-  {
-    "src": "/images/avi/avi1.jpg",
-    "bytes": 212694,
-    "width": 2027,
-    "height": 1176,
-    "format": "jpeg",
-    "sha256": "b4b0f2185875d4254fc97278068b77e081aede5873b8c79f6b388f29790f3bf9"
+    "src": "/images/covers/ACM2/acm2-next.png",
+    "bytes": 209441,
+    "width": 650,
+    "height": 200,
+    "format": "png",
+    "sha256": "91556c73ee42490adf14d29e10994e5168df3213df65c9d2f025485489b1b73b"
   },
   {
     "src": "/images/carachioggia/carachioggia10.jpg",
@@ -658,6 +846,14 @@
     "height": 1397,
     "format": "jpeg",
     "sha256": "ad468ecca2b2ab1baea900ef6ec76b4e8d888d61bb21766cb4889c773774fa2e"
+  },
+  {
+    "src": "/images/aboutme/ribbon/6.png",
+    "bytes": 200257,
+    "width": 525,
+    "height": 394,
+    "format": "png",
+    "sha256": "ae0956676ac0b1e70cf2e1184da971cccde044de9009e6d329ba4d59bde5a161"
   },
   {
     "src": "/images/avi/avi9.jpg",
@@ -692,20 +888,12 @@
     "sha256": "ec2533110ef86e22ef401697452f3d034ecf2969266e12dbafab09f6935d1be4"
   },
   {
-    "src": "/images/aura/aura19.jpg",
-    "bytes": 188156,
-    "width": 2600,
-    "height": 2244,
+    "src": "/images/acm-partner-visibility/90d097c322fba290.jpg",
+    "bytes": 181643,
+    "width": 550,
+    "height": 944,
     "format": "jpeg",
-    "sha256": "5cd5627add247aaa1dc0b20fa46db44f2a345e3df3d77d454872666efcfd88d5"
-  },
-  {
-    "src": "/images/quattriny/quattriny5.jpg",
-    "bytes": 180939,
-    "width": 1022,
-    "height": 1100,
-    "format": "jpeg",
-    "sha256": "ca9a05fbafa8fdbbc373ac09da0fd58a057cd85b9ec0d8887985fda66768481b"
+    "sha256": "0499ee50ba110ffd7b8b48e17ce47c95684e4886eb8a2f163b547a5fef44dc62"
   },
   {
     "src": "/images/carachioggia/carachioggia12.jpg",
@@ -714,14 +902,6 @@
     "height": 1060,
     "format": "jpeg",
     "sha256": "4d66bcc02efe7c83006c199e89f49a408b2d115a6df82fdd5c3c39ec7cddcb40"
-  },
-  {
-    "src": "/images/aura/aura5.svg",
-    "bytes": 178550,
-    "width": 1300,
-    "height": 800,
-    "format": "svg",
-    "sha256": "04542429ef915c60c4663dccf0ae88c00c59869736aba97f881a7b8c3cefc4b3"
   },
   {
     "src": "/images/avi/avi10.jpg",
@@ -746,6 +926,14 @@
     "height": 1100,
     "format": "jpeg",
     "sha256": "64905beacea3ac583fc114c8d262839f717653704467dc114abb903b8115d557"
+  },
+  {
+    "src": "/images/acm-partner-visibility/acm2_sm.png",
+    "bytes": 168288,
+    "width": 565,
+    "height": 300,
+    "format": "png",
+    "sha256": "a8dda6e7b79d59d0d740cd8d2294092abdcf7a3ccf764a569ea111bb37765caa"
   },
   {
     "src": "/images/previewpretest/preview2.jpg",
@@ -788,44 +976,12 @@
     "sha256": "9ddd5fa766dc126b6ef564ebc592375b5d3cbc761252647900be5804cb2694a8"
   },
   {
-    "src": "/images/aura/aura6.svg",
-    "bytes": 154144,
-    "width": 1300,
-    "height": 800,
-    "format": "svg",
-    "sha256": "70943a81c92e2d6c0e7c2252e9aba08b29989adde92b2a365ba3f139f7cdc3dc"
-  },
-  {
-    "src": "/images/aura/aura17.jpg",
-    "bytes": 153950,
-    "width": 2600,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "1b46fb393d87ae77d9569d0377cdc1781e5a567aefb6cfeb174eb47dd2751629"
-  },
-  {
-    "src": "/images/aura/sm-aura8.jpg",
-    "bytes": 153626,
-    "width": 2348,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "221cb692583707e30653567fc4405360a4ba740cca107f2fd313001ee95a2cd9"
-  },
-  {
-    "src": "/images/aura/aura13.svg",
-    "bytes": 148919,
-    "width": 1300,
-    "height": 800,
-    "format": "svg",
-    "sha256": "105cb7f9a9e3e7c6512362e7a4ff476e2ec00caa8a6485696a71dbf385cb5e03"
-  },
-  {
-    "src": "/images/avi/avi11.jpg",
-    "bytes": 146613,
-    "width": 2114,
-    "height": 1560,
-    "format": "jpeg",
-    "sha256": "ce535697c50dfc058575474866f56b8f53465fa93fa579d3fda48f02a2ca4c0f"
+    "src": "/images/covers/ACM2/preview_acm2.png",
+    "bytes": 148101,
+    "width": 402,
+    "height": 250,
+    "format": "png",
+    "sha256": "759809e58b236bc8bdb1b399cf9baf303702bc50f8014f0bfb4aaea640acf1e1"
   },
   {
     "src": "/images/previewpretest/pretest8.jpg",
@@ -860,12 +1016,12 @@
     "sha256": "630fe852b8e3ad1c73bbdbf581a1225c1f8943f971cbe47891e120d6eb51ae82"
   },
   {
-    "src": "/images/it-back/itback6-sm.jpg",
-    "bytes": 136465,
-    "width": 2240,
-    "height": 1620,
-    "format": "jpeg",
-    "sha256": "03adc1a4519ef6dfb30b6bc75aba23e4b38131f7f37f51531bbb39e80de6a4a6"
+    "src": "/images/acm-partner-visibility/acm2-next.png",
+    "bytes": 136287,
+    "width": 650,
+    "height": 200,
+    "format": "png",
+    "sha256": "7e1261e292569914b0157caed546aa3c921c639354f6c9890214d7e50c7433af"
   },
   {
     "src": "/images/covers/cards/preview-card.jpg",
@@ -884,14 +1040,6 @@
     "sha256": "463621bab0aaf14f5c2ed66898bd46aaf833ab8b1efda9038b544110436e234d"
   },
   {
-    "src": "/images/aura/sm-aura10.jpg",
-    "bytes": 132357,
-    "width": 2348,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "cd34447b3e2f8247f40767b7b07ffe525b44486aaf03a2c5cc621da675e0cc9b"
-  },
-  {
     "src": "/images/carachioggia/carachioggia17.jpg",
     "bytes": 131493,
     "width": 2240,
@@ -900,76 +1048,12 @@
     "sha256": "1fefd7ab90d3f2db8485ac141711ac20b56d2268f13c148409235506467962b7"
   },
   {
-    "src": "/images/aura/aura18.jpg",
-    "bytes": 131023,
-    "width": 2600,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "6454cf08222554117745c6febd5369672f07884432230a65f7413614897dd1d4"
-  },
-  {
     "src": "/images/carachioggia/carachioggia2.jpg",
     "bytes": 130288,
     "width": 2240,
     "height": 1300,
     "format": "jpeg",
     "sha256": "a85699000a2dbe60884ac13955f340addf4c1493eec254b479bd0c91aeda1deb"
-  },
-  {
-    "src": "/images/aura/sm-aura2b.jpg",
-    "bytes": 129656,
-    "width": 2348,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "c488cb9e5d340e6874e0d1493cd18b8d0fbe97ddfda932b937b7087eb7a941f8"
-  },
-  {
-    "src": "/images/quattriny/quattriny3.jpg",
-    "bytes": 129009,
-    "width": 2240,
-    "height": 1042,
-    "format": "jpeg",
-    "sha256": "62289ae0129a314f44b19ecb4667271a8e3f93f20d1dced2444e6d3ca5fbdfb1"
-  },
-  {
-    "src": "/images/aura/sm-aura13.jpg",
-    "bytes": 128095,
-    "width": 2348,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "53dba3002e60fa77925ffe59fabad80ebb4a1b79f4a31c87b92cc045afd6aea7"
-  },
-  {
-    "src": "/images/aura/aura13.jpg",
-    "bytes": 127913,
-    "width": 2600,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "cc044c854674aa23361bccb22583c61582f0cb85191598ba301ca198e904e1aa"
-  },
-  {
-    "src": "/images/it-back/itback6.jpg",
-    "bytes": 127698,
-    "width": 2240,
-    "height": 982,
-    "format": "jpeg",
-    "sha256": "c21be09f7d3cd25f4e8cd1b3b391143ca7507b8733207ee1521736d85b84caa1"
-  },
-  {
-    "src": "/images/it-back/itback2.jpg",
-    "bytes": 127302,
-    "width": 2240,
-    "height": 1300,
-    "format": "jpeg",
-    "sha256": "0d5fc0ba747ad9a5908910c0b908822f05ccd86116ee1aab6126511433c42b29"
-  },
-  {
-    "src": "/images/aura/sm-aura11.jpg",
-    "bytes": 123773,
-    "width": 2348,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "26ebf94bdb46bf8732d6232fc0a90bb4c4600bab1f4f19b8b4901eca840b4aab"
   },
   {
     "src": "/images/carachioggia/carachioggia9.jpg",
@@ -988,22 +1072,6 @@
     "sha256": "b56a4cfe4430726455c2d8c5cf30105ce0959f973206e941911a8e4beb25dade"
   },
   {
-    "src": "/images/aura/sm7-aura.jpg",
-    "bytes": 120282,
-    "width": 2348,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "da7bbd384a030f1bbd175dba20ccba2476026c3bb5547b0668582d0aa61137b1"
-  },
-  {
-    "src": "/images/aura/aura14.svg",
-    "bytes": 118057,
-    "width": 1300,
-    "height": 800,
-    "format": "svg",
-    "sha256": "b5202bd2c2ce401105dbb46ae6da24377c54655b79146b53db1c74b985178eae"
-  },
-  {
     "src": "/images/previewpretest/pretest6.jpg",
     "bytes": 117491,
     "width": 1328,
@@ -1020,68 +1088,12 @@
     "sha256": "d5c60f56b192fc7be742bd99e97524c1d1ca384c589574996c6db4744c9e8f52"
   },
   {
-    "src": "/images/aura/aura11.svg",
-    "bytes": 117362,
-    "width": 1300,
-    "height": 800,
-    "format": "svg",
-    "sha256": "67f2e6f9d8026b5b2151faa4c1f3cb658701f2fcd5c945fcf6d02d11d59ba057"
-  },
-  {
     "src": "/images/avi/avi12.jpg",
     "bytes": 116921,
     "width": 2114,
     "height": 1698,
     "format": "jpeg",
     "sha256": "d9ee2370bb0b2dc2f548bd8dec9ef0afb32a8d16ec23ea9ba9257efd0016435c"
-  },
-  {
-    "src": "/images/aura/sm-aura5.jpg",
-    "bytes": 115970,
-    "width": 2348,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "5848027ca37aa29bc2dd61f216dc429d41ee39871fd405ebc873fddd0dc2ce4b"
-  },
-  {
-    "src": "/images/quattriny/quattriny2.jpg",
-    "bytes": 115890,
-    "width": 2240,
-    "height": 866,
-    "format": "jpeg",
-    "sha256": "84d8ed1aeeff69fddbd46c1925334b971599519fa501c7ec23170ccab99044b5"
-  },
-  {
-    "src": "/images/aura/aura20.jpg",
-    "bytes": 115302,
-    "width": 2576,
-    "height": 1474,
-    "format": "jpeg",
-    "sha256": "c8b12fc4c7f6aea232618565b014be9004a91dc747d91b70732b61272ea333a9"
-  },
-  {
-    "src": "/images/covers/cards/carachioggia-card.jpg",
-    "bytes": 114109,
-    "width": 1100,
-    "height": 2150,
-    "format": "jpeg",
-    "sha256": "2166bb14439331c72c120d40d449d13f68d5726932c856a0fc55b1f920ded466"
-  },
-  {
-    "src": "/images/aura/sm-aura6.jpg",
-    "bytes": 113321,
-    "width": 2348,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "5fc449dd03b1bc4b0907491c2381960ec190b2dbabba04d6c8500cab84edb589"
-  },
-  {
-    "src": "/images/quattriny/quattriny6.jpg",
-    "bytes": 112502,
-    "width": 2240,
-    "height": 1300,
-    "format": "jpeg",
-    "sha256": "9d30ca18b04331550fa330e18b309a14bc11cf1f8e793fdc2b67a9b0962cac0c"
   },
   {
     "src": "/images/referto/referto16.jpg",
@@ -1108,12 +1120,12 @@
     "sha256": "756d1d6ba7c7212190ee4b7cdb74bd3ea154ddd00583db1b81b9758ca7dc3df9"
   },
   {
-    "src": "/images/carachioggia/carachioggia16.jpg",
-    "bytes": 107410,
-    "width": 2240,
-    "height": 1260,
-    "format": "jpeg",
-    "sha256": "899e3dda8404625020677339a1bc2f2c98b13e3be865913199c1c484ff85e317"
+    "src": "/images/acm-partner-visibility/preview_acm2.png",
+    "bytes": 107738,
+    "width": 402,
+    "height": 250,
+    "format": "png",
+    "sha256": "95de6cfc7d61bf9b1330fa074438f21eab92ef3076fe45d339113cc27065f394"
   },
   {
     "src": "/images/bottleneck/bottleneck2.jpg",
@@ -1138,14 +1150,6 @@
     "height": 1300,
     "format": "jpeg",
     "sha256": "cd35a1ca83d4bd2ef8af6e76ddcf9b4c00d16db734cb88d493fd50d1ad952dda"
-  },
-  {
-    "src": "/images/aura/sm-aura12.jpg",
-    "bytes": 105015,
-    "width": 2348,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "b8f44e05012396232748c6f3abc7c4cff7f3d7f5c89749d6b7696d3097da575f"
   },
   {
     "src": "/images/bottleneck/bottleneck6.jpg",
@@ -1196,22 +1200,6 @@
     "sha256": "4292661117835674e96134c421c975f454fc8c8f73272d81d53ca4ff588bba29"
   },
   {
-    "src": "/images/aura/sm-aura4.jpg",
-    "bytes": 97977,
-    "width": 2348,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "a7d6c0d3d519e1ed8c27e02516b2e0f6ec7d3dddbf23b98b8d3272d222545c1b"
-  },
-  {
-    "src": "/images/quattriny/Frame 632058.jpg",
-    "bytes": 96840,
-    "width": 2522,
-    "height": 1364,
-    "format": "jpeg",
-    "sha256": "9ed3377d59431c220c06b30e7476e894237a77470ab5fe6092c8f70f77b2d9aa"
-  },
-  {
     "src": "/images/bottleneck/bottleneck5.jpg",
     "bytes": 95874,
     "width": 2240,
@@ -1220,20 +1208,20 @@
     "sha256": "6d7421f467d44c9e4886004c6d4ddc68b4da5b4c6e593869bf306ba3171f0f65"
   },
   {
+    "src": "/images/acm-partner-visibility/e11e80e31e6e9b12.jpg",
+    "bytes": 94582,
+    "width": 565,
+    "height": 300,
+    "format": "jpeg",
+    "sha256": "26757eb7183f247050f8054d7c8c45a0b87915a6a8994584e13b3918e2b723db"
+  },
+  {
     "src": "/images/previewpretest/pretest10.jpg",
     "bytes": 91825,
     "width": 1102,
     "height": 1100,
     "format": "jpeg",
     "sha256": "1d80a39e930aaf785d7d35c713ebbe302d48ecfbc8b4ad8a0a58e8c681449a0c"
-  },
-  {
-    "src": "/images/covers/hero/acm.png",
-    "bytes": 90730,
-    "width": 1139,
-    "height": 463,
-    "format": "png",
-    "sha256": "8735dfaabc49c8b4beebbd370c6aa0fa9ddc5b2efdfcf683592ab24a8665a331"
   },
   {
     "src": "/images/covers/hero/sourdata.jpg",
@@ -1252,12 +1240,12 @@
     "sha256": "9825c243bf44f2e2d530e37f9c52b6506b1582b148d486aa1a7ba048d5db045c"
   },
   {
-    "src": "/images/aura/aura15.jpg",
-    "bytes": 85281,
-    "width": 2600,
-    "height": 1600,
+    "src": "/images/acm-partner-visibility/91556c73ee42490a.jpg",
+    "bytes": 85739,
+    "width": 650,
+    "height": 200,
     "format": "jpeg",
-    "sha256": "e91ec35191045710e1acec28313c99f5ccb328fb5f0537619f02a90fd55c8b03"
+    "sha256": "4b32a7e76739bd1eaa2487c28a20bea2cc908aad18f754540e5bdae8c46716ff"
   },
   {
     "src": "/images/covers/sm/preview_sm.jpg",
@@ -1276,52 +1264,12 @@
     "sha256": "f13062ca9b9441c0f45edc526b2fb0677babe7bfc9cc469e49709dbf1c1f1861"
   },
   {
-    "src": "/images/it-back/itback1.jpg",
-    "bytes": 84669,
-    "width": 2240,
-    "height": 1300,
-    "format": "jpeg",
-    "sha256": "57d78f6abc387e94a7f391696ed01964d3a8d289f1ab69743ad46c32637b1fbc"
-  },
-  {
-    "src": "/images/it-back/itback7.jpg",
-    "bytes": 83703,
-    "width": 2240,
-    "height": 836,
-    "format": "jpeg",
-    "sha256": "6666354c5752ac648f35ebde850d94bd339549231134ac9be533bf7b55365a67"
-  },
-  {
-    "src": "/images/aura/aura16.svg",
-    "bytes": 82668,
-    "width": 1300,
-    "height": 800,
-    "format": "svg",
-    "sha256": "5dcf41191089b62d919f1dcc371b3fb64c74ee83348df2ad96a97f2ee018c425"
-  },
-  {
     "src": "/images/previewpretest/pretest9.jpg",
     "bytes": 81761,
     "width": 1048,
     "height": 1100,
     "format": "jpeg",
     "sha256": "81849013b7ff8b3d257f0720c4fab52b5ef36f48dea407be015d27bb09a327c8"
-  },
-  {
-    "src": "/images/aura/aura8.jpg",
-    "bytes": 81069,
-    "width": 2600,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "2153b7ab58181e2b160b837d22914c00379ba50e72b16efbfbd99da18a8d0844"
-  },
-  {
-    "src": "/images/aura/aura3.svg",
-    "bytes": 80350,
-    "width": 1300,
-    "height": 800,
-    "format": "svg",
-    "sha256": "193567f64cdf782c889b0b2d15f44c8734daa7ed11da75241f2fa8b2ddc1804c"
   },
   {
     "src": "/images/disruptive/disruptive5.jpg",
@@ -1332,36 +1280,12 @@
     "sha256": "dc1a6492511fb5f5202c5079fd087455407fbc3498b586c9c5e7ee8399cf50f1"
   },
   {
-    "src": "/images/aura/sm-aura3.jpg",
-    "bytes": 80218,
-    "width": 2348,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "aef79d810afd6d1ed1bd9a2ce4d17777c9873e0352e72bc506696b72f4b70b95"
-  },
-  {
-    "src": "/images/aura/aura4.svg",
-    "bytes": 80166,
-    "width": 1300,
-    "height": 800,
-    "format": "svg",
-    "sha256": "96b326ab3b5f2d6a394dc2741043e107336f16e5cdc4dc10d7cce08bdc9a814e"
-  },
-  {
     "src": "/images/sourdata/sourdata_8.png",
     "bytes": 77739,
     "width": 1292,
     "height": 1000,
     "format": "png",
     "sha256": "1457e9c640c90b0e18217795e3b19ad3c88753d6d3bf3e8a009ae80774fb0978"
-  },
-  {
-    "src": "/images/aura/sm-aura9.jpg",
-    "bytes": 77203,
-    "width": 2348,
-    "height": 1600,
-    "format": "jpeg",
-    "sha256": "62952e8a97c97b68d41b9a6e173e772bd068878523c42e0b64eebfab89c0e508"
   },
   {
     "src": "/images/covers/hero/disruptive.jpg",
@@ -1396,22 +1320,6 @@
     "sha256": "e179ecdc5f1c153fb16f2afd73e063333e49fa23421178d299b693b96bea041e"
   },
   {
-    "src": "/images/covers/hero/quattriny_cover.jpg",
-    "bytes": 71042,
-    "width": 2240,
-    "height": 926,
-    "format": "jpeg",
-    "sha256": "2ef9a9d4c837fb8d573b9d43d8a11a18f33fd366addc2d7be9e91a6ca72f788d"
-  },
-  {
-    "src": "/images/aura/aura12.svg",
-    "bytes": 69833,
-    "width": 1300,
-    "height": 800,
-    "format": "svg",
-    "sha256": "20f6f37d5c565f200a09d2d676b46bfcc520b752a661986b8fb34b832a9da395"
-  },
-  {
     "src": "/images/disruptive/disruptive6.jpg",
     "bytes": 66892,
     "width": 2478,
@@ -1436,20 +1344,12 @@
     "sha256": "d2d0af439523171d7119201d10c6a7ee120b84a79c1c66db7904eb289c67e293"
   },
   {
-    "src": "/images/it-back/itback5.jpg",
-    "bytes": 63434,
-    "width": 1436,
-    "height": 1340,
+    "src": "/images/acm-partner-visibility/759809e58b236bc8.jpg",
+    "bytes": 61902,
+    "width": 402,
+    "height": 250,
     "format": "jpeg",
-    "sha256": "2a7f344e7c8cb2e21afdca6df984ce490e720fc0709c32b7a4375d9e94be731c"
-  },
-  {
-    "src": "/images/it-back/itback4.jpg",
-    "bytes": 62106,
-    "width": 1436,
-    "height": 1340,
-    "format": "jpeg",
-    "sha256": "f1e9e8e16c94b7df038d95d78f80ebfc5238be88b59623f8f99e9ebfe111be52"
+    "sha256": "e02d410441dcbee0e25621da23de2f347e4fdacfb8d4acc8e9f80aab79bad516"
   },
   {
     "src": "/images/covers/cards-sm/avi_sm.jpg",
@@ -1460,14 +1360,6 @@
     "sha256": "22cdf581906f0f9ec669108d868216ff83d3f50241c9b155252a6411f4212b2e"
   },
   {
-    "src": "/images/it-back/itback3.jpg",
-    "bytes": 59095,
-    "width": 2240,
-    "height": 902,
-    "format": "jpeg",
-    "sha256": "c9e27bb16dfc8b6fa6b84ec05fb439d6d1a86b523a9bfbe3a95ed82faf992e0a"
-  },
-  {
     "src": "/images/referto/referto5.jpg",
     "bytes": 57549,
     "width": 1090,
@@ -1476,36 +1368,12 @@
     "sha256": "7b5f6261e8debd4536d24470c2302ceba5436e6bcb6dddac13c19a60bf57acac"
   },
   {
-    "src": "/images/covers/hero/itback.jpg",
-    "bytes": 56247,
-    "width": 2240,
-    "height": 926,
-    "format": "jpeg",
-    "sha256": "053ef0a0e9752a53d88639dc139bebe1984f6a4399543aa7c6256b6b4e242b79"
-  },
-  {
-    "src": "/images/aura/aura2.svg",
-    "bytes": 55266,
-    "width": 1300,
-    "height": 800,
-    "format": "svg",
-    "sha256": "b806203968dc0f59d695d91d923d9c1d89844f85d029b08f50d43ef748886e7a"
-  },
-  {
     "src": "/images/referto/referto4.jpg",
     "bytes": 54537,
     "width": 1090,
     "height": 822,
     "format": "jpeg",
     "sha256": "31af5274fee1d7b5df2f084165f9ac5fdd4a4ad3275a5cbb631fbb5766ccec10"
-  },
-  {
-    "src": "/images/covers/cards/itback-card.jpg",
-    "bytes": 53187,
-    "width": 1100,
-    "height": 1888,
-    "format": "jpeg",
-    "sha256": "ef2cd63f221710c3d3976115e29cc232ee7527e72974503f50643f0c363e5ecf"
   },
   {
     "src": "/images/disruptive/disruptive4.jpg",
@@ -1530,14 +1398,6 @@
     "height": 898,
     "format": "jpeg",
     "sha256": "59f67b9e457682eea4ff08d0d18ae7fc69b5409afa5972e99d71b777b567cec7"
-  },
-  {
-    "src": "/images/covers/cards/quattriny-card.jpg",
-    "bytes": 47922,
-    "width": 1100,
-    "height": 1772,
-    "format": "jpeg",
-    "sha256": "3436e647efe8cdb16228b7968086a7f95ff0ffc02bd8d2588ef7212ae5c0ccdd"
   },
   {
     "src": "/images/referto/referto11.jpg",
@@ -1572,30 +1432,6 @@
     "sha256": "9924705a43911d9b91ea9cd26ef5316a5a6a868ef1acd744c5809f61c01f88dc"
   },
   {
-    "src": "/images/sourdata/next.svg",
-    "bytes": 43083,
-    "width": 650,
-    "height": 200,
-    "format": "svg",
-    "sha256": "4f61ab77c915ce2b756f8cc47d22e82131bd73bca4e2921c9e6741fae63cb2b6"
-  },
-  {
-    "src": "/images/aura/aura_cover.jpg",
-    "bytes": 40291,
-    "width": 2240,
-    "height": 926,
-    "format": "jpeg",
-    "sha256": "8ebcabdb4f6ec51a3682cb25f65c54242db73f1605c8e8d71b76092a960463fc"
-  },
-  {
-    "src": "/images/covers/hero/aura_cover.jpg",
-    "bytes": 40291,
-    "width": 2240,
-    "height": 926,
-    "format": "jpeg",
-    "sha256": "8ebcabdb4f6ec51a3682cb25f65c54242db73f1605c8e8d71b76092a960463fc"
-  },
-  {
     "src": "/images/covers/sm/sourdata_sm.jpg",
     "bytes": 36784,
     "width": 770,
@@ -1612,38 +1448,6 @@
     "sha256": "f484285f66b3e4b5abe652fb85f09ed72c269a2239c060bc5bce22c92d67c624"
   },
   {
-    "src": "/images/sourdata/sourdata-cover-sm.png",
-    "bytes": 33788,
-    "width": 385,
-    "height": 300,
-    "format": "png",
-    "sha256": "6371e9ad3c28248400fba6fcebdce7b5c6fea123be10af9b24d39081b68c5b0f"
-  },
-  {
-    "src": "/images/aboutme/Frame 632049.svg",
-    "bytes": 32858,
-    "width": 139,
-    "height": 208,
-    "format": "svg",
-    "sha256": "1a805e122c7c70ade039533dc11e3e498499735c4871425e0b7e940127140d03"
-  },
-  {
-    "src": "/images/referto/next.svg",
-    "bytes": 32376,
-    "width": 650,
-    "height": 200,
-    "format": "svg",
-    "sha256": "cf1d61536e38adb151e0a59338ae4169478f8789492537a0e86a5e62ae6b2cf7"
-  },
-  {
-    "src": "/images/covers/cards/aura-card.jpg",
-    "bytes": 31421,
-    "width": 1100,
-    "height": 1318,
-    "format": "jpeg",
-    "sha256": "3f9a6e25a489349014db36c86890b79024b1641a1127ac88c0efbc0689339b39"
-  },
-  {
     "src": "/images/covers/sm/disruptive_sm.jpg",
     "bytes": 30941,
     "width": 770,
@@ -1652,68 +1456,12 @@
     "sha256": "1ce3d7ac3919bf6f0a33e2821323cd3388f8fa46fe9c0bef85384046b035ef9a"
   },
   {
-    "src": "/images/covers/sm/quattriny_sm.jpg",
-    "bytes": 25520,
-    "width": 770,
-    "height": 600,
-    "format": "jpeg",
-    "sha256": "8ad5f3af38a148c081113db1845de93205e4faadd1264223e7bde2aa7c0e16cf"
-  },
-  {
-    "src": "/images/aboutme/bovisa.svg",
-    "bytes": 24317,
-    "width": 606,
-    "height": 400,
-    "format": "svg",
-    "sha256": "aa5742fdb43decbfba547420498d86dcf54a550d97b8ee318a47f07dc93dca1b"
-  },
-  {
-    "src": "/images/covers/next/it-next.jpg",
-    "bytes": 23428,
-    "width": 1300,
-    "height": 400,
-    "format": "jpeg",
-    "sha256": "cbb4ff9ec0a13f57d5f3d95aa4a9fe2d0ac1d8a0bde21dc9671ed480b7a9212c"
-  },
-  {
-    "src": "/images/covers/next/qu-next.jpg",
-    "bytes": 23206,
-    "width": 1300,
-    "height": 400,
-    "format": "jpeg",
-    "sha256": "d362b217d7b8a042b59ab314b01eb6b7d6db3d3f9db6b41e0a8d89d139e7025f"
-  },
-  {
-    "src": "/images/covers/sm/itback_sm.jpg",
-    "bytes": 21126,
-    "width": 804,
-    "height": 600,
-    "format": "jpeg",
-    "sha256": "9f686336803b1af97077675f5377dfcabc703836bcf5d833ea157285bca88050"
-  },
-  {
     "src": "/images/covers/next/rf-next.jpg",
     "bytes": 19932,
     "width": 1300,
     "height": 400,
     "format": "jpeg",
     "sha256": "a930757b080487a1c47bd25591040d00b88fc860ae1aa9e922a0028bf1ded979"
-  },
-  {
-    "src": "/images/aura/aura_sm.jpg",
-    "bytes": 19875,
-    "width": 770,
-    "height": 600,
-    "format": "jpeg",
-    "sha256": "f478c16a630488a2692d3461ccf94daf75fd0424eb71179f33f72a2752597eb4"
-  },
-  {
-    "src": "/images/covers/sm/aura_sm.jpg",
-    "bytes": 19875,
-    "width": 770,
-    "height": 600,
-    "format": "jpeg",
-    "sha256": "f478c16a630488a2692d3461ccf94daf75fd0424eb71179f33f72a2752597eb4"
   },
   {
     "src": "/images/covers/cards-sm/referto_sm.jpg",
@@ -1730,14 +1478,6 @@
     "height": 400,
     "format": "jpeg",
     "sha256": "22de121216b7729ca0f73d12a8206ae0d81413f5d8c533e8015bc479582034d9"
-  },
-  {
-    "src": "/images/covers/next/dis-next.jpg",
-    "bytes": 17756,
-    "width": 1300,
-    "height": 400,
-    "format": "jpeg",
-    "sha256": "76756e67fd5cd3f64213d16f4dcdb4f241d47af5be25cbb4ad4836aaccf53246"
   },
   {
     "src": "/images/covers/cards-sm/sourdata_sm.jpg",
@@ -1764,44 +1504,12 @@
     "sha256": "a37c71f05cff4e7216cf0aa7233696ecae876d2b2355c37c3a080b101c3b79bb"
   },
   {
-    "src": "/images/covers/next/au-next.jpg",
-    "bytes": 16200,
-    "width": 1300,
-    "height": 400,
-    "format": "jpeg",
-    "sha256": "4349ef6e5e179a8be10d6079f2e42a15b3d7c30438065b2f35f778056aeb9504"
-  },
-  {
-    "src": "/images/covers/cards-sm/itback_sm.jpg",
-    "bytes": 15467,
-    "width": 804,
-    "height": 500,
-    "format": "jpeg",
-    "sha256": "67d7bdb9e7cb824961c23c1d3610ca49ea150cf395621138392ab80d3739ff56"
-  },
-  {
-    "src": "/images/bottleneck/next.svg",
-    "bytes": 15445,
-    "width": 650,
-    "height": 200,
-    "format": "svg",
-    "sha256": "52f61a6bae8135e83a1eebdfe63941fa914e0f9711e75d48d79d7f6e75cc6a17"
-  },
-  {
     "src": "/images/covers/next/bn-next.jpg",
     "bytes": 15310,
     "width": 1300,
     "height": 400,
     "format": "jpeg",
     "sha256": "989db4bab8022a345d441e922609782cb2c83a11ea8b1857b1642bc1e56f95ef"
-  },
-  {
-    "src": "/images/covers/cards-sm/quattriny_sm.jpg",
-    "bytes": 15217,
-    "width": 804,
-    "height": 406,
-    "format": "jpeg",
-    "sha256": "88bacb2ae1b3cfc2566591964e6a1445f4727ce3800828f8b26dce3bf3f62c47"
   },
   {
     "src": "/favicon.png",
@@ -1836,14 +1544,6 @@
     "sha256": "387671256b98d0a460ab5de3190e0231abbac75b23c376314df0e452be47543b"
   },
   {
-    "src": "/images/covers/next/cc-next.jpg",
-    "bytes": 12131,
-    "width": 1300,
-    "height": 400,
-    "format": "jpeg",
-    "sha256": "34ff34be1b7adec0b73f1b8caf57539f4fe671105905b3b02272a4b98bcd16a9"
-  },
-  {
     "src": "/images/covers/cards-sm/bottleneck_sm.jpg",
     "bytes": 11842,
     "width": 804,
@@ -1852,28 +1552,12 @@
     "sha256": "eb7fd99f1965b35e91eb265c94f00c4be56eef2090de13a15896ec528d3f690d"
   },
   {
-    "src": "/images/covers/cards-sm/aura_sm.jpg",
-    "bytes": 11282,
-    "width": 804,
-    "height": 406,
-    "format": "jpeg",
-    "sha256": "3fb99b37cc6c0271d67092db9ccd7cc4ac903600868da3f04c4f10469edac86e"
-  },
-  {
     "src": "/images/covers/cards-sm/preview_sm.jpg",
     "bytes": 10128,
     "width": 804,
     "height": 500,
     "format": "jpeg",
     "sha256": "c43d5411e22417a314055e1d627d7750ed68e7e561a51075ff18c957de571122"
-  },
-  {
-    "src": "/images/carachioggia/next.svg",
-    "bytes": 10116,
-    "width": 650,
-    "height": 200,
-    "format": "svg",
-    "sha256": "d2926c80f4f0a79aab73f8c0fee72bb5f8fad7ff53c20eb23b3989757c61654d"
   },
   {
     "src": "/images/aboutme/mediaset.png",
@@ -1924,14 +1608,6 @@
     "sha256": "118933a77a783fddc845458a6a8f49b8f9442aa5a0154ecd96812f70871e6ada"
   },
   {
-    "src": "/images/previewpretest/next.svg",
-    "bytes": 5553,
-    "width": 650,
-    "height": 200,
-    "format": "svg",
-    "sha256": "13d2280b76d3c5b70a0aed8bfe7278ae882e3c51d03f6f3485954a2fc942c773"
-  },
-  {
     "src": "/images/aboutme/letswork.svg",
     "bytes": 5294,
     "width": 83,
@@ -1962,22 +1638,6 @@
     "height": 143,
     "format": "svg",
     "sha256": "09ade18062305c5f915c83f7bbf4708df8c79715630de8a4df62af9755f4de90"
-  },
-  {
-    "src": "/images/aboutme/linkedin.svg",
-    "bytes": 1500,
-    "width": 143,
-    "height": 143,
-    "format": "svg",
-    "sha256": "8fdc6848cfbd646aa6a362c1145e7c0977199379f42145dfb05c2bc0e61eca75"
-  },
-  {
-    "src": "/images/aboutme/github.svg",
-    "bytes": 1456,
-    "width": 143,
-    "height": 143,
-    "format": "svg",
-    "sha256": "e772662bbb5c0fef43261cff0a88058557c9066eeba615504b4b00d339b7195b"
   },
   {
     "src": "/icons/arrow-open.svg",

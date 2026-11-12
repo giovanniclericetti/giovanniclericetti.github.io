@@ -23,6 +23,16 @@ function render() {
   entries.forEach((entry, el) => {
     const { width, height, top } = el.getBoundingClientRect()
     if (!width || !height) return
+    // Opt-in frame movement preserves the photograph without overscanning it.
+    if (el.dataset.parallaxMode === 'frame') {
+      const progress = Math.max(0, Math.min(1, (viewport - top) / (viewport + height)))
+      const offset = enabled ? (progress - 0.5) * 12 : 0
+      el.style.transform = `translateY(${offset}px)`
+      el.style.backgroundSize = 'cover'
+      el.style.backgroundPosition = 'center'
+      el.style.backgroundRepeat = 'no-repeat'
+      return
+    }
     loadImage(el)
     if (!entry.image.naturalWidth) return
 
@@ -76,6 +86,7 @@ Vue.directive('parallax', {
     entries.set(el, {
       image: new Image(),
       original: {
+        transform: el.style.transform,
         backgroundSize: el.style.backgroundSize,
         backgroundPosition: el.style.backgroundPosition,
         backgroundRepeat: el.style.backgroundRepeat,

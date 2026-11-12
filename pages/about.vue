@@ -29,16 +29,6 @@
 
     <About-Box class="d-lg-block d-none" />
 
-    <About-Intro
-
-subdescription="My Short Story" description="My first real taste of the design world came in high school when I had the pleasure of attending the Artistic School at Fondazione Sacro Cuore in Milan. These years were extremely important for me, as they allowed me to develop an eye for aesthetic beauty and to cultivate a personal critical perspective. What led me to pursue Communication Design at the Politecnico was my growing realization of the importance of how a project is presented and communicated.
-
-During my tenure at the university in Bovisa, I was surprised by my own attraction to the design style that I had learned, developed, and made my own, to the point that I now apply it to everything. It is an essential part of my everyday way of living. On numerous occasions, I have engaged in the creative process of designing t-shirts, creating graphics, developing personalized stickers, curating Instagram pages, branding holiday trips and programming websites, all for the purpose of fun and enjoyment with my friends.
-
-"
-
-      class="about-story"/>
-
     <About-CV class="about-cv-desktop d-none d-lg-block"/>
     <About-CV-Accordion class="about-cv-mobile d-lg-none d-block"/>
     </div>
@@ -61,7 +51,6 @@ During my tenure at the university in Bovisa, I was surprised by my own attracti
           window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
       const targets = this.$el.querySelectorAll([
-        '.about-story',
         '.about-cv-desktop > .row > div > h4',
         '.about-cv-desktop > .row > div > .cvpar',
         '.about-cv-desktop .work-experience-item',
@@ -103,6 +92,7 @@ During my tenure at the university in Bovisa, I was surprised by my own attracti
 
 .about {
   --color-primary: #FF6A68;
+  overflow-x: clip;
 }
 
 .about-sections {

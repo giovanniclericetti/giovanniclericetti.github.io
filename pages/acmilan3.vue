@@ -1,262 +1,298 @@
 <template>
-
-  <div class="acmilan3">
-
-    <div class="container mt-4">
-
-      <ProjectHeader/>
-
-      <Project-Intro
-        title="AC Milan 3"
-        subtitle="Editorial project of an indie independent magazine for
-social change to chronicle the lives of health workers"
-        pill1="Editorial"
-        pill2="Visual"
-        pill3="Branding"
-
-      />
-
-      <div cols="12" md="12" class="position-relative mt-md-0 py-md-3 py-md-2 d-none d-md-block "
-      >
-
-
-
-        <img v-responsive-background="'/images/covers/hero/referto.jpg'" data-image-src="/images/covers/hero/referto.jpg" class="cover-parallax"
-
-
-
-
-             data-parallax-image v-parallax>
-        <WorkInProgress/>
+  <div class="acmilan events-matchday">
+    <div class="container pt-4">
+      <ProjectHeader />
+      <ProjectIntro title="ACM Events &amp; Matchday"
+        subtitle="Design and production of visual assets and content for AC Milan's corporate events, commercial activations, and matchday experiences, from physical and digital installations to live direction at San Siro, including supplier coordination and on-site supervision."
+        pill1="Work" pill2="Commercial" pill3="Event" />
+      <div class="pt-md-3 d-none d-md-block">
+        <div v-responsive-background="{ src: '/images/acm-events-matchday/GCR24765_0PQcufMC_20261102113848 2.png', fullResolution: true }" data-image-src="/images/acm-events-matchday/GCR24765_0PQcufMC_20261102113848 2.png" class="cover-parallax" aria-label="Hall of Fame ceremony at San Siro" data-parallax-image v-parallax role="img"></div>
       </div>
-
-
-      <div cols="12" class="position-relative pt-0 my-4 cover-mobile d-block d-md-none" >
-
-        <PortfolioImage class=""
-     src="/images/covers/sm/referto_sm.jpg"
- loading="lazy" fetchpriority="high" style="height: auto;" />
-        <WorkInProgress/>
-
+      <div class="cover-mobile d-block d-md-none">
+        <PortfolioImage src="/images/acm-events-matchday/GCR24765_0PQcufMC_20261102113848 2.png" alt="Hall of Fame ceremony at San Siro" loading="eager" fetchpriority="high" />
       </div>
-
-      <ProjectDescription
-        description="
-According to the vocabulary, Referto is a clinical document written by a doctor, putting his or her perspective on the patient and the disease on paper. Similarly, REFERTO magazine is the story of healthcare at its most genuine, human and emotional state, delivered directly from the hands of those who dedicate themselves to protecting our health every day. For this project, the first issue of the magazine has been created, focusing on Soccorso (First Aid), with subsequent issues planned on Hospitalisation, Surgery and Prognosis, each with its own unique cover design. The design of this indie magazine for social change evolved from the research phase, which included collecting photographic material, researching sources, producing interviews and writing articles. The REFERTO brand was established, with choices of color, paper and typography tailored to the content being communicated.
-
-"        team="S. Bonfanti, A. Burchiani, E. Ceriani, T. Prinetti"
-        role="Brand Identity, Visual, Editorial Layout"
-        delivery="Editorial Design Lab, 2023"
-        class="my-md-3"
-      >
-
-      </ProjectDescription>
-
-      <div>
-
-      </div>
-
-      <b-row class="mt-4">
-
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-          <div class="imgbox">
-            <img v-responsive-background="'/images/referto/referto1.jpg'" data-image-src="/images/referto/referto1.jpg" class="img-parallax imgproject h600"
-                 data-parallax-image v-parallax></div>
-        </b-col>
-
-        <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
-        <div class="imgbox">
-          <img v-responsive-background="'/images/referto/referto3.jpg'" data-image-src="/images/referto/referto3.jpg" class="img-parallax imgproject ref-3"
-               data-parallax-image v-parallax></div>
-        </b-col>
-
-        <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
-          <div class="imgbox pb-0 mb-4">
-            <img v-responsive-background="'/images/referto/referto4.jpg'" data-image-src="/images/referto/referto4.jpg" class="img-parallax imgproject h400" style="height: 350px;
-     "
-                 data-parallax-image v-parallax></div>
-
-          <div class="pt-2">
-          <div class="imgbox ">
-            <img v-responsive-background="'/images/referto/referto5.jpg'" data-image-src="/images/referto/referto5.jpg" class="img-parallax imgproject h600" style="height: 250px;
-     "
-                 data-parallax-image v-parallax></div>
-          </div>         </b-col>
-
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-          <div class="imgbox">
-            <img v-responsive-background="'/images/referto/referto2.jpg'" data-image-src="/images/referto/referto2.jpg" class="img-parallax imgproject h500"
-                 data-parallax-image v-parallax></div>
-        </b-col>
-
-        <b-col cols="12" md="4" class=" py-md-3 py-2 px-3 d-none d-md-block">
-          <div class="imgbox pb-0 mb-4">
-            <img v-responsive-background="'/images/referto/referto15.jpg'" data-image-src="/images/referto/referto15.jpg" class=" img-parallax imgproject " style="height: 250px;
-     "
-                 data-parallax-image v-parallax></div>
-
-          <div class="pt-2">
-            <div class="imgbox  d-none d-md-block">
-              <img v-responsive-background="'/images/referto/referto16.jpg'" data-image-src="/images/referto/referto16.jpg" class="img-parallax imgproject" style="height: 250px;
-     "
-                   data-parallax-image v-parallax></div>
-          </div>         </b-col>
-
-          <b-col cols="12" md="8" class=" py-md-3 py-2 px-3">
-
-            <div style="overflow: hidden" class="p-0 m-0 projectbox d-flex ref-video justify-content-center align-items-center">
-              <video autoplay loop muted style="width: 100%;">
-                <source src="/images/referto/referto_gif.mp4" type="video/mp4">
-                Il tuo browser non supporta il tag video.
-              </video>
-            </div>
-
-
-          </b-col>
-
-
-
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-
-          <ProjectDescription2
-
-            title="Content and Sections"
-
-            description="
-The magazine has 260 pages and is bound in Swiss binding with a fold-out flap. All content is divided into five chapters: '1. The Call', '2. The Wait', '3. The Survey', '4. The Rescue' and '5. The Transport'. Each contains the four sections of interviews, articles, reports and diaries to effectively convey the content. There is also a photo insert in the center of the mag. "
-
-          /> </b-col>
-
-        <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
-          <div class="imgbox">
-            <img v-responsive-background="'/images/referto/referto6.jpg'" data-image-src="/images/referto/referto6.jpg" class="img-parallax imgproject h600" style="height: 630px;
-     "
-                 data-parallax-image v-parallax></div>
-        </b-col>
-
-        <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3">
-          <div class="imgbox">
-            <img v-responsive-background="'/images/referto/referto7.jpg'" data-image-src="/images/referto/referto7.jpg" class="img-parallax imgproject h600"
-                 data-parallax-image v-parallax></div>
-        </b-col>
-
-        <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
-          <div class="imgbox">
-            <img v-responsive-background="'/images/referto/referto11.jpg'" data-image-src="/images/referto/referto11.jpg" class="img-parallax imgproject h400 ref-pc"
-                 data-parallax-image v-parallax></div>
-        </b-col>
-
-        <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
-          <div class="imgbox">
-            <img v-responsive-background="'/images/referto/referto12.jpg'" data-image-src="/images/referto/referto12.jpg" class="img-parallax imgproject h400"
-                 data-parallax-image v-parallax></div>
-        </b-col>
-
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-          <ProjectDescription2
-            title="Transmedia Translation"
-            description="
-The magazine also has a transmedia development in its platform, where readers can actively contribute to REFERTO through its online platform to tell stories related to the topics covered."
-          /> </b-col>
-
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-
-          <div style="padding:56.25% 0 0 0;position:relative;" class="projectbox">
-
-            <iframe src="https://player.vimeo.com/video/892686972?h=af631d4405&title=0&byline=0&portrait=0"
-                    style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
-
-
-        </b-col>
-
-        <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3">
-          <div class="imgbox">
-            <img v-responsive-background="'/images/referto/referto13.jpg'" data-image-src="/images/referto/referto13.jpg" class="img-parallax imgproject h500"
-                 data-parallax-image v-parallax></div>
-        </b-col>
-
-
-
-      </b-row>
-
+      <section class="project-section" aria-labelledby="section-0">
+        <div class="section-copy">
+          <h4 id="section-0">Brand Activations</h4>
+          <p>Development of concepts, visual assets, and branded installations for commercial activations and fan-focused initiatives, translating partners' communication needs into physical and digital applications tailored to different spaces and audiences. Projects range from promotional content sets, such as the Emirates production featuring Kaká, to branded fan villages during matchdays, including Christmas activations and new kit launches. Creation of mockups, branded desks, arches, player cutouts, prize wheels, big-screen content, and co-branded installations, taking technical and production requirements into account.</p>
+        </div>
+        <div class="gallery-row" style="--columns: 49fr 22fr 25fr">
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/GCR33836_K5K03rLd_20261102114032 3.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/GCR33836_K5K03rLd_20261102114032 3.png" class="gallery-image" role="img" aria-label="Kaká during the Emirates content production" style="--image-ratio: 1.5"></div>
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/GCR33756_N5DDzeUa_20261102114055 3.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/GCR33756_N5DDzeUa_20261102114055 3.png" class="gallery-image mobile-hidden" role="img" aria-label="Emirates branded editorial content" style="--image-ratio: 0.673469387755102"></div>
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/DSC00778 2.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/DSC00778 2.png" class="gallery-image" role="img" aria-label="AC Milan and Bud branded beer dispenser" style="--image-ratio: 0.7653061224489796"></div>
+        </div>
+        <div class="gallery-row" style="--columns: 59fr 39fr">
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/ANLA9173_ee359df5-348b-4611-98aa-78fd4e3a7c79_20260525121411 3.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/ANLA9173_ee359df5-348b-4611-98aa-78fd4e3a7c79_20260525121411 3.png" class="gallery-image" role="img" aria-label="Matchday fan village for the new kit launch" style="--image-ratio: 1.85"></div>
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/ANLA9131_de0c2bb8-f572-4bbc-94ea-a80ca99e705f_20260525121404 3.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/ANLA9131_de0c2bb8-f572-4bbc-94ea-a80ca99e705f_20260525121404 3.png" class="gallery-image mobile-hidden" role="img" aria-label="Player cutouts and prize wheel at the fan village" style="--image-ratio: 1.2228813559322036"></div>
+        </div>
+        <div class="gallery-row" style="--columns: 1fr 1fr 1fr">
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/ANLA8907_d5a56d55-e9df-48f2-9f05-cf74fb75cd8f_20260525120430 3.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/ANLA8907_d5a56d55-e9df-48f2-9f05-cf74fb75cd8f_20260525120430 3.png" class="gallery-image" role="img" aria-label="PUMA and AC Milan fan village barriers" style="--image-ratio: 1.5"></div>
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/SA1_0756_P8o4lNmh_20260525092006 3.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/SA1_0756_P8o4lNmh_20260525092006 3.png" class="gallery-image mobile-hidden" role="img" aria-label="New kit launch billboard outside San Siro" style="--image-ratio: 1.5"></div>
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/0T3A1455_QutsUzwU 3.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/0T3A1455_QutsUzwU 3.png" class="gallery-image" role="img" aria-label="Christmas Village entrance billboard" style="--image-ratio: 1.5"></div>
+        </div>
+        <div class="gallery-row" style="--columns: 1fr 1fr">
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/SRC_3770_XsFjWIcN_20251214112707 3.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/SRC_3770_XsFjWIcN_20251214112707 3.png" class="gallery-image mobile-hidden" role="img" aria-label="Branded arch at the Christmas Village" style="--image-ratio: 1.5"></div>
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/SRC_3968_wts7OfYI_20251214112648 3.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/SRC_3968_wts7OfYI_20251214112648 3.png" class="gallery-image" role="img" aria-label="Christmas Village activation desk" style="--image-ratio: 1.5"></div>
+        </div>
+        <p class="image-credits">Selected photographs are sourced from Getty Images and are used solely to provide visual context for the design work presented. All image rights remain with their respective copyright holders.</p>
+      </section>
+      <section class="project-section" aria-labelledby="section-1">
+        <div class="section-copy">
+          <h4 id="section-1">Corporate &amp; Partner Events</h4>
+          <p>Design of visual materials and branded setups for corporate events and partner initiatives, adapting visual communication to different spaces, audiences, and brand identities. Projects range from branding Milanello for Summer of Bud, featuring training sessions and player meet-and-greets, to business events at venues such as Terrazza Martini, Casa Milan, and San Siro's hospitality areas. Creation of backdrops, screen graphics, and physical branding materials, from artwork preparation to production coordination and on-site setup.</p>
+        </div>
+        <div class="gallery-row" style="--columns: 1fr 1fr">
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/SA1_8305_1iBhF4js_20260714110000 3.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/SA1_8305_1iBhF4js_20260714110000 3.png" class="gallery-image mobile-hidden" role="img" aria-label="Summer of Bud event at Milanello" style="--image-ratio: 1.5"></div>
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/SA2_0013_ZP3h6MqK_20260714105640 2.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/SA2_0013_ZP3h6MqK_20260714105640 2.png" class="gallery-image" role="img" aria-label="Summer of Bud branded installation" style="--image-ratio: 1.5"></div>
+        </div>
+        <div class="gallery-row" style="--columns: 35fr 41fr 22fr">
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/image 634.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/image 634.png" class="gallery-image" role="img" aria-label="Game Changers corporate event materials" style="--image-ratio: 1.05"></div>
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/VL_L8956_rFaGwTjP 1.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/VL_L8956_rFaGwTjP 1.png" class="gallery-image" role="img" aria-label="The Art of Collaboration event at Terrazza Martini" style="--image-ratio: 1.2300000000000002"></div>
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/FS3_4829_F0QJd8l6.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/FS3_4829_F0QJd8l6.png" class="gallery-image mobile-hidden" role="img" aria-label="Upgrade Your Business event screens" style="--image-ratio: 0.66"></div>
+        </div>
+        <div class="gallery-row" style="--columns: 1fr 1fr">
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/FR3_3197_JEHvr5s2 3.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/FR3_3197_JEHvr5s2 3.png" class="gallery-image" role="img" aria-label="Partner event backdrop at Casa Milan" style="--image-ratio: 1.5"></div>
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/MM4_2041_Wbw6dYom_20260522100547 2.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/MM4_2041_Wbw6dYom_20260522100547 2.png" class="gallery-image" role="img" aria-label="Partner dinner menu and table setting" style="--image-ratio: 1.5"></div>
+        </div>
+        <div class="gallery-row" style="--columns: 40fr 60fr">
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/FS8_5480_Bf7DMWoV 2.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/FS8_5480_Bf7DMWoV 2.png" class="gallery-image" role="img" aria-label="AC Milan and MSC event backdrop" style="--image-ratio: 1.35"></div>
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/MM4_2032_BA0C394l_20260522100607 2.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/MM4_2032_BA0C394l_20260522100607 2.png" class="gallery-image" role="img" aria-label="Partner dinner setup at Casa Milan" style="--image-ratio: 2.025"></div>
+        </div>
+        <p class="image-credits">Selected photographs are sourced from Getty Images and are used solely to provide visual context for the design work presented. All image rights remain with their respective copyright holders.</p>
+      </section>
+      <section class="project-section" aria-labelledby="section-2">
+        <div class="section-copy">
+          <h4 id="section-2">Matchday &amp; Sport Production</h4>
+          <p>Design of visual assets and installations for on-pitch ceremonies and activations, combining sporting and commercial requirements within the matchday visual experience. Projects include the giant shirt tribute to Baresi, Emirates activations, and Hall of Fame ceremony setups, alongside supporting content for digital channels. Production of graphics and supervision of branded setups for hospitality areas, including the Generali Lounge and Bud Corner, with dedicated installations and screen content. Live direction during AC Milan matches at San Siro, managing the stadium's big screens, pitchside LED boards, and video towers. Coordination and direction of dedicated camera operators, management of incoming television camera feeds, and selection of live footage and content for display across the stadium's screens. Management of pre-match, in-match, and post-match programming, including goal sequences, video content, and partner activations, coordinating visuals, timing, and live operations throughout the event.</p>
+        </div>
+        <div class="gallery-row" style="--columns: 1fr 1fr">
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/MM3_1888_6ASwckrp_20260829052529 3.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/MM3_1888_6ASwckrp_20260829052529 3.png" class="gallery-image" role="img" aria-label="Giant shirt tribute to Franco Baresi" style="--image-ratio: 1.5"></div>
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/SA2_9674_MReuHTb9_20260427101930 2.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/SA2_9674_MReuHTb9_20260427101930 2.png" class="gallery-image" role="img" aria-label="Emirates activation on the San Siro big screen" style="--image-ratio: 1.5"></div>
+        </div>
+        <div class="gallery-row mobile-hidden" style="--columns: 40fr 58fr">
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/GCR34093_gKctbQWP_20261102113919 3.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/GCR34093_gKctbQWP_20261102113919 3.png" class="gallery-image mobile-hidden" role="img" aria-label="Hall of Fame ceremony award presentation" style="--image-ratio: 1.5"></div>
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/GCR24765_0PQcufMC_20261102113848 2.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/GCR24765_0PQcufMC_20261102113848 2.png" class="gallery-image mobile-hidden" role="img" aria-label="Hall of Fame on-pitch ceremony setup" style="--image-ratio: 2.175"></div>
+        </div>
+        <div class="gallery-row" style="--columns: 62fr 37fr">
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/SA1_4663_VxJtEMSd_20261019095155 2.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/SA1_4663_VxJtEMSd_20261019095155 2.png" class="gallery-image" role="img" aria-label="Bud Corner hospitality branding" style="--image-ratio: 1.5"></div>
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/MM3_1320_IDAj5sQn_20261101095721 3.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/MM3_1320_IDAj5sQn_20261101095721 3.png" class="gallery-image" role="img" aria-label="Generali Lounge entrance branding" style="--image-ratio: 0.8951612903225806"></div>
+        </div>
+        <div class="gallery-row" style="--columns: 1fr 1fr">
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/MM3_5117_0a36dvTx_20261019071035 2.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/MM3_5117_0a36dvTx_20261019071035 2.png" class="gallery-image mobile-hidden" role="img" aria-label="Live match programming on the stadium screen" style="--image-ratio: 1.5"></div>
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/MM1_1219_iHKGKyhq_20251215105709 2.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/MM1_1219_iHKGKyhq_20251215105709 2.png" class="gallery-image" role="img" aria-label="Bud activation on the San Siro big screen" style="--image-ratio: 1.5"></div>
+        </div>
+        <p class="image-credits">Selected photographs are sourced from Getty Images and are used solely to provide visual context for the design work presented. All image rights remain with their respective copyright holders.</p>
+      </section>
       <ProjectNextPrevious
-        thumbnail="/images/covers/next/avi-next.svg"
+        thumbnail="/images/covers/next/avi-next.jpg"
         class="column card-large biowhite avi"
         to="/audiovisualidentity"
         pill1="Thesis"
         pill2="Editorial"
         pill3="Branding"
         nextproject="Audiovisual Identity"
-        bionext="Research thesis focused on design and branding in the TV industry"
+        bionext="Research thesis focused on brand strategy and design in the TV industry"
       />
-
-
     </div>
-
-
-    <PortfolioFooter/>
+    <PortfolioFooter />
   </div>
-
-
 </template>
 
 <script>
 export default {
-  name: 'AcMilanThree',
+  name: 'AcmEventsMatchday',
+  head() {
+    return {
+      title: 'ACM Events & Matchday — Giovanni Clericetti',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Visual design for events, commercial activations, and stadium experiences.' },
+        { hid: 'og:image', property: 'og:image', content: '/images/acm-events-matchday/GCR24765_0PQcufMC_20261102113848 2.png' },
+      ],
+    }
+  },
+}
+</script>
+<style scoped>
+.cover-parallax,
+.cover-mobile,
+.gallery-image {
+  position: relative;
 }
 
+.cover-parallax::after,
+.cover-mobile::after,
+.gallery-image::after {
+  content: '@GettyImages';
+  position: absolute;
+  right: 12px;
+  bottom: 8px;
+  z-index: 1;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.65);
+  pointer-events: none;
+}
 
-</script>
+.image-credits {
+  text-align: center;
+  margin-top: 16px;
+  color: #767676;
+  font-size: 12px;
+  line-height: 1.5;
+}
 
-
-<style>
-
-.cover-mobile{
-  width: 100%;
-  height: 300px;
-  background-size: contain;
-  background-position: center;
+.events-matchday .cover-parallax {
+  display: block;
   border-radius: 20px;
   overflow: hidden;
-
-  img{
+}
+.events-matchday {
+  background: #fff;
+}
+.events-matchday ::v-deep .subtitle {
+  max-width: 100%;
+  text-wrap: balance;
+}
+.section-copy {
+  width: calc(80% + 100% / 12);
+  padding: 48px 0;
+}
+.section-copy p {
+  text-wrap: pretty;
+  margin-bottom: 0;
+}
+.section-copy + .gallery-row {
+  margin-top: 0;
+}
+.cover-mobile {
+  height: auto;
+}
+.cover-mobile img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.gallery-split,
+.gallery-row,
+.gallery-column {
+  display: grid;
+  gap: 30px;
+  min-width: 0;
+}
+.gallery-split {
+  grid-template-columns: 3fr 2fr;
+}
+.gallery-column {
+  align-content: start;
+}
+.gallery-row {
+  margin-top: 30px;
+}
+.gallery-row > .gallery-image,
+.gallery-column > .gallery-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: var(--image-ratio);
+  min-height: 0;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+/* Let the aerial photo fill the remaining height of the right column. */
+@media (min-width: 768px) {
+  /* The left column determines the height; crop the last image on the right. */
+  .media-gallery > .gallery-column:last-child {
+    min-height: 0;
+    grid-template-rows: auto auto minmax(0, 1fr);
+    align-content: stretch;
+  }
+  .media-gallery > .gallery-column:last-child > .gallery-image:last-child {
+    height: 100%;
+    aspect-ratio: auto;
+  }
+  /* The first image sets the row height; every sibling fills the same track. */
+  .gallery-row > .gallery-image {
+    height: 100%;
+    aspect-ratio: auto;
+  }
+  .gallery-row > .gallery-image:first-child {
+    height: auto;
+    aspect-ratio: var(--image-ratio);
+  }
+  .venue-gallery > .gallery-column:last-child {
+    align-content: stretch;
+    grid-template-rows: auto minmax(0, 1fr);
+  }
+  .venue-gallery > .gallery-column:last-child > .gallery-image:last-child {
+    height: 100%;
+    aspect-ratio: auto;
+  }
+}
+.venue-row {
+  grid-template-columns: 4fr 3fr 3fr;
+}
+.media-pair,
+.partner-pair {
+  grid-template-columns: 1fr 1fr;
+}
+.media-pair {
+  margin-top: 0;
+}
+.partner-row {
+  grid-template-columns: 3fr 4fr 3fr;
+}
+@media (max-width: 767.98px) {
+  .cover-mobile {
+    margin-top: 40px;
+    margin-bottom: 16px;
+  }
+  .image-credits {
+    width: calc(100% - 16px);
+    max-width: 340px;
+    margin: 10px auto 0;
+    text-align: center;
+    text-wrap: balance;
+  }
+  .gallery-row.mobile-hidden,
+  .gallery-image.mobile-hidden {
+    display: none;
+  }
+  .events-matchday ::v-deep .subtitle,
+  .section-copy {
+    max-width: 100%;
     width: 100%;
   }
-}
-
-.acmilan3 .subtitle{
-  max-width: 55%;
-}
-
-.ref-3{
-  height: 630px;
-}
-
-.ref-video{
-  height: 530px;
-}
-
-.quartapill {
-  visibility: hidden;
-}
-
-@media (max-width: 768px) {
-
-  .acmilan3 .subtitle   {
-    max-width: 100%;
+  .gallery-split,
+  .gallery-row,
+  .gallery-column {
+    gap: 16px;
   }
-
-  .ref-pc{
-    height: 270px;
+  .gallery-split,
+  .gallery-row {
+    grid-template-columns: 1fr;
+    aspect-ratio: auto;
   }
-
-  .ref-video{
-    height: 270px;
+  .gallery-row {
+    margin-top: 16px;
   }
-
-  .ref-3{
-    height: 400px;
+  .media-pair {
+    margin-top: 0;
+  }
+  .venue-gallery .gallery-column,
+  .media-gallery .gallery-column {
+    grid-template-rows: auto;
+  }
+  .gallery-row > .gallery-image,
+  .gallery-column > .gallery-image {
+    height: auto;
+    aspect-ratio: var(--image-ratio);
+    border-radius: 20px;
   }
 }
 
+@media (min-width: 768px) { .events-matchday .gallery-row { grid-template-columns: var(--columns); } }
 </style>

@@ -37,7 +37,7 @@ async function main() {
         assert.ok(
           variant.bytes < (await fs.stat(path.join('static', src))).size
         )
-        if (variant.width === info.width) {
+        if (variant.width === info.width && !info.lossy) {
           const original = await sharp(path.join('static', src))
             .ensureAlpha()
             .raw()

@@ -13,6 +13,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
+      { hid: 'robots', name: 'robots', content: 'noimageindex, max-image-preview:none' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }],
   },
@@ -23,6 +24,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '~/plugins/responsive-background.js',
+    { src: '~/plugins/image-guard.client.js', mode: 'client' },
     { src: '~/plugins/parallax.client.js', mode: 'client' },
     { src: '~/plugins/vue-prlx.js', mode: 'client' },
   ],

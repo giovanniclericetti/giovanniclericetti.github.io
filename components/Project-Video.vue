@@ -30,7 +30,7 @@ export default {
 .projectbox{
   background-color: white;
   max-height: 600px;
-  border-radius: 30px;
+  border-radius: 20px;
   overflow: hidden;
 }
 

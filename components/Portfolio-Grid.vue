@@ -9,31 +9,32 @@
     <b-row class="d-lg-flex d-none" >
 
 
-      <b-col cols="12" md="12" lg="4">
-
-        <PortfolioCard
-          v-bind="projects.milan"
-          class="acmilan"
-        />
-
-        <PortfolioCard
-          class="acmilan3"
-          v-bind="projects.milan3"
-        />
-
-
-        <PortfolioCard
-          v-bind="projects.carachioggia"
-          class="carachioggia"
-        />
-
-      </b-col>
-
-      <b-col cols="12" md="12" lg="4">
+      <b-col cols="12" md="12" lg="4" class="portfolio-column">
 
         <PortfolioCard
           v-bind="projects.milan2"
           class="acmilan2"
+        />
+
+        <PortfolioCard
+          class="acmilan"
+          v-bind="projects.milan"
+        />
+
+        <PortfolioCard
+          v-bind="projects.sourdata"
+          class="sourdata"
+        />
+
+
+        <div class="column-filler" aria-hidden="true"></div>
+      </b-col>
+
+      <b-col cols="12" md="12" lg="4" class="portfolio-column">
+
+        <PortfolioCard
+          v-bind="projects.milan3"
+          class="acmilan3"
         />
 
         <PortfolioCard
@@ -42,27 +43,23 @@
         />
 
         <PortfolioCard
-          v-bind="projects.referto"
-          class="referto"
-        />
-
-        <PortfolioCard
           class="previewpretest"
           v-bind="projects.previewpretest"
         />
 
+        <div class="column-filler" aria-hidden="true"></div>
       </b-col>
 
-      <b-col cols="12" md="12" lg="4">
-
-        <PortfolioCard
-          v-bind="projects.sourdata"
-          class="sourdata"
-        />
+      <b-col cols="12" md="12" lg="4" class="portfolio-column">
 
         <PortfolioCard
           v-bind="projects.avi"
           class="avi"
+        />
+
+        <PortfolioCard
+          v-bind="projects.referto"
+          class="referto"
         />
 
 
@@ -71,9 +68,16 @@
           class="bottleneck"
         />
 
+        <PortfolioCard
+          v-bind="projects.carachioggia"
+          class="carachioggia"
+        />
 
 
 
+
+
+        <div class="column-filler" aria-hidden="true"></div>
       </b-col>
 
 
@@ -87,8 +91,8 @@
       <b-col cols="12" class="compact-project-grid">
 
         <PortfolioCard mobile-layout
-          v-bind="projects.milan"
-          class="acmilan"
+          v-bind="projects.milan3"
+          class="acmilan3"
         />
 
         <PortfolioCard mobile-layout
@@ -97,18 +101,18 @@
         />
 
         <PortfolioCard mobile-layout
-          v-bind="projects.sourdata"
-          class="sourdata d-md-none"
-        />
-
-        <PortfolioCard mobile-layout
-          v-bind="projects.milan3"
-          class="acmilan3 d-none d-md-block"
-        />
-
-        <PortfolioCard mobile-layout
           v-bind="projects.avi"
-          class="avi"
+          class="avi d-md-none"
+        />
+
+        <PortfolioCard mobile-layout
+          v-bind="projects.milan"
+          class="acmilan d-none d-md-block"
+        />
+
+        <PortfolioCard mobile-layout
+          v-bind="projects.referto"
+          class="referto"
         />
 
         <PortfolioCard mobile-layout
@@ -117,8 +121,14 @@
         />
 
         <PortfolioCard mobile-layout
-          v-bind="projects.referto"
-          class="referto d-md-none"
+          v-bind="projects.carachioggia"
+          class="carachioggia"
+        />
+
+
+        <PortfolioCard mobile-layout
+          v-bind="projects.previewpretest"
+          class="previewpretest d-md-none"
         />
 
         <PortfolioCard mobile-layout
@@ -127,13 +137,13 @@
         />
 
         <PortfolioCard mobile-layout
-          v-bind="projects.milan3"
-          class="acmilan3 d-md-none"
+          v-bind="projects.milan"
+          class="acmilan d-md-none"
         />
 
         <PortfolioCard mobile-layout
-          v-bind="projects.sourdata"
-          class="sourdata d-none d-md-block"
+          v-bind="projects.avi"
+          class="avi d-none d-md-block"
         />
 
         <PortfolioCard mobile-layout
@@ -142,19 +152,16 @@
         />
 
         <PortfolioCard mobile-layout
-          v-bind="projects.referto"
-          class="referto d-none d-md-block"
-        />
-
-        <PortfolioCard mobile-layout
-          class="previewpretest"
           v-bind="projects.previewpretest"
+          class="previewpretest d-none d-md-block"
         />
 
         <PortfolioCard mobile-layout
-          v-bind="projects.carachioggia"
-          class="carachioggia"
+          v-bind="projects.sourdata"
+          class="sourdata"
         />
+
+
 
 
 
@@ -174,43 +181,48 @@ export default {
       projects: {
 
         milan3: {
-          title: 'AC Milan 3',
-          projectname: 'AC Milan 3',
-          thumbnail: '/images/covers/cards/referto-card.jpg',
-          mobileThumbnail: '/images/covers/cards-sm/referto_sm.jpg',
-          bio: 'Work in progress',
-          class: 'column card-large biodark md-biowhite',
+          projectType: 'Work Experience',
+          fullResolution: true,
+          title: 'ACM Events & Matchday',
+          projectname: 'ACM Events & Matchday',
+          thumbnail: '/images/acm-partner-visibility/acm3.png',
+          mobileThumbnail: '/images/acm-partner-visibility/acm3.png',
+          bio: 'Visual design for events, commercial activations, and stadium experiences.',
+          class: 'column card-extralarge biowhite',
           to: "acmilan3",
-          workInProgress: true,
-          pill1: 'Visual',
-          pill2: 'Branding',
-          pill3: 'Sport Prod',
+          workInProgress: false,
+          pill1: 'Work',
+          pill2: 'Commercial',
+          pill3: 'Event',
         },
 
 
         milan2: {
-          title: 'AC Milan 2',
-          projectname: 'AC Milan 2',
-          thumbnail: '/images/covers/cards/avi-card-v2.jpg',
-          mobileThumbnail: '/images/covers/cards-sm/avi_sm.jpg',
-          bio: 'Work in progress',
+          projectType: 'Work Experience',
+          fullResolution: true,
+          title: 'ACM Partner Visibility',
+          projectname: 'ACM Partner Visibility',
+          thumbnail: '/images/acm-partner-visibility/acm2-card.png',
+          mobileThumbnail: '/images/acm-partner-visibility/acm2_sm.png',
+          bio: "Visual branding and visibility for the Club's commercial partners.",
           class: 'column card-medium biowhite',
-          to: "acmilan2",
-          workInProgress: true,
-          pill1: 'Visual',
-          pill2: 'Branding',
-          pill3: 'Sport Prod',
+          to: "acm-partner-visibility",
+          workInProgress: false,
+          pill1: 'Work',
+          pill2: 'Brand',
+          pill3: 'Commercial',
         },
 
 
         avi: {
+          projectType: 'Polimi Master Thesis',
           title: 'Audiovisual Identity',
           projectname: 'Audiovisual Identity',
           thumbnail: '/images/covers/cards/avi-card-v2.jpg',
           mobileThumbnail: '/images/covers/cards-sm/avi_sm.jpg',
           bio: 'Research thesis focused on brand strategy and design in the TV industry',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
-          class: 'column card-medium biowhite',
+          class: 'column card-small biowhite',
           to: "audiovisualidentity",
           pill1: 'Thesis',
           pill2: 'Editorial',
@@ -218,17 +230,19 @@ export default {
         },
 
         milan: {
-          title: 'AC Milan',
-          projectname: 'AC Milan',
+          projectType: 'Work Experience',
+          fullResolution: true,
+          title: 'ACM Commercial Decks',
+          projectname: 'ACM Commercial Decks',
           thumbnail: '/images/covers/cards/milan-card-v2.jpg',
           mobileThumbnail: '/images/covers/cards-sm/milan_sm.jpg',
-          bio: 'Production of presentations and visual assets for the Club and its partners',
+          bio: 'Design of commercial presentations and visual assets for AC Milan and its partners.',
           category: ['confidential', 'visual', 'branding', 'graphic'],
-          class: 'column card-large biowhite',
+          class: 'column card-medium biowhite',
           to: "acmilan",
-          pill1: 'Visual',
-          pill2: 'Branding',
-          pill3: 'Sport Prod',
+          pill1: 'Work',
+          pill2: 'Commercial',
+          pill3: 'Presentation',
         },
 
         disruptive: {
@@ -291,10 +305,10 @@ export default {
         carachioggia: {
           title: 'carachioggia',
           thumbnail: '/images/covers/cards/carachioggia-card.jpg',
-          mobileThumbnail: '/images/covers/cards-sm/carachioggia_sm.jpg',
+          mobileThumbnail: '/images/covers/cards/carachioggia-card.jpg',
           bio: 'Digital experience of letters and stories to relive fishing places in Chioggia ',
           category: ['coding'],
-          class: 'column card-extralarge biowhite',
+          class: 'column card-small biowhite',
           to: "carachioggia",
           pill1: 'UX-UI',
           pill2: 'Visual',
@@ -309,7 +323,7 @@ export default {
           mobileThumbnail: '/images/covers/cards-sm/bottleneck_sm.jpg',
           bio: 'Digital innovative wellbeing service that categorises and prioritises notifications',
           category: ['branding', 'graphic'],
-          class: 'column card-extralarge biowhite',
+          class: 'column card-medium biowhite',
           to: "bottleneck",
           pill1: 'UX-UI',
           pill2: 'Interaction',
@@ -332,6 +346,35 @@ export default {
 
 
 <style scoped lang="scss">
+
+.portfolio-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-column > .projectcard {
+  flex-shrink: 0;
+}
+
+.portfolio-column > .projectcard:nth-last-child(2) {
+  margin-bottom: 0;
+}
+
+.column-filler {
+  flex: 1 0 0;
+  position: relative;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.column-filler::after {
+  content: '';
+  position: absolute;
+  inset: 32px 0 0;
+  border-radius: 30px;
+  background: linear-gradient(to bottom, rgba(200, 200, 200, 0.5), rgba(200, 200, 200, 0));
+}
+
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .compact-project-grid {

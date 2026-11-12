@@ -24,7 +24,7 @@
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
         <PortfolioImage class=""
-     src="/images/covers/sm//bottleneck_sm.jpg"
+     src="/images/covers/sm/bottleneck_sm.jpg"
  loading="lazy" fetchpriority="high" style="height: auto;" />
 
       </div>

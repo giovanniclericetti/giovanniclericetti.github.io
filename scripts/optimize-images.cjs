@@ -44,10 +44,16 @@ async function main() {
       const src =
         '/' +
         path.relative(path.join(root, 'static'), file).split(path.sep).join('/')
+      // Preserve fine sponsor logos and lettering in the supplied cover artwork.
+      const losslessCover = /^\/images\/acm-partner-visibility\/(acm2_sm|acm2-next|acm2-card|preview_acm2|milan-card|acm3)\.png$/.test(src)
+      const photographic =
+        src.startsWith('/images/acm-partner-visibility/') && !losslessCover
+      const policy = photographic ? 'photo-webp-responsive-v2' : 'lossless-v1'
       const hash = crypto.createHash('sha256').update(input).digest('hex')
       if (
         cached[src] &&
         cached[src].hash === hash &&
+        (cached[src].policy || 'lossless-v1') === policy &&
         (
           await Promise.all(
             cached[src].entry.variants
@@ -88,7 +94,8 @@ async function main() {
       for (const w of [
         ...new Set([...widths.filter((w) => w < width), width]),
       ]) {
-        const name = `${hash.slice(0, 16)}-${w}.webp`
+        const quality = w >= 960 ? 94 : 86
+        const name = `${hash.slice(0, 16)}${photographic ? '-q' + quality : ''}-${w}.webp`
         if (!pending.has(name))
           pending.set(
             name,
@@ -99,7 +106,7 @@ async function main() {
                 const temporary = dest + '.tmp'
                 await sharp(input)
                   .resize({ width: w, withoutEnlargement: true })
-                  .webp({ lossless: true, effort: 0 })
+                  .webp(photographic ? { quality, effort: 4 } : { lossless: true, effort: 0 })
                   .toFile(temporary)
                 await fs.rename(temporary, dest)
                 stat = await fs.stat(dest)
@@ -118,12 +125,14 @@ async function main() {
       manifest[src] = {
         width,
         height,
+        ...(photographic ? { lossy: true } : {}),
         variants: variants.sort(
           (a, b) => a.width - b.width || a.bytes - b.bytes
         ),
       }
       cache[src] = {
         hash,
+        policy,
         entry: manifest[src],
         audit: audit.find((item) => item.src === src),
       }
@@ -131,6 +140,17 @@ async function main() {
     }
   }
   await Promise.all(Array.from({ length: 4 }, worker))
+  // Remove derivatives whose sources or optimization policies are no longer used.
+  const retained = new Set(
+    Object.values(manifest).flatMap((entry) =>
+      entry.variants.map((variant) => variant.url)
+    )
+  )
+  for (const name of await fs.readdir(path.join(root, 'static/optimized'))) {
+    if (name.endsWith('.webp') && !retained.has('/optimized/' + name)) {
+      await fs.unlink(path.join(root, 'static/optimized', name))
+    }
+  }
   await fs.writeFile(
     path.join(root, 'generated/image-cache.json'),
     JSON.stringify(cache)

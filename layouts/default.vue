@@ -1,5 +1,8 @@
 <template>
-  <Nuxt/>
+  <div>
+    <Nuxt ref="page"/>
+    <PortfolioCursor />
+  </div>
 </template>
 
 <script>
@@ -119,18 +122,6 @@ p2 {
   --color-success: #00AFFA
 }
 
-.it-back {
-  --color-primary: #EA4A3C;
-  --color-secondary: green;
-  --color-success: #EA4A3C;
-  --color-warning: white;
-}
-
-.quattriny {
-  --color-primary: #F7A716;
-  --color-success: #F7A716;
-}
-
 .previewpretest {
   --color-primary: #33D09D;
   --color-success: #4BC3D7;
@@ -141,11 +132,6 @@ p2 {
   --color-success: #5E5F3C;
 }
 
-
-.aura {
-  --color-primary: #FF7673;
-  --color-success: #C26CBA;
-}
 
 .around {
   --color-primary: #5650D8;
@@ -174,7 +160,7 @@ p2 {
   width: 100%;
   background-size: cover;
   height: 600px;
-  border-radius: 30px;
+  border-radius: 20px;
   background-color: white;
   transform-origin: center;
   transform: scale(1.01);
@@ -183,7 +169,7 @@ p2 {
 
 .imgbox{
   overflow: hidden;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .pills {
@@ -239,7 +225,7 @@ p2 {
   width: 100%;
   height: 400px;
   background-size: cover;
-  border-radius: 30px;
+  border-radius: 20px;
   background-color: white;
 }
 
@@ -273,7 +259,7 @@ p2 {
 .projectbox {
   background-color: white;
   max-height: 600px;
-  border-radius: 30px;
+  border-radius: 20px;
   overflow: hidden;
 }
 

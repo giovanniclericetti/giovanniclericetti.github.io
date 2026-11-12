@@ -2,16 +2,18 @@
 
     <div class=" projectcard" >
 
+      <span class="card-category-pill">{{ projectType }}</span>
+
       <NuxtLink :to="to" class="projectcard-link">
 
         <div class="card-background">
 
         <img v-if="!mobileLayout" class="imgproject" alt="" aria-hidden="true"
-             v-responsive-background="{ src: thumbnail }" :data-image-src="thumbnail"
+             v-responsive-background="{ src: thumbnail, fullResolution }" :data-image-src="thumbnail"
              v-prlx.background="{ speed: 0.04, mobileMaxWidth: 992, disabled: parallaxDisabled }"/>
 
           <img v-else class="imgproject imgmobile" alt="" aria-hidden="true"
-               v-responsive-background="{ src: thumbnail, mobile: mobileThumbnail }" :data-image-src="thumbnail" :data-mobile-image-src="mobileThumbnail"
+               v-responsive-background="{ src: thumbnail, mobile: mobileThumbnail, fullResolution }" :data-image-src="thumbnail" :data-mobile-image-src="mobileThumbnail"
                />
 
         </div>
@@ -59,6 +61,7 @@ export default {
   },
   props: {
     mobileLayout: Boolean,
+    fullResolution: Boolean,
     workInProgress: Boolean,
     title: String,
     thumbnail: String,
@@ -69,6 +72,7 @@ export default {
     pill2: String,
     pill3: String,
     projectname: String,
+    projectType: { type: String, default: 'University Project' },
   },
 }
 </script>
@@ -87,13 +91,13 @@ h6{
   font-family: 'DM Sans';
   font-weight: 400;
   font-size: 14px;
-  color:var(--color-primary)}
+  color: #000}
 
 .projectcard {
-  border-radius: 30px;
+  border-radius: 20px;
   position: relative;
   margin-bottom: 32px;
-  overflow: hidden;
+  overflow: visible;
   transition: transform 0.3s ease-in-out; /* Applicato qui */
 
   .card-background {
@@ -200,7 +204,7 @@ h6{
 @media (max-width: 991.98px) {
   .projectcard {
     margin-bottom: 16px;
-    border-radius: 30px;
+    border-radius: 20px;
   }
 
   .titlemob{
@@ -217,7 +221,39 @@ h6{
 
 
 
+.card-category-pill {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  padding: 6px 14px 2px;
+  border: 2px solid #fff;
+  border-radius: 999px;
+  background: var(--color-primary);
+  color: #fff;
+  font-family: 'title-regular', serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.2;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.acmilan2 .card-category-pill {
+  background: #000;
+}
+.acmilan3 .card-category-pill {
+  background: #8B0015;
+}
+.sourdata .card-category-pill {
+  background: #3741DC;
+}
+
 .projectcard-link {
+  position: relative;
+  overflow: hidden;
+  border-radius: inherit;
   display: block;
   width: 100%;
   height: 100%;
@@ -225,6 +261,21 @@ h6{
 .projectcard-link:focus-visible {
   outline: 3px solid var(--color-primary);
   outline-offset: -4px;
+}
+.acmilan .card-tags,
+.acmilan2 .card-tags {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-basis: 100%;
+  max-width: 100%;
+}
+.acmilan .card-tags .pillshome,
+.acmilan2 .card-tags .pillshome {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+@media (max-width: 575.98px) {
+  .acmilan .card-tags .pillshome { font-size: 12px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .projectcard, .projectcard .card-background { transition: none; }

@@ -200,11 +200,11 @@ All the collection devices were physically made through 3D printing after being 
         thumbnail="/images/covers/cards/milan-card-v2.jpg"
         class="column card-large biowhite acmilan"
         to="/acmilan"
-        pill1="Visual"
-        pill2="Branding"
-        pill3="Sport Prod"
-        nextproject="AC Milan"
-        bionext="Production of presentations and visual assets for the Club and its partners"
+        pill1="Work"
+        pill2="Commercial"
+        pill3="Presentation"
+        nextproject="ACM Commercial Decks"
+        bionext="Design of commercial presentations and visual assets for AC Milan and its partners."
       />
 
 

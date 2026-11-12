@@ -5,13 +5,13 @@
     <h1 class="titoloprog"> {{ title }} </h1>
     <h3 class="subtitle"> {{ subtitle }}</h3>
 
-    <div class="d-md-block d-none">
+    <div class="project-pills d-md-block d-none">
       <b-badge pill class="pills mx-0 mr-2 p-2 px-3"> {{ pill1 }}</b-badge>
       <b-badge pill class="pills mx-0 mr-2  p-2 px-3"> {{ pill2 }}</b-badge>
       <b-badge pill class="pills mx-0 mr-2 my-3 p-2 px-3"> {{ pill3 }}</b-badge>
     </div>
 
-    <div class="d-block d-md-none">
+    <div class="project-pills d-block d-md-none">
       <b-badge pill class="pillsmob mx-0 mr-1 my-2  p-1 px-2"> {{ pill1 }}</b-badge>
       <b-badge pill class="pillsmob mx-0 mr-1 my-2  p-1 px-2"> {{ pill2 }}</b-badge>
       <b-badge pill class="pillsmob mx-0 mr-1 my-2  p-1 px-2"> {{ pill3 }}</b-badge>
@@ -30,6 +30,10 @@ export default {
 </script>
 
 <style>
+
+.titoloprog {
+  font-size: 64px;
+}
 
 .subtitle {
   line-height: 120%;
@@ -52,7 +56,7 @@ export default {
   }
 
   .titoloprog{
-    font-size: clamp(36px, 10vw, 52px);
+    font-size: clamp(30px, 8vw, 42px);
     line-height: 1.05;
     overflow-wrap: anywhere;
     padding-top: 5px;

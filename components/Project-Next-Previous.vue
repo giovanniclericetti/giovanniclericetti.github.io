@@ -15,21 +15,21 @@
 
       <div class="d-flex justify-content-center mt-2 mt-md-0">
 
-    <div class="nextcard">
+    <NuxtLink :to="to" :aria-label="nextproject" class="nextcard">
 
-      <NuxtLink :to="to" :aria-label="nextproject">
+
 
         <div class="card-background row justify-content-center" >
           <!-- Keep native dimensions: the existing crop depends on intrinsic image size. -->
           <NuxtImg :src="thumbnail" alt="" loading="lazy" decoding="async" />
         </div>
 
-      </NuxtLink>
+
 
       <b-row align-v="end" class=" p-0 m-0 pb-1 mb-2" style="position: absolute; bottom: 0px; width: 100%;">
 
         <b-col cols="12" md="6" class="text-left ">
-          <NuxtLink :to="to" class="">
+
 <div class="d-flex align-items-center">
             <b-icon icon="arrow-up-right-circle-fill" style="flex-shrink: 0; width: 38px; height: 38px; color: white; opacity: 0.8" />
 
@@ -39,7 +39,7 @@
 
 
 
-          </NuxtLink>     </b-col>
+          </b-col>
 
         <b-col cols="12" md="" class="text-right d-none d-md-block">
           <b-badge pill class="pillshome mx-0 mr-1  p-1 px-2"> {{ pill1 }}</b-badge>
@@ -49,7 +49,7 @@
 
       </b-row>
 
-    </div>
+    </NuxtLink>
 
 
 
@@ -99,7 +99,9 @@ export default {
 
 
 .nextcard {
-  border-radius: 30px;
+  display: block;
+  text-decoration: none;
+  border-radius: 20px;
   overflow: hidden;
   width: 60%;
   background-position: center;
@@ -110,6 +112,7 @@ export default {
   transition: transform 0.3s ease-in-out;
 
 .card-background {
+  pointer-events: none;
   position: absolute;
   background-position: center;
   background-repeat: no-repeat;
