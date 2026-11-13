@@ -227,7 +227,7 @@ h6{
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 3;
-  padding: 6px 14px 2px;
+  padding: 5px 14px 3px;
   border: 2px solid #fff;
   border-radius: 999px;
   background: var(--color-primary);

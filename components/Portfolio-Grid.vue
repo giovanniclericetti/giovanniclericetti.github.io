@@ -246,6 +246,7 @@ export default {
         },
 
         disruptive: {
+          projectType: 'Personal Project',
           title: 'Disruptive',
           thumbnail: '/images/covers/cards/disruptive-card.jpg',
           projectname: 'Disruptive',
@@ -275,6 +276,7 @@ export default {
         },
 
         previewpretest: {
+          projectType: 'Personal Project',
           title: 'Preview Pretest',
           thumbnail: '/images/covers/cards/preview-card.jpg',
           mobileThumbnail: '/images/covers/cards-sm/preview_sm.jpg',
