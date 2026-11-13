@@ -8,10 +8,7 @@
 
       <Project-Intro
         title="Disruptive"
-        subtitle="Design-centered digital exhibition on Sergio Marchionne and his reconstruction story."
-        pill1="UX-UI"
-        pill2="Exhibition"
-        pill3="Event"/>
+        :subtitle="project.bio" :pill1="project.pill1" :pill2="project.pill2" :pill3="project.pill3" />
 
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block "
       >
@@ -36,11 +33,7 @@
       </div>
 
       <ProjectDescription
-        description="
-Disruptive experience was born as an exhibition for a digital medium, giving the opportunity to go beyond the traditional physical way of making exhibitions and to create a design-centred project. The exhibition takes as its starting point the figure of Sergio Marchionne, in order to provoke everyone who is interested in the new beginning of our country, by offering the possibility of a confrontation with a person who has broken out of the pre-established patterns and who has risked himself by finding many supporters and many objections.
-
-Visual and digital design became the narrative tool to bring an immersive experience to life. Through illustrations, video interviews and original multimedia content, Disruptive is a new way to explore, be fascinated and approach the challenge of rebuilding that lies ahead.
-"
+        :description="project.overview"
         team="A. Bocchio, G. Bonadei, M. Bruno, M. Pari, <br> F. Pozzi, T. Prinetti, A. Silvano, D. Zoppi"
         role="Brand Identity, UX-UI, Keynote Presentation"
         delivery="Exhibition for Meeting di Rimini, 2021"
@@ -99,9 +92,7 @@ Visual and digital design became the narrative tool to bring an immersive experi
 
             title="Content and Sections"
 
-            description="
-After a careful analysis of the digital exhibition sector, a card-based navigation with an Instagram-story style of interaction was chosen. The platform is divided into three macro sections, each containing cards with the main content of text, infographics, illustrations, photos or videos, with the possibility of going deeper with a long read.
-"
+            description="After a careful analysis of the digital exhibition sector, a card-based navigation with an Instagram-story style of interaction was chosen. The platform is divided into three macro sections, each containing cards with the main content of text, infographics, illustrations, photos or videos, with the possibility of going deeper with a long read."
 
           /> </b-col>
 
@@ -123,8 +114,7 @@ After a careful analysis of the digital exhibition sector, a card-based navigati
 
             title="Exhibition"
 
-            description="
-The exhibition was then brought into the physical space of the 2021 Rimini Meeting. The challenge was to create a new space for content that was originally designed for digital platforms only, due to COVID-19 restrictions. The physical space was designed to complement the digital approach of the online exhibition, hosting videos and digital presentations."          /> </b-col>
+            description="The exhibition was then brought into the physical space of the 2021 Rimini Meeting. The challenge was to create a new space for content that was originally designed for digital platforms only, due to COVID-19 restrictions. The physical space was designed to complement the digital approach of the online exhibition, hosting videos and digital presentations."          /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
@@ -163,12 +153,8 @@ The exhibition was then brought into the physical space of the 2021 Rimini Meeti
         thumbnail="/images/covers/next/bn-next.jpg"
         class="column card-large biowhite bottleneck"
         to="/bottleneck"
-        pill1="UX-UI"
-        pill2="Interaction"
-        pill3="Branding"
         nextproject="Bottleneck"
-        bionext="Digital wellbeing service for categorisation notifications"
-      />
+      :pill1="projectContent.bottleneck.pill1" :pill2="projectContent.bottleneck.pill2" :pill3="projectContent.bottleneck.pill3" :bionext="projectContent.bottleneck.bio" />
 
 
     </div>
@@ -181,7 +167,9 @@ The exhibition was then brought into the physical space of the 2021 Rimini Meeti
 </template>
 
 <script>
+import projectContent from '~/utils/project-content'
 export default {
+  data() { return { project: projectContent.disruptive, projectContent } },
   name: 'it-back',
 }
 

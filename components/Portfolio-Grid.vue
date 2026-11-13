@@ -174,6 +174,7 @@
 </template>
 
 <script>
+import projectContent from '~/utils/project-content'
 export default {
   name: "PortfolioGrid",
   data() {
@@ -181,155 +182,155 @@ export default {
       projects: {
 
         milan3: {
+          bio: projectContent.acmilan3.bio,
+          pill1: projectContent.acmilan3.pill1,
+          pill2: projectContent.acmilan3.pill2,
+          pill3: projectContent.acmilan3.pill3,
           projectType: 'Work Experience',
           fullResolution: true,
           title: 'ACM Events & Matchday',
           projectname: 'ACM Events & Matchday',
           thumbnail: '/images/acm-partner-visibility/acm3.png',
           mobileThumbnail: '/images/acm-partner-visibility/acm3.png',
-          bio: 'Visual design for events, commercial activations, and stadium experiences.',
           class: 'column card-extralarge biowhite',
           to: "acmilan3",
           workInProgress: false,
-          pill1: 'Work',
-          pill2: 'Commercial',
-          pill3: 'Event',
         },
 
 
         milan2: {
+          bio: projectContent['acm-partner-visibility'].bio,
+          pill1: projectContent['acm-partner-visibility'].pill1,
+          pill2: projectContent['acm-partner-visibility'].pill2,
+          pill3: projectContent['acm-partner-visibility'].pill3,
           projectType: 'Work Experience',
           fullResolution: true,
           title: 'ACM Partner Visibility',
           projectname: 'ACM Partner Visibility',
           thumbnail: '/images/acm-partner-visibility/acm2-card.png',
           mobileThumbnail: '/images/acm-partner-visibility/acm2_sm.png',
-          bio: "Visual branding and visibility for the Club's commercial partners.",
           class: 'column card-medium biowhite',
           to: "acm-partner-visibility",
           workInProgress: false,
-          pill1: 'Work',
-          pill2: 'Brand',
-          pill3: 'Commercial',
         },
 
 
         avi: {
+          bio: projectContent.audiovisualidentity.bio,
+          pill1: projectContent.audiovisualidentity.pill1,
+          pill2: projectContent.audiovisualidentity.pill2,
+          pill3: projectContent.audiovisualidentity.pill3,
           projectType: 'Polimi Master Thesis',
           title: 'Audiovisual Identity',
           projectname: 'Audiovisual Identity',
-          thumbnail: '/images/covers/cards/avi-card-v2.jpg',
-          mobileThumbnail: '/images/covers/cards-sm/avi_sm.jpg',
-          bio: 'Research thesis focused on brand strategy and design in the TV industry',
+          thumbnail: '/images/covers/cards/avi-card.jpg',
+          mobileThumbnail: '/images/covers/cards/avi-card.jpg',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
           class: 'column card-small biowhite',
           to: "audiovisualidentity",
-          pill1: 'Thesis',
-          pill2: 'Editorial',
-          pill3: 'Branding',
         },
 
         milan: {
+          bio: projectContent.acmilan.bio,
+          pill1: projectContent.acmilan.pill1,
+          pill2: projectContent.acmilan.pill2,
+          pill3: projectContent.acmilan.pill3,
           projectType: 'Work Experience',
           fullResolution: true,
           title: 'ACM Commercial Decks',
           projectname: 'ACM Commercial Decks',
-          thumbnail: '/images/covers/cards/milan-card-v2.jpg',
-          mobileThumbnail: '/images/covers/cards-sm/milan_sm.jpg',
-          bio: 'Design of commercial presentations and visual assets for AC Milan and its partners.',
+          thumbnail: '/images/covers/cards/milan-card.jpg',
+          mobileThumbnail: '/images/covers/cards/milan-card.jpg',
           category: ['confidential', 'visual', 'branding', 'graphic'],
           class: 'column card-medium biowhite',
           to: "acmilan",
-          pill1: 'Work',
-          pill2: 'Commercial',
-          pill3: 'Presentation',
         },
 
         disruptive: {
+          bio: projectContent.disruptive.bio,
+          pill1: projectContent.disruptive.pill1,
+          pill2: projectContent.disruptive.pill2,
+          pill3: projectContent.disruptive.pill3,
           projectType: 'Personal Project',
           title: 'Disruptive',
           thumbnail: '/images/covers/cards/disruptive-card.jpg',
           projectname: 'Disruptive',
           mobileThumbnail: '/images/covers/cards-sm/disruptive_sm.jpg',
-          bio: 'Design-centered digital exhibition on Sergio Marchionne and his story',
           category: ['ux-ui', 'branding', 'graphic'],
           class: 'column card-medium biodark',
           to: "disruptive",
-          pill1: 'UX-UI',
-          pill2: 'Exhibition',
-          pill3: 'Event',
         },
 
 
         sourdata: {
+          bio: projectContent.sourdata.bio,
+          pill1: projectContent.sourdata.pill1,
+          pill2: projectContent.sourdata.pill2,
+          pill3: projectContent.sourdata.pill3,
           title: 'SourData',
           projectname: 'SourData',
           thumbnail: '/images/covers/cards/sourdata-card.jpg',
           mobileThumbnail: '/images/covers/cards-sm/sourdata_sm.jpg',
-          bio: 'Product-service system to make money from user’s personal data',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
           class: 'column card-extraextralarge biowhite',
           to: "sourdata",
-          pill1: 'Interaction',
-          pill2: 'UX-UI',
-          pill3: 'Branding',
         },
 
         previewpretest: {
+          bio: projectContent.previewpretest.bio,
+          pill1: projectContent.previewpretest.pill1,
+          pill2: projectContent.previewpretest.pill2,
+          pill3: projectContent.previewpretest.pill3,
           projectType: 'Personal Project',
           title: 'Preview Pretest',
           thumbnail: '/images/covers/cards/preview-card.jpg',
           mobileThumbnail: '/images/covers/cards-sm/preview_sm.jpg',
-          bio: 'Series of events dedicated to future Polimi students',
           projectname: 'Preview & Pretest',
           category: ['coding', 'ux-ui', 'branding', 'graphic'],
           class: 'column card-medium biowhite',
           to: "previewpretest",
-          pill1: 'Branding',
-          pill2: 'Social',
-          pill3: 'Visual',
         },
 
         referto: {
+          bio: projectContent.referto.bio,
+          pill1: projectContent.referto.pill1,
+          pill2: projectContent.referto.pill2,
+          pill3: projectContent.referto.pill3,
           title: 'Referto',
           thumbnail: '/images/covers/cards/referto-card.jpg',
           mobileThumbnail: '/images/covers/cards-sm/referto_sm.jpg',
-          bio: 'Independent Magazine for social change about lives of health workers',
           category: ['branding', 'graphic', 'ux-ui'],
           class: 'column card-large biodark md-biowhite',
           to: "referto",
-          pill1: 'Editorial',
-          pill2: 'Visual',
-          pill3: 'Branding',
           projectname: 'Referto Magazine',
         },
 
         carachioggia: {
+          bio: projectContent.carachioggia.bio,
+          pill1: projectContent.carachioggia.pill1,
+          pill2: projectContent.carachioggia.pill2,
+          pill3: projectContent.carachioggia.pill3,
           title: 'carachioggia',
           thumbnail: '/images/covers/cards/carachioggia-card.jpg',
           mobileThumbnail: '/images/covers/cards/carachioggia-card.jpg',
-          bio: 'Digital experience of letters and stories to relive fishing places in Chioggia ',
           category: ['coding'],
           class: 'column card-small biowhite',
           to: "carachioggia",
-          pill1: 'UX-UI',
-          pill2: 'Visual',
-          pill3: 'Branding',
           projectname: 'Cara Chioggia ti scrivo'
         },
 
 
         bottleneck: {
+          bio: projectContent.bottleneck.bio,
+          pill1: projectContent.bottleneck.pill1,
+          pill2: projectContent.bottleneck.pill2,
+          pill3: projectContent.bottleneck.pill3,
           title: 'bottleneck',
           thumbnail: '/images/covers/cards/bottleneck-card.jpg',
-          mobileThumbnail: '/images/covers/cards-sm/bottleneck_sm.jpg',
-          bio: 'Digital innovative wellbeing service that categorises and prioritises notifications',
+          mobileThumbnail: '/images/covers/cards/bottleneck-card.jpg',
           category: ['branding', 'graphic'],
           class: 'column card-medium biowhite',
           to: "bottleneck",
-          pill1: 'UX-UI',
-          pill2: 'Interaction',
-          pill3: 'Branding',
           projectname: 'Bottleneck'
         },
 
@@ -339,7 +340,62 @@ export default {
       currentCategory: false
     }
   },
-  methods: {},
+  mounted() {
+    this.fitObserver = new ResizeObserver(this.scheduleCardTextFit)
+    this.fitObserver.observe(this.$el)
+    window.addEventListener('resize', this.scheduleCardTextFit)
+    document.fonts.ready.then(() => {
+      if (!this._isDestroyed) this.scheduleCardTextFit()
+    })
+    this.scheduleCardTextFit()
+  },
+  beforeDestroy() {
+    this.fitObserver.disconnect()
+    window.removeEventListener('resize', this.scheduleCardTextFit)
+    cancelAnimationFrame(this.fitFrame)
+  },
+  methods: {
+    scheduleCardTextFit() {
+      cancelAnimationFrame(this.fitFrame)
+      this.fitFrame = requestAnimationFrame(this.fitCardText)
+    },
+    fitCardText() {
+      const mobile = window.innerWidth < 768
+      let titleSize = mobile ? 18 : 20
+      let pillSize = mobile ? 13 : 14
+      const textWidth = (element) => {
+        const range = document.createRange()
+        range.selectNodeContents(element)
+        return range.getBoundingClientRect().width
+      }
+      this.$el.querySelectorAll('.titlemob').forEach((title) => {
+        if (!title.getClientRects().length) return
+        const width = textWidth(title)
+        const size = parseFloat(getComputedStyle(title).fontSize)
+        if (width) titleSize = Math.min(titleSize, size * (title.clientWidth - 2) / width)
+      })
+      this.$el.querySelectorAll('.card-tags').forEach((row) => {
+        if (!row.getClientRects().length) return
+        const style = getComputedStyle(row)
+        const available = row.clientWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight) - 2
+        let fixed = 0
+        let text = 0
+        let size = pillSize
+        row.querySelectorAll('.pillshome').forEach((pill) => {
+          const pillStyle = getComputedStyle(pill)
+          const width = textWidth(pill)
+          text += width
+          fixed += pill.getBoundingClientRect().width - width + parseFloat(pillStyle.marginLeft) + parseFloat(pillStyle.marginRight)
+          size = parseFloat(pillStyle.fontSize)
+        })
+        if (text) pillSize = Math.min(pillSize, size * (available - fixed) / text)
+      })
+      for (const [property, size] of [['--card-title-size', titleSize], ['--card-pill-size', pillSize]]) {
+        const value = `${Math.max(1, Math.floor(size * 10) / 10)}px`
+        if (this.$el.style.getPropertyValue(property) !== value) this.$el.style.setProperty(property, value)
+      }
+    },
+  },
 
 }
 

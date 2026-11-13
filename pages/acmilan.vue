@@ -10,12 +10,9 @@
 
       <Project-Intro
         title="ACM Commercial Decks"
-        subtitle="Design and production of sponsorship presentations and supporting visual assets for AC Milan's commercial activities, in collaboration with marketing, sales, and strategy teams."
-        pill1="Work"
-        pill2="Commercial"
-        pill3="Presentation"
+        :subtitle="project.bio"
 
-      />
+      :pill1="project.pill1" :pill2="project.pill2" :pill3="project.pill3" />
 
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block "
       >
@@ -38,7 +35,7 @@
       </div>
 
       <div class="text-center m-4 p-3">
-        <p>This material is confidential. <br>Get in touch to learn more.</p>
+        <p>This material is confidential. Get in touch to learn more.</p>
 
 
         <a href="mailto:giovanni.clericetti@gmail.com" class="m-3 custom-outline-btn px-4 py-2 rounded-pill d-inline-block text-decoration-none">
@@ -50,8 +47,8 @@
       <b-row>
         <b-col cols="12" md="7">
 
-          <h4> Project Overview </h4>
-          <p>Design and production of partnership presentations and supporting graphic assets, translating AC Milan’s visual identity into materials for the Club’s commercial activities. The work was developed in close collaboration with marketing, sales, and strategy teams, adapting visual communication to different partners and presentation formats. All activities were carried out under strict confidentiality.</p>
+          <h4 aria-level="2"> Project Overview </h4>
+          <p>{{ project.overview }}</p>
 
           <slot name="link2">
           </slot>
@@ -62,7 +59,7 @@
         <b-col cols="12" md="5" class="pl-md-5">
 
 
-          <h4 class="mt-4 mt-md-0"> Tools </h4>
+          <h4 aria-level="2" class="mt-4 mt-md-0"> Tools </h4>
           <p> Keynote, PowerPoint, Figma, Figma Slides, Photoshop, Illustrator, Midjourney, OpenAI, Asana </p>
 
           <div class="mt-md-5 mt-4">
@@ -90,12 +87,8 @@
         thumbnail="/images/acm-partner-visibility/acm2-next.png"
         class="column card-large biowhite acmilan2"
         to="/acm-partner-visibility"
-        pill1="Work"
-        pill2="Brand"
-        pill3="Commercial"
         nextproject="ACM Partner Visibility"
-        bionext="Visual branding and visibility for the Club's commercial partners."
-      />
+      :pill1="projectContent['acm-partner-visibility'].pill1" :pill2="projectContent['acm-partner-visibility'].pill2" :pill3="projectContent['acm-partner-visibility'].pill3" :bionext="projectContent['acm-partner-visibility'].bio" />
 
 
 
@@ -109,14 +102,10 @@
 </template>
 
 <script>
+import projectContent from '~/utils/project-content'
 export default {
+  data() { return { project: projectContent.acmilan, projectContent } },
   name: 'ac-milan',
-  head() {
-    return {
-      title: 'ACM Commercial Decks — Giovanni Clericetti',
-      meta: [{ hid: 'description', name: 'description', content: 'Design of commercial presentations and visual assets for AC Milan and its partners.' }],
-    }
-  },
 
 
 }

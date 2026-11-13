@@ -2,7 +2,7 @@
 
     <div class=" projectcard" >
 
-      <span class="card-category-pill">{{ projectType }}</span>
+      <span class="card-category-pill d-none d-md-block">{{ projectType }}</span>
 
       <NuxtLink :to="to" class="projectcard-link">
 
@@ -22,15 +22,15 @@
 
         <b-row class="bio mx-1 my-2">
 
-          <b-col cols="12" md="10" class=""><h4 class="titlemob" style="color: var(--color-secondary);">  {{ projectname }} </h4></b-col>
-          <b-col cols="9" md="10" class="">
+          <b-col cols="12" class=""><h4 aria-level="2" class="titlemob" style="color: var(--color-secondary);">  {{ projectname }} </h4></b-col>
+          <b-col cols="12" class="card-description">
             <p2 style="color: var(--color-secondary)"> {{ bio }} </p2>
           </b-col>
 
-          <b-col cols="12" md="10" class="card-tags">
+          <b-col cols="12" class="card-tags">
             <b-badge pill class="pillshome mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ pill1 }}</b-badge>
             <b-badge pill class="pillshome mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ pill2 }}</b-badge>
-            <b-badge pill class="pillshome terzapill mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ pill3 }}</b-badge>
+            <b-badge v-if="pill3" pill class="pillshome terzapill mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ pill3 }}</b-badge>
           </b-col>
 
         </b-row>
@@ -127,6 +127,8 @@ h6{
 
 
 .bio {
+  width: calc(100% - 8px);
+  max-width: calc(100% - 8px);
   position: absolute;
   bottom: 0;
   line-height: 18px;
@@ -160,6 +162,25 @@ h6{
   height: 620px;
 }
 
+.acmilan2 .card-description {
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-wrap: balance;
+}
+
+.card-tags {
+  display: flex;
+  flex-wrap: nowrap;
+  min-width: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.card-tags .pillshome {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
 .terzapill{
   visibility: visible;
 }
@@ -181,17 +202,19 @@ h6{
 }
 
 @media (max-width: 767.98px) {
+  .card-tags .pillshome { font-size: 13px; }
   .projectcard {
     height: 300px;
   }
 
   .card-tags {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     min-width: 0;
-    /* One badge line: 14px text + .5rem padding + 1rem margins. */
-    max-height: calc(14px + 1.5rem);
-    overflow: hidden;
+    /* Keep category labels together on one horizontally scrollable line. */
+    max-height: none;
+    overflow-x: auto;
+    overflow-y: hidden;
   }
 
   .card-tags .pillshome {
@@ -274,11 +297,21 @@ h6{
   flex: 0 0 auto;
   white-space: nowrap;
 }
-@media (max-width: 575.98px) {
-  .acmilan .card-tags .pillshome { font-size: 12px; }
-}
+
 @media (prefers-reduced-motion: reduce) {
   .projectcard, .projectcard .card-background { transition: none; }
   .projectcard:hover .card-background { transform: scale(1.01); }
+}
+
+/* A shared fitted size keeps all visible card titles and pills consistent. */
+.projectcard .titlemob {
+  font-size: var(--card-title-size, 18px);
+  white-space: nowrap;
+}
+.projectcard .card-tags .pillshome {
+  font-size: var(--card-pill-size, 13px);
+}
+.projectcard .card-tags {
+  overflow: visible;
 }
 </style>

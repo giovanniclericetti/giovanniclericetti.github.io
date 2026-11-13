@@ -1,17 +1,19 @@
+import { portfolioTitle, portfolioDescription } from './utils/portfolio-seo'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'giovanniclericetti',
+    title: portfolioTitle,
     htmlAttrs: {
       lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: portfolioDescription },
       { name: 'format-detection', content: 'telephone=no' },
       { hid: 'robots', name: 'robots', content: 'noimageindex, max-image-preview:none' },
     ],

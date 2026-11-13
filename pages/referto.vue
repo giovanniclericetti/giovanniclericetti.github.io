@@ -8,13 +8,9 @@
 
       <Project-Intro
         title="Referto"
-        subtitle="Editorial project of an indie independent magazine for
-social change to chronicle the lives of health workers"
-        pill1="Editorial"
-        pill2="Visual"
-        pill3="Branding"
+        :subtitle="project.bio"
 
-      />
+      :pill1="project.pill1" :pill2="project.pill2" :pill3="project.pill3" />
 
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block "
       >
@@ -39,10 +35,7 @@ social change to chronicle the lives of health workers"
       </div>
 
       <ProjectDescription
-        description="
-According to the vocabulary, Referto is a clinical document written by a doctor, putting his or her perspective on the patient and the disease on paper. Similarly, REFERTO magazine is the story of healthcare at its most genuine, human and emotional state, delivered directly from the hands of those who dedicate themselves to protecting our health every day. For this project, the first issue of the magazine has been created, focusing on Soccorso (First Aid), with subsequent issues planned on Hospitalisation, Surgery and Prognosis, each with its own unique cover design. The design of this indie magazine for social change evolved from the research phase, which included collecting photographic material, researching sources, producing interviews and writing articles. The REFERTO brand was established, with choices of color, paper and typography tailored to the content being communicated.
-
-"        team="S. Bonfanti, A. Burchiani, E. Ceriani, T. Prinetti"
+        :description="project.overview"        team="S. Bonfanti, A. Burchiani, E. Ceriani, T. Prinetti"
         role="Brand Identity, Visual, Editorial Layout"
         delivery="Editorial Design Lab, 2023"
         class="my-md-3"
@@ -120,8 +113,7 @@ According to the vocabulary, Referto is a clinical document written by a doctor,
 
             title="Content and Sections"
 
-            description="
-The magazine has 260 pages and is bound in Swiss binding with a fold-out flap. All content is divided into five chapters: '1. The Call', '2. The Wait', '3. The Survey', '4. The Rescue' and '5. The Transport'. Each contains the four sections of interviews, articles, reports and diaries to effectively convey the content. There is also a photo insert in the center of the mag. "
+            description="The 260-page magazine uses Swiss binding with a fold-out flap. All content is divided into five chapters: '1. The Call', '2. The Wait', '3. The Survey', '4. The Rescue' and '5. The Transport'. Each contains the four sections of interviews, articles, reports and diaries to effectively convey the content. There is also a photo insert at the centre of the magazine."
 
           /> </b-col>
 
@@ -153,8 +145,7 @@ The magazine has 260 pages and is bound in Swiss binding with a fold-out flap. A
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <ProjectDescription2
             title="Transmedia Translation"
-            description="
-The magazine also has a transmedia development in its platform, where readers can actively contribute to REFERTO through its online platform to tell stories related to the topics covered."
+            description="The magazine extends into a digital platform where readers can contribute their own stories related to the themes explored in Referto."
           /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -182,12 +173,8 @@ The magazine also has a transmedia development in its platform, where readers ca
         thumbnail="/images/covers/next/sd-next.jpg"
         class="column card-large biowhite sourdata"
         to="/sourdata"
-        pill1="Interaction"
-        pill2="Branding"
-        pill3="UX-UI"
         nextproject="SourData"
-        bionext="Product-service system to make money from user's personal data"
-      />
+      :pill1="projectContent.sourdata.pill1" :pill2="projectContent.sourdata.pill2" :pill3="projectContent.sourdata.pill3" :bionext="projectContent.sourdata.bio" />
 
 
     </div>
@@ -200,7 +187,9 @@ The magazine also has a transmedia development in its platform, where readers ca
 </template>
 
 <script>
+import projectContent from '~/utils/project-content'
 export default {
+  data() { return { project: projectContent.referto, projectContent } },
   name: 'it-back',
 }
 

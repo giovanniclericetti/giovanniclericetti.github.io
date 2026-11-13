@@ -1,6 +1,6 @@
 <template>
   <div class=" ml-md-0 mt-md-3 pr-md-5 cvpar ">
-    <h6 class="mb-1"> {{ category }}</h6>
+    <h6 aria-level="3" class="mb-1"> {{ category }}</h6>
     <slot style="padding: 0px" name="slotcvelement"> </slot>
   </div>
 </template>

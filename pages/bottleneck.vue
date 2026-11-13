@@ -8,11 +8,8 @@
 
       <Project-Intro
         title="Bottleneck"
-        subtitle="Digital service that counteracts digital overload with a desktop and mobile app that categorizes, prioritizes, and displays notifications in innovative ways."
-        pill1="UX-UI"
-        pill2="Interaction"
-        pill3="Branding"
-        pill4="Coding"/>
+        :subtitle="project.bio"
+        pill4="Coding" :pill1="project.pill1" :pill2="project.pill2" :pill3="project.pill3" />
 
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block ">
 
@@ -30,8 +27,7 @@
       </div>
 
       <ProjectDescription
-        description="
-The project is based on the problem of notification overload for people working symbiotically with digital technology, which is increasingly blurring the boundaries between the personal and professional spheres. Bottleneck was created to address this need through a digital service designed to help users manage daily notifications across multiple devices during work activities. Notification prioritisation is enabled by artificial intelligence-powered summarisation and prioritisation, promoting a more balanced digital life and an inclusive approach to using communication tools."        team="S. Bonfanti, A. Burchiani, T. Prinetti"
+        :description="project.overview"        team="S. Bonfanti, A. Burchiani, T. Prinetti"
         role="Brand Identity, Visual, UX-UI, Branding, Coding"
         delivery="Interaction Design Lab, 2021-2022"
         class="my-md-3"
@@ -75,9 +71,7 @@ The project is based on the problem of notification overload for people working 
 
           title="Research & Taxonomy"
 
-          description="
-The project began with careful research into how notifications are perceived in today's world. A taxonomy of notifications for different applications and different parameters of urgency was created to understand which features would be most useful to design in order to understand the information architecture and sections of the platform.
-"
+          description="Research into how people perceive notifications informed a taxonomy organised by application and urgency. This framework guided feature selection, information architecture and the structure of the platform."
 
         /> </b-col>
 
@@ -111,8 +105,7 @@ The project began with careful research into how notifications are perceived in 
 
             title="Features and Tabs"
 
-            description="
-Available as a desktop and mobile application, the service manages notifications through three main tabs: a dashboard with an innovative way to categorise notifications as primary in the foreground dashboard and secondary in the background dashboard, an interaction page with an AI model to observe how user data is collected, and a new search tab to explore discussions on different channels. "
+            description="Conceived for desktop and mobile, the service organises notifications through three main tabs: a dashboard with a system that categorises notifications as primary in the foreground dashboard and secondary in the background dashboard, an interaction page with an AI model to observe how user data is collected, and a search tab to explore discussions on different channels."
           /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -152,8 +145,7 @@ Available as a desktop and mobile application, the service manages notifications
 
           title="Design System & Card Anatomy"
 
-          description="
-A complete design system for the Bottleneck brand was created for the platform, which could remain consistent across the different tabs and easily switch between work and private mode. The dashboard consists of several cards with the same structure, but articulated in different components that change according to the content. "
+          description="A complete design system for the Bottleneck brand was created for the platform, which could remain consistent across the different tabs and easily switch between work and private mode. The dashboard consists of several cards with the same structure, but articulated in different components that change according to the content."
 
         /> </b-col>
 
@@ -195,12 +187,8 @@ A complete design system for the Bottleneck brand was created for the platform, 
         thumbnail="/images/covers/next/pr-next.jpg"
         class="column card-large biowhite previewpretest"
         to="/previewpretest"
-        pill1="Branding"
-        pill2="Social"
-        pill3="Visual"
         nextproject="Preview & Pretest"
-        bionext="Series of event dedicated to future students of Politecnico di Milano"
-      />
+      :pill1="projectContent.previewpretest.pill1" :pill2="projectContent.previewpretest.pill2" :pill3="projectContent.previewpretest.pill3" :bionext="projectContent.previewpretest.bio" />
 
 
     </div>
@@ -213,7 +201,9 @@ A complete design system for the Bottleneck brand was created for the platform, 
 </template>
 
 <script>
+import projectContent from '~/utils/project-content'
 export default {
+  data() { return { project: projectContent.bottleneck, projectContent } },
   name: 'it-back',
 }
 

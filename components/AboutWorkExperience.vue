@@ -41,11 +41,11 @@ export default {
       experiences: [
         {
           company: 'AC Milan',
-          period: '2024-ongoing',
+          period: '2024–Present',
           logo: 'milan',
           url: 'https://www.acmilan.com/it',
-          role: 'Visual and Brand Design Consultant',
-          description: 'Design and development of graphic assets adapted from ACM’s visual identity across various sports-related areas: from creating visual identities for internal projects and defining the seasonal visual language, to supporting events, and up to sport production and live direction during matches at San Siro Stadium. Main focus on producing presentations for partnerships and graphics tailored to sponsor events, in close collaboration with marketing, sales, and strategy teams. Work performed under strict confidentiality.',
+          role: 'Visual & Brand Design Consultant',
+          description: "Visual design and brand communication across AC Milan's commercial and sporting environments, with a focus on partnership presentations, partner visibility, branded experiences and matchday production. Working closely with Commercial, Marketing and Strategy teams to develop consistent visual assets across digital platforms, physical spaces and live environments. The role also includes event production support and live visual operations at San Siro, from stadium screen content to the coordination of camera operators, television feeds and visual content across LED boards and video towers. Selected work is subject to confidentiality restrictions.",
         },
         {
           company: 'IT Carlo Acutis',

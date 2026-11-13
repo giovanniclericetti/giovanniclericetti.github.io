@@ -376,14 +376,6 @@
     "sha256": "c625c88d35a27610ea087c0dc20d46f0d563a1dbc88857ac9e00a6e170476103"
   },
   {
-    "src": "/images/covers/cards/carachioggia-card.jpg",
-    "bytes": 867338,
-    "width": 1100,
-    "height": 2150,
-    "format": "jpeg",
-    "sha256": "6af3077624e1c06120666231ba2a476ace5a73d0902d633ce4ac5f4fd65fc876"
-  },
-  {
     "src": "/images/acm-partner-visibility/5445b3632a86b159.jpg",
     "bytes": 862435,
     "width": 1761,
@@ -640,6 +632,14 @@
     "sha256": "fc9b5d0d9e4c091ec3d2fdd9ee03a91e883c65c9f825ef6f845a9ccfbd3156a5"
   },
   {
+    "src": "/images/covers/cards/bottleneck-card.jpg",
+    "bytes": 298380,
+    "width": 550,
+    "height": 1156,
+    "format": "jpeg",
+    "sha256": "b1913d805856f88b6a6a6d628f14a768f17d07d4a938b995252db43bab477d66"
+  },
+  {
     "src": "/images/avi/avi4.jpg",
     "bytes": 297737,
     "width": 2027,
@@ -880,6 +880,14 @@
     "sha256": "eaa6fff2e19d31cb7b87eeefd9d32696c72aefb463876f465f811e78e38146c9"
   },
   {
+    "src": "/images/covers/cards/milan-card.jpg",
+    "bytes": 190497,
+    "width": 550,
+    "height": 944,
+    "format": "jpeg",
+    "sha256": "9d9e92f278038ec473c001b32872ffcba4a4c1fd12ad76f71aa2122602b068d3"
+  },
+  {
     "src": "/images/referto/referto7.jpg",
     "bytes": 189550,
     "width": 2240,
@@ -912,6 +920,14 @@
     "sha256": "d6afd0745eff94525f2deb966376b34293a3b8244ca89c5fc4f00c6e5991e2fd"
   },
   {
+    "src": "/images/covers/cards/carachioggia-card.jpg",
+    "bytes": 175909,
+    "width": 550,
+    "height": 1075,
+    "format": "jpeg",
+    "sha256": "e384cb5909432d94169e0e148f355da00e119f317e0f609112e840c7686ffc0f"
+  },
+  {
     "src": "/images/referto/referto1.jpg",
     "bytes": 169778,
     "width": 2240,
@@ -934,6 +950,14 @@
     "height": 300,
     "format": "png",
     "sha256": "a8dda6e7b79d59d0d740cd8d2294092abdcf7a3ccf764a569ea111bb37765caa"
+  },
+  {
+    "src": "/images/covers/cards/avi-card.jpg",
+    "bytes": 165853,
+    "width": 550,
+    "height": 961,
+    "format": "jpeg",
+    "sha256": "b114fbb9316e8da870bdd886e29125807dac3d4c0c29bc41d2f9283609db43f6"
   },
   {
     "src": "/images/previewpretest/preview2.jpg",
@@ -1134,14 +1158,6 @@
     "height": 1348,
     "format": "jpeg",
     "sha256": "c64bbd2a3fccfd288a20249de0d0e0d668b9e3b6f92a2a91a143d44627669020"
-  },
-  {
-    "src": "/images/covers/cards/bottleneck-card.jpg",
-    "bytes": 105614,
-    "width": 1100,
-    "height": 2312,
-    "format": "jpeg",
-    "sha256": "dc3203888cdfe91b9d6a97525f553b1c4f3a9af037eeea2a669cb71427eb8298"
   },
   {
     "src": "/images/sourdata/sourdata_2.jpg",

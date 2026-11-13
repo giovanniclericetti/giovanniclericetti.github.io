@@ -4,20 +4,23 @@
       <ProjectHeader />
       <ProjectIntro
         title="ACM Partner Visibility"
-        subtitle="Design and production of visual assets for AC Milan's commercial partners across physical spaces, digital platforms, and co-branded communications."
-        pill1="Work"
-        pill2="Brand"
-        pill3="Commercial"
-      />
+        :subtitle="project.bio"
+      :pill1="project.pill1" :pill2="project.pill2" :pill3="project.pill3" />
       <div class="pt-md-3 d-none d-md-block">
         <div v-responsive-background="'/images/acm-partner-visibility/9d3325330553433f.jpg'" data-image-src="/images/acm-partner-visibility/9d3325330553433f.jpg" class="cover-parallax" aria-label="Partner branding at Milanello" data-parallax-image v-parallax  role="img"></div>
       </div>
       <div class="cover-mobile d-block d-md-none">
         <PortfolioImage src="/images/acm-partner-visibility/acm2_sm.png" alt="Partner backdrop in the AC Milan press conference room" loading="eager" fetchpriority="high" />
       </div>
+      <section class="project-section" aria-labelledby="project-overview">
+        <div class="section-copy">
+          <h4 aria-level="2" id="project-overview">Project Overview</h4>
+          <p>{{ project.overview }}</p>
+        </div>
+      </section>
       <section class="project-section" aria-labelledby="section-0">
         <div class="section-copy">
-          <h4 id="section-0">Venue Branding</h4>
+          <h4 aria-level="2" id="section-0">Venue Branding</h4>
           <p>Design of branded graphics for Milanello, the Vismara Sports Centre, and San Siro, covering training pitches, sports facilities, and dedicated partner spaces. Partner visibility is updated whenever new commercial agreements are signed, according to each partner's tier and allocated spaces. To manage these updates efficiently, we developed a graphic system that simplifies the integration of new partners and the adaptation of assets across different formats.</p>
         </div>
         <div class="gallery-split venue-gallery">
@@ -37,7 +40,7 @@
       </section>
       <section class="project-section" aria-labelledby="section-1">
         <div class="section-copy">
-          <h4 id="section-1">Media Assets</h4>
+          <h4 aria-level="2" id="section-1">Media Assets</h4>
           <p>Creation of visual assets for partner visibility across the Club's media and digital touchpoints, including press conference backdrops, flash interviews, mixed zones, LED boards, and screens. Development of static and animated content, adapted to different formats and event requirements. As with physical spaces, digital assets are regularly updated to reflect partner agreements and visibility requirements, ensuring consistency across all applications.</p>
         </div>
         <div class="gallery-split media-gallery">
@@ -57,7 +60,7 @@
       </section>
       <section class="project-section" aria-labelledby="section-2">
         <div class="section-copy">
-          <h4 id="section-2">Partner Co-Branding</h4>
+          <h4 aria-level="2" id="section-2">Partner Co-Branding</h4>
           <p>Creation of graphics for new partnership announcements and production of co-branded communication materials for commercial partners' activities and initiatives. Writing and layout design of AC Milan's Partnership Style Guide, a reference document for partners on the correct use of the Club's visual identity and brand assets. Review of partner-produced materials, verification of compliance with brand guidelines, and management of the approval process.</p>
         </div>
         <div class="gallery-row partner-pair">
@@ -72,34 +75,18 @@
         thumbnail="/images/acm-partner-visibility/acm3.png"
         class="column card-large biowhite acmilan3"
         to="/acmilan3"
-        pill1="Work"
-        pill2="Commercial"
-        pill3="Event"
         nextproject="ACM Events &amp; Matchday"
-        bionext="Visual design for events, commercial activations, and stadium experiences."
-      />
+      :pill1="projectContent.acmilan3.pill1" :pill2="projectContent.acmilan3.pill2" :pill3="projectContent.acmilan3.pill3" :bionext="projectContent.acmilan3.bio" />
     </div>
     <PortfolioFooter />
   </div>
 </template>
 
 <script>
+import projectContent from '~/utils/project-content'
 export default {
+  data() { return { project: projectContent['acm-partner-visibility'], projectContent } },
   name: 'AcmPartnerVisibility',
-  head() {
-    return {
-      title: 'ACM Partner Visibility — Giovanni Clericetti',
-      meta: [
-        { hid: 'og:image', property: 'og:image', content: '/images/acm-partner-visibility/preview_acm2.png' },
-        {
-          hid: 'description',
-          name: 'description',
-          content:
-            "Visual branding and visibility for the Club's commercial partners.",
-        },
-      ],
-    }
-  },
 }
 </script>
 

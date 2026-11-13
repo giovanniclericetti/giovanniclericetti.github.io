@@ -8,12 +8,9 @@
 
       <Project-Intro
         title="Audiovisual Identity"
-        subtitle="Master’s thesis project exploring audiovisual identity and design strategies in the television industry"
-        pill1="Thesis"
-        pill2="Editorial"
-        pill3="Branding"
+        :subtitle="project.bio"
 
-      />
+      :pill1="project.pill1" :pill2="project.pill2" :pill3="project.pill3" />
 
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block "
       >
@@ -42,13 +39,8 @@
 
         <b-col cols="12" md="7">
 
-          <h4> Project Overview </h4>
-          <p>
-
-            Audiovisual Identity is my Master's thesis project in Communication Design at Politecnico di Milano. The work consists of three main project outputs: an editorial paper, an open-source digital platform and a presentation designed both for the final discussion and for teaching purposes. In the current context, in which the television landscape is increasingly saturated and fragmented, videography asserts itself as a strategic language for the construction of recognisable brands. The audiovisual identity thus becomes a powerful tool to strengthen the recognisability and communicative coherence of programmes, channels and platforms. Through a path of theoretical and design research, this thesis analyses the historical and stylistic evolution of videography in Italy, investigating the role of graphic elements, animations and visual codes in defining the identity of audiovisual contents. Interviews with industry professionals (Mirko Pajè, Andrea Chinese, Roberto Bagatti, Umberto Tolino and Florencia Picco) offered crucial insights, confirming the centrality of videography in television branding processes.
-
-
-          </p>
+          <h4 aria-level="2"> Project Overview </h4>
+          <p>{{ project.overview }}</p>
 
           <slot name="link2">
           </slot>
@@ -59,13 +51,13 @@
         <b-col cols="12" md="5" class="pl-md-5">
 
 
-          <h4 class="mt-4 mt-md-0"> Supervisor </h4>
+          <h4 aria-level="2" class="mt-4 mt-md-0"> Supervisor </h4>
           <p> Francesco Ermanno Guida </p>
 
-          <h4 class="mt-4 "> Role </h4>
+          <h4 aria-level="2" class="mt-4 "> Role </h4>
           <p> Research Writing, Brand Identity, Visual, UX-UI, Keynote Presentation, Editorial, Coding </p>
 
-          <h4 class="mt-4 "> Delivery </h4>
+          <h4 aria-level="2" class="mt-4 "> Delivery </h4>
           <p> Research-Based Design Project </p>
 
           <div class="mt-md-4 mt-4">
@@ -96,9 +88,7 @@
 
           title="Editorial Design"
 
-          description="
-The thesis was conceived as an editorial project capable of synthesising the results of the research in an accessible, visually curated form consistent with the theme addressed. A visual identity was designed for the project, based on shades of blue and white, to enhance the contents and highlight the television brands analysed.
-"
+          description="The thesis was conceived as an editorial project capable of synthesising the results of the research in an accessible, visually curated form consistent with the theme addressed. A visual identity was designed for the project, based on shades of blue and white, to enhance the contents and highlight the television brands analysed."
         /> </b-col>
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
@@ -143,9 +133,7 @@ The thesis was conceived as an editorial project capable of synthesising the res
 
             title="Web Platform"
 
-            description="
-Complementing the thesis was Audiovisual Identity Hub, an open-source digital platform designed as a dynamic space to explore videography and television design. The project is not configured as a simple archive, but as an interactive environment in which theory and practice, research and visual testimonies can dialogue. The site is made up of five types of pages, each dedicated to a specific aspect, but an integral part of a single narrative: the introductory landing page, the documentation section, the gallery with the taxonomy of case studies, the detailed pages of the individual case studies and, finally, an About page that reveals the concept and intent of the project.
-         " /> </b-col>
+            description="Complementing the thesis was Audiovisual Identity Hub, an open-source digital platform designed as a dynamic space to explore videography and television design. The interactive environment connects theory and practice through research and visual examples. The site is made up of five types of pages, each dedicated to a specific aspect, but an integral part of a single narrative: the introductory landing page, the documentation section, the gallery with the taxonomy of case studies, the detailed pages of the individual case studies and, finally, an About page that reveals the concept and intent of the project." /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
@@ -190,9 +178,7 @@ Complementing the thesis was Audiovisual Identity Hub, an open-source digital pl
 
             title="Presentation"
 
-            description="
-The last project step involved the creation of a presentation for the graduation speech, which was later adapted as teaching material. The presentation is designed to be a useful tool for lecturers and researchers: a deck of slides and topic sheets that can be reused in the classroom, in laboratories or in training contexts such as the master's course in which I was an assistant.
-         " /> </b-col>
+            description="The last project step involved the creation of a presentation for the graduation speech, which was later adapted as teaching material. The presentation is designed to be a useful tool for lecturers and researchers: a deck of slides and topic sheets that can be reused in the classroom, in laboratories or in training contexts such as the master's course in which I was an assistant." /> </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
@@ -210,12 +196,8 @@ The last project step involved the creation of a presentation for the graduation
         thumbnail="/images/covers/next/rf-next.jpg"
         class="column card-large biowhite referto"
         to="/referto"
-        pill1="Editorial"
-        pill2="Visual"
-        pill3="Branding"
         nextproject="Referto Magazine"
-        bionext="Independent magazine for social change about lives of health workers"
-      />
+      :pill1="projectContent.referto.pill1" :pill2="projectContent.referto.pill2" :pill3="projectContent.referto.pill3" :bionext="projectContent.referto.bio" />
 
 
     </div>
@@ -228,7 +210,9 @@ The last project step involved the creation of a presentation for the graduation
 </template>
 
 <script>
+import projectContent from '~/utils/project-content'
 export default {
+  data() { return { project: projectContent.audiovisualidentity, projectContent } },
   name: 'audiovisual-identity',
 
 };

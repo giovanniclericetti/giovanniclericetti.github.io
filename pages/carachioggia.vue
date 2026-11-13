@@ -8,11 +8,8 @@
 
       <Project-Intro
         title="Cara Chioggia ti scrivo"
-        subtitle="Digital experience of letters and stories to relive fishing places in Chioggia"
-        pill1="UX-UI"
-        pill2="Visual"
-        pill3="Branding"
-      />
+        :subtitle="project.bio"
+      :pill1="project.pill1" :pill2="project.pill2" :pill3="project.pill3" />
 
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block respowidth"
       >
@@ -32,8 +29,7 @@
       </div>
 
       <ProjectDescription
-        description="
-Cara Chioggia Ti Scrivo responds to the creation of an innovative hybrid artifact for communicating the territory linked to places of fishing and local tradition. This hybrid model is applied to the historical village of Chioggia in the Venetian lagoon, an emblematic case in which the living community of fishermen builds its living dimension on the territory. The narrative is simple, immersive and emotional, told through the eyes, stories and testimonies of the fishermen and characters who live in this space. A great deal of research and content production work has been carried out, leading to the creation of the platform's architecture, the project's design system, the communication, a narrative podcast and many other complementary artifacts on site."
+        :description="project.overview"
         team="A. Catania, G. Fulghieri, L. Tassetto"
         role="Brand Identity, UX-UI, Art Direction, Keynote Presentation, Social Media, Coding (Wordpress)"
         delivery="Final Synthesis Master Lab, 2023"
@@ -71,10 +67,8 @@ Cara Chioggia Ti Scrivo responds to the creation of an innovative hybrid artifac
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
         <ProjectDescription2
 
-          title="Experience Platform"
-
-          description="
-The new perspective on the village of Chioggia is centered on the online platform. By selecting the path of a letter on the illustrated map, one can then listen to the stories of territorial connections between local figures and with fishing sites by scrolling and exploring the site."
+          title="An Immersive Digital Experience"
+            description="The platform is designed as a scroll-driven narrative, where the experience unfolds gradually as visitors move through each story. Starting from an illustrated map of Chioggia, users can select a letter and explore its connection to specific people and places. As they scroll, new elements are progressively revealed, creating a sense of discovery and building a deeper understanding of the narrative. Particular attention was given to the relationship between editorial layout, typography, scrolling behaviour, illustrations and podcast audio. These elements were designed to work together, shaping the rhythm of the experience and transforming reading into a more immersive form of exploration. Rather than presenting all the information at once, the experience uses progressive disclosure to guide visitors through the narrative, creating moments of anticipation, discovery and emotional engagement."
 
         /> </b-col>
 
@@ -115,10 +109,8 @@ The new perspective on the village of Chioggia is centered on the online platfor
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <ProjectDescription2
 
-            title="Research and Content Production"
-
-            description="
-All the content has been developed through meticulous research into the territories and the people who inhabit them, using online sources as well as observations and interviews in Chioggia itself. This material was subsequently transformed into a series of letters exchanged between the characters, exploring their correspondence, the places they traverse, the titles, the texts, and the accompanying images. Finally, it was decided to create an illustrative apparatus to summarize the territory in a manner consistent with the narrative flow."
+            title="Research &amp; Narrative Design"
+            description="The project was developed through research into Chioggia's fishing culture, combining field observations, interviews and an exploration of the area's social and geographical identity. The collected material was transformed into a series of personal narratives and letters connecting characters, memories and locations. The editorial structure, visual compositions and illustrations were designed to make these stories accessible and engaging, while preserving their connection to the territory. Each narrative was approached as a complete experience, where written content, visual rhythm, interaction and audio contribute to a coherent storytelling system."
           /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -161,10 +153,8 @@ All the content has been developed through meticulous research into the territor
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <ProjectDescription2
 
-            title="Complementary Artifacts"
-
-            description="
-Supporting artifacts have been designed to complete the experience. The communication campaign illustrates the aim of the project, which is to take a fresh look at the 'places of everyday life’ and rediscover them through the stories of the people who live there. A system of physical installations in the places of the narrative has also been designed, allowing new letters to be sent to add stories to the platform."
+            title="Beyond the Screen"
+            description="The digital platform is part of a broader communication system designed to reconnect the stories with the places in which they originated. Physical installations and complementary communication materials extend the experience throughout Chioggia, encouraging visitors to discover the locations featured in the narratives and contribute new stories. The result is a connected experience where digital interaction, editorial storytelling, podcast content and physical exploration become complementary ways of discovering the territory."
           /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -192,12 +182,8 @@ Supporting artifacts have been designed to complete the experience. The communic
         thumbnail="/images/covers/next/avi-next.svg"
         class="column card-large biowhite avi"
         to="/audiovisualidentity"
-        pill1="Thesis"
-        pill2="Editorial"
-        pill3="Branding"
         nextproject="Audiovisual Identity"
-        bionext="Research thesis focused on design and branding in the TV industry"
-      />
+      :pill1="projectContent.audiovisualidentity.pill1" :pill2="projectContent.audiovisualidentity.pill2" :pill3="projectContent.audiovisualidentity.pill3" :bionext="projectContent.audiovisualidentity.bio" />
 
 
     </div>
@@ -210,7 +196,9 @@ Supporting artifacts have been designed to complete the experience. The communic
 </template>
 
 <script>
+import projectContent from '~/utils/project-content'
 export default {
+  data() { return { project: projectContent.carachioggia, projectContent } },
   name: 'it-back',
 }
 

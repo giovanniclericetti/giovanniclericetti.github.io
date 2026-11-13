@@ -2,53 +2,53 @@
   <div>
     <b-row>
       <b-col cols="12" lg="7">
-        <h4 class="gradient"> Work Experiences </h4>
+        <h4 aria-level="2" class="gradient"> Professional Experience </h4>
 
 
         <AboutWorkExperience />
 
-        <h4 class="gradient mt-md-5 mt-4"> Software and Skills </h4>
+        <h4 aria-level="2" class="gradient mt-md-5 mt-4"> Software and Tools </h4>
 
-        <AboutCvElement category="Design Tools">
+        <AboutCvElement category="Design Tools" class="software-tools-entry">
           <template #slotcvelement>
-            <p>Figma, Illustrator, Photoshop, InDesign,<br>Lightroom, Premiere Pro, iMovie, Audition</p>
+            <p>Figma, Illustrator, Photoshop, InDesign, Lightroom, Premiere Pro, iMovie, Audition</p>
           </template>
         </AboutCvElement>
 
-        <AboutCvElement category="Presentazioni">
+        <AboutCvElement category="Presentations" class="software-tools-entry">
           <template #slotcvelement>
             <p>Keynote, Figma Slides, PowerPoint, Slides.com</p>
           </template>
         </AboutCvElement>
 
-        <AboutCvElement category="AI Tools">
+        <AboutCvElement category="AI Tools" class="software-tools-entry">
           <template #slotcvelement>
-            <p>ChatGPT, Claude, EnvatoLab, Nanobanana,<br>Midjourney, Gemini, Photoshop AI</p>
+            <p>ChatGPT, Claude, EnvatoLab, Nanobanana, Midjourney, Gemini, Photoshop AI</p>
           </template>
         </AboutCvElement>
 
-        <AboutCvElement category="Gestione Impianti Digitali">
+        <AboutCvElement category="Digital Display Management" class="software-tools-entry">
           <template #slotcvelement>
             <p>FluidNEXT, MagicINFO</p>
           </template>
         </AboutCvElement>
 
-        <AboutCvElement category="Other Tools">
+        <AboutCvElement category="Other Tools" class="software-tools-entry">
           <template #slotcvelement>
             <p>Miro, Word, Excel, Teams, GettyImages</p>
           </template>
         </AboutCvElement>
 
-        <AboutCvElement category="Coding &amp; Website">
+        <AboutCvElement category="Coding &amp; Website" class="software-tools-entry">
           <template #slotcvelement>
-            <p>HTML, CSS, Javascript, Nuxt, Figma Site,<br>Vue, Bootstrap, Wordpress, Framer</p>
+            <p>HTML, CSS, JavaScript, Nuxt, Figma Site, Vue, Bootstrap, WordPress, Framer</p>
           </template>
         </AboutCvElement>
 
       </b-col>
 
       <b-col cols="12" lg="5">
-        <h4 class="gradient"> Education </h4>
+        <h4 aria-level="2" class="gradient"> Education </h4>
 
         <AboutCvElement category="2022-2025">
           <template #slotcvelement>
@@ -78,18 +78,18 @@
           </template>
         </AboutCvElement>
 
-        <h4 class="gradient mt-md-5 mt-4"> Exhibitions and Project Awards </h4>
+        <h4 aria-level="2" class="gradient mt-md-5 mt-4"> Exhibitions and Project Awards </h4>
 
         <AboutCvElement category="2023, Polimi Design School">
           <template #slotcvelement>
-            <p>Belonging / Not Belonging - Indie Magazine for<br>social change at La Stecca 3 exhibition space</p>
+            <p>Belonging / Not Belonging - Indie Magazine for social change at La Stecca 3 exhibition space</p>
             <p class="subtitlecv">Presentation of the <NuxtLink class="hover-a-underline-animation" to="/referto">Referto Magazine</NuxtLink> project</p>
           </template>
         </AboutCvElement>
 
         <AboutCvElement category="2022, FuoriSalone Milan Design Week">
           <template #slotcvelement>
-            <p>DesignXDesigner - Polimi Design Student<br>Exhibition at Fuorisalone</p>
+            <p>DesignXDesigner - Polimi Design Student Exhibition at Fuorisalone</p>
             <p class="subtitlecv">Presentation of the <NuxtLink class="hover-a-underline-animation" to="/sourdata">SourData</NuxtLink> project</p>
           </template>
         </AboutCvElement>
@@ -101,7 +101,7 @@
           </template>
         </AboutCvElement>
 
-        <h4 class="gradient mt-md-5 mt-4"> Social Initiatives </h4>
+        <h4 aria-level="2" class="gradient mt-md-5 mt-4"> Social Initiatives </h4>
 
         <AboutCvElement category="University Politics (2021-2023)">
           <template #slotcvelement>
@@ -131,27 +131,27 @@
           </template>
         </AboutCvElement>
 
-        <h4 class="gradient mt-md-5 mt-4"> Languages </h4>
+        <h4 aria-level="2" class="gradient mt-md-5 mt-4"> Languages </h4>
 
-        <AboutCvElement category="Italiano">
+        <AboutCvElement category="Italian">
           <template #slotcvelement>
-            <p>Madrelingua</p>
+            <p>Native</p>
           </template>
         </AboutCvElement>
 
-        <AboutCvElement category="Inglese">
+        <AboutCvElement category="English">
           <template #slotcvelement>
             <p>B2 - IELTS Certification</p>
           </template>
         </AboutCvElement>
 
-        <AboutCvElement category="Spagnolo">
+        <AboutCvElement category="Spanish">
           <template #slotcvelement>
-            <p>Livello Base</p>
+            <p>Basic</p>
           </template>
         </AboutCvElement>
 
-    <h4 class="gradient mt-5 ">   <a href="documents/giovanniclericetti.pdf" target="_blank" style="text-decoration: none;">
+    <h4 aria-level="2" class="gradient mt-5 ">   <a href="documents/giovanniclericetti.pdf" target="_blank" style="text-decoration: none;">
 
 
 
@@ -205,4 +205,12 @@ a:hover {
 }
 
 
+</style>
+
+<style scoped>
+@media (min-width: 992px) {
+  .software-tools-entry {
+    width: 70%;
+  }
+}
 </style>

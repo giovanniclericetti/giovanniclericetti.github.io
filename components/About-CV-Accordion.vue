@@ -6,7 +6,7 @@
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
           <b-row tag="button" type="button" v-b-toggle.accordion-6 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
-            <b-col cols="auto" class=""> <h4 class="gradient"> Work Experiences </h4> </b-col>
+            <b-col cols="auto" class=""> <h4 aria-level="2" class="gradient"> Professional Experience </h4> </b-col>
             <b-col class="text-right mr-2 ">
 
               <b-icon :icon="!opened.accordion6 ? 'chevron-down' : 'chevron-up'"
@@ -32,7 +32,7 @@
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
           <b-row tag="button" type="button" v-b-toggle.accordion-1 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
-            <b-col class=""> <h4 class="gradient"> Education </h4> </b-col>
+            <b-col class=""> <h4 aria-level="2" class="gradient"> Education </h4> </b-col>
             <b-col class="text-right mr-2 ">
 
               <b-icon :icon="!opened.accordion1 ? 'chevron-down' : 'chevron-up'"
@@ -85,7 +85,7 @@
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
           <b-row tag="button" type="button" v-b-toggle.accordion-2 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
-            <b-col cols="auto" class=""> <h4 class="gradient"> Exhibitions and Project Awards </h4> </b-col>
+            <b-col cols="auto" class=""> <h4 aria-level="2" class="gradient"> Exhibitions and Project Awards </h4> </b-col>
             <b-col class="text-right mr-2 ">
 
               <b-icon :icon="!opened.accordion2 ? 'chevron-down' : 'chevron-up'"
@@ -130,7 +130,7 @@
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
           <b-row tag="button" type="button" v-b-toggle.accordion-3 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
-            <b-col cols="auto" class=""> <h4 class="gradient"> Social Initiatives </h4> </b-col>
+            <b-col cols="auto" class=""> <h4 aria-level="2" class="gradient"> Social Initiatives </h4> </b-col>
             <b-col class="text-right mr-2 ">
 
               <b-icon :icon="!opened.accordion3 ? 'chevron-down' : 'chevron-up'"
@@ -182,7 +182,7 @@
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
           <b-row tag="button" type="button" v-b-toggle.accordion-4 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
-            <b-col cols="auto" class=""> <h4 class="gradient"> Languages </h4> </b-col>
+            <b-col cols="auto" class=""> <h4 aria-level="2" class="gradient"> Languages </h4> </b-col>
             <b-col class="text-right mr-2 ">
 
               <b-icon :icon="!opened.accordion4 ? 'chevron-down' : 'chevron-up'"
@@ -196,21 +196,21 @@
         <b-collapse v-model="opened.accordion4" id="accordion-4" class="cardaccordion pb-4" accordion="">
           <b-card-body >
 
-        <AboutCvElement category="Italiano" class="mt-0">
+        <AboutCvElement category="Italian" class="mt-0">
           <template #slotcvelement>
-            <p>Madrelingua</p>
+            <p>Native</p>
           </template>
         </AboutCvElement>
 
-        <AboutCvElement category="Inglese" class="mt-3">
+        <AboutCvElement category="English" class="mt-3">
           <template #slotcvelement>
             <p>B2 - IELTS Certification</p>
           </template>
         </AboutCvElement>
 
-        <AboutCvElement category="Spagnolo" class="mt-3">
+        <AboutCvElement category="Spanish" class="mt-3">
           <template #slotcvelement>
-            <p>Livello Base</p>
+            <p>Basic</p>
           </template>
         </AboutCvElement>
 
@@ -224,7 +224,7 @@
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
           <b-row tag="button" type="button" v-b-toggle.accordion-5 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
-            <b-col cols="auto" class=""> <h4 class="gradient"> Software and Skills </h4> </b-col>
+            <b-col cols="auto" class=""> <h4 aria-level="2" class="gradient"> Software and Tools </h4> </b-col>
             <b-col class="text-right mr-2 ">
 
               <b-icon :icon="!opened.accordion5 ? 'chevron-down' : 'chevron-up'"
@@ -244,7 +244,7 @@
           </template>
         </AboutCvElement>
 
-        <AboutCvElement category="Presentazioni" class="mt-3">
+        <AboutCvElement category="Presentations" class="mt-3">
           <template #slotcvelement>
             <p>Keynote, Figma Slides, PowerPoint, Slides.com</p>
           </template>
@@ -256,7 +256,7 @@
           </template>
         </AboutCvElement>
 
-        <AboutCvElement category="Gestione Impianti Digitali" class="mt-3">
+        <AboutCvElement category="Digital Display Management" class="mt-3">
           <template #slotcvelement>
             <p>FluidNEXT, MagicINFO</p>
           </template>
@@ -270,7 +270,7 @@
 
         <AboutCvElement category="Coding &amp; Website" class="mt-3">
           <template #slotcvelement>
-            <p>HTML, CSS, Javascript, Nuxt, Figma Site, Vue, Bootstrap, Wordpress, Framer</p>
+            <p>HTML, CSS, JavaScript, Nuxt, Figma Site, Vue, Bootstrap, WordPress, Framer</p>
           </template>
         </AboutCvElement>
 
@@ -282,7 +282,7 @@
 
     </div>
 
-    <h4 class="w-100 mt-5 text-center"> <a href="documents/giovanniclericetti.pdf" target="_blank">
+    <h4 aria-level="2" class="w-100 mt-5 text-center"> <a href="documents/giovanniclericetti.pdf" target="_blank">
       <span class="underlinemobile downloadcv" style="color: black"> Download Resume </span> </a>
     </h4>
 
@@ -302,7 +302,7 @@ export default {
         accordion3: false,
         accordion4: false,
         accordion5: false,
-        accordion6: false,
+        accordion6: true,
       },
     }
   },

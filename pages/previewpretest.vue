@@ -8,13 +8,9 @@
 
       <Project-Intro
         title="Preview & Pretest"
-        subtitle="Series of events dedicated to all future students
-        of Design and Architecture at Politecnico di Milano"
-        pill1="Branding"
-        pill2="Social"
-        pill3="Visual"
+        :subtitle="project.bio"
         pill4="Event"
-      />
+      :pill1="project.pill1" :pill2="project.pill2" :pill3="project.pill3" />
 
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block "
       >
@@ -39,10 +35,7 @@
       </div>
 
       <ProjectDescription
-        description="
-
-In such an important stage of a student's life as choosing a university, Preview & Pretest is a concrete help in approaching this new world. The work consists, on the one hand, of managing all the organisational aspects of these events and, on the other hand, of developing a brand identity system that has remained consistently recognisable while evolving over time to adapt to the current context, so much so that even today this brand continues to exist year after year.
-"
+        :description="project.overview"
         team="C. Ghio, T. Prinetti, A. Silvano, D. Zoppi"
         role="Event Organization, Social Media, Brand Identity Evolution, Visual, UX-UI, Coding (HTML, CSS, JS, Wordpress)"
         delivery="Extracurricular Project for Polimi, 2020-2022"
@@ -84,8 +77,7 @@ In such an important stage of a student's life as choosing a university, Preview
 
             title="Preview"
 
-            description="
-Preview is an event where students' projects are shown to prospective students to help them understand which academic course is right for them. It mainly takes place on a single day, but all communications and the showcase website are created to accompany it."
+            description="Preview is an event where students' projects are shown to prospective students to help them understand which academic course is right for them. It mainly takes place on a single day, but all communications and the showcase website are created to accompany it."
 
           /> </b-col>
 
@@ -115,8 +107,7 @@ Preview is an event where students' projects are shown to prospective students t
 
             title="Pretest"
 
-            description="
-Pretest is a three-day study event in preparation for the Design and Architecture entrance exam, which helps students by explaining topics in lectures, preparing presentations, designing handouts, creating simulations and providing guided study time."
+            description="Pretest is a three-day study event in preparation for the Design and Architecture entrance exam, which helps students by explaining topics in lectures, preparing presentations, designing handouts, creating simulations and providing guided study time."
 
           /> </b-col>
 
@@ -175,12 +166,8 @@ Pretest is a three-day study event in preparation for the Design and Architectur
         thumbnail="/images/covers/next/avi-next.svg"
         class="column card-large biowhite avi"
         to="/audiovisualidentity"
-        pill1="Thesis"
-        pill2="Editorial"
-        pill3="Branding"
         nextproject="Audiovisual Identity"
-        bionext="Research thesis focused on design and branding in the TV industry"
-      />
+      :pill1="projectContent.audiovisualidentity.pill1" :pill2="projectContent.audiovisualidentity.pill2" :pill3="projectContent.audiovisualidentity.pill3" :bionext="projectContent.audiovisualidentity.bio" />
 
 
     </div>
@@ -193,7 +180,9 @@ Pretest is a three-day study event in preparation for the Design and Architectur
 </template>
 
 <script>
+import projectContent from '~/utils/project-content'
 export default {
+  data() { return { project: projectContent.previewpretest, projectContent } },
   name: 'preview-pretest',
 }
 

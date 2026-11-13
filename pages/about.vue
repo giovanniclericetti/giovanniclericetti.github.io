@@ -9,17 +9,11 @@
     <div class="about-sections">
     <div>
 
-      <h2 class="titleindex">
-
-        My name is <span class="name gradient"> Giovanni</span>.
-        I'm {{ age }} years old and I come from Milan.
-        I'm passionate and curious about discovering,
-        learning and understanding aspects of reality and the forms it can take.
-
-
-      </h2>
+      <h1 class="titleindex">After graduating in Communication Design from <a class="name gradient about-inline-link" href="https://www.polimi.it/">Polimi</a>, I now work with <a class="name gradient about-inline-link" href="https://www.acmilan.com/">AC Milan</a>, combining creativity and strategy across visual identities, digital experiences and live environments.</h1>
 
     </div>
+
+
 
     <AboutPhoto
       class="d-md-none"
@@ -28,6 +22,46 @@
     <AboutTablet class="d-none d-md-block d-lg-none" />
 
     <About-Box class="d-lg-block d-none" />
+
+    <section class="about-expertise d-none d-md-block" aria-label="Areas of Expertise">
+      <div class="expertise-columns">
+        <div class="expertise-column">
+          <div class="expertise-panel">
+          <h6 aria-level="3" class="gradient mb-3 expertise-heading">Brand Design</h6>
+          <div class="expertise-divider" aria-hidden="true"></div>
+          <ul class="expertise-list">
+          <li>Brand Identity &amp; Visual Systems</li>
+          <li>Partnership &amp; Commercial Design</li>
+          <li>Venue Branding &amp; Co-Branding</li>
+          </ul>
+          </div>
+        </div>
+        <div class="expertise-column">
+          <div class="expertise-panel">
+          <h6 aria-level="3" class="gradient mb-3 expertise-heading">Events &amp; Production</h6>
+          <div class="expertise-divider" aria-hidden="true"></div>
+          <ul class="expertise-list">
+          <li>Event Branding &amp; Brand Activations</li>
+          <li>Live Visual Production</li>
+          <li>Matchday &amp; Stadium Content</li>
+          </ul>
+          </div>
+        </div>
+        <div class="expertise-column">
+          <div class="expertise-panel">
+          <h6 aria-level="3" class="gradient mb-3 expertise-heading">Digital &amp; Editorial</h6>
+          <div class="expertise-divider" aria-hidden="true"></div>
+          <ul class="expertise-list">
+          <li>UX/UI &amp; Digital Experiences</li>
+          <li>Editorial &amp; Presentation Design</li>
+          <li>Research &amp; Information Architecture</li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
 
     <About-CV class="about-cv-desktop d-none d-lg-block"/>
     <About-CV-Accordion class="about-cv-mobile d-lg-none d-block"/>
@@ -84,8 +118,124 @@
 </script>
 
 <style scoped>
+.about-expertise {
+  margin-top: -28px;
+  text-align: center;
+}
+
+.expertise-columns {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.expertise-heading {
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.expertise-divider {
+  width: 100%;
+  height: 2px;
+  margin: 0 0 20px;
+  background: linear-gradient(45deg, #FFA857, #FF4466);
+}
+
+.expertise-column {
+  padding: 24px 16px;
+  background: white;
+  border-radius: 24px;
+}
+
+.expertise-panel {
+  height: 100%;
+  padding: 8px;
+  background: transparent;
+}
+
+.expertise-list li + li::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-bottom: 14px;
+  background: #DADADA;
+}
+
+.expertise-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+@media (min-width: 992px) {
+  .about-expertise {
+    margin-top: -60px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .expertise-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .expertise-column {
+    padding: 24px 20px;
+  }
+
+
+}
+
+.about-inline-link {
+  display: inline-block;
+  position: relative;
+}
+
+.about-inline-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(45deg, #FFA857, #FF4466);
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.about-inline-link:hover::after,
+.about-inline-link:focus-visible::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about-inline-link::after {
+    transition: none;
+  }
+}
+
+.name {
+  font-family: 'title-regular';
+  font-size: 34px;
+  text-decoration: none;
+}
+
+.titleindex { font-family: 'DM Sans'; font-size: 32px; font-weight: 400; color: inherit; }
 
 .about .titleindex {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   width: 95%;
   margin-bottom: 0;
 }
@@ -103,6 +253,11 @@
 }
 
 @media (min-width: 992px) {
+  .about .titleindex {
+    width: 100%;
+    text-wrap: balance;
+  }
+
   .about-sections {
     gap: 80px;
     margin-top: 96px;
@@ -119,16 +274,31 @@
   .name { font-size: 30px; }
 }
 
-@media (max-width: 768px) {
-
-  .name{
-    font-size: 30px;}
-
-  .titleindex{
-    width: 100%;
-    line-height: 140%
+/* Scale introductory copy smoothly through tablet and desktop widths. */
+@media (min-width: 768px) {
+  .about .titleindex {
+    font-size: clamp(20px, 2.25vw, 32px);
+    text-wrap: balance;
   }
 
+  .about .titleindex .name {
+    font-size: 1.0625em;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .about .name {
+    font-size: 21px;
+  }
+
+  .about .titleindex {
+    text-align: left;
+    margin-left: 0;
+    margin-right: auto;
+    width: 90%;
+    font-size: 19px;
+    line-height: 1.3;
+  }
 }
 </style>
 

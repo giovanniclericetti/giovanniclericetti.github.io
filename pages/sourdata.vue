@@ -9,10 +9,7 @@
 
       <Project-Intro
         title="SourData"
-        subtitle="Product-service system that generates income by collecting and selling users' most personal and private data, prompting them to consider how much privacy is left."
-        pill1="Interaction"
-        pill2="UX-UI"
-        pill3="Branding"
+        :subtitle="project.bio"
         pill4="Speculative"
       style="
 
@@ -25,7 +22,7 @@
 
 
 
-      />
+      :pill1="project.pill1" :pill2="project.pill2" :pill3="project.pill3" />
 
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block ">
 
@@ -43,8 +40,7 @@
       </div>
 
       <ProjectDescription
-        description="
-SourData was born from a reflection on personal data and privacy, as a company that produces devices that monitor the most intimate data, the only service that collects data for money through a family of products: Coomy for masturbation, Poopy for feces and Weezy for breath. The data collected is stored on an SD card, which is later inserted into the Hub to share and receive payment. The shape of the Hub is reminiscent of a piggy bank, but instead of the usual coins, the user inserts data, personified by the SD card. The project was also explored and discussed in detail in the bachelor thesis."
+        :description="project.overview"
         team="E. Ceriani, G. Fulghieri, F. Nozza, M. Zagaria"
         role="Brand Identity, Graphics, UX-UI, Keynote Presentation, Social Media, Editorial, Technology Research, Coding (HTML, CSS, JS, Arduino)"
         delivery="Final Synthesis Bachelor Lab, 2021-2022"
@@ -95,8 +91,7 @@ SourData was born from a reflection on personal data and privacy, as a company t
 
             title="Brand System "
 
-            description="
-SourData was developed in every aspect, from the creation of the most general branding system down to the detail of the screens. The first artifact were the posters to launch the project and make it clear what data the project was talking about. This was followed by the social content, user manual, presentation slides, showcase website and presentation brochures. To complete the experience, related products were also created for each device. "
+            description="SourData was developed in every aspect, from the creation of the most general branding system down to the detail of the screens. The first artifacts were posters to launch the project and make it clear what data the project was talking about. This was followed by the social content, user manual, presentation slides, showcase website and presentation brochures. To complete the experience, related products were also created for each device."
 
           /> </b-col>
 
@@ -122,8 +117,7 @@ SourData was developed in every aspect, from the creation of the most general br
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <ProjectDescription2
             title="The Experience"
-            description="
-The core of the SourData experience are the gestures, each one  carrying meaning and metaphor, from the shape of the Hub resembling a piggy bank to the gesture of clicking a button to agree to send data. Once the user has made contact and accepted SourData's terms and conditions, the box containing the Hub and the device arrives at the user's home. Once opened, the device needs to be put on and used. The data is collected on the SD card, which is removed and inserted into the Hub. Clicking the button sends the data to the digital platform where it can be viewed and the user can receive your reward. "
+            description="The SourData experience centres on gestures, each one carrying meaning and metaphor, from the shape of the Hub resembling a piggy bank to the gesture of clicking a button to agree to send data. Once the user has made contact and accepted SourData's terms and conditions, the box containing the Hub and the device arrives at the user's home. Once opened, the device needs to be put on and used. The data is collected on the SD card, which is removed and inserted into the Hub. Clicking the button sends the data to the digital platform where it can be viewed and the user can receive their reward."
           /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -179,8 +173,7 @@ The core of the SourData experience are the gestures, each one  carrying meaning
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <ProjectDescription2
             title="Making Of"
-            description="
-All the collection devices were physically made through 3D printing after being designed in their shapes. Coomy and the Hub are also functional and programmed using an Arduino to actually monitor the data and share it on the online server. "
+            description="The collection devices were designed and prototyped using 3D printing. Coomy and the Hub are also functional and programmed using an Arduino to monitor the data and share it on the online server."
           /> </b-col>
 
 
@@ -200,12 +193,8 @@ All the collection devices were physically made through 3D printing after being 
         thumbnail="/images/covers/cards/milan-card-v2.jpg"
         class="column card-large biowhite acmilan"
         to="/acmilan"
-        pill1="Work"
-        pill2="Commercial"
-        pill3="Presentation"
         nextproject="ACM Commercial Decks"
-        bionext="Design of commercial presentations and visual assets for AC Milan and its partners."
-      />
+      :pill1="projectContent.acmilan.pill1" :pill2="projectContent.acmilan.pill2" :pill3="projectContent.acmilan.pill3" :bionext="projectContent.acmilan.bio" />
 
 
     </div>
@@ -218,7 +207,9 @@ All the collection devices were physically made through 3D printing after being 
 </template>
 
 <script>
+import projectContent from '~/utils/project-content'
 export default {
+  data() { return { project: projectContent.sourdata, projectContent } },
   name: 'sour-data',
 
 };

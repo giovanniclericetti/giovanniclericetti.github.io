@@ -14,7 +14,7 @@
                 <a href="documents/giovanniclericetti.pdf" target="_blank" style="text-decoration: none;">
                   <div class="boxround bggradient" style="height: 230px;" ref="container" @mousemove="moveImage">
                     <div class="d-flex justify-content-center align-items-center pt-3" style="height: 40%">
-                      <h4 style="font-size: 32px; color: white">My Resume</h4>
+                      <h4 class="tile-label resume-label" style="color: white">My Resume</h4>
                     </div>
                     <div class="boxcv justify-content-center d-flex" style="height: 150%; width: 100%;">
                       <PortfolioImage ref="cvImage" src="/images/aboutme/cvbox.png" style="transform: translateZ(0); height: 100%; width: auto;"  sizes="269px" />
@@ -40,24 +40,23 @@
               </b-col>
             </b-row>
           </div>
-          <b-row class="d-flex no-gutters">
-            <b-row class="p-0 m-0" style="width: 100%">
-              <b-col class="p-0" cols="">
-                <div class="socialbox"><a href="https://t.me/giovanniclericetti" target="_blank"><img src="~static/images/aboutme/telegram.svg"/></a></div>
-              </b-col>
-              <b-col class="p-0" cols="">
-                <div class="socialbox"><a href="https://www.instagram.com/giovanniclericetti.png/" target="_blank"><img src="~static/images/aboutme/instagram.svg"/></a></div>
-              </b-col>
-              <b-col class="d-flex m-0 p-0" cols="5" style="margin-left: 20px">
-                <div class="bg-white socialbox-large justify-content-center d-flex align-items-center">
-                  <a href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank" class="d-flex pr-2"><img src="~static/images/aboutme/checklinkedin.svg"/></a>
-                </div>
-              </b-col>
-              <b-col class="p-0" cols="">
-                <div class="socialbox"><a href="mailto:giovanni.clericetti@gmail.com"><img src="~static/images/aboutme/mail.svg"/></a></div>
-              </b-col>
-            </b-row>
-          </b-row>
+          <div class="contact-tiles">
+            <a class="contact-tile mail-tile" href="mailto:giovanni.clericetti@gmail.com">
+              <span class="contact-content">
+              <span class="tile-label">Mail me</span>
+              <img src="~static/images/aboutme/mail-icon.svg" alt="" />
+                          </span>
+            </a>
+            <a class="contact-tile linkedin-tile" href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank" rel="noopener noreferrer" aria-label="Check my LinkedIn">
+              <span class="contact-content">
+              <span class="tile-label">Check my</span>
+              <span class="linkedin-logo" aria-hidden="true"><img src="~static/images/aboutme/checklinkedin.svg" alt="" /></span>
+                          </span>
+            </a>
+            <a class="contact-tile instagram-tile" href="https://www.instagram.com/giovanniclericetti.png/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <img src="~static/images/aboutme/instagram.svg" alt="" />
+            </a>
+          </div>
         </div>
       </b-col>
     </b-row>
@@ -106,6 +105,74 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.contact-tiles {
+  display: grid;
+  grid-template-columns: calc(42.857143% - 18.095238px) minmax(0, 1fr) 105px;
+  gap: 20px;
+  padding-left: 20px;
+}
+.contact-tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  height: 105px;
+  border-radius: 20px;
+  background: white;
+  overflow: hidden;
+  text-decoration: none;
+}
+.contact-tile img {
+  object-fit: contain;
+  max-width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+.instagram-tile:hover img { transform: scale(1.03); }
+.contact-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+.mail-tile .contact-content { gap: 12px; }
+.contact-tile:hover .contact-content,
+.contact-tile:focus-visible .contact-content { transform: scale(1.03); }
+@media (prefers-reduced-motion: reduce) {
+  .contact-content { transition: none; }
+}
+.mail-tile { padding: 12px; background: white; }
+.tile-label {
+  font-family: 'title-regular';
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+  white-space: nowrap;
+}
+.resume-label { font-size: 32px; }
+.mail-tile img { width: 52px; height: 40px; flex-shrink: 0; }
+.mail-tile .tile-label { color: #DB4B3E; }
+.linkedin-tile { gap: 8px; padding: 12px; }
+.linkedin-tile .tile-label { color: #007EBB; }
+.linkedin-logo {
+  position: relative;
+  display: block;
+  flex: 0 0 56px;
+  width: 56px;
+  height: 56px;
+  overflow: hidden;
+}
+.linkedin-logo img {
+  position: absolute;
+  right: 0;
+  width: 191.333333px;
+  height: 56px;
+  max-width: none;
+}
+.instagram-tile { width: 105px; aspect-ratio: 1; }
+.instagram-tile img { width: 100%; height: 100%; }
+
 .photobox {
 
   background-size: cover;

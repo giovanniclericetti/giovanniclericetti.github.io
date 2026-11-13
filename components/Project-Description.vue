@@ -3,7 +3,7 @@
   <b-row>
     <b-col cols="12" md="7">
 
-    <h4> Project Overview </h4>
+    <h4 aria-level="2"> Project Overview </h4>
      <p> {{ description }} </p>
 
       <slot name="link2">
@@ -15,13 +15,13 @@
     <b-col cols="12" md="5" style="">
 
 
-      <h4 class="mt-4 mt-md-0"> Team </h4>
+      <h4 aria-level="2" class="mt-4 mt-md-0"> Team </h4>
       <p v-html="formatTeam(team)"></p>
 
-      <h4 class="mt-4"> Role </h4>
+      <h4 aria-level="2" class="mt-4"> Role </h4>
       <p> {{ role }} </p>
 
-      <h4 class="mt-4"> Delivery </h4>
+      <h4 aria-level="2" class="mt-4"> Delivery </h4>
       <p> {{ delivery }} </p>
 
       <slot name="link">

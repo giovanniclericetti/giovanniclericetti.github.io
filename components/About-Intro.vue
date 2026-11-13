@@ -10,7 +10,7 @@
     <h3 class="subabout">  {{subtitle}} </h3> </div>
 
     <h4 class="gradient"> {{subdescription}} </h4>
-    <p class="description mt-3 mb-0" style="white-space: pre-line"> {{ description && description.trim() }}</p>
+    <p class="description mt-3 mb-0"> {{ description && description.trim() }}</p>
 
   </div>
 </template>

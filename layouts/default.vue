@@ -6,11 +6,13 @@
 </template>
 
 <script>
+import { portfolioSeo } from '~/utils/portfolio-seo'
 import { imagePreloads, imageFallback } from '~/utils/image-head'
 export default {
   name: "DefaultLayout",
   head() {
     return {
+      ...portfolioSeo(this.$route.path),
       noscript: [{ hid: 'image-fallback', innerHTML: imageFallback(this.$route.path) }],
       __dangerouslyDisableSanitizersByTagID: { 'image-fallback': ['innerHTML'] },
       link: [
@@ -370,5 +372,17 @@ height: 300px;
 
 
 
+
+/* Slightly denser typography on phones only. */
+@media (max-width: 767.98px) {
+  h1 { font-size: 48px; }
+  h2 { font-size: 22px; }
+  h3 { font-size: 19px; }
+  h4 { font-size: 18px; }
+  h5 { font-size: 17px; }
+  h6 { font-size: 14px; }
+  p { font-size: 15px; }
+  p2 { font-size: 13px; }
+}
 
 </style>
