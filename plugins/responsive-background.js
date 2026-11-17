@@ -21,7 +21,7 @@ function update(el) {
   const travel =
     el.hasAttribute('data-parallax-image') &&
     el.dataset.parallaxMode !== 'frame' &&
-    window.innerWidth >= 768 &&
+    window.innerWidth >= 992 && window.matchMedia('(hover: hover) and (pointer: fine)').matches &&
     !window.matchMedia('(prefers-reduced-motion: reduce)').matches
       ? 64
       : 0
@@ -29,7 +29,7 @@ function update(el) {
     ? Math.max(width, ((height + travel) * info.width) / info.height) *
       (window.devicePixelRatio || 1)
     : width
-  const url = imageVariant(src, options.fullResolution ? undefined : required * 1.06).url
+  const url = imageVariant(src, options.fullResolution && window.innerWidth >= 992 ? undefined : required * 1.06).url
   if (entry.url === url) return
   entry.url = url
   const image = new Image()
@@ -76,6 +76,9 @@ Vue.directive('responsive-background', {
       resize = 'ResizeObserver' in window ? new ResizeObserver(schedule) : null
       window.addEventListener('resize', schedule, { passive: true })
     }
+    const options = typeof binding.value === 'string' ? { src: binding.value } : binding.value
+    const info = imageInfo(options.src)
+    if (info) el.style.setProperty('--media-ratio', `${info.width} / ${info.height}`)
     entries.set(el, { value: binding.value, visible: !intersection })
     if (intersection) intersection.observe(el)
     if (resize) resize.observe(el)

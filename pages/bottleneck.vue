@@ -13,16 +13,16 @@
 
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block ">
 
-        <img v-responsive-background="'/images/covers/hero/bottleneck.jpg'" data-image-src="/images/covers/hero/bottleneck.jpg" class="cover-parallax"
+        <img alt="" role="img" aria-label="Bottleneck notification platform on desktop and mobile" v-responsive-background="'/images/covers/hero/bottleneck.jpg'" data-image-src="/images/covers/hero/bottleneck.jpg" class="cover-parallax"
              data-parallax-image v-parallax>
       </div>
 
 
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
-        <PortfolioImage class=""
+        <PortfolioImage alt="Bottleneck notification platform on desktop and mobile" class=""
      src="/images/covers/sm/bottleneck_sm.jpg"
- loading="lazy" fetchpriority="high" style="height: auto;" />
+ loading="eager" fetchpriority="high" style="height: auto;" />
 
       </div>
 
@@ -51,17 +51,15 @@
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/bottleneck/bottleneck1.jpg'" data-image-src="/images/bottleneck/bottleneck1.jpg" class="img-parallax imgproject h600"
+            <img alt="" role="img" aria-label="Bottleneck dashboard on laptop and smartphone" v-responsive-background="'/images/bottleneck/bottleneck1.jpg'" data-image-src="/images/bottleneck/bottleneck1.jpg" class="img-parallax imgproject h600"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <div style="padding:56.25% 0 0 0;position:relative;" class="projectbox">
-            <iframe loading="lazy" src="https://player.vimeo.com/video/838849711?h=3e45c03c7b&title=0&byline=0&portrait=0"
+            <iframe :title="project.bio + ' — video'" loading="lazy" src="https://player.vimeo.com/video/838849711?h=3e45c03c7b&title=0&byline=0&portrait=0"
                     style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
-
-          <script src="https://player.vimeo.com/api/player.js"></script>
 
         </b-col>
 
@@ -77,25 +75,25 @@
 
         <b-col cols="12" md="8" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/bottleneck/bottleneck2.jpg'" data-image-src="/images/bottleneck/bottleneck2.jpg" class="img-parallax imgproject h500"
+            <img alt="" role="img" aria-label="Notification taxonomy by urgency and application" v-responsive-background="'/images/bottleneck/bottleneck2.jpg'" data-image-src="/images/bottleneck/bottleneck2.jpg" class="img-parallax imgproject h500"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="4" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/bottleneck/bottleneck3.jpg'" data-image-src="/images/bottleneck/bottleneck3.jpg" class="img-parallax imgproject h500"
+            <img alt="" role="img" aria-label="Flow diagram connecting Bottleneck features" v-responsive-background="'/images/bottleneck/bottleneck3.jpg'" data-image-src="/images/bottleneck/bottleneck3.jpg" class="img-parallax imgproject h500"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/bottleneck/bottleneck5.jpg'" data-image-src="/images/bottleneck/bottleneck5.jpg" class="img-parallax imgproject h500"
+            <img alt="" role="img" aria-label="Bottleneck information architecture diagram" v-responsive-background="'/images/bottleneck/bottleneck5.jpg'" data-image-src="/images/bottleneck/bottleneck5.jpg" class="img-parallax imgproject h500"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/bottleneck/bottleneck6.jpg'" data-image-src="/images/bottleneck/bottleneck6.jpg" class="img-parallax imgproject h500"
+            <img alt="" role="img" aria-label="Bottleneck interface shown alongside research diagrams" v-responsive-background="'/images/bottleneck/bottleneck6.jpg'" data-image-src="/images/bottleneck/bottleneck6.jpg" class="img-parallax imgproject h500"
                  data-parallax-image v-parallax></div>
         </b-col>
 
@@ -111,9 +109,7 @@
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <div style="overflow: hidden" class="bot-video p-0 m-0 projectbox d-flex justify-content-center align-items-center">
-            <video playsinline autoplay loop muted style="width: 100%;">
-              <source src="/images/bottleneck/feature1.mp4" type="video/mp4">
-            </video>
+            <ProjectMotion src="/images/bottleneck/feature1.mp4" poster="/images/video-posters/feature1.jpg" :width="1920" :height="1239" :label="project.bio" />
           </div>
 
         </b-col>
@@ -121,9 +117,7 @@
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
 
           <div style="overflow: hidden" class=" p-0 m-0 projectbox d-flex  justify-content-center align-items-center">
-            <video playsinline autoplay loop muted style="width: 100%;">
-              <source src="/images/bottleneck/feature3.mp4" type="video/mp4">
-            </video>
+            <ProjectMotion src="/images/bottleneck/feature3.mp4" poster="/images/video-posters/feature3.jpg" :width="1920" :height="1239" :label="project.bio" />
           </div>
 
         </b-col>
@@ -131,9 +125,7 @@
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
 
           <div style="overflow: hidden" class=" p-0 m-0 projectbox d-flex  justify-content-center align-items-center">
-            <video playsinline autoplay loop muted style="width: 100%;">
-              <source src="/images/bottleneck/feature2.mp4" type="video/mp4">
-            </video>
+            <ProjectMotion src="/images/bottleneck/feature2.mp4" poster="/images/video-posters/feature2.jpg" :width="1920" :height="1239" :label="project.bio" />
           </div>
 
         </b-col>
@@ -152,29 +144,27 @@
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <div style="overflow: hidden" class="bot-video p-0 m-0 projectbox d-flex justify-content-center align-items-center">
-            <video id="myVideo" playsinline autoplay loop muted style="width: 100%;">
-              <source src="/images/bottleneck/designsystem.mp4" type="video/mp4">
-            </video>
+            <ProjectMotion src="/images/bottleneck/designsystem.mp4" poster="/images/video-posters/designsystem.jpg" :width="2896" :height="1402" :label="project.bio" />
           </div>
 
         </b-col>
 
         <b-col cols="12" md="12" class="d-block d-md-none  py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/bottleneck/bottleneck4.jpg'" data-image-src="/images/bottleneck/bottleneck4.jpg" class="img-parallax imgproject " style="height: 250px;
+            <img alt="" role="img" aria-label="Overview of Bottleneck interface layouts and cards" v-responsive-background="'/images/bottleneck/bottleneck4.jpg'" data-image-src="/images/bottleneck/bottleneck4.jpg" class="img-parallax imgproject " style="height: 250px;
      "
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/bottleneck/bottleneck4.jpg'" data-image-src="/images/bottleneck/bottleneck4.jpg" class="img-parallax imgproject "
+            <img alt="" role="img" aria-label="Overview of Bottleneck interface layouts and cards" v-responsive-background="'/images/bottleneck/bottleneck4.jpg'" data-image-src="/images/bottleneck/bottleneck4.jpg" class="img-parallax imgproject "
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/bottleneck/bottleneck10.jpg'" data-image-src="/images/bottleneck/bottleneck10.jpg" class="img-parallax imgproject h500"
+            <img alt="" role="img" aria-label="Bottleneck integration with desktop operating systems" v-responsive-background="'/images/bottleneck/bottleneck10.jpg'" data-image-src="/images/bottleneck/bottleneck10.jpg" class="img-parallax imgproject h500"
                  data-parallax-image v-parallax></div>
         </b-col>
 
@@ -211,7 +201,7 @@ export default {
 </script>
 
 
-<style>
+<style lang="scss">
 
 .bottleneck .subtitle{
   width: 80%;

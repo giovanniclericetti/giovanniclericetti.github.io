@@ -2,7 +2,7 @@
 
   <div>
 
-    <div class="accordion lineacc pt-4" role="tablist">
+    <div class="accordion lineacc pt-4">
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
           <b-row tag="button" type="button" v-b-toggle.accordion-6 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
@@ -28,7 +28,7 @@
 
     </div>
 
-    <div class="accordion lineacc pt-4" role="tablist">
+    <div class="accordion lineacc pt-4">
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
           <b-row tag="button" type="button" v-b-toggle.accordion-1 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
@@ -81,7 +81,7 @@
     </div>
 
 
-    <div class="accordion lineacc pt-4" role="tablist">
+    <div class="accordion lineacc pt-4">
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
           <b-row tag="button" type="button" v-b-toggle.accordion-2 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
@@ -126,7 +126,7 @@
 
     </div>
 
-    <div class="accordion lineacc pt-4" role="tablist">
+    <div class="accordion lineacc pt-4">
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
           <b-row tag="button" type="button" v-b-toggle.accordion-3 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
@@ -178,7 +178,7 @@
 
     </div>
 
-    <div class="accordion lineacc pt-4" role="tablist">
+    <div class="accordion lineacc pt-4">
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
           <b-row tag="button" type="button" v-b-toggle.accordion-4 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
@@ -220,7 +220,7 @@
 
     </div>
 
-    <div class="accordion lineacc lineaccsott  pt-4" role="tablist">
+    <div class="accordion lineacc lineaccsott  pt-4">
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
           <b-row tag="button" type="button" v-b-toggle.accordion-5 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
@@ -256,7 +256,7 @@
           </template>
         </AboutCvElement>
 
-        <AboutCvElement category="Digital Display Management" class="mt-3">
+        <AboutCvElement category="Digital Signage &amp; Live Production" class="mt-3">
           <template #slotcvelement>
             <p>FluidNEXT, MagicINFO</p>
           </template>

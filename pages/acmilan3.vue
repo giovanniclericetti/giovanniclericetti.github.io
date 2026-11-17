@@ -8,23 +8,23 @@
         <div v-responsive-background="{ src: '/images/acm-events-matchday/GCR24765_0PQcufMC_20261102113848 2.png', fullResolution: true }" data-image-src="/images/acm-events-matchday/GCR24765_0PQcufMC_20261102113848 2.png" class="cover-parallax" aria-label="Hall of Fame ceremony at San Siro" data-parallax-image v-parallax role="img"></div>
       </div>
       <div class="cover-mobile d-block d-md-none">
-        <PortfolioImage src="/images/acm-events-matchday/GCR24765_0PQcufMC_20261102113848 2.png" alt="Hall of Fame ceremony at San Siro" loading="eager" fetchpriority="high" />
+        <PortfolioImage src="/images/mobile/events-cover.webp" :width="1280" :height="853" alt="Hall of Fame ceremony at San Siro" loading="eager" fetchpriority="high" />
       </div>
       <section class="project-section" aria-labelledby="project-overview">
         <div class="section-copy">
           <h4 aria-level="2" id="project-overview">Project Overview</h4>
           <p>{{ project.overview }}</p>
         </div>
+        <div class="gallery-row" style="--columns: 49fr 22fr 25fr">
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/GCR33836_K5K03rLd_20261102114032 3.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/GCR33836_K5K03rLd_20261102114032 3.png" class="gallery-image" role="img" aria-label="Kaká during the Emirates content production" style="--image-ratio: 1.5"></div>
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/GCR33756_N5DDzeUa_20261102114055 3.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/GCR33756_N5DDzeUa_20261102114055 3.png" class="gallery-image mobile-hidden" role="img" aria-label="Emirates branded editorial content" style="--image-ratio: 0.673469387755102"></div>
+          <div v-responsive-background="{ src: '/images/acm-events-matchday/DSC00778 2.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/DSC00778 2.png" class="gallery-image" role="img" aria-label="AC Milan and Bud branded beer dispenser" style="--image-ratio: 0.7653061224489796"></div>
+        </div>
       </section>
       <section class="project-section" aria-labelledby="section-0">
         <div class="section-copy">
           <h4 aria-level="2" id="section-0">Brand Activations</h4>
           <p>Development of concepts, visual assets, and branded installations for commercial activations and fan-focused initiatives, translating partners' communication needs into physical and digital applications tailored to different spaces and audiences. Projects range from promotional content sets, such as the Emirates production featuring Kaká, to branded fan villages during matchdays, including Christmas activations and new kit launches. Creation of mockups, branded desks, arches, player cutouts, prize wheels, big-screen content, and co-branded installations, taking technical and production requirements into account.</p>
-        </div>
-        <div class="gallery-row" style="--columns: 49fr 22fr 25fr">
-          <div v-responsive-background="{ src: '/images/acm-events-matchday/GCR33836_K5K03rLd_20261102114032 3.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/GCR33836_K5K03rLd_20261102114032 3.png" class="gallery-image" role="img" aria-label="Kaká during the Emirates content production" style="--image-ratio: 1.5"></div>
-          <div v-responsive-background="{ src: '/images/acm-events-matchday/GCR33756_N5DDzeUa_20261102114055 3.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/GCR33756_N5DDzeUa_20261102114055 3.png" class="gallery-image mobile-hidden" role="img" aria-label="Emirates branded editorial content" style="--image-ratio: 0.673469387755102"></div>
-          <div v-responsive-background="{ src: '/images/acm-events-matchday/DSC00778 2.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/DSC00778 2.png" class="gallery-image" role="img" aria-label="AC Milan and Bud branded beer dispenser" style="--image-ratio: 0.7653061224489796"></div>
         </div>
         <div class="gallery-row" style="--columns: 59fr 39fr">
           <div v-responsive-background="{ src: '/images/acm-events-matchday/ANLA9173_ee359df5-348b-4611-98aa-78fd4e3a7c79_20260525121411 3.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/ANLA9173_ee359df5-348b-4611-98aa-78fd4e3a7c79_20260525121411 3.png" class="gallery-image" role="img" aria-label="Matchday fan village for the new kit launch" style="--image-ratio: 1.85"></div>

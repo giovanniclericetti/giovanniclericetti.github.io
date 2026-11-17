@@ -1,11 +1,6 @@
 <template>
   <div>
 
-    <div id="" class="text-center my-4 d-flex justify-content-center">
-
-
-    </div>
-
     <b-row class="d-lg-flex d-none" >
 
 
@@ -191,7 +186,7 @@ export default {
           title: 'ACM Events & Matchday',
           projectname: 'ACM Events & Matchday',
           thumbnail: '/images/acm-partner-visibility/acm3.png',
-          mobileThumbnail: '/images/acm-partner-visibility/acm3.png',
+          mobileThumbnail: '/images/mobile/events-card.webp',
           class: 'column card-extralarge biowhite',
           to: "acmilan3",
           workInProgress: false,
@@ -237,8 +232,8 @@ export default {
           pill3: projectContent.acmilan.pill3,
           projectType: 'Work Experience',
           fullResolution: true,
-          title: 'ACM Commercial Decks',
-          projectname: 'ACM Commercial Decks',
+          title: 'AC Milan Commercial Decks',
+          projectname: 'AC Milan Commercial Decks',
           thumbnail: '/images/covers/cards/milan-card.jpg',
           mobileThumbnail: '/images/covers/cards/milan-card.jpg',
           category: ['confidential', 'visual', 'branding', 'graphic'],
@@ -360,16 +355,17 @@ export default {
       this.fitFrame = requestAnimationFrame(this.fitCardText)
     },
     fitCardText() {
-      const mobile = window.innerWidth < 768
+      // Keep mobile titles fixed; fit the pills to one shared size across cards.
+      const mobile = window.innerWidth < 992
       let titleSize = mobile ? 18 : 20
-      let pillSize = mobile ? 13 : 14
+      let pillSize = mobile ? 12 : 14
       const textWidth = (element) => {
         const range = document.createRange()
         range.selectNodeContents(element)
         return range.getBoundingClientRect().width
       }
       this.$el.querySelectorAll('.titlemob').forEach((title) => {
-        if (!title.getClientRects().length) return
+        if (mobile || !title.getClientRects().length) return
         const width = textWidth(title)
         const size = parseFloat(getComputedStyle(title).fontSize)
         if (width) titleSize = Math.min(titleSize, size * (title.clientWidth - 2) / width)
@@ -378,7 +374,8 @@ export default {
         if (!row.getClientRects().length) return
         const style = getComputedStyle(row)
         const available = row.clientWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight) - 2
-        let fixed = 0
+        const gap = parseFloat(style.columnGap) || 0
+        let fixed = gap * Math.max(0, row.querySelectorAll('.pillshome').length - 1)
         let text = 0
         let size = pillSize
         row.querySelectorAll('.pillshome').forEach((pill) => {

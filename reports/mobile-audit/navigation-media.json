@@ -1,0 +1,402 @@
+[
+  {
+    "route": "acm-partner-visibility",
+    "width": 320,
+    "card": 288,
+    "image": 288,
+    "background": 288,
+    "topOffset": 0,
+    "height": 210,
+    "cardHeight": 210
+  },
+  {
+    "route": "acmilan",
+    "width": 320,
+    "card": 288,
+    "image": 288,
+    "background": 288,
+    "topOffset": 0,
+    "height": 210,
+    "cardHeight": 210
+  },
+  {
+    "route": "acmilan3",
+    "width": 320,
+    "card": 288,
+    "image": 288,
+    "background": 288,
+    "topOffset": 0,
+    "height": 210,
+    "cardHeight": 210
+  },
+  {
+    "route": "audiovisualidentity",
+    "width": 320,
+    "card": 288,
+    "image": 288,
+    "background": 288,
+    "topOffset": 0,
+    "height": 210,
+    "cardHeight": 210
+  },
+  {
+    "route": "bottleneck",
+    "width": 320,
+    "card": 288,
+    "image": 288,
+    "background": 288,
+    "topOffset": 0,
+    "height": 210,
+    "cardHeight": 210
+  },
+  {
+    "route": "carachioggia",
+    "width": 320,
+    "card": 288,
+    "image": 288,
+    "background": 288,
+    "topOffset": 0,
+    "height": 210,
+    "cardHeight": 210
+  },
+  {
+    "route": "disruptive",
+    "width": 320,
+    "card": 288,
+    "image": 288,
+    "background": 288,
+    "topOffset": 0,
+    "height": 210,
+    "cardHeight": 210
+  },
+  {
+    "route": "previewpretest",
+    "width": 320,
+    "card": 288,
+    "image": 288,
+    "background": 288,
+    "topOffset": 0,
+    "height": 210,
+    "cardHeight": 210
+  },
+  {
+    "route": "referto",
+    "width": 320,
+    "card": 288,
+    "image": 288,
+    "background": 288,
+    "topOffset": 0,
+    "height": 210,
+    "cardHeight": 210
+  },
+  {
+    "route": "sourdata",
+    "width": 320,
+    "card": 288,
+    "image": 288,
+    "background": 288,
+    "topOffset": 0,
+    "height": 210,
+    "cardHeight": 210
+  },
+  {
+    "route": "acm-partner-visibility",
+    "width": 390,
+    "card": 354.90625,
+    "image": 354.90625,
+    "background": 354.90625,
+    "topOffset": 0,
+    "height": 210,
+    "cardHeight": 210
+  },
+  {
+    "route": "acmilan",
+    "width": 390,
+    "card": 354.90625,
+    "image": 354.90625,
+    "background": 354.90625,
+    "topOffset": 0,
+    "height": 210,
+    "cardHeight": 210
+  },
+  {
+    "route": "acmilan3",
+    "width": 390,
+    "card": 354.90625,
+    "image": 354.90625,
+    "background": 354.90625,
+    "topOffset": 0,
+    "height": 210,
+    "cardHeight": 210
+  },
+  {
+    "route": "audiovisualidentity",
+    "width": 390,
+    "card": 354.90625,
+    "image": 354.90625,
+    "background": 354.90625,
+    "topOffset": 0,
+    "height": 210,
+    "cardHeight": 210
+  },
+  {
+    "route": "bottleneck",
+    "width": 390,
+    "card": 354.90625,
+    "image": 354.90625,
+    "background": 354.90625,
+    "topOffset": 0,
+    "height": 210,
+    "cardHeight": 210
+  },
+  {
+    "route": "carachioggia",
+    "width": 390,
+    "card": 354.90625,
+    "image": 354.90625,
+    "background": 354.90625,
+    "topOffset": 0,
+    "height": 210,
+    "cardHeight": 210
+  },
+  {
+    "route": "disruptive",
+    "width": 390,
+    "card": 354.90625,
+    "image": 354.90625,
+    "background": 354.90625,
+    "topOffset": 0,
+    "height": 210,
+    "cardHeight": 210
+  },
+  {
+    "route": "previewpretest",
+    "width": 390,
+    "card": 354.90625,
+    "image": 354.90625,
+    "background": 354.90625,
+    "topOffset": 0,
+    "height": 210,
+    "cardHeight": 210
+  },
+  {
+    "route": "referto",
+    "width": 390,
+    "card": 354.90625,
+    "image": 354.90625,
+    "background": 354.90625,
+    "topOffset": 0,
+    "height": 210,
+    "cardHeight": 210
+  },
+  {
+    "route": "sourdata",
+    "width": 390,
+    "card": 354.90625,
+    "image": 354.90625,
+    "background": 354.90625,
+    "topOffset": 0,
+    "height": 210,
+    "cardHeight": 210
+  },
+  {
+    "route": "acm-partner-visibility",
+    "width": 768,
+    "card": 660,
+    "image": 100.16357421875,
+    "background": 696.89990234375,
+    "topOffset": 0,
+    "height": 171.7001953125,
+    "cardHeight": 170
+  },
+  {
+    "route": "acmilan",
+    "width": 768,
+    "card": 660,
+    "image": 558.0250244140625,
+    "background": 696.89990234375,
+    "topOffset": 0,
+    "height": 171.699951171875,
+    "cardHeight": 170
+  },
+  {
+    "route": "acmilan3",
+    "width": 768,
+    "card": 660,
+    "image": 558.0250244140625,
+    "background": 696.89990234375,
+    "topOffset": 0,
+    "height": 171.7001953125,
+    "cardHeight": 170
+  },
+  {
+    "route": "audiovisualidentity",
+    "width": 768,
+    "card": 660,
+    "image": 558.0250244140625,
+    "background": 696.89990234375,
+    "topOffset": 0,
+    "height": 171.7001953125,
+    "cardHeight": 170
+  },
+  {
+    "route": "bottleneck",
+    "width": 768,
+    "card": 660,
+    "image": 558.0250244140625,
+    "background": 696.89990234375,
+    "topOffset": 0,
+    "height": 171.7001953125,
+    "cardHeight": 170
+  },
+  {
+    "route": "carachioggia",
+    "width": 768,
+    "card": 660,
+    "image": 558.0250244140625,
+    "background": 696.89990234375,
+    "topOffset": 0,
+    "height": 171.7001953125,
+    "cardHeight": 170
+  },
+  {
+    "route": "disruptive",
+    "width": 768,
+    "card": 660,
+    "image": 558.0250244140625,
+    "background": 696.89990234375,
+    "topOffset": 0,
+    "height": 171.7001953125,
+    "cardHeight": 170
+  },
+  {
+    "route": "previewpretest",
+    "width": 768,
+    "card": 660,
+    "image": 558.0250244140625,
+    "background": 696.89990234375,
+    "topOffset": 0,
+    "height": 171.7001953125,
+    "cardHeight": 170
+  },
+  {
+    "route": "referto",
+    "width": 768,
+    "card": 660,
+    "image": 558.0250244140625,
+    "background": 696.89990234375,
+    "topOffset": 0,
+    "height": 171.7001953125,
+    "cardHeight": 170
+  },
+  {
+    "route": "sourdata",
+    "width": 768,
+    "card": 660,
+    "image": 100.02157592773438,
+    "background": 696.89990234375,
+    "topOffset": 0,
+    "height": 171.7001953125,
+    "cardHeight": 170
+  },
+  {
+    "route": "acm-partner-visibility",
+    "width": 1440,
+    "card": 648,
+    "image": 117.83856201171875,
+    "background": 684.780029296875,
+    "topOffset": 0,
+    "height": 202,
+    "cardHeight": 200
+  },
+  {
+    "route": "acmilan",
+    "width": 1440,
+    "card": 648,
+    "image": 656.5,
+    "background": 684.780029296875,
+    "topOffset": 0,
+    "height": 202,
+    "cardHeight": 200
+  },
+  {
+    "route": "acmilan3",
+    "width": 1440,
+    "card": 648,
+    "image": 656.5,
+    "background": 684.780029296875,
+    "topOffset": 0,
+    "height": 202,
+    "cardHeight": 200
+  },
+  {
+    "route": "audiovisualidentity",
+    "width": 1440,
+    "card": 648,
+    "image": 656.5,
+    "background": 684.780029296875,
+    "topOffset": 0,
+    "height": 202,
+    "cardHeight": 200
+  },
+  {
+    "route": "bottleneck",
+    "width": 1440,
+    "card": 648,
+    "image": 656.5,
+    "background": 684.780029296875,
+    "topOffset": 0,
+    "height": 202,
+    "cardHeight": 200
+  },
+  {
+    "route": "carachioggia",
+    "width": 1440,
+    "card": 648,
+    "image": 656.5,
+    "background": 684.780029296875,
+    "topOffset": 0,
+    "height": 202,
+    "cardHeight": 200
+  },
+  {
+    "route": "disruptive",
+    "width": 1440,
+    "card": 648,
+    "image": 656.5,
+    "background": 684.780029296875,
+    "topOffset": 0,
+    "height": 202,
+    "cardHeight": 200
+  },
+  {
+    "route": "previewpretest",
+    "width": 1440,
+    "card": 648,
+    "image": 656.5,
+    "background": 684.780029296875,
+    "topOffset": 0,
+    "height": 202,
+    "cardHeight": 200
+  },
+  {
+    "route": "referto",
+    "width": 1440,
+    "card": 648,
+    "image": 656.5,
+    "background": 684.780029296875,
+    "topOffset": 0,
+    "height": 202,
+    "cardHeight": 200
+  },
+  {
+    "route": "sourdata",
+    "width": 1440,
+    "card": 648,
+    "image": 117.6807861328125,
+    "background": 684.780029296875,
+    "topOffset": 0,
+    "height": 202,
+    "cardHeight": 200
+  }
+]

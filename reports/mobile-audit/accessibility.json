@@ -1,0 +1,414 @@
+[
+  {
+    "route": "about",
+    "violations": []
+  },
+  {
+    "route": "acm-partner-visibility",
+    "violations": []
+  },
+  {
+    "route": "acmilan",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"about\"] > .m-0"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.48 (foreground color: #e0071b, background color: #f6f2f2, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".m-3 > .text-decoration-none"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.48 (foreground color: #e0071b, background color: #f6f2f2, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".col-md-7 > h4[aria-level=\"2\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.48 (foreground color: #e0071b, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".mt-md-0[aria-level=\"2\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.48 (foreground color: #e0071b, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".ml-2"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.48 (foreground color: #e0071b, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "acmilan3",
+    "violations": []
+  },
+  {
+    "route": "audiovisualidentity",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"about\"] > .m-0"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.22 (foreground color: #00affa, background color: #f6f2f2, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "h1"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.22 (foreground color: #00affa, background color: #f6f2f2, font size: 23.4pt (31.2px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              ".pillsmob.my-2.mr-1:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.46 (foreground color: #ffffff, background color: #00affa, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".pillsmob.my-2.mr-1:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.46 (foreground color: #ffffff, background color: #00affa, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".pillsmob.my-2.mr-1:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.46 (foreground color: #ffffff, background color: #00affa, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".col-md-7 > h4[aria-level=\"2\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.22 (foreground color: #00affa, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".mt-md-0.mt-4[aria-level=\"2\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.22 (foreground color: #00affa, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".mt-4[aria-level=\"2\"]:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.22 (foreground color: #00affa, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".mt-4[aria-level=\"2\"]:nth-child(5)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.22 (foreground color: #00affa, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".ml-2"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.22 (foreground color: #00affa, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".col-md-12.py-2.py-md-3:nth-child(2) > .testiproject.my-4[data-v-abf91df8=\"\"] > h4[aria-level=\"2\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.22 (foreground color: #00affa, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".col-md-12.py-2.py-md-3:nth-child(9) > .testiproject.my-4[data-v-abf91df8=\"\"] > h4[aria-level=\"2\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.22 (foreground color: #00affa, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".col-md-12.py-2.py-md-3:nth-child(16) > .testiproject.my-4[data-v-abf91df8=\"\"] > h4[aria-level=\"2\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.22 (foreground color: #00affa, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "bottleneck",
+    "violations": []
+  },
+  {
+    "route": "carachioggia",
+    "violations": []
+  },
+  {
+    "route": "disruptive",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"about\"] > .m-0"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.33 (foreground color: #3c83ed, background color: #f6f2f2, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".pillsmob.my-2.mr-1:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.7 (foreground color: #ffffff, background color: #3c83ed, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".pillsmob.my-2.mr-1:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.7 (foreground color: #ffffff, background color: #3c83ed, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".pillsmob.my-2.mr-1:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.7 (foreground color: #ffffff, background color: #3c83ed, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".col-md-7.col-12[data-v-ca4f98e0=\"\"] > h4[aria-level=\"2\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.33 (foreground color: #3c83ed, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".mt-md-0.mt-4[aria-level=\"2\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.33 (foreground color: #3c83ed, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".mt-4[aria-level=\"2\"]:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.33 (foreground color: #3c83ed, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".mt-4[aria-level=\"2\"]:nth-child(5)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.33 (foreground color: #3c83ed, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".ml-2"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.33 (foreground color: #3c83ed, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".col-md-12.py-2.py-md-3:nth-child(6) > .testiproject.my-4[data-v-abf91df8=\"\"] > h4[aria-level=\"2\"][data-v-abf91df8=\"\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.33 (foreground color: #3c83ed, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".col-md-12.py-2.py-md-3:nth-child(9) > .testiproject.my-4[data-v-abf91df8=\"\"] > h4[aria-level=\"2\"][data-v-abf91df8=\"\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.33 (foreground color: #3c83ed, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/",
+    "violations": []
+  },
+  {
+    "route": "previewpretest",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"about\"] > .m-0"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.77 (foreground color: #33d09d, background color: #f6f2f2, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "h1"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.77 (foreground color: #33d09d, background color: #f6f2f2, font size: 23.4pt (31.2px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              ".pillsmob.my-2.mr-1:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.97 (foreground color: #ffffff, background color: #33d09d, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".pillsmob.my-2.mr-1:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.97 (foreground color: #ffffff, background color: #33d09d, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".pillsmob.my-2.mr-1:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.97 (foreground color: #ffffff, background color: #33d09d, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".col-md-7.col-12[data-v-ca4f98e0=\"\"] > h4[aria-level=\"2\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.77 (foreground color: #33d09d, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".mt-md-0.mt-4[aria-level=\"2\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.77 (foreground color: #33d09d, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".mt-4[aria-level=\"2\"]:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.77 (foreground color: #33d09d, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".mt-4[aria-level=\"2\"]:nth-child(5)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.77 (foreground color: #33d09d, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".ml-2"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.77 (foreground color: #33d09d, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".col-md-12.py-2.py-md-3:nth-child(3) > .testiproject.my-4[data-v-abf91df8=\"\"] > h4[aria-level=\"2\"][data-v-abf91df8=\"\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.77 (foreground color: #33d09d, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".col-md-12.py-2.py-md-3:nth-child(7) > .testiproject.my-4[data-v-abf91df8=\"\"] > h4[aria-level=\"2\"][data-v-abf91df8=\"\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.77 (foreground color: #33d09d, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "referto",
+    "violations": []
+  },
+  {
+    "route": "sourdata",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"about\"] > .m-0"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #ff5880, background color: #f6f2f2, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "h1"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #ff5880, background color: #f6f2f2, font size: 23.4pt (31.2px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "target": [
+              ".pillsmob.my-2.mr-1:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.01 (foreground color: #ffffff, background color: #ff5880, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".pillsmob.my-2.mr-1:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.01 (foreground color: #ffffff, background color: #ff5880, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".pillsmob.my-2.mr-1:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.01 (foreground color: #ffffff, background color: #ff5880, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".col-md-7 > h4[aria-level=\"2\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #ff5880, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".mt-md-0.mt-4[aria-level=\"2\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #ff5880, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".mt-4[aria-level=\"2\"]:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #ff5880, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".mt-4[aria-level=\"2\"]:nth-child(5)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #ff5880, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".ml-2"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #ff5880, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".col-md-12.py-2.py-md-3:nth-child(4) > .testiproject.my-4[data-v-abf91df8=\"\"] > h4[aria-level=\"2\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #ff5880, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".col-md-12.py-2.py-md-3:nth-child(8) > .testiproject.my-4[data-v-abf91df8=\"\"] > h4[aria-level=\"2\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #ff5880, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".col-md-12.py-2.py-md-3:nth-child(16) > .testiproject.my-4[data-v-abf91df8=\"\"] > h4[aria-level=\"2\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.71 (foreground color: #ff5880, background color: #f6f2f2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  }
+]

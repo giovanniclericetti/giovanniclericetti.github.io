@@ -1,16 +1,16 @@
 <template>
 
 
-  <div class="container-fluid header p-0 mb-3">
+  <nav aria-label="Main navigation" class="container-fluid header p-0 mb-3">
 
     <ProjectScrollProgress />
 
     <b-row class="p-0 m-0" align-h="between">
-      <b-col cols="auto" class="p-0">  <NuxtLink to="/"> <b-icon icon="arrow-left-circle-fill" style="width: 33px; height: 33px;"></b-icon> </NuxtLink> </b-col>
-      <b-col cols="auto" class="p-0 text-right" align-self="center"> <NuxtLink to="about" class=" hover-underline-animation" > <h5 class="m-0" > About Me </h5> </NuxtLink> </b-col>
+      <b-col cols="auto" class="p-0">  <NuxtLink to="/" aria-label="All projects"> <b-icon icon="arrow-left-circle-fill" style="width: 33px; height: 33px;"></b-icon> </NuxtLink> </b-col>
+      <b-col cols="auto" class="p-0 text-right" align-self="center"> <NuxtLink to="/about" class=" hover-underline-animation" > <h5 class="m-0" > About Me </h5> </NuxtLink> </b-col>
     </b-row>
 
-  </div>
+  </nav>
 
 
 </template>

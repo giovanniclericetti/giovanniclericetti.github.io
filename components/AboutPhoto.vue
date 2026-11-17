@@ -3,7 +3,7 @@
 
   <div class="aboutmephoto">
 
-    <PortfolioImage src="/images/aboutme/aboutme.png"  sizes="(min-width: 576px) 510px, calc(100vw - 30px)" />
+    <PortfolioImage alt="Giovanni Clericetti" loading="eager" fetchpriority="high" src="/images/mobile/portrait.webp" :width="1280" :height="1133"  sizes="(min-width: 576px) 510px, calc(100vw - 30px)" />
 
   </div>
 
@@ -13,17 +13,17 @@
     <b-row class="p-0 m-0 " >
 
       <b-col cols="3" class=" p-0">
-        <div class="socialboxsm mr-3 "> <a href="https://t.me/giovanniclericetti" target="_blank"> <img src="~static/images/aboutme/telegram.svg" /> </a> </div>
+        <div class="socialboxsm mr-3 "> <a href="https://t.me/giovanniclericetti" target="_blank"> <img alt="Telegram" src="~static/images/aboutme/telegram.svg" /> </a> </div>
       </b-col>
 
       <b-col cols="3" class=" p-0">
-        <div class="socialboxsm mr-3">  <a href="https://www.instagram.com/giovanniclericetti.png/" target="_blank"> <img src="~static/images/aboutme/instagram.svg" /> </a> </div>
+        <div class="socialboxsm mr-3">  <a href="https://www.instagram.com/giovanniclericetti.png/" target="_blank"> <img alt="Instagram" src="~static/images/aboutme/instagram.svg" /> </a> </div>
       </b-col>
 
 
 
       <b-col cols="" class=" p-0">
-        <div class="socialboxsm bg-white justify-content-center d-flex align-items-center" style="height: 100%"> <a style="width: 75%" href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank"> <img src="~static/images/aboutme/checklinkedin.svg"/> </a> </div>
+        <div class="socialboxsm bg-white justify-content-center d-flex align-items-center" style="height: 100%"> <a style="width: 75%" href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank"> <img alt="LinkedIn" src="~static/images/aboutme/checklinkedin.svg"/> </a> </div>
       </b-col>
 
     </b-row>
@@ -42,7 +42,7 @@
 
             <div class=" justify-content-center d-flex" style="height: 200%; width: 100%;">
 
-              <PortfolioImage ref="cvImage" style="height: 100%; width: auto;" src="/images/aboutme/cvbox.png"  sizes="203px" />
+              <PortfolioImage alt="" ref="cvImage" style="height: 100%; width: auto;" src="/images/aboutme/cvbox.png"  sizes="203px" />
 
             </div>
           </a>
@@ -50,7 +50,7 @@
       </b-col>
 
       <b-col cols="4" class="p-0" style="height: 130px;">
-        <div class="ml-3 d-flex justify-content-center align-items-center bg-white pt-2" style="text-align: center; height: 130px; overflow: hidden; border-radius: 20px;"> <a href="https://t.me/giovanniclericetti" target="_blank" > <img style="width: 85%" src="~static/images/aboutme/letswork.svg" /> </a> </div>
+        <div class="ml-3 d-flex justify-content-center align-items-center bg-white pt-2" style="text-align: center; height: 130px; overflow: hidden; border-radius: 20px;"> <a href="mailto:giovanni.clericetti@gmail.com" > <img style="width: 85%" alt="Mail me" src="~static/images/aboutme/letswork.svg" /> </a> </div>
       </b-col>
 
     </b-row>
@@ -105,6 +105,12 @@ export default {
   cursor: pointer;
   max-width: 100%;
 
+}
+
+
+@media (max-width: 767.98px) {
+  .aboutmephoto { height: auto; aspect-ratio: 1 / 1; }
+  .socialboxsm a { display: flex; align-items: center; justify-content: center; min-height: 48px; }
 }
 
 </style>

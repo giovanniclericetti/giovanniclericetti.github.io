@@ -29,4 +29,10 @@ export default {
 }
 
 
+
+@media (max-width: 991.98px) {
+  .d-flex { min-height: 48px; align-items: center; }
+  .b-icon { flex-shrink: 0; }
+}
+
 </style>

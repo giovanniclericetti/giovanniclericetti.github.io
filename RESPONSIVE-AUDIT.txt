@@ -1,3 +1,7 @@
+AGGIORNAMENTO — 16 novembre 2026
+Audit corrente con implementazione e test browser: reports/mobile-audit/README.txt
+Il contenuto seguente è il resoconto storico del 17 ottobre 2026.
+
 RESPONSIVE AUDIT — 17 ottobre 2026
 
 Stato: correzioni sul codice applicate; validazione visiva nel browser ancora da eseguire.

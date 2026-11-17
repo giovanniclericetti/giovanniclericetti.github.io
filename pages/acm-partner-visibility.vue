@@ -17,6 +17,10 @@
           <h4 aria-level="2" id="project-overview">Project Overview</h4>
           <p>{{ project.overview }}</p>
         </div>
+        <div class="gallery-row overview-gallery">
+          <div v-responsive-background="'/images/acm-partner-visibility/press-conference-partner-backdrop.jpg'" v-parallax data-parallax-image data-image-src="/images/acm-partner-visibility/press-conference-partner-backdrop.jpg" class="gallery-image" role="img" aria-label="AC Milan press conference with partner backdrop and branded desk" style="--image-ratio: 3 / 2"></div>
+          <div v-responsive-background="'/images/acm-partner-visibility/9cba1f1538066c0b.jpg'" v-parallax data-parallax-image data-image-src="/images/acm-partner-visibility/9cba1f1538066c0b.jpg" class="gallery-image" role="img" aria-label="Partner branding at the Milanello entrance" style="--image-ratio: 2285 / 1080"></div>
+        </div>
       </section>
       <section class="project-section" aria-labelledby="section-0">
         <div class="section-copy">
@@ -25,8 +29,8 @@
         </div>
         <div class="gallery-split venue-gallery">
           <div class="gallery-column">
-            <div v-responsive-background="'/images/acm-partner-visibility/9cba1f1538066c0b.jpg'" v-parallax data-parallax-image data-image-src="/images/acm-partner-visibility/9cba1f1538066c0b.jpg" class="gallery-image" role="img" aria-label="Partner branding at the Milanello entrance" style="--image-ratio: 2285 / 1080"></div>
-            <div v-responsive-background="'/images/acm-partner-visibility/5445b3632a86b159.jpg'" v-parallax data-parallax-image data-image-src="/images/acm-partner-visibility/5445b3632a86b159.jpg" class="gallery-image" role="img" aria-label="Partner visibility during training at Milanello" style="--image-ratio: 1761 / 1080"></div>
+            <div v-responsive-background="'/images/acm-partner-visibility/milanello-aerial-entrance.jpeg'" v-parallax data-parallax-image data-image-src="/images/acm-partner-visibility/milanello-aerial-entrance.jpeg" class="gallery-image" role="img" aria-label="Aerial view of the branded Milanello entrance and training facilities" style="--image-ratio: 2 / 1"></div>
+            <div v-responsive-background="'/images/acm-partner-visibility/5445b3632a86b159.jpg'" v-parallax data-parallax-image data-image-src="/images/acm-partner-visibility/5445b3632a86b159.jpg" class="gallery-image" role="img" aria-label="Partner visibility during training at Milanello" style="--image-ratio: 2.1"></div>
           </div>
           <div class="gallery-column">
             <div v-responsive-background="'/images/acm-partner-visibility/e9704d636e30733f.jpg'" v-parallax data-parallax-image data-image-src="/images/acm-partner-visibility/e9704d636e30733f.jpg" class="gallery-image" role="img" aria-label="Partner banners around the Milanello training pitch" style="--image-ratio: 1885 / 1080"></div>
@@ -209,6 +213,9 @@ export default {
     height: 100%;
     aspect-ratio: auto;
   }
+}
+.overview-gallery {
+  grid-template-columns: 3fr 4fr;
 }
 .venue-row {
   grid-template-columns: 4fr 3fr 3fr;

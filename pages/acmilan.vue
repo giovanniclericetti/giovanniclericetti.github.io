@@ -9,7 +9,7 @@
       <ProjectHeader/>
 
       <Project-Intro
-        title="ACM Commercial Decks"
+        title="AC Milan Commercial Decks"
         :subtitle="project.bio"
 
       :pill1="project.pill1" :pill2="project.pill2" :pill3="project.pill3" />
@@ -114,7 +114,7 @@ export default {
 </script>
 
 
-<style scoped>
+<style scoped lang="scss">
 .acmilan ::v-deep .project-pills {
   white-space: nowrap;
 }

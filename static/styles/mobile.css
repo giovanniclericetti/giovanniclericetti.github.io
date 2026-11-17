@@ -1,0 +1,183 @@
+/* Shared responsive rhythm. Bootstrap's existing content breakpoints are retained:
+   768px for paired project media, 992px for the desktop portfolio composition. */
+.portfolio-shell .skip-link {
+  position: fixed;
+  z-index: 10000;
+  top: 8px;
+  left: 16px;
+  padding: 12px 20px;
+  color: #222;
+  background: white;
+  border: 2px solid currentColor;
+  border-radius: 12px;
+  transform: translateY(-160%);
+}
+.portfolio-shell .skip-link:focus {
+  transform: none;
+}
+.portfolio-shell :focus-visible {
+  outline: 3px solid #222;
+  outline-offset: 4px;
+}
+.portfolio-shell main:focus {
+  outline: none;
+}
+@media (max-width: 991.98px) {
+  .portfolio-shell {
+    --mobile-gutter: clamp(16px, 4.5vw, 24px);
+  }
+  .portfolio-shell main .footer {
+    border-radius: 32px 32px 0 0;
+    padding-bottom: max(24px, env(safe-area-inset-bottom));
+  }
+  .portfolio-shell main .footer a {
+    min-width: 48px;
+    min-height: 48px;
+  }
+  .portfolio-shell main .copyright {
+    font-size: 14px;
+    line-height: 1.5;
+    opacity: 0.7;
+  }
+  .portfolio-shell .header a {
+    min-width: 48px;
+    min-height: 48px;
+  }
+  .portfolio-shell .project-intro .subtitle {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+  .portfolio-shell .project-intro {
+    margin-top: 24px;
+  }
+  .portfolio-shell .project-intro .project-pills {
+    margin-top: 12px;
+  }
+  .portfolio-shell .project-intro .badge {
+    margin-bottom: 8px !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .portfolio-shell .container {
+    padding-left: max(var(--mobile-gutter), env(safe-area-inset-left));
+    padding-right: max(var(--mobile-gutter), env(safe-area-inset-right));
+  }
+  .portfolio-shell p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .portfolio-shell h4 {
+    line-height: 1.3;
+  }
+  .portfolio-shell .index .homepage-intro {
+    padding-block: 40px 36px;
+  }
+  .portfolio-shell .index .titleindex,
+  .portfolio-shell .about .titleindex {
+    width: 100%;
+    font-size: clamp(20px, 5.2vw, 24px);
+    line-height: 1.4;
+    text-align: left;
+    text-wrap: pretty;
+  }
+  .portfolio-shell .titleindex .name {
+    font-size: 1.0625em;
+  }
+  .portfolio-shell .intro-line {
+    white-space: normal;
+  }
+  .portfolio-shell .about-sections {
+    gap: 36px;
+    margin-top: 40px;
+  }
+  .portfolio-shell .about .about-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .portfolio-shell .titoloprog {
+    width: 100%;
+    font-size: clamp(30px, 8vw, 40px);
+    line-height: 1.12;
+    margin-bottom: 14px;
+    padding: 0;
+    overflow-wrap: normal;
+  }
+  .portfolio-shell .project-intro .subtitle {
+    width: 100%;
+    max-width: 100%;
+    font-size: 18px;
+    line-height: 1.45;
+    text-wrap: pretty;
+  }
+  .portfolio-shell .project-intro .pillsmob {
+    font-size: 13px;
+  }
+  .portfolio-shell .cover-mobile {
+    height: auto;
+    max-height: none;
+  }
+  .portfolio-shell .cover-mobile img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .portfolio-shell .imgbox .imgproject {
+    display: block;
+    height: auto !important;
+    aspect-ratio: var(--media-ratio, 3 / 2);
+    background-size: contain !important;
+    background-position: center !important;
+    transform: none;
+    min-height: 0;
+  }
+  .portfolio-shell .projectbox {
+    max-height: none;
+  }
+  .portfolio-shell .ref-video {
+    height: auto;
+  }
+  .portfolio-shell .testiproject {
+    width: 100%;
+    margin-block: 24px !important;
+  }
+  .portfolio-shell .section-copy {
+    padding-block: 32px;
+  }
+  .portfolio-shell .section-copy h4 {
+    margin-bottom: 12px;
+  }
+  .portfolio-shell .image-credits {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .portfolio-shell .subtitlecv {
+    font-size: 15px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .portfolio-shell *,
+  .portfolio-shell *::before,
+  .portfolio-shell *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+/* Preserve the original h3 spacing on desktop after the semantic paragraph fix. */
+@media (min-width: 992px) {
+  .project-intro > .subtitle {
+    margin-bottom: 8px;
+  }
+}
+@media (max-width: 991.98px) {
+  /* Use the existing neutral for secondary copy; the original 50% black failed AA. */
+  .portfolio-shell .about .subtitlecv,
+  .portfolio-shell .about h6:not(.gradient) {
+    color: #666;
+  }
+  .portfolio-shell .project-next .next-project-title h4 {
+    color: #222 !important;
+  }
+}

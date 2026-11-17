@@ -1,5 +1,13 @@
 [
   {
+    "src": "/images/acm-partner-visibility/milanello-aerial-entrance.jpeg",
+    "bytes": 30996234,
+    "width": 7490,
+    "height": 5593,
+    "format": "jpeg",
+    "sha256": "defcdef5153943dee93a4007ca2b2556b83224abd682c0cabeef8ecb07a77870"
+  },
+  {
     "src": "/images/acm-events-matchday/2265568254 1.png",
     "bytes": 15182249,
     "width": 4096,
@@ -14,6 +22,14 @@
     "height": 2416,
     "format": "png",
     "sha256": "2f75f15c31af247360f2b49608abd0505c95364da3ccb8dc19cac73fcc49e579"
+  },
+  {
+    "src": "/images/acm-partner-visibility/press-conference-partner-backdrop.jpg",
+    "bytes": 9518301,
+    "width": 5746,
+    "height": 3830,
+    "format": "jpeg",
+    "sha256": "d0433dfcab17b4b457b255bc6873f07d92f8585f566cdea02eeddf9c362a1639"
   },
   {
     "src": "/images/acm-events-matchday/SA1_7651_GXEBjTuv_20261101123550 3.png",
@@ -688,6 +704,14 @@
     "sha256": "2e1d2ed125b897c35ea97150c7ff49c98c5528920fd80e93d973d937c1726608"
   },
   {
+    "src": "/images/mobile/portrait.webp",
+    "bytes": 265470,
+    "width": 1280,
+    "height": 1133,
+    "format": "webp",
+    "sha256": "bf4329519e597d7ac471ceeb98556817dea27252186d33f2c0c0f97378e84ba7"
+  },
+  {
     "src": "/images/avi/avi8.jpg",
     "bytes": 265183,
     "width": 4026,
@@ -912,6 +936,14 @@
     "sha256": "4d66bcc02efe7c83006c199e89f49a408b2d115a6df82fdd5c3c39ec7cddcb40"
   },
   {
+    "src": "/images/mobile/events-cover.webp",
+    "bytes": 178146,
+    "width": 1280,
+    "height": 853,
+    "format": "webp",
+    "sha256": "5858bca6f019e4c89fbc3007b2d31327b00ba3b261d656b355b7ee8ab72ea15a"
+  },
+  {
     "src": "/images/avi/avi10.jpg",
     "bytes": 176862,
     "width": 2114,
@@ -1046,6 +1078,14 @@
     "height": 200,
     "format": "png",
     "sha256": "7e1261e292569914b0157caed546aa3c921c639354f6c9890214d7e50c7433af"
+  },
+  {
+    "src": "/images/mobile/events-card.webp",
+    "bytes": 135436,
+    "width": 647,
+    "height": 1109,
+    "format": "webp",
+    "sha256": "e7160dc0a59130389cbc60b4d79df89e1dfd89b2508492548a73b0e5e2427f8a"
   },
   {
     "src": "/images/covers/cards/preview-card.jpg",
@@ -1336,6 +1376,14 @@
     "sha256": "e179ecdc5f1c153fb16f2afd73e063333e49fa23421178d299b693b96bea041e"
   },
   {
+    "src": "/images/video-posters/feature1.jpg",
+    "bytes": 70177,
+    "width": 960,
+    "height": 620,
+    "format": "jpeg",
+    "sha256": "e9f1038217bc05c1cb6836d757c9eff64044e2c5da1ab8d97fc5f6a31851afe8"
+  },
+  {
     "src": "/images/disruptive/disruptive6.jpg",
     "bytes": 66892,
     "width": 2478,
@@ -1374,6 +1422,14 @@
     "height": 500,
     "format": "jpeg",
     "sha256": "22cdf581906f0f9ec669108d868216ff83d3f50241c9b155252a6411f4212b2e"
+  },
+  {
+    "src": "/images/video-posters/designsystem.jpg",
+    "bytes": 57893,
+    "width": 960,
+    "height": 464,
+    "format": "jpeg",
+    "sha256": "c7144dc9233f2132951be0ed1db83d7ff87fae5cd94720c077124d13750739d1"
   },
   {
     "src": "/images/referto/referto5.jpg",
@@ -1446,6 +1502,30 @@
     "height": 1306,
     "format": "jpeg",
     "sha256": "9924705a43911d9b91ea9cd26ef5316a5a6a868ef1acd744c5809f61c01f88dc"
+  },
+  {
+    "src": "/images/video-posters/referto_gif.jpg",
+    "bytes": 44415,
+    "width": 960,
+    "height": 702,
+    "format": "jpeg",
+    "sha256": "7bc41011580651efab5ca742db296faeeced5636f258e28674b7218f12dc58f3"
+  },
+  {
+    "src": "/images/video-posters/feature2.jpg",
+    "bytes": 42237,
+    "width": 960,
+    "height": 620,
+    "format": "jpeg",
+    "sha256": "46079d71d9d867cc03b516e58d2e6311a23a8cfb97db7ae712e8798602a006e4"
+  },
+  {
+    "src": "/images/video-posters/feature3.jpg",
+    "bytes": 42179,
+    "width": 960,
+    "height": 620,
+    "format": "jpeg",
+    "sha256": "3f48eec1c4bdb228842baa860898fd5de6090938749ea44bd162b4f342489531"
   },
   {
     "src": "/images/covers/sm/sourdata_sm.jpg",
@@ -1734,6 +1814,14 @@
     "height": 143,
     "format": "svg",
     "sha256": "48d831433faeb440158b0baa7b4763a5614d52c23f8cadef557f8ad8e0922cfd"
+  },
+  {
+    "src": "/images/aboutme/mail-icon.svg",
+    "bytes": 713,
+    "width": 71,
+    "height": 55,
+    "format": "svg",
+    "sha256": "4584011da4dddb8e2ae8780290d819b9cf0b274a67ae0961681d21d3ede042c4"
   },
   {
     "src": "/icons/telegram.svg",

@@ -12,7 +12,7 @@ export default {
     },
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' },
       { hid: 'description', name: 'description', content: portfolioDescription },
       { name: 'format-detection', content: 'telephone=no' },
       { hid: 'robots', name: 'robots', content: 'noimageindex, max-image-preview:none' },
@@ -53,7 +53,14 @@ export default {
   },
 
   bootstrapVue: {
-    icons: true
+    // Register only the components and icons actually used by this portfolio.
+    components: [
+      'BRow', 'BCol', 'BBadge', 'BCard', 'BCardBody', 'BCardHeader',
+      'BCollapse', 'BEmbed', 'BIcon', 'BIconChevronDown', 'BIconChevronUp',
+      'BIconArrowLeftCircleFill', 'BIconArrowUpRightCircleFill',
+      'BIconArrowDownRightCircleFill',
+    ],
+    directives: ['VBToggle'],
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},

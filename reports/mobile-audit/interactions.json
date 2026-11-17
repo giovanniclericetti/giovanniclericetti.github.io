@@ -1,0 +1,20 @@
+[
+  "10 unique visible mobile projects",
+  "touch card opens project",
+  "project to About",
+  "all six accordion panels: touch + Space + aria-expanded",
+  "all expertise available on phone",
+  "touch video: initially paused, controls/inline, plays, pauses offscreen",
+  "reduced-motion: no automatic video",
+  "next project card destination",
+  {
+    "backRestoresScroll": true,
+    "scrollBefore": 1860,
+    "scrollAfter": 1860
+  },
+  "keyboard skip link reaches main",
+  "orientation resize preserves layout",
+  {
+    "reducedMotionTransition": "0s"
+  }
+]

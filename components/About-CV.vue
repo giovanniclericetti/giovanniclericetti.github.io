@@ -27,7 +27,7 @@
           </template>
         </AboutCvElement>
 
-        <AboutCvElement category="Digital Display Management" class="software-tools-entry">
+        <AboutCvElement category="Digital Signage &amp; Live Production" class="software-tools-entry">
           <template #slotcvelement>
             <p>FluidNEXT, MagicINFO</p>
           </template>

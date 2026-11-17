@@ -1,9 +1,9 @@
 <template>
 
-  <div>
+  <div class="project-intro">
 
     <h1 class="titoloprog"> {{ title }} </h1>
-    <h3 role="paragraph" class="subtitle"> {{ subtitle }}</h3>
+    <p class="subtitle"> {{ subtitle }}</p>
 
     <div class="project-pills d-md-block d-none">
       <b-badge pill class="pills mx-0 mr-2 p-2 px-3"> {{ pill1 }}</b-badge>
@@ -72,6 +72,14 @@ export default {
   }
 }
 
+
+
+/* Keep the previous desktop h3 typography after correcting semantics. */
+.project-intro > .subtitle { font-size: 24px; font-weight: 400; }
+@media (max-width: 991.98px) {
+  .project-intro .project-pills { white-space: normal; overflow: visible; }
+  .project-intro .badge { max-width: 100%; white-space: normal; line-height: 1.25; }
+}
 
 </style>
 

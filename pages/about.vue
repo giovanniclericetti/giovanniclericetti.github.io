@@ -23,7 +23,7 @@
 
     <About-Box class="d-lg-block d-none" />
 
-    <section class="about-expertise d-none d-md-block" aria-label="Areas of Expertise">
+    <section class="about-expertise" aria-label="Areas of Expertise">
       <div class="expertise-columns">
         <div class="expertise-column">
           <div class="expertise-panel">
@@ -130,12 +130,18 @@
 }
 
 .expertise-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.4em;
+  flex-shrink: 0;
   font-size: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .expertise-divider {
+  flex-shrink: 0;
   width: 100%;
   height: 2px;
   margin: 0 0 20px;
@@ -149,6 +155,8 @@
 }
 
 .expertise-panel {
+  display: flex;
+  flex-direction: column;
   height: 100%;
   padding: 8px;
   background: transparent;
@@ -159,21 +167,31 @@
   display: block;
   width: 100%;
   height: 2px;
-  margin-bottom: 14px;
+  position: absolute;
+  top: 0;
+  left: 0;
   background: #DADADA;
 }
 
 .expertise-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 14px;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  flex: 1;
+  gap: 0;
   margin: 0;
   padding: 0;
   list-style: none;
   font-family: 'DM Sans', sans-serif;
   font-size: 16px;
   line-height: 1.4;
+}
+
+.expertise-list li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 0;
 }
 
 @media (min-width: 992px) {
@@ -288,18 +306,30 @@
 
 @media (max-width: 767.98px) {
   .about .name {
-    font-size: 21px;
+    font-size: 1.0625em;
   }
 
   .about .titleindex {
     text-align: left;
     margin-left: 0;
     margin-right: auto;
-    width: 90%;
-    font-size: 19px;
-    line-height: 1.3;
+    width: 100%;
+    font-size: clamp(20px, 5.2vw, 24px);
+    line-height: 1.4;
   }
 }
+@media (max-width: 767.98px) {
+  .about-expertise { margin-top: 0; text-align: left; }
+  .expertise-columns { gap: 12px; }
+  .expertise-column { padding: 20px; border-radius: 20px; }
+  .expertise-panel { padding: 0; }
+  .expertise-heading { min-height: 0; justify-content: flex-start; margin-left: 0; font-size: 20px; }
+  .expertise-divider { margin-bottom: 12px; }
+  .expertise-list { display: block; font-size: 15px; }
+  .expertise-list li { justify-content: flex-start; padding: 6px 0; }
+  .expertise-list li + li::before { display: none; }
+}
+
 </style>
 
 <style>
@@ -322,4 +352,5 @@
     transition: none;
   }
 }
+
 </style>

@@ -4,11 +4,15 @@
 
 <div class="container mt-4 index">
 
-  <IndexHeader></IndexHeader>
+  <IndexHeader class="homepage-header"></IndexHeader>
 
-  <div class="mt-5 py-lg-5 py-2">
+  <div class="homepage-intro">
 
-    <h1 class="titleindex">Hey! I'm Giovanni, a <span class="name gradient">Visual Designer</span> working in the sports industry. I'm currently part of <a class="hover-a-underline-animation" href="https://www.acmilan.com/">AC Milan</a>, focusing on brand design and commercial communication.</h1>
+    <h1 class="titleindex">
+      <span class="intro-line">Hey! I'm Giovanni, a <span class="name gradient">Visual Designer</span> working in the</span>
+      <span class="intro-line">sports industry. I currently work with <a class="hover-a-underline-animation" href="https://www.acmilan.com/">AC Milan</a>, focusing</span>
+      <span class="intro-line">on brand communication and commercial partnerships.</span>
+    </h1>
 
   </div>
 
@@ -42,6 +46,19 @@ export default {
   line-height: 140%
 }
 
+
+.index .homepage-header {
+  margin-bottom: 0 !important;
+}
+
+.index .homepage-intro {
+  padding-block: 48px;
+}
+
+.index .homepage-intro .titleindex {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 .index .titleindex {
   text-align: center;
@@ -84,8 +101,18 @@ a:hover {
 
 
 @media (min-width: 992px) {
+  .index .homepage-intro {
+    padding-block: 96px;
+  }
+
   .index .titleindex {
-    width: 75%;
+    width: 100%;
+    font-size: clamp(20px, 2.25vw, 32px);
+  }
+
+  .index .intro-line {
+    display: block;
+    white-space: nowrap;
   }
 }
 
@@ -113,6 +140,10 @@ a:hover {
 }
 
 @media (max-width: 767.98px) {
+  .index .homepage-intro {
+    padding-block: 48px;
+  }
+
   .index .name {
     font-size: 21px;
   }

@@ -1,11 +1,13 @@
 <template>
-  <div>
-    <Nuxt ref="page"/>
+  <div class="portfolio-shell">
+    <a href="#main-content" class="skip-link">Skip to content</a>
+    <main id="main-content" tabindex="-1"><Nuxt ref="page"/></main>
     <PortfolioCursor />
   </div>
 </template>
 
 <script>
+import titleFont from '~/static/font/title-regular.otf'
 import { portfolioSeo } from '~/utils/portfolio-seo'
 import { imagePreloads, imageFallback } from '~/utils/image-head'
 export default {
@@ -17,7 +19,8 @@ export default {
       __dangerouslyDisableSanitizersByTagID: { 'image-fallback': ['innerHTML'] },
       link: [
         ...imagePreloads(this.$route.path),
-        {href: 'https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap', rel: 'stylesheet'}
+        { rel: 'preload', as: 'font', type: 'font/otf', href: titleFont, crossorigin: 'anonymous' },
+        { rel: 'preload', as: 'font', type: 'font/woff2', href: '/font/dm-sans-regular.woff2', crossorigin: 'anonymous' }
       ]
     }
   }
@@ -272,11 +275,13 @@ p2 {
 
 @font-face {
   font-family: "title-bold";
+  font-display: swap;
   src: local("title-bold"), url(./static/font/title-bold.otf) format("opentype");
 }
 
 @font-face {
   font-family: "title-regular";
+  font-display: swap;
   src: local("title-regular"), url(./static/font/title-regular.otf) format("opentype");
 }
 
@@ -285,7 +290,7 @@ p2 {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/dmsans/v11/rP2Hp2ywxg089UriCZOIHTWEBlw.woff2) format('woff2');
+  src: url(/font/dm-sans-regular.woff2) format('woff2');
 }
 
 @media (max-width: 768px) {
@@ -386,3 +391,5 @@ height: 300px;
 }
 
 </style>
+
+<style src="~/static/styles/mobile.css"></style>

@@ -1,6 +1,6 @@
 <template>
 
-  <div class="container-fluid my-5 py-5">
+  <div class="container-fluid project-next my-5 py-5">
 
     <div class="d-flex justify-content-center mx-0">
 
@@ -9,7 +9,7 @@
       <div cols="12" md="10" class="">
         <p1 style=""> Go to Next Project {{ bio }} </p1>
       </div>
-      <div cols="12" md="10" class="d-none d-md-block"><h4 style="color: var(--color-primary);">  {{ nextproject }} </h4></div>
+      <div cols="12" md="10" class="next-project-title"><h4 style="color: var(--color-primary);">  {{ nextproject }} </h4></div>
     </div>
     </div>
 
@@ -85,7 +85,7 @@ export default {
 
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 
 .next-project-pills {
   white-space: nowrap;
@@ -151,5 +151,21 @@ export default {
 }
 
 
+
+
+@media (max-width: 767.98px) {
+  .project-next { padding: 0 !important; margin-block: 56px !important; }
+  .next-project-title { margin: 8px 0 16px; }
+  .next-project-title h4 { font-size: 18px; line-height: 1.3; }
+  .nextcard { height: 210px; }
+  .nextcard > .row:not(.card-background) { padding-top: 60px !important; margin-bottom: 0 !important; padding-bottom: 16px !important; background: linear-gradient(transparent, rgba(0,0,0,.78)); }
+  .nextcard p2 { font-size: 14px; line-height: 1.45 !important; opacity: 1 !important; }
+  .nextcard .card-background { transform: none; margin: 0; }
+  .nextcard .card-background img { width: 100%; height: 100%; object-fit: cover; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .nextcard, .nextcard .card-background { transition: none; }
+  .nextcard:hover .card-background { transform: none; }
+}
 
 </style>

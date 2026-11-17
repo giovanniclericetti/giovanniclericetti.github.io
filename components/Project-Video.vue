@@ -3,6 +3,7 @@
     <b-embed
       type="iframe"
       loading="lazy"
+      title="Project video"
       aspect="16by9"
       :src="video"
       allowfullscreen

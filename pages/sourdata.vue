@@ -11,13 +11,7 @@
         title="SourData"
         :subtitle="project.bio"
         pill4="Speculative"
-      style="
 
-.subtitle{
-  width: 90%;
-}
-
-"
 
 
 
@@ -26,16 +20,16 @@
 
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block ">
 
-        <img v-responsive-background="'/images/covers/hero/sourdata.jpg'" data-image-src="/images/covers/hero/sourdata.jpg" class="cover-parallax"
+        <img alt="" role="img" aria-label="SourData brand identity and speculative data collection devices" v-responsive-background="'/images/covers/hero/sourdata.jpg'" data-image-src="/images/covers/hero/sourdata.jpg" class="cover-parallax"
              data-parallax-image v-parallax>
       </div>
 
 
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
-        <PortfolioImage class=""
+        <PortfolioImage alt="SourData brand identity and speculative data collection devices" class=""
      src="/images/covers/sm/sourdata_sm.jpg"
- loading="lazy" fetchpriority="high" style="height: auto;" />
+ loading="eager" fetchpriority="high" style="height: auto;" />
 
       </div>
 
@@ -65,23 +59,21 @@
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/sourdata/sourdata_2.jpg'" data-image-src="/images/sourdata/sourdata_2.jpg" class="img-parallax imgproject h600"
+            <img alt="" role="img" aria-label="SourData devices displayed in presentation packaging" v-responsive-background="'/images/sourdata/sourdata_2.jpg'" data-image-src="/images/sourdata/sourdata_2.jpg" class="img-parallax imgproject h600"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <div style="padding:56.25% 0 0 0;position:relative;" class="projectbox">
-            <iframe loading="lazy" src="https://player.vimeo.com/video/728646170?h=c26dc4bb98&title=0&byline=0&portrait=0"
+            <iframe :title="project.bio + ' — video'" loading="lazy" src="https://player.vimeo.com/video/728646170?h=c26dc4bb98&title=0&byline=0&portrait=0"
                     style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
-
-          <script src="https://player.vimeo.com/api/player.js"></script>
 
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/sourdata/sourdata_4.png'" data-image-src="/images/sourdata/sourdata_4.png" class="img-parallax imgproject h400"
+            <img alt="" role="img" aria-label="Blue campaign posters introducing SourData products" v-responsive-background="'/images/sourdata/sourdata_4.png'" data-image-src="/images/sourdata/sourdata_4.png" class="img-parallax imgproject h400"
                  data-parallax-image v-parallax></div>
         </b-col>
 
@@ -91,26 +83,26 @@
 
             title="Brand System "
 
-            description="SourData was developed in every aspect, from the creation of the most general branding system down to the detail of the screens. The first artifacts were posters to launch the project and make it clear what data the project was talking about. This was followed by the social content, user manual, presentation slides, showcase website and presentation brochures. To complete the experience, related products were also created for each device."
+            description="SourData was developed in every aspect, from the creation of the most general branding system down to the detail of the screens. The first assets were the posters to launch the project and make it clear what data the project was talking about. This was followed by the social content, user manual, presentation slides, showcase website and presentation brochures. To complete the experience, related products were also created for each device."
 
           /> </b-col>
 
         <b-col cols="12" md="4" class="d-none d-md-block py-md-3 py-2 px-3">
         <div class="imgbox">
-          <img v-responsive-background="'/images/sourdata/sourdata_5.png'" data-image-src="/images/sourdata/sourdata_5.png" class="img-parallax imgproject h500"
+          <img alt="" role="img" aria-label="Pink SourData wordmark on a typographic grid" v-responsive-background="'/images/sourdata/sourdata_5.png'" data-image-src="/images/sourdata/sourdata_5.png" class="img-parallax imgproject h500"
                data-parallax-image v-parallax></div>
         </b-col>
 
 
         <b-col cols="12" md="8" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/sourdata/sourdata_6.png'" data-image-src="/images/sourdata/sourdata_6.png" class="img-parallax imgproject h500"
+            <img alt="" role="img" aria-label="Product descriptions and illustrations for the SourData collection" v-responsive-background="'/images/sourdata/sourdata_6.png'" data-image-src="/images/sourdata/sourdata_6.png" class="img-parallax imgproject h500"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/sourdata/sourdata_9.png'" data-image-src="/images/sourdata/sourdata_9.png" class="img-parallax imgproject h400"
+            <img alt="" role="img" aria-label="Diagram showing the SourData collection and exchange process" v-responsive-background="'/images/sourdata/sourdata_9.png'" data-image-src="/images/sourdata/sourdata_9.png" class="img-parallax imgproject h400"
                  data-parallax-image v-parallax></div>
         </b-col>
 
@@ -122,19 +114,19 @@
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/sourdata/sourdata_3.png'" data-image-src="/images/sourdata/sourdata_3.png" class="img-parallax imgproject h500"
+            <img alt="" role="img" aria-label="Pink SourData packaging and collection devices beside fruit" v-responsive-background="'/images/sourdata/sourdata_3.png'" data-image-src="/images/sourdata/sourdata_3.png" class="img-parallax imgproject h500"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/sourdata/sourdata_11.png'" data-image-src="/images/sourdata/sourdata_11.png" class="img-parallax imgproject h500"
+            <img alt="" role="img" aria-label="SourData devices displayed beside a rose" v-responsive-background="'/images/sourdata/sourdata_11.png'" data-image-src="/images/sourdata/sourdata_11.png" class="img-parallax imgproject h500"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/sourdata/sourdata_10.png'" data-image-src="/images/sourdata/sourdata_10.png" class="img-parallax imgproject h500"
+            <img alt="" role="img" aria-label="SourData collection devices and printed instructions" v-responsive-background="'/images/sourdata/sourdata_10.png'" data-image-src="/images/sourdata/sourdata_10.png" class="img-parallax imgproject h500"
                  data-parallax-image v-parallax></div>
         </b-col>
 
@@ -142,10 +134,8 @@
 
           <div style="padding:56.25% 0 0 0;position:relative;" class="projectbox">
 
-            <iframe loading="lazy" src="https://player.vimeo.com/video/753126993?h=81c5baeaa7&title=0&byline=0&portrait=0"
+            <iframe :title="project.bio + ' — video'" loading="lazy" src="https://player.vimeo.com/video/753126993?h=81c5baeaa7&title=0&byline=0&portrait=0"
                     style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
-
-          <script src="https://player.vimeo.com/api/player.js"></script>
 
         </b-col>
 
@@ -153,19 +143,19 @@
 
         <b-col cols="12" md="4" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/sourdata/sourdata_7.png'" data-image-src="/images/sourdata/sourdata_7.png" class="img-parallax imgproject h500"
+            <img alt="" role="img" aria-label="Hand inserting a pink data token into the collection hub" v-responsive-background="'/images/sourdata/sourdata_7.png'" data-image-src="/images/sourdata/sourdata_7.png" class="img-parallax imgproject h500"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="8" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/sourdata/sourdata_8.png'" data-image-src="/images/sourdata/sourdata_8.png" class="img-parallax imgproject h500"
+            <img alt="" role="img" aria-label="SourData personal-data dashboard with charts" v-responsive-background="'/images/sourdata/sourdata_8.png'" data-image-src="/images/sourdata/sourdata_8.png" class="img-parallax imgproject h500"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/sourdata/sourdata_12.png'" data-image-src="/images/sourdata/sourdata_12.png" class="img-parallax imgproject h600"
+            <img alt="" role="img" aria-label="Overview of pink and blue SourData website screens" v-responsive-background="'/images/sourdata/sourdata_12.png'" data-image-src="/images/sourdata/sourdata_12.png" class="img-parallax imgproject h600"
                  data-parallax-image v-parallax></div>
         </b-col>
 
@@ -180,10 +170,8 @@
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <div style="padding:56.25% 0 0 0;position:relative;" class="projectbox">
-            <iframe loading="lazy" src="https://player.vimeo.com/video/728645150?h=1e9d32eb71&title=0&byline=0&portrait=0"
+            <iframe :title="project.bio + ' — video'" loading="lazy" src="https://player.vimeo.com/video/728645150?h=1e9d32eb71&title=0&byline=0&portrait=0"
                     style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
-
-          <script src="https://player.vimeo.com/api/player.js"></script>
 
         </b-col>
 
@@ -193,7 +181,7 @@
         thumbnail="/images/covers/cards/milan-card-v2.jpg"
         class="column card-large biowhite acmilan"
         to="/acmilan"
-        nextproject="ACM Commercial Decks"
+        nextproject="AC Milan Commercial Decks"
       :pill1="projectContent.acmilan.pill1" :pill2="projectContent.acmilan.pill2" :pill3="projectContent.acmilan.pill3" :bionext="projectContent.acmilan.bio" />
 
 
@@ -218,7 +206,7 @@ export default {
 </script>
 
 
-<style>
+<style lang="scss">
 
 
 .sourdata .subtitle {
@@ -238,7 +226,7 @@ export default {
   }
 }
 
-.subtitle {
+.sourdata .subtitle {
   max-width: 90%;
   line-height: 120%;
 }

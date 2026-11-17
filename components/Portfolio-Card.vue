@@ -314,4 +314,29 @@ h6{
 .projectcard .card-tags {
   overflow: visible;
 }
+
+@media (max-width: 991.98px) {
+  .projectcard { height: auto; min-height: 340px; margin-bottom: 24px; }
+  .projectcard-link { min-height: inherit; display: flex; align-items: flex-end; }
+  .projectcard .bio {
+    position: relative; width: 100%; max-width: none; margin: 0 !important;
+    padding: 64px 4px 12px; line-height: 1.45;
+    background: linear-gradient(transparent, rgba(0, 0, 0, .78));
+    --color-secondary: white;
+  }
+  .projectcard .titlemob { font-size: 18px; line-height: 1.3; white-space: normal; overflow-wrap: anywhere; margin-bottom: 8px; }
+  .projectcard p2 { display: block; font-size: 14px; line-height: 1.45; text-wrap: balance; }
+  .projectcard .card-tags { flex-wrap: nowrap; gap: 4px; padding-top: 12px; }
+  .projectcard .card-tags .pillshome { font-size: var(--card-pill-size, 12px); line-height: 1.2; padding: 4px 6px !important; margin: 0 !important; opacity: 1; }
+  .projectcard .card-background { transform: none; }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .projectcard { min-height: 400px; }
+}
+
+/* These portrait artworks place the subject at the top, above reserved copy space. */
+@media (max-width: 991.98px) {
+  .projectcard.carachioggia .imgmobile,
+  .projectcard.acmilan .imgmobile { background-position: center top; }
+}
 </style>

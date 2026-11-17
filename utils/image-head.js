@@ -22,8 +22,8 @@ export function imagePreloads(route) {
         sizes: '400px',
       },
       {
-        src: '/images/covers/cards-sm/milan_sm.jpg',
-        media: '(max-width: 767px)',
+        src: '/images/mobile/events-card.webp',
+        media: '(max-width: 767.98px)',
         sizes: '100vw',
       },
       {

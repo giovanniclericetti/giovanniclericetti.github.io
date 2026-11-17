@@ -1,7 +1,7 @@
 // Shared editorial content for cards, project pages and metadata.
 export default {
   "acmilan": {
-    "title": "ACM Commercial Decks",
+    "title": "AC Milan Commercial Decks",
     "bio": "Presentation design, commercial storytelling and visual mockups supporting AC Milan's commercial partnerships.",
     "overview": "Design and development of sponsorship presentations, commercial proposals and supporting visual assets for AC Milan's partnership activities. Working alongside Commercial, Marketing and Strategy teams, the focus is on translating complex information and business opportunities into clear, engaging presentations aligned with the Club's visual identity. The work also includes visual mockups and branded applications designed to illustrate potential partnership opportunities, helping stakeholders understand how commercial assets and brand integrations can translate into real-world environments. Each presentation is developed with attention to visual consistency, information hierarchy and the specific requirements of different partners, audiences and commercial objectives. Selected work remains confidential.",
     "pill1": "Presentation",
@@ -58,7 +58,7 @@ export default {
   },
   "bottleneck": {
     "title": "Bottleneck",
-    "bio": "A cross-device digital experience designed to reduce notification overload.",
+    "bio": "A digital wellbeing service designed to prioritise notifications.",
     "overview": "Bottleneck explores how digital overload affects attention, communication and the boundaries between personal and professional life. The concept combines notification categorisation, AI-supported prioritisation and an interface designed to make information easier to manage across devices. A modular design system connects the desktop and mobile experiences, creating a consistent interaction model that adapts to different types of content and usage contexts. Conceived before Apple Intelligence introduced AI-powered notification summaries with iOS 18.1 in October 2024, Bottleneck explored this challenge through a design-led approach.",
     "pill1": "Product Design",
     "pill2": "UX/UI",

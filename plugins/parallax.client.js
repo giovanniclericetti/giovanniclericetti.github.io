@@ -13,13 +13,13 @@ function schedule() {
 }
 
 function scheduleScroll() {
-  if (!motionQuery.matches && window.innerWidth >= 768) schedule()
+  if (!motionQuery.matches && window.innerWidth >= 992 && window.matchMedia('(hover: hover) and (pointer: fine)').matches) schedule()
 }
 
 function render() {
   frame = 0
   const viewport = window.innerHeight
-  const enabled = !motionQuery.matches && window.innerWidth >= 768
+  const enabled = !motionQuery.matches && window.innerWidth >= 992 && window.matchMedia('(hover: hover) and (pointer: fine)').matches
   entries.forEach((entry, el) => {
     const { width, height, top } = el.getBoundingClientRect()
     if (!width || !height) return

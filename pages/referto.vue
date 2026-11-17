@@ -17,7 +17,7 @@
 
 
 
-        <img v-responsive-background="'/images/covers/hero/referto.jpg'" data-image-src="/images/covers/hero/referto.jpg" class="cover-parallax"
+        <img alt="" role="img" aria-label="Referto magazine with editorial photography and a printed spread" v-responsive-background="'/images/covers/hero/referto.jpg'" data-image-src="/images/covers/hero/referto.jpg" class="cover-parallax"
 
 
 
@@ -28,9 +28,9 @@
 
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
-        <PortfolioImage class=""
+        <PortfolioImage alt="Referto magazine with editorial photography and a printed spread" class=""
      src="/images/covers/sm/referto_sm.jpg"
- loading="lazy" fetchpriority="high" style="height: auto;" />
+ loading="eager" fetchpriority="high" style="height: auto;" />
 
       </div>
 
@@ -51,44 +51,44 @@
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/referto/referto1.jpg'" data-image-src="/images/referto/referto1.jpg" class="img-parallax imgproject h600"
+            <img alt="" role="img" aria-label="Reader holding an open red and white Referto spread" v-responsive-background="'/images/referto/referto1.jpg'" data-image-src="/images/referto/referto1.jpg" class="img-parallax imgproject h600"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
         <div class="imgbox">
-          <img v-responsive-background="'/images/referto/referto3.jpg'" data-image-src="/images/referto/referto3.jpg" class="img-parallax imgproject ref-3"
+          <img alt="" role="img" aria-label="Referto magazine cover held in a reader’s hands" v-responsive-background="'/images/referto/referto3.jpg'" data-image-src="/images/referto/referto3.jpg" class="img-parallax imgproject ref-3"
                data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" py-md-3 py-2 px-3">
           <div class="imgbox pb-0 mb-4">
-            <img v-responsive-background="'/images/referto/referto4.jpg'" data-image-src="/images/referto/referto4.jpg" class="img-parallax imgproject h400" style="height: 350px;
+            <img alt="" role="img" aria-label="Black and white photographic spread in Referto" v-responsive-background="'/images/referto/referto4.jpg'" data-image-src="/images/referto/referto4.jpg" class="img-parallax imgproject h400" style="height: 350px;
      "
                  data-parallax-image v-parallax></div>
 
           <div class="pt-2">
           <div class="imgbox ">
-            <img v-responsive-background="'/images/referto/referto5.jpg'" data-image-src="/images/referto/referto5.jpg" class="img-parallax imgproject h600" style="height: 250px;
+            <img alt="" role="img" aria-label="Stack of red stitched Referto magazines" v-responsive-background="'/images/referto/referto5.jpg'" data-image-src="/images/referto/referto5.jpg" class="img-parallax imgproject h600" style="height: 250px;
      "
                  data-parallax-image v-parallax></div>
           </div>         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/referto/referto2.jpg'" data-image-src="/images/referto/referto2.jpg" class="img-parallax imgproject h500"
+            <img alt="" role="img" aria-label="Referto spread combining portrait photography and text" v-responsive-background="'/images/referto/referto2.jpg'" data-image-src="/images/referto/referto2.jpg" class="img-parallax imgproject h500"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="4" class=" py-md-3 py-2 px-3 d-none d-md-block">
           <div class="imgbox pb-0 mb-4">
-            <img v-responsive-background="'/images/referto/referto15.jpg'" data-image-src="/images/referto/referto15.jpg" class=" img-parallax imgproject " style="height: 250px;
+            <img alt="" role="img" aria-label="Red Referto contents spread with white typography" v-responsive-background="'/images/referto/referto15.jpg'" data-image-src="/images/referto/referto15.jpg" class=" img-parallax imgproject " style="height: 250px;
      "
                  data-parallax-image v-parallax></div>
 
           <div class="pt-2">
             <div class="imgbox  d-none d-md-block">
-              <img v-responsive-background="'/images/referto/referto16.jpg'" data-image-src="/images/referto/referto16.jpg" class="img-parallax imgproject" style="height: 250px;
+              <img alt="" role="img" aria-label="Close-up of Referto cover typography" v-responsive-background="'/images/referto/referto16.jpg'" data-image-src="/images/referto/referto16.jpg" class="img-parallax imgproject" style="height: 250px;
      "
                    data-parallax-image v-parallax></div>
           </div>         </b-col>
@@ -96,10 +96,7 @@
           <b-col cols="12" md="8" class=" py-md-3 py-2 px-3">
 
             <div style="overflow: hidden" class="p-0 m-0 projectbox d-flex ref-video justify-content-center align-items-center">
-              <video playsinline autoplay loop muted style="width: 100%;">
-                <source src="/images/referto/referto_gif.mp4" type="video/mp4">
-                Il tuo browser non supporta il tag video.
-              </video>
+              <ProjectMotion src="/images/referto/referto_gif.mp4" poster="/images/video-posters/referto_gif.jpg" :width="1400" :height="1024" :label="project.bio" />
             </div>
 
 
@@ -119,26 +116,26 @@
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/referto/referto6.jpg'" data-image-src="/images/referto/referto6.jpg" class="img-parallax imgproject h600" style="height: 630px;
+            <img alt="" role="img" aria-label="Overview of Referto magazine spreads" v-responsive-background="'/images/referto/referto6.jpg'" data-image-src="/images/referto/referto6.jpg" class="img-parallax imgproject h600" style="height: 630px;
      "
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/referto/referto7.jpg'" data-image-src="/images/referto/referto7.jpg" class="img-parallax imgproject h600"
+            <img alt="" role="img" aria-label="Reader opening a red typographic Referto spread" v-responsive-background="'/images/referto/referto7.jpg'" data-image-src="/images/referto/referto7.jpg" class="img-parallax imgproject h600"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/referto/referto11.jpg'" data-image-src="/images/referto/referto11.jpg" class="img-parallax imgproject h400 ref-pc"
+            <img alt="" role="img" aria-label="Referto digital magazine interface on a laptop" v-responsive-background="'/images/referto/referto11.jpg'" data-image-src="/images/referto/referto11.jpg" class="img-parallax imgproject h400 ref-pc"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/referto/referto12.jpg'" data-image-src="/images/referto/referto12.jpg" class="img-parallax imgproject h400"
+            <img alt="" role="img" aria-label="Printed magazines displayed at the Referto exhibition" v-responsive-background="'/images/referto/referto12.jpg'" data-image-src="/images/referto/referto12.jpg" class="img-parallax imgproject h400"
                  data-parallax-image v-parallax></div>
         </b-col>
 
@@ -152,16 +149,14 @@
 
           <div style="padding:56.25% 0 0 0;position:relative;" class="projectbox">
 
-            <iframe loading="lazy" src="https://player.vimeo.com/video/892686972?h=af631d4405&title=0&byline=0&portrait=0"
+            <iframe :title="project.bio + ' — video'" loading="lazy" src="https://player.vimeo.com/video/892686972?h=af631d4405&title=0&byline=0&portrait=0"
                     style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
-
-          <script src="https://player.vimeo.com/api/player.js"></script>
 
         </b-col>
 
         <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img v-responsive-background="'/images/referto/referto13.jpg'" data-image-src="/images/referto/referto13.jpg" class="img-parallax imgproject h500"
+            <img alt="" role="img" aria-label="Reader browsing Referto magazine" v-responsive-background="'/images/referto/referto13.jpg'" data-image-src="/images/referto/referto13.jpg" class="img-parallax imgproject h500"
                  data-parallax-image v-parallax></div>
         </b-col>
 
@@ -197,7 +192,7 @@ export default {
 </script>
 
 
-<style>
+<style lang="scss">
 
 .cover-mobile{
   width: 100%;
