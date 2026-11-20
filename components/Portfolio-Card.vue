@@ -93,6 +93,14 @@ h6{
   font-size: 14px;
   color: #fff}
 
+.projectcard.avi .pillshome,
+.projectcard.acmilan .pillshome,
+.projectcard.previewpretest .pillshome,
+.projectcard.bottleneck .pillshome {
+  background-color: #fff;
+  color: var(--color-primary);
+}
+
 .projectcard {
   border-radius: 20px;
   position: relative;
