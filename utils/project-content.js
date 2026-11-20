@@ -66,7 +66,7 @@ export default {
   },
   "carachioggia": {
     "title": "Cara Chioggia ti scrivo",
-    "bio": "An immersive storytelling experience revealing Chioggia through letters, illustrations and audio content.",
+    "bio": "An immersive storytelling experience revealing Chioggia through letters and audio content.",
     "overview": "Cara Chioggia ti scrivo is an immersive storytelling project exploring the fishing heritage of Chioggia through the personal stories, memories and everyday experiences of its community. The project translates field research, interviews and local narratives into a hybrid experience connecting digital storytelling with physical places. At its core is an interactive platform where letters, illustrations, podcast audio and carefully designed editorial layouts guide visitors through a progressive discovery of the territory.",
     "pill1": "Immersive Storytelling",
     "pill2": "Interaction",
