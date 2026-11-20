@@ -1,7 +1,7 @@
 // Shared editorial content for cards, project pages and metadata.
 export default {
   "acmilan": {
-    "title": "AC Milan Commercial Decks",
+    "title": "ACM Commercial Decks",
     "bio": "Presentation design, commercial storytelling and visual mockups supporting AC Milan's commercial partnerships.",
     "overview": "Design and development of sponsorship presentations, commercial proposals and supporting visual assets for AC Milan's partnership activities. Working alongside Commercial, Marketing and Strategy teams, the focus is on translating complex information and business opportunities into clear, engaging presentations aligned with the Club's visual identity. The work also includes visual mockups and branded applications designed to illustrate potential partnership opportunities, helping stakeholders understand how commercial assets and brand integrations can translate into real-world environments. Each presentation is developed with attention to visual consistency, information hierarchy and the specific requirements of different partners, audiences and commercial objectives. Selected work remains confidential.",
     "pill1": "Presentation",

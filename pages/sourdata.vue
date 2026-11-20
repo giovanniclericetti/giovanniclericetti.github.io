@@ -181,7 +181,7 @@
         thumbnail="/images/covers/cards/milan-card-v2.jpg"
         class="column card-large biowhite acmilan"
         to="/acmilan"
-        nextproject="AC Milan Commercial Decks"
+        nextproject="ACM Commercial Decks"
       :pill1="projectContent.acmilan.pill1" :pill2="projectContent.acmilan.pill2" :pill3="projectContent.acmilan.pill3" :bionext="projectContent.acmilan.bio" />
 
 

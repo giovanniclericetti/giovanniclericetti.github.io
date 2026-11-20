@@ -9,7 +9,7 @@
       <ProjectHeader/>
 
       <Project-Intro
-        title="AC Milan Commercial Decks"
+        title="ACM Commercial Decks"
         :subtitle="project.bio"
 
       :pill1="project.pill1" :pill2="project.pill2" :pill3="project.pill3" />
