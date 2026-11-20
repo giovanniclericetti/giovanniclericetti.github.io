@@ -263,7 +263,7 @@ h6{
   transform: translate(-50%, -50%);
   z-index: 3;
   padding: 4px 14px;
-  border: 1.5px solid var(--category-pill-color, var(--color-primary));
+  border: 1.5px solid #f6f2f2;
   border-radius: 999px;
   background: var(--category-pill-color, var(--color-primary));
   color: #fff;
