@@ -12,6 +12,37 @@ import { portfolioSeo } from '~/utils/portfolio-seo'
 import { imagePreloads, imageFallback } from '~/utils/image-head'
 export default {
   name: "DefaultLayout",
+  watch: {
+    '$route.path'() { this.$nextTick(this.setupReveal) },
+  },
+  mounted() {
+    this.setupReveal()
+    this.revealMutation = new MutationObserver(() => this.setupReveal())
+    this.revealMutation.observe(this.$el.querySelector('main'), { childList: true, subtree: true })
+  },
+  beforeDestroy() {
+    if (this.revealObserver) this.revealObserver.disconnect()
+    if (this.revealMutation) this.revealMutation.disconnect()
+  },
+  methods: {
+    setupReveal() {
+      if (this.revealObserver) this.revealObserver.disconnect()
+      if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+      this.revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(({ target, isIntersecting }) => {
+          if (!isIntersecting) return
+          target.classList.add('is-revealed')
+          this.revealObserver.unobserve(target)
+        })
+      }, { threshold: 0, rootMargin: '0px 0px -32px 0px' })
+      const targets = this.$el.querySelectorAll('main h1, main h3, main h4, main p, .projectcard, .gallery-row, .imgbox, .cover-parallax, .cover-mobile, .nextcard, .footer, .about .row')
+      targets.forEach((target) => {
+        if (target.closest('.projectcard, .nextcard, .footer') !== target && target.closest('.projectcard, .nextcard, .footer')) return
+        target.classList.add('page-reveal')
+        this.revealObserver.observe(target)
+      })
+    },
+  },
   head() {
     return {
       ...portfolioSeo(this.$route.path),
@@ -29,6 +60,24 @@ export default {
 
 
 <style>
+.page-reveal { opacity: 0; transition: opacity 650ms ease; }
+.page-reveal.is-revealed, .page-reveal:focus-within { opacity: 1; }
+.media-loading {
+  background-color: #e9e6e6;
+  background-image: linear-gradient(105deg, transparent 30%, rgba(255,255,255,.7) 50%, transparent 70%);
+  background-size: 220% 100%;
+  animation: media-shimmer 1.5s ease-in-out infinite;
+}
+.media-error { background-color: #e9e6e6; }
+@keyframes media-shimmer { from { background-position: 100% 0; } to { background-position: -100% 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .page-reveal { opacity: 1; transition: none; }
+  .media-loading { animation: none; }
+}
+@media (min-width: 768px) {
+  .project-pills .pills { color: var(--color-primary); background-color: white; }
+}
+
 
 body {
   background-color: #F6F2F2;

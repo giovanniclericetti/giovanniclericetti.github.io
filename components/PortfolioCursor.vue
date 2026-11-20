@@ -85,7 +85,7 @@ export default {
     },
     animate() {
       const p = this.position
-      const amount = this.motionMedia.matches ? 1 : 0.22
+      const amount = this.motionMedia.matches ? 1 : 0.11
       p.ringX += (p.x - p.ringX) * amount
       p.ringY += (p.y - p.ringY) * amount
       this.$refs.ring.style.transform = `translate3d(${p.ringX}px, ${p.ringY}px, 0)`

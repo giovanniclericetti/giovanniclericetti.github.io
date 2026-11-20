@@ -32,19 +32,27 @@ function update(el) {
   const url = imageVariant(src, options.fullResolution && window.innerWidth >= 992 ? undefined : required * 1.06).url
   if (entry.url === url) return
   entry.url = url
+  if (!entry.loaded) el.classList.add('media-loading')
+  el.classList.remove('media-error')
   const image = new Image()
   image.fetchPriority =
     el.getBoundingClientRect().top < window.innerHeight ? 'high' : 'auto'
   image.onload = () => {
     if (!entries.has(el) || entry.url !== url) return
-    el.style.backgroundImage = `url("${url}")`
+    entry.loaded = true
+    el.classList.remove('media-loading', 'media-error')
+    el.style.backgroundImage = `url("${image.src}")`
     // Only the resource changes; the existing directive still owns motion/cropping.
     el.dispatchEvent(new Event('portfolio:image-ready'))
   }
   image.onerror = () => {
     if (!entries.has(el) || entry.url !== url) return
-    el.style.backgroundImage = `url("${src}")`
-    el.dispatchEvent(new Event('portfolio:image-ready'))
+    if (image.src !== new URL(src, window.location.href).href) {
+      image.src = src
+      return
+    }
+    el.classList.remove('media-loading')
+    if (!entry.loaded) el.classList.add('media-error')
   }
   image.src = url
 }

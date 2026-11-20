@@ -44,15 +44,27 @@ export default {
     },
   },
   mounted() {
+    this.imageReady = () => this.$el.classList.remove('media-loading', 'media-error')
+    this.imageFailed = () => {
+      this.$el.classList.remove('media-loading')
+      this.$el.classList.add('media-error')
+    }
+    if (!this.$el.complete) this.$el.classList.add('media-loading')
+    this.$el.addEventListener('load', this.imageReady)
     // Preserve an original-format fallback if a browser cannot decode WebP.
     this.originalFallback = () => {
       this.$el.removeAttribute('srcset')
+      this.$el.classList.add('media-loading')
+      this.$el.addEventListener('error', this.imageFailed, { once: true })
       this.$el.src = imageSource(this.src)
     }
     this.$el.addEventListener('error', this.originalFallback, { once: true })
+    if (this.$el.complete && !this.$el.naturalWidth) this.originalFallback()
   },
   beforeDestroy() {
     this.$el.removeEventListener('error', this.originalFallback)
+    this.$el.removeEventListener('load', this.imageReady)
+    this.$el.removeEventListener('error', this.imageFailed)
   },
 }
 </script>

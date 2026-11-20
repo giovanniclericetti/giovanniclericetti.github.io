@@ -93,6 +93,10 @@ h6{
   font-size: 14px;
   color: #000}
 
+@media (min-width: 768px) {
+  .projectcard .card-tags .pillshome { color: var(--color-primary); }
+}
+
 .projectcard {
   border-radius: 20px;
   position: relative;
