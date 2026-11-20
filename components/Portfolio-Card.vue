@@ -263,9 +263,9 @@ h6{
   transform: translate(-50%, -50%);
   z-index: 3;
   padding: 4px 14px;
-  border: 1.5px solid #fff;
+  border: 1.5px solid var(--category-pill-color, var(--color-primary));
   border-radius: 999px;
-  background: var(--color-primary);
+  background: var(--category-pill-color, var(--color-primary));
   color: #fff;
   font-family: 'DM Sans', sans-serif;
   font-size: 12px;
@@ -276,13 +276,13 @@ h6{
 }
 
 .acmilan2 .card-category-pill {
-  background: #000;
+  --category-pill-color: #000;
 }
 .acmilan3 .card-category-pill {
-  background: #8B0015;
+  --category-pill-color: #8B0015;
 }
 .sourdata .card-category-pill {
-  background: #3741DC;
+  --category-pill-color: #3741DC;
 }
 
 .projectcard-link {
