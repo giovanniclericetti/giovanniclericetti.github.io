@@ -75,6 +75,7 @@
   .portfolio-shell .index .header::before,
   .portfolio-shell .about .header::before {
     background: #f6f2f2;
+    border-image: linear-gradient(45deg, #ffa857, #ff4466) 1;
   }
   .portfolio-shell .mobile-nav-slot .header > .row {
     max-width: 690px;
