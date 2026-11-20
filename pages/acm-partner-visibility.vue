@@ -4,7 +4,7 @@
       <ProjectHeader />
       <ProjectIntro
         title="ACM Partner Visibility"
-        :subtitle="project.bio"
+        :subtitle="project.bio" :project-type="project.projectType"
       :pill1="project.pill1" :pill2="project.pill2" :pill3="project.pill3" />
       <div class="pt-md-3 d-none d-md-block">
         <div v-responsive-background="'/images/acm-partner-visibility/9d3325330553433f.jpg'" data-image-src="/images/acm-partner-visibility/9d3325330553433f.jpg" class="cover-parallax" aria-label="Partner branding at Milanello" data-parallax-image v-parallax  role="img"></div>

@@ -8,7 +8,7 @@
 
       <Project-Intro
         title="Preview & Pretest"
-        :subtitle="project.bio"
+        :subtitle="project.bio" :project-type="project.projectType"
         pill4="Event"
       :pill1="project.pill1" :pill2="project.pill2" :pill3="project.pill3" />
 

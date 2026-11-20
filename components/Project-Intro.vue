@@ -9,12 +9,14 @@
       <b-badge pill class="pills mx-0 mr-2 p-2 px-3"> {{ pill1 }}</b-badge>
       <b-badge pill class="pills mx-0 mr-2  p-2 px-3"> {{ pill2 }}</b-badge>
       <b-badge v-if="pill3" pill class="pills mx-0 mr-2 my-3 p-2 px-3"> {{ pill3 }}</b-badge>
+      <b-badge v-if="projectType" pill class="pills project-type-pill my-3 p-2 px-3">{{ projectType }}</b-badge>
     </div>
 
     <div class="project-pills d-block d-md-none">
       <b-badge pill class="pillsmob mx-0 mr-1 my-2  p-1 px-2"> {{ pill1 }}</b-badge>
       <b-badge pill class="pillsmob mx-0 mr-1 my-2  p-1 px-2"> {{ pill2 }}</b-badge>
       <b-badge v-if="pill3" pill class="pillsmob mx-0 mr-1 my-2  p-1 px-2"> {{ pill3 }}</b-badge>
+      <b-badge v-if="projectType" pill class="pillsmob project-type-pill my-2 p-1 px-2">{{ projectType }}</b-badge>
     </div>
 
   </div>
@@ -23,7 +25,7 @@
 <script>
 export default {
   name: 'Project-Intro',
-  props: ['pill1', 'pill2', 'pill3', 'pill4', 'title', 'subtitle']
+  props: ['pill1', 'pill2', 'pill3', 'pill4', 'title', 'subtitle', 'projectType']
 
 
 }
@@ -37,6 +39,17 @@ export default {
   overflow-y: hidden;
 }
 
+
+#main-content .project-intro .project-pills {
+  white-space: normal;
+  overflow: visible;
+}
+
+.project-intro .project-pills .project-type-pill {
+  background: transparent;
+  color: var(--color-primary);
+  border: 1px solid currentColor;
+}
 
 .titoloprog {
   font-size: 64px;

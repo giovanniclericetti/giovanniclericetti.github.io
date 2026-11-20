@@ -8,7 +8,7 @@
 
       <Project-Intro
         title="Audiovisual Identity"
-        :subtitle="project.bio"
+        :subtitle="project.bio" :project-type="project.projectType"
 
       :pill1="project.pill1" :pill2="project.pill2" :pill3="project.pill3" />
 

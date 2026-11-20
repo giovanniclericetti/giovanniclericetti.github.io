@@ -3,7 +3,7 @@
     <div class="container pt-4">
       <ProjectHeader />
       <ProjectIntro title="ACM Events &amp; Matchday"
-        :subtitle="project.bio" :pill1="project.pill1" :pill2="project.pill2" :pill3="project.pill3" />
+        :subtitle="project.bio" :project-type="project.projectType" :pill1="project.pill1" :pill2="project.pill2" :pill3="project.pill3" />
       <div class="pt-md-3 d-none d-md-block">
         <div v-responsive-background="{ src: '/images/acm-events-matchday/GCR24765_0PQcufMC_20261102113848 2.png', fullResolution: true }" data-image-src="/images/acm-events-matchday/GCR24765_0PQcufMC_20261102113848 2.png" class="cover-parallax" aria-label="Hall of Fame ceremony at San Siro" data-parallax-image v-parallax role="img"></div>
       </div>

@@ -8,7 +8,7 @@
 
       <Project-Intro
         title="Bottleneck"
-        :subtitle="project.bio"
+        :subtitle="project.bio" :project-type="project.projectType"
         pill4="Coding" :pill1="project.pill1" :pill2="project.pill2" :pill3="project.pill3" />
 
       <div cols="12" md="12" class=" mt-md-0 py-md-3 py-md-2 d-none d-md-block ">

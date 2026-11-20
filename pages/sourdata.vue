@@ -9,7 +9,7 @@
 
       <Project-Intro
         title="SourData"
-        :subtitle="project.bio"
+        :subtitle="project.bio" :project-type="project.projectType"
         pill4="Speculative"
 
 
