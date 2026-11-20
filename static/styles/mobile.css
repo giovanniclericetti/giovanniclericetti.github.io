@@ -22,6 +22,14 @@
 .portfolio-shell main:focus {
   outline: none;
 }
+.portfolio-shell .homepage-header > .header {
+  margin-bottom: 0 !important;
+}
+@media (min-width: 992px) {
+  .portfolio-shell .mobile-nav-slot {
+    display: contents;
+  }
+}
 @media (max-width: 991.98px) {
   .portfolio-shell {
     --mobile-gutter: clamp(16px, 4.5vw, 24px);
@@ -38,6 +46,39 @@
     font-size: 14px;
     line-height: 1.5;
     opacity: 0.7;
+  }
+  .portfolio-shell .mobile-nav-slot {
+    height: 48px;
+    margin-bottom: 16px;
+  }
+  .portfolio-shell .mobile-nav-slot .header {
+    position: fixed;
+    top: calc(24px + env(safe-area-inset-top));
+    left: max(var(--mobile-gutter), env(safe-area-inset-left));
+    right: max(var(--mobile-gutter), env(safe-area-inset-right));
+    width: auto;
+    max-width: 690px;
+    margin: 0 auto !important;
+    z-index: 1030;
+    isolation: isolate;
+  }
+  .portfolio-shell .mobile-nav-slot .header::before {
+    content: '';
+    position: absolute;
+    inset: -8px -12px;
+    z-index: -1;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.94);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    pointer-events: none;
+  }
+  .portfolio-shell .index .header::before,
+  .portfolio-shell .about .header::before {
+    background: rgba(246, 242, 242, 0.94);
+  }
+  .portfolio-shell main {
+    padding-top: env(safe-area-inset-top);
   }
   .portfolio-shell .header a {
     min-width: 48px;
@@ -179,5 +220,11 @@
   }
   .portfolio-shell .project-next .next-project-title h4 {
     color: #222 !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .portfolio-shell .mobile-nav-slot .header {
+    max-width: calc(540px - 2 * var(--mobile-gutter));
   }
 }

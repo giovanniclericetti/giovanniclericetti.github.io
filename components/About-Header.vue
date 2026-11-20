@@ -1,6 +1,7 @@
 <template>
 
 
+  <div class="mobile-nav-slot">
   <nav aria-label="Main navigation" class="container-fluid header p-0 mb-3">
 
     <b-row class="p-0 m-0" align-h="between">
@@ -9,6 +10,7 @@
     </b-row>
 
   </nav>
+  </div>
 
 
 </template>
