@@ -7,7 +7,7 @@
       <ProjectHeader/>
 
       <Project-Intro
-        title="Referto"
+        title="Referto Magazine"
         :subtitle="project.bio" :project-type="project.projectType"
 
       :pill1="project.pill1" :pill2="project.pill2" :pill3="project.pill3" />

@@ -38,7 +38,7 @@ export default {
   },
   "referto": {
     "projectType": "University Project",
-    "title": "Referto",
+    "title": "Referto Magazine",
     "bio": "An independent editorial project exploring healthcare through the voices of its professionals.",
     "overview": "Referto is an independent magazine dedicated to the human experiences behind healthcare, told through the perspectives of the professionals working within it. The project combines editorial research, interviews, photography and visual storytelling within a distinctive identity and publishing system. Its first 260-page issue explores emergency care through a carefully structured editorial journey, where typography, imagery, paper and binding contribute to the reading experience.",
     "pill1": "Editorial",
