@@ -46,6 +46,13 @@ export default {
   line-height: 120%;
 }
 
+/* Use the full content width before wrapping, consistently across projects. */
+#main-content .project-intro > .subtitle {
+  width: 100%;
+  max-width: 100%;
+  text-wrap: balance;
+}
+
 .pillsmob {
   border-radius: 20px;
   background-color: var(--color-primary);
