@@ -2,7 +2,7 @@
 
     <div class=" projectcard" >
 
-      <span class="card-category-pill d-none d-md-block" :class="{ 'work-experience-pill': projectType === 'Work Experience' }">{{ projectType }}</span>
+      <span class="card-category-pill d-none d-md-block">{{ projectType }}</span>
 
       <NuxtLink :to="to" class="projectcard-link">
 
@@ -258,23 +258,17 @@ h6{
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 3;
-  padding: 5px 14px 3px;
-  border: 2px solid #fff;
+  padding: 4px 14px;
+  border: 1px solid #fff;
   border-radius: 999px;
   background: var(--color-primary);
   color: #fff;
-  font-family: 'title-regular', serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.2;
   white-space: nowrap;
   pointer-events: none;
-}
-
-.card-category-pill.work-experience-pill {
-  font-family: 'DM Sans', sans-serif;
-  border-width: 1px;
-  padding-block: 4px;
 }
 
 .acmilan2 .card-category-pill {
