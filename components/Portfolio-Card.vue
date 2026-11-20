@@ -173,6 +173,10 @@ h6{
 .acmilan2 .card-description {
   flex: 0 0 100%;
   max-width: 100%;
+}
+
+.card-description p2 {
+  display: block;
   text-wrap: balance;
 }
 
@@ -333,7 +337,7 @@ h6{
     --color-secondary: white;
   }
   .projectcard .titlemob { font-size: 18px; line-height: 1.3; white-space: normal; overflow-wrap: anywhere; margin-bottom: 8px; }
-  .projectcard p2 { display: block; font-size: 14px; line-height: 1.45; text-wrap: balance; }
+  .projectcard p2 { font-size: 14px; line-height: 1.45; }
   .projectcard .card-tags { flex-wrap: nowrap; gap: 4px; padding-top: 12px; }
   .projectcard .card-tags .pillshome { font-size: var(--card-pill-size, 12px); line-height: 1.2; padding: 4px 6px !important; margin: 0 !important; opacity: 1; }
   .projectcard .card-background { transform: none; }
