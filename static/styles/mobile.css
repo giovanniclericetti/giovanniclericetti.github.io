@@ -67,6 +67,7 @@
     position: absolute;
     inset: -8px -12px;
     z-index: -1;
+    border: 1px solid rgba(34, 34, 34, 0.22);
     border-radius: 16px;
     background: rgba(255, 255, 255, 0.94);
     -webkit-backdrop-filter: blur(12px);
