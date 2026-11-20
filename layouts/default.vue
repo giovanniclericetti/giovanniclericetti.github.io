@@ -27,6 +27,12 @@ export default {
   methods: {
     setupReveal() {
       if (this.revealObserver) this.revealObserver.disconnect()
+      if (this.$route.path === '/' || this.$el.querySelector('main .index')) {
+        this.$el.querySelectorAll('.page-reveal').forEach((target) => {
+          target.classList.remove('page-reveal', 'is-revealed')
+        })
+        return
+      }
       if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
       this.revealObserver = new IntersectionObserver((entries) => {
         entries.forEach(({ target, isIntersecting }) => {
