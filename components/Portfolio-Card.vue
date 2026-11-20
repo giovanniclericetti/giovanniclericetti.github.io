@@ -263,7 +263,7 @@ h6{
   transform: translate(-50%, -50%);
   z-index: 3;
   padding: 4px 14px;
-  border: 1px solid #fff;
+  border: 1.5px solid #fff;
   border-radius: 999px;
   background: var(--color-primary);
   color: #fff;
