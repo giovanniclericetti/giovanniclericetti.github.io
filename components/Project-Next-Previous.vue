@@ -95,13 +95,13 @@ export default {
 
 .pillshome {
   border-radius: 20px;
-  background-color: white;
-  opacity: 0.8;
+  background-color: var(--color-primary);
+  opacity: 1;
   border: none;
   font-family: 'DM Sans';
   font-weight: 400;
   font-size: 14px;
-  color:var(--color-primary)}
+  color: #fff}
 
 
 .nextcard {

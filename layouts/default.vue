@@ -81,7 +81,7 @@ export default {
   .media-loading { animation: none; }
 }
 @media (min-width: 768px) {
-  .project-pills .pills { color: var(--color-primary); background-color: white; }
+  .project-pills .pills { color: #fff; background-color: var(--color-primary); }
 }
 
 
