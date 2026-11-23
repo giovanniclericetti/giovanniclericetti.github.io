@@ -9,12 +9,8 @@
     <div class="about-sections">
     <div>
 
-      <h1 v-if="$locale.state.language === 'en'" class="titleindex english-intro">
-        <span class="about-intro-line">My background in Communication Design at <a class="name gradient about-inline-link" href="https://www.polimi.it/">Polimi</a> and my experience</span>
-        <span class="about-intro-line">with <a class="name gradient about-inline-link intro-link-word" href="https://www.acmilan.com/">AC Milan</a> have shaped my approach to design, spanning</span>
-        <span class="about-intro-line"><strong>visual communication</strong>, digital experiences and commercial partnerships.</span>
-      </h1>
-      <h1 v-else class="titleindex">La formazione al <a class="name gradient about-inline-link" href="https://www.polimi.it/">Polimi</a> e l’esperienza con <a class="name gradient about-inline-link intro-link-word" href="https://www.acmilan.com/">AC Milan</a> hanno definito il mio approccio al design, tra <strong>comunicazione visiva del brand</strong>, esperienze digitali e sviluppo delle partnership commerciali.</h1>
+      <h1 v-if="$locale.state.language === 'en'" class="titleindex english-intro">My background in Communication Design at <a class="name gradient about-inline-link" href="https://www.polimi.it/">Polimi</a> and my experience with <a class="name gradient about-inline-link intro-link-word" href="https://www.acmilan.com/">AC Milan</a> have shaped my approach to design, spanning <strong class="intro-phrase">visual communication</strong>, <span class="intro-phrase">digital experiences</span> and <span class="intro-phrase">commercial partnerships.</span></h1>
+      <h1 v-else class="titleindex">La formazione al <a class="name gradient about-inline-link" href="https://www.polimi.it/">Polimi</a> e l’esperienza con <a class="name gradient about-inline-link intro-link-word" href="https://www.acmilan.com/">AC Milan</a> hanno definito il mio approccio al design, tra <strong class="intro-phrase">comunicazione visiva del brand</strong>, <span class="intro-phrase">esperienze digitali</span> e sviluppo delle <span class="intro-phrase">partnership commerciali.</span></h1>
 
     </div>
 
@@ -317,9 +313,8 @@
     width: 83.333333%;
   }
 
-  .english-intro .about-intro-line {
-    display: block;
-    white-space: normal;
+  .about .intro-phrase {
+    white-space: nowrap;
   }
 }
 
