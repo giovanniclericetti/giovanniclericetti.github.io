@@ -4,7 +4,7 @@
     <b-col cols="12" md="7">
 
     <h4 aria-level="2"> {{ overviewTitle }} </h4>
-     <p> {{ description }} </p>
+     <slot name="overview-copy"><p> {{ description }} </p></slot>
 
       <slot name="link2">
       </slot>

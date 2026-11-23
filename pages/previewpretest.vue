@@ -42,6 +42,10 @@
         :role="project.contribution"
         delivery="Extracurricular Project for Polimi, 2020-2022"
         class="my-md-3">
+        <template #overview-copy>
+          <ProjectCopy :text="project.overview" :emphasis="project.emphasis" />
+        </template>
+
 
         <template #link>
           <div class="mt-md-4 mt-4">
@@ -75,7 +79,7 @@
 
           <ProjectDescription2
             :title="project.sections[0].title"
-            :description="project.sections[0].description"
+            :description="project.sections[0].description" :emphasis="project.sections[0].emphasis"
           /> </b-col>
 
         <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3">
@@ -102,7 +106,7 @@
 
           <ProjectDescription2
             :title="project.sections[1].title"
-            :description="project.sections[1].description"
+            :description="project.sections[1].description" :emphasis="project.sections[1].emphasis"
           /> </b-col>
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">

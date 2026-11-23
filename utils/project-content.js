@@ -39,13 +39,19 @@ export default {
     "sections": [
       {
         "title": "Organising the research",
-        "description": "The publication brings together the research through a typographic and editorial system, translating its findings into an accessible, visually organised format. A blue and white visual identity provides a consistent framework for the written analysis and visual examples while leaving space for the television brands under discussion."
+        "description": "The publication brings together the research through a typographic and editorial system, translating its findings into an accessible, visually organised format. A blue and white visual identity provides a consistent framework for the written analysis and visual examples while leaving space for the television brands under discussion.",
+        "emphasis": "typographic and editorial system"
       },
       {
         "title": "Making the material accessible",
-        "description": "Audiovisual Identity Hub extends the research into a website, connecting documentation, a taxonomy of examples and individual case studies. An introductory page and an About section establish the project’s scope, while the gallery and detailed case study pages offer different ways to explore broadcast identity through theory and visual references. A presentation developed for the thesis was later adapted for teaching. Its slides and topic sheets are designed for reuse by lecturers and researchers in classes, workshops and other learning contexts, allowing the same material to be explored beyond the publication."
+        "description": "Audiovisual Identity Hub extends the research into an open-source digital platform for exploring videography and television design. The website connects theory and practice through research and visual examples, with five types of pages forming a single narrative: an introductory landing page, documentation, a gallery organised through a taxonomy of case studies, individual case study pages and an About section explaining the project’s concept and intent."
+      },
+      {
+        "title": "Presentation",
+        "description": "A presentation developed for the thesis defence was later adapted for teaching. Its slides and topic sheets are designed for reuse by lecturers and researchers in classes, workshops and other learning contexts, including the Master’s course in which I worked as an assistant. This allows the same research material to be explored beyond the publication and digital archive."
       }
-    ]
+    ],
+    "emphasis": "visual language and motion"
   },
   "referto": {
     "projectType": "University Project",
@@ -59,13 +65,15 @@ export default {
     "sections": [
       {
         "title": "Shaping the reading experience",
-        "description": "The issue follows five chapters: The Call, The Wait, The Survey, The Rescue and The Transport. Each contains interviews, articles, reports and diaries, bringing different forms of storytelling into a shared editorial structure. Typography, photography and page composition organise these materials, while a photographic insert at the centre of the magazine creates a dedicated space for visual accounts. Swiss binding and a fold-out flap are part of the publication’s physical format, connecting the layout of its pages with the way the printed object is handled and read."
+        "description": "The issue follows five chapters: The Call, The Wait, The Survey, The Rescue and The Transport. Each contains interviews, articles, reports and diaries, bringing different forms of storytelling into a shared editorial structure. Typography, photography and page composition organise these materials, while a photographic insert at the centre of the magazine creates a dedicated space for visual accounts. Swiss binding and a fold-out flap are part of the publication’s physical format, connecting the layout of its pages with the way the printed object is handled and read.",
+        "emphasis": "shared editorial structure"
       },
       {
         "title": "Extending the publication",
         "description": "The project also explores a digital platform where readers can contribute stories connected to the magazine’s themes. This extends the editorial idea beyond the printed issue and creates space for further accounts from the healthcare community."
       }
-    ]
+    ],
+    "emphasis": "human experience of healthcare"
   },
   "previewpretest": {
     "projectType": "Personal Project",
@@ -83,9 +91,11 @@ export default {
       },
       {
         "title": "Pretest",
-        "description": "Pretest is a three-day study event supporting preparation for the Design and Architecture entrance exam. Lectures, practice tests and guided study sessions are supported by presentations and handouts that explain the subjects and accompany the exercises. The visual work brings together these learning resources and the event communication, adapting the identity to an experience centred on preparation and study."
+        "description": "Pretest is a three-day study event supporting preparation for the Design and Architecture entrance exam. Lectures, practice tests and guided study sessions are supported by presentations and handouts that explain the subjects and accompany the exercises. The visual work brings together these learning resources and the event communication, adapting the identity to an experience centred on preparation and study.",
+        "emphasis": "preparation and study"
       }
-    ]
+    ],
+    "emphasis": "evolving identity"
   },
   "disruptive": {
     "projectType": "Personal Project",
@@ -103,9 +113,11 @@ export default {
       },
       {
         "title": "Moving into the exhibition space",
-        "description": "The physical installation brought the exhibition to the 2021 Meeting di Rimini. Originally conceived for digital access during COVID-19 restrictions, the content needed to be adapted to an in-person visit. Videos and digital presentations were incorporated into the exhibition space, extending the online narrative into a shared setting. This part of the project explored how material designed for individual navigation could also be experienced within a physical exhibition."
+        "description": "The physical installation brought the exhibition to the 2021 Meeting di Rimini. Originally conceived for digital access during COVID-19 restrictions, the content needed to be adapted to an in-person visit. Videos and digital presentations were incorporated into the exhibition space, extending the online narrative into a shared setting. This part of the project explored how material designed for individual navigation could also be experienced within a physical exhibition.",
+        "emphasis": "in-person visit"
       }
-    ]
+    ],
+    "emphasis": "digital exhibition"
   },
   "bottleneck": {
     "projectType": "University Project",
@@ -119,13 +131,19 @@ export default {
     "sections": [
       {
         "title": "Organising notifications",
-        "description": "A taxonomy based on application and urgency guided the information architecture, feature selection and platform structure. The proposed interface separates primary and secondary notifications into foreground and background dashboard areas. The concept also includes an interaction page with an AI model through which users can observe how their data is collected, and a search tab for exploring discussions across different channels. These three areas organise how people encounter, inspect and find information within the service."
+        "description": "Research into how people perceive notifications informed a taxonomy based on application and urgency. This framework guided the information architecture, feature selection and platform structure, establishing how different types of notifications would be organised across the service."
+      },
+      {
+        "title": "Features and Tabs",
+        "description": "The proposed interface organises notifications through three main tabs. The dashboard separates primary and secondary notifications into foreground and background areas. An interaction page with an AI model lets users observe how their data is collected, while a search tab supports the exploration of discussions across different channels. These three areas organise how people encounter, inspect and find information within the service."
       },
       {
         "title": "A shared interface system",
-        "description": "A modular set of cards connects the desktop and mobile experiences. Each card follows a shared structure, with components that change according to the content it contains. The design system maintains this consistency across the platform’s different tabs and supports switching between work and personal modes, extending the same visual language across devices and contexts."
+        "description": "A modular set of cards connects the desktop and mobile experiences. Each card follows a shared structure, with components that change according to the content it contains. The design system maintains this consistency across the platform’s different tabs and supports switching between work and personal modes, extending the same visual language across devices and contexts.",
+        "emphasis": "modular set of cards"
       }
-    ]
+    ],
+    "emphasis": "attention and digital overload"
   },
   "carachioggia": {
     "projectType": "University Project",
@@ -142,10 +160,16 @@ export default {
         "description": "Visitors begin with an illustrated map, select a letter and follow its story through scrolling. New content is revealed progressively, connecting the letter to specific people and places while creating moments of anticipation and discovery. Editorial layout, typography, illustrations and podcast audio work together to shape the pace of the experience. Their relationship to scrolling guides the transition from one passage to the next, allowing reading, listening and visual exploration to contribute to the same narrative."
       },
       {
+        "title": "Research & Narrative Design",
+        "description": "Research into Chioggia’s fishing culture combined field observations, interviews and an exploration of the area’s social and geographical identity. The collected material was transformed into personal narratives and letters connecting characters, memories and locations. Editorial structure, visual compositions and illustrations were developed to make these stories accessible while preserving their connection to the territory. Each letter was approached as a complete narrative, bringing written content, visual rhythm, interaction and audio together into a coherent experience.",
+        "emphasis": "connection to the territory"
+      },
+      {
         "title": "Returning to the territory",
         "description": "The concept extends into physical installations and communication materials in Chioggia itself. These connect reading and listening with visiting the locations featured in the letters, bringing the stories back to the places where they originated. The wider system also invites people to contribute new accounts, connecting the digital experience with further exploration of the territory and its community."
       }
-    ]
+    ],
+    "emphasis": "letters, illustrations and audio"
   },
   "sourdata": {
     "projectType": "University Project",
@@ -167,8 +191,10 @@ export default {
       },
       {
         "title": "Prototyping the system",
-        "description": "The collection devices were developed through 3D-printed prototypes. The Coomy device and the hub were also built as functional prototypes, using Arduino to monitor data and share it with an online server. This connected the physical objects with the digital platform, allowing part of the proposed experience to be demonstrated through working components."
+        "description": "The collection devices were developed through 3D-printed prototypes. The Coomy device and the hub were also built as functional prototypes, using Arduino to monitor data and share it with an online server. This connected the physical objects with the digital platform, allowing part of the proposed experience to be demonstrated through working components.",
+        "emphasis": "functional prototypes"
       }
-    ]
+    ],
+    "emphasis": "economic value of personal data"
   }
 }

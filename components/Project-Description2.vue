@@ -3,7 +3,7 @@
 
 
     <h4 aria-level="2"> {{title}} </h4>
-     <p> {{ description }} </p>
+     <ProjectCopy :text="description" :emphasis="emphasis" />
 
 
 
@@ -15,7 +15,7 @@
 <script>
 export default {
   name: "Project-Description",
-  props: ['description', 'title']
+  props: ['description', 'title', 'emphasis']
 }
 </script>
 

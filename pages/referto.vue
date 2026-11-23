@@ -42,6 +42,10 @@
         delivery="Editorial Design Lab, 2023"
         class="my-md-3"
       >
+        <template #overview-copy>
+          <ProjectCopy :text="project.overview" :emphasis="project.emphasis" />
+        </template>
+
 
       </ProjectDescription>
 
@@ -110,7 +114,7 @@
 
           <ProjectDescription2
             :title="project.sections[0].title"
-            :description="project.sections[0].description"
+            :description="project.sections[0].description" :emphasis="project.sections[0].emphasis"
           /> </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
@@ -141,7 +145,7 @@
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <ProjectDescription2
             :title="project.sections[1].title"
-            :description="project.sections[1].description"
+            :description="project.sections[1].description" :emphasis="project.sections[1].emphasis"
           /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
