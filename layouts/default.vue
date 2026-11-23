@@ -298,7 +298,11 @@ p2 {
 
 .subtitlecv{
   font-size: 16px;
-  color: rgba(0, 0, 0, 0.5);
+}
+
+.about .subtitlecv,
+.about .cvpar h6 {
+  color: #666;
 }
 
 .subtitlecv a,
