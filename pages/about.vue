@@ -334,20 +334,29 @@
 
 <style>
 .about .resume-gradient {
-  background-size: 200% 100%;
-  background-position: 0% 50%;
-  animation: resume-gradient-flow 3s ease-in-out infinite alternate;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.about .resume-gradient::before {
+  content: '';
+  position: absolute;
+  inset: -100%;
+  z-index: -1;
+  pointer-events: none;
+  background: conic-gradient(from 0deg, #FFA857, #FF754F, #FF4466, #FF7B93, #FFA857);
+  animation: resume-gradient-flow 4s linear infinite;
 }
 
 @keyframes resume-gradient-flow {
-  from { background-position: 0% 50%; }
-  to { background-position: 100% 50%; }
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .about .resume-gradient {
+  .about .resume-gradient::before {
     animation: none;
-    background-size: 100% 100%;
   }
 }
 
