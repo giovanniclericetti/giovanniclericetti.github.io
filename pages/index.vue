@@ -34,7 +34,7 @@ export default {
 </script>
 
 <style >
-.titleindex { font-family: 'DM Sans'; font-size: 32px; font-weight: 400; color: inherit; }
+.titleindex { font-family: 'Bricolage Grotesque'; font-size: 32px; font-weight: 400; color: inherit; }
 
 .name{
   font-family: 'title-regular';

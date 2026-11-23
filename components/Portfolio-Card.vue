@@ -88,7 +88,7 @@ h6{
   background-color: var(--color-primary);
   opacity: 1;
   border: none;
-  font-family: 'DM Sans';
+  font-family: 'Bricolage Grotesque';
   font-weight: 400;
   font-size: 14px;
   color: #fff}
@@ -267,7 +267,7 @@ h6{
   border-radius: 999px;
   background: var(--category-pill-color, var(--color-primary));
   color: #fff;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.2;
