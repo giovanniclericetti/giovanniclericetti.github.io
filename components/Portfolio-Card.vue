@@ -327,6 +327,12 @@ h6{
   overflow: visible;
 }
 
+@media (min-width: 992px) {
+  /* Match the left inset: 4px row margin + 15px column padding. */
+  .projectcard .bio { margin-bottom: 19px !important; }
+  .projectcard .card-tags .pillshome { margin-bottom: 0 !important; }
+}
+
 @media (max-width: 991.98px) {
   .projectcard { height: auto; min-height: 340px; margin-bottom: 24px; }
   .projectcard-link { min-height: inherit; display: flex; align-items: flex-end; }
