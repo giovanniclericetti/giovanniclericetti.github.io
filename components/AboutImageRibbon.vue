@@ -117,7 +117,7 @@ export default {
   width: auto;
   height: 180px;
   aspect-ratio: 4 / 3;
-  border-radius: 20px;
+  border-radius: 35px;
   overflow: hidden;
 }
 
@@ -133,7 +133,7 @@ export default {
 }
 
 @media (max-width: 767.98px) {
-  .ribbon-card { height: 100px; border-radius: 20px; }
+  .ribbon-card { height: 100px; border-radius: 35px; }
   .ribbon-group { gap: 16px; padding-right: 16px; }
 }
 

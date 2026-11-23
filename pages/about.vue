@@ -151,7 +151,7 @@
 .expertise-column {
   padding: 24px 16px;
   background: white;
-  border-radius: 24px;
+  border-radius: 35px;
 }
 
 .expertise-panel {
@@ -321,7 +321,7 @@
 @media (max-width: 767.98px) {
   .about-expertise { margin-top: 0; text-align: left; }
   .expertise-columns { gap: 12px; }
-  .expertise-column { padding: 20px; border-radius: 20px; }
+  .expertise-column { padding: 20px; border-radius: 35px; }
   .expertise-panel { padding: 0; }
   .expertise-heading { min-height: 0; justify-content: flex-start; margin-left: 0; font-size: 20px; }
   .expertise-divider { margin-bottom: 12px; }
