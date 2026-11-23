@@ -1552,6 +1552,14 @@
     "sha256": "1ce3d7ac3919bf6f0a33e2821323cd3388f8fa46fe9c0bef85384046b035ef9a"
   },
   {
+    "src": "/app-icon-512.png",
+    "bytes": 21786,
+    "width": 512,
+    "height": 512,
+    "format": "png",
+    "sha256": "0d67b9f78180032d20a2137cfd390f568e5aab14203b2b35f8fed6afb3ca883b"
+  },
+  {
     "src": "/images/covers/next/rf-next.jpg",
     "bytes": 19932,
     "width": 1300,
@@ -1694,6 +1702,22 @@
     "height": 94,
     "format": "png",
     "sha256": "76ad0eb99315cbe887bee65e789397e0abb6bc4e076862959415db50c5287dbd"
+  },
+  {
+    "src": "/app-icon-192.png",
+    "bytes": 6568,
+    "width": 192,
+    "height": 192,
+    "format": "png",
+    "sha256": "0b83c7bca5617730f845f57ad17eb6a3db7389d7572ffb244221d6f93ac815d2"
+  },
+  {
+    "src": "/apple-touch-icon.png",
+    "bytes": 6239,
+    "width": 180,
+    "height": 180,
+    "format": "png",
+    "sha256": "e4c48e2ee96806e44355c69378a442750ead1cc80bdadf71ce8343f824e19e7d"
   },
   {
     "src": "/images/aboutme/instagram.svg",
