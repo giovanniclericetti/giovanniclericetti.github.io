@@ -25,6 +25,18 @@
 .portfolio-shell .homepage-header > .header {
   margin-bottom: 0 !important;
 }
+.portfolio-shell .mobile-nav-slot .header > .row {
+  align-items: center;
+}
+.portfolio-shell .mobile-nav-slot .header a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+}
+.portfolio-shell .mobile-nav-slot .header a > img,
+.portfolio-shell .mobile-nav-slot .header a > svg {
+  display: block;
+}
 @media (min-width: 992px) {
   .portfolio-shell .mobile-nav-slot {
     display: contents;
