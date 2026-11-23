@@ -217,10 +217,10 @@
   }
 }
 @media (max-width: 991.98px) {
-  /* Use the existing neutral for secondary copy; the original 50% black failed AA. */
+  /* Match About secondary copy and labels across screen sizes. */
   .portfolio-shell .about .subtitlecv,
   .portfolio-shell .about h6:not(.gradient) {
-    color: #666;
+    color: #777;
   }
   .portfolio-shell .project-next .next-project-title h4 {
     color: #222 !important;
