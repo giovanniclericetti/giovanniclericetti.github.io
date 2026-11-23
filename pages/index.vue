@@ -41,6 +41,24 @@ export default {
   font-size: 34px;
 }
 
+.index .name.gradient {
+  background-size: 200% 100%;
+  background-position: 0% 50%;
+  animation: intro-gradient-flow 6s ease-in-out infinite alternate;
+}
+
+@keyframes intro-gradient-flow {
+  from { background-position: 0% 50%; }
+  to { background-position: 100% 50%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .index .name.gradient {
+    animation: none;
+    background-size: 100% 100%;
+  }
+}
+
 .titleindex{
   width: 85%;
   line-height: 140%
