@@ -53,10 +53,6 @@ export default {
   text-decoration: none;
 }
 
-.social::after {
-  bottom: 8px;
-}
-
 .social-arrow {
   margin-left: 4px;
   font-family: 'Inter', sans-serif;

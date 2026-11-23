@@ -23,11 +23,6 @@ export default {
 
 <style scoped>
 
-.hover-underline-animation:after {
-  height: 2px;
-  bottom: 6px;
-}
-
 
 
 @media (max-width: 991.98px) {

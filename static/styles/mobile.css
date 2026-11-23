@@ -50,9 +50,20 @@
 @media (prefers-reduced-motion: reduce) {
   .header-icon-glyph { transition: none; }
 }
-.portfolio-shell .mobile-nav-slot .header .hover-underline-animation::after {
-  top: calc(50% + 0.55rem);
+.portfolio-shell main .hover-underline-animation::after,
+.portfolio-shell main .hover-a-underline-animation::after,
+.portfolio-shell main .about-inline-link::after {
+  top: calc(50% + 0.55em);
   bottom: auto;
+  height: 2px;
+  transition: transform 0.25s ease-out;
+}
+.portfolio-shell a:hover .hover-underline-animation::after,
+.portfolio-shell a:focus-visible .hover-underline-animation::after,
+.portfolio-shell .hover-underline-animation:focus-visible::after,
+.portfolio-shell .hover-a-underline-animation:focus-visible::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 @media (min-width: 992px) {
   .portfolio-shell .mobile-nav-slot {
