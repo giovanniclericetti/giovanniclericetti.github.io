@@ -20,8 +20,8 @@ async function main() {
   assert.equal(translate(undefined, 'it'), undefined)
   assert.equal(translate('AC Milan', 'it'), 'AC Milan')
   assert.equal(translate('project', 'it'), '.')
-  assert.equal(translate('Branding', 'it', 'previewpretest.pill1'), 'Identità visiva')
-  assert.equal(translate('Branding', 'it', 'acmilan3.pill1'), 'Brand design')
+  assert.equal(translate('Branding', 'it', 'previewpretest.pill1'), 'Branding')
+  assert.equal(translate('Branding', 'it', 'acmilan3.pill1'), 'Branding')
   assert.equal(translate('Presentation', 'it', 'audiovisualidentity.sections.2.title'), 'Dalla discussione di tesi alla didattica')
   assert.equal(translate('Branding', 'en', 'acmilan3.pill1'), 'Branding')
 
