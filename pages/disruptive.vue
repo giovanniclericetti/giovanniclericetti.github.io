@@ -40,6 +40,9 @@
         delivery="Exhibition for Meeting di Rimini, 2021"
         class="my-md-3"
       >
+        <template #role-copy>
+          <ProjectCopy :text="project.contribution" :emphasis="project.contributionEmphasis" />
+        </template>
         <template #overview-copy>
           <ProjectCopy :text="project.overview" :emphasis="project.emphasis" />
         </template>

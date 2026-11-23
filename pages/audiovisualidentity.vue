@@ -55,7 +55,7 @@
           <p> Francesco Ermanno Guida </p>
 
           <h4 aria-level="2" class="mt-4 "> My contribution </h4>
-          <p>{{ project.contribution }}</p>
+          <ProjectCopy :text="project.contribution" :emphasis="project.contributionEmphasis" />
 
           <h4 aria-level="2" class="mt-4 "> Delivery </h4>
           <p> Research-Based Design Project </p>

@@ -37,6 +37,9 @@
         delivery="Final Synthesis Master Lab, 2023"
         class="my-md-3"
       >
+        <template #role-copy>
+          <ProjectCopy :text="project.contribution" :emphasis="project.contributionEmphasis" />
+        </template>
         <template #overview-copy>
           <ProjectCopy :text="project.overview" :emphasis="project.emphasis" />
         </template>

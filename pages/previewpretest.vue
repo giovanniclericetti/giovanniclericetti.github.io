@@ -42,6 +42,9 @@
         :role="project.contribution"
         delivery="Extracurricular Project for Polimi, 2020-2022"
         class="my-md-3">
+        <template #role-copy>
+          <ProjectCopy :text="project.contribution" :emphasis="project.contributionEmphasis" />
+        </template>
         <template #overview-copy>
           <ProjectCopy :text="project.overview" :emphasis="project.emphasis" />
         </template>

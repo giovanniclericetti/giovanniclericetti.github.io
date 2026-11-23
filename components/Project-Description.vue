@@ -19,7 +19,7 @@
       <p v-html="formatTeam(team)"></p>
 
       <h4 aria-level="2" class="mt-4"> {{ roleTitle }} </h4>
-      <p> {{ role }} </p>
+      <slot name="role-copy"><p> {{ role }} </p></slot>
 
       <h4 aria-level="2" class="mt-4"> Delivery </h4>
       <p> {{ delivery }} </p>

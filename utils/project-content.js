@@ -44,14 +44,17 @@ export default {
       },
       {
         "title": "Making the material accessible",
-        "description": "Audiovisual Identity Hub extends the research into an open-source digital platform for exploring videography and television design. The website connects theory and practice through research and visual examples, with five types of pages forming a single narrative: an introductory landing page, documentation, a gallery organised through a taxonomy of case studies, individual case study pages and an About section explaining the project’s concept and intent."
+        "description": "Audiovisual Identity Hub extends the research into an open-source digital platform for exploring videography and television design. The website connects theory and practice through research and visual examples, with five types of pages forming a single narrative: an introductory landing page, documentation, a gallery organised through a taxonomy of case studies, individual case study pages and an About section explaining the project’s concept and intent.",
+        "emphasis": "open-source digital platform"
       },
       {
         "title": "Presentation",
-        "description": "A presentation developed for the thesis defence was later adapted for teaching. Its slides and topic sheets are designed for reuse by lecturers and researchers in classes, workshops and other learning contexts, including the Master’s course in which I worked as an assistant. This allows the same research material to be explored beyond the publication and digital archive."
+        "description": "A presentation developed for the thesis defence was later adapted for teaching. Its slides and topic sheets are designed for reuse by lecturers and researchers in classes, workshops and other learning contexts, including the Master’s course in which I worked as an assistant. This allows the same research material to be explored beyond the publication and digital archive.",
+        "emphasis": "adapted for teaching"
       }
     ],
-    "emphasis": "visual language and motion"
+    "emphasis": "visual language and motion",
+    "contributionEmphasis": "editorial design"
   },
   "referto": {
     "projectType": "University Project",
@@ -70,10 +73,12 @@ export default {
       },
       {
         "title": "Extending the publication",
-        "description": "The project also explores a digital platform where readers can contribute stories connected to the magazine’s themes. This extends the editorial idea beyond the printed issue and creates space for further accounts from the healthcare community."
+        "description": "The project also explores a digital platform where readers can contribute stories connected to the magazine’s themes. This extends the editorial idea beyond the printed issue and creates space for further accounts from the healthcare community.",
+        "emphasis": "readers can contribute stories"
       }
     ],
-    "emphasis": "human experience of healthcare"
+    "emphasis": "human experience of healthcare",
+    "contributionEmphasis": "editorial layout"
   },
   "previewpretest": {
     "projectType": "Personal Project",
@@ -87,7 +92,8 @@ export default {
     "sections": [
       {
         "title": "Preview",
-        "description": "Preview introduces prospective students to university courses through a showcase of student projects. Centred on a one-day event, it gives visitors an opportunity to understand the different study paths through examples of work produced by students. A showcase website and communication materials accompany the event, extending the presentation of the projects across digital and social channels. The visual identity develops between editions while maintaining a recognisable connection across these materials."
+        "description": "Preview introduces prospective students to university courses through a showcase of student projects. Centred on a one-day event, it gives visitors an opportunity to understand the different study paths through examples of work produced by students. A showcase website and communication materials accompany the event, extending the presentation of the projects across digital and social channels. The visual identity develops between editions while maintaining a recognisable connection across these materials.",
+        "emphasis": "showcase of student projects"
       },
       {
         "title": "Pretest",
@@ -95,7 +101,8 @@ export default {
         "emphasis": "preparation and study"
       }
     ],
-    "emphasis": "evolving identity"
+    "emphasis": "evolving identity",
+    "contributionEmphasis": "identity development"
   },
   "disruptive": {
     "projectType": "Personal Project",
@@ -109,7 +116,8 @@ export default {
     "sections": [
       {
         "title": "Organising the digital exhibition",
-        "description": "The interface uses cards to organise the exhibition into three main sections. Research into digital exhibitions informed an interaction model inspired by Instagram Stories, with individual cards combining text, infographics, illustrations, photographs and video. Visitors can move through this content for a quick introduction, then open longer articles to explore a subject in more depth."
+        "description": "The interface uses cards to organise the exhibition into three main sections. Research into digital exhibitions informed an interaction model inspired by Instagram Stories, with individual cards combining text, infographics, illustrations, photographs and video. Visitors can move through this content for a quick introduction, then open longer articles to explore a subject in more depth.",
+        "emphasis": "interaction model"
       },
       {
         "title": "Moving into the exhibition space",
@@ -117,7 +125,8 @@ export default {
         "emphasis": "in-person visit"
       }
     ],
-    "emphasis": "digital exhibition"
+    "emphasis": "digital exhibition",
+    "contributionEmphasis": "interface design"
   },
   "bottleneck": {
     "projectType": "University Project",
@@ -131,11 +140,13 @@ export default {
     "sections": [
       {
         "title": "Organising notifications",
-        "description": "Research into how people perceive notifications informed a taxonomy based on application and urgency. This framework guided the information architecture, feature selection and platform structure, establishing how different types of notifications would be organised across the service."
+        "description": "Research into how people perceive notifications informed a taxonomy based on application and urgency. This framework guided the information architecture, feature selection and platform structure, establishing how different types of notifications would be organised across the service.",
+        "emphasis": "application and urgency"
       },
       {
         "title": "Features and Tabs",
-        "description": "The proposed interface organises notifications through three main tabs. The dashboard separates primary and secondary notifications into foreground and background areas. An interaction page with an AI model lets users observe how their data is collected, while a search tab supports the exploration of discussions across different channels. These three areas organise how people encounter, inspect and find information within the service."
+        "description": "The proposed interface organises notifications through three main tabs. The dashboard separates primary and secondary notifications into foreground and background areas. An interaction page with an AI model lets users observe how their data is collected, while a search tab supports the exploration of discussions across different channels. These three areas organise how people encounter, inspect and find information within the service.",
+        "emphasis": "primary and secondary notifications"
       },
       {
         "title": "A shared interface system",
@@ -143,7 +154,8 @@ export default {
         "emphasis": "modular set of cards"
       }
     ],
-    "emphasis": "attention and digital overload"
+    "emphasis": "attention and digital overload",
+    "contributionEmphasis": "interface design"
   },
   "carachioggia": {
     "projectType": "University Project",
@@ -157,7 +169,8 @@ export default {
     "sections": [
       {
         "title": "From the map to the story",
-        "description": "Visitors begin with an illustrated map, select a letter and follow its story through scrolling. New content is revealed progressively, connecting the letter to specific people and places while creating moments of anticipation and discovery. Editorial layout, typography, illustrations and podcast audio work together to shape the pace of the experience. Their relationship to scrolling guides the transition from one passage to the next, allowing reading, listening and visual exploration to contribute to the same narrative."
+        "description": "Visitors begin with an illustrated map, select a letter and follow its story through scrolling. New content is revealed progressively, connecting the letter to specific people and places while creating moments of anticipation and discovery. Editorial layout, typography, illustrations and podcast audio work together to shape the pace of the experience. Their relationship to scrolling guides the transition from one passage to the next, allowing reading, listening and visual exploration to contribute to the same narrative.",
+        "emphasis": "illustrated map"
       },
       {
         "title": "Research & Narrative Design",
@@ -166,10 +179,12 @@ export default {
       },
       {
         "title": "Returning to the territory",
-        "description": "The concept extends into physical installations and communication materials in Chioggia itself. These connect reading and listening with visiting the locations featured in the letters, bringing the stories back to the places where they originated. The wider system also invites people to contribute new accounts, connecting the digital experience with further exploration of the territory and its community."
+        "description": "The concept extends into physical installations and communication materials in Chioggia itself. These connect reading and listening with visiting the locations featured in the letters, bringing the stories back to the places where they originated. The wider system also invites people to contribute new accounts, connecting the digital experience with further exploration of the territory and its community.",
+        "emphasis": "physical installations"
       }
     ],
-    "emphasis": "letters, illustrations and audio"
+    "emphasis": "letters, illustrations and audio",
+    "contributionEmphasis": "art direction"
   },
   "sourdata": {
     "projectType": "University Project",
@@ -183,11 +198,13 @@ export default {
     "sections": [
       {
         "title": "Building the brand",
-        "description": "The visual identity extends across posters, packaging, social content, instructions and digital screens. These materials introduce the fictional service and explain how its objects and platform fit together, giving the speculative idea a recognisable presence. Launch posters introduce the kind of data being exchanged, while the user manual, website, presentation slides and brochures explain the proposal and guide people through the experience."
+        "description": "The visual identity extends across posters, packaging, social content, instructions and digital screens. These materials introduce the fictional service and explain how its objects and platform fit together, giving the speculative idea a recognisable presence. Launch posters introduce the kind of data being exchanged, while the user manual, website, presentation slides and brochures explain the proposal and guide people through the experience.",
+        "emphasis": "visual identity"
       },
       {
         "title": "Making data exchange tangible",
-        "description": "The experience uses physical actions to represent data collection and exchange. After accepting the terms of the service, users receive a box containing a wearable device and a hub shaped like a piggy bank. Data collected by the device is stored on an SD card, which users transfer to the hub. Pressing a button sends the information to the digital platform, where it can be viewed and users can receive their reward. The piggy bank form connects data with economic value, while pressing the button represents consent to sharing it."
+        "description": "The experience uses physical actions to represent data collection and exchange. After accepting the terms of the service, users receive a box containing a wearable device and a hub shaped like a piggy bank. Data collected by the device is stored on an SD card, which users transfer to the hub. Pressing a button sends the information to the digital platform, where it can be viewed and users can receive their reward. The piggy bank form connects data with economic value, while pressing the button represents consent to sharing it.",
+        "emphasis": "consent to sharing"
       },
       {
         "title": "Prototyping the system",
@@ -195,6 +212,7 @@ export default {
         "emphasis": "functional prototypes"
       }
     ],
-    "emphasis": "economic value of personal data"
+    "emphasis": "economic value of personal data",
+    "contributionEmphasis": "interface design"
   }
 }
