@@ -65,6 +65,10 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+.portfolio-shell .index .header .hover-underline-animation::after,
+.portfolio-shell .about .header .hover-underline-animation::after {
+  top: calc(50% + 0.4em);
+}
 @media (min-width: 992px) {
   .portfolio-shell .mobile-nav-slot {
     display: contents;
@@ -83,7 +87,7 @@
     min-height: 48px;
   }
   .portfolio-shell main .copyright {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
     opacity: 0.7;
   }

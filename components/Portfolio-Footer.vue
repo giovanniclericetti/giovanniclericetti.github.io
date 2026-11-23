@@ -49,7 +49,7 @@ export default {
   align-items: center;
   min-height: 44px;
   color: inherit;
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
 }
 
