@@ -14,9 +14,9 @@
       <span class="intro-line">{{ $t("on brand communication and commercial partnerships.") }}</span>
     </h1>
     <h1 v-else class="titleindex italian-intro">
-      <span class="intro-line">Ciao! Sono Giovanni, <span class="name gradient">Visual Designer</span> nel mondo</span>
-      <span class="intro-line">dello sport. Collaboro con <span class="intro-link-word"><a class="hover-a-underline-animation" href="https://www.acmilan.com/">AC Milan</a>,</span> lavorando a progetti</span>
-      <span class="intro-line">di comunicazione visiva e partnership commerciali.</span>
+      <span class="intro-line">Ciao! Sono Giovanni, <span class="name gradient">Visual Designer</span> nel Mondo</span>
+      <span class="intro-line">dello Sport. Collaboro con <span class="intro-link-word"><a class="hover-a-underline-animation" href="https://www.acmilan.com/">AC Milan</a>,</span> lavorando a progetti</span>
+      <span class="intro-line">di Comunicazione Visiva e Partnership Commerciali.</span>
     </h1>
 
   </div>
