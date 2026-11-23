@@ -102,7 +102,7 @@ export default {
   opacity: 1;
   border: none;
   font-family: 'Bricolage Grotesque';
-  font-weight: 400;
+  font-weight: 600;
   font-size: 14px;
   color: #fff}
 

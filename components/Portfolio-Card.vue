@@ -92,7 +92,7 @@ h6{
   opacity: 1;
   border: none;
   font-family: 'Bricolage Grotesque';
-  font-weight: 400;
+  font-weight: 600;
   font-size: 14px;
   color: #fff}
 
@@ -282,7 +282,7 @@ h6{
   color: #fff;
   font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.2;
   white-space: nowrap;
   pointer-events: none;
