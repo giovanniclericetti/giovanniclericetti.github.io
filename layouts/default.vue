@@ -302,7 +302,7 @@ p2 {
 
 .about .subtitlecv,
 .about .cvpar h6 {
-  color: #777;
+  color: #808080;
 }
 
 .subtitlecv a,
