@@ -426,7 +426,7 @@ export default {
   content: '';
   position: absolute;
   inset: 32px 0 0;
-  border-radius: 30px;
+  border-radius: 40px;
   background: linear-gradient(to bottom, rgba(200, 200, 200, 0.5), rgba(200, 200, 200, 0));
 }
 

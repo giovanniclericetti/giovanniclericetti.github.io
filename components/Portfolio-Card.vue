@@ -102,7 +102,7 @@ h6{
 }
 
 .projectcard {
-  border-radius: 42px;
+  border-radius: 40px;
   position: relative;
   margin-bottom: 32px;
   overflow: visible;
@@ -239,7 +239,7 @@ h6{
 @media (max-width: 991.98px) {
   .projectcard {
     margin-bottom: 16px;
-    border-radius: 42px;
+    border-radius: 40px;
   }
 
   .titlemob{
