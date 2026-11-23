@@ -8,11 +8,12 @@
 
   <div class="homepage-intro">
 
-    <h1 class="titleindex">
+    <h1 v-if="$locale.state.language === 'en'" class="titleindex">
       <span class="intro-line">{{ $t("Hey! I'm Giovanni, a ") }}<span class="name gradient">{{ $t("Visual Designer") }}</span>{{ $t(" working in the") }}</span>
       <span class="intro-line">{{ $t("sports industry. I currently work with ") }}<a class="hover-a-underline-animation" href="https://www.acmilan.com/">AC Milan</a>{{ $t(", focusing") }}</span>
       <span class="intro-line">{{ $t("on brand communication and commercial partnerships.") }}</span>
     </h1>
+    <h1 v-else class="titleindex italian-intro">Ciao, sono Giovanni, <span class="name gradient">Visual &amp; Brand Designer</span> nel mondo dello sport. Collaboro con <span class="intro-link-word"><a class="hover-a-underline-animation" href="https://www.acmilan.com/">AC Milan</a>,</span> occupandomi di brand design e comunicazione per le partnership commerciali.</h1>
 
   </div>
 
@@ -34,6 +35,8 @@ export default {
 </script>
 
 <style >
+.index .italian-intro { text-wrap: balance; }
+.intro-link-word { white-space: nowrap; }
 .titleindex { font-family: 'Bricolage Grotesque'; font-size: 32px; font-weight: 400; color: inherit; }
 
 .name{

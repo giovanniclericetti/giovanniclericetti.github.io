@@ -56,7 +56,7 @@
         <AboutCvElement category="2024" class="mt-3">
           <template #slotcvelement>
             <p>{{ $t("Erasmus Exchange - Master Digital Design") }}</p>
-            <p class="subtitlecv"><a class="underlinemobile" href="https://cmd-amsterdam.nl/">Hogeschool van Amsterdam</a>, Amsterdam, NL</p>
+            <p class="subtitlecv"><a class="underlinemobile" href="https://cmd-amsterdam.nl/">Hogeschool van Amsterdam</a>{{ $t(", Amsterdam, NL") }}</p>
           </template>
         </AboutCvElement>
 
@@ -102,14 +102,14 @@
         <AboutCvElement category="2023, Polimi Design School" class="mt-0">
           <template #slotcvelement>
             <p class="exhibition-title">{{ $t("Belonging / Not Belonging - Indie Magazine for social change at La Stecca 3 exhibition space") }}</p>
-            <p class="subtitlecv">{{ $t("Presentation of the ") }}<NuxtLink class="underlinemobile" to="/referto">Referto Magazine</NuxtLink>{{ $t(" project") }}</p>
+            <p class="subtitlecv">{{ $t("Presentation of the ") }}<NuxtLink class="underlinemobile" to="/referto">Referto Magazine</NuxtLink>{{ $locale.state.language === 'it' ? '.' : ' project' }}</p>
           </template>
         </AboutCvElement>
 
         <AboutCvElement category="2022, FuoriSalone Milan Design Week" class="mt-3">
           <template #slotcvelement>
             <p class="exhibition-title">{{ $t("DesignXDesigner - Polimi Design Student Exhibition at Fuorisalone") }}</p>
-            <p class="subtitlecv">{{ $t("Presentation of the ") }}<NuxtLink class="underlinemobile" to="/sourdata">SourData</NuxtLink>{{ $t(" project") }}</p>
+            <p class="subtitlecv">{{ $t("Presentation of the ") }}<NuxtLink class="underlinemobile" to="/sourdata">SourData</NuxtLink>{{ $locale.state.language === 'it' ? '.' : ' project' }}</p>
           </template>
         </AboutCvElement>
 
@@ -161,7 +161,7 @@
         <AboutCvElement category="Volunteering (2019-2021)" class="mt-3">
           <template #slotcvelement>
             <p>{{ $t("Sales Clerk at the University Bookstore") }}</p>
-            <p class="subtitlecv">CUSL, Politecnico di Milano</p>
+            <p class="subtitlecv">{{ $t("CUSL, Politecnico di Milano") }}</p>
           </template>
         </AboutCvElement>
 
@@ -252,7 +252,7 @@
 
         <AboutCvElement category="AI Tools" class="software-tools-entry mt-3">
           <template #slotcvelement>
-            <p>ChatGPT, Claude, EnvatoLab, Nanobanana, Midjourney, Gemini, Photoshop AI</p>
+            <p>{{ $t("ChatGPT, Claude, EnvatoLab, Nanobanana, Midjourney, Gemini, Photoshop AI") }}</p>
           </template>
         </AboutCvElement>
 
@@ -264,13 +264,13 @@
 
         <AboutCvElement category="Other Tools" class="software-tools-entry mt-3">
           <template #slotcvelement>
-            <p>Miro, Word, Excel, Teams, GettyImages</p>
+            <p>{{ $t("Miro, Word, Excel, Teams, GettyImages") }}</p>
           </template>
         </AboutCvElement>
 
         <AboutCvElement category="Coding &amp; Website" class="software-tools-entry mt-3">
           <template #slotcvelement>
-            <p>HTML, CSS, JavaScript, Nuxt, Figma Site, Vue, Bootstrap, WordPress, Framer</p>
+            <p>{{ $t("HTML, CSS, JavaScript, Nuxt, Figma Site, Vue, Bootstrap, WordPress, Framer") }}</p>
           </template>
         </AboutCvElement>
 

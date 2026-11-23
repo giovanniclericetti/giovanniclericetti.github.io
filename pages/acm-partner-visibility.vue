@@ -14,7 +14,7 @@
       </div>
       <section class="project-section" aria-labelledby="project-overview">
         <div class="section-copy">
-          <h4 aria-level="2" id="project-overview">{{ $t("Project Overview") }}</h4>
+          <h4 aria-level="2" id="project-overview">{{ $t("Project Overview", "acm-partner-visibility.overviewTitle") }}</h4>
           <p>{{ $t(project.overview) }}</p>
         </div>
         <div class="gallery-row overview-gallery">
@@ -24,7 +24,7 @@
       </section>
       <section class="project-section" aria-labelledby="section-0">
         <div class="section-copy">
-          <h4 aria-level="2" id="section-0">{{ $t("Venue Branding") }}</h4>
+          <h4 aria-level="2" id="section-0">{{ $t("Venue Branding", "acm-partner-visibility.sections.0.title") }}</h4>
           <p>{{ $t("Design of branded graphics for Milanello, the Vismara Sports Centre, and San Siro, covering training pitches, sports facilities, and dedicated partner spaces. Partner visibility is updated whenever new commercial agreements are signed, according to each partner's tier and allocated spaces. To manage these updates efficiently, we developed a graphic system that simplifies the integration of new partners and the adaptation of assets across different formats.") }}</p>
         </div>
         <div class="gallery-split venue-gallery">
@@ -44,7 +44,7 @@
       </section>
       <section class="project-section" aria-labelledby="section-1">
         <div class="section-copy">
-          <h4 aria-level="2" id="section-1">{{ $t("Media Assets") }}</h4>
+          <h4 aria-level="2" id="section-1">{{ $t("Media Assets", "acm-partner-visibility.sections.1.title") }}</h4>
           <p>{{ $t("Creation of visual assets for partner visibility across the Club's media and digital touchpoints, including press conference backdrops, flash interviews, mixed zones, LED boards, and screens. Development of static and animated content, adapted to different formats and event requirements. As with physical spaces, digital assets are regularly updated to reflect partner agreements and visibility requirements, ensuring consistency across all applications.") }}</p>
         </div>
         <div class="gallery-split media-gallery">
@@ -64,7 +64,7 @@
       </section>
       <section class="project-section" aria-labelledby="section-2">
         <div class="section-copy">
-          <h4 aria-level="2" id="section-2">{{ $t("Partner Co-Branding") }}</h4>
+          <h4 aria-level="2" id="section-2">{{ $t("Partner Co-Branding", "acm-partner-visibility.sections.2.title") }}</h4>
           <p>{{ $t("Creation of graphics for new partnership announcements and production of co-branded communication materials for commercial partners' activities and initiatives. Writing and layout design of AC Milan's Partnership Style Guide, a reference document for partners on the correct use of the Club's visual identity and brand assets. Review of partner-produced materials, verification of compliance with brand guidelines, and management of the approval process.") }}</p>
         </div>
         <div class="gallery-row partner-pair">

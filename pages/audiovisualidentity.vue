@@ -39,7 +39,7 @@
 
         <b-col cols="12" md="7">
 
-          <h4 aria-level="2">{{ $t(" Introduction ") }}</h4>
+          <h4 aria-level="2">{{ $t(" Introduction ", "audiovisualidentity.overviewTitle") }}</h4>
           <ProjectCopy :text="project.overview" :emphasis="project.emphasis" />
 
           <slot name="link2">
@@ -58,7 +58,7 @@
           <ProjectCopy :text="project.contribution" :emphasis="project.contributionEmphasis" />
 
           <h4 aria-level="2" class="mt-4 ">{{ $t(" Delivery ") }}</h4>
-          <p>{{ $t(" Research-Based Design Project ") }}</p>
+          <p>{{ $t(" Research-Based Design Project ", "audiovisualidentity.delivery") }}</p>
 
           <div class="mt-md-4 mt-4">
             <a href="https://audiovisualidentityhub.vercel.app/index.html" target="_blank" rel="noopener noreferrer">
@@ -85,7 +85,7 @@
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
         <ProjectDescription2
-            :title="$t(project.sections[0].title)"
+            :title="$t(project.sections[0].title, 'audiovisualidentity.sections.0.title')"
             :description="project.sections[0].description" :emphasis="project.sections[0].emphasis"
           /> </b-col>
 
@@ -128,7 +128,7 @@
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <ProjectDescription2
-            :title="$t(project.sections[1].title)"
+            :title="$t(project.sections[1].title, 'audiovisualidentity.sections.1.title')"
             :description="project.sections[1].description" :emphasis="project.sections[1].emphasis"
           /> </b-col>
 
@@ -172,7 +172,7 @@
 
 
         <b-col cols="12" md="12" class="py-md-3 py-2 px-3">
-          <ProjectDescription2 :title="$t(project.sections[2].title)" :description="project.sections[2].description" :emphasis="project.sections[2].emphasis" />
+          <ProjectDescription2 :title="$t(project.sections[2].title, 'audiovisualidentity.sections.2.title')" :description="project.sections[2].description" :emphasis="project.sections[2].emphasis" />
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">

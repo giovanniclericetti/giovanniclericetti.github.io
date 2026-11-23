@@ -51,12 +51,14 @@ export default {
     },
   },
   head() {
+    const seo = portfolioSeo(this.$route.path, this.$locale.state.language)
     return {
-      ...portfolioSeo(this.$route.path, this.$t),
+      ...seo,
       htmlAttrs: { lang: this.$locale.state.language },
       noscript: [{ hid: 'image-fallback', innerHTML: imageFallback(this.$route.path) }],
       __dangerouslyDisableSanitizersByTagID: { 'image-fallback': ['innerHTML'] },
       link: [
+        ...seo.link,
         ...imagePreloads(this.$route.path),
         { rel: 'preload', as: 'font', type: 'font/ttf', href: '/font/bricolage-grotesque-variable.ttf', crossorigin: 'anonymous' }
       ]
@@ -67,6 +69,10 @@ export default {
 
 
 <style>
+#main-content h1,
+#main-content h4 { text-wrap: balance; }
+#main-content p { text-wrap: pretty; }
+
 .page-reveal { opacity: 0; transition: opacity 650ms ease; }
 .page-reveal.is-revealed, .page-reveal:focus-within { opacity: 1; }
 .media-loading {

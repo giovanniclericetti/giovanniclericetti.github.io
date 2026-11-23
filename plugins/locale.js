@@ -23,5 +23,5 @@ export default (_, inject) => {
     },
   }
   inject('locale', locale)
-  inject('t', value => translate(value, state.language))
+  inject('t', (value, context) => translate(value, state.language, context))
 }

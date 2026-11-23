@@ -81,7 +81,7 @@
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <ProjectDescription2
-            :title="$t(project.sections[0].title)"
+            :title="$t(project.sections[0].title, 'previewpretest.sections.0.title')"
             :description="project.sections[0].description" :emphasis="project.sections[0].emphasis"
           /> </b-col>
 
@@ -108,7 +108,7 @@
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <ProjectDescription2
-            :title="$t(project.sections[1].title)"
+            :title="$t(project.sections[1].title, 'previewpretest.sections.1.title')"
             :description="project.sections[1].description" :emphasis="project.sections[1].emphasis"
           /> </b-col>
 

@@ -3,7 +3,7 @@
   <b-row>
     <b-col cols="12" md="7">
 
-    <h4 aria-level="2">{{ $t(" Project Overview ") }}</h4>
+    <h4 aria-level="2">{{ $t(" Project Overview ", `${translationId}.overviewTitle`) }}</h4>
      <slot name="overview-copy"><p> {{ $t(description) }} </p></slot>
 
       <slot name="link2">
@@ -22,7 +22,7 @@
       <slot name="role-copy"><p> {{ $t(role) }} </p></slot>
 
       <h4 aria-level="2" class="mt-4">{{ $t(" Delivery ") }}</h4>
-      <p> {{ $t(delivery) }} </p>
+      <p> {{ $t(delivery, `${translationId}.delivery`) }} </p>
 
       <slot name="link">
       </slot>
@@ -37,6 +37,9 @@
 export default {
   name: "Project-Description",
   props: ['description', 'team', 'role', 'delivery'],
+  computed: {
+    translationId() { return this.$route.path.replace(/^\/|\/$/g, '') },
+  },
   methods: {
     formatTeam(team) {
       return team.replace(/\n/g, '<br>')

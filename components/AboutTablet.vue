@@ -9,7 +9,7 @@
         <img src="~/static/images/aboutme/instagram.svg" alt="">
       </a>
 
-      <a class="tile social mail" href="mailto:giovanni.clericetti@gmail.com" aria-label="Mail">
+      <a class="tile social mail" href="mailto:giovanni.clericetti@gmail.com" :aria-label="$t('Mail')">
         <img src="~/static/images/aboutme/mail.svg" alt="">
       </a>
 

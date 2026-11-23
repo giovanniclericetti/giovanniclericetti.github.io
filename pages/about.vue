@@ -9,7 +9,8 @@
     <div class="about-sections">
     <div>
 
-      <h1 class="titleindex">{{ $t("After graduating in Communication Design from ") }}<span class="intro-link-word"><a class="name gradient about-inline-link" href="https://www.polimi.it/">Polimi</a>,</span>{{ $t(" I now work with ") }}<span class="intro-link-word"><a class="name gradient about-inline-link" href="https://www.acmilan.com/">AC Milan</a>,</span>{{ $t(" combining creativity and strategy across visual identities, digital experiences and live environments.") }}</h1>
+      <h1 v-if="$locale.state.language === 'en'" class="titleindex">{{ $t("After graduating in Communication Design from ") }}<span class="intro-link-word"><a class="name gradient about-inline-link" href="https://www.polimi.it/">Polimi</a>,</span>{{ $t(" I now work with ") }}<span class="intro-link-word"><a class="name gradient about-inline-link" href="https://www.acmilan.com/">AC Milan</a>,</span>{{ $t(" combining creativity and strategy across visual identities, digital experiences and live environments.") }}</h1>
+      <h1 v-else class="titleindex">La mia formazione in Design della Comunicazione al <a class="name gradient about-inline-link" href="https://www.polimi.it/">Politecnico di Milano</a> guida un approccio che unisce creatività e strategia. Lo porto nel lavoro con <span class="intro-link-word"><a class="name gradient about-inline-link" href="https://www.acmilan.com/">AC Milan</a>,</span> tra identità visive, esperienze digitali e progetti per eventi e spazi fisici.</h1>
 
     </div>
 

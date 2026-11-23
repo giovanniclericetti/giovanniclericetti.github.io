@@ -42,9 +42,9 @@
           </b-col>
 
         <b-col cols="12" md="" class="text-right d-none d-md-block next-project-pills">
-          <b-badge pill class="pillshome mx-0 mr-1  p-1 px-2"> {{ $t(pill1) }}</b-badge>
-          <b-badge pill class="pillshome mx-0 mr-1  p-1 px-2"> {{ $t(pill2) }}</b-badge>
-          <b-badge v-if="pill3" pill class="pillshome mx-0 mr-0  p-1 px-2"> {{ $t(pill3) }}</b-badge>
+          <b-badge pill class="pillshome mx-0 mr-1  p-1 px-2"> {{ $t(pill1, `${translationId}.pill1`) }}</b-badge>
+          <b-badge pill class="pillshome mx-0 mr-1  p-1 px-2"> {{ $t(pill2, `${translationId}.pill2`) }}</b-badge>
+          <b-badge v-if="pill3" pill class="pillshome mx-0 mr-0  p-1 px-2"> {{ $t(pill3, `${translationId}.pill3`) }}</b-badge>
         </b-col>
 
       </b-row>
@@ -63,6 +63,9 @@
 
 
 export default {
+  computed: {
+    translationId() { return this.to.replace(/^\/|\/$/g, '') },
+  },
   name: "ProjectNextPrevious",
   props: {
     title: String,

@@ -9,6 +9,7 @@
     <div class="language-options" role="group" :aria-label="$t(&quot;Choose language&quot;)">
       <button v-for="option in languages" :key="option.code" type="button"
         :aria-pressed="language === option.code" :lang="option.code"
+        :aria-label="$t(option.code === 'en' ? 'Read this page in English' : 'Read this page in Italian')"
         @click="select(option.code)">
         <span>{{ option.label }}</span>
         <svg v-if="language === option.code" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">

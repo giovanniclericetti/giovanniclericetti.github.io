@@ -355,6 +355,13 @@ export default {
       this.fitFrame = requestAnimationFrame(this.fitCardText)
     },
     fitCardText() {
+      // Italian titles and tags wrap at a readable size instead of shrinking.
+      if (this.$locale.state.language === 'it') {
+        const mobile = window.innerWidth < 992
+        this.$el.style.setProperty('--card-title-size', mobile ? '18px' : '20px')
+        this.$el.style.setProperty('--card-pill-size', mobile ? '12px' : '14px')
+        return
+      }
       // Keep mobile titles fixed; fit the pills to one shared size across cards.
       const mobile = window.innerWidth < 992
       let titleSize = mobile ? 18 : 20

@@ -4,7 +4,7 @@
 
       <HeaderIcon symbol="up-right" :gradient="false" :size="30" style="flex-shrink: 0; color: var(--color-primary)" />
 
-      <h4 class="m-0 p-0 ml-2 hover-underline-animation" style="color: var(--color-primary)" > {{ $t(textlink) }}
+      <h4 class="m-0 p-0 ml-2 hover-underline-animation" style="color: var(--color-primary)" > {{ $t(textlink, `${translationId}.link`) }}
          </h4>
 
     </div>
@@ -16,6 +16,9 @@ export default {
   name: "ProjectLink",
   props: {
     textlink: String
+  },
+  computed: {
+    translationId() { return this.$route.path.replace(/^\/|\/$/g, '') },
   },
 }
 

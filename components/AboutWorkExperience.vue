@@ -21,7 +21,7 @@
         />
       </component>
       <AboutCvElement
-        :category="`${experience.company}, ${$t(experience.period)}`"
+        :category="`${$t(experience.company)}, ${$t(experience.period)}`"
         class="work-experience-content mt-0"
       >
         <template #slotcvelement>

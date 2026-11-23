@@ -28,9 +28,9 @@
           </b-col>
 
           <b-col cols="12" class="card-tags">
-            <b-badge pill class="pillshome mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ $t(pill1) }}</b-badge>
-            <b-badge pill class="pillshome mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ $t(pill2) }}</b-badge>
-            <b-badge v-if="pill3" pill class="pillshome terzapill mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ $t(pill3) }}</b-badge>
+            <b-badge pill class="pillshome mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ $t(pill1, `${translationId}.pill1`) }}</b-badge>
+            <b-badge pill class="pillshome mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ $t(pill2, `${translationId}.pill2`) }}</b-badge>
+            <b-badge v-if="pill3" pill class="pillshome terzapill mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ $t(pill3, `${translationId}.pill3`) }}</b-badge>
           </b-col>
 
         </b-row>
@@ -41,6 +41,9 @@
 
 <script>
 export default {
+  computed: {
+    translationId() { return this.to.replace(/^\/|\/$/g, '') },
+  },
   name: "PortfolioCard",
   data() {
     return { parallaxDisabled: true }
@@ -335,6 +338,17 @@ h6{
 }
 .projectcard .card-tags {
   overflow: visible;
+}
+
+html[lang="it"] .projectcard .titlemob {
+  white-space: normal;
+  overflow-wrap: normal;
+  text-wrap: balance;
+  line-height: 1.25;
+}
+html[lang="it"] .projectcard .card-tags {
+  flex-wrap: wrap;
+  row-gap: 4px;
 }
 
 @media (min-width: 992px) {

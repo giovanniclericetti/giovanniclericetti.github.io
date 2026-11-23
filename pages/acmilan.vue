@@ -47,7 +47,7 @@
       <b-row>
         <b-col cols="12" md="7">
 
-          <h4 aria-level="2">{{ $t(" Project Overview ") }}</h4>
+          <h4 aria-level="2">{{ $t(" Project Overview ", "acmilan.overviewTitle") }}</h4>
           <p>{{ $t(project.overview) }}</p>
 
           <slot name="link2">

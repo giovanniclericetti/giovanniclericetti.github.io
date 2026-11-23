@@ -4,9 +4,10 @@ export const languageStorageKey = 'portfolio-language'
 export const isLanguage = language => language === 'en' || language === 'it'
 
 // English is the source language. Preserve spaces around inline links and emphasis.
-export function translate(value, language) {
+export function translate(value, language, context) {
   if (language !== 'it' || typeof value !== 'string') return value
-  const key = value.replace(/\s+/g, ' ').trim()
+  const key = context && Object.prototype.hasOwnProperty.call(italian, context)
+    ? context : value.replace(/\s+/g, ' ').trim()
   if (!Object.prototype.hasOwnProperty.call(italian, key)) return value
   return (/^\s/.test(value) ? ' ' : '') + italian[key] + (/\s$/.test(value) ? ' ' : '')
 }
