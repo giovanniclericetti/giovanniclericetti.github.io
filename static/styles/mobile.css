@@ -37,6 +37,10 @@
 .portfolio-shell .mobile-nav-slot .header a > svg {
   display: block;
 }
+.portfolio-shell .mobile-nav-slot .header .hover-underline-animation::after {
+  top: calc(50% + 0.55rem);
+  bottom: auto;
+}
 @media (min-width: 992px) {
   .portfolio-shell .mobile-nav-slot {
     display: contents;
