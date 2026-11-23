@@ -17,7 +17,12 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
       { hid: 'robots', name: 'robots', content: 'noimageindex, max-image-preview:none' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }],
+    link: [
+      { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+      { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+      { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+      { rel: 'manifest', href: '/manifest.webmanifest' },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
