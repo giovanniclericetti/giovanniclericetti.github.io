@@ -63,7 +63,7 @@ export default {
     "overview": "An independent magazine about the human experience of healthcare, told through the voices of its professionals. The first 260-page issue focuses on emergency care, combining interviews, articles, reports, diaries and photography. Editorial research and visual storytelling come together in a publication where typography, imagery, paper and binding contribute to the reading experience.",
     "pill1": "Editorial",
     "pill2": "Art Direction",
-    "pill3": "Visual Identity",
+    "pill3": "Branding",
     "contribution": "Visual identity, graphic design and editorial layout, developed with the project team.",
     "sections": [
       {
