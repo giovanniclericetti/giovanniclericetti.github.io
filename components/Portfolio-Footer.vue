@@ -47,6 +47,7 @@ background-color: #ECE9E9;
 
 h5 {
   margin-bottom: 0;
+  font-weight: 500;
 }
 
 .social {
