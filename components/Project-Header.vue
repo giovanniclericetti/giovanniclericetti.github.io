@@ -9,10 +9,7 @@
     <b-row class="p-0 m-0" align-h="between">
       <b-col cols="auto" class="p-0">
         <NuxtLink to="/" aria-label="All projects">
-          <svg width="36" height="36" viewBox="0 0 143 143" fill="none" aria-hidden="true" focusable="false">
-            <rect width="143" height="143" rx="50" fill="currentColor" />
-            <path d="M72 44 44.5 71.5 72 99M46 71.5H99" stroke="white" stroke-width="10" stroke-linecap="butt" stroke-linejoin="miter" />
-          </svg>
+          <HeaderIcon :gradient="false" />
         </NuxtLink>
       </b-col>
       <b-col cols="auto" class="p-0 text-right" align-self="center"> <NuxtLink to="/about" class=" hover-underline-animation" > <h5 class="m-0" > About Me </h5> </NuxtLink> </b-col>

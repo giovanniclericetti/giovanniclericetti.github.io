@@ -37,6 +37,19 @@
 .portfolio-shell .mobile-nav-slot .header a > svg {
   display: block;
 }
+.header-icon-glyph {
+  transform-box: view-box;
+  transform-origin: 71.5px 71.5px;
+  transition: transform 180ms ease-out;
+}
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .mobile-nav-slot .header a:hover .header-icon-glyph {
+    transform: scale(1.08);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .header-icon-glyph { transition: none; }
+}
 .portfolio-shell .mobile-nav-slot .header .hover-underline-animation::after {
   top: calc(50% + 0.55rem);
   bottom: auto;
