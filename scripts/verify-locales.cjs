@@ -22,7 +22,7 @@ async function main() {
   assert.equal(translate('project', 'it'), '.')
   assert.equal(translate('Branding', 'it', 'previewpretest.pill1'), 'Branding')
   assert.equal(translate('Branding', 'it', 'acmilan3.pill1'), 'Branding')
-  assert.equal(translate('Presentation', 'it', 'audiovisualidentity.sections.2.title'), 'Dalla discussione di tesi alla didattica')
+  assert.equal(translate('Presentation', 'it', 'audiovisualidentity.sections.2.title'), 'Presentazione')
   assert.equal(translate('Branding', 'en', 'acmilan3.pill1'), 'Branding')
 
   const source = compiler.parseComponent(read('components/ProjectCopy.vue')).script.content
