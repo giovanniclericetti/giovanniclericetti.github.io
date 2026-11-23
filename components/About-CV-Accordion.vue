@@ -283,7 +283,7 @@
     </div>
 
     <h4 aria-level="2" class="w-100 mt-5 text-center"> <a href="documents/giovanniclericetti.pdf" target="_blank" style="display: inline-flex; align-items: center;">
-      <HeaderIcon symbol="down-right" id-suffix="-resume-mobile" class="mr-2" :size="35" style="flex-shrink: 0" />
+      <HeaderIcon symbol="down-right" id-suffix="-resume-mobile" class="mr-2" :size="30" style="flex-shrink: 0" />
       <span class="underlinemobile downloadcv" style="color: black"> Download Resume </span> </a>
     </h4>
 

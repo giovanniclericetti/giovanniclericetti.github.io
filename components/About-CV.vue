@@ -155,7 +155,7 @@
 
 
 
-          <HeaderIcon symbol="down-right" id-suffix="-resume-desktop" class="mr-2" :size="35" style="flex-shrink: 0" />
+          <HeaderIcon symbol="down-right" id-suffix="-resume-desktop" class="mr-2" :size="30" style="flex-shrink: 0" />
           <span class="hover-underline-animation gradient downloadcv"> Download Resume </span> </a>
         </h4>
       </b-col>
