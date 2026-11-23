@@ -35,8 +35,10 @@
       </div>
 
       <ProjectDescription
+        overview-title="Introduction"
+        role-title="My contribution"
         :description="project.overview"        team="S. Bonfanti, A. Burchiani, E. Ceriani, T. Prinetti"
-        role="Brand Identity, Visual, Editorial Layout"
+        :role="project.contribution"
         delivery="Editorial Design Lab, 2023"
         class="my-md-3"
       >
@@ -107,11 +109,8 @@
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <ProjectDescription2
-
-            title="Content and Sections"
-
-            description="The 260-page magazine uses Swiss binding with a fold-out flap. All content is divided into five chapters: '1. The Call', '2. The Wait', '3. The Survey', '4. The Rescue' and '5. The Transport'. Each contains the four sections of interviews, articles, reports and diaries to effectively convey the content. There is also a photo insert at the centre of the magazine."
-
+            :title="project.sections[0].title"
+            :description="project.sections[0].description"
           /> </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
@@ -141,8 +140,8 @@
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <ProjectDescription2
-            title="Transmedia Translation"
-            description="The magazine extends into a digital platform where readers can contribute their own stories related to the themes explored in Referto."
+            :title="project.sections[1].title"
+            :description="project.sections[1].description"
           /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">

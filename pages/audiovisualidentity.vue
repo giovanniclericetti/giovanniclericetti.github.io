@@ -39,7 +39,7 @@
 
         <b-col cols="12" md="7">
 
-          <h4 aria-level="2"> Project Overview </h4>
+          <h4 aria-level="2"> Introduction </h4>
           <p>{{ project.overview }}</p>
 
           <slot name="link2">
@@ -54,8 +54,8 @@
           <h4 aria-level="2" class="mt-4 mt-md-0"> Supervisor </h4>
           <p> Francesco Ermanno Guida </p>
 
-          <h4 aria-level="2" class="mt-4 "> Role </h4>
-          <p> Research Writing, Brand Identity, Visual, UX-UI, Keynote Presentation, Editorial, Coding </p>
+          <h4 aria-level="2" class="mt-4 "> My contribution </h4>
+          <p>{{ project.contribution }}</p>
 
           <h4 aria-level="2" class="mt-4 "> Delivery </h4>
           <p> Research-Based Design Project </p>
@@ -85,11 +85,9 @@
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
         <ProjectDescription2
-
-          title="Editorial Design"
-
-          description="The thesis was conceived as an editorial project capable of synthesising the results of the research in an accessible, visually curated form consistent with the theme addressed. A visual identity was designed for the project, based on shades of blue and white, to enhance the contents and highlight the television brands analysed."
-        /> </b-col>
+            :title="project.sections[0].title"
+            :description="project.sections[0].description"
+          /> </b-col>
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
@@ -130,10 +128,9 @@
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <ProjectDescription2
-
-            title="Web Platform"
-
-            description="Complementing the thesis was Audiovisual Identity Hub, an open-source digital platform designed as a dynamic space to explore videography and television design. The interactive environment connects theory and practice through research and visual examples. The site is made up of five types of pages, each dedicated to a specific aspect, but an integral part of a single narrative: the introductory landing page, the documentation section, the gallery with the taxonomy of case studies, the detailed pages of the individual case studies and, finally, an About page that reveals the concept and intent of the project." /> </b-col>
+            :title="project.sections[1].title"
+            :description="project.sections[1].description"
+          /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
@@ -172,13 +169,7 @@
         </b-col>
 
 
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
-          <ProjectDescription2
-
-            title="Presentation"
-
-            description="The last project step involved the creation of a presentation for the graduation speech, which was later adapted as teaching material. The presentation is designed to be a useful tool for lecturers and researchers: a deck of slides and topic sheets that can be reused in the classroom, in laboratories or in training contexts such as the master's course in which I was an assistant." /> </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">

@@ -34,9 +34,11 @@
       </div>
 
       <ProjectDescription
+        overview-title="Introduction"
+        role-title="My contribution"
         :description="project.overview"
         team="E. Ceriani, G. Fulghieri, F. Nozza, M. Zagaria"
-        role="Brand Identity, Graphics, UX-UI, Keynote Presentation, Social Media, Editorial, Technology Research, Coding (HTML, CSS, JS, Arduino)"
+        :role="project.contribution"
         delivery="Final Synthesis Bachelor Lab, 2021-2022"
         class="my-md-3"
       >
@@ -80,11 +82,8 @@
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <ProjectDescription2
-
-            title="Brand System "
-
-            description="SourData was developed in every aspect, from the creation of the most general branding system down to the detail of the screens. The first assets were the posters to launch the project and make it clear what data the project was talking about. This was followed by the social content, user manual, presentation slides, showcase website and presentation brochures. To complete the experience, related products were also created for each device."
-
+            :title="project.sections[0].title"
+            :description="project.sections[0].description"
           /> </b-col>
 
         <b-col cols="12" md="4" class="d-none d-md-block py-md-3 py-2 px-3">
@@ -108,8 +107,8 @@
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <ProjectDescription2
-            title="The Experience"
-            description="The SourData experience centres on gestures, each one carrying meaning and metaphor, from the shape of the Hub resembling a piggy bank to the gesture of clicking a button to agree to send data. Once the user has made contact and accepted SourData's terms and conditions, the box containing the Hub and the device arrives at the user's home. Once opened, the device needs to be put on and used. The data is collected on the SD card, which is removed and inserted into the Hub. Clicking the button sends the data to the digital platform where it can be viewed and the user can receive their reward."
+            :title="project.sections[1].title"
+            :description="project.sections[1].description"
           /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -162,8 +161,8 @@
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <ProjectDescription2
-            title="Making Of"
-            description="The collection devices were designed and prototyped using 3D printing. Coomy and the Hub are also functional and programmed using an Arduino to monitor the data and share it on the online server."
+            :title="project.sections[2].title"
+            :description="project.sections[2].description"
           /> </b-col>
 
 

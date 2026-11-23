@@ -35,9 +35,11 @@
       </div>
 
       <ProjectDescription
+        overview-title="Introduction"
+        role-title="My contribution"
         :description="project.overview"
         team="C. Ghio, T. Prinetti, A. Silvano, D. Zoppi"
-        role="Event Organization, Social Media, Brand Identity Evolution, Visual, UX-UI, Coding (HTML, CSS, JS, WordPress)"
+        :role="project.contribution"
         delivery="Extracurricular Project for Polimi, 2020-2022"
         class="my-md-3">
 
@@ -72,11 +74,8 @@
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <ProjectDescription2
-
-            title="Preview"
-
-            description="Preview is an event where students' projects are shown to prospective students to help them understand which academic course is right for them. It mainly takes place on a single day, but all communications and the showcase website are created to accompany it."
-
+            :title="project.sections[0].title"
+            :description="project.sections[0].description"
           /> </b-col>
 
         <b-col cols="12" md="12" class=" d-md-block py-md-3 py-2 px-3">
@@ -102,11 +101,8 @@
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <ProjectDescription2
-
-            title="Pretest"
-
-            description="Pretest is a three-day study event in preparation for the Design and Architecture entrance exam, which helps students by explaining topics in lectures, preparing presentations, designing handouts, creating simulations and providing guided study time."
-
+            :title="project.sections[1].title"
+            :description="project.sections[1].description"
           /> </b-col>
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">

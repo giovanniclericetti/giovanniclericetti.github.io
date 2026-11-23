@@ -29,9 +29,11 @@
       </div>
 
       <ProjectDescription
+        overview-title="Introduction"
+        role-title="My contribution"
         :description="project.overview"
         team="A. Catania, G. Fulghieri, L. Tassetto"
-        role="Brand Identity, UX-UI, Art Direction, Keynote Presentation, Social Media, Coding (WordPress)"
+        :role="project.contribution"
         delivery="Final Synthesis Master Lab, 2023"
         class="my-md-3"
       >
@@ -66,11 +68,9 @@
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
         <ProjectDescription2
-
-          title="An Immersive Digital Experience"
-            description="The platform is designed as a scroll-driven narrative, where the experience unfolds gradually as visitors move through each story. Starting from an illustrated map of Chioggia, users can select a letter and explore its connection to specific people and places. As they scroll, new elements are progressively revealed, creating a sense of discovery and building a deeper understanding of the narrative. Particular attention was given to the relationship between editorial layout, typography, scrolling behaviour, illustrations and podcast audio. These elements were designed to work together, shaping the rhythm of the experience and transforming reading into a more immersive form of exploration. Rather than presenting all the information at once, the experience uses progressive disclosure to guide visitors through the narrative, creating moments of anticipation, discovery and emotional engagement."
-
-        /> </b-col>
+            :title="project.sections[0].title"
+            :description="project.sections[0].description"
+          /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
@@ -104,12 +104,7 @@
                  data-parallax-image v-parallax></div>
         </b-col>
 
-        <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
-          <ProjectDescription2
 
-            title="Research &amp; Narrative Design"
-            description="The project was developed through research into Chioggia's fishing culture, combining field observations, interviews and an exploration of the area's social and geographical identity. The collected material was transformed into a series of personal narratives and letters connecting characters, memories and locations. The editorial structure, visual compositions and illustrations were designed to make these stories accessible and engaging, while preserving their connection to the territory. Each narrative was approached as a complete experience, where written content, visual rhythm, interaction and audio contribute to a coherent storytelling system."
-          /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
@@ -150,9 +145,8 @@
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <ProjectDescription2
-
-            title="Beyond the Screen"
-            description="The digital platform is part of a broader communication system designed to reconnect the stories with the places in which they originated. Physical installations and complementary communication materials extend the experience throughout Chioggia, encouraging visitors to discover the locations featured in the narratives and contribute new stories. The result is a connected experience where digital interaction, editorial storytelling, podcast content and physical exploration become complementary ways of discovering the territory."
+            :title="project.sections[1].title"
+            :description="project.sections[1].description"
           /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">

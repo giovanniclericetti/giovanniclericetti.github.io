@@ -3,7 +3,7 @@
   <b-row>
     <b-col cols="12" md="7">
 
-    <h4 aria-level="2"> Project Overview </h4>
+    <h4 aria-level="2"> {{ overviewTitle }} </h4>
      <p> {{ description }} </p>
 
       <slot name="link2">
@@ -18,7 +18,7 @@
       <h4 aria-level="2" class="mt-4 mt-md-0"> Team </h4>
       <p v-html="formatTeam(team)"></p>
 
-      <h4 aria-level="2" class="mt-4"> Role </h4>
+      <h4 aria-level="2" class="mt-4"> {{ roleTitle }} </h4>
       <p> {{ role }} </p>
 
       <h4 aria-level="2" class="mt-4"> Delivery </h4>
@@ -36,7 +36,14 @@
 <script>
 export default {
   name: "Project-Description",
-  props: ['description', 'team', 'role', 'delivery'],
+  props: {
+    description: String,
+    team: String,
+    role: String,
+    delivery: String,
+    overviewTitle: { type: String, default: 'Project Overview' },
+    roleTitle: { type: String, default: 'Role' },
+  },
   methods: {
     formatTeam(team) {
       return team.replace(/\n/g, '<br>')

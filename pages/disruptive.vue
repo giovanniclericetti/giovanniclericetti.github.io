@@ -33,9 +33,11 @@
       </div>
 
       <ProjectDescription
+        overview-title="Introduction"
+        role-title="My contribution"
         :description="project.overview"
         team="A. Bocchio, G. Bonadei, M. Bruno, M. Pari, <br> F. Pozzi, T. Prinetti, A. Silvano, D. Zoppi"
-        role="Brand Identity, UX-UI, Keynote Presentation"
+        :role="project.contribution"
         delivery="Exhibition for Meeting di Rimini, 2021"
         class="my-md-3"
       >
@@ -89,11 +91,8 @@
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <ProjectDescription2
-
-            title="Content and Sections"
-
-            description="After a careful analysis of the digital exhibition sector, a card-based navigation with an Instagram-story style of interaction was chosen. The platform is divided into three macro sections, each containing cards with the main content of text, infographics, illustrations, photos or videos, with the possibility of going deeper with a long read."
-
+            :title="project.sections[0].title"
+            :description="project.sections[0].description"
           /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
@@ -111,10 +110,9 @@
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <ProjectDescription2
-
-            title="Exhibition"
-
-            description="The exhibition was then brought into the physical space of the 2021 Rimini Meeting. The challenge was to create a new space for content that was originally designed for digital platforms only, due to COVID-19 restrictions. The physical space was designed to complement the digital approach of the online exhibition, hosting videos and digital presentations."          /> </b-col>
+            :title="project.sections[1].title"
+            :description="project.sections[1].description"
+          /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">

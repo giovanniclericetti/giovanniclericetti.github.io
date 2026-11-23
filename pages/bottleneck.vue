@@ -27,8 +27,10 @@
       </div>
 
       <ProjectDescription
+        overview-title="Introduction"
+        role-title="My contribution"
         :description="project.overview"        team="S. Bonfanti, A. Burchiani, T. Prinetti"
-        role="Brand Identity, Visual, UX-UI, Branding, Coding"
+        :role="project.contribution"
         delivery="Interaction Design Lab, 2021-2022"
         class="my-md-3"
       >
@@ -66,12 +68,9 @@
         <b-col cols="12" md="12">
 
         <ProjectDescription2
-
-          title="Research & Taxonomy"
-
-          description="Research into how people perceive notifications informed a taxonomy organised by application and urgency. This framework guided feature selection, information architecture and the structure of the platform."
-
-        /> </b-col>
+            :title="project.sections[0].title"
+            :description="project.sections[0].description"
+          /> </b-col>
 
         <b-col cols="12" md="8" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
@@ -97,14 +96,7 @@
                  data-parallax-image v-parallax></div>
         </b-col>
 
-        <b-col cols="12" md="12">
 
-          <ProjectDescription2
-
-            title="Features and Tabs"
-
-            description="Conceived for desktop and mobile, the service organises notifications through three main tabs: a dashboard with a system that categorises notifications as primary in the foreground dashboard and secondary in the background dashboard, an interaction page with an AI model to observe how user data is collected, and a search tab to explore discussions on different channels."
-          /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
@@ -134,12 +126,9 @@
 
         <b-col>
         <ProjectDescription2
-
-          title="Design System & Card Anatomy"
-
-          description="A complete design system for the Bottleneck brand was created for the platform, which could remain consistent across the different tabs and easily switch between work and private mode. The dashboard consists of several cards with the same structure, but articulated in different components that change according to the content."
-
-        /> </b-col>
+            :title="project.sections[1].title"
+            :description="project.sections[1].description"
+          /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
