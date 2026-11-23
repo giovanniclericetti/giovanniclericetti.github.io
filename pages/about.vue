@@ -9,7 +9,11 @@
     <div class="about-sections">
     <div>
 
-      <h1 v-if="$locale.state.language === 'en'" class="titleindex">My background in Communication Design at <a class="name gradient about-inline-link" href="https://www.polimi.it/">Polimi</a> and my experience with <a class="name gradient about-inline-link intro-link-word" href="https://www.acmilan.com/">AC Milan</a> have shaped my approach to design, focusing on <strong>brand visual communication</strong> and creative development of commercial partnerships.</h1>
+      <h1 v-if="$locale.state.language === 'en'" class="titleindex english-intro">
+        <span class="about-intro-line">My background in Communication Design at <a class="name gradient about-inline-link" href="https://www.polimi.it/">Polimi</a> and my experience with <a class="name gradient about-inline-link intro-link-word" href="https://www.acmilan.com/">AC Milan</a></span>
+        <span class="about-intro-line">have shaped my approach to design, focusing on <strong>brand visual communication</strong></span>
+        <span class="about-intro-line">and creative development of commercial partnerships.</span>
+      </h1>
       <h1 v-else class="titleindex">La formazione in Design della Comunicazione al <a class="name gradient about-inline-link" href="https://www.polimi.it/">Polimi</a> e l’esperienza con <a class="name gradient about-inline-link intro-link-word" href="https://www.acmilan.com/">AC Milan</a> hanno definito il mio approccio al design, tra <strong>comunicazione visiva del brand</strong> e sviluppo creativo delle partnership commerciali.</h1>
 
     </div>
@@ -305,6 +309,17 @@
 
   .about .titleindex .name {
     font-size: 1.0625em;
+  }
+}
+
+@media (min-width: 992px) {
+  .about .titleindex.english-intro {
+    font-size: clamp(20px, 2vw, 28px);
+  }
+
+  .english-intro .about-intro-line {
+    display: block;
+    white-space: nowrap;
   }
 }
 
