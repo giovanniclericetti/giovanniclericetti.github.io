@@ -31,7 +31,7 @@
                       </div>
                       <b-row class="mx-4 pb-3 mb-4 d-block" style="bottom:0px; position: absolute">
                         <p2 style="color: #3CCC76; font-size: 15px"> Always listening...</p2>
-                        <h4 style="font-size: 25px; color: black" id="song">{{ randomOption.song }}</h4>
+                        <h4 style="font-size: 25px" id="song">{{ randomOption.song }}</h4>
                         <p style="font-size: 18px; line-height: 5px" id="singer">{{ randomOption.singer }}</p>
                       </b-row>
                     </a>
@@ -217,6 +217,10 @@ a { color: black; }
   border-radius: 35px;
 }
 .zoombvs:hover { transform: scale(1.03); }
+#song,
+#singer {
+  color: #14532D;
+}
 .bggradient { background: linear-gradient(114deg, #FFC793 -8.26%, #FF7B93 106.3%); }
 .boxcv img { transition: transform 0.3s ease-out; }
 </style>
