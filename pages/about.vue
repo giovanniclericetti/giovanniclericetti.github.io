@@ -10,9 +10,9 @@
     <div>
 
       <h1 v-if="$locale.state.language === 'en'" class="titleindex english-intro">
-        <span class="about-intro-line">My background in Communication Design at <a class="name gradient about-inline-link" href="https://www.polimi.it/">Polimi</a> and my experience with <a class="name gradient about-inline-link intro-link-word" href="https://www.acmilan.com/">AC Milan</a></span>
-        <span class="about-intro-line">have shaped my approach to design, focusing on <strong>brand visual communication</strong></span>
-        <span class="about-intro-line">and creative development of commercial partnerships.</span>
+        <span class="about-intro-line">My studies at <a class="name gradient about-inline-link" href="https://www.polimi.it/">Polimi</a> and experience with <a class="name gradient about-inline-link intro-link-word" href="https://www.acmilan.com/">AC Milan</a> have shaped</span>
+        <span class="about-intro-line">my approach to design, spanning visual communication,</span>
+        <span class="about-intro-line">digital experiences and commercial partnerships.</span>
       </h1>
       <h1 v-else class="titleindex">La formazione al <a class="name gradient about-inline-link" href="https://www.polimi.it/">Polimi</a> e l’esperienza con <a class="name gradient about-inline-link intro-link-word" href="https://www.acmilan.com/">AC Milan</a> hanno definito il mio approccio al design, tra <strong>comunicazione visiva</strong>, esperienze digitali e partnership commerciali.</h1>
 
