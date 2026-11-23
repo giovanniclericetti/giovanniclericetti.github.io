@@ -9,7 +9,7 @@
     <div class="about-sections">
     <div>
 
-      <h1 v-if="$locale.state.language === 'en'" class="titleindex english-intro">My background at <a class="name gradient about-inline-link" href="https://www.polimi.it/">Polimi</a> and my experience with <a class="name gradient about-inline-link intro-link-word" href="https://www.acmilan.com/">AC Milan</a><br class="d-none d-lg-block"> have shaped my design mindset, combining a structured approach, creativity and visual sensitivity to adapt to different contexts.</h1>
+      <h1 v-if="$locale.state.language === 'en'" class="titleindex english-intro">My background at <a class="name gradient about-inline-link" href="https://www.polimi.it/">Polimi</a> and my experience with <a class="name gradient about-inline-link intro-link-word" href="https://www.acmilan.com/">AC Milan</a><br class="d-none d-lg-block"> have shaped my design mindset, combining a flexible approach, creativity and visual sensitivity to adapt to different contexts.</h1>
       <h1 v-else class="titleindex">Il percorso di studi al <a class="name gradient about-inline-link" href="https://www.polimi.it/">Polimi</a> e l’esperienza con <a class="name gradient about-inline-link intro-link-word" href="https://www.acmilan.com/">AC Milan</a> hanno dato forma al mio modo di progettare, che unisce metodo, creatività e sensibilità visiva per rispondere alle esigenze di contesti diversi.</h1>
 
     </div>
