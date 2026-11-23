@@ -1,13 +1,6 @@
 <template>
   <footer class="container-fluid footer">
     <div class="footer-layout">
-      <nav class="footer-links" aria-label="Contact links">
-        <a href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank" rel="noopener noreferrer" class="social hover-underline-animation">LinkedIn</a>
-        <a href="mailto:giovanni.clericetti@gmail.com" class="social hover-underline-animation">Mail</a>
-      </nav>
-
-      <p class="copyright">Designed &amp; Coded by Giovanni Clericetti, 2026</p>
-
       <label class="footer-language">
         <span class="sr-only">Language</span>
         <select v-model="language" aria-label="Language">
@@ -18,6 +11,13 @@
           <path d="m4 6 4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
       </label>
+
+      <p class="copyright">Designed &amp; Coded by Giovanni Clericetti, 2026</p>
+
+      <nav class="footer-links" aria-label="Contact links">
+        <a href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank" rel="noopener noreferrer" class="social hover-underline-animation">LinkedIn</a>
+        <a href="mailto:giovanni.clericetti@gmail.com" class="social hover-underline-animation">Mail</a>
+      </nav>
     </div>
   </footer>
 </template>
@@ -54,7 +54,7 @@ export default {
   display: flex;
   align-items: center;
   gap: 24px;
-  justify-self: start;
+  justify-self: end;
 }
 
 .social {
@@ -80,7 +80,7 @@ export default {
 
 .footer-language {
   position: relative;
-  justify-self: end;
+  justify-self: start;
   margin: 0;
 }
 
@@ -128,9 +128,9 @@ export default {
     max-width: 690px;
     margin-inline: auto;
   }
-  .footer-links { grid-column: 1; grid-row: 1; gap: 16px; }
+  .footer-links { grid-column: 2; grid-row: 1; gap: 16px; }
   .social { font-size: 16px; }
-  .footer-language { grid-column: 2; grid-row: 1; }
+  .footer-language { grid-column: 1; grid-row: 1; }
   .footer-language select { width: 128px; min-height: 48px; }
   .copyright { grid-column: 1 / -1; grid-row: 2; }
 }
