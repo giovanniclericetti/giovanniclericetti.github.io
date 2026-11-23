@@ -15,7 +15,7 @@ const { translate, languageStorageKey, isLanguage } = vm.runInNewContext(
 const projects = JSON.parse(read('utils/project-content.js').split('export default ')[1])
 
 async function main() {
-  assert.equal(translate(' About Me ', 'it'), ' About ')
+  assert.equal(translate(' About Me ', 'it'), ' About Me ')
   assert.equal(translate(' About Me ', 'en'), ' About Me ')
   assert.equal(translate(undefined, 'it'), undefined)
   assert.equal(translate('AC Milan', 'it'), 'AC Milan')
@@ -54,18 +54,18 @@ async function main() {
   const app = {}
   plugin({}, (key, value) => { app[key] = value })
   assert.equal(app.locale.state.language, 'en', 'Hydration must start in the generated language')
-  const component = new Vue({ computed: { label: () => app.t('About Me') } })
+  const component = new Vue({ computed: { label: () => app.t('Contact Me') } })
   let updated
   component.$watch('label', value => { updated = value })
   app.locale.restore()
   await Vue.nextTick()
-  assert.equal(component.label, 'About')
-  assert.equal(updated, 'About', 'Mounted components must react to language changes')
+  assert.equal(component.label, 'Contattami')
+  assert.equal(updated, 'Contattami', 'Mounted components must react to language changes')
   app.locale.setLanguage('fr')
   assert.equal(app.locale.state.language, 'it')
   app.locale.setLanguage('en')
   await Vue.nextTick()
-  assert.equal(component.label, 'About Me')
+  assert.equal(component.label, 'Contact Me')
   assert.equal(saved, 'en')
   const freshApp = {}
   plugin({}, (key, value) => { freshApp[key] = value })
