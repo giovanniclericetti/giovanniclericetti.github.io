@@ -219,7 +219,7 @@ a { color: black; }
 .zoombvs:hover { transform: scale(1.03); }
 #song,
 #singer {
-  color: #0B2E1A;
+  color: #061A0F;
 }
 .bggradient { background: linear-gradient(114deg, #FFC793 -8.26%, #FF7B93 106.3%); }
 .boxcv img { transition: transform 0.3s ease-out; }
