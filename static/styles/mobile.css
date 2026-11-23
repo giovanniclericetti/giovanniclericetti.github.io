@@ -65,8 +65,8 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-.portfolio-shell .index .header .hover-underline-animation::after,
-.portfolio-shell .about .header .hover-underline-animation::after {
+.portfolio-shell .index .homepage-intro .hover-a-underline-animation::after,
+.portfolio-shell .about .titleindex .about-inline-link::after {
   top: calc(50% + 0.4em);
 }
 @media (min-width: 992px) {
