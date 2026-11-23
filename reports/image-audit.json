@@ -1553,11 +1553,11 @@
   },
   {
     "src": "/app-icon-512.png",
-    "bytes": 21573,
+    "bytes": 20067,
     "width": 512,
     "height": 512,
     "format": "png",
-    "sha256": "09edf6f22006e35f5106ffb5814ebf1768f3c80ea7459ece6c0a5527dd4ed15f"
+    "sha256": "7fd1d2b2aa1234292f027945f5161e3b2a97a4e5e8bea287c62e1a3e07f1916c"
   },
   {
     "src": "/images/covers/next/rf-next.jpg",
@@ -1696,22 +1696,6 @@
     "sha256": "76ad0eb99315cbe887bee65e789397e0abb6bc4e076862959415db50c5287dbd"
   },
   {
-    "src": "/app-icon-192.png",
-    "bytes": 6552,
-    "width": 192,
-    "height": 192,
-    "format": "png",
-    "sha256": "7ab03e41437384d89c6a627ededc99d21a113d69b3617064975d307cf2c73dda"
-  },
-  {
-    "src": "/apple-touch-icon.png",
-    "bytes": 6244,
-    "width": 180,
-    "height": 180,
-    "format": "png",
-    "sha256": "38408f42cb4865c15f651324674ca19b3fb4cf841363b9408bb133362581105a"
-  },
-  {
     "src": "/images/aboutme/instagram.svg",
     "bytes": 5993,
     "width": 143,
@@ -1720,12 +1704,28 @@
     "sha256": "118933a77a783fddc845458a6a8f49b8f9442aa5a0154ecd96812f70871e6ada"
   },
   {
+    "src": "/app-icon-192.png",
+    "bytes": 5341,
+    "width": 192,
+    "height": 192,
+    "format": "png",
+    "sha256": "82c93e94a0f6c3d3f2cda27eab7d4e5b67732a2ae329a6fab4d5810faa9a28e0"
+  },
+  {
     "src": "/images/aboutme/letswork.svg",
     "bytes": 5294,
     "width": 83,
     "height": 86,
     "format": "svg",
     "sha256": "dff5a9d6bf115fe0c7a96097df3cf575f5009772fa9331e3889082273f338750"
+  },
+  {
+    "src": "/apple-touch-icon.png",
+    "bytes": 5125,
+    "width": 180,
+    "height": 180,
+    "format": "png",
+    "sha256": "ad4bc42a0c2cf7032aa3c168abb47591f6bf8b4b27749bbe7bb9b6936c945559"
   },
   {
     "src": "/favicon.png",
