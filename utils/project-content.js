@@ -3,8 +3,8 @@ export default {
   "acmilan": {
     "projectType": "Work Project",
     "title": "ACM Commercial Decks",
-    "bio": "Presentation design, commercial storytelling and visual mockups supporting AC Milan's commercial partnerships.",
-    "overview": "Design and development of sponsorship presentations, commercial proposals and supporting visual assets for AC Milan's partnership activities. Working alongside Commercial, Marketing and Strategy teams, the focus is on translating complex information and business opportunities into clear, engaging presentations aligned with the Club's visual identity. The work also includes visual mockups and branded applications designed to illustrate potential partnership opportunities, helping stakeholders understand how commercial assets and brand integrations can translate into real-world environments. Each presentation is developed with attention to visual consistency, information hierarchy and the specific requirements of different partners, audiences and commercial objectives. Selected work remains confidential.",
+    "bio": "Presentation design, commercial storytelling and visual mockups supporting AC Milan's partnerships.",
+    "overview": "Design and development of sponsorship presentations, commercial proposals and supporting visual materials for AC Milan's partnership activities. Working with the Commercial, Marketing and Strategy teams, I help structure complex information and partnership opportunities into clear, engaging presentations that reflect the Club's visual identity. The work also includes mockups and visual simulations showing how potential partnerships could take shape across physical spaces and communication channels. Each presentation is tailored to its audience and commercial objectives, with particular attention to narrative structure, information hierarchy and graphic consistency. Only a limited selection of this work can be shown due to confidentiality requirements.",
     "pill1": "Presentation",
     "pill2": "Partnerships",
     "pill3": "Mockup"
@@ -12,26 +12,54 @@ export default {
   "acm-partner-visibility": {
     "projectType": "Work Project",
     "title": "ACM Partner Visibility",
-    "bio": "A consistent visual system for AC Milan's commercial partners across venues, digital platforms and co-branded communications.",
-    "overview": "Partner visibility at AC Milan requires a flexible visual system capable of adapting to different commercial agreements, physical environments and communication formats. The work covers the design and production of branded assets across the Club's facilities, digital channels and communication materials, combining visual identity with the specific needs of commercial partnerships. From venue branding to digital placements and co-branded applications, each asset contributes to a coordinated visual ecosystem designed to ensure consistency, recognisability and effective partner integration. The process also involves developing adaptable graphic systems, applying brand guidelines, coordinating production requirements and ensuring quality across different touchpoints.",
+    "bio": "Partner visibility for AC Milan across venues, media environments and co-branded communications.",
+    "overview": "AC Milan's commercial partnerships appear in many settings, from training facilities and stadium spaces to media environments, digital channels and communication materials. My work involves designing and adapting partner branding applications so that visibility reflects each agreement while remaining consistent with the Club's identity. Alongside the individual assets, the work involves updating layouts, applying brand guidelines, preparing production files and checking the quality of final materials. The aim is to maintain visual continuity across very different formats while responding to the specific requirements of each partnership and environment.",
     "pill1": "Branding",
     "pill2": "Partnerships",
-    "pill3": "Venue Branding"
+    "pill3": "Venue Branding",
+    "sections": [
+      {
+        "title": "Venue Branding",
+        "description": "Design and adaptation of branded graphics at Milanello, the Vismara Sports Centre and San Siro, including training grounds, sports facilities and dedicated partner spaces. As commercial agreements evolve, materials are updated to reflect each partner's tier and allocated placements. Flexible graphic systems help integrate new partners and adapt the same visual principles across different formats."
+      },
+      {
+        "title": "Media & Digital Visibility",
+        "description": "Creation of partner visibility assets for the Club's media environments and display systems, including press conference backdrops, interview areas, mixed zones, pitchside LED boards and screens. Static and animated graphics are adapted to the technical specifications of each format and updated as commercial requirements change, while maintaining visual consistency."
+      },
+      {
+        "title": "Partner Co-Branding",
+        "description": "Development of graphics for new partnership announcements and co-branded communication materials for partner initiatives. The work also includes writing and designing AC Milan's Partnership Style Guide, which explains how partners should use the Club's identity and visual assets. Reviewing partner-produced materials and managing approvals helps ensure that the guidelines are followed consistently."
+      }
+    ]
   },
   "acmilan3": {
     "projectType": "Work Project",
     "title": "ACM Events & Matchday",
     "bio": "Brand experiences, event design and live visual production for AC Milan.",
-    "overview": "Design and production of visual communication for AC Milan's events, commercial partner activations and matchday environments. Projects range from branded installations and corporate events to stadium graphics, ceremonies and live content production. The work combines visual design, production planning and on-site execution, ensuring consistency across physical and digital touchpoints. Particular attention is given to translating partnership objectives and brand requirements into coherent visual experiences, adapting each project to its audience, environment and technical constraints. Matchday responsibilities also include live direction at San Siro, coordinating camera operators, television feeds and visual content across the stadium's main screens, LED boards and video towers.",
+    "overview": "Design of visual communication for AC Milan events, commercial partner activations and matchday initiatives. Projects range from branded installations and corporate events to on-pitch ceremonies and stadium screen content, combining graphic design, production preparation and on-site execution. Each project must respond to its communication goals while adapting to the audience, venue and technical requirements. Alongside design work, my role includes live visual operations during matches at San Siro, coordinating content across the stadium's main screens, LED boards and video towers.",
     "pill1": "Branding",
     "pill2": "Activations",
-    "pill3": "Live Production"
+    "pill3": "Live Production",
+    "sections": [
+      {
+        "title": "Brand Activations",
+        "description": "Development of concepts, visual assets and branded installations for commercial activations and fan initiatives. Projects include promotional sets, such as the Emirates production featuring Kaká, as well as matchday fan villages, Christmas activities and new kit launches. The work covers mockups, branded desks, arches, player cutouts, interactive games and big-screen content. Each element is designed around the brands involved, the intended experience and the practical requirements of production and installation."
+      },
+      {
+        "title": "Corporate & Partner Events",
+        "description": "Design of visual materials and branded setups for corporate events and partner initiatives, adapting each application to its setting and brand identity. Examples include the transformation of Milanello for Summer of Bud, with training sessions and player meet-and-greets, and business events at Terrazza Martini, Casa Milan and San Siro's hospitality areas. The work includes backdrops, screen graphics and physical branding materials, from final artwork preparation to production coordination and on-site setup."
+      },
+      {
+        "title": "Matchday & Sport Production",
+        "description": "Design of visual assets and installations for on-pitch ceremonies and activities, where sporting communication and commercial branding need to work together. Projects include the giant shirt tribute to Baresi, Emirates activations and Hall of Fame ceremony setups. The work also covers branded areas in the stadium's hospitality spaces, including the Generali Lounge and Bud Corner, with dedicated installations and screen content. During AC Milan matches at San Siro, I support the live visual direction of stadium content, coordinating dedicated camera operators, incoming television feeds and the selection of footage displayed across the main screens, pitchside LED boards and video towers. This includes pre-match, in-match and post-match programming, from video sequences and goal celebrations to partner activations. The focus is on keeping content, timing and visual execution coordinated throughout the event."
+      }
+    ]
   },
   "audiovisualidentity": {
     "projectType": "Polimi Master Thesis",
     "title": "Audiovisual Identity",
-    "bio": "Exploring how visual identity and motion define brands in television and entertainment.",
-    "overview": "A research project on how visual language and motion shape the identity of television channels, programmes and platforms. Developed as a Master’s thesis at Politecnico di Milano through case studies and interviews with industry professionals, the work examines how audiovisual systems contribute to brand recognition and consistency. The research takes the form of an editorial publication, a digital archive and teaching materials.",
+    "bio": "Research into how motion graphics and visual identity shape television brands.",
+    "overview": "Audiovisual Identity is my Master's thesis in Communication Design at Politecnico di Milano, investigating the role of broadcast graphics in building recognisable identities for television channels, programmes and platforms. Through research into the evolution of television graphics in Italy, case studies and interviews with industry professionals, the project explores how visual language, animation and graphic systems contribute to brand recognition. The work takes three connected forms: an editorial publication, an open-source digital platform and a presentation later adapted for teaching.",
     "pill1": "Broadcast",
     "pill2": "Research",
     "pill3": "Editorial",
@@ -39,28 +67,28 @@ export default {
     "sections": [
       {
         "title": "Organising the research",
-        "description": "The publication brings together the research through a typographic and editorial system, translating its findings into an accessible, visually organised format. A blue and white visual identity provides a consistent framework for the written analysis and visual examples while leaving space for the television brands under discussion.",
-        "emphasis": "typographic and editorial system"
+        "description": "The thesis publication translates the research into an accessible editorial format. A clear typographic structure and a blue-and-white visual identity organise the written analysis, images and case studies, providing a consistent framework without competing with the television brands being examined.",
+        "emphasis": "typographic structure"
       },
       {
         "title": "Making the material accessible",
-        "description": "Audiovisual Identity Hub extends the research into an open-source digital platform for exploring videography and television design. The website connects theory and practice through research and visual examples, with five types of pages forming a single narrative: an introductory landing page, documentation, a gallery organised through a taxonomy of case studies, individual case study pages and an About section explaining the project’s concept and intent.",
+        "description": "Audiovisual Identity Hub extends the research into an open-source digital platform dedicated to broadcast graphics and television identity design. More than an archive, it connects theory, documentation and visual examples in an explorable environment. The website includes five page types: an introductory landing page, a documentation section, a taxonomy-based gallery of case studies, individual case-study pages and an About section explaining the project's concept and aims.",
         "emphasis": "open-source digital platform"
       },
       {
         "title": "Presentation",
-        "description": "A presentation developed for the thesis defence was later adapted for teaching. Its slides and topic sheets are designed for reuse by lecturers and researchers in classes, workshops and other learning contexts, including the Master’s course in which I worked as an assistant. This allows the same research material to be explored beyond the publication and digital archive.",
+        "description": "The thesis presentation was later adapted for teaching, with slides and topic sheets designed for use by lecturers and researchers in classes, workshops and other educational settings. These materials were also relevant to the postgraduate Video Identity course in which I worked as an assistant, allowing the research to be used beyond the publication and digital platform.",
         "emphasis": "adapted for teaching"
       }
     ],
-    "emphasis": "visual language and motion",
+    "emphasis": "broadcast graphics",
     "contributionEmphasis": "editorial design"
   },
   "referto": {
     "projectType": "University Project",
     "title": "Referto Magazine",
-    "bio": "An independent editorial project exploring healthcare through the voices of its professionals.",
-    "overview": "An independent magazine about the human experience of healthcare, told through the voices of its professionals. The first 260-page issue focuses on emergency care, combining interviews, articles, reports, diaries and photography. Editorial research and visual storytelling come together in a publication where typography, imagery, paper and binding contribute to the reading experience.",
+    "bio": "An independent magazine exploring the human side of healthcare through its professionals.",
+    "overview": "Referto is an independent editorial project exploring the human side of healthcare through the voices of its professionals. Its name refers to a medical report, but the perspective is reversed: the people working in healthcare tell their own stories. The first 260-page issue focuses on emergency care, combining interviews, articles, reports, diaries and photography. Content research and visual design develop together, with typography, imagery, paper and binding all contributing to the narrative. The original concept also envisaged future issues on hospitalisation, surgery and prognosis.",
     "pill1": "Editorial",
     "pill2": "Art Direction",
     "pill3": "Branding",
@@ -68,23 +96,23 @@ export default {
     "sections": [
       {
         "title": "Shaping the reading experience",
-        "description": "The issue follows five chapters: The Call, The Wait, The Survey, The Rescue and The Transport. Each contains interviews, articles, reports and diaries, bringing different forms of storytelling into a shared editorial structure. Typography, photography and page composition organise these materials, while a photographic insert at the centre of the magazine creates a dedicated space for visual accounts. Swiss binding and a fold-out flap are part of the publication’s physical format, connecting the layout of its pages with the way the printed object is handled and read.",
+        "description": "The issue is divided into five chapters — The Call, The Wait, The Survey, The Rescue and The Transport — each combining interviews, articles, reports and diaries. These formats retain their individual voices within a shared editorial structure. Page composition, photography and typographic hierarchy guide the reader, while a central photographic insert offers a dedicated visual sequence. Swiss binding and a fold-out flap also shape the physical reading experience, connecting editorial layout with the way the magazine is handled and explored.",
         "emphasis": "shared editorial structure"
       },
       {
         "title": "Extending the publication",
-        "description": "The project also explores a digital platform where readers can contribute stories connected to the magazine’s themes. This extends the editorial idea beyond the printed issue and creates space for further accounts from the healthcare community.",
-        "emphasis": "readers can contribute stories"
+        "description": "The concept also includes a digital platform where readers can contribute stories and experiences related to the magazine's themes. This participatory extension takes the editorial idea beyond the printed issue, opening it to further voices from the healthcare community.",
+        "emphasis": "readers can contribute"
       }
     ],
-    "emphasis": "human experience of healthcare",
+    "emphasis": "human side of healthcare",
     "contributionEmphasis": "editorial layout"
   },
   "previewpretest": {
     "projectType": "Personal Project",
     "title": "Preview & Pretest",
-    "bio": "An evolving event identity designed to connect future students with Politecnico di Milano.",
-    "overview": "An evolving identity for two initiatives helping prospective students explore Design and Architecture at Politecnico di Milano. The project connects event organisation, visual communication and digital materials across different editions. Websites, social content, presentations and event graphics bring the identity into the different stages of the experience, from discovering a course to preparing for its entrance exam.",
+    "bio": "An evolving visual identity for two initiatives supporting prospective Design and Architecture students.",
+    "overview": "Preview & Pretest brings together two Politecnico di Milano initiatives designed to help prospective students choose their university path and prepare for entrance exams. The work combines event organisation with a visual identity applied to websites, social media, presentations and information materials. The system has evolved across editions while retaining recognisable elements and adapting to each year's communication needs.",
     "pill1": "Branding",
     "pill2": "Communication",
     "pill3": "Digital",
@@ -92,23 +120,23 @@ export default {
     "sections": [
       {
         "title": "Preview",
-        "description": "Preview introduces prospective students to university courses through a showcase of student projects. Centred on a one-day event, it gives visitors an opportunity to understand the different study paths through examples of work produced by students. A showcase website and communication materials accompany the event, extending the presentation of the projects across digital and social channels. The visual identity develops between editions while maintaining a recognisable connection across these materials.",
-        "emphasis": "showcase of student projects"
+        "description": "Preview introduces prospective students to Design and Architecture courses through a showcase of work created by Politecnico students. The main event takes place over one day, supported by a project website and communication materials that extend the experience online. The visual identity connects promotion, the event itself and the project showcase, maintaining continuity across different editions.",
+        "emphasis": "showcase of work"
       },
       {
         "title": "Pretest",
-        "description": "Pretest is a three-day study event supporting preparation for the Design and Architecture entrance exam. Lectures, practice tests and guided study sessions are supported by presentations and handouts that explain the subjects and accompany the exercises. The visual work brings together these learning resources and the event communication, adapting the identity to an experience centred on preparation and study.",
-        "emphasis": "preparation and study"
+        "description": "Pretest is a three-day event dedicated to preparing for Design and Architecture entrance exams. Lectures, practice tests and guided study sessions are supported by presentations, handouts and teaching materials developed within the same visual system. The event communication and learning resources work together to create a consistent and accessible experience.",
+        "emphasis": "learning resources"
       }
     ],
-    "emphasis": "evolving identity",
+    "emphasis": "event organisation",
     "contributionEmphasis": "identity development"
   },
   "disruptive": {
     "projectType": "Personal Project",
     "title": "Disruptive",
-    "bio": "A digital-first exhibition translating Sergio Marchionne's story into an interactive narrative.",
-    "overview": "A digital exhibition about Sergio Marchionne, developed for Meeting di Rimini and later translated into a physical installation. Interviews, illustrations, photography, video and editorial content form an experience that supports both quick exploration and more detailed reading.",
+    "bio": "An interactive exhibition about Sergio Marchionne, from the screen to a physical space.",
+    "overview": "Disruptive is an exhibition developed for Meeting di Rimini, originally conceived as a digital experience about Sergio Marchionne. His story provides a starting point for reflecting on change, the challenge of established models and the contrasting reactions that unconventional decisions can generate. Interviews, illustrations, photography, video and editorial content bring these themes together in an interactive narrative.",
     "pill1": "Digital Exhibition",
     "pill2": "UX/UI",
     "pill3": "Storytelling",
@@ -116,23 +144,23 @@ export default {
     "sections": [
       {
         "title": "Organising the digital exhibition",
-        "description": "The interface uses cards to organise the exhibition into three main sections. Research into digital exhibitions informed an interaction model inspired by Instagram Stories, with individual cards combining text, infographics, illustrations, photographs and video. Visitors can move through this content for a quick introduction, then open longer articles to explore a subject in more depth.",
-        "emphasis": "interaction model"
+        "description": "The interface is divided into three main sections using a card-based system inspired by Instagram Stories. Research into digital exhibition formats informed this interaction model, which combines text, infographics, illustrations, photography and video. Each card offers an immediate point of entry, while longer articles allow visitors to explore the subjects in greater depth.",
+        "emphasis": "card-based system"
       },
       {
         "title": "Moving into the exhibition space",
-        "description": "The physical installation brought the exhibition to the 2021 Meeting di Rimini. Originally conceived for digital access during COVID-19 restrictions, the content needed to be adapted to an in-person visit. Videos and digital presentations were incorporated into the exhibition space, extending the online narrative into a shared setting. This part of the project explored how material designed for individual navigation could also be experienced within a physical exhibition.",
+        "description": "At the 2021 Meeting di Rimini, the exhibition also became a physical installation. Content originally designed for individual online access during COVID-19 restrictions was adapted for an in-person visit through video and digital presentations. This required rethinking the pace and format of the experience while maintaining a connection with the original digital narrative.",
         "emphasis": "in-person visit"
       }
     ],
-    "emphasis": "digital exhibition",
+    "emphasis": "interactive narrative",
     "contributionEmphasis": "interface design"
   },
   "bottleneck": {
     "projectType": "University Project",
     "title": "Bottleneck",
-    "bio": "A digital wellbeing service designed to prioritise notifications.",
-    "overview": "A digital service concept developed in 2021–2022 to help people manage notifications. Research into attention and digital overload informed a system for organising information by application and urgency across desktop and mobile. The concept combines this classification with AI-supported prioritisation, exploring how an interface could help people navigate the boundaries between work and personal life.",
+    "bio": "A cross-device service concept for managing notifications and digital overload.",
+    "overview": "Bottleneck is a digital service concept developed in 2021–2022 to address notification overload and the increasingly blurred boundary between work and personal life. Research into attention and digital habits informed a cross-device system for organising notifications. Classification by source and urgency, combined with AI-supported summarisation and prioritisation, explores how information could be managed with greater awareness across desktop and mobile.",
     "pill1": "Product Design",
     "pill2": "UX/UI",
     "pill3": "Design System",
@@ -140,28 +168,28 @@ export default {
     "sections": [
       {
         "title": "Organising notifications",
-        "description": "Research into how people perceive notifications informed a taxonomy based on application and urgency. This framework guided the information architecture, feature selection and platform structure, establishing how different types of notifications would be organised across the service.",
-        "emphasis": "application and urgency"
+        "description": "The initial research led to a notification taxonomy based on different applications and levels of urgency. This framework informed the feature set, information architecture and platform structure, defining how information from different channels could be organised and accessed.",
+        "emphasis": "information architecture"
       },
       {
         "title": "Features and Tabs",
-        "description": "The proposed interface organises notifications through three main tabs. The dashboard separates primary and secondary notifications into foreground and background areas. An interaction page with an AI model lets users observe how their data is collected, while a search tab supports the exploration of discussions across different channels. These three areas organise how people encounter, inspect and find information within the service.",
-        "emphasis": "primary and secondary notifications"
+        "description": "The proposed interface is organised into three sections. The dashboard separates primary notifications, shown in the foreground, from secondary ones in the background. An AI interaction area explores how data informs the service, while a search section helps users find conversations and content across different channels. Together, these features offer different ways to review, understand and retrieve information.",
+        "emphasis": "primary notifications"
       },
       {
         "title": "A shared interface system",
-        "description": "A modular set of cards connects the desktop and mobile experiences. Each card follows a shared structure, with components that change according to the content it contains. The design system maintains this consistency across the platform’s different tabs and supports switching between work and personal modes, extending the same visual language across devices and contexts.",
-        "emphasis": "modular set of cards"
+        "description": "A modular card system connects the desktop and mobile interfaces. Each component follows a shared structure while adapting to the type of content displayed. The design system maintains consistency across the platform's sections and supports switching between work and personal modes, using the same visual language across devices and contexts.",
+        "emphasis": "modular card system"
       }
     ],
-    "emphasis": "attention and digital overload",
+    "emphasis": "notification overload",
     "contributionEmphasis": "interface design"
   },
   "carachioggia": {
     "projectType": "University Project",
     "title": "Cara Chioggia ti scrivo",
-    "bio": "An immersive storytelling experience revealing Chioggia through letters and audio content.",
-    "overview": "A storytelling project exploring Chioggia’s fishing heritage through letters, illustrations and audio. Field observations and interviews with the local community become an experience that connects personal stories with the places where they happened. The collected material is shaped into letters linking characters, memories and locations, providing the narrative foundation for an interactive platform and a wider communication system rooted in the territory.",
+    "bio": "An immersive journey into Chioggia's fishing culture through letters, illustrations and audio.",
+    "overview": "Cara Chioggia ti scrivo is a place-based storytelling project exploring Chioggia and its fishing culture through the people who live there. Field observations, interviews and research become a series of letters connecting characters, memories and locations. These stories form the basis of an immersive digital experience, where writing, illustration and podcast audio invite visitors to discover the territory, alongside communication materials linking the platform to the city's physical spaces.",
     "pill1": "Immersive Storytelling",
     "pill2": "Interaction",
     "pill3": "",
@@ -169,28 +197,28 @@ export default {
     "sections": [
       {
         "title": "From the map to the story",
-        "description": "Visitors begin with an illustrated map, select a letter and follow its story through scrolling. New content is revealed progressively, connecting the letter to specific people and places while creating moments of anticipation and discovery. Editorial layout, typography, illustrations and podcast audio work together to shape the pace of the experience. Their relationship to scrolling guides the transition from one passage to the next, allowing reading, listening and visual exploration to contribute to the same narrative.",
+        "description": "The experience begins with an illustrated map of Chioggia. After choosing a letter, visitors follow a story that unfolds progressively as they scroll. Text, images and audio connect characters to the places they describe, turning navigation into part of the storytelling experience. The pace is shaped by the sequence of editorial and interactive elements. Reading, listening and visual exploration alternate throughout the journey, allowing each letter to work as a complete narrative rather than a conventional content page.",
         "emphasis": "illustrated map"
       },
       {
         "title": "Research & Narrative Design",
-        "description": "Research into Chioggia’s fishing culture combined field observations, interviews and an exploration of the area’s social and geographical identity. The collected material was transformed into personal narratives and letters connecting characters, memories and locations. Editorial structure, visual compositions and illustrations were developed to make these stories accessible while preserving their connection to the territory. Each letter was approached as a complete narrative, bringing written content, visual rhythm, interaction and audio together into a coherent experience.",
-        "emphasis": "connection to the territory"
+        "description": "Research combined documentary sources, field observations and interviews in Chioggia to explore the relationship between the community, fishing and the territory. This material became personal stories and letters exchanged between characters. The writing, content architecture, illustrations and visual compositions were developed to make those accounts accessible without losing their connection to the places that inspired them. Each letter was designed as a complete narrative journey, bringing writing, visual rhythm, interaction and audio together into one experience.",
+        "emphasis": "narrative journey"
       },
       {
         "title": "Returning to the territory",
-        "description": "The concept extends into physical installations and communication materials in Chioggia itself. These connect reading and listening with visiting the locations featured in the letters, bringing the stories back to the places where they originated. The wider system also invites people to contribute new accounts, connecting the digital experience with further exploration of the territory and its community.",
+        "description": "The concept extends into physical installations and communication materials placed around Chioggia. These invite people to rediscover everyday locations through the stories of those who inhabit them, connecting the online experience with visits to the places featured in the letters. The system also envisages contributions through new letters, allowing the collective narrative to grow over time.",
         "emphasis": "physical installations"
       }
     ],
-    "emphasis": "letters, illustrations and audio",
+    "emphasis": "fishing culture",
     "contributionEmphasis": "art direction"
   },
   "sourdata": {
     "projectType": "University Project",
     "title": "SourData",
-    "bio": "A speculative product-service system questioning the value of personal data.",
-    "overview": "A speculative design project about privacy and the economic value of personal data. A provocative brand, connected objects and a digital platform turn data exchange into a tangible experience, asking what people might be willing to share in return for a financial reward.",
+    "bio": "A speculative design project questioning the economic value of personal data.",
+    "overview": "SourData is a speculative design project exploring privacy, personal data and economic value. Through the identity of a fictional company, three devices — Coomy, Poopy and Weezy — and a digital platform, it turns the exchange of intimate data into a tangible experience. Each object is conceived to collect information linked to different bodily activities, which users can then exchange for a financial reward. The project asks what value we place on data and how far we might be willing to go in sharing it.",
     "pill1": "Speculative",
     "pill2": "Interaction",
     "pill3": "Branding",
@@ -198,21 +226,21 @@ export default {
     "sections": [
       {
         "title": "Building the brand",
-        "description": "The visual identity extends across posters, packaging, social content, instructions and digital screens. These materials introduce the fictional service and explain how its objects and platform fit together, giving the speculative idea a recognisable presence. Launch posters introduce the kind of data being exchanged, while the user manual, website, presentation slides and brochures explain the proposal and guide people through the experience.",
-        "emphasis": "visual identity"
+        "description": "SourData's visual identity takes shape through launch posters, packaging, social content, instructions and digital interfaces. These materials build the language of a fictional service and explain the relationship between its physical devices and platform. The posters introduce the type of data being collected in a provocative way, while the website, user manual, presentations and brochures guide people through the concept.",
+        "emphasis": "fictional service"
       },
       {
         "title": "Making data exchange tangible",
-        "description": "The experience uses physical actions to represent data collection and exchange. After accepting the terms of the service, users receive a box containing a wearable device and a hub shaped like a piggy bank. Data collected by the device is stored on an SD card, which users transfer to the hub. Pressing a button sends the information to the digital platform, where it can be viewed and users can receive their reward. The piggy bank form connects data with economic value, while pressing the button represents consent to sharing it.",
-        "emphasis": "consent to sharing"
+        "description": "Physical objects and gestures make the exchange of data visible. After accepting the service terms, users receive a device and a piggy-bank-shaped Hub. Data collected by the device is stored on an SD card, which can be inserted into the Hub. Pressing a button sends the information to the digital platform, where it can be viewed and linked to a reward. The piggy-bank form connects data with money, while pressing the button highlights the moment of consent. These interaction choices turn a largely invisible digital process into a deliberate, recognisable action.",
+        "emphasis": "moment of consent"
       },
       {
         "title": "Prototyping the system",
-        "description": "The collection devices were developed through 3D-printed prototypes. The Coomy device and the hub were also built as functional prototypes, using Arduino to monitor data and share it with an online server. This connected the physical objects with the digital platform, allowing part of the proposed experience to be demonstrated through working components.",
+        "description": "The devices were designed and prototyped through 3D printing. Coomy and the Hub were also developed as functional prototypes, using Arduino to collect data and share it with an online server. This technical experimentation allowed part of the proposed experience to be demonstrated through working objects connected to the digital platform.",
         "emphasis": "functional prototypes"
       }
     ],
-    "emphasis": "economic value of personal data",
+    "emphasis": "economic value",
     "contributionEmphasis": "interface design"
   }
 }

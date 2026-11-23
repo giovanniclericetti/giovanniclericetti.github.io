@@ -24,7 +24,7 @@
       <section class="project-section" aria-labelledby="section-0">
         <div class="section-copy">
           <h4 aria-level="2" id="section-0">{{ $t("Brand Activations", "acmilan3.sections.0.title") }}</h4>
-          <p>{{ $t("Development of concepts, visual assets, and branded installations for commercial activations and fan-focused initiatives, translating partners' communication needs into physical and digital applications tailored to different spaces and audiences. Projects range from promotional content sets, such as the Emirates production featuring Kaká, to branded fan villages during matchdays, including Christmas activations and new kit launches. Creation of mockups, branded desks, arches, player cutouts, prize wheels, big-screen content, and co-branded installations, taking technical and production requirements into account.") }}</p>
+          <p>{{ $t(project.sections[0].description) }}</p>
         </div>
         <div class="gallery-row" style="--columns: 59fr 39fr">
           <div v-responsive-background="{ src: '/images/acm-events-matchday/ANLA9173_ee359df5-348b-4611-98aa-78fd4e3a7c79_20260525121411 3.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/ANLA9173_ee359df5-348b-4611-98aa-78fd4e3a7c79_20260525121411 3.png" class="gallery-image" role="img" :aria-label="$t(&quot;Matchday fan village for the new kit launch&quot;)" style="--image-ratio: 1.85"></div>
@@ -44,7 +44,7 @@
       <section class="project-section" aria-labelledby="section-1">
         <div class="section-copy">
           <h4 aria-level="2" id="section-1">{{ $t("Corporate & Partner Events", "acmilan3.sections.1.title") }}</h4>
-          <p>{{ $t("Design of visual materials and branded setups for corporate events and partner initiatives, adapting visual communication to different spaces, audiences, and brand identities. Projects range from branding Milanello for Summer of Bud, featuring training sessions and player meet-and-greets, to business events at venues such as Terrazza Martini, Casa Milan, and San Siro's hospitality areas. Creation of backdrops, screen graphics, and physical branding materials, from artwork preparation to production coordination and on-site setup.") }}</p>
+          <p>{{ $t(project.sections[1].description) }}</p>
         </div>
         <div class="gallery-row" style="--columns: 1fr 1fr">
           <div v-responsive-background="{ src: '/images/acm-events-matchday/SA1_8305_1iBhF4js_20260714110000 3.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/SA1_8305_1iBhF4js_20260714110000 3.png" class="gallery-image mobile-hidden" role="img" :aria-label="$t(&quot;Summer of Bud event at Milanello&quot;)" style="--image-ratio: 1.5"></div>
@@ -68,7 +68,7 @@
       <section class="project-section" aria-labelledby="section-2">
         <div class="section-copy">
           <h4 aria-level="2" id="section-2">{{ $t("Matchday & Sport Production", "acmilan3.sections.2.title") }}</h4>
-          <p>{{ $t("Design of visual assets and installations for on-pitch ceremonies and activations, combining sporting and commercial requirements within the matchday visual experience. Projects include the giant shirt tribute to Baresi, Emirates activations, and Hall of Fame ceremony setups, alongside supporting content for digital channels. Production of graphics and supervision of branded setups for hospitality areas, including the Generali Lounge and Bud Corner, with dedicated installations and screen content. Live direction during AC Milan matches at San Siro, managing the stadium's big screens, pitchside LED boards, and video towers. Coordination and direction of dedicated camera operators, management of incoming television camera feeds, and selection of live footage and content for display across the stadium's screens. Management of pre-match, in-match, and post-match programming, including goal sequences, video content, and partner activations, coordinating visuals, timing, and live operations throughout the event.") }}</p>
+          <p>{{ $t(project.sections[2].description) }}</p>
         </div>
         <div class="gallery-row" style="--columns: 1fr 1fr">
           <div v-responsive-background="{ src: '/images/acm-events-matchday/MM3_1888_6ASwckrp_20260829052529 3.png', fullResolution: true }" v-parallax data-parallax-image data-image-src="/images/acm-events-matchday/MM3_1888_6ASwckrp_20260829052529 3.png" class="gallery-image" role="img" :aria-label="$t(&quot;Giant shirt tribute to Franco Baresi&quot;)" style="--image-ratio: 1.5"></div>
