@@ -98,11 +98,11 @@ export default {
 
 .pillshome {
   border-radius: 20px;
-  background-color: transparent;
+  background-color: var(--color-primary);
   opacity: 1;
-  border: 1px solid #fff;
+  border: none;
   font-family: 'Bricolage Grotesque';
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   color: #fff}
 
