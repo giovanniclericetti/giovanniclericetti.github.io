@@ -7,7 +7,7 @@
     <ProjectScrollProgress />
 
     <b-row class="p-0 m-0" align-h="between">
-      <b-col cols="auto" class="p-0">  <NuxtLink to="/" aria-label="All projects"> <b-icon icon="arrow-left-circle-fill" style="width: 36px; height: 36px;"></b-icon> </NuxtLink> </b-col>
+      <b-col cols="auto" class="p-0">  <NuxtLink to="/" aria-label="All projects"> <img src="~static/icons/back-home.svg" alt="" aria-hidden="true" width="36" height="36" /> </NuxtLink> </b-col>
       <b-col cols="auto" class="p-0 text-right" align-self="center"> <NuxtLink to="/about" class=" hover-underline-animation" > <h5 class="m-0" > About Me </h5> </NuxtLink> </b-col>
     </b-row>
 

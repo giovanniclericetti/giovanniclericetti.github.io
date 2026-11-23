@@ -1854,5 +1854,13 @@
     "height": 143,
     "format": "svg",
     "sha256": "473c05882a84d77bafc62173386a04973a826551293a8c78bf2cba1ba53a7e4b"
+  },
+  {
+    "src": "/icons/back-home.svg",
+    "bytes": 551,
+    "width": 143,
+    "height": 143,
+    "format": "svg",
+    "sha256": "4e86cedcd08ec2a3eb8da8cf3b7af69ac32a94a398454f69dd49996970e23462"
   }
 ]

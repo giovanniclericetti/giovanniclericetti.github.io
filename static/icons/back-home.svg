@@ -1,0 +1,10 @@
+<svg width="143" height="143" viewBox="0 0 143 143" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="143" height="143" rx="50" fill="url(#back-gradient)"/>
+  <path d="M72 44 44.5 71.5 72 99M46 71.5H99" stroke="white" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <defs>
+    <linearGradient id="back-gradient" x1="5.77214" y1="-50.6458" x2="203.274" y2="38.7951" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB26A"/>
+      <stop offset="1" stop-color="#FF4466"/>
+    </linearGradient>
+  </defs>
+</svg>
