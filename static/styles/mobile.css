@@ -68,6 +68,7 @@
 .portfolio-shell .index .homepage-intro .hover-a-underline-animation::after,
 .portfolio-shell .about .titleindex .about-inline-link::after {
   top: calc(50% + 0.4em);
+  height: 2.5px;
 }
 @media (min-width: 992px) {
   .portfolio-shell .mobile-nav-slot {
