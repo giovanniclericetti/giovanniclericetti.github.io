@@ -1,7 +1,7 @@
 <template>
   <details ref="picker" class="language-picker" @keydown.esc.prevent.stop="close(true)">
     <summary ref="trigger" :aria-label="$t(&quot;Language&quot;)">
-      <span>{{ $t(selectedLabel) }}</span>
+      <span>{{ selectedLabel }}</span>
       <svg class="language-chevron" width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
         <path d="m4 6 4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
       </svg>
@@ -10,7 +10,7 @@
       <button v-for="option in languages" :key="option.code" type="button"
         :aria-pressed="language === option.code" :lang="option.code"
         @click="select(option.code)">
-        <span>{{ $t(option.label) }}</span>
+        <span>{{ option.label }}</span>
         <svg v-if="language === option.code" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
           <path d="m3 8 3 3 7-7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
         </svg>

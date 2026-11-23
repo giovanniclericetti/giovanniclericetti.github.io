@@ -53,7 +53,7 @@
         <template #link>
           <div class="mt-md-4 pt-1 mt-4">
             <a href="https://itback.altervista.org/" target="_blank">
-              <ProjectLink textlink="Instagram Profile"></ProjectLink>
+              <ProjectLink :textlink="$locale.state.language === 'it' ? 'Esplora il progetto' : 'Instagram Profile'"></ProjectLink>
             </a>
           </div>
         </template>
