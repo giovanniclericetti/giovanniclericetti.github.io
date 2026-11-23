@@ -315,7 +315,6 @@
 @media (min-width: 992px) {
   .about .titleindex.english-intro {
     width: 83.333333%;
-    font-size: clamp(18px, 1.75vw, 24px);
   }
 
   .english-intro .about-intro-line {
