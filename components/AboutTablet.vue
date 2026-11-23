@@ -14,12 +14,12 @@
       </a>
 
       <a class="tile resume resume-gradient" href="/documents/giovanniclericetti.pdf" target="_blank" rel="noopener">
-        <h4>My Resume</h4>
+        <h4>{{ $t("My Resume") }}</h4>
         <PortfolioImage src="/images/aboutme/cvbox.png" alt="" sizes="273px" />
       </a>
 
-      <a class="tile linkedin" href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank" rel="noopener" aria-label="Check my LinkedIn">
-        <img src="~/static/images/aboutme/checklinkedin.svg" alt="">
+      <a class="tile linkedin" href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank" rel="noopener" :aria-label="$t(&quot;Check my LinkedIn&quot;)">
+      <LinkedInTileLabel class="linkedin-label" />
       </a>
     </div>
 
@@ -99,7 +99,7 @@ export default {
   justify-content: center;
 }
 
-.linkedin img { width: 80%; height: auto; }
+.linkedin-label { width: 80%; }
 
 a:focus-visible {
   outline: 2px solid var(--color-primary);

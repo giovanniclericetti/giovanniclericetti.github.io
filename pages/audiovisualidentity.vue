@@ -17,7 +17,7 @@
 
 
 
-        <img alt="" role="img" aria-label="Audiovisual Identity thesis and blue typographic cover" v-responsive-background="'/images/covers/hero/avi.jpg'" data-image-src="/images/covers/hero/avi.jpg" class="cover-parallax"
+        <img alt="" role="img" :aria-label="$t(&quot;Audiovisual Identity thesis and blue typographic cover&quot;)" v-responsive-background="'/images/covers/hero/avi.jpg'" data-image-src="/images/covers/hero/avi.jpg" class="cover-parallax"
 
 
 
@@ -28,7 +28,7 @@
 
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
-        <PortfolioImage alt="Audiovisual Identity thesis and blue typographic cover" class=""
+        <PortfolioImage :alt="$t(&quot;Audiovisual Identity thesis and blue typographic cover&quot;)" class=""
      src="/images/covers/hero/avi.jpg"
  loading="eager" fetchpriority="high" style="height: auto;" />
 
@@ -39,7 +39,7 @@
 
         <b-col cols="12" md="7">
 
-          <h4 aria-level="2"> Introduction </h4>
+          <h4 aria-level="2">{{ $t(" Introduction ") }}</h4>
           <ProjectCopy :text="project.overview" :emphasis="project.emphasis" />
 
           <slot name="link2">
@@ -51,14 +51,14 @@
         <b-col cols="12" md="5" class="pl-md-5">
 
 
-          <h4 aria-level="2" class="mt-4 mt-md-0"> Supervisor </h4>
+          <h4 aria-level="2" class="mt-4 mt-md-0">{{ $t(" Supervisor ") }}</h4>
           <p> Francesco Ermanno Guida </p>
 
-          <h4 aria-level="2" class="mt-4 "> My contribution </h4>
+          <h4 aria-level="2" class="mt-4 ">{{ $t(" My contribution ") }}</h4>
           <ProjectCopy :text="project.contribution" :emphasis="project.contributionEmphasis" />
 
-          <h4 aria-level="2" class="mt-4 "> Delivery </h4>
-          <p> Research-Based Design Project </p>
+          <h4 aria-level="2" class="mt-4 ">{{ $t(" Delivery ") }}</h4>
+          <p>{{ $t(" Research-Based Design Project ") }}</p>
 
           <div class="mt-md-4 mt-4">
             <a href="https://audiovisualidentityhub.vercel.app/index.html" target="_blank" rel="noopener noreferrer">
@@ -78,49 +78,49 @@
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img alt="" role="img" aria-label="Thesis spread comparing television brand identities" v-responsive-background="'/images/avi/avi4.jpg'" data-image-src="/images/avi/avi4.jpg" class="img-parallax imgproject h600"
+            <img alt="" role="img" :aria-label="$t(&quot;Thesis spread comparing television brand identities&quot;)" v-responsive-background="'/images/avi/avi4.jpg'" data-image-src="/images/avi/avi4.jpg" class="img-parallax imgproject h600"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
         <ProjectDescription2
-            :title="project.sections[0].title"
+            :title="$t(project.sections[0].title)"
             :description="project.sections[0].description" :emphasis="project.sections[0].emphasis"
           /> </b-col>
 
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img alt="" role="img" aria-label="Blue cover of the Audiovisual Identity thesis" v-responsive-background="'/images/avi/avi2.jpg'" data-image-src="/images/avi/avi2.jpg" class="img-parallax imgproject h350 ref-pc"
+            <img alt="" role="img" :aria-label="$t(&quot;Blue cover of the Audiovisual Identity thesis&quot;)" v-responsive-background="'/images/avi/avi2.jpg'" data-image-src="/images/avi/avi2.jpg" class="img-parallax imgproject h350 ref-pc"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img alt="" role="img" aria-label="Thesis spread introducing audiovisual identity" v-responsive-background="'/images/avi/avi3.jpg'" data-image-src="/images/avi/avi3.jpg" class="img-parallax imgproject h350"
+            <img alt="" role="img" :aria-label="$t(&quot;Thesis spread introducing audiovisual identity&quot;)" v-responsive-background="'/images/avi/avi3.jpg'" data-image-src="/images/avi/avi3.jpg" class="img-parallax imgproject h350"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img alt="" role="img" aria-label="Research text and diagrams in the thesis" v-responsive-background="'/images/avi/avi7.jpg'" data-image-src="/images/avi/avi7.jpg" class="img-parallax imgproject h600"
+            <img alt="" role="img" :aria-label="$t(&quot;Research text and diagrams in the thesis&quot;)" v-responsive-background="'/images/avi/avi7.jpg'" data-image-src="/images/avi/avi7.jpg" class="img-parallax imgproject h600"
                  data-parallax-image v-parallax></div>
         </b-col>
         <b-col cols="12" md="6" class=" d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img alt="" role="img" aria-label="Thesis taxonomy diagram across a double-page spread" v-responsive-background="'/images/avi/avi5.jpg'" data-image-src="/images/avi/avi5.jpg" class="img-parallax imgproject h400 ref-pc"
+            <img alt="" role="img" :aria-label="$t(&quot;Thesis taxonomy diagram across a double-page spread&quot;)" v-responsive-background="'/images/avi/avi5.jpg'" data-image-src="/images/avi/avi5.jpg" class="img-parallax imgproject h400 ref-pc"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img alt="" role="img" aria-label="Television identity examples on an orange editorial spread" v-responsive-background="'/images/avi/avi6.jpg'" data-image-src="/images/avi/avi6.jpg" class="img-parallax imgproject h400"
+            <img alt="" role="img" :aria-label="$t(&quot;Television identity examples on an orange editorial spread&quot;)" v-responsive-background="'/images/avi/avi6.jpg'" data-image-src="/images/avi/avi6.jpg" class="img-parallax imgproject h400"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img alt="" role="img" aria-label="Overview of the thesis editorial spreads" v-responsive-background="'/images/avi/avi13.jpg'" data-image-src="/images/avi/avi13.jpg" class="img-parallax imgproject h400" style="height: 430px;
+            <img alt="" role="img" :aria-label="$t(&quot;Overview of the thesis editorial spreads&quot;)" v-responsive-background="'/images/avi/avi13.jpg'" data-image-src="/images/avi/avi13.jpg" class="img-parallax imgproject h400" style="height: 430px;
      "
                  data-parallax-image v-parallax></div>
         </b-col>
@@ -128,43 +128,43 @@
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
 
           <ProjectDescription2
-            :title="project.sections[1].title"
+            :title="$t(project.sections[1].title)"
             :description="project.sections[1].description" :emphasis="project.sections[1].emphasis"
           /> </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img alt="" role="img" aria-label="Audiovisual Identity Hub homepage with television logos" v-responsive-background="'/images/avi/avi8.jpg'" data-image-src="/images/avi/avi8.jpg" class="img-parallax imgproject h600"
+            <img alt="" role="img" :aria-label="$t(&quot;Audiovisual Identity Hub homepage with television logos&quot;)" v-responsive-background="'/images/avi/avi8.jpg'" data-image-src="/images/avi/avi8.jpg" class="img-parallax imgproject h600"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img alt="" role="img" aria-label="Audiovisual Identity Hub research article" v-responsive-background="'/images/avi/avi9.jpg'" data-image-src="/images/avi/avi9.jpg" class="img-parallax imgproject h400"
+            <img alt="" role="img" :aria-label="$t(&quot;Audiovisual Identity Hub research article&quot;)" v-responsive-background="'/images/avi/avi9.jpg'" data-image-src="/images/avi/avi9.jpg" class="img-parallax imgproject h400"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img alt="" role="img" aria-label="Audiovisual Identity Hub taxonomy interface" v-responsive-background="'/images/avi/avi10.jpg'" data-image-src="/images/avi/avi10.jpg" class="img-parallax imgproject h400"
+            <img alt="" role="img" :aria-label="$t(&quot;Audiovisual Identity Hub taxonomy interface&quot;)" v-responsive-background="'/images/avi/avi10.jpg'" data-image-src="/images/avi/avi10.jpg" class="img-parallax imgproject h400"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="12" class=" py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img alt="" role="img" aria-label="Audiovisual Identity Hub case-study collection" v-responsive-background="'/images/avi/avi15.jpg'" data-image-src="/images/avi/avi15.jpg" class="img-parallax imgproject h600"
+            <img alt="" role="img" :aria-label="$t(&quot;Audiovisual Identity Hub case-study collection&quot;)" v-responsive-background="'/images/avi/avi15.jpg'" data-image-src="/images/avi/avi15.jpg" class="img-parallax imgproject h600"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img alt="" role="img" aria-label="Broadcast identity case study on Audiovisual Identity Hub" v-responsive-background="'/images/avi/avi12.jpg'" data-image-src="/images/avi/avi12.jpg" class="img-parallax imgproject h400"
+            <img alt="" role="img" :aria-label="$t(&quot;Broadcast identity case study on Audiovisual Identity Hub&quot;)" v-responsive-background="'/images/avi/avi12.jpg'" data-image-src="/images/avi/avi12.jpg" class="img-parallax imgproject h400"
                  data-parallax-image v-parallax></div>
         </b-col>
 
         <b-col cols="12" md="6" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img alt="" role="img" aria-label="Audiovisual Identity Hub information page" v-responsive-background="'/images/avi/avi16.jpg'" data-image-src="/images/avi/avi16.jpg" class="img-parallax imgproject h400"
+            <img alt="" role="img" :aria-label="$t(&quot;Audiovisual Identity Hub information page&quot;)" v-responsive-background="'/images/avi/avi16.jpg'" data-image-src="/images/avi/avi16.jpg" class="img-parallax imgproject h400"
                  data-parallax-image v-parallax></div>
         </b-col>
 
@@ -172,12 +172,12 @@
 
 
         <b-col cols="12" md="12" class="py-md-3 py-2 px-3">
-          <ProjectDescription2 :title="project.sections[2].title" :description="project.sections[2].description" :emphasis="project.sections[2].emphasis" />
+          <ProjectDescription2 :title="$t(project.sections[2].title)" :description="project.sections[2].description" :emphasis="project.sections[2].emphasis" />
         </b-col>
 
         <b-col cols="12" md="12" class="d-none d-md-block py-md-3 py-2 px-3">
           <div class="imgbox">
-            <img alt="" role="img" aria-label="Overview of presentation slides for the thesis" v-responsive-background="'/images/avi/avi14.jpg'" data-image-src="/images/avi/avi14.jpg" class="img-parallax imgproject h600" style="height: 630px;
+            <img alt="" role="img" :aria-label="$t(&quot;Overview of presentation slides for the thesis&quot;)" v-responsive-background="'/images/avi/avi14.jpg'" data-image-src="/images/avi/avi14.jpg" class="img-parallax imgproject h600" style="height: 630px;
      "
                  data-parallax-image v-parallax></div>
         </b-col>

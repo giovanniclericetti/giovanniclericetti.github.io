@@ -9,9 +9,9 @@
   <div class="homepage-intro">
 
     <h1 class="titleindex">
-      <span class="intro-line">Hey! I'm Giovanni, a <span class="name gradient">Visual Designer</span> working in the</span>
-      <span class="intro-line">sports industry. I currently work with <a class="hover-a-underline-animation" href="https://www.acmilan.com/">AC Milan</a>, focusing</span>
-      <span class="intro-line">on brand communication and commercial partnerships.</span>
+      <span class="intro-line">{{ $t("Hey! I'm Giovanni, a ") }}<span class="name gradient">{{ $t("Visual Designer") }}</span>{{ $t(" working in the") }}</span>
+      <span class="intro-line">{{ $t("sports industry. I currently work with ") }}<a class="hover-a-underline-animation" href="https://www.acmilan.com/">AC Milan</a>{{ $t(", focusing") }}</span>
+      <span class="intro-line">{{ $t("on brand communication and commercial partnerships.") }}</span>
     </h1>
 
   </div>
@@ -114,6 +114,11 @@ a:hover {
   .index .intro-line {
     display: block;
     white-space: nowrap;
+  }
+
+  html[lang="it"] .index .intro-line {
+    display: inline;
+    white-space: normal;
   }
 }
 

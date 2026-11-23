@@ -2,17 +2,17 @@
 
 
   <div class="mobile-nav-slot">
-  <nav aria-label="Main navigation" class="container-fluid header p-0 mb-3">
+  <nav :aria-label="$t(&quot;Main navigation&quot;)" class="container-fluid header p-0 mb-3">
 
     <ProjectScrollProgress />
 
     <b-row class="p-0 m-0" align-h="between">
       <b-col cols="auto" class="p-0">
-        <NuxtLink to="/" aria-label="All projects">
+        <NuxtLink to="/" :aria-label="$t(&quot;All projects&quot;)">
           <HeaderIcon :gradient="false" />
         </NuxtLink>
       </b-col>
-      <b-col cols="auto" class="p-0 text-right" align-self="center"> <NuxtLink to="/about" class=" hover-underline-animation" > <h5 class="m-0" > About Me </h5> </NuxtLink> </b-col>
+      <b-col cols="auto" class="p-0 text-right" align-self="center"> <NuxtLink to="/about" class=" hover-underline-animation" > <h5 class="m-0" >{{ $t(" About Me ") }}</h5> </NuxtLink> </b-col>
     </b-row>
 
   </nav>

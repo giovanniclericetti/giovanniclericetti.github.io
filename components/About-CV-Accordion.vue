@@ -6,7 +6,7 @@
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
           <b-row tag="button" type="button" v-b-toggle.accordion-6 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
-            <b-col cols="auto" class=""> <h4 aria-level="2" class="gradient"> Professional Experience </h4> </b-col>
+            <b-col cols="auto" class=""> <h4 aria-level="2" class="gradient">{{ $t(" Professional Experience ") }}</h4> </b-col>
             <b-col class="text-right mr-2 ">
 
               <b-icon :icon="!opened.accordion6 ? 'chevron-down' : 'chevron-up'"
@@ -32,7 +32,7 @@
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
           <b-row tag="button" type="button" v-b-toggle.accordion-1 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
-            <b-col class=""> <h4 aria-level="2" class="gradient"> Education </h4> </b-col>
+            <b-col class=""> <h4 aria-level="2" class="gradient">{{ $t(" Education ") }}</h4> </b-col>
             <b-col class="text-right mr-2 ">
 
               <b-icon :icon="!opened.accordion1 ? 'chevron-down' : 'chevron-up'"
@@ -48,29 +48,29 @@
 
         <AboutCvElement category="2022-2025" class="mt-0">
           <template #slotcvelement>
-            <p>Master’s Degree in Communication Design</p>
-            <p class="subtitlecv"><a class="underlinemobile" href="https://www.polimi.it/">Politecnico di Milano</a>, School of Design (110/110)</p>
+            <p>{{ $t("Master’s Degree in Communication Design") }}</p>
+            <p class="subtitlecv"><a class="underlinemobile" href="https://www.polimi.it/">Politecnico di Milano</a>{{ $t(", School of Design (110/110)") }}</p>
           </template>
         </AboutCvElement>
 
         <AboutCvElement category="2024" class="mt-3">
           <template #slotcvelement>
-            <p>Erasmus Exchange - Master Digital Design</p>
+            <p>{{ $t("Erasmus Exchange - Master Digital Design") }}</p>
             <p class="subtitlecv"><a class="underlinemobile" href="https://cmd-amsterdam.nl/">Hogeschool van Amsterdam</a>, Amsterdam, NL</p>
           </template>
         </AboutCvElement>
 
         <AboutCvElement category="2019-2022" class="mt-3">
           <template #slotcvelement>
-            <p>Bachelor’s Degree in Communication Design</p>
-            <p class="subtitlecv"><a class="underlinemobile" href="https://www.polimi.it/">Politecnico di Milano</a>, School of Design (110/110)</p>
+            <p>{{ $t("Bachelor’s Degree in Communication Design") }}</p>
+            <p class="subtitlecv"><a class="underlinemobile" href="https://www.polimi.it/">Politecnico di Milano</a>{{ $t(", School of Design (110/110)") }}</p>
           </template>
         </AboutCvElement>
 
         <AboutCvElement category="2014-2019" class="mt-3">
           <template #slotcvelement>
-            <p>Art High School Diploma (Architecture)</p>
-            <p class="subtitlecv"><a class="underlinemobile" href="https://www.sacrocuore.org/">Fondazione Sacro Cuore</a>, Milan</p>
+            <p>{{ $t("Art High School Diploma (Architecture)") }}</p>
+            <p class="subtitlecv"><a class="underlinemobile" href="https://www.sacrocuore.org/">Fondazione Sacro Cuore</a>{{ $t(", Milan") }}</p>
           </template>
         </AboutCvElement>
 
@@ -85,7 +85,7 @@
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
           <b-row tag="button" type="button" v-b-toggle.accordion-2 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
-            <b-col cols="auto" class=""> <h4 aria-level="2" class="gradient"> Exhibitions and Project Awards </h4> </b-col>
+            <b-col cols="auto" class=""> <h4 aria-level="2" class="gradient">{{ $t(" Exhibitions and Project Awards ") }}</h4> </b-col>
             <b-col class="text-right mr-2 ">
 
               <b-icon :icon="!opened.accordion2 ? 'chevron-down' : 'chevron-up'"
@@ -101,22 +101,22 @@
 
         <AboutCvElement category="2023, Polimi Design School" class="mt-0">
           <template #slotcvelement>
-            <p class="exhibition-title">Belonging / Not Belonging - Indie Magazine for social change at La Stecca 3 exhibition space</p>
-            <p class="subtitlecv">Presentation of the <NuxtLink class="underlinemobile" to="/referto">Referto Magazine</NuxtLink> project</p>
+            <p class="exhibition-title">{{ $t("Belonging / Not Belonging - Indie Magazine for social change at La Stecca 3 exhibition space") }}</p>
+            <p class="subtitlecv">{{ $t("Presentation of the ") }}<NuxtLink class="underlinemobile" to="/referto">Referto Magazine</NuxtLink>{{ $t(" project") }}</p>
           </template>
         </AboutCvElement>
 
         <AboutCvElement category="2022, FuoriSalone Milan Design Week" class="mt-3">
           <template #slotcvelement>
-            <p class="exhibition-title">DesignXDesigner - Polimi Design Student Exhibition at Fuorisalone</p>
-            <p class="subtitlecv">Presentation of the <NuxtLink class="underlinemobile" to="/sourdata">SourData</NuxtLink> project</p>
+            <p class="exhibition-title">{{ $t("DesignXDesigner - Polimi Design Student Exhibition at Fuorisalone") }}</p>
+            <p class="subtitlecv">{{ $t("Presentation of the ") }}<NuxtLink class="underlinemobile" to="/sourdata">SourData</NuxtLink>{{ $t(" project") }}</p>
           </template>
         </AboutCvElement>
 
         <AboutCvElement category="2022, ATS Insubria Workshop" class="mt-3">
           <template #slotcvelement>
-            <p>ATS Insubria Social OOH Campaign</p>
-            <p class="subtitlecv">BellaScusa was selected for ATS Insubria’s communication campaign against problem gambling.</p>
+            <p>{{ $t("ATS Insubria Social OOH Campaign") }}</p>
+            <p class="subtitlecv">{{ $t("BellaScusa was selected for ATS Insubria’s communication campaign against problem gambling.") }}</p>
           </template>
         </AboutCvElement>
 
@@ -130,7 +130,7 @@
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
           <b-row tag="button" type="button" v-b-toggle.accordion-3 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
-            <b-col cols="auto" class=""> <h4 aria-level="2" class="gradient"> Social Initiatives </h4> </b-col>
+            <b-col cols="auto" class=""> <h4 aria-level="2" class="gradient">{{ $t(" Social Initiatives ") }}</h4> </b-col>
             <b-col class="text-right mr-2 ">
 
               <b-icon :icon="!opened.accordion3 ? 'chevron-down' : 'chevron-up'"
@@ -146,29 +146,29 @@
 
             <AboutCvElement category="University Politics (2021-2023)" class="mt-0">
           <template #slotcvelement>
-            <p>Student Representative</p>
-            <p class="subtitlecv">Communication Design Programme Council (CCS), Politecnico di Milano</p>
+            <p>{{ $t("Student Representative") }}</p>
+            <p class="subtitlecv">{{ $t("Communication Design Programme Council (CCS), Politecnico di Milano") }}</p>
           </template>
         </AboutCvElement>
 
         <AboutCvElement category="Volunteering (2021-2024)" class="mt-3">
           <template #slotcvelement>
-            <p>Meeting di Rimini - Exhibition Spaces</p>
-            <p class="subtitlecv">Collaboration on graphics, panels and exhibition areas</p>
+            <p>{{ $t("Meeting di Rimini - Exhibition Spaces") }}</p>
+            <p class="subtitlecv">{{ $t("Collaboration on graphics, panels and exhibition areas") }}</p>
           </template>
         </AboutCvElement>
 
         <AboutCvElement category="Volunteering (2019-2021)" class="mt-3">
           <template #slotcvelement>
-            <p>Sales Clerk at the University Bookstore</p>
+            <p>{{ $t("Sales Clerk at the University Bookstore") }}</p>
             <p class="subtitlecv">CUSL, Politecnico di Milano</p>
           </template>
         </AboutCvElement>
 
         <AboutCvElement category="Volunteering (every year)" class="mt-3">
           <template #slotcvelement>
-            <p>Banco Alimentare and Banco Farmaceutico</p>
-            <p class="subtitlecv">Collection of food and medicines for people in need.</p>
+            <p>{{ $t("Banco Alimentare and Banco Farmaceutico") }}</p>
+            <p class="subtitlecv">{{ $t("Collection of food and medicines for people in need.") }}</p>
           </template>
         </AboutCvElement>
 
@@ -182,7 +182,7 @@
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
           <b-row tag="button" type="button" v-b-toggle.accordion-4 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
-            <b-col cols="auto" class=""> <h4 aria-level="2" class="gradient"> Languages </h4> </b-col>
+            <b-col cols="auto" class=""> <h4 aria-level="2" class="gradient">{{ $t(" Languages ") }}</h4> </b-col>
             <b-col class="text-right mr-2 ">
 
               <b-icon :icon="!opened.accordion4 ? 'chevron-down' : 'chevron-up'"
@@ -198,19 +198,19 @@
 
         <AboutCvElement category="Italian" class="mt-0">
           <template #slotcvelement>
-            <p>Native</p>
+            <p>{{ $t("Native") }}</p>
           </template>
         </AboutCvElement>
 
         <AboutCvElement category="English" class="mt-3">
           <template #slotcvelement>
-            <p>B2 - IELTS Certification</p>
+            <p>{{ $t("B2 - IELTS Certification") }}</p>
           </template>
         </AboutCvElement>
 
         <AboutCvElement category="Spanish" class="mt-3">
           <template #slotcvelement>
-            <p>Basic</p>
+            <p>{{ $t("Basic") }}</p>
           </template>
         </AboutCvElement>
 
@@ -224,7 +224,7 @@
       <b-card no-body class="cardaccordion">
         <b-card-header class="p-0 cardaccordion pb-3" >
           <b-row tag="button" type="button" v-b-toggle.accordion-5 class="text-left d-flex cardaccordion justify-spa accordion-trigger" >
-            <b-col cols="auto" class=""> <h4 aria-level="2" class="gradient"> Software and Tools </h4> </b-col>
+            <b-col cols="auto" class=""> <h4 aria-level="2" class="gradient">{{ $t(" Software and Tools ") }}</h4> </b-col>
             <b-col class="text-right mr-2 ">
 
               <b-icon :icon="!opened.accordion5 ? 'chevron-down' : 'chevron-up'"
@@ -282,9 +282,9 @@
 
     </div>
 
-    <h4 aria-level="2" class="w-100 mt-5 text-center"> <a href="documents/giovanniclericetti.pdf" target="_blank" style="display: inline-flex; align-items: center;">
+    <h4 aria-level="2" class="w-100 mt-5 text-center"> <a href="/documents/giovanniclericetti.pdf" target="_blank" style="display: inline-flex; align-items: center;">
       <HeaderIcon symbol="down-right" id-suffix="-resume-mobile" class="mr-2" :size="30" style="flex-shrink: 0" />
-      <span class="underlinemobile downloadcv" style="color: black"> Download Resume </span> </a>
+      <span class="underlinemobile downloadcv" style="color: black">{{ $t(" Download Resume ") }}</span> </a>
     </h4>
 
   </div>

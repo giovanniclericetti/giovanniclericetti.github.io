@@ -3,9 +3,9 @@
     <div class="footer-layout">
       <LanguagePicker class="footer-language" />
 
-      <p class="copyright">Designed &amp; Coded by Giovanni Clericetti, 2026</p>
+      <p class="copyright">{{ $t("Designed & Coded by Giovanni Clericetti, 2026") }}</p>
 
-      <nav class="footer-links" aria-label="Contact links">
+      <nav class="footer-links" :aria-label="$t(&quot;Contact links&quot;)">
         <a href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank" rel="noopener noreferrer" class="social hover-underline-animation">LinkedIn <span class="social-arrow" aria-hidden="true">↗</span></a>
         <a href="mailto:giovanni.clericetti@gmail.com" class="social hover-underline-animation">Mail <span class="social-arrow" aria-hidden="true">↗</span></a>
       </nav>

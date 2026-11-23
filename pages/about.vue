@@ -9,7 +9,7 @@
     <div class="about-sections">
     <div>
 
-      <h1 class="titleindex">After graduating in Communication Design from <a class="name gradient about-inline-link" href="https://www.polimi.it/">Polimi</a>, I now work with <a class="name gradient about-inline-link" href="https://www.acmilan.com/">AC Milan</a>, combining creativity and strategy across visual identities, digital experiences and live environments.</h1>
+      <h1 class="titleindex">{{ $t("After graduating in Communication Design from ") }}<span class="intro-link-word"><a class="name gradient about-inline-link" href="https://www.polimi.it/">Polimi</a>,</span>{{ $t(" I now work with ") }}<span class="intro-link-word"><a class="name gradient about-inline-link" href="https://www.acmilan.com/">AC Milan</a>,</span>{{ $t(" combining creativity and strategy across visual identities, digital experiences and live environments.") }}</h1>
 
     </div>
 
@@ -23,38 +23,38 @@
 
     <About-Box class="d-lg-block d-none" />
 
-    <section class="about-expertise" aria-label="Areas of Expertise">
+    <section class="about-expertise" :aria-label="$t(&quot;Areas of Expertise&quot;)">
       <div class="expertise-columns">
         <div class="expertise-column">
           <div class="expertise-panel">
-          <h6 aria-level="3" class="gradient mb-3 expertise-heading">Brand Design</h6>
+          <h6 aria-level="3" class="gradient mb-3 expertise-heading">{{ $t("Brand Design") }}</h6>
           <div class="expertise-divider" aria-hidden="true"></div>
           <ul class="expertise-list">
-          <li>Brand Identity &amp; Visual Systems</li>
-          <li>Partnership &amp; Commercial Design</li>
-          <li>Venue Branding &amp; Co-Branding</li>
+          <li>{{ $t("Brand Identity & Visual Systems") }}</li>
+          <li>{{ $t("Partnership & Commercial Design") }}</li>
+          <li>{{ $t("Venue Branding & Co-Branding") }}</li>
           </ul>
           </div>
         </div>
         <div class="expertise-column">
           <div class="expertise-panel">
-          <h6 aria-level="3" class="gradient mb-3 expertise-heading">Events &amp; Production</h6>
+          <h6 aria-level="3" class="gradient mb-3 expertise-heading">{{ $t("Events & Production") }}</h6>
           <div class="expertise-divider" aria-hidden="true"></div>
           <ul class="expertise-list">
-          <li>Event Branding &amp; Brand Activations</li>
-          <li>Live Visual Production</li>
-          <li>Matchday &amp; Stadium Content</li>
+          <li>{{ $t("Event Branding & Brand Activations") }}</li>
+          <li>{{ $t("Live Visual Production") }}</li>
+          <li>{{ $t("Matchday & Stadium Content") }}</li>
           </ul>
           </div>
         </div>
         <div class="expertise-column">
           <div class="expertise-panel">
-          <h6 aria-level="3" class="gradient mb-3 expertise-heading">Digital &amp; Editorial</h6>
+          <h6 aria-level="3" class="gradient mb-3 expertise-heading">{{ $t("Digital & Editorial") }}</h6>
           <div class="expertise-divider" aria-hidden="true"></div>
           <ul class="expertise-list">
-          <li>UX/UI &amp; Digital Experiences</li>
-          <li>Editorial &amp; Presentation Design</li>
-          <li>Research &amp; Information Architecture</li>
+          <li>{{ $t("UX/UI & Digital Experiences") }}</li>
+          <li>{{ $t("Editorial & Presentation Design") }}</li>
+          <li>{{ $t("Research & Information Architecture") }}</li>
           </ul>
           </div>
         </div>
@@ -118,6 +118,7 @@
 </script>
 
 <style scoped>
+.intro-link-word { white-space: nowrap; }
 .about-expertise {
   margin-top: -28px;
   text-align: center;

@@ -2,7 +2,7 @@
 
     <div class=" projectcard" >
 
-      <span class="card-category-pill d-none d-md-block">{{ projectType }}</span>
+      <span class="card-category-pill d-none d-md-block">{{ $t(projectType) }}</span>
 
       <NuxtLink :to="to" class="projectcard-link">
 
@@ -22,15 +22,15 @@
 
         <b-row class="bio mx-1 my-2">
 
-          <b-col cols="12" class=""><h4 aria-level="2" class="titlemob" style="color: var(--color-secondary);">  {{ projectname }} </h4></b-col>
+          <b-col cols="12" class=""><h4 aria-level="2" class="titlemob" style="color: var(--color-secondary);">  {{ $t(projectname) }} </h4></b-col>
           <b-col cols="12" class="card-description">
-            <p2 style="color: var(--color-secondary)"> {{ bio }} </p2>
+            <p2 style="color: var(--color-secondary)"> {{ $t(bio) }} </p2>
           </b-col>
 
           <b-col cols="12" class="card-tags">
-            <b-badge pill class="pillshome mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ pill1 }}</b-badge>
-            <b-badge pill class="pillshome mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ pill2 }}</b-badge>
-            <b-badge v-if="pill3" pill class="pillshome terzapill mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ pill3 }}</b-badge>
+            <b-badge pill class="pillshome mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ $t(pill1) }}</b-badge>
+            <b-badge pill class="pillshome mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ $t(pill2) }}</b-badge>
+            <b-badge v-if="pill3" pill class="pillshome terzapill mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ $t(pill3) }}</b-badge>
           </b-col>
 
         </b-row>

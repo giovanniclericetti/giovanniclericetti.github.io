@@ -1,5 +1,5 @@
 <template>
-  <div class="work-in-progress">WORK IN PROGRESS</div>
+  <div class="work-in-progress">{{ $t("WORK IN PROGRESS") }}</div>
 </template>
 
 <style scoped>

@@ -10,10 +10,12 @@ export default {
     emphasis: { type: String, default: '' },
   },
   computed: {
-    position() { return this.emphasis ? this.text.indexOf(this.emphasis) : -1 },
-    before() { return this.position < 0 ? this.text : this.text.slice(0, this.position) },
-    highlight() { return this.position < 0 ? '' : this.emphasis },
-    after() { return this.position < 0 ? '' : this.text.slice(this.position + this.emphasis.length) },
+    localizedText() { return this.$t(this.text) },
+    localizedEmphasis() { return this.$t(this.emphasis) },
+    position() { return this.localizedEmphasis ? this.localizedText.indexOf(this.localizedEmphasis) : -1 },
+    before() { return this.position < 0 ? this.localizedText : this.localizedText.slice(0, this.position) },
+    highlight() { return this.position < 0 ? '' : this.localizedEmphasis },
+    after() { return this.position < 0 ? '' : this.localizedText.slice(this.position + this.localizedEmphasis.length) },
   },
 }
 </script>

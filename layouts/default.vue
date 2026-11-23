@@ -1,6 +1,6 @@
 <template>
   <div class="portfolio-shell">
-    <a href="#main-content" class="skip-link">Skip to content</a>
+    <a href="#main-content" class="skip-link">{{ $t("Skip to content") }}</a>
     <main id="main-content" tabindex="-1"><Nuxt ref="page"/></main>
     <PortfolioCursor />
   </div>
@@ -15,6 +15,8 @@ export default {
     '$route.path'() { this.$nextTick(this.setupReveal) },
   },
   mounted() {
+    // Restore only after hydration: generated HTML always starts in English.
+    this.$nextTick(() => this.$locale.restore())
     this.setupReveal()
     this.revealMutation = new MutationObserver(() => this.setupReveal())
     this.revealMutation.observe(this.$el.querySelector('main'), { childList: true, subtree: true })
@@ -50,7 +52,8 @@ export default {
   },
   head() {
     return {
-      ...portfolioSeo(this.$route.path),
+      ...portfolioSeo(this.$route.path, this.$t),
+      htmlAttrs: { lang: this.$locale.state.language },
       noscript: [{ hid: 'image-fallback', innerHTML: imageFallback(this.$route.path) }],
       __dangerouslyDisableSanitizersByTagID: { 'image-fallback': ['innerHTML'] },
       link: [

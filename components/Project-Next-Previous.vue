@@ -7,15 +7,15 @@
     <div class="text-center">
 
       <div cols="12" md="10" class="">
-        <p1 style=""> Go to Next Project {{ bio }} </p1>
+        <p1 style="">{{ $t(" Go to Next Project ") }}{{ $t(bio) }} </p1>
       </div>
-      <div cols="12" md="10" class="next-project-title"><h4 style="color: var(--color-primary);">  {{ nextproject }} </h4></div>
+      <div cols="12" md="10" class="next-project-title"><h4 style="color: var(--color-primary);">  {{ $t(nextproject) }} </h4></div>
     </div>
     </div>
 
       <div class="d-flex justify-content-center mt-2 mt-md-0">
 
-    <NuxtLink :to="to" :aria-label="nextproject" class="nextcard">
+    <NuxtLink :to="to" :aria-label="$t(nextproject)" class="nextcard">
 
 
 
@@ -33,7 +33,7 @@
 <div class="d-flex align-items-center">
             <b-icon icon="arrow-up-right-circle-fill" style="flex-shrink: 0; width: 38px; height: 38px; color: white; opacity: 0.8" />
 
-            <p2 class="px-2" style="text-decoration: none; color: white; line-height: 120%; opacity: 0.9"> {{bionext}} </p2>
+            <p2 class="px-2" style="text-decoration: none; color: white; line-height: 120%; opacity: 0.9"> {{ $t(bionext) }} </p2>
 
 </div>
 
@@ -42,9 +42,9 @@
           </b-col>
 
         <b-col cols="12" md="" class="text-right d-none d-md-block next-project-pills">
-          <b-badge pill class="pillshome mx-0 mr-1  p-1 px-2"> {{ pill1 }}</b-badge>
-          <b-badge pill class="pillshome mx-0 mr-1  p-1 px-2"> {{ pill2 }}</b-badge>
-          <b-badge v-if="pill3" pill class="pillshome mx-0 mr-0  p-1 px-2"> {{ pill3 }}</b-badge>
+          <b-badge pill class="pillshome mx-0 mr-1  p-1 px-2"> {{ $t(pill1) }}</b-badge>
+          <b-badge pill class="pillshome mx-0 mr-1  p-1 px-2"> {{ $t(pill2) }}</b-badge>
+          <b-badge v-if="pill3" pill class="pillshome mx-0 mr-0  p-1 px-2"> {{ $t(pill3) }}</b-badge>
         </b-col>
 
       </b-row>

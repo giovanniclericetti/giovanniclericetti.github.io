@@ -3,8 +3,8 @@
   <b-row>
     <b-col cols="12" md="7">
 
-    <h4 aria-level="2"> Project Overview </h4>
-     <slot name="overview-copy"><p> {{ description }} </p></slot>
+    <h4 aria-level="2">{{ $t(" Project Overview ") }}</h4>
+     <slot name="overview-copy"><p> {{ $t(description) }} </p></slot>
 
       <slot name="link2">
       </slot>
@@ -15,14 +15,14 @@
     <b-col cols="12" md="5" style="">
 
 
-      <h4 aria-level="2" class="mt-4 mt-md-0"> Team </h4>
+      <h4 aria-level="2" class="mt-4 mt-md-0">{{ $t(" Team ") }}</h4>
       <p v-html="formatTeam(team)"></p>
 
-      <h4 aria-level="2" class="mt-4"> Role </h4>
-      <slot name="role-copy"><p> {{ role }} </p></slot>
+      <h4 aria-level="2" class="mt-4">{{ $t(" Role ") }}</h4>
+      <slot name="role-copy"><p> {{ $t(role) }} </p></slot>
 
-      <h4 aria-level="2" class="mt-4"> Delivery </h4>
-      <p> {{ delivery }} </p>
+      <h4 aria-level="2" class="mt-4">{{ $t(" Delivery ") }}</h4>
+      <p> {{ $t(delivery) }} </p>
 
       <slot name="link">
       </slot>

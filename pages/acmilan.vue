@@ -19,7 +19,7 @@
 
 
 
-        <div role="img" aria-label="AC Milan commercial presentation design" v-responsive-background="'/images/covers/hero/acm.svg'" data-image-src="/images/covers/hero/acm.svg" class="cover-parallax"
+        <div role="img" :aria-label="$t(&quot;AC Milan commercial presentation design&quot;)" v-responsive-background="'/images/covers/hero/acm.svg'" data-image-src="/images/covers/hero/acm.svg" class="cover-parallax"
 
 
 
@@ -30,16 +30,16 @@
 
       <div cols="12" class="pt-0 my-4 cover-mobile d-block d-md-none" >
 
-        <PortfolioImage src="/images/covers/sm/acm_sm.svg" alt="AC Milan commercial presentation design" loading="eager" fetchpriority="high" />
+        <PortfolioImage src="/images/covers/sm/acm_sm.svg" :alt="$t(&quot;AC Milan commercial presentation design&quot;)" loading="eager" fetchpriority="high" />
 
       </div>
 
       <div class="text-center m-4 p-3">
-        <p>This material is confidential. Get in touch to learn more.</p>
+        <p>{{ $t("This material is confidential. Get in touch to learn more.") }}</p>
 
 
         <a href="mailto:giovanni.clericetti@gmail.com" class="m-3 custom-outline-btn px-4 py-2 rounded-pill d-inline-block text-decoration-none">
-          <p class="text-decoration-none"> Contact me </p>
+          <p class="text-decoration-none">{{ $t(" Contact me ") }}</p>
         </a>
 
         </div>
@@ -47,8 +47,8 @@
       <b-row>
         <b-col cols="12" md="7">
 
-          <h4 aria-level="2"> Project Overview </h4>
-          <p>{{ project.overview }}</p>
+          <h4 aria-level="2">{{ $t(" Project Overview ") }}</h4>
+          <p>{{ $t(project.overview) }}</p>
 
           <slot name="link2">
           </slot>
@@ -59,7 +59,7 @@
         <b-col cols="12" md="5" class="pl-md-5">
 
 
-          <h4 aria-level="2" class="mt-4 mt-md-0"> Tools </h4>
+          <h4 aria-level="2" class="mt-4 mt-md-0">{{ $t(" Tools ") }}</h4>
           <p> Keynote, PowerPoint, Figma, Figma Slides, Photoshop, Illustrator, Midjourney, OpenAI, Asana </p>
 
           <div class="mt-md-5 mt-4">

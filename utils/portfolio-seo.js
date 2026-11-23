@@ -5,11 +5,11 @@ const origin = 'https://portfolio-giovanniclericetti.vercel.app'
 export const portfolioTitle = 'Giovanni Clericetti — Visual & Brand Designer | Sports & Commercial Design'
 export const portfolioDescription = 'Portfolio of Giovanni Clericetti, Milan-based Visual & Brand Designer working across sports, commercial partnerships, brand identities, digital experiences and live production.'
 
-export function portfolioSeo(path) {
+export function portfolioSeo(path, translate = value => value) {
   const route = path.replace(/\/$/, '') || '/'
   const project = projects[route.slice(1)]
-  const title = project ? `${project.title} — Giovanni Clericetti` : route === '/about' ? 'About — Giovanni Clericetti | Visual & Brand Designer' : portfolioTitle
-  const description = project ? project.bio : portfolioDescription
+  const title = project ? `${translate(project.title)} — Giovanni Clericetti` : translate(route === '/about' ? 'About — Giovanni Clericetti | Visual & Brand Designer' : portfolioTitle)
+  const description = translate(project ? project.bio : portfolioDescription)
   const imagePath = route === '/acmilan' ? '/images/covers/cards/milan-card.jpg' : route === '/acm-partner-visibility'
     ? '/images/acm-partner-visibility/preview_acm2.png'
     : (heroes[route] || [])[0]?.src || '/images/covers/cards/milan-card.jpg'

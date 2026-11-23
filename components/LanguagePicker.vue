@@ -1,16 +1,16 @@
 <template>
   <details ref="picker" class="language-picker" @keydown.esc.prevent.stop="close(true)">
-    <summary ref="trigger" aria-label="Language">
-      <span>{{ selectedLabel }}</span>
+    <summary ref="trigger" :aria-label="$t(&quot;Language&quot;)">
+      <span>{{ $t(selectedLabel) }}</span>
       <svg class="language-chevron" width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
         <path d="m4 6 4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
       </svg>
     </summary>
-    <div class="language-options" role="group" aria-label="Choose language">
+    <div class="language-options" role="group" :aria-label="$t(&quot;Choose language&quot;)">
       <button v-for="option in languages" :key="option.code" type="button"
         :aria-pressed="language === option.code" :lang="option.code"
         @click="select(option.code)">
-        <span>{{ option.label }}</span>
+        <span>{{ $t(option.label) }}</span>
         <svg v-if="language === option.code" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
           <path d="m3 8 3 3 7-7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
@@ -23,16 +23,16 @@
 export default {
   name: 'LanguagePicker',
   data() {
-    // Interface preview only: choosing a language does not translate the site yet.
-    return { language: 'en', languages: [{ code: 'en', label: 'English' }, { code: 'it', label: 'Italiano' }] }
+    return { languages: [{ code: 'en', label: 'English' }, { code: 'it', label: 'Italiano' }] }
   },
   computed: {
+    language() { return this.$locale.state.language },
     selectedLabel() { return this.languages.find(option => option.code === this.language).label },
   },
   mounted() { document.addEventListener('click', this.onOutsideClick) },
   beforeDestroy() { document.removeEventListener('click', this.onOutsideClick) },
   methods: {
-    select(code) { this.language = code; this.close(true) },
+    select(code) { this.$locale.setLanguage(code); this.close(true) },
     close(restoreFocus = false) {
       this.$refs.picker.open = false
       if (restoreFocus) this.$refs.trigger.focus()

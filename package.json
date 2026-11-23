@@ -18,7 +18,8 @@
     "predev": "npm run images:optimize",
     "prebuild": "npm run images:optimize",
     "pregenerate": "npm run images:optimize",
-    "images:verify": "node scripts/verify-images.cjs"
+    "images:verify": "node scripts/verify-images.cjs",
+    "locales:verify": "node scripts/verify-locales.cjs"
   },
   "dependencies": {
     "bootstrap": "^4.6.1",

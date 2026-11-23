@@ -2,21 +2,21 @@
 
   <div class="project-intro">
 
-    <h1 class="titoloprog"> {{ title }} </h1>
-    <p class="subtitle"> {{ subtitle }}</p>
+    <h1 class="titoloprog"> {{ $t(title) }} </h1>
+    <p class="subtitle"> {{ $t(subtitle) }}</p>
 
     <div class="project-pills d-md-block d-none">
-      <b-badge v-if="projectType" pill class="pills project-type-pill mx-0 mr-2 my-3 p-2 px-3">{{ projectType }}</b-badge>
-      <b-badge pill class="pills mx-0 mr-2 p-2 px-3"> {{ pill1 }}</b-badge>
-      <b-badge pill class="pills mx-0 mr-2  p-2 px-3"> {{ pill2 }}</b-badge>
-      <b-badge v-if="pill3" pill class="pills mx-0 mr-2 my-3 p-2 px-3"> {{ pill3 }}</b-badge>
+      <b-badge v-if="projectType" pill class="pills project-type-pill mx-0 mr-2 my-3 p-2 px-3">{{ $t(projectType) }}</b-badge>
+      <b-badge pill class="pills mx-0 mr-2 p-2 px-3"> {{ $t(pill1) }}</b-badge>
+      <b-badge pill class="pills mx-0 mr-2  p-2 px-3"> {{ $t(pill2) }}</b-badge>
+      <b-badge v-if="pill3" pill class="pills mx-0 mr-2 my-3 p-2 px-3"> {{ $t(pill3) }}</b-badge>
     </div>
 
     <div class="project-pills d-block d-md-none">
-      <b-badge v-if="projectType" pill class="pillsmob project-type-pill mx-0 mr-1 my-2 p-1 px-2">{{ projectType }}</b-badge>
-      <b-badge pill class="pillsmob mx-0 mr-1 my-2  p-1 px-2"> {{ pill1 }}</b-badge>
-      <b-badge pill class="pillsmob mx-0 mr-1 my-2  p-1 px-2"> {{ pill2 }}</b-badge>
-      <b-badge v-if="pill3" pill class="pillsmob mx-0 mr-1 my-2  p-1 px-2"> {{ pill3 }}</b-badge>
+      <b-badge v-if="projectType" pill class="pillsmob project-type-pill mx-0 mr-1 my-2 p-1 px-2">{{ $t(projectType) }}</b-badge>
+      <b-badge pill class="pillsmob mx-0 mr-1 my-2  p-1 px-2"> {{ $t(pill1) }}</b-badge>
+      <b-badge pill class="pillsmob mx-0 mr-1 my-2  p-1 px-2"> {{ $t(pill2) }}</b-badge>
+      <b-badge v-if="pill3" pill class="pillsmob mx-0 mr-1 my-2  p-1 px-2"> {{ $t(pill3) }}</b-badge>
     </div>
 
   </div>

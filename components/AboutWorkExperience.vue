@@ -6,7 +6,7 @@
         :href="experience.url"
         :target="experience.url ? '_blank' : undefined"
         :rel="experience.url ? 'noopener noreferrer' : undefined"
-        :aria-label="experience.url ? experience.company : undefined"
+        :aria-label="$t(experience.url ? experience.company : undefined)"
         class="work-experience-logo-container"
         :class="{ 'work-experience-logo-outlined': experience.logo === 'polimi' }"
       >
@@ -21,14 +21,14 @@
         />
       </component>
       <AboutCvElement
-        :category="`${experience.company}, ${experience.period}`"
+        :category="`${experience.company}, ${$t(experience.period)}`"
         class="work-experience-content mt-0"
       >
         <template #slotcvelement>
-          <p>{{ experience.role }}</p>
+          <p>{{ $t(experience.role) }}</p>
         </template>
       </AboutCvElement>
-      <p class="subtitlecv work-experience-description pr-md-5">{{ experience.description }}</p>
+      <p class="subtitlecv work-experience-description pr-md-5">{{ $t(experience.description) }}</p>
     </article>
   </div>
 </template>

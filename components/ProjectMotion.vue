@@ -1,7 +1,7 @@
 <template>
   <video
     ref="video"
-    :aria-label="label"
+    :aria-label="$t(label)"
     :src="src"
     :poster="poster"
     :width="width"

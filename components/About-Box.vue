@@ -11,10 +11,10 @@
           <div style="padding-left: 0px; padding-bottom: 20px">
             <b-row class="d-flex no-gutters" style="height:230px">
               <b-col cols="8" style="padding-left: 20px; padding-right: 20px;">
-                <a href="documents/giovanniclericetti.pdf" target="_blank" style="text-decoration: none;">
+                <a href="/documents/giovanniclericetti.pdf" target="_blank" style="text-decoration: none;">
                   <div class="boxround bggradient resume-gradient" style="height: 230px;" ref="container" @mousemove="moveImage">
                     <div class="d-flex justify-content-center align-items-center pt-3" style="height: 40%">
-                      <h4 class="tile-label resume-label" style="color: white">My Resume</h4>
+                      <h4 class="tile-label resume-label" style="color: white">{{ $t("My Resume") }}</h4>
                     </div>
                     <div class="boxcv justify-content-center d-flex" style="height: 150%; width: 100%;">
                       <PortfolioImage ref="cvImage" src="/images/aboutme/cvbox.png" style="transform: translateZ(0); height: 100%; width: auto;"  sizes="269px" />
@@ -30,9 +30,9 @@
                         <img src="~static/images/aboutme/spotify.svg"/>
                       </div>
                       <b-row class="mx-4 pb-3 mb-4 d-block" style="bottom:0px; position: absolute">
-                        <p2 style="color: #3CCC76; font-size: 15px"> Always listening...</p2>
-                        <h4 style="font-size: 25px" id="song">{{ randomOption.song }}</h4>
-                        <p style="font-size: 18px; line-height: 5px" id="singer">{{ randomOption.singer }}</p>
+                        <p2 style="color: #3CCC76; font-size: 15px">{{ $t(" Always listening...") }}</p2>
+                        <h4 style="font-size: 25px" id="song">{{ $t(randomOption.song) }}</h4>
+                        <p style="font-size: 18px; line-height: 5px" id="singer">{{ $t(randomOption.singer) }}</p>
                       </b-row>
                     </a>
                   </div>
@@ -43,13 +43,13 @@
           <div class="contact-tiles">
             <a class="contact-tile mail-tile" href="mailto:giovanni.clericetti@gmail.com">
               <span class="contact-content">
-              <span class="tile-label">Mail me</span>
+              <span class="tile-label">{{ $t("Mail me") }}</span>
               <img src="~static/images/aboutme/mail-icon.svg" alt="" />
                           </span>
             </a>
-            <a class="contact-tile linkedin-tile" href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank" rel="noopener noreferrer" aria-label="Check my LinkedIn">
+            <a class="contact-tile linkedin-tile" href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank" rel="noopener noreferrer" :aria-label="$t(&quot;Check my LinkedIn&quot;)">
               <span class="contact-content">
-              <span class="tile-label">Check my</span>
+              <span class="tile-label">{{ $t("Check my") }}</span>
               <span class="linkedin-logo" aria-hidden="true"><img src="~static/images/aboutme/checklinkedin.svg" alt="" /></span>
                           </span>
             </a>

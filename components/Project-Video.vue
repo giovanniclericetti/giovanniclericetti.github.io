@@ -3,7 +3,7 @@
     <b-embed
       type="iframe"
       loading="lazy"
-      title="Project video"
+      :title="$t(&quot;Project video&quot;)"
       aspect="16by9"
       :src="video"
       allowfullscreen
