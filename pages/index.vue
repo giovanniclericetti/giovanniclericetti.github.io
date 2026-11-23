@@ -13,7 +13,7 @@
       <span class="intro-line">{{ $t("sports industry. I currently work with ") }}<a class="hover-a-underline-animation" href="https://www.acmilan.com/">AC Milan</a>{{ $t(", focusing") }}</span>
       <span class="intro-line">{{ $t("on brand communication and commercial partnerships.") }}</span>
     </h1>
-    <h1 v-else class="titleindex italian-intro">Ciao! Sono Giovanni, <span class="name gradient">Visual Designer</span> nel mondo dello sport. Collaboro con <span class="intro-link-word"><a class="hover-a-underline-animation" href="https://www.acmilan.com/">AC Milan</a>,</span> lavorando a progetti di comunicazione visiva per il Club e le sue partnership commerciali.</h1>
+    <h1 v-else class="titleindex italian-intro">Ciao! Sono Giovanni, <span class="name gradient">Visual Designer</span> nel mondo dello sport. Collaboro con <span class="intro-link-word"><a class="hover-a-underline-animation" href="https://www.acmilan.com/">AC Milan</a>,</span> lavorando a progetti di comunicazione visiva e per partnership commerciali.</h1>
 
   </div>
 
