@@ -82,14 +82,14 @@
 
         <AboutCvElement category="2023, Polimi Design School">
           <template #slotcvelement>
-            <p>Belonging / Not Belonging - Indie Magazine for social change at La Stecca 3 exhibition space</p>
+            <p class="exhibition-title">Belonging / Not Belonging - Indie Magazine for social change at La Stecca 3 exhibition space</p>
             <p class="subtitlecv">Presentation of the <NuxtLink class="hover-a-underline-animation" to="/referto">Referto Magazine</NuxtLink> project</p>
           </template>
         </AboutCvElement>
 
         <AboutCvElement category="2022, FuoriSalone Milan Design Week">
           <template #slotcvelement>
-            <p>DesignXDesigner - Polimi Design Student Exhibition at Fuorisalone</p>
+            <p class="exhibition-title">DesignXDesigner - Polimi Design Student Exhibition at Fuorisalone</p>
             <p class="subtitlecv">Presentation of the <NuxtLink class="hover-a-underline-animation" to="/sourdata">SourData</NuxtLink> project</p>
           </template>
         </AboutCvElement>

@@ -305,6 +305,10 @@ p2 {
   color: #808080;
 }
 
+.about .exhibition-title {
+  line-height: 1.25;
+}
+
 .subtitlecv a,
 .subtitlecv a:hover {
   color: inherit;
