@@ -346,7 +346,7 @@
   z-index: -1;
   pointer-events: none;
   background: conic-gradient(from 0deg, #FFA857, #FF754F, #FF4466, #FF7B93, #FFA857);
-  opacity: 0.5;
+  opacity: 0.4;
   animation: resume-gradient-flow 4s linear infinite;
 }
 
