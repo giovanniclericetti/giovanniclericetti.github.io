@@ -1,8 +1,8 @@
 <template>
 
-    <div class="d-flex">
+    <div class="d-flex align-items-center">
 
-      <b-icon shift-v="2" icon="arrow-up-right-circle-fill" style="width: 30px; height: 30px; color: var(--color-primary)"></b-icon>
+      <HeaderIcon symbol="down-right" :gradient="false" :size="30" style="flex-shrink: 0; color: var(--color-primary)" />
 
       <h4 class="m-0 p-0 ml-2 hover-underline-animation" style="color: var(--color-primary)" > {{ textlink }}
          </h4>

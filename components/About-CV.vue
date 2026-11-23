@@ -151,12 +151,11 @@
           </template>
         </AboutCvElement>
 
-    <h4 aria-level="2" class="gradient mt-5 ">   <a href="documents/giovanniclericetti.pdf" target="_blank" style="text-decoration: none;">
+    <h4 aria-level="2" class="gradient mt-5 ">   <a href="documents/giovanniclericetti.pdf" target="_blank" style="text-decoration: none; display: inline-flex; align-items: center;">
 
 
 
-          <b-icon class="mr-1" shift-v="-3" icon="arrow-down-right-circle-fill"
-                  style="width: 35px; height: 35px; color:#FF9A5A"></b-icon>
+          <HeaderIcon symbol="down-right" id-suffix="-resume-desktop" class="mr-2" :size="35" style="flex-shrink: 0" />
           <span class="hover-underline-animation gradient downloadcv"> Download Resume </span> </a>
         </h4>
       </b-col>

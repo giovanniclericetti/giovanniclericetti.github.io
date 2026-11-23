@@ -1,16 +1,7 @@
 <template>
   <footer class="container-fluid footer">
     <div class="footer-layout">
-      <label class="footer-language">
-        <span class="sr-only">Language</span>
-        <select v-model="language" aria-label="Language">
-          <option value="en">English</option>
-          <option value="it">Italiano</option>
-        </select>
-        <svg class="language-chevron" width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-          <path d="m4 6 4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-        </svg>
-      </label>
+      <LanguagePicker class="footer-language" />
 
       <p class="copyright">Designed &amp; Coded by Giovanni Clericetti, 2026</p>
 
@@ -25,10 +16,6 @@
 <script>
 export default {
   name: 'PortfolioFooter',
-  data() {
-    // Visual language selector only; site translation will be connected separately.
-    return { language: 'en' }
-  },
 }
 </script>
 
@@ -72,6 +59,17 @@ export default {
 
 .social-arrow {
   margin-left: 4px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/font/inter-arrow-500.ttf') format('truetype');
+  unicode-range: U+2197;
 }
 
 .copyright {
@@ -86,36 +84,6 @@ export default {
   position: relative;
   justify-self: start;
   margin: 0;
-}
-
-.footer-language select {
-  display: block;
-  appearance: none;
-  -webkit-appearance: none;
-  min-height: 44px;
-  width: 138px;
-  padding: 10px 38px 10px 16px;
-  border: 1px solid #c5c1c1;
-  border-radius: 14px;
-  background: transparent;
-  color: inherit;
-  font: inherit;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 180ms ease, border-color 180ms ease;
-}
-
-.footer-language select:hover {
-  background-color: #f6f2f2;
-  border-color: #888;
-}
-
-.language-chevron {
-  position: absolute;
-  right: 14px;
-  top: 50%;
-  transform: translateY(-50%);
-  pointer-events: none;
 }
 
 @media (max-width: 1199.98px) {
@@ -135,11 +103,7 @@ export default {
   .footer-links { grid-column: 2; grid-row: 1; gap: 16px; }
   .social { font-size: 16px; }
   .footer-language { grid-column: 1; grid-row: 1; }
-  .footer-language select { width: 128px; min-height: 48px; }
   .copyright { grid-column: 1 / -1; grid-row: 2; }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .footer-language select { transition: none; }
-}
 </style>
