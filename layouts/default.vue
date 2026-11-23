@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import titleFont from '~/static/font/title-regular.otf'
 import { portfolioSeo } from '~/utils/portfolio-seo'
 import { imagePreloads, imageFallback } from '~/utils/image-head'
 export default {
@@ -56,8 +55,7 @@ export default {
       __dangerouslyDisableSanitizersByTagID: { 'image-fallback': ['innerHTML'] },
       link: [
         ...imagePreloads(this.$route.path),
-        { rel: 'preload', as: 'font', type: 'font/otf', href: titleFont, crossorigin: 'anonymous' },
-        { rel: 'preload', as: 'font', type: 'font/ttf', href: '/font/google-sans-variable.ttf', crossorigin: 'anonymous' }
+        { rel: 'preload', as: 'font', type: 'font/ttf', href: '/font/bricolage-grotesque-variable.ttf', crossorigin: 'anonymous' }
       ]
     }
   }
@@ -95,54 +93,54 @@ body {
 }
 
 h1 {
-  font-family: "title-regular";
+  font-family: 'Bricolage Grotesque', sans-serif;
   color: var(--color-primary);
   font-size: 64pt;
-  font-weight: 100;
+  font-weight: 800;
 }
 
 h2 {
-  font-family: 'Google Sans';
+  font-family: 'Bricolage Grotesque';
   font-size: 32px;
   font-weight: 400;
 }
 
 h3 {
-  font-family: 'Google Sans', sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 130%;
 }
 
 h4 {
-  font-family: 'title-regular';
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 800;
   color: var(--color-primary);
 }
 
 h5 {
-  font-family: 'title-regular';
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 800;
 }
 
 h6 {
-  font-family: 'title-regular';
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 800;
   color: rgba(0, 0, 0, 0.5);
 }
 
 p {
-  font-family: 'Google Sans', sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 18px;
   font-weight: 400;
   margin: 0px;
 }
 
 p2 {
-  font-family: 'Google Sans', sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 14px;
 }
 
@@ -236,7 +234,7 @@ p2 {
   border-radius: 20px;
   background-color: var(--color-primary);
   border: none;
-  font-family: 'Google Sans';
+  font-family: 'Bricolage Grotesque';
   font-weight: 400;
   font-size: 16px;
 }
@@ -329,24 +327,11 @@ p2 {
 }
 
 @font-face {
-  font-family: "title-bold";
-  font-display: swap;
-  src: local("title-bold"), url(./static/font/title-bold.otf) format("opentype");
-}
-
-@font-face {
-  font-family: "title-regular";
-  font-display: swap;
-  src: local("title-regular"), url(./static/font/title-regular.otf) format("opentype");
-}
-
-@font-face {
-  font-family: 'Google Sans';
+  font-family: 'Bricolage Grotesque';
   font-style: normal;
-  font-weight: 400 700;
-  font-variation-settings: 'GRAD' -50;
+  font-weight: 200 800;
   font-display: swap;
-  src: url(/font/google-sans-variable.ttf) format('truetype');
+  src: url(/font/bricolage-grotesque-variable.ttf) format('truetype');
 }
 
 @media (max-width: 768px) {
@@ -421,7 +406,7 @@ height: 300px;
     border-radius: 20px;
     background-color: var(--color-primary);
     border: none;
-    font-family: 'Google Sans';
+    font-family: 'Bricolage Grotesque';
     font-weight: 400;
     font-size: 12px;
   }

@@ -181,7 +181,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  font-family: 'Google Sans', sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 16px;
   line-height: 1.4;
 }
@@ -243,12 +243,13 @@
 }
 
 .name {
-  font-family: 'title-regular';
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 34px;
   text-decoration: none;
+  font-weight: 800;
 }
 
-.titleindex { font-family: 'Google Sans'; font-size: 32px; font-weight: 400; color: inherit; }
+.titleindex { font-family: 'Bricolage Grotesque'; font-size: 32px; font-weight: 400; color: inherit; }
 
 .about .titleindex {
   text-align: center;

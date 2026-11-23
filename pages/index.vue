@@ -34,11 +34,12 @@ export default {
 </script>
 
 <style >
-.titleindex { font-family: 'Google Sans'; font-size: 32px; font-weight: 400; color: inherit; }
+.titleindex { font-family: 'Bricolage Grotesque'; font-size: 32px; font-weight: 400; color: inherit; }
 
 .name{
-  font-family: 'title-regular';
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 34px;
+  font-weight: 800;
 }
 
 .titleindex{

@@ -143,9 +143,9 @@ export default {
 }
 .mail-tile { padding: 12px; background: white; }
 .tile-label {
-  font-family: 'title-regular';
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 26px;
-  font-weight: 400;
+  font-weight: 800;
   line-height: 1.2;
   margin: 0;
   white-space: nowrap;
