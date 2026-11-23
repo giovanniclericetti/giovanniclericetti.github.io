@@ -88,21 +88,13 @@ h6{
 
 .pillshome {
   border-radius: 20px;
-  background-color: var(--color-primary);
+  background-color: transparent;
   opacity: 1;
-  border: none;
+  border: 1px solid #fff;
   font-family: 'Bricolage Grotesque';
   font-weight: 600;
   font-size: 14px;
   color: #fff}
-
-.projectcard.avi .pillshome,
-.projectcard.acmilan .pillshome,
-.projectcard.previewpretest .pillshome,
-.projectcard.bottleneck .pillshome {
-  background-color: #fff;
-  color: var(--color-primary);
-}
 
 .projectcard {
   border-radius: 35px;
@@ -276,9 +268,9 @@ h6{
   transform: translate(-50%, -50%);
   z-index: 3;
   padding: 4px 14px;
-  border: 1.5px solid #f6f2f2;
+  border: 1px solid #fff;
   border-radius: 999px;
-  background: var(--category-pill-color, var(--color-primary));
+  background: transparent;
   color: #fff;
   font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 12px;
@@ -286,16 +278,6 @@ h6{
   line-height: 1.2;
   white-space: nowrap;
   pointer-events: none;
-}
-
-.acmilan2 .card-category-pill {
-  --category-pill-color: #000;
-}
-.acmilan3 .card-category-pill {
-  --category-pill-color: #8B0015;
-}
-.sourdata .card-category-pill {
-  --category-pill-color: #3741DC;
 }
 
 .projectcard-link {

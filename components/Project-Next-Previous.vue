@@ -98,9 +98,9 @@ export default {
 
 .pillshome {
   border-radius: 20px;
-  background-color: var(--color-primary);
+  background-color: transparent;
   opacity: 1;
-  border: none;
+  border: 1px solid #fff;
   font-family: 'Bricolage Grotesque';
   font-weight: 600;
   font-size: 14px;
