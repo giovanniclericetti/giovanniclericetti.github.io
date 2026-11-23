@@ -8,7 +8,24 @@
       </b-col>
       <b-col cols="7" style="padding-left: 0px; padding-right: 0px">
         <div class="blocchisx">
-          <div style="padding-left: 0px; padding-bottom: 20px">
+          <div class="contact-tiles">
+            <a class="contact-tile mail-tile" href="mailto:giovanni.clericetti@gmail.com">
+              <span class="contact-content">
+              <span class="tile-label">{{ $t("Mail me") }}</span>
+              <img src="~static/images/aboutme/mail-icon.svg" alt="" />
+                          </span>
+            </a>
+            <a class="contact-tile linkedin-tile" href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank" rel="noopener noreferrer" :aria-label="$t(&quot;Check my LinkedIn&quot;)">
+              <span class="contact-content">
+              <span class="tile-label">{{ $t("Check my") }}</span>
+              <span class="linkedin-logo" aria-hidden="true"><img src="~static/images/aboutme/checklinkedin.svg" alt="" /></span>
+                          </span>
+            </a>
+            <a class="contact-tile instagram-tile" href="https://www.instagram.com/giovanniclericetti.png/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <img src="~static/images/aboutme/instagram.svg" alt="" />
+            </a>
+          </div>
+          <div style="padding-left: 0px; padding-top: 20px">
             <b-row class="d-flex no-gutters" style="height:230px">
               <b-col cols="8" style="padding-left: 20px; padding-right: 20px;">
                 <a href="/documents/giovanniclericetti.pdf" target="_blank" style="text-decoration: none;">
@@ -39,23 +56,6 @@
                 </div>
               </b-col>
             </b-row>
-          </div>
-          <div class="contact-tiles">
-            <a class="contact-tile mail-tile" href="mailto:giovanni.clericetti@gmail.com">
-              <span class="contact-content">
-              <span class="tile-label">{{ $t("Mail me") }}</span>
-              <img src="~static/images/aboutme/mail-icon.svg" alt="" />
-                          </span>
-            </a>
-            <a class="contact-tile linkedin-tile" href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank" rel="noopener noreferrer" :aria-label="$t(&quot;Check my LinkedIn&quot;)">
-              <span class="contact-content">
-              <span class="tile-label">{{ $t("Check my") }}</span>
-              <span class="linkedin-logo" aria-hidden="true"><img src="~static/images/aboutme/checklinkedin.svg" alt="" /></span>
-                          </span>
-            </a>
-            <a class="contact-tile instagram-tile" href="https://www.instagram.com/giovanniclericetti.png/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-              <img src="~static/images/aboutme/instagram.svg" alt="" />
-            </a>
           </div>
         </div>
       </b-col>
