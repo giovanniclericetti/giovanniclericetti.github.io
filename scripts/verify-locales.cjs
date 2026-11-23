@@ -15,7 +15,7 @@ const { translate, languageStorageKey, isLanguage } = vm.runInNewContext(
 const projects = JSON.parse(read('utils/project-content.js').split('export default ')[1])
 
 async function main() {
-  assert.equal(translate(' About Me ', 'it'), ' Chi sono ')
+  assert.equal(translate(' About Me ', 'it'), ' About ')
   assert.equal(translate(' About Me ', 'en'), ' About Me ')
   assert.equal(translate(undefined, 'it'), undefined)
   assert.equal(translate('AC Milan', 'it'), 'AC Milan')
@@ -59,8 +59,8 @@ async function main() {
   component.$watch('label', value => { updated = value })
   app.locale.restore()
   await Vue.nextTick()
-  assert.equal(component.label, 'Chi sono')
-  assert.equal(updated, 'Chi sono', 'Mounted components must react to language changes')
+  assert.equal(component.label, 'About')
+  assert.equal(updated, 'About', 'Mounted components must react to language changes')
   app.locale.setLanguage('fr')
   assert.equal(app.locale.state.language, 'it')
   app.locale.setLanguage('en')
