@@ -98,7 +98,7 @@ export default {
   background-color: var(--color-primary);
   opacity: 1;
   border: none;
-  font-family: 'Bricolage Grotesque';
+  font-family: 'Google Sans';
   font-weight: 400;
   font-size: 14px;
   color: #fff}

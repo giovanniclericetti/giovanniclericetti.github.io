@@ -57,7 +57,7 @@ export default {
       link: [
         ...imagePreloads(this.$route.path),
         { rel: 'preload', as: 'font', type: 'font/otf', href: titleFont, crossorigin: 'anonymous' },
-        { rel: 'preload', as: 'font', type: 'font/ttf', href: '/font/bricolage-grotesque-variable.ttf', crossorigin: 'anonymous' }
+        { rel: 'preload', as: 'font', type: 'font/ttf', href: '/font/google-sans-regular.ttf', crossorigin: 'anonymous' }
       ]
     }
   }
@@ -102,13 +102,13 @@ h1 {
 }
 
 h2 {
-  font-family: 'Bricolage Grotesque';
+  font-family: 'Google Sans';
   font-size: 32px;
   font-weight: 400;
 }
 
 h3 {
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: 'Google Sans', sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 130%;
@@ -135,14 +135,14 @@ h6 {
 }
 
 p {
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: 'Google Sans', sans-serif;
   font-size: 18px;
   font-weight: 400;
   margin: 0px;
 }
 
 p2 {
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: 'Google Sans', sans-serif;
   font-size: 14px;
 }
 
@@ -236,7 +236,7 @@ p2 {
   border-radius: 20px;
   background-color: var(--color-primary);
   border: none;
-  font-family: 'Bricolage Grotesque';
+  font-family: 'Google Sans';
   font-weight: 400;
   font-size: 16px;
 }
@@ -341,11 +341,11 @@ p2 {
 }
 
 @font-face {
-  font-family: 'Bricolage Grotesque';
+  font-family: 'Google Sans';
   font-style: normal;
-  font-weight: 200 800;
+  font-weight: 400;
   font-display: swap;
-  src: url(/font/bricolage-grotesque-variable.ttf) format('truetype');
+  src: url(/font/google-sans-regular.ttf) format('truetype');
 }
 
 @media (max-width: 768px) {
@@ -420,7 +420,7 @@ height: 300px;
     border-radius: 20px;
     background-color: var(--color-primary);
     border: none;
-    font-family: 'Bricolage Grotesque';
+    font-family: 'Google Sans';
     font-weight: 400;
     font-size: 12px;
   }

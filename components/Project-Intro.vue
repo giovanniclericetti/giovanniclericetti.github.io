@@ -70,7 +70,7 @@ export default {
   border-radius: 20px;
   background-color: var(--color-primary);
   border: none;
-  font-family: 'Bricolage Grotesque';
+  font-family: 'Google Sans';
   font-weight: 400;
   font-size: 14px;
   color:white}
