@@ -13,7 +13,7 @@
         <img src="~/static/images/aboutme/mail.svg" alt="">
       </a>
 
-      <a class="tile resume" href="/documents/giovanniclericetti.pdf" target="_blank" rel="noopener">
+      <a class="tile resume resume-gradient" href="/documents/giovanniclericetti.pdf" target="_blank" rel="noopener">
         <h4>My Resume</h4>
         <PortfolioImage src="/images/aboutme/cvbox.png" alt="" sizes="273px" />
       </a>

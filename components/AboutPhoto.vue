@@ -34,7 +34,7 @@
 
       <b-col cols="8" class=" p-0">
 
-          <a href="/documents/giovanniclericetti.pdf" target="_blank" rel="noopener" class="boxcvmobile bggradient d-block" style="height: 130px; text-decoration: none;" >
+          <a href="/documents/giovanniclericetti.pdf" target="_blank" rel="noopener" class="boxcvmobile bggradient resume-gradient d-block" style="height: 130px; text-decoration: none;" >
 
             <div class=" text-white d-flex justify-content-center align-items-center pt-3" style="height: 50%">
               <h4 style="font-size: 24px; color: white">My Resume</h4>

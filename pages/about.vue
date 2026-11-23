@@ -333,6 +333,24 @@
 </style>
 
 <style>
+.about .resume-gradient {
+  background-size: 200% 100%;
+  background-position: 0% 50%;
+  animation: resume-gradient-flow 3s ease-in-out infinite alternate;
+}
+
+@keyframes resume-gradient-flow {
+  from { background-position: 0% 50%; }
+  to { background-position: 100% 50%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about .resume-gradient {
+    animation: none;
+    background-size: 100% 100%;
+  }
+}
+
 .about .about-reveal {
   opacity: 0;
   transform: translateY(24px);

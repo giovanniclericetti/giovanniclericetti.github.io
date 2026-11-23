@@ -12,7 +12,7 @@
             <b-row class="d-flex no-gutters" style="height:230px">
               <b-col cols="8" style="padding-left: 20px; padding-right: 20px;">
                 <a href="documents/giovanniclericetti.pdf" target="_blank" style="text-decoration: none;">
-                  <div class="boxround bggradient" style="height: 230px;" ref="container" @mousemove="moveImage">
+                  <div class="boxround bggradient resume-gradient" style="height: 230px;" ref="container" @mousemove="moveImage">
                     <div class="d-flex justify-content-center align-items-center pt-3" style="height: 40%">
                       <h4 class="tile-label resume-label" style="color: white">My Resume</h4>
                     </div>
