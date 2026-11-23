@@ -146,11 +146,13 @@ h6{
 
 }
 
-.projectcard.avi .bio {
+.projectcard.avi .titlemob,
+.projectcard.avi .card-description {
   text-shadow: 0 1px 6px rgba(8, 20, 58, 0.45);
 }
 
-.projectcard.carachioggia .bio {
+.projectcard.carachioggia .titlemob,
+.projectcard.carachioggia .card-description {
   text-shadow: 0 1px 6px rgba(40, 40, 40, 0.45);
 }
 
