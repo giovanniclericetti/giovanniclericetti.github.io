@@ -193,7 +193,7 @@ export default {
     "overview": "A speculative design project about privacy and the economic value of personal data. A provocative brand, connected objects and a digital platform turn data exchange into a tangible experience, asking what people might be willing to share in return for a financial reward.",
     "pill1": "Speculative",
     "pill2": "Interaction",
-    "pill3": "Brand Identity",
+    "pill3": "Branding",
     "contribution": "Brand identity, visual communication, interface design, presentation materials, technology research and coding.",
     "sections": [
       {
