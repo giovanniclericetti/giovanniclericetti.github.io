@@ -147,11 +147,11 @@ h6{
 }
 
 .projectcard.avi .bio {
-  text-shadow: 0 1px 3px rgba(8, 20, 58, 0.45);
+  text-shadow: 0 1px 6px rgba(8, 20, 58, 0.45);
 }
 
 .projectcard.carachioggia .bio {
-  text-shadow: 0 1px 3px rgba(40, 40, 40, 0.45);
+  text-shadow: 0 1px 6px rgba(40, 40, 40, 0.45);
 }
 
 .card-extrasmall {
