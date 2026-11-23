@@ -1553,11 +1553,11 @@
   },
   {
     "src": "/app-icon-512.png",
-    "bytes": 21786,
+    "bytes": 21573,
     "width": 512,
     "height": 512,
     "format": "png",
-    "sha256": "0d67b9f78180032d20a2137cfd390f568e5aab14203b2b35f8fed6afb3ca883b"
+    "sha256": "09edf6f22006e35f5106ffb5814ebf1768f3c80ea7459ece6c0a5527dd4ed15f"
   },
   {
     "src": "/images/covers/next/rf-next.jpg",
@@ -1614,14 +1614,6 @@
     "height": 400,
     "format": "jpeg",
     "sha256": "989db4bab8022a345d441e922609782cb2c83a11ea8b1857b1642bc1e56f95ef"
-  },
-  {
-    "src": "/favicon.png",
-    "bytes": 14019,
-    "width": 143,
-    "height": 143,
-    "format": "png",
-    "sha256": "06aee216e73d1ab3cdaaab44883191058f478116e16f10deae54da7011eb2d61"
   },
   {
     "src": "/images/covers/next/pr-next.jpg",
@@ -1705,19 +1697,19 @@
   },
   {
     "src": "/app-icon-192.png",
-    "bytes": 6568,
+    "bytes": 6552,
     "width": 192,
     "height": 192,
     "format": "png",
-    "sha256": "0b83c7bca5617730f845f57ad17eb6a3db7389d7572ffb244221d6f93ac815d2"
+    "sha256": "7ab03e41437384d89c6a627ededc99d21a113d69b3617064975d307cf2c73dda"
   },
   {
     "src": "/apple-touch-icon.png",
-    "bytes": 6239,
+    "bytes": 6244,
     "width": 180,
     "height": 180,
     "format": "png",
-    "sha256": "e4c48e2ee96806e44355c69378a442750ead1cc80bdadf71ce8343f824e19e7d"
+    "sha256": "38408f42cb4865c15f651324674ca19b3fb4cf841363b9408bb133362581105a"
   },
   {
     "src": "/images/aboutme/instagram.svg",
@@ -1736,12 +1728,28 @@
     "sha256": "dff5a9d6bf115fe0c7a96097df3cf575f5009772fa9331e3889082273f338750"
   },
   {
+    "src": "/favicon.png",
+    "bytes": 4885,
+    "width": 143,
+    "height": 143,
+    "format": "png",
+    "sha256": "ae97108459aa4422f2d44799b093c4c3b8ff03dc0006cac4a39f398f828791e9"
+  },
+  {
     "src": "/images/aboutme/itca.png",
     "bytes": 3591,
     "width": 94,
     "height": 94,
     "format": "png",
     "sha256": "0356fab5e0fa6646394b5252ac76070f7771af303a191e0317370c083e4e4c0e"
+  },
+  {
+    "src": "/favicon.svg",
+    "bytes": 2592,
+    "width": 143,
+    "height": 143,
+    "format": "svg",
+    "sha256": "e911905c291c1b2771be9c7fbeadcc3dfcd72cba8ac8cadad00d7369d15e6284"
   },
   {
     "src": "/icons/instagram.svg",
@@ -1766,14 +1774,6 @@
     "height": 38,
     "format": "svg",
     "sha256": "10be1f5eb532503f8305505405d532a6e03f62303a5d62b13e70558c9458e023"
-  },
-  {
-    "src": "/favicon.svg",
-    "bytes": 1168,
-    "width": 143,
-    "height": 143,
-    "format": "svg",
-    "sha256": "e524b532e9a90a0ce3a8a35583a57604822cb0f67e382b68c105f8977c851d74"
   },
   {
     "src": "/images/aboutme/telegram.svg",
