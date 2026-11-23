@@ -1857,10 +1857,10 @@
   },
   {
     "src": "/icons/back-home.svg",
-    "bytes": 551,
+    "bytes": 550,
     "width": 143,
     "height": 143,
     "format": "svg",
-    "sha256": "4e86cedcd08ec2a3eb8da8cf3b7af69ac32a94a398454f69dd49996970e23462"
+    "sha256": "ed9276786c9699e886d202368e62efea95e635db4c7db531dccae898bc8b75ea"
   }
 ]
