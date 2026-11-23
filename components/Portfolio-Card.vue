@@ -259,8 +259,7 @@ h6{
 .card-category-pill {
   position: absolute;
   top: 16px;
-  left: 50%;
-  transform: translateX(-50%);
+  right: 16px;
   z-index: 3;
   padding: 4px 14px;
   border: 1.5px solid #f6f2f2;
