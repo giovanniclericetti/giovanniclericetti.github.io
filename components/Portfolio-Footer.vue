@@ -15,8 +15,8 @@
       <p class="copyright">Designed &amp; Coded by Giovanni Clericetti, 2026</p>
 
       <nav class="footer-links" aria-label="Contact links">
-        <a href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank" rel="noopener noreferrer" class="social hover-underline-animation">LinkedIn</a>
-        <a href="mailto:giovanni.clericetti@gmail.com" class="social hover-underline-animation">Mail</a>
+        <a href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank" rel="noopener noreferrer" class="social hover-underline-animation">LinkedIn <span class="social-arrow" aria-hidden="true">↗</span></a>
+        <a href="mailto:giovanni.clericetti@gmail.com" class="social hover-underline-animation">Mail <span class="social-arrow" aria-hidden="true">↗</span></a>
       </nav>
     </div>
   </footer>
@@ -68,6 +68,10 @@ export default {
 
 .social::after {
   bottom: 8px;
+}
+
+.social-arrow {
+  margin-left: 4px;
 }
 
 .copyright {
