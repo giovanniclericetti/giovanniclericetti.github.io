@@ -44,7 +44,7 @@ export default {
 .index .name.gradient {
   background-size: 200% 100%;
   background-position: 0% 50%;
-  animation: intro-gradient-flow 6s ease-in-out infinite alternate;
+  animation: intro-gradient-flow 3s ease-in-out infinite alternate;
 }
 
 @keyframes intro-gradient-flow {
