@@ -238,37 +238,37 @@
         <b-collapse v-model="opened.accordion5" id="accordion-5" class="cardaccordion pb-4" accordion="">
           <b-card-body >
 
-        <AboutCvElement category="Design Tools" class="mt-0">
+        <AboutCvElement category="Design Tools" class="software-tools-entry mt-0">
           <template #slotcvelement>
             <p>Figma, Illustrator, Photoshop, InDesign, Lightroom, Premiere Pro, iMovie, Audition</p>
           </template>
         </AboutCvElement>
 
-        <AboutCvElement category="Presentations" class="mt-3">
+        <AboutCvElement category="Presentations" class="software-tools-entry mt-3">
           <template #slotcvelement>
             <p>Keynote, Figma Slides, PowerPoint, Slides.com</p>
           </template>
         </AboutCvElement>
 
-        <AboutCvElement category="AI Tools" class="mt-3">
+        <AboutCvElement category="AI Tools" class="software-tools-entry mt-3">
           <template #slotcvelement>
             <p>ChatGPT, Claude, EnvatoLab, Nanobanana, Midjourney, Gemini, Photoshop AI</p>
           </template>
         </AboutCvElement>
 
-        <AboutCvElement category="Digital Signage &amp; Live Production" class="mt-3">
+        <AboutCvElement category="Digital Signage &amp; Live Production" class="software-tools-entry mt-3">
           <template #slotcvelement>
             <p>FluidNEXT, MagicINFO</p>
           </template>
         </AboutCvElement>
 
-        <AboutCvElement category="Other Tools" class="mt-3">
+        <AboutCvElement category="Other Tools" class="software-tools-entry mt-3">
           <template #slotcvelement>
             <p>Miro, Word, Excel, Teams, GettyImages</p>
           </template>
         </AboutCvElement>
 
-        <AboutCvElement category="Coding &amp; Website" class="mt-3">
+        <AboutCvElement category="Coding &amp; Website" class="software-tools-entry mt-3">
           <template #slotcvelement>
             <p>HTML, CSS, JavaScript, Nuxt, Figma Site, Vue, Bootstrap, WordPress, Framer</p>
           </template>

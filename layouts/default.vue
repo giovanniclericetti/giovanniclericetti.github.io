@@ -305,7 +305,8 @@ p2 {
   color: #808080;
 }
 
-.about .exhibition-title {
+.about .exhibition-title,
+.about .software-tools-entry p {
   line-height: 1.25;
 }
 
