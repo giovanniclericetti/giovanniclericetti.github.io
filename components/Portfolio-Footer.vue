@@ -3,7 +3,7 @@
     <div class="footer-layout">
       <LanguagePicker class="footer-language" />
 
-      <p class="copyright">{{ $t("Designed & Coded by Giovanni Clericetti, 2026") }}</p>
+      <p class="copyright">© <strong>Giovanni Clericetti, 2026</strong></p>
 
       <nav class="footer-links" :aria-label="$t(&quot;Contact links&quot;)">
         <a href="https://www.linkedin.com/in/giovanniclericetti/" target="_blank" rel="noopener noreferrer" class="social hover-underline-animation">LinkedIn <span class="social-arrow" aria-hidden="true">↗</span></a>
