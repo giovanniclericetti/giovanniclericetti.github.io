@@ -57,7 +57,7 @@ export default {
       link: [
         ...imagePreloads(this.$route.path),
         { rel: 'preload', as: 'font', type: 'font/otf', href: titleFont, crossorigin: 'anonymous' },
-        { rel: 'preload', as: 'font', type: 'font/ttf', href: '/font/google-sans-regular.ttf', crossorigin: 'anonymous' }
+        { rel: 'preload', as: 'font', type: 'font/ttf', href: '/font/google-sans-variable.ttf', crossorigin: 'anonymous' }
       ]
     }
   }
@@ -343,9 +343,10 @@ p2 {
 @font-face {
   font-family: 'Google Sans';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400 700;
+  font-variation-settings: 'GRAD' -50;
   font-display: swap;
-  src: url(/font/google-sans-regular.ttf) format('truetype');
+  src: url(/font/google-sans-variable.ttf) format('truetype');
 }
 
 @media (max-width: 768px) {
