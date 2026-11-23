@@ -31,9 +31,9 @@
           <h6 aria-level="3" class="gradient mb-3 expertise-heading">{{ $t("Brand Design") }}</h6>
           <div class="expertise-divider" aria-hidden="true"></div>
           <ul class="expertise-list">
-          <li>{{ $t("Brand Identity & Visual Systems") }}</li>
-          <li>{{ $t("Partnership & Commercial Design") }}</li>
-          <li>{{ $t("Venue Branding & Co-Branding") }}</li>
+          <li>{{ $t("Brand Identity", "about.expertise.0") }}</li>
+          <li>{{ $t("Partnership Design", "about.expertise.1") }}</li>
+          <li>{{ $t("Venue & Co-Branding", "about.expertise.2") }}</li>
           </ul>
           </div>
         </div>
@@ -42,9 +42,9 @@
           <h6 aria-level="3" class="gradient mb-3 expertise-heading">{{ $t("Events & Production") }}</h6>
           <div class="expertise-divider" aria-hidden="true"></div>
           <ul class="expertise-list">
-          <li>{{ $t("Event Branding & Brand Activations") }}</li>
-          <li>{{ $t("Live Visual Production") }}</li>
-          <li>{{ $t("Matchday & Stadium Content") }}</li>
+          <li>{{ $t("Events & Activations", "about.expertise.3") }}</li>
+          <li>{{ $t("Live Production", "about.expertise.4") }}</li>
+          <li>{{ $t("Matchday Content", "about.expertise.5") }}</li>
           </ul>
           </div>
         </div>
@@ -53,9 +53,9 @@
           <h6 aria-level="3" class="gradient mb-3 expertise-heading">{{ $t("Digital & Editorial") }}</h6>
           <div class="expertise-divider" aria-hidden="true"></div>
           <ul class="expertise-list">
-          <li>{{ $t("UX/UI & Digital Experiences") }}</li>
-          <li>{{ $t("Editorial & Presentation Design") }}</li>
-          <li>{{ $t("Research & Information Architecture") }}</li>
+          <li>{{ $t("UX/UI Design", "about.expertise.6") }}</li>
+          <li>{{ $t("Editorial & Presentations", "about.expertise.7") }}</li>
+          <li>{{ $t("Research & Architecture", "about.expertise.8") }}</li>
           </ul>
           </div>
         </div>
@@ -200,6 +200,12 @@
 @media (min-width: 992px) {
   .about-expertise {
     margin-top: -60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .expertise-column {
+    padding-inline: 8px;
   }
 }
 
