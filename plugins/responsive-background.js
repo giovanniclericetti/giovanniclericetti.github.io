@@ -25,10 +25,12 @@ function update(el) {
     !window.matchMedia('(prefers-reduced-motion: reduce)').matches
       ? 64
       : 0
+  // Supersample desktop artwork so small lettering and cover details stay crisp.
+  const pixelRatio = Math.max(window.devicePixelRatio || 1, window.innerWidth >= 992 ? 2 : 1)
   const required = info
     ? Math.max(width, ((height + travel) * info.width) / info.height) *
-      (window.devicePixelRatio || 1)
-    : width
+      pixelRatio
+    : width * pixelRatio
   const url = imageVariant(src, options.fullResolution && window.innerWidth >= 992 ? undefined : required * 1.06).url
   if (entry.url === url) return
   entry.url = url
