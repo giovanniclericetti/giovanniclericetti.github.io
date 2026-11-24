@@ -12,7 +12,7 @@
               <HeaderIcon
                 bare
                 id-suffix="-accordion-6"
-                :size="30"
+                :size="34"
                 class="accordion-arrow"
                 :class="{ 'is-open': opened.accordion6 }"
               />
@@ -41,7 +41,7 @@
               <HeaderIcon
                 bare
                 id-suffix="-accordion-1"
-                :size="30"
+                :size="34"
                 class="accordion-arrow"
                 :class="{ 'is-open': opened.accordion1 }"
               />
@@ -97,7 +97,7 @@
               <HeaderIcon
                 bare
                 id-suffix="-accordion-2"
-                :size="30"
+                :size="34"
                 class="accordion-arrow"
                 :class="{ 'is-open': opened.accordion2 }"
               />
@@ -145,7 +145,7 @@
               <HeaderIcon
                 bare
                 id-suffix="-accordion-3"
-                :size="30"
+                :size="34"
                 class="accordion-arrow"
                 :class="{ 'is-open': opened.accordion3 }"
               />
@@ -200,7 +200,7 @@
               <HeaderIcon
                 bare
                 id-suffix="-accordion-4"
-                :size="30"
+                :size="34"
                 class="accordion-arrow"
                 :class="{ 'is-open': opened.accordion4 }"
               />
@@ -245,7 +245,7 @@
               <HeaderIcon
                 bare
                 id-suffix="-accordion-5"
-                :size="30"
+                :size="34"
                 class="accordion-arrow"
                 :class="{ 'is-open': opened.accordion5 }"
               />
