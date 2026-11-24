@@ -190,6 +190,9 @@
   .portfolio-shell .titleindex .name {
     font-size: 1.0625em;
   }
+  .portfolio-shell .index .homepage-intro .titleindex {
+    width: 83.333333%;
+  }
   .portfolio-shell .intro-line {
     white-space: normal;
   }
