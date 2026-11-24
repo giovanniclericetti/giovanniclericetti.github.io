@@ -9,10 +9,12 @@
             <b-col cols="auto" class=""> <h4 aria-level="2" class="gradient">{{ $t(" Professional Experience ") }}</h4> </b-col>
             <b-col class="text-right mr-2 ">
 
-              <b-icon :icon="!opened.accordion6 ? 'chevron-down' : 'chevron-up'"
-                      variant="thick"
-                      font-scale="2"
-                      style="color: #FF4466" />
+              <HeaderIcon
+                :gradient="false"
+                :size="30"
+                class="accordion-arrow"
+                :class="{ 'is-open': opened.accordion6 }"
+              />
             </b-col>
           </b-row>
         </b-card-header>
@@ -35,10 +37,12 @@
             <b-col class=""> <h4 aria-level="2" class="gradient">{{ $t(" Education ") }}</h4> </b-col>
             <b-col class="text-right mr-2 ">
 
-              <b-icon :icon="!opened.accordion1 ? 'chevron-down' : 'chevron-up'"
-                      variant="thick"
-                      font-scale="2"
-                      style="color: #FF4466" />
+              <HeaderIcon
+                :gradient="false"
+                :size="30"
+                class="accordion-arrow"
+                :class="{ 'is-open': opened.accordion1 }"
+              />
             </b-col>
           </b-row>
         </b-card-header>
@@ -88,10 +92,12 @@
             <b-col cols="auto" class=""> <h4 aria-level="2" class="gradient">{{ $t(" Exhibitions and Project Awards ") }}</h4> </b-col>
             <b-col class="text-right mr-2 ">
 
-              <b-icon :icon="!opened.accordion2 ? 'chevron-down' : 'chevron-up'"
-                      variant="thick"
-                      font-scale="2"
-                      style="color: #FF4466" />
+              <HeaderIcon
+                :gradient="false"
+                :size="30"
+                class="accordion-arrow"
+                :class="{ 'is-open': opened.accordion2 }"
+              />
             </b-col>
           </b-row>
         </b-card-header>
@@ -133,10 +139,12 @@
             <b-col cols="auto" class=""> <h4 aria-level="2" class="gradient">{{ $t(" Social Initiatives ") }}</h4> </b-col>
             <b-col class="text-right mr-2 ">
 
-              <b-icon :icon="!opened.accordion3 ? 'chevron-down' : 'chevron-up'"
-                      variant="thick"
-                      font-scale="2"
-                      style="color: #FF4466" />
+              <HeaderIcon
+                :gradient="false"
+                :size="30"
+                class="accordion-arrow"
+                :class="{ 'is-open': opened.accordion3 }"
+              />
             </b-col>
           </b-row>
         </b-card-header>
@@ -185,10 +193,12 @@
             <b-col cols="auto" class=""> <h4 aria-level="2" class="gradient">{{ $t(" Languages ") }}</h4> </b-col>
             <b-col class="text-right mr-2 ">
 
-              <b-icon :icon="!opened.accordion4 ? 'chevron-down' : 'chevron-up'"
-                      variant="thick"
-                      font-scale="2"
-                      style="color: #FF4466" />
+              <HeaderIcon
+                :gradient="false"
+                :size="30"
+                class="accordion-arrow"
+                :class="{ 'is-open': opened.accordion4 }"
+              />
             </b-col>
           </b-row>
         </b-card-header>
@@ -227,10 +237,12 @@
             <b-col cols="auto" class=""> <h4 aria-level="2" class="gradient">{{ $t(" Software and Tools ") }}</h4> </b-col>
             <b-col class="text-right mr-2 ">
 
-              <b-icon :icon="!opened.accordion5 ? 'chevron-down' : 'chevron-up'"
-                      variant="thick"
-                      font-scale="2"
-                      style="color: #FF4466" />
+              <HeaderIcon
+                :gradient="false"
+                :size="30"
+                class="accordion-arrow"
+                :class="{ 'is-open': opened.accordion5 }"
+              />
             </b-col>
           </b-row>
         </b-card-header>
@@ -350,5 +362,16 @@ export default {
 .accordion-trigger > :first-child { flex: 1; min-width: 0; max-width: none; padding: 0; }
 .accordion-trigger > :last-child { flex: 0 0 auto; width: auto; padding: 0 0 0 8px; margin-right: 0 !important; }
 .accordion-trigger h4 { text-align: left; margin-bottom: 0; white-space: normal; }
+.accordion-arrow {
+  display: block;
+  flex-shrink: 0;
+  color: #333;
+  transform: rotate(-90deg);
+  transition: transform 200ms ease;
+}
+.accordion-arrow.is-open { transform: rotate(90deg); }
+@media (prefers-reduced-motion: reduce) {
+  .accordion-arrow { transition: none; }
+}
 .accordion-trigger:focus-visible { outline: 2px solid #FF4466; outline-offset: 4px; }
 </style>
