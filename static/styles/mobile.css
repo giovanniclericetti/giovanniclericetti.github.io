@@ -191,6 +191,9 @@
   .portfolio-shell .project-intro .project-pills {
     margin-top: 12px;
   }
+  .portfolio-shell .project-intro .project-type-pill {
+    display: none;
+  }
   .portfolio-shell .project-intro .badge {
     margin-bottom: 8px !important;
   }
