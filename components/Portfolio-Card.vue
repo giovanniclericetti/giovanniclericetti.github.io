@@ -368,7 +368,7 @@ html[lang="it"] .projectcard .titlemob {
     height: auto;
     min-height: 0;
     margin-bottom: 24px;
-    background: #fff;
+    background: #ECE9E9;
   }
 
   .projectcard-link {
