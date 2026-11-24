@@ -230,6 +230,9 @@
   .portfolio-shell .index .homepage-intro .titleindex {
     width: 83.333333%;
   }
+  .portfolio-shell .index .homepage-intro .titleindex.italian-intro {
+    width: 100%;
+  }
   .portfolio-shell .intro-line {
     white-space: normal;
   }
