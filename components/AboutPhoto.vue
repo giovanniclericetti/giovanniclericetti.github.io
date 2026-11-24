@@ -79,13 +79,14 @@ export default {
 .aboutmephoto{
   border-radius: var(--radius-large, 35px);
   overflow: hidden;
-  height: 350px;
+  height: 280px;
 }
 
 .aboutmephoto img{
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 25%;
 }
 
 .bggradient{
