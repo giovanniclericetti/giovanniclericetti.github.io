@@ -131,7 +131,8 @@ export default {
   overflow: hidden;
 }
 .partner-visibility {
-  background: #fff;
+  --page-background: #fff;
+  background: var(--page-background);
 }
 .partner-visibility ::v-deep .subtitle {
   max-width: 85%;

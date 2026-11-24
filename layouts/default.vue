@@ -94,7 +94,8 @@ export default {
 
 
 body {
-  background-color: #F6F2F2;
+  --page-background: #F6F2F2;
+  background-color: var(--page-background);
 }
 
 ::selection {

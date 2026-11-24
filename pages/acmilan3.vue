@@ -143,7 +143,8 @@ export default {
   overflow: hidden;
 }
 .events-matchday {
-  background: #fff;
+  --page-background: #fff;
+  background: var(--page-background);
 }
 .events-matchday ::v-deep .subtitle {
   max-width: 100%;
