@@ -3,6 +3,7 @@
     <a href="#main-content" class="skip-link">{{ $t("Skip to content") }}</a>
     <main id="main-content" tabindex="-1"><Nuxt ref="page"/></main>
     <PortfolioCursor />
+    <BackToTop />
   </div>
 </template>
 
