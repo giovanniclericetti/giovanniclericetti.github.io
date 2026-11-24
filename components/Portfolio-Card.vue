@@ -357,12 +357,17 @@ html[lang="it"] .projectcard .titlemob {
   display: none !important;
 }
 
-/* Shared outlined card treatment; desktop keeps its varied image heights. */
+@media (min-width: 992px) {
+  /* Match the left inset: 4px row margin + 15px column padding. */
+  .projectcard .bio { margin-bottom: 19px !important; }
+  .projectcard .card-tags .pillshome { margin-bottom: 0 !important; }
+}
+
+@media (max-width: 991.98px) {
   .projectcard {
     height: auto;
     min-height: 0;
     margin-bottom: 24px;
-    border-radius: var(--radius-large, 16px);
     background: transparent;
     border: 1px solid #CFC5C5;
   }
@@ -445,39 +450,6 @@ html[lang="it"] .projectcard .titlemob {
     background: var(--color-primary);
     color: #fff;
     opacity: 1;
-  }
-
-@media (min-width: 992px) {
-  .projectcard {
-    --desktop-card-height: 450px;
-    min-height: var(--desktop-card-height);
-    margin-bottom: 32px;
-  }
-  .projectcard.card-extrasmall { --desktop-card-height: 300px; }
-  .projectcard.card-small { --desktop-card-height: 350px; }
-  .projectcard.card-large { --desktop-card-height: 500px; }
-  .projectcard.card-extralarge { --desktop-card-height: 550px; }
-  .projectcard.card-extraextralarge { --desktop-card-height: 620px; }
-
-  .projectcard-link {
-    display: flex;
-    flex-direction: column;
-    min-height: calc(var(--desktop-card-height) - 2px);
-  }
-
-  .projectcard .card-background {
-    flex: 1 0 160px;
-    min-height: 160px;
-    aspect-ratio: auto;
-  }
-
-  .projectcard .bio {
-    flex: 0 0 auto;
-  }
-
-  .projectcard .titlemob {
-    font-size: var(--card-title-size, 20px);
-    white-space: nowrap;
   }
 }
 
