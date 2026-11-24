@@ -14,8 +14,8 @@
       <span class="intro-line">on <strong>brand communication</strong> and <strong>commercial partnerships</strong>.</span>
     </h1>
     <h1 v-else class="titleindex italian-intro">
-      <span class="intro-line">Ciao! Sono Giovanni, <span class="name gradient">Visual Designer</span> nel Mondo</span>
-      <span class="intro-line">dello Sport. Collaboro con <span class="intro-link-word"><a class="hover-a-underline-animation" href="https://www.acmilan.com/">AC Milan</a>,</span> lavorando a progetti</span>
+      <span class="intro-line">Ciao! Sono Giovanni, <span class="name gradient">Visual Designer</span> nel Mondo<span class="d-lg-none"> dello Sport.</span></span>
+      <span class="intro-line"><span class="d-none d-lg-inline">dello Sport. </span><br class="d-lg-none">Collaboro con <span class="intro-link-word"><a class="hover-a-underline-animation" href="https://www.acmilan.com/">AC Milan</a>,</span> lavorando a progetti</span>
       <span class="intro-line">di <strong>Comunicazione Visiva</strong> e <strong>Partnership Commerciali</strong>.</span>
     </h1>
 
