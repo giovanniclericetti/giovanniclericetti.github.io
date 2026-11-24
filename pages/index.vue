@@ -40,6 +40,7 @@ export default {
 </script>
 
 <style >
+.index .homepage-intro strong { font-weight: 600; }
 .index .italian-intro { text-wrap: balance; }
 .intro-link-word { white-space: nowrap; }
 .titleindex { font-family: 'Bricolage Grotesque'; font-size: 32px; font-weight: 400; color: inherit; }
