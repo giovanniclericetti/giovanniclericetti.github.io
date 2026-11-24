@@ -1553,11 +1553,11 @@
   },
   {
     "src": "/images/social/giovanni-clericetti.jpg",
-    "bytes": 29590,
+    "bytes": 22228,
     "width": 1200,
-    "height": 630,
+    "height": 420,
     "format": "jpeg",
-    "sha256": "bae98e9d0f763a925bace955ddd3e7fe543fac79846d1f6160f16e788760664b"
+    "sha256": "d21db878e351c28c5cf3d960871937840eaab933ded45a4901a2d582d8524607"
   },
   {
     "src": "/app-icon-512.png",

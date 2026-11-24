@@ -24,7 +24,7 @@ export function portfolioSeo(path, language = 'en') {
     meta: [
       { hid: 'description', name: 'description', content: description },
       ...Object.entries({ title, description, image, url, type: 'website', site_name: 'Giovanni Clericetti' }).map(([key, content]) => ({ hid: `og:${key}`, property: `og:${key}`, content })),
-      ...(isPortfolioBanner ? Object.entries({ 'image:width': '1200', 'image:height': '630', 'image:type': 'image/jpeg', 'image:alt': 'Giovanni Clericetti' }).map(([key, content]) => ({ hid: `og:${key}`, property: `og:${key}`, content })) : []),
+      ...(isPortfolioBanner ? Object.entries({ 'image:width': '1200', 'image:height': '420', 'image:type': 'image/jpeg', 'image:alt': 'Giovanni Clericetti' }).map(([key, content]) => ({ hid: `og:${key}`, property: `og:${key}`, content })) : []),
       ...Object.entries({ card: 'summary_large_image', title, description, image }).map(([key, content]) => ({ hid: `twitter:${key}`, name: `twitter:${key}`, content })),
       ...(isPortfolioBanner ? [{ hid: 'twitter:image:alt', name: 'twitter:image:alt', content: 'Giovanni Clericetti' }] : []),
     ],
