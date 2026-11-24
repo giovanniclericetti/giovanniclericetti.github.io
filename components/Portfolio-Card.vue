@@ -368,7 +368,7 @@ html[lang="it"] .projectcard .titlemob {
     height: auto;
     min-height: 0;
     margin-bottom: 24px;
-    border-radius: 20px;
+    border-radius: 24px;
     background: transparent;
     border: 1px solid #CFC5C5;
   }
@@ -386,7 +386,7 @@ html[lang="it"] .projectcard .titlemob {
     height: auto;
     aspect-ratio: 1.53;
     margin-inline: 12px;
-    border-radius: 12px;
+    border-radius: 16px;
     overflow: hidden;
     transform: none;
   }
