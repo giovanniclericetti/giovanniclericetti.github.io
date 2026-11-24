@@ -10,7 +10,8 @@
             <b-col class="text-right mr-2 ">
 
               <HeaderIcon
-                :gradient="false"
+                bare
+                id-suffix="-accordion-6"
                 :size="30"
                 class="accordion-arrow"
                 :class="{ 'is-open': opened.accordion6 }"
@@ -38,7 +39,8 @@
             <b-col class="text-right mr-2 ">
 
               <HeaderIcon
-                :gradient="false"
+                bare
+                id-suffix="-accordion-1"
                 :size="30"
                 class="accordion-arrow"
                 :class="{ 'is-open': opened.accordion1 }"
@@ -93,7 +95,8 @@
             <b-col class="text-right mr-2 ">
 
               <HeaderIcon
-                :gradient="false"
+                bare
+                id-suffix="-accordion-2"
                 :size="30"
                 class="accordion-arrow"
                 :class="{ 'is-open': opened.accordion2 }"
@@ -140,7 +143,8 @@
             <b-col class="text-right mr-2 ">
 
               <HeaderIcon
-                :gradient="false"
+                bare
+                id-suffix="-accordion-3"
                 :size="30"
                 class="accordion-arrow"
                 :class="{ 'is-open': opened.accordion3 }"
@@ -194,7 +198,8 @@
             <b-col class="text-right mr-2 ">
 
               <HeaderIcon
-                :gradient="false"
+                bare
+                id-suffix="-accordion-4"
                 :size="30"
                 class="accordion-arrow"
                 :class="{ 'is-open': opened.accordion4 }"
@@ -238,7 +243,8 @@
             <b-col class="text-right mr-2 ">
 
               <HeaderIcon
-                :gradient="false"
+                bare
+                id-suffix="-accordion-5"
                 :size="30"
                 class="accordion-arrow"
                 :class="{ 'is-open': opened.accordion5 }"
@@ -365,7 +371,6 @@ export default {
 .accordion-arrow {
   display: block;
   flex-shrink: 0;
-  color: #333;
   transform: rotate(-90deg);
   transition: transform 200ms ease;
 }
