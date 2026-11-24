@@ -17,7 +17,7 @@ async function main() {
     fontfile: path.join(root, 'static/font/bricolage-grotesque-variable.ttf'),
     rgba: true,
   } }).extend({ top: 2, bottom: 2, left: 2, right: 2, background: '#ffffff00' })
-    .dilate(1).png().toBuffer()
+    .erode(1).png().toBuffer()
   await fs.mkdir(path.dirname(output), { recursive: true })
   await sharp(background).composite([{ input: name, gravity: 'centre' }])
     .jpeg({ quality: 92, mozjpeg: true }).toFile(output)
