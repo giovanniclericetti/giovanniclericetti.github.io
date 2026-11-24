@@ -368,7 +368,8 @@ html[lang="it"] .projectcard .titlemob {
   .projectcard-link { min-height: inherit; display: flex; align-items: flex-end; }
   .projectcard .bio {
     position: relative; width: 100%; max-width: none; margin: 0 !important;
-    padding: 64px 4px 12px; line-height: 1.45;
+    /* Left inset: 4px here + 15px column padding; match it below the pills. */
+    padding: 64px 4px 19px; line-height: 1.45;
     background: linear-gradient(transparent, rgba(0, 0, 0, .78));
     --color-secondary: white;
   }

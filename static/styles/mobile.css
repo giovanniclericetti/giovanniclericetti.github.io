@@ -85,7 +85,7 @@
     --radius-medium: 10px;
     --radius-large: 16px;
     --radius-footer: 20px;
-    --radius-pill: 6px;
+    --radius-pill: 999px;
   }
   .portfolio-shell .badge {
     --radius-medium: var(--radius-pill);
