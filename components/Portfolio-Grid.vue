@@ -355,24 +355,18 @@ export default {
       this.fitFrame = requestAnimationFrame(this.fitCardText)
     },
     fitCardText() {
-      // Italian titles and tags wrap at a readable size instead of shrinking.
-      if (this.$locale.state.language === 'it') {
-        const mobile = window.innerWidth < 992
-        this.$el.style.setProperty('--card-title-size', mobile ? '18px' : '20px')
-        this.$el.style.setProperty('--card-pill-size', mobile ? '12px' : '14px')
-        return
-      }
-      // Keep mobile titles fixed; fit the pills to one shared size across cards.
       const mobile = window.innerWidth < 992
+      const italian = this.$locale.state.language === 'it'
       let titleSize = mobile ? 18 : 20
-      let pillSize = mobile ? 12 : 14
+      // Keep tags readable; omit the designated tag only when the full row cannot fit.
+      this.$el.style.setProperty('--card-pill-size', mobile ? '12px' : '14px')
       const textWidth = (element) => {
         const range = document.createRange()
         range.selectNodeContents(element)
         return range.getBoundingClientRect().width
       }
       this.$el.querySelectorAll('.titlemob').forEach((title) => {
-        if (mobile || !title.getClientRects().length) return
+        if (mobile || italian || !title.getClientRects().length) return
         const width = textWidth(title)
         const size = parseFloat(getComputedStyle(title).fontSize)
         if (width) titleSize = Math.min(titleSize, size * (title.clientWidth - 2) / width)
@@ -382,19 +376,19 @@ export default {
         const style = getComputedStyle(row)
         const available = row.clientWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight) - 2
         const gap = parseFloat(style.columnGap) || 0
-        let fixed = gap * Math.max(0, row.querySelectorAll('.pillshome').length - 1)
-        let text = 0
-        let size = pillSize
-        row.querySelectorAll('.pillshome').forEach((pill) => {
+        const pills = Array.from(row.querySelectorAll('.pillshome'))
+        pills.forEach((pill) => pill.classList.remove('is-overflow-hidden'))
+        const required = pills.reduce((width, pill) => {
           const pillStyle = getComputedStyle(pill)
-          const width = textWidth(pill)
-          text += width
-          fixed += pill.getBoundingClientRect().width - width + parseFloat(pillStyle.marginLeft) + parseFloat(pillStyle.marginRight)
-          size = parseFloat(pillStyle.fontSize)
-        })
-        if (text) pillSize = Math.min(pillSize, size * (available - fixed) / text)
+          return width + pill.getBoundingClientRect().width +
+            (parseFloat(pillStyle.marginLeft) || 0) + (parseFloat(pillStyle.marginRight) || 0)
+        }, gap * Math.max(0, pills.length - 1))
+        if (required > available) {
+          const removable = pills[Number(row.dataset.overflowRemove)]
+          if (removable) removable.classList.add('is-overflow-hidden')
+        }
       })
-      for (const [property, size] of [['--card-title-size', titleSize], ['--card-pill-size', pillSize]]) {
+      for (const [property, size] of [['--card-title-size', titleSize]]) {
         const value = `${Math.max(1, Math.floor(size * 10) / 10)}px`
         if (this.$el.style.getPropertyValue(property) !== value) this.$el.style.setProperty(property, value)
       }

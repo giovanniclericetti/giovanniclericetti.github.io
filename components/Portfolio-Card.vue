@@ -27,7 +27,7 @@
             <p2 style="color: var(--color-secondary)"> {{ $t(bio) }} </p2>
           </b-col>
 
-          <b-col cols="12" class="card-tags">
+          <b-col cols="12" class="card-tags" :data-overflow-remove="overflowPillIndex">
             <b-badge pill class="pillshome mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ $t(pill1, `${translationId}.pill1`) }}</b-badge>
             <b-badge pill class="pillshome mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ $t(pill2, `${translationId}.pill2`) }}</b-badge>
             <b-badge v-if="pill3" pill class="pillshome terzapill mx-0 mr-1 my-2 my-md-3 p-1 px-2"> {{ $t(pill3, `${translationId}.pill3`) }}</b-badge>
@@ -43,6 +43,13 @@
 export default {
   computed: {
     translationId() { return this.to.replace(/^\/|\/$/g, '') },
+    overflowPillIndex() {
+      if (this.translationId === 'audiovisualidentity') return 0
+      if (this.translationId === 'sourdata') {
+        return [this.pill1, this.pill2, this.pill3].indexOf('Speculative')
+      }
+      return this.pill3 ? 2 : 1
+    },
   },
   name: "PortfolioCard",
   data() {
@@ -346,9 +353,8 @@ html[lang="it"] .projectcard .titlemob {
   text-wrap: balance;
   line-height: 1.25;
 }
-html[lang="it"] .projectcard .card-tags {
-  flex-wrap: wrap;
-  row-gap: 4px;
+.projectcard .card-tags .is-overflow-hidden {
+  display: none !important;
 }
 
 @media (min-width: 992px) {
