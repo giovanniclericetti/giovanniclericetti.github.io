@@ -84,6 +84,8 @@
   }
   .portfolio-shell {
     --mobile-gutter: clamp(16px, 4.5vw, 24px);
+    --intro-font-size: clamp(20px, 2.25vw, 32px);
+    --intro-top-space: 48px;
     --radius-subtle: 3px;
     --radius-small: 8px;
     --radius-control: 8px;
@@ -92,6 +94,30 @@
     --radius-large: 16px;
     --radius-footer: 20px;
     --radius-pill: 999px;
+  }
+  .portfolio-shell .index > .mobile-nav-slot,
+  .portfolio-shell .about > .container > .mobile-nav-slot {
+    margin-bottom: 0 !important;
+  }
+  .portfolio-shell .index .homepage-intro {
+    padding-top: var(--intro-top-space);
+  }
+  .portfolio-shell .about .about-sections {
+    margin-top: 0;
+    padding-top: var(--intro-top-space);
+  }
+  .portfolio-shell main .index .homepage-intro .titleindex,
+  .portfolio-shell main .about .about-hero .titleindex {
+    margin-block: 0;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: var(--intro-font-size);
+    font-weight: 400;
+    line-height: calc(var(--intro-font-size) * 1.4);
+  }
+  .portfolio-shell .index .homepage-intro .titleindex .name,
+  .portfolio-shell .about .about-hero .titleindex .name {
+    font-size: 1.0625em;
+    line-height: inherit;
   }
   .portfolio-shell .badge {
     --radius-medium: var(--radius-pill);
@@ -170,6 +196,10 @@
   }
 }
 @media (max-width: 767.98px) {
+  .portfolio-shell {
+    --intro-font-size: clamp(20px, 5.2vw, 24px);
+    --intro-top-space: 40px;
+  }
   .portfolio-shell .container {
     padding-left: max(var(--mobile-gutter), env(safe-area-inset-left));
     padding-right: max(var(--mobile-gutter), env(safe-area-inset-right));
@@ -182,7 +212,7 @@
     line-height: 1.3;
   }
   .portfolio-shell .index .homepage-intro {
-    padding-block: 40px 36px;
+    padding-block: var(--intro-top-space) 36px;
   }
   .portfolio-shell .index .titleindex,
   .portfolio-shell .about .titleindex {
@@ -203,7 +233,6 @@
   }
   .portfolio-shell .about-sections {
     gap: 36px;
-    margin-top: 40px;
   }
   .portfolio-shell .about .about-reveal {
     opacity: 1;
