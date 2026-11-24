@@ -205,7 +205,7 @@ export default {
   height: 300px;
   background-size: contain;
   background-position: center;
-  border-radius: 20px;
+  border-radius: var(--radius-medium, 20px);
   overflow: hidden;
 
   img{

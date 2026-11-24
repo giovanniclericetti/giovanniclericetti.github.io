@@ -23,7 +23,7 @@ export default {
 .footer {
   background-color: #ECE9E9;
   --color-primary: #000;
-  border-radius: 60px 60px 0 0;
+  border-radius: var(--radius-footer, 60px) var(--radius-footer, 60px) 0 0;
   padding: 48px 64px;
   color: #000;
   font-family: 'Bricolage Grotesque', sans-serif;

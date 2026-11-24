@@ -50,7 +50,7 @@
       </b-col>
 
       <b-col cols="4" class="p-0" style="height: 130px;">
-        <div class="ml-3 d-flex justify-content-center align-items-center bg-white pt-2" style="text-align: center; height: 130px; overflow: hidden; border-radius: 35px;"> <a href="mailto:giovanni.clericetti@gmail.com" > <img v-if="$locale.state.language === 'en'" style="width: 85%" alt="Mail me" src="~static/images/aboutme/letswork.svg" /><span v-else class="work-together-label">{{ $t("Mail me") }}<img src="~static/images/aboutme/mail-icon.svg" alt="" /></span> </a> </div>
+        <div class="ml-3 d-flex justify-content-center align-items-center bg-white pt-2" style="text-align: center; height: 130px; overflow: hidden; border-radius: var(--radius-large, 35px);"> <a href="mailto:giovanni.clericetti@gmail.com" > <img v-if="$locale.state.language === 'en'" style="width: 85%" alt="Mail me" src="~static/images/aboutme/letswork.svg" /><span v-else class="work-together-label">{{ $t("Mail me") }}<img src="~static/images/aboutme/mail-icon.svg" alt="" /></span> </a> </div>
       </b-col>
 
     </b-row>
@@ -77,7 +77,7 @@ export default {
 
 
 .aboutmephoto{
-  border-radius: 35px;
+  border-radius: var(--radius-large, 35px);
   overflow: hidden;
   height: 350px;
 }
@@ -94,14 +94,14 @@ export default {
 
 
 .socialboxsm {
-  border-radius: 35px;
+  border-radius: var(--radius-large, 35px);
   overflow: hidden;
 }
 
 .boxcvmobile{
   object-fit: contain;
   overflow: hidden;
-  border-radius: 35px;
+  border-radius: var(--radius-large, 35px);
 }
 
 .socialboxsm img {

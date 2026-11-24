@@ -43,7 +43,7 @@ export default {
 .tile {
   min-width: 0;
   overflow: hidden;
-  border-radius: 35px;
+  border-radius: var(--radius-large, 35px);
   background: white;
 }
 

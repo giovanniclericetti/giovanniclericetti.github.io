@@ -120,7 +120,7 @@ export default {
 .work-experience-logo-container:focus-visible {
   outline: 2px solid var(--color-primary);
   outline-offset: 4px;
-  border-radius: 4px;
+  border-radius: var(--radius-subtle, 4px);
 }
 
 .work-experience-logo {

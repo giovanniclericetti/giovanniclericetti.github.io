@@ -94,7 +94,7 @@ h6{
 }
 
 .pillshome {
-  border-radius: 20px;
+  border-radius: var(--radius-medium, 20px);
   background-color: var(--color-primary);
   opacity: 1;
   border: none;
@@ -112,7 +112,7 @@ h6{
 }
 
 .projectcard {
-  border-radius: 35px;
+  border-radius: var(--radius-large, 35px);
   position: relative;
   margin-bottom: 32px;
   overflow: visible;
@@ -259,7 +259,7 @@ h6{
 @media (max-width: 991.98px) {
   .projectcard {
     margin-bottom: 16px;
-    border-radius: 35px;
+    border-radius: var(--radius-large, 35px);
   }
 
   .titlemob{
@@ -284,7 +284,7 @@ h6{
   z-index: 3;
   padding: 4px 14px;
   border: 1.5px solid #f6f2f2;
-  border-radius: 999px;
+  border-radius: var(--radius-pill, 999px);
   background: var(--category-pill-color, var(--color-primary));
   color: #fff;
   font-family: 'Bricolage Grotesque', sans-serif;

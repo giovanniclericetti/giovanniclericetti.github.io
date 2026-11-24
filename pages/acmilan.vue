@@ -130,7 +130,7 @@ export default {
   height: auto !important;
   background-size: contain;
   background-position: center center;
-  border-radius: 20px;
+  border-radius: var(--radius-medium, 20px);
   overflow: hidden;
 
 

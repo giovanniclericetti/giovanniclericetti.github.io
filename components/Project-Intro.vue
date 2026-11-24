@@ -70,7 +70,7 @@ export default {
 }
 
 .pillsmob {
-  border-radius: 20px;
+  border-radius: var(--radius-medium, 20px);
   background-color: var(--color-primary);
   border: none;
   font-family: 'Bricolage Grotesque';

@@ -97,7 +97,7 @@ export default {
 }
 
 .pillshome {
-  border-radius: 20px;
+  border-radius: var(--radius-medium, 20px);
   background-color: var(--color-primary);
   opacity: 1;
   border: none;
@@ -110,7 +110,7 @@ export default {
 .nextcard {
   display: block;
   text-decoration: none;
-  border-radius: 20px;
+  border-radius: var(--radius-medium, 20px);
   overflow: hidden;
   width: 60%;
   background-position: center;
@@ -146,7 +146,7 @@ export default {
 @media (max-width: 768px) {
 
 .nextcard {
-  border-radius: 20px;
+  border-radius: var(--radius-medium, 20px);
   height: 170px;
   width: 100%;
 }

@@ -117,7 +117,7 @@ export default {
   justify-content: center;
   min-width: 0;
   height: 105px;
-  border-radius: 35px;
+  border-radius: var(--radius-large, 35px);
   background: white;
   overflow: hidden;
   text-decoration: none;
@@ -179,16 +179,16 @@ export default {
   background-position: center;
   height: 230+105+20px;
   overflow: hidden;
-  border-radius: 35px;
+  border-radius: var(--radius-large, 35px);
 }
 .socialbox {
-  border-radius: 35px;
+  border-radius: var(--radius-large, 35px);
   overflow: hidden;
   margin-left: 20px;
   height: 105px;
 }
 .socialbox-large {
-  border-radius: 35px;
+  border-radius: var(--radius-large, 35px);
   overflow: hidden;
   margin-left: 20px;
   width: 130%;
@@ -214,7 +214,7 @@ a { color: black; }
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
   overflow: hidden;
-  border-radius: 35px;
+  border-radius: var(--radius-large, 35px);
 }
 .zoombvs:hover { transform: scale(1.03); }
 #song,

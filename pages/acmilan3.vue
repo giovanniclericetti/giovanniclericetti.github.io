@@ -139,7 +139,7 @@ export default {
 
 .events-matchday .cover-parallax {
   display: block;
-  border-radius: 20px;
+  border-radius: var(--radius-medium, 20px);
   overflow: hidden;
 }
 .events-matchday {
@@ -194,7 +194,7 @@ export default {
   overflow: hidden;
   background-size: cover;
   background-position: center;
-  border-radius: 20px;
+  border-radius: var(--radius-medium, 20px);
 }
 /* Let the aerial photo fill the remaining height of the right column. */
 @media (min-width: 768px) {
@@ -284,7 +284,7 @@ export default {
   .gallery-column > .gallery-image {
     height: auto;
     aspect-ratio: var(--image-ratio);
-    border-radius: 20px;
+    border-radius: var(--radius-medium, 20px);
   }
 }
 

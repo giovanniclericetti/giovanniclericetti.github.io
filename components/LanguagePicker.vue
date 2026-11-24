@@ -59,7 +59,7 @@ summary {
   min-height: 44px;
   padding: 10px 16px;
   border: 1px solid #c5c1c1;
-  border-radius: 16px;
+  border-radius: var(--radius-menu, 16px);
   list-style: none;
   cursor: pointer;
   font-size: 16px;
@@ -78,7 +78,7 @@ summary:hover,
   min-width: 174px;
   padding: 6px;
   border: 1px solid #e2dada;
-  border-radius: 20px;
+  border-radius: var(--radius-medium, 20px);
   background: #f6f2f2;
   box-shadow: 0 8px 24px rgba(45, 27, 27, .12);
 }
@@ -91,7 +91,7 @@ summary:hover,
   min-height: 44px;
   padding: 10px 12px;
   border: 0;
-  border-radius: 14px;
+  border-radius: var(--radius-control, 14px);
   background: transparent;
   color: inherit;
   font: inherit;

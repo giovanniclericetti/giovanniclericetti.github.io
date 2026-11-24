@@ -227,7 +227,7 @@ p2 {
   width: 100%;
   background-size: cover;
   height: 600px;
-  border-radius: 20px;
+  border-radius: var(--radius-medium, 20px);
   background-color: white;
   transform-origin: center;
   transform: scale(1.01);
@@ -236,11 +236,11 @@ p2 {
 
 .imgbox{
   overflow: hidden;
-  border-radius: 20px;
+  border-radius: var(--radius-medium, 20px);
 }
 
 .pills {
-  border-radius: 20px;
+  border-radius: var(--radius-medium, 20px);
   background-color: var(--color-primary);
   border: none;
   font-family: 'Bricolage Grotesque';
@@ -292,7 +292,7 @@ p2 {
   width: 100%;
   height: 400px;
   background-size: cover;
-  border-radius: 20px;
+  border-radius: var(--radius-medium, 20px);
   background-color: white;
 }
 
@@ -301,7 +301,7 @@ p2 {
   height: 300px;
   background-size: contain;
   background-position: 50%;
-  border-radius: 20px;
+  border-radius: var(--radius-medium, 20px);
   overflow: hidden;
 }
 
@@ -335,7 +335,7 @@ p2 {
 .projectbox {
   background-color: white;
   max-height: 600px;
-  border-radius: 20px;
+  border-radius: var(--radius-medium, 20px);
   overflow: hidden;
 }
 
@@ -380,7 +380,7 @@ h3{
     width: 100%;
 height: 300px;
     background-size: cover;
-    border-radius: 20px;
+    border-radius: var(--radius-medium, 20px);
     background-repeat: no-repeat;
     background-color: white;
     background-position: center;
@@ -389,7 +389,7 @@ height: 300px;
 
   .imgproject{
     background-size: cover; /* QUI PER IMG*/
-    border-radius: 20px;
+    border-radius: var(--radius-medium, 20px);
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
@@ -412,16 +412,16 @@ height: 300px;
 
 
   .imgbox{
-    border-radius: 20px;
+    border-radius: var(--radius-medium, 20px);
   }
 
   .projectbox {
     max-height: 600px;
-    border-radius: 20px;
+    border-radius: var(--radius-medium, 20px);
   }
 
   .pills {
-    border-radius: 20px;
+    border-radius: var(--radius-medium, 20px);
     background-color: var(--color-primary);
     border: none;
     font-family: 'Bricolage Grotesque';

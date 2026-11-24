@@ -27,7 +27,7 @@ export default {
 .projectbox {
   background-color: white;
   max-height: 600px;
-  border-radius: 20px;
+  border-radius: var(--radius-medium, 20px);
   overflow: hidden;
 }
 
@@ -39,7 +39,7 @@ export default {
   }
 
   .projectbox {
-    border-radius: 20px;
+    border-radius: var(--radius-medium, 20px);
   }
 }
 </style>

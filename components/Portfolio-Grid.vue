@@ -427,7 +427,7 @@ export default {
   content: '';
   position: absolute;
   inset: 32px 0 0;
-  border-radius: 35px;
+  border-radius: var(--radius-large, 35px);
   background: linear-gradient(to bottom, rgba(200, 200, 200, 0.5), rgba(200, 200, 200, 0));
 }
 
@@ -449,7 +449,7 @@ export default {
 
 .slider {
   background-color: #ECE9E9;
-  border-radius: 100px;
+  border-radius: var(--radius-pill, 100px);
   width: max-content;
 }
 
@@ -457,7 +457,7 @@ export default {
   border: none;
   background-color: #ECE9E9;
   cursor: pointer;
-  border-radius: 100px;
+  border-radius: var(--radius-pill, 100px);
   padding-left: 20px;
   padding-right: 20px;
 }

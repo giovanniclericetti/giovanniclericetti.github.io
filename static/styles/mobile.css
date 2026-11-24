@@ -78,9 +78,26 @@
 @media (max-width: 991.98px) {
   .portfolio-shell {
     --mobile-gutter: clamp(16px, 4.5vw, 24px);
+    --radius-subtle: 3px;
+    --radius-small: 8px;
+    --radius-control: 8px;
+    --radius-menu: 10px;
+    --radius-medium: 10px;
+    --radius-large: 16px;
+    --radius-footer: 20px;
+    --radius-pill: 6px;
+  }
+  .portfolio-shell .badge {
+    --radius-medium: var(--radius-pill);
+  }
+  .portfolio-shell .skip-link {
+    border-radius: var(--radius-small);
+  }
+  .portfolio-shell .header-icon > rect {
+    rx: 30px;
   }
   .portfolio-shell main .footer {
-    border-radius: 32px 32px 0 0;
+    border-radius: var(--radius-footer) var(--radius-footer) 0 0;
     padding-bottom: max(24px, env(safe-area-inset-bottom));
   }
   .portfolio-shell main .footer a {

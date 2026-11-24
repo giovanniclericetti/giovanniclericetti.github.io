@@ -18,7 +18,7 @@ export default {
 <style>
 
 .projectcover{
-  border-radius: 20px;
+  border-radius: var(--radius-medium, 20px);
   overflow: hidden;
   max-height: 500px;
 }
@@ -32,7 +32,7 @@ export default {
 @media (max-width: 768px) {
 
   .projectcover{
-    border-radius: 20px;
+    border-radius: var(--radius-medium, 20px);
     height: 250px;
   }
 
