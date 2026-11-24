@@ -31,6 +31,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '~/plugins/locale.js',
+    '~/plugins/mobile-intro.js',
     '~/plugins/responsive-background.js',
     { src: '~/plugins/image-guard.client.js', mode: 'client' },
     { src: '~/plugins/parallax.client.js', mode: 'client' },

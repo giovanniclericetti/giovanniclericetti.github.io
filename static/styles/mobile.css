@@ -183,12 +183,17 @@
   .portfolio-shell .about .titleindex {
     width: 100%;
     font-size: clamp(20px, 5.2vw, 24px);
-    line-height: 1.4;
+    line-height: clamp(28px, 7.28vw, 33.6px);
     text-align: left;
     text-wrap: pretty;
   }
   .portfolio-shell .titleindex .name {
     font-size: 1.0625em;
+    line-height: inherit;
+  }
+  .portfolio-shell .titleindex .about-intro-line,
+  .portfolio-shell .titleindex .intro-line {
+    line-height: inherit;
   }
   .portfolio-shell .intro-line {
     white-space: normal;

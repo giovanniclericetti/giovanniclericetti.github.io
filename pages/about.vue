@@ -9,12 +9,12 @@
     <div class="about-sections">
     <div class="about-hero">
 
-      <h1 v-if="$locale.state.language === 'en'" class="titleindex english-intro">
+      <h1 v-if="$locale.state.language === 'en'" v-mobile-intro="$locale.state.language" class="titleindex english-intro">
         <span class="about-intro-line">My background at <a class="name gradient about-inline-link" href="https://www.polimi.it/">Polimi</a> and my experience with <a class="name gradient about-inline-link intro-link-word" href="https://www.acmilan.com/">AC Milan</a></span>
         <span class="about-intro-line">have shaped my design mindset, combining a flexible approach,</span>
         <span class="about-intro-line">creativity and visual sensitivity across different contexts.</span>
       </h1>
-      <h1 v-else class="titleindex">
+      <h1 v-else v-mobile-intro="$locale.state.language" class="titleindex">
         <span class="about-intro-line">Il percorso di studi al <a class="name gradient about-inline-link" href="https://www.polimi.it/">Polimi</a> e l’esperienza con <a class="name gradient about-inline-link intro-link-word" href="https://www.acmilan.com/">AC Milan</a> hanno</span>
         <span class="about-intro-line">dato forma al mio modo di progettare, che unisce metodo, creatività</span>
         <span class="about-intro-line">e sensibilità visiva per rispondere alle esigenze di contesti diversi.</span>
