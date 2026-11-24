@@ -11,12 +11,12 @@
     <h1 v-if="$locale.state.language === 'en'" class="titleindex">
       <span class="intro-line">{{ $t("Hey! I'm Giovanni, a ") }}<span class="name gradient">{{ $t("Visual Designer") }}</span>{{ $t(" working in the") }}</span>
       <span class="intro-line">{{ $t("sports industry. I currently work with ") }}<a class="hover-a-underline-animation" href="https://www.acmilan.com/">AC Milan</a>{{ $t(", focusing") }}</span>
-      <span class="intro-line">{{ $t("on brand communication and commercial partnerships.") }}</span>
+      <span class="intro-line">on <strong>brand communication</strong> and <strong>commercial partnerships</strong>.</span>
     </h1>
     <h1 v-else class="titleindex italian-intro">
       <span class="intro-line">Ciao! Sono Giovanni, <span class="name gradient">Visual Designer</span> nel Mondo</span>
       <span class="intro-line">dello Sport. Collaboro con <span class="intro-link-word"><a class="hover-a-underline-animation" href="https://www.acmilan.com/">AC Milan</a>,</span> lavorando a progetti</span>
-      <span class="intro-line">di Comunicazione Visiva e Partnership Commerciali.</span>
+      <span class="intro-line">di <strong>Comunicazione Visiva</strong> e <strong>Partnership Commerciali</strong>.</span>
     </h1>
 
   </div>
