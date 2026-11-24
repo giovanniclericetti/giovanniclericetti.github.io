@@ -115,7 +115,7 @@ export default {
 
 
 @media (max-width: 767.98px) {
-  .aboutmephoto { height: auto; aspect-ratio: 1 / 1; }
+  .aboutmephoto { height: 280px; aspect-ratio: auto; }
   .socialboxsm a { display: flex; align-items: center; justify-content: center; min-height: 48px; }
 }
 
