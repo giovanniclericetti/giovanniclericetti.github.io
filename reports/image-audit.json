@@ -1552,6 +1552,14 @@
     "sha256": "1ce3d7ac3919bf6f0a33e2821323cd3388f8fa46fe9c0bef85384046b035ef9a"
   },
   {
+    "src": "/images/social/giovanni-clericetti.jpg",
+    "bytes": 29590,
+    "width": 1200,
+    "height": 630,
+    "format": "jpeg",
+    "sha256": "bae98e9d0f763a925bace955ddd3e7fe543fac79846d1f6160f16e788760664b"
+  },
+  {
     "src": "/app-icon-512.png",
     "bytes": 20067,
     "width": 512,
