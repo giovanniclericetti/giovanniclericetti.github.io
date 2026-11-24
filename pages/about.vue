@@ -15,9 +15,9 @@
         <span class="about-intro-line">creativity and visual sensitivity across different contexts.</span>
       </h1>
       <h1 v-else class="titleindex">
-        <span class="about-intro-line">Il percorso di studi al <a class="name gradient about-inline-link" href="https://www.polimi.it/">Polimi</a> e l’esperienza con <a class="name gradient about-inline-link intro-link-word" href="https://www.acmilan.com/">AC Milan</a> hanno dato forma</span>
-        <span class="about-intro-line">al mio modo di progettare, che unisce metodo, creatività e sensibilità</span>
-        <span class="about-intro-line">visiva per rispondere alle esigenze di contesti diversi.</span>
+        <span class="about-intro-line">Il percorso di studi al <a class="name gradient about-inline-link" href="https://www.polimi.it/">Polimi</a> e l’esperienza con <a class="name gradient about-inline-link intro-link-word" href="https://www.acmilan.com/">AC Milan</a> hanno</span>
+        <span class="about-intro-line">dato forma al mio modo di progettare, che unisce metodo, creatività</span>
+        <span class="about-intro-line">e sensibilità visiva per rispondere alle esigenze di contesti diversi.</span>
       </h1>
 
     </div>
