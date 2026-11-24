@@ -364,23 +364,92 @@ html[lang="it"] .projectcard .titlemob {
 }
 
 @media (max-width: 991.98px) {
-  .projectcard { height: auto; min-height: 340px; margin-bottom: 24px; }
-  .projectcard-link { min-height: inherit; display: flex; align-items: flex-end; }
-  .projectcard .bio {
-    position: relative; width: 100%; max-width: none; margin: 0 !important;
-    /* Left inset: 4px here + 15px column padding; match it below the pills. */
-    padding: 64px 4px 19px; line-height: 1.45;
-    background: linear-gradient(transparent, rgba(0, 0, 0, .78));
-    --color-secondary: white;
+  .projectcard {
+    height: auto;
+    min-height: 0;
+    margin-bottom: 24px;
+    background: #fff;
   }
-  .projectcard .titlemob { font-size: 18px; line-height: 1.3; white-space: normal; overflow-wrap: anywhere; margin-bottom: 8px; }
-  .projectcard p2 { font-size: 14px; line-height: 1.45; }
-  .projectcard .card-tags { flex-wrap: nowrap; gap: 4px; padding-top: 12px; }
-  .projectcard .card-tags .pillshome { font-size: var(--card-pill-size, 12px); line-height: 1.2; padding: 4px 6px !important; margin: 0 !important; opacity: 1; }
-  .projectcard .card-background { transform: none; }
-}
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .projectcard { min-height: 400px; }
+
+  .projectcard-link {
+    height: auto;
+    display: block;
+    padding-top: 12px;
+  }
+
+  .projectcard .card-background {
+    position: relative;
+    inset: auto;
+    width: calc(100% - 24px);
+    height: auto;
+    aspect-ratio: 1.53;
+    margin-inline: 12px;
+    border-radius: var(--radius-medium, 10px);
+    overflow: hidden;
+    transform: none;
+  }
+
+  .projectcard:hover .card-background {
+    transform: none;
+  }
+
+  .projectcard .card-background .imgproject {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    transform: none;
+  }
+
+  .projectcard .bio {
+    position: relative;
+    width: 100%;
+    max-width: none;
+    margin: 0 !important;
+    /* 4px plus the column's 15px gives equal 19px left and bottom insets. */
+    padding: 14px 4px 19px;
+    line-height: 1.45;
+    background: none;
+    --color-secondary: #222;
+  }
+
+  .projectcard .titlemob {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25;
+    white-space: normal;
+    overflow-wrap: normal;
+    margin-bottom: 8px;
+    text-shadow: none;
+  }
+
+  .projectcard .card-description {
+    text-shadow: none;
+  }
+
+  .projectcard p2 {
+    font-size: 14px;
+    line-height: 1.45;
+    text-wrap: pretty;
+  }
+
+  .projectcard .card-tags {
+    flex-wrap: nowrap;
+    gap: 4px;
+    padding-top: 16px;
+  }
+
+  .projectcard .card-tags .pillshome {
+    font-size: var(--card-pill-size, 12px);
+    line-height: 1.2;
+    padding: 4px 8px !important;
+    margin: 0 !important;
+    border-radius: 999px;
+    background: var(--color-primary);
+    color: #fff;
+    opacity: 1;
+  }
 }
 
 /* These portrait artworks place the subject at the top, above reserved copy space. */
