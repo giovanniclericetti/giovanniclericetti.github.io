@@ -76,6 +76,12 @@
   }
 }
 @media (max-width: 991.98px) {
+  .portfolio-shell *,
+  .portfolio-shell *::before,
+  .portfolio-shell *::after {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
   .portfolio-shell {
     --mobile-gutter: clamp(16px, 4.5vw, 24px);
     --radius-subtle: 3px;
@@ -130,7 +136,6 @@
     inset: 0;
     z-index: -1;
     border-bottom: 2px solid var(--color-primary, #ff6e60);
-    box-shadow: 0 3px 10px rgba(34, 34, 34, 0.07);
     background: #fff;
     pointer-events: none;
   }
